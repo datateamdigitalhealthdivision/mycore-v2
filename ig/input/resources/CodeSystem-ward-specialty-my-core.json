@@ -1,0 +1,199 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ward-specialty-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemWardSpecialty (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/ward-specialty-my-core</tt><p>Appointment cancellation reason</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/ward-specialty-my-core",
+  "name": "CodeSystemWardSpecialtyMyCore",
+  "title": "CodeSystemWardSpecialty (MY Core)",
+  "status": "active",
+  "date": "2023-03-08T08:22:01.7613407+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Appointment cancellation reason",
+  "compositional": false,
+  "content": "complete",
+  "count": 33,
+  "concept": [
+    {
+      "code": "01",
+      "display": "Medicine",
+      "definition": "Medicine"
+    },
+    {
+      "code": "18",
+      "display": "Surgery",
+      "definition": "Surgery"
+    },
+    {
+      "code": "33",
+      "display": "Obstetrics & Gynaecology",
+      "definition": "Obstetrics & Gynaecology"
+    },
+    {
+      "code": "39",
+      "display": "Paediatrics",
+      "definition": "Paediatrics"
+    },
+    {
+      "code": "58",
+      "display": "Orthopaedics",
+      "definition": "Orthopaedics"
+    },
+    {
+      "code": "68",
+      "display": "Ophthalmology",
+      "definition": "Ophthalmology"
+    },
+    {
+      "code": "77",
+      "display": "Otorhinolaryngology",
+      "definition": "Otorhinolaryngology"
+    },
+    {
+      "code": "83",
+      "display": "Psychiatry",
+      "definition": "Psychiatry"
+    },
+    {
+      "code": "92",
+      "display": "Rehabilitation Medicine",
+      "definition": "Rehabilitation Medicine"
+    },
+    {
+      "code": "94",
+      "display": "Nuclear Medicine",
+      "definition": "Nuclear Medicine"
+    },
+    {
+      "code": "96",
+      "display": "Radiotherapy/Clinical Oncology",
+      "definition": "Radiotherapy/Clinical Oncology"
+    },
+    {
+      "code": "104",
+      "display": "Emergency Medicine",
+      "definition": "Emergency Medicine"
+    },
+    {
+      "code": "106",
+      "display": "Sports Medicine",
+      "definition": "Sports Medicine"
+    },
+    {
+      "code": "108",
+      "display": "Anaesthesiology",
+      "definition": "Anaesthesiology"
+    },
+    {
+      "code": "116",
+      "display": "Pathology",
+      "definition": "Pathology"
+    },
+    {
+      "code": "121",
+      "display": "Transfusion Medicine",
+      "definition": "Transfusion Medicine"
+    },
+    {
+      "code": "123",
+      "display": "Radiology",
+      "definition": "Radiology"
+    },
+    {
+      "code": "135",
+      "display": "Forensic Medicine",
+      "definition": "Forensic Medicine"
+    },
+    {
+      "code": "141",
+      "display": "Multi Disciplines",
+      "definition": "Multi Disciplines"
+    },
+    {
+      "code": "145",
+      "display": "Family Medicine",
+      "definition": "Family Medicine"
+    },
+    {
+      "code": "147",
+      "display": "Public Health",
+      "definition": "Public Health"
+    },
+    {
+      "code": "175",
+      "display": "Special Care Dentistry",
+      "definition": "Special Care Dentistry"
+    },
+    {
+      "code": "177",
+      "display": "Forensic Odontology",
+      "definition": "Forensic Odontology"
+    },
+    {
+      "code": "179",
+      "display": "Oral Pathology & Oral Medicine",
+      "definition": "Oral Pathology & Oral Medicine"
+    },
+    {
+      "code": "181",
+      "display": "Oral Maxillofacial Surgery",
+      "definition": "Oral Maxillofacial Surgery"
+    },
+    {
+      "code": "183",
+      "display": "Paediatric Dentistry",
+      "definition": "Paediatric Dentistry"
+    },
+    {
+      "code": "185",
+      "display": "Orthodontics",
+      "definition": "Orthodontics"
+    },
+    {
+      "code": "187",
+      "display": "Dental Public Health",
+      "definition": "Dental Public Health"
+    },
+    {
+      "code": "189",
+      "display": "Periodontology",
+      "definition": "Periodontology"
+    },
+    {
+      "code": "191",
+      "display": "Restorative Dentistry",
+      "definition": "Restorative Dentistry"
+    },
+    {
+      "code": "193",
+      "display": "Endodontics",
+      "definition": "Endodontics"
+    },
+    {
+      "code": "195",
+      "display": "Oral Maxillofacial Imaging",
+      "definition": "Oral Maxillofacial Imaging"
+    },
+    {
+      "code": "197",
+      "display": "Prosthodontics",
+      "definition": "Prosthodontics"
+    }
+  ],
+  "version": "2.0.0",
+  "experimental": false,
+  "caseSensitive": true
+}

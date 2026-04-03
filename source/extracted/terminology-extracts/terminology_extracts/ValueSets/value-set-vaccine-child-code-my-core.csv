@@ -1,0 +1,9 @@
+code,display,system,include_type,valueset_url,valueset_name
+J07AN01000P4001XX,BCG Vaccine Freeze-Dried Injection,http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/vaccine-child-code-my-core,ValueSetVaccineChildCodeMyCore
+J07BC01000P4001a,Hepatitis B 10mcg Vaccine (Paed),http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/vaccine-child-code-my-core,ValueSetVaccineChildCodeMyCore
+J07CA09963P3002,DTaP-IPV-HB-Hib Vaccine,http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/vaccine-child-code-my-core,ValueSetVaccineChildCodeMyCore
+J07BA02000P3001,Japanese Encephalitis Vaccine 1 mL,http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/vaccine-child-code-my-core,ValueSetVaccineChildCodeMyCore
+J07BD52963P4001XX,"Measles, Mumps and Rubella Vaccine",http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/vaccine-child-code-my-core,ValueSetVaccineChildCodeMyCore
+J07BD01000P4001XX,Measle's Vaccine (Live Attenuated),http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/vaccine-child-code-my-core,ValueSetVaccineChildCodeMyCore
+J07AL01000P3001a,Pneumococcal Vaccine (Polyvalent 13),http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/vaccine-child-code-my-core,ValueSetVaccineChildCodeMyCore
+J07AL01000P3001XX,Pneumococcal Vaccine (Polyvalent - 23),http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/vaccine-child-code-my-core,ValueSetVaccineChildCodeMyCore

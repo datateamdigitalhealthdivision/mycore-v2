@@ -1,0 +1,92 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Condition-my-core",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2023-10-02T05:54:11.1630499+00:00"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Enter you narrative here</div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/StructureDefinition/Condition-my-core",
+  "version": "1.0.0",
+  "name": "ConditionMyCore",
+  "title": "Condition (MY Core)",
+  "status": "active",
+  "date": "2023-10-02T05:48:48+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "description": "This profile represents the constraints applied to the Condition resource by MY Core FHIR Implementation Guide and describes the minimum expectations for the Patient resource when used in the MY Core composition or in one of the referred resources.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Condition",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Condition",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Condition.extension:audit",
+        "path": "Condition.extension",
+        "sliceName": "audit",
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://fhir.hie.moh.gov.my/StructureDefinition/audit-my-core"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "Condition.category",
+        "path": "Condition.category",
+        "min": 1,
+        "max": "1",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/condition-category-my-core"
+        }
+      },
+      {
+        "id": "Condition.code.coding.code",
+        "path": "Condition.code.coding.code",
+        "min": 1
+      },
+      {
+        "id": "Condition.code.coding.display",
+        "path": "Condition.code.coding.display",
+        "min": 1
+      },
+      {
+        "id": "Condition.code.text",
+        "path": "Condition.code.text",
+        "min": 1
+      },
+      {
+        "id": "Condition.note.author[x]",
+        "path": "Condition.note.author[x]",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Practitioner",
+              "http://hl7.org/fhir/StructureDefinition/Patient",
+              "http://hl7.org/fhir/StructureDefinition/RelatedPerson",
+              "http://hl7.org/fhir/StructureDefinition/Organization",
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"
+            ],
+            "aggregation": [
+              "referenced"
+            ]
+          },
+          {
+            "code": "string"
+          }
+        ]
+      }
+    ]
+  }
+}

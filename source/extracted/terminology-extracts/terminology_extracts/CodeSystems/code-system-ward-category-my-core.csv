@@ -1,0 +1,6 @@
+code,display,definition,system_url,system_name
+00,No Information,No Information,http://fhir.hie.moh.gov.my/CodeSystem/ward-class-my-core,CodeSystemWardClassMyCore
+01,Male,Male,http://fhir.hie.moh.gov.my/CodeSystem/ward-class-my-core,CodeSystemWardClassMyCore
+02,Female,Female,http://fhir.hie.moh.gov.my/CodeSystem/ward-class-my-core,CodeSystemWardClassMyCore
+03,Children,Children,http://fhir.hie.moh.gov.my/CodeSystem/ward-class-my-core,CodeSystemWardClassMyCore
+04,Mix,Mix,http://fhir.hie.moh.gov.my/CodeSystem/ward-class-my-core,CodeSystemWardClassMyCore

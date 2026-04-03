@@ -1,0 +1,350 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-child-06",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse"
+        ]
+    },
+    "identifier": {
+        "system": "http://fhir.hie.moh.gov.my/sid/template-section",
+        "value": "qr-child-06"
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-child-06",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/3a1fe467-cad5-4ec9-83f8-fd6dfb46470c"
+    },
+    "authored": "2023-04-27T00:20:14.414Z",
+    "item": [
+        {
+            "linkId": "child-6",
+            "text": "Rawatan Postnatal",
+            "item": [
+                {
+                    "linkId": "child-6.1",
+                    "text": "Tarikh",
+                    "answer": [
+                        {
+                            "valueDateTime": "2023-04-27T00:49:56.227Z"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-6.2",
+                    "text": "Umur semasa lawatn",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-6.3",
+                    "text": "Berat badan",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-6.4",
+                    "text": "Panjang",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 90
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-6.5",
+                    "text": "Lilitan kepala",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-6.6",
+                    "text": "Tindakbalas",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+                                "code": "01",
+                                "display": "Aktif"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-6.7",
+                    "text": "Warna bayi",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+                                "code": "02",
+                                "display": "Biru"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-6.8",
+                    "text": "Wajah dismorfik (Con: Down's Syndrome)",
+                    "answer": [
+                        {
+                            "valueString": "Down's Syndrome"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-6.9",
+                    "text": "Jaundis",
+                    "answer": [
+                        {
+                            "valueString": "paras kepala"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-6.10",
+                    "text": "Keadaan kulit",
+                    "answer": [
+                        {
+                            "valueString": "good"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-6.11",
+                    "text": "Penilaian penyusuan",
+                    "answer": [
+                        {
+                            "valueString": "bagus"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-6.12",
+                    "text": "Buang air besar",
+                    "answer": [
+                        {
+                            "valueString": "ada"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-6.13",
+                    "text": "Buang air kecil",
+                    "answer": [
+                        {
+                            "valueString": "ada"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-6.14",
+                    "text": "Kadar pernafasan (normal 40 - 60/min)",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 50
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-6.15",
+                    "text": "Kadar denyutan jantung (normal 120 - 160/min)",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 130
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-6.16",
+                    "text": "Suhu badan (normal suhu ketiak 36.5 - 37.0°C)",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 37
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-6.17",
+                    "text": "Kepala (Rupabentuk/ Ubun-ubun/ Bengkak/ benjolan/ caput",
+                    "answer": [
+                        {
+                            "valueString": "caput"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-6.18",
+                    "text": "Leher - bengkak/ ketulan",
+                    "answer": [
+                        {
+                            "valueString": "ketulan"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-6.19",
+                    "text": "Mata (contoh: juling, katarak, lelehan dll)",
+                    "answer": [
+                        {
+                            "valueString": "juling"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-6.20",
+                    "text": "Mulut (contoh: sumbing, gigi, oral thrush dll)",
+                    "answer": [
+                        {
+                            "valueString": "sumbing"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-6.21",
+                    "text": "Telinga (bentuk, lelehan dll)",
+                    "answer": [
+                        {
+                            "valueString": "capang"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-6.22",
+                    "text": "Sistem respiratori Bentuk dada, bunyi pernafasan, grunting dll)",
+                    "answer": [
+                        {
+                            "valueString": "normal"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-6.23",
+                    "text": "Sistem Kardiovaskular (bunyi luar biasa dll)",
+                    "answer": [
+                        {
+                            "valueString": "murmur heard post S2"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-6.24",
+                    "text": "Abdomen (distented, tali pusat, benjolan dll)",
+                    "answer": [
+                        {
+                            "valueString": "distended"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-6.25",
+                    "text": "Alat kelamin (rupa bentuk, testis, lelehan)",
+                    "answer": [
+                        {
+                            "valueString": "kecik sangat (thats what she said)"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-6.26",
+                    "text": "Tulang (tulang belakang, tangan, kaki, jari, hip)",
+                    "answer": [
+                        {
+                            "valueString": "tulang lembut lagi"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-6.27",
+                    "text": "Sistem neurologi",
+                    "item": [
+                        {
+                            "linkId": "child-6.27.1",
+                            "text": "Reflex",
+                            "answer": [
+                                {
+                                    "valueString": "normal"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "child-6.27.2",
+                            "text": "Muscle tone",
+                            "answer": [
+                                {
+                                    "valueString": "good"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-6.28",
+                    "text": "Perkara yang membimbangkan ibu bapa/penjaga",
+                    "answer": [
+                        {
+                            "valueString": "mak bapak risau baby belum lagi boleh kerja cari makan sendiri and berdikari"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-6.29",
+                    "text": "Bimbingan awal diberikan",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-6.30",
+                    "text": "Catatan",
+                    "answer": [
+                        {
+                            "valueString": "refer above"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "child-6",
+            "text": "Rawatan Postnatal",
+            "item": [
+                {
+                    "linkId": "child-6.30",
+                    "text": "Catatan",
+                    "answer": [
+                        {
+                            "valueString": "sama as above"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

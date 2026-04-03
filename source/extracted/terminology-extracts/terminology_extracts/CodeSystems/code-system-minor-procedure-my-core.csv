@@ -1,0 +1,11 @@
+code,display,definition,system_url,system_name
+00,Other,,http://fhir.hie.moh.gov.my/CodeSystem/minor-procedure-my-core,CodeSystemMinorProcedureMyCore
+01,Suture To Off (STO),,http://fhir.hie.moh.gov.my/CodeSystem/minor-procedure-my-core,CodeSystemMinorProcedureMyCore
+02,Toilet & Suture (T&S),,http://fhir.hie.moh.gov.my/CodeSystem/minor-procedure-my-core,CodeSystemMinorProcedureMyCore
+03,Incision & Drainage (I&D),,http://fhir.hie.moh.gov.my/CodeSystem/minor-procedure-my-core,CodeSystemMinorProcedureMyCore
+04,Catheter Bladder Drainage (CBD),,http://fhir.hie.moh.gov.my/CodeSystem/minor-procedure-my-core,CodeSystemMinorProcedureMyCore
+05,Ryle's Tube,,http://fhir.hie.moh.gov.my/CodeSystem/minor-procedure-my-core,CodeSystemMinorProcedureMyCore
+06,Nail Avulsion,,http://fhir.hie.moh.gov.my/CodeSystem/minor-procedure-my-core,CodeSystemMinorProcedureMyCore
+07,Removal Foreign Body,,http://fhir.hie.moh.gov.my/CodeSystem/minor-procedure-my-core,CodeSystemMinorProcedureMyCore
+08,Circumcision,,http://fhir.hie.moh.gov.my/CodeSystem/minor-procedure-my-core,CodeSystemMinorProcedureMyCore
+09,Resuscitation,,http://fhir.hie.moh.gov.my/CodeSystem/minor-procedure-my-core,CodeSystemMinorProcedureMyCore

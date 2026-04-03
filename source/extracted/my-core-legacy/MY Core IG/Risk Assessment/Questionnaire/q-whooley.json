@@ -1,0 +1,145 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-whooley",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-whooley",
+  "title": "Whooley Questions",
+  "status": "active",
+  "date": "2023-08-30T01:44:59.0418083+00:00",
+  "description": "A no response to both questions (negative test) essentially rules out depression, and a yes response to one or both questions (positive test) identifies virtually all persons who may benefit from further evaluation.",
+  "useContext": [
+    {
+      "code": {
+        "system": "http://hl7.org/fhir/CodeSystem/usage-context-type",
+        "code": "workflow",
+        "display": "Workflow Setting"
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "self-assessment",
+            "display": "Self-Assessment"
+          }
+        ]
+      }
+    }
+  ],
+  "purpose": "The Whooley Questions are used as a screening tool for major depressive disorder",
+  "code": [
+    {
+      "system": "http://snomed.info/sct",
+      "code": "450752004",
+      "display": "Whooley Depression Screen"
+    }
+  ],
+  "item": [
+    {
+      "linkId": "whooley.1",
+      "prefix": "1",
+      "text": "During the past month, have you often been bothered by feeling down, depressed or hopeless?",
+      "type": "choice",
+      "required": true,
+      "answerOption": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 0.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://snomed.info/sct",
+            "code": "373067005",
+            "display": "No"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 1.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://snomed.info/sct",
+            "code": "373066001",
+            "display": "Yes"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "whooley.2",
+      "prefix": "2",
+      "text": "During the past month, have you often been bothered by little interest or pleasure in doing things?",
+      "type": "choice",
+      "required": true,
+      "answerOption": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 0.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://snomed.info/sct",
+            "code": "373067005",
+            "display": "No"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 1.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://snomed.info/sct",
+            "code": "373066001",
+            "display": "Yes"
+          }
+        }
+      ]
+    },
+    {
+      "id": "score",
+      "linkId": "whooley.3",
+      "prefix": "3",
+      "text": "Whooley Total Score",
+      "type": "integer",
+      "required": true,
+      "readOnly": true
+    },
+    {
+      "id": "outcome",
+      "linkId": "whooley.4",
+      "code": [
+        {
+          "code": "outcome"
+        }
+      ],
+      "prefix": "4",
+      "text": "Outcome Whooley",
+      "type": "choice",
+      "required": true,
+      "readOnly": true,
+      "answerOption": [
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/outcome-whooley-my-core",
+            "code": "a1",
+            "display": "Positive Test"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/outcome-whooley-my-core",
+            "code": "a2",
+            "display": "Negative Test"
+          }
+        }
+      ]
+    }
+  ]
+}

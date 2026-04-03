@@ -1,0 +1,3 @@
+code,display,definition,system_url,system_name
+dental-alert,Dental Alert,Dental Alert,http://fhir.hie.moh.gov.my/CodeSystem/condition-category-my-core,CodeSystemConditionCategoryMyCore
+death-certificate,Death Certificate,Death Certificate,http://fhir.hie.moh.gov.my/CodeSystem/condition-category-my-core,CodeSystemConditionCategoryMyCore

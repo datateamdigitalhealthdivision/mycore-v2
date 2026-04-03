@@ -1,0 +1,77 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Location-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Location-my-core",
+  "version": "2.0.0",
+  "name": "LocationMyCore",
+  "title": "Location (MY Core)",
+  "status": "active",
+  "experimental": false,
+  "date": "2023-09-21T01:23:50.8726413+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "description": "Defines basic constraints and extensions on the Location resource for use with other MY Core resources",
+  "copyright": "Used by permission of HL7 International, all rights reserved Creative Commons License",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Location",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Location",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Location.extension:audit",
+        "path": "Location.extension",
+        "sliceName": "audit",
+        "short": "Record audit on individual who recorded and updated the data",
+        "definition": "Record audit on individual who recorded and updated the data",
+        "comment": "Record audit on individual who recorded and updated the data",
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/audit-my-core"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "Location.status",
+        "path": "Location.status",
+        "min": 1
+      },
+      {
+        "id": "Location.name",
+        "path": "Location.name",
+        "min": 1
+      },
+      {
+        "id": "Location.type",
+        "path": "Location.type",
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/location-type-my-core"
+        }
+      },
+      {
+        "id": "Location.address",
+        "path": "Location.address",
+        "type": [
+          {
+            "code": "Address",
+            "profile": [
+              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Address-my-core"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Location.managingOrganization",
+        "path": "Location.managingOrganization",
+        "min": 1
+      }
+    ]
+  }
+}

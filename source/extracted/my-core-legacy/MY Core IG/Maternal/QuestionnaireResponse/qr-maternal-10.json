@@ -1,0 +1,126 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "id": "qr-maternal-10",
+  "meta": {
+      "source": "http://provider.hie.moh.gov.my",
+      "profile": [
+          "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+      ]
+  },
+  "identifier": {
+      "system": "http://fhir.hie.moh.gov.my/sid/template-section",
+      "value": "qr-maternal-10"
+  },
+  "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-10",
+  "status": "completed",
+  "subject": {
+      "reference": "Patient/3a1fe467-cad5-4ec9-83f8-fd6dfb46470c"
+  },
+  "authored": "2023-04-27T00:20:14.414Z",
+    "author":{
+        "reference":"PractitionerRole/08a661a4-2855-47e9-8e2e-cbb43f785ecf/_history/3"
+    },
+  "item": [
+      {
+          "linkId": "maternal-10.1",
+          "text": "Pemantauan Paras Gula Dalam Darah",
+          "item": [
+              {
+                  "linkId": "maternal-10.1.1",
+                  "text": "Tarikh",
+                  "answer": [
+                      {
+                          "valueDateTime": "2023-06-07T05:12:37.828Z"
+                      }
+                  ]
+              },
+              {
+                  "linkId": "maternal-10.1.2",
+                  "text": "Pre Breakfast",
+                  "answer": [
+                      {
+                          "valueQuantity": {
+                              "value": 7.2
+                          }
+                      }
+                  ]
+              },
+              {
+                  "linkId": "maternal-10.1.3",
+                  "text": "2 Hours Post Breakfast",
+                  "answer": [
+                      {
+                          "valueQuantity": {
+                              "value": 6.1
+                          }
+                      }
+                  ]
+              },
+              {
+                  "linkId": "maternal-10.1.4",
+                  "text": "Pre Lunch",
+                  "answer": [
+                      {
+                          "valueQuantity": {
+                              "value": 6.2
+                          }
+                      }
+                  ]
+              },
+              {
+                  "linkId": "maternal-10.1.5",
+                  "text": "2 Hours Post Lunch",
+                  "answer": [
+                      {
+                          "valueQuantity": {
+                              "value": 5
+                          }
+                      }
+                  ]
+              },
+              {
+                  "linkId": "maternal- 10.1.6",
+                  "text": "Pre Dinner",
+                  "answer": [
+                      {
+                          "valueQuantity": {
+                              "value": 4.9
+                          }
+                      }
+                  ]
+              },
+              {
+                  "linkId": "maternal- 10.1.7",
+                  "text": "2 Hours Post Dinner",
+                  "answer": [
+                      {
+                          "valueQuantity": {
+                              "value": 3.2
+                          }
+                      }
+                  ]
+              },
+              {
+                  "linkId": "maternal-10.1.8",
+                  "text": "Pre Bed",
+                  "answer": [
+                      {
+                          "valueQuantity": {
+                              "value": 2
+                          }
+                      }
+                  ]
+              },
+              {
+                  "linkId": "maternal-10.1.6",
+                  "text": "Catatan",
+                  "answer": [
+                      {
+                          "valueString": "enter string here"
+                      }
+                  ]
+              }
+          ]
+      }
+  ]
+}

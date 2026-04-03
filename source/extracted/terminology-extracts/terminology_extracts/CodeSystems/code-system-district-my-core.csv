@@ -1,0 +1,158 @@
+code,display,definition,system_url,system_name
+0,No Information,No Information,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0101,Batu Pahat,Batu Pahat,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0102,Johor Bahru,Johor Bahru,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0103,Kluang,Kluang,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0104,Kota Tinggi,Kota Tinggi,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0105,Mersing,Mersing,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0106,Muar,Muar,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0107,Pontian,Pontian,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0108,Segamat,Segamat,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0121,Kulai,Kulai,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0122,Tangkak,Tangkak,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0201,Baling,Baling,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0202,Bandar Baharu,Bandar Baharu,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0203,Kota Setar,Kota Setar,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0204,Kuala Muda,Kuala Muda,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0205,Kubang Pasu,Kubang Pasu,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0206,Kulim,Kulim,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0207,Langkawi,Langkawi,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0208,Padang Terap,Padang Terap,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0209,Sik,Sik,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0210,Yan,Yan,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0211,Pendang,Pendang,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0212,Pokok Sena,Pokok Sena,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0301,Bachok,Bachok,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0302,Kota Bharu,Kota Bharu,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0303,Machang,Machang,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0304,Pasir Mas,Pasir Mas,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0305,Pasir Puteh,Pasir Puteh,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0306,Tanah Merah,Tanah Merah,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0307,Tumpat,Tumpat,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0308,Gua Musang,Gua Musang,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0309,Kuala Krai,Kuala Krai,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0310,Jeli,Jeli,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0401,Alor Gajah,Alor Gajah,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0402,Jasin,Jasin,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0403,Melaka Tengah,Melaka Tengah,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0501,Jelebu,Jelebu,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0502,Kuala Pilah,Kuala Pilah,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0503,Port Dickson,Port Dickson,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0504,Rembau,Rembau,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0505,Seremban,Seremban,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0506,Tampin,Tampin,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0507,Jempol,Jempol,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0601,Bentong,Bentong,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0602,Cameron Highlands,Cameron Highlands,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0603,Jerantut,Jerantut,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0604,Kuantan,Kuantan,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0605,Lipis,Lipis,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0606,Pekan,Pekan,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0607,Raub,Raub,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0608,Temerloh,Temerloh,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0609,Rompin,Rompin,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0610,Maran,Maran,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0611,Bera,Bera,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0701,Seberang Perai Tengah,Seberang Perai Tengah,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0702,Seberang Perai Utara,Seberang Perai Utara,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0703,Seberang Perai Selatan,Seberang Perai Selatan,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0704,Timur Laut,Timur Laut,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0705,Barat Daya,Barat Daya,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0801,Batang Padang,Batang Padang,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0802,Manjung,Manjung,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0803,Kinta,Kinta,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0804,Kerian,Kerian,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0805,Kuala Kangsar,Kuala Kangsar,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0806,Larut & Matang,Larut & Matang,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0807,Hilir Perak,Hilir Perak,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0808,Ulu Perak,Ulu Perak,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0809,Perak Tengah,Perak Tengah,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0810,Kampar,Kampar,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0811,Muallim,Muallim,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+0901,Perlis,Perlis,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1001,Gombak,Gombak,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1002,Klang,Klang,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1003,Kuala Langat,Kuala Langat,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1004,Kuala Selangor,Kuala Selangor,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1005,Petaling,Petaling,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1006,Sabak Bernam,Sabak Bernam,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1007,Sepang,Sepang,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1008,Ulu Langat,Ulu Langat,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1009,Ulu Selangor,Ulu Selangor,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1101,Besut,Besut,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1102,Dungun,Dungun,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1103,Kemaman,Kemaman,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1104,Kuala Terengganu,Kuala Terengganu,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1105,Marang,Marang,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1106,Hulu Terengganu,Hulu Terengganu,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1107,Setiu,Setiu,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1108,Kuala Nerus,Kuala Nerus,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1201,Tawau,Tawau,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1202,Lahad Datu,Lahad Datu,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1203,Semporna,Semporna,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1204,Sandakan,Sandakan,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1205,Kinabatangan,Kinabatangan,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1206,Beluran,Beluran,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1207,Kota Kinabalu,Kota Kinabalu,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1208,Ranau,Ranau,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1209,Kota Belud,Kota Belud,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1210,Tuaran,Tuaran,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1211,Penampang,Penampang,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1212,Papar,Papar,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1213,Kudat,Kudat,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1214,Kota Marudu,Kota Marudu,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1215,Pitas,Pitas,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1216,Beaufort,Beaufort,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1217,Kuala Penyu,Kuala Penyu,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1218,Sipitang,Sipitang,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1219,Tenom,Tenom,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1220,Nabawan,Nabawan,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1221,Keningau,Keningau,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1222,Tambunan,Tambunan,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1223,Kunak,Kunak,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1224,Tongod,Tongod,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1225,Putatan,Putatan,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1226,Telupid,Telupid,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1301,Kuching,Kuching,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1302,Bau,Bau,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1303,Lundu,Lundu,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1304,Samarahan,Samarahan,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1305,Serian,Serian,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1306,Simunjan,Simunjan,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1307,Sri Aman,Sri Aman,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1308,Lubok Antu,Lubok Antu,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1309,Betong,Betong,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1310,Saratok,Saratok,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1311,Sarikei,Sarikei,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1312,Maradong,Maradong,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1313,Daro,Daro,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1314,Julau,Julau,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1315,Sibu,Sibu,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1316,Dalat,Dalat,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1317,Mukah,Mukah,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1318,Kanowit,Kanowit,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1319,Bintulu,Bintulu,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1320,Tatau,Tatau,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1321,Kapit,Kapit,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1322,Song,Song,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1323,Belaga,Belaga,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1324,Miri,Miri,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1325,Marudi,Marudi,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1326,Limbang,Limbang,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1327,Lawas,Lawas,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1328,Matu,Matu,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1329,Asajaya,Asajaya,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1330,Pakan,Pakan,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1331,Selangau,Selangau,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1332,Tebedu,Tebedu,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1333,Pusa,Pusa,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1334,Kabong,Kabong,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1335,Tanjong Manis,Tanjong Manis,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1336,Sebauh,Sebauh,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1337,Bukit Mabong,Bukit Mabong,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1338,Subis,Subis,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1340,Telang Usan,Telang Usan,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1401,W.P. Kuala Lumpur,W.P. Kuala Lumpur,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1501,W.P. Labuan,W.P. Labuan,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+1601,W.P. Putrajaya,W.P. Putrajaya,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore
+KOD_NEGERI+DAERAH,NAMA_DAERAH,NAMA_DAERAH,http://fhir.hie.moh.gov.my/CodeSystem/district-my-core,CodeSystemDistrictMyCore

@@ -1,0 +1,69 @@
+code,display,system,include_type,valueset_url,valueset_name
+00,SWD (Shortwave Diarthermy),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+01,ShockWT (Shockwave Therapy),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+02,US (Ultrasound Therapy),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+03,IT (Interferential Therapy),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+04,TENS/EMS,http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+05,Laser (Laser Therapy),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+06,Myofeedback / Biofeedback (EMG),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+07,Exs-A (Exercise - Active),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+08,Exs-P (Exercise - Passive),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+09,Exs-R (Exercise - Resisted),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+10,GE (Group Exs),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+11,CTE (Circuit Training Exs),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+12,AMB (Ambulation),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+13,FA (Functional Activities),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+14,BAT (Balance Training),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+15,G (Gait Training),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+16,TBE (Therapeutic Ball Exs),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+17,APNE (Ante Post Natal Exs),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+18,PFME (Pelvic Floor Mus. Exs),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+19,Mat Activity,http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+20,ME (Mechanical Exs),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+21,Bicycle (Ergometer / Recumbent Bike),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+22,T (Treadmill),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+23,Motorised cycle,http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+24,STH (Suspension Therapy),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+25,Tilt table Activity,http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+26,Cryotherapy by Air,http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+27,C (Cryocuff),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+28,IP (Ice Pack),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+29,HP (Hotpack),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+30,WB (Wax Bath),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+31,IRR (Infrared Therapy),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+32,CT (Cervical Traction),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+33,LTR (Lumbar Traction),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+34,CPM (Cont. Pass. Motion),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+35,Supportive,http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+36,Compression,http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+37,Taping,http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+38,BE (Breathing Exs),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+39,ACBT (Act. Cycle Breath. Tech),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+40,PD (Postural Drainage),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+41,PVS (Percus / Vibrat / Shaking),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+42,Mechanical Chest Percussion,http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+43,SUCTION,http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+44,IMT (Inspiratory Muscle Training),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+45,IS (Incentive Spirometer),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+46,Use of Adjuncts In Respiratory Care,http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+47,JM (Joint Mobilization),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+48,MT (McKenzie / Maitland Technique),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+49,NT (Neurodevelopmental Therapy),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+50,A (Acupressure),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+51,Icing and Brushing,http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+52,STM (Soft Tissue Manipulation),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+53,MFR (Myofascial Release),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+54,SR (Sensory Reeducation),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+55,SHER (Special Hand Exercise Regime),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+56,Bladder / Bowel Training,http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+57,LCS (Lumbar / Cervical Stabilisation),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+58,MET (Muscle Energy Technique),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+59,PNF (Proprioceptive Neuromuscular Fasilitation),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+60,Mobilization with Movement,http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+61,ViR (Virtual Reality),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+62,VR (Vestibular Rehabilitation),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+63,PE (Patient Education),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+64,CFE (Carer / Family Education),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+65,HEP (Home Exercise Programme),http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+66,Teleconsultation,http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore
+67,LAIN-LAIN,http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core,ValueSetClinicPhysiotherapyMyCore

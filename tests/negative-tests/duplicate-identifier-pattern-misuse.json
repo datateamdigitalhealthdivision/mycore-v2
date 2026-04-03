@@ -1,0 +1,28 @@
+{
+  "resourceType": "Patient",
+  "id": "invalid-patient-duplicate-identifier",
+  "meta": {
+    "profile": [
+      "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Patient-my-core"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://id.kkmhub.moh.gov.my/sid/my-kad-no",
+      "value": "900101105432"
+    },
+    {
+      "system": "https://id.kkmhub.moh.gov.my/sid/my-kad-no",
+      "value": "900101105432"
+    }
+  ],
+  "name": [
+    {
+      "family": "Duplicate",
+      "given": [
+        "Identifier"
+      ]
+    }
+  ],
+  "gender": "female"
+}

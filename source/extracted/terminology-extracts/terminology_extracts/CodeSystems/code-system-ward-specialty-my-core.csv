@@ -1,0 +1,34 @@
+code,display,definition,system_url,system_name
+01,Medicine,Medicine,http://fhir.hie.moh.gov.my/CodeSystem/ward-specialty-my-core,CodeSystemWardSpecialtyMyCore
+18,Surgery,Surgery,http://fhir.hie.moh.gov.my/CodeSystem/ward-specialty-my-core,CodeSystemWardSpecialtyMyCore
+33,Obstetrics & Gynaecology,Obstetrics & Gynaecology,http://fhir.hie.moh.gov.my/CodeSystem/ward-specialty-my-core,CodeSystemWardSpecialtyMyCore
+39,Paediatrics,Paediatrics,http://fhir.hie.moh.gov.my/CodeSystem/ward-specialty-my-core,CodeSystemWardSpecialtyMyCore
+58,Orthopaedics,Orthopaedics,http://fhir.hie.moh.gov.my/CodeSystem/ward-specialty-my-core,CodeSystemWardSpecialtyMyCore
+68,Ophthalmology,Ophthalmology,http://fhir.hie.moh.gov.my/CodeSystem/ward-specialty-my-core,CodeSystemWardSpecialtyMyCore
+77,Otorhinolaryngology,Otorhinolaryngology,http://fhir.hie.moh.gov.my/CodeSystem/ward-specialty-my-core,CodeSystemWardSpecialtyMyCore
+83,Psychiatry,Psychiatry,http://fhir.hie.moh.gov.my/CodeSystem/ward-specialty-my-core,CodeSystemWardSpecialtyMyCore
+92,Rehabilitation Medicine,Rehabilitation Medicine,http://fhir.hie.moh.gov.my/CodeSystem/ward-specialty-my-core,CodeSystemWardSpecialtyMyCore
+94,Nuclear Medicine,Nuclear Medicine,http://fhir.hie.moh.gov.my/CodeSystem/ward-specialty-my-core,CodeSystemWardSpecialtyMyCore
+96,Radiotherapy/Clinical Oncology,Radiotherapy/Clinical Oncology,http://fhir.hie.moh.gov.my/CodeSystem/ward-specialty-my-core,CodeSystemWardSpecialtyMyCore
+104,Emergency Medicine,Emergency Medicine,http://fhir.hie.moh.gov.my/CodeSystem/ward-specialty-my-core,CodeSystemWardSpecialtyMyCore
+106,Sports Medicine,Sports Medicine,http://fhir.hie.moh.gov.my/CodeSystem/ward-specialty-my-core,CodeSystemWardSpecialtyMyCore
+108,Anaesthesiology,Anaesthesiology,http://fhir.hie.moh.gov.my/CodeSystem/ward-specialty-my-core,CodeSystemWardSpecialtyMyCore
+116,Pathology,Pathology,http://fhir.hie.moh.gov.my/CodeSystem/ward-specialty-my-core,CodeSystemWardSpecialtyMyCore
+121,Transfusion Medicine,Transfusion Medicine,http://fhir.hie.moh.gov.my/CodeSystem/ward-specialty-my-core,CodeSystemWardSpecialtyMyCore
+123,Radiology,Radiology,http://fhir.hie.moh.gov.my/CodeSystem/ward-specialty-my-core,CodeSystemWardSpecialtyMyCore
+135,Forensic Medicine,Forensic Medicine,http://fhir.hie.moh.gov.my/CodeSystem/ward-specialty-my-core,CodeSystemWardSpecialtyMyCore
+141,Multi Disciplines,Multi Disciplines,http://fhir.hie.moh.gov.my/CodeSystem/ward-specialty-my-core,CodeSystemWardSpecialtyMyCore
+145,Family Medicine,Family Medicine,http://fhir.hie.moh.gov.my/CodeSystem/ward-specialty-my-core,CodeSystemWardSpecialtyMyCore
+147,Public Health,Public Health,http://fhir.hie.moh.gov.my/CodeSystem/ward-specialty-my-core,CodeSystemWardSpecialtyMyCore
+175,Special Care Dentistry,Special Care Dentistry,http://fhir.hie.moh.gov.my/CodeSystem/ward-specialty-my-core,CodeSystemWardSpecialtyMyCore
+177,Forensic Odontology,Forensic Odontology,http://fhir.hie.moh.gov.my/CodeSystem/ward-specialty-my-core,CodeSystemWardSpecialtyMyCore
+179,Oral Pathology & Oral Medicine,Oral Pathology & Oral Medicine,http://fhir.hie.moh.gov.my/CodeSystem/ward-specialty-my-core,CodeSystemWardSpecialtyMyCore
+181,Oral Maxillofacial Surgery,Oral Maxillofacial Surgery,http://fhir.hie.moh.gov.my/CodeSystem/ward-specialty-my-core,CodeSystemWardSpecialtyMyCore
+183,Paediatric Dentistry,Paediatric Dentistry,http://fhir.hie.moh.gov.my/CodeSystem/ward-specialty-my-core,CodeSystemWardSpecialtyMyCore
+185,Orthodontics,Orthodontics,http://fhir.hie.moh.gov.my/CodeSystem/ward-specialty-my-core,CodeSystemWardSpecialtyMyCore
+187,Dental Public Health,Dental Public Health,http://fhir.hie.moh.gov.my/CodeSystem/ward-specialty-my-core,CodeSystemWardSpecialtyMyCore
+189,Periodontology,Periodontology,http://fhir.hie.moh.gov.my/CodeSystem/ward-specialty-my-core,CodeSystemWardSpecialtyMyCore
+191,Restorative Dentistry,Restorative Dentistry,http://fhir.hie.moh.gov.my/CodeSystem/ward-specialty-my-core,CodeSystemWardSpecialtyMyCore
+193,Endodontics,Endodontics,http://fhir.hie.moh.gov.my/CodeSystem/ward-specialty-my-core,CodeSystemWardSpecialtyMyCore
+195,Oral Maxillofacial Imaging,Oral Maxillofacial Imaging,http://fhir.hie.moh.gov.my/CodeSystem/ward-specialty-my-core,CodeSystemWardSpecialtyMyCore
+197,Prosthodontics,Prosthodontics,http://fhir.hie.moh.gov.my/CodeSystem/ward-specialty-my-core,CodeSystemWardSpecialtyMyCore

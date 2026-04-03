@@ -1,0 +1,3 @@
+code,display,system,include_type,valueset_url,valueset_name
+*,Include all concepts from system,http://fhir.hie.moh.gov.my/CodeSystem/relationship-my-core,include-all,http://fhir.hie.moh.gov.my/ValueSet/relationship-my-core,ValueSetRelationshipMyCore
+*,Include all concepts from system,http://terminology.hl7.org/CodeSystem/v2-0131,include-all,http://fhir.hie.moh.gov.my/ValueSet/relationship-my-core,ValueSetRelationshipMyCore

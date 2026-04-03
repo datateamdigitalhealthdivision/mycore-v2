@@ -1,0 +1,27 @@
+code,display,definition,system_url,system_name
+00,Other,,http://fhir.hie.moh.gov.my/CodeSystem/nutritionist-consultation-my-core,CodeSystemNutritionistConsultationMyCore
+01,Antenatal Mother,,http://fhir.hie.moh.gov.my/CodeSystem/nutritionist-consultation-my-core,CodeSystemNutritionistConsultationMyCore
+02,Anaemic Antenatal Mother,,http://fhir.hie.moh.gov.my/CodeSystem/nutritionist-consultation-my-core,CodeSystemNutritionistConsultationMyCore
+03,Postnatal Mother,,http://fhir.hie.moh.gov.my/CodeSystem/nutritionist-consultation-my-core,CodeSystemNutritionistConsultationMyCore
+04,Lactating Mother,,http://fhir.hie.moh.gov.my/CodeSystem/nutritionist-consultation-my-core,CodeSystemNutritionistConsultationMyCore
+05,Infant 6-8 Months,,http://fhir.hie.moh.gov.my/CodeSystem/nutritionist-consultation-my-core,CodeSystemNutritionistConsultationMyCore
+06,Infant 9-11 Months,,http://fhir.hie.moh.gov.my/CodeSystem/nutritionist-consultation-my-core,CodeSystemNutritionistConsultationMyCore
+07,Young Child 1-3 Years,,http://fhir.hie.moh.gov.my/CodeSystem/nutritionist-consultation-my-core,CodeSystemNutritionistConsultationMyCore
+08,Child 4-5 Years,,http://fhir.hie.moh.gov.my/CodeSystem/nutritionist-consultation-my-core,CodeSystemNutritionistConsultationMyCore
+10,Iron Deficiency Anemia (Hb <10 gm %),,http://fhir.hie.moh.gov.my/CodeSystem/nutritionist-consultation-my-core,CodeSystemNutritionistConsultationMyCore
+11,Other Nutritional Anemia,,http://fhir.hie.moh.gov.my/CodeSystem/nutritionist-consultation-my-core,CodeSystemNutritionistConsultationMyCore
+12,Growth Problems For Children <5 years (weight for age <-2 sd),,http://fhir.hie.moh.gov.my/CodeSystem/nutritionist-consultation-my-core,CodeSystemNutritionistConsultationMyCore
+13,Growth Problems For Children <5 years (height for age <-2 sd),,http://fhir.hie.moh.gov.my/CodeSystem/nutritionist-consultation-my-core,CodeSystemNutritionistConsultationMyCore
+14,Growth Problems For Children <5 years BMI for age <-2 sd),,http://fhir.hie.moh.gov.my/CodeSystem/nutritionist-consultation-my-core,CodeSystemNutritionistConsultationMyCore
+15,Growth Problems For Children <5 years BMI for age >+2 sd),,http://fhir.hie.moh.gov.my/CodeSystem/nutritionist-consultation-my-core,CodeSystemNutritionistConsultationMyCore
+16,Growth Problems For Children >5 years (BMI for age <-2 sd),,http://fhir.hie.moh.gov.my/CodeSystem/nutritionist-consultation-my-core,CodeSystemNutritionistConsultationMyCore
+17,Growth Problems For Children >5 years (BMI for age >+2 sd),,http://fhir.hie.moh.gov.my/CodeSystem/nutritionist-consultation-my-core,CodeSystemNutritionistConsultationMyCore
+18,Growth Problems For Children >5 years Height for age <-2 sd),,http://fhir.hie.moh.gov.my/CodeSystem/nutritionist-consultation-my-core,CodeSystemNutritionistConsultationMyCore
+19,Weight Problem For Adults (BMI <18.5 kg/m2) (without underlying diseases),,http://fhir.hie.moh.gov.my/CodeSystem/nutritionist-consultation-my-core,CodeSystemNutritionistConsultationMyCore
+20,Weight Problem For Adults (BMI >23-34.9 kg/m2) (without underlying diseases),,http://fhir.hie.moh.gov.my/CodeSystem/nutritionist-consultation-my-core,CodeSystemNutritionistConsultationMyCore
+21,Weight Problem For Elderly (BMI <18.5 kg/m2) (without underlying diseases),,http://fhir.hie.moh.gov.my/CodeSystem/nutritionist-consultation-my-core,CodeSystemNutritionistConsultationMyCore
+22,Weight Problem For Elderly (BMI >23-34.9 kg/m2) (without underlying diseases),,http://fhir.hie.moh.gov.my/CodeSystem/nutritionist-consultation-my-core,CodeSystemNutritionistConsultationMyCore
+23,Micronutrient Deficiency/ Excess,,http://fhir.hie.moh.gov.my/CodeSystem/nutritionist-consultation-my-core,CodeSystemNutritionistConsultationMyCore
+24,Individual with special needs (without underlying diseases),,http://fhir.hie.moh.gov.my/CodeSystem/nutritionist-consultation-my-core,CodeSystemNutritionistConsultationMyCore
+25,Other Condition,,http://fhir.hie.moh.gov.my/CodeSystem/nutritionist-consultation-my-core,CodeSystemNutritionistConsultationMyCore
+09,Complementary Feeding,,http://fhir.hie.moh.gov.my/CodeSystem/nutritionist-consultation-my-core,CodeSystemNutritionistConsultationMyCore

@@ -1,0 +1,65 @@
+{
+  "resourceType": "ValueSet",
+  "id": "observation-anthropometry-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetObservationAnthropometry (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/observation-anthropometry-my-core</tt><p>Anthropometry panel using LOINC code - 55418-8 Weight and Height tracking panel</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/observation-anthropometry-my-core",
+  "version": "2.0.0",
+  "name": "ValueSetObservationAnthropometryMyCore",
+  "title": "ValueSetObservationAnthropometry (MY Core)",
+  "status": "active",
+  "date": "2022-11-04T04:16:41.1948666+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Anthropometry panel using LOINC code - 55418-8 Weight and Height tracking panel",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "8302-2",
+            "display": "Body height"
+          },
+          {
+            "code": "8306-3",
+            "display": "Body height -lying"
+          },
+          {
+            "code": "9843-4",
+            "display": "Head Circumference"
+          },
+          {
+            "code": "29463-7",
+            "display": "Body weight"
+          },
+          {
+            "code": "39156-5",
+            "display": "Body mass index (BMI) [Ratio]"
+          },
+          {
+            "code": "8280-0",
+            "display": "Waist Circumference"
+          },
+          {
+            "code": "8249-2",
+            "display": "Chest Circumference"
+          }
+        ]
+      }
+    ]
+  },
+  "experimental": false
+}

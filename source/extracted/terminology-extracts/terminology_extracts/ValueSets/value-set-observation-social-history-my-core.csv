@@ -1,0 +1,10 @@
+code,display,system,include_type,valueset_url,valueset_name
+219006,Alcohol use history,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-social-history-my-core,ValueSetObservationSocialHistoryMyCore
+361055000,Misuses drugs history,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-social-history-my-core,ValueSetObservationSocialHistoryMyCore
+77176002,Smoking history,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-social-history-my-core,ValueSetObservationSocialHistoryMyCore
+394704008,Occupation history,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-social-history-my-core,ValueSetObservationSocialHistoryMyCore
+285058000,Sexual activity,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-social-history-my-core,ValueSetObservationSocialHistoryMyCore
+266944002,Prison record,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-social-history-my-core,ValueSetObservationSocialHistoryMyCore
+443846001,Travel history,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-social-history-my-core,ValueSetObservationSocialHistoryMyCore
+365993003,Exercise history,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-social-history-my-core,ValueSetObservationSocialHistoryMyCore
+41829006,Dietary finding,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-social-history-my-core,ValueSetObservationSocialHistoryMyCore

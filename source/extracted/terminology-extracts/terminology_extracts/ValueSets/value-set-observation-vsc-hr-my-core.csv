@@ -1,0 +1,3 @@
+code,display,system,include_type,valueset_url,valueset_name
+8361-8,Body position,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-vsc-hr-my-core,ValueSetObservationVSCHRMyCore
+8887-2,Heart rate device,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-vsc-hr-my-core,ValueSetObservationVSCHRMyCore

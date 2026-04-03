@@ -1,0 +1,221 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-maternal-29",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-29",
+  "version": "1.0.0",
+  "name": "QMaternalmaternal-29",
+  "title": "Pemeriksaan Ibu Postnatal (1 Bulan) di Klinik",
+  "status": "active",
+  "date": "2023-08-30T01:19:04.1804145+00:00",
+  "item": [
+    {
+      "linkId": "maternal-29.1",
+      "text": "Tarikh",
+      "type": "dateTime"
+    },
+    {
+      "linkId": "maternal-29.2",
+      "text": "Lawatan ke klinik",
+      "type": "quantity"
+    },
+    {
+      "linkId": "maternal-29.3",
+      "text": "Pemeriksaan",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "maternal-29.3.1",
+          "text": "Suhu badan",
+          "type": "quantity"
+        },
+        {
+          "linkId": "maternal-29.3.2",
+          "text": "Berat badan",
+          "type": "quantity"
+        },
+        {
+          "linkId": "maternal-29.3.3",
+          "text": "Tekanan darah",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "maternal-29.3.3.1",
+              "text": "Sistolik",
+              "type": "quantity"
+            },
+            {
+              "linkId": "maternal-29.3.3.2",
+              "text": "Diastolik",
+              "type": "quantity"
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-29.3.4",
+          "text": "Nadi",
+          "type": "quantity"
+        },
+        {
+          "linkId": "maternal-29.3.5",
+          "text": "Payudara",
+          "type": "string"
+        },
+        {
+          "linkId": "maternal-29.3.6",
+          "text": "Aliran susu",
+          "type": "string"
+        },
+        {
+          "linkId": "maternal-29.3.7",
+          "text": "Tinggi rahim",
+          "type": "string"
+        },
+        {
+          "linkId": "maternal-29.3.8",
+          "text": "Edema",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-29.3.9",
+          "text": "Perineum/luka episiotomi",
+          "type": "string"
+        },
+        {
+          "linkId": "maternal-29.3.10",
+          "text": "Luka pembedahan",
+          "type": "string"
+        },
+        {
+          "linkId": "maternal-29.3.11",
+          "text": "Discaj vagina",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-29.4",
+      "text": "Ujian makmal",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "maternal-29.4.1",
+          "text": "Hemoglobin",
+          "type": "quantity"
+        },
+        {
+          "linkId": "maternal-29.4.2",
+          "text": "Urine sugar",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "167273002",
+                "display": "Not Detected"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "167262009",
+                "display": "Trace"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "167264005",
+                "display": "1+"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "167265006",
+                "display": "2+"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "167266007",
+                "display": "3+"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "167267003",
+                "display": "4+"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-29.4.3",
+          "text": "Urin Protein",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "167273002",
+                "display": "Not Detected"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "167274008",
+                "display": "Trace"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "167275009",
+                "display": "1+"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "167276005",
+                "display": "2+"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "167277001",
+                "display": "3+"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "167278006",
+                "display": "4+"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-29.5",
+      "text": "Menilai simptom kemurungan/psikosis ibu",
+      "type": "string"
+    },
+    {
+      "linkId": "maternal-29.6",
+      "text": "Nasihat diberi",
+      "type": "string"
+    },
+    {
+      "linkId": "maternal-29.7",
+      "text": "Pegawai Perubatan",
+      "type": "string"
+    }
+  ]
+}

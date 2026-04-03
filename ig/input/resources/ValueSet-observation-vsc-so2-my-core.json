@@ -1,0 +1,46 @@
+{
+  "resourceType": "ValueSet",
+  "id": "observation-vsc-so2-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetObservationVSCSO2 (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/observation-vsc-so2-my-core</tt><p>Value Set for Observation vital sign panel LOINC 85353-1</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/observation-vsc-so2-my-core",
+  "identifier": [
+    {
+      "value": "value-set-observation-vital-signs-note-my-core"
+    }
+  ],
+  "version": "2.0.0",
+  "name": "ValueSetObservationVSCSO2MyCore",
+  "title": "ValueSetObservationVSCSO2 (MY Core)",
+  "status": "active",
+  "date": "2022-08-01T04:48:03.5159935+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Value Set for Observation vital sign panel LOINC 85353-1",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "3151-8",
+            "display": "Inhaled oxygen flow rate"
+          }
+        ]
+      }
+    ]
+  },
+  "experimental": false
+}

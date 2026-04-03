@@ -1,0 +1,351 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-child-4y",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "identifier": {
+        "system": "http://fhir.hie.moh.gov.my/sid/template-section",
+        "value": "qr-child-4y"
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-child-4y",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/3a1fe467-cad5-4ec9-83f8-fd6dfb46470c"
+    },
+    "authored": "2023-04-27T00:20:14.414Z",
+    "item": [
+        {
+            "linkId": "child-4y.1",
+            "text": "Tarikh lawatan",
+            "answer": [
+                {
+                    "valueDateTime": "2023-05-01T23:12:30.776Z"
+                }
+            ]
+        },
+        {
+            "linkId": "child-4y.2",
+            "text": "Umur semasa lawatan",
+            "answer": [
+                {
+                    "valueQuantity": {
+                        "value": 4,
+                        "unit": "tahun"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "child-4y.3",
+            "text": "Aktiviti",
+            "item": [
+                {
+                    "linkId": "child-4y.3.1",
+                    "text": "Berat (kg)",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 2,
+                                "unit": "kg"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-4y.3.1.1",
+                                    "text": "Catatan (Normal/KBB/KBBT/MP)",
+                                    "answer": [
+                                        {
+                                            "valueString": "insert entry here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-4y.3.2",
+                    "text": "Panjang (cm)",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 2,
+                                "unit": "cm"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-4y.3.2.1",
+                                    "text": "Catatan (Normal/B/BT/ME)",
+                                    "answer": [
+                                        {
+                                            "valueString": "insert entry here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-4y.3.3",
+                    "text": "BMI (kg/m2)",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 2,
+                                "unit": "kg/m2"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-4y.3.3.1",
+                                    "text": "Catatan (Normal/MP/B/BT)",
+                                    "answer": [
+                                        {
+                                            "valueString": "insert entry here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-4y.3.4",
+                    "text": "Pemeriksaan fizikal (termasuk mulut)",
+                    "answer": [
+                        {
+                            "valueString": "insert entry here",
+                            "item": [
+                                {
+                                    "linkId": "child-4y.3.4.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "insert entry here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-4y.3.5",
+                    "text": "Pemeriksaan mata",
+                    "answer": [
+                        {
+                            "valueDateTime": "2023-05-03T12:52:58.608Z",
+                            "item": [
+                                {
+                                    "linkId": "child-4y.3.5.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "insert entry here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-4y.3.6",
+                    "text": "Rujuk Pegawai Perubatan",
+                    "answer": [
+                        {
+                            "valueDateTime": "2023-05-24T09:53:02.979Z",
+                            "item": [
+                                {
+                                    "linkId": "child-4y.3.6.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "insert entry here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-4y.3.7",
+                    "text": "Rujuk Pemeriksaan Pergigian",
+                    "answer": [
+                        {
+                            "valueDateTime": "2023-05-19T09:53:05.744Z",
+                            "item": [
+                                {
+                                    "linkId": "child-4y.3.7.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "insert entry here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-4y.3.8",
+                    "text": "Imunisasi (Rujuk Jadual dan Rekod Imunisasi)",
+                    "answer": [
+                        {
+                            "valueString": "insert entry here"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "child-4y.4",
+            "text": "Perkara yang membimbangkan ibubapa/penjaga",
+            "answer": [
+                {
+                    "valueString": "insert entry here"
+                }
+            ]
+        },
+        {
+            "linkId": "child-4y.5",
+            "text": "Senarai Semak Perkembangan (sila semak terlebih dahulu apa yang ibubapa/penjaga tulis): Tandakan pada ruangan yang berkenaan",
+            "item": [
+                {
+                    "linkId": "child-4y.5.1",
+                    "text": "Orang lain boleh memahami pertuturan anak",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-4y.5.2",
+                    "text": "Anak boleh bercakap menggunakan ayat sepenuhnya?",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-4y.5.3",
+                    "text": "Anak boleh meniru lukisan bulatan. (Perhatikan)",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-4y.5.4",
+                    "text": "Anak boleh berinteraksi dengan kanak-kanak lain",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "child-4y.6",
+            "text": "Jika ada 'tidak' pada senarai semak perkembangan, rujuk Pegawai Perubatan/FMS/Pakar Pediatrik dan isikan maklumat di bawah.",
+            "item": [
+                {
+                    "linkId": "child-4y.6.1",
+                    "text": "Tarikh Temujanji",
+                    "answer": [
+                        {
+                            "valueDateTime": "2023-05-07T09:53:13.903Z"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-4y.6.2",
+                    "text": "Tempat Rujukan",
+                    "answer": [
+                        {
+                            "valueString": "insert entry here"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-4y.6.3",
+                    "text": "Tujuan Rujukan",
+                    "answer": [
+                        {
+                            "valueString": "insert entry here"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-4y.6.4",
+                    "text": "Jika ada 'tidak' pada senarai semak, Jalankan penilaian perkembangan mengguna Carta Denver",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-4y.6.5",
+                    "text": "Jika ada 'tidak' pada senarai semak, Lakukan stimulasi awal",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "child-4y.7",
+            "text": "Bimbingan Awal. Tandakan selepas nasihat diberi. (Rujuk Panduan Ibu bapa/Penjaga)",
+            "item": [
+                {
+                    "linkId": "child-4y.7.1",
+                    "text": "Pemakanan \na. Beri anak makanan berkhasiat semasa waktu makan utama. \nb. Pilih snek berkhasiat kepada anak seperti buah-buahan, sayur-sayuran, susu, dadih. \nc. Elakkan makanan ringan yang tidak berkhasiat, minuman bergas dan manis. \nd. Pastikan anak anda minum 4-6 gelas cecair dalam bentuk air masak, jus buahbuahan atau sup.",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-4y.7.2",
+                    "text": "Penjagaan Gigi \na. Berus gigi dengan ubat gigi berfluorida dua kali sehari terutamanya sebelum tidur malam. \nb. Dapatkan permeriksaan gigi setiap 6 bulan. \nc. Hentikan tabiat menghisap jari/ puting tiruan bagi mengelakkan masalah susunatur pergigian.",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-4y.7.3",
+                    "text": "Elakkan kecederaan \na. Mengajar anak amalan baik di jalan raya (ibu bapa perlu menjadi contoh). \nb. Gunakan topi keselamatan bila menunggang basikal. \nc. Pastikan anak menggunakan kerusi keselamatan dan pasang tali pinggang keselamatan semasa di dalam kereta. \nd. Elakkan anak bermain di longkang, kolam, perigi atau sungai. \ne. Pastikan tingkap berpagar untuk mengelakkan anak anda terjatuh.",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-4y.7.4",
+                    "text": "Promosi dan amalan kesihatan mental yang sihat \na. Amalkan peraturan yang sentiasa tetap dan tegas. \nb. Guna budi bicara sebelum menjatuhkan hukuman. \nc. Luangkan masa untuk berbual dengan anak anda. \nd. Jadi seorang pendengar yang baik. \ne. Menekankan amalan yang baik dengan puji- pujian. \nf. Hindarkan dari memberi gelaran yang negatif terhadap anak anda.",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

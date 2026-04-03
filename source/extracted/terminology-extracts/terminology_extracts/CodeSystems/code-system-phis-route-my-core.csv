@@ -1,0 +1,88 @@
+code,display,definition,system_url,system_name
+BATH,Bath,Guna sebagai sabun mandi,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+BUCC,Buccal,Buccal,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+CHEW,Chew,Dikunyah,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+DABS,Dabs,Disapu,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+DRES,for dressing,Cuci luka,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+EARB,Ear Both,Dalam Telinga Kanan dan Kiri,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+EARL,Ear Left,Titis dalam Telinga KIRI,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+EARR,Ear Right,Titis dalam Telinga KANAN,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+EPID,Epidural,Epidural,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+ETIN,ET Intubation,ET Intubation,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+EXT,External,Kegunaan luar,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+EYEB,Eye Both,Dalam Mata Kanan dan Kiri,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+EYEL,Eye Left,Dalam Mata Kiri,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+EYER,Eye Right,Dalam Mata Kanan,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+GARG,Gargle,Kumur,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+IM,Intramuscular,Intramuscular,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+IMPL,Implantation,Implant,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+INAB,Intraabdominal,Intraabdominal,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+INAM,Intraamniotic,Intraamniotic,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+INAR,Intraarterial,Intraarterial,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+INAT,Intraarticular,Intraarticular,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+INCA,Intracardiac,Intracardiac,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+INCE,Intracervical,Intracervical,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+INCMR,Intracameral,Intracameral,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+INCT,Intracavity,Intracavity,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+INCV,Intracavernosal,Intracavernosal,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+INDE,Intradermal,Intradermal,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+INF,IV Infusion,IV Infusion,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+INFI,Infiltration,Infiltration,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+INH,Inhalation,Disedut,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+INLE,Intralesion,Intralesion,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+INOC,Intraocular,Intraocular,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+INOS,Intraosseous,Intraosseous,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+INPL,Intrapleural,Intrapleural,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+INSY,Intrasynovial,Intrasynovial,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+INTC,Intratracheal,Intratracheal,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+INTE,Intrathecal,Intrathecal,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+INTM,Intratumour,Intratumour,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+INTO,Intrathoracic,Intrathoracic,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+INUR,Intraurethral,Intraurethral,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+INUT,Intrauterine,Intrauterine,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+INVC,Intravesical,Intravesical,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+INVG,Intravaginal,Dalam vagina,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+INVT,Intravitreal,Intravitreal,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+INVTR,Intraventricular,Intraventricular,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+IP,Intraperitoneal,Intraperitoneal,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+IRRI,Irrigation,Irrigation,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+IV,IV,Intravenous,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+IVB,IV Bolus,Intravenous Bolus,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+IVSB,IV Slow Bolus,IV Slow Bolus,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+LAA,LA-Arm,Sapu pada lengan,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+LABN,LA-baby's navel,Sapu pada pusat bayi,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+LAEB,LA-Entire body,Sapu pada seluruh badan,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+LAF,LA-Lips,Sapu pada bibir,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+LAFC,LA-Face,Sapu pada muka,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+LAH,LA-Hand,Sapu pada tangan,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+LAL,LA-Leg,Sapu pada kaki,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+LAN,LA-Neck,Sapu pada leher,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+LANAIL,LA-Nail,Sapu pada kuku,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+LASC,LA-scalp,Sapu pada kulit kepala,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+LASF,LA-Fold,Sapu diantara pelipat,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+LAWS,LA-webspace,Sapu di celah jari kaki,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+MOTH,Mouth/Throat,Mouth/Throat,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+NA,Not applicable,Tidak Berkenaan,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+NASL,Intranasal,Dalam hidung,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+NASLL,Intranasal Left,Dalam hidung KIRI,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+NASLR,Intranasal Right,Dalam hidung KANAN,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+NEB,Nebuliser,Nebuliser,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+NG,Nasogastric,Nasogastric,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+ORAL,Oral,Diambil,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+ORALL,Oral,Diminum,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+PERC,Percutaneous,Percutaneous,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+PERF,Perfusion,Perfusion,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+PHOT,Photopheresis,Photopheresis,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+REAP,Regional Block,Regional Block,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+RECT,Rectal,Dalam dubur,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+SBCJ,Subconjunctival,Sapu dlm kelopak mata,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+SC,Subcutaneous,Suntik dibawah kulit,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+SCI,Subcutaneous infusion,Subcutaneous infusion,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+SHAM,Shampoo,Syampu,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+SOBT,Soak,Rendam,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+SUBL,Sublingual,Letak bawah lidah,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+SUBM,Submucosal,Disapu dalam mulut,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+SUCK,Suck,Dihisap,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+TDER,Transdermal,Tampal pada kulit,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+TOPI,LA,Sapu pada tempat yg berkenaan,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore
+WASH,Wash,Cuci,http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core,CodeSystemPhisRouteMyCore

@@ -1,0 +1,137 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-observation-vital-signs-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetObservationVitalSigns (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/ValueSet/observation-vital-signs-my-core</tt><p>Value Set for Observation vital sign panel LOINC 85353-1</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/observation-vital-signs-my-core",
+  "identifier": [
+    {
+      "value": "value-set-observation-vital-signs-note-my-core"
+    }
+  ],
+  "version": "1.0.0",
+  "name": "ValueSetObservationVitalSignsMyCore",
+  "title": "ValueSetObservationVitalSigns (MY Core)",
+  "status": "active",
+  "date": "2022-08-01T04:48:03.5159935+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Value Set for Observation vital sign panel LOINC 85353-1",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "9279-1",
+            "display": "Respiratory rate"
+          },
+          {
+            "code": "8867-4",
+            "display": "Heart rate"
+          },
+          {
+            "code": "8361-8",
+            "display": "Body position with respect to gravity"
+          },
+          {
+            "code": "8887-2",
+            "display": "Type of Heart rate device"
+          },
+          {
+            "code": "59408-5",
+            "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+          },
+          {
+            "code": "3151-8",
+            "display": "Inhaled oxygen flow rate"
+          },
+          {
+            "code": "8310-5",
+            "display": "Body temperature"
+          },
+          {
+            "code": "8327-9",
+            "display": "Body temperature measurement site"
+          },
+          {
+            "code": "8326-1",
+            "display": "Type of Body temperature device"
+          },
+          {
+            "code": "8352-7",
+            "display": "Clothing worn during measure"
+          },
+          {
+            "code": "8302-2",
+            "display": "Body height"
+          },
+          {
+            "code": "8306-3",
+            "display": "Body height -lying"
+          },
+          {
+            "code": "8287-5",
+            "display": "Head Occipital-frontal circumference by Tape measure"
+          },
+          {
+            "code": "29463-7",
+            "display": "Body weight"
+          },
+          {
+            "code": "39156-5",
+            "display": "Body mass index (BMI) [Ratio]"
+          },
+          {
+            "code": "85354-9",
+            "display": "Blood pressure panel with all children optional"
+          },
+          {
+            "code": "8480-6",
+            "display": "Systolic blood pressure"
+          },
+          {
+            "code": "8462-4",
+            "display": "Diastolic blood pressure"
+          },
+          {
+            "code": "8478-0",
+            "display": "Mean blood pressure"
+          },
+          {
+            "code": "8357-6",
+            "display": "Blood pressure method"
+          },
+          {
+            "code": "41904-4",
+            "display": "Blood pressure measurement site"
+          },
+          {
+            "code": "8358-4",
+            "display": "Blood pressure device Cuff size"
+          },
+          {
+            "code": "41901-0",
+            "display": "Type of Blood pressure device"
+          },
+          {
+            "code": "72514-3",
+            "display": "Pain Score"
+          }
+        ]
+      }
+    ]
+  }
+}

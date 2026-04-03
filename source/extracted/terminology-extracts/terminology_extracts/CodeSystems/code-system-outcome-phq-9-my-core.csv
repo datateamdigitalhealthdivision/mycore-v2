@@ -1,0 +1,6 @@
+code,display,definition,system_url,system_name
+01,Minimal depression,Scores ≤4 suggest minimal depression which may not require treatment.,http://fhir.hie.moh.gov.my/CodeSystem/outcome-phq-9-my-core,CodeSystemOutcomePhq9MyCore
+02,Mild depression,Scores 5-9 suggest mild depression which may require only watchful waiting and repeated PHQ-9 at followup. Please consult your nearest healthcare facility for further information.,http://fhir.hie.moh.gov.my/CodeSystem/outcome-phq-9-my-core,CodeSystemOutcomePhq9MyCore
+03,Moderate depression,Scores 10-14 suggest moderate depression severity; please consult your nearest healthcare facility for further information.,http://fhir.hie.moh.gov.my/CodeSystem/outcome-phq-9-my-core,CodeSystemOutcomePhq9MyCore
+04,Moderately severe depression,"Scores 15-19 suggest moderately severe depression, please seek medical attention from your nearest healthcare facility.",http://fhir.hie.moh.gov.my/CodeSystem/outcome-phq-9-my-core,CodeSystemOutcomePhq9MyCore
+05,Severe depression,Scores 20 and greater suggest severe depression; please seek medical attention from your nearest healthcare facility.,http://fhir.hie.moh.gov.my/CodeSystem/outcome-phq-9-my-core,CodeSystemOutcomePhq9MyCore

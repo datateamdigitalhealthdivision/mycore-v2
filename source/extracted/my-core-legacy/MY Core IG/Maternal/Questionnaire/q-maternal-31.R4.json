@@ -1,0 +1,417 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-maternal-31",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-31",
+  "version": "1.0.0",
+  "name": "QMaternal31",
+  "title": "Informasi Panduan Dan Pendidikan Kesihatan",
+  "status": "active",
+  "date": "2023-08-30T01:19:04.1804145+00:00",
+  "item": [
+    {
+      "linkId": "31.1",
+      "text": "Selamat Datang Ke Alam Kehamilan",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "31.1.1",
+          "text": "Panduan Kesihatan Diberikan Kepada Pesakit",
+          "type": "boolean"
+        },
+        {
+          "linkId": "31.1.2",
+          "text": "Panduan Kesihatan Diberikan Oleh",
+          "type": "reference"
+        },
+        {
+          "linkId": "31.1.3",
+          "text": "Tarikh Panduan Kesihatan Diberikan",
+          "type": "dateTime"
+        },
+        {
+          "linkId": "31.1.4",
+          "text": "Pesakit Sahihkan Panduan Kesihatan Diberikan",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "31.2",
+      "text": "Penjagaan Semasa Kehamilan",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "31.2.1",
+          "text": "Panduan Kesihatan Diberikan Kepada Pesakit",
+          "type": "boolean"
+        },
+        {
+          "linkId": "31.2.2",
+          "text": "Panduan Kesihatan Diberikan Oleh",
+          "type": "reference"
+        },
+        {
+          "linkId": "31.2.3",
+          "text": "Tarikh Panduan Kesihatan Diberikan",
+          "type": "dateTime"
+        },
+        {
+          "linkId": "31.2.4",
+          "text": "Pesakit Sahihkan Panduan Kesihatan Diberikan",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "31.3",
+      "text": "Perkhidmatan Semasa Lawatan Ke Klinik",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "31.3.1",
+          "text": "Panduan Kesihatan Diberikan Kepada Pesakit",
+          "type": "boolean"
+        },
+        {
+          "linkId": "31.3.2",
+          "text": "Panduan Kesihatan Diberikan Oleh",
+          "type": "reference"
+        },
+        {
+          "linkId": "31.3.3",
+          "text": "Tarikh Panduan Kesihatan Diberikan",
+          "type": "dateTime"
+        },
+        {
+          "linkId": "31.3.4",
+          "text": "Pesakit Sahihkan Panduan Kesihatan Diberikan",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "31.4",
+      "text": "Persediaan Untuk Bersalin",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "31.4.1",
+          "text": "Panduan Kesihatan Diberikan Kepada Pesakit",
+          "type": "boolean"
+        },
+        {
+          "linkId": "31.4.2",
+          "text": "Panduan Kesihatan Diberikan Oleh",
+          "type": "reference"
+        },
+        {
+          "linkId": "31.4.3",
+          "text": "Tarikh Panduan Kesihatan Diberikan",
+          "type": "dateTime"
+        },
+        {
+          "linkId": "31.4.4",
+          "text": "Pesakit Sahihkan Panduan Kesihatan Diberikan",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "31.5",
+      "text": "Penjagaan Ibu Selepas Bersalin",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "31.5.1",
+          "text": "Panduan Kesihatan Diberikan Kepada Pesakit",
+          "type": "boolean"
+        },
+        {
+          "linkId": "31.5.2",
+          "text": "Panduan Kesihatan Diberikan Oleh",
+          "type": "reference"
+        },
+        {
+          "linkId": "31.5.3",
+          "text": "Tarikh Panduan Kesihatan Diberikan",
+          "type": "dateTime"
+        },
+        {
+          "linkId": "31.5.4",
+          "text": "Pesakit Sahihkan Panduan Kesihatan Diberikan",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "31.6",
+      "text": "Gangguan Ringan Semasa Hamil",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "31.6.1",
+          "text": "Panduan Kesihatan Diberikan Kepada Pesakit",
+          "type": "boolean"
+        },
+        {
+          "linkId": "31.6.2",
+          "text": "Panduan Kesihatan Diberikan Oleh",
+          "type": "reference"
+        },
+        {
+          "linkId": "31.6.3",
+          "text": "Tarikh Panduan Kesihatan Diberikan",
+          "type": "dateTime"
+        },
+        {
+          "linkId": "31.6.4",
+          "text": "Pesakit Sahihkan Panduan Kesihatan Diberikan",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "31.7",
+      "text": "Gangguan Yang Kerap Berlaku Semasa Hamil Serta Kesan Kepada Ibu Dan Bayi Dalam Kandungan",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "31.7.1",
+          "text": "Panduan Kesihatan Diberikan Kepada Pesakit",
+          "type": "boolean"
+        },
+        {
+          "linkId": "31.7.2",
+          "text": "Panduan Kesihatan Diberikan Oleh",
+          "type": "reference"
+        },
+        {
+          "linkId": "31.7.3",
+          "text": "Tarikh Panduan Kesihatan Diberikan",
+          "type": "dateTime"
+        },
+        {
+          "linkId": "31.7.4",
+          "text": "Pesakit Sahihkan Panduan Kesihatan Diberikan",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "31.8",
+      "text": "Venous Thromboembolism (VTE)",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "31.8.1",
+          "text": "Panduan Kesihatan Diberikan Kepada Pesakit",
+          "type": "boolean"
+        },
+        {
+          "linkId": "31.8.2",
+          "text": "Panduan Kesihatan Diberikan Oleh",
+          "type": "reference"
+        },
+        {
+          "linkId": "31.8.3",
+          "text": "Tarikh Panduan Kesihatan Diberikan",
+          "type": "dateTime"
+        },
+        {
+          "linkId": "31.8.4",
+          "text": "Pesakit Sahihkan Panduan Kesihatan Diberikan",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "31.9",
+      "text": "Panduan Pemakanan Bagi Persediaan Kehamilan, Semasa Hamil Sewaktu Berpantang Dan Menyusukan Bayi",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "31.9.1",
+          "text": "Panduan Kesihatan Diberikan Kepada Pesakit",
+          "type": "boolean"
+        },
+        {
+          "linkId": "31.9.2",
+          "text": "Panduan Kesihatan Diberikan Oleh",
+          "type": "reference"
+        },
+        {
+          "linkId": "31.9.3",
+          "text": "Tarikh Panduan Kesihatan Diberikan",
+          "type": "dateTime"
+        },
+        {
+          "linkId": "31.9.4",
+          "text": "Pesakit Sahihkan Panduan Kesihatan Diberikan",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "31.10",
+      "text": "Panduan Pemakanan Bagi Ibu Hamil Yang Mengalami Anemia Kekurangan Zat Besi (Iron Deficiency Anaemia-Ida)",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "31.10.1",
+          "text": "Panduan Kesihatan Diberikan Kepada Pesakit",
+          "type": "boolean"
+        },
+        {
+          "linkId": "31.10.2",
+          "text": "Panduan Kesihatan Diberikan Oleh",
+          "type": "reference"
+        },
+        {
+          "linkId": "31.10.3",
+          "text": "Tarikh Panduan Kesihatan Diberikan",
+          "type": "dateTime"
+        },
+        {
+          "linkId": "31.10.4",
+          "text": "Pesakit Sahihkan Panduan Kesihatan Diberikan",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "31.11",
+      "text": "Saranan Peningkatan Berat Badan Yang Sihat Semasa Kehamilan (Gestational Weight Gain-Gwg)",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "31.11.1",
+          "text": "Panduan Kesihatan Diberikan Kepada Pesakit",
+          "type": "boolean"
+        },
+        {
+          "linkId": "31.11.2",
+          "text": "Panduan Kesihatan Diberikan Oleh",
+          "type": "reference"
+        },
+        {
+          "linkId": "31.11.3",
+          "text": "Tarikh Panduan Kesihatan Diberikan",
+          "type": "dateTime"
+        },
+        {
+          "linkId": "31.11.4",
+          "text": "Pesakit Sahihkan Panduan Kesihatan Diberikan",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "31.12",
+      "text": "Penyusuan Susu Ibu Yang Terbaik Buat Bayi Dan Ibu",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "31.12.1",
+          "text": "Panduan Kesihatan Diberikan Kepada Pesakit",
+          "type": "boolean"
+        },
+        {
+          "linkId": "31.12.2",
+          "text": "Panduan Kesihatan Diberikan Oleh",
+          "type": "reference"
+        },
+        {
+          "linkId": "31.12.3",
+          "text": "Tarikh Panduan Kesihatan Diberikan",
+          "type": "dateTime"
+        },
+        {
+          "linkId": "31.12.4",
+          "text": "Pesakit Sahihkan Panduan Kesihatan Diberikan",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "31.13",
+      "text": "Masalah Ibu Semasa Berpantang (Postnatal)",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "31.13.1",
+          "text": "Panduan Kesihatan Diberikan Kepada Pesakit",
+          "type": "boolean"
+        },
+        {
+          "linkId": "31.13.2",
+          "text": "Panduan Kesihatan Diberikan Oleh",
+          "type": "reference"
+        },
+        {
+          "linkId": "31.13.3",
+          "text": "Tarikh Panduan Kesihatan Diberikan",
+          "type": "dateTime"
+        },
+        {
+          "linkId": "31.13.4",
+          "text": "Pesakit Sahihkan Panduan Kesihatan Diberikan",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "31.14",
+      "text": "Bayi Dan Jaundis",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "31.14.1",
+          "text": "Panduan Kesihatan Diberikan Kepada Pesakit",
+          "type": "boolean"
+        },
+        {
+          "linkId": "31.14.2",
+          "text": "Panduan Kesihatan Diberikan Oleh",
+          "type": "reference"
+        },
+        {
+          "linkId": "31.14.3",
+          "text": "Tarikh Panduan Kesihatan Diberikan",
+          "type": "dateTime"
+        },
+        {
+          "linkId": "31.14.4",
+          "text": "Pesakit Sahihkan Panduan Kesihatan Diberikan",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "31.15",
+      "text": "Penjagaan Kesihatan Bayi",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "31.15.1",
+          "text": "Panduan Kesihatan Diberikan Kepada Pesakit",
+          "type": "boolean"
+        },
+        {
+          "linkId": "31.15.2",
+          "text": "Panduan Kesihatan Diberikan Oleh",
+          "type": "reference"
+        },
+        {
+          "linkId": "31.15.3",
+          "text": "Tarikh Panduan Kesihatan Diberikan",
+          "type": "dateTime"
+        },
+        {
+          "linkId": "31.15.4",
+          "text": "Pesakit Sahihkan Panduan Kesihatan Diberikan",
+          "type": "boolean"
+        }
+      ]
+    }
+  ]
+}

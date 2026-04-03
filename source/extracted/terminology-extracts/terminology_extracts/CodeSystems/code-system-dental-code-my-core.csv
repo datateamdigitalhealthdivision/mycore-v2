@@ -1,0 +1,18 @@
+code,display,definition,system_url,system_name
+0,Sound,Sound,http://fhir.hie.moh.gov.my/CodeSystem/dental-code-my-core,CodeSystemDentalCodeMyCore
+1,Caries (D/d),Caries (D/d),http://fhir.hie.moh.gov.my/CodeSystem/dental-code-my-core,CodeSystemDentalCodeMyCore
+2,Missing due to caries (M),Missing due to caries (M),http://fhir.hie.moh.gov.my/CodeSystem/dental-code-my-core,CodeSystemDentalCodeMyCore
+3,Filled due to caries (F/f),Filled due to caries (F/f),http://fhir.hie.moh.gov.my/CodeSystem/dental-code-my-core,CodeSystemDentalCodeMyCore
+4,For extraction due to caries (X/x),For extraction due to caries (X/x),http://fhir.hie.moh.gov.my/CodeSystem/dental-code-my-core,CodeSystemDentalCodeMyCore
+5,Impacted tooth,Impacted tooth,http://fhir.hie.moh.gov.my/CodeSystem/dental-code-my-core,CodeSystemDentalCodeMyCore
+6,Unerupted tooth,Unerupted tooth,http://fhir.hie.moh.gov.my/CodeSystem/dental-code-my-core,CodeSystemDentalCodeMyCore
+2a,Missing tooth due to reason other than caries (M),Missing tooth due to reason other than caries (M),http://fhir.hie.moh.gov.my/CodeSystem/dental-code-my-core,CodeSystemDentalCodeMyCore
+3a,Filled for reasons other than caries (Fa/fa),Filled for reasons other than caries (Fa/fa),http://fhir.hie.moh.gov.my/CodeSystem/dental-code-my-core,CodeSystemDentalCodeMyCore
+4a,For extraction for reasons otner than caries (Xa/xa),For extraction for reasons otner than caries (Xa/xa),http://fhir.hie.moh.gov.my/CodeSystem/dental-code-my-core,CodeSystemDentalCodeMyCore
+C,Crown,Crown,http://fhir.hie.moh.gov.my/CodeSystem/dental-code-my-core,CodeSystemDentalCodeMyCore
+P,Pontic,Pontic,http://fhir.hie.moh.gov.my/CodeSystem/dental-code-my-core,CodeSystemDentalCodeMyCore
+SN,Supernumerary tooth,Supernumerary tooth,http://fhir.hie.moh.gov.my/CodeSystem/dental-code-my-core,CodeSystemDentalCodeMyCore
+SM,Space maintainer,Space maintainer,http://fhir.hie.moh.gov.my/CodeSystem/dental-code-my-core,CodeSystemDentalCodeMyCore
+L,Loose tooth,Loose tooth,http://fhir.hie.moh.gov.my/CodeSystem/dental-code-my-core,CodeSystemDentalCodeMyCore
+TSl,Tooth surface loss,Tooth surface loss,http://fhir.hie.moh.gov.my/CodeSystem/dental-code-my-core,CodeSystemDentalCodeMyCore
+EDD,Enamel defect/ dentin/ Molar incisor hypermineralization (MIH),Enamel defect/ dentin/ Molar incisor hypermineralization (MIH),http://fhir.hie.moh.gov.my/CodeSystem/dental-code-my-core,CodeSystemDentalCodeMyCore

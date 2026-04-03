@@ -1,0 +1,111 @@
+code,display,definition,system_url,system_name
+001,ABDOMEN,ABDOMEN,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+004,CHEST,CHEST,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+007,EXTREMITIES,EXTREMITIES,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+049,PELVIS,PELVIS,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+052,SKELETAL SURVEY,SKELETAL SURVEY,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+062,SKULL & FACIAL BONES,SKULL & FACIAL BONES,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+079,SPINES,SPINES,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+089,ABDOMEN (Mobile),ABDOMEN (Mobile),http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+091,CHEST (Mobile),CHEST (Mobile),http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+093,EXTREMITIES (Mobile),EXTREMITIES (Mobile),http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+120,PELVIS (Mobile),PELVIS (Mobile),http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+122,SKELETAL SURVEY - Infant (Mobile),SKELETAL SURVEY - Infant (Mobile),http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+124,SKULL (Mobile),SKULL (Mobile),http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+126,SPINE (Mobile),SPINE (Mobile),http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+132,ABDOMEN,ABDOMEN,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+139,CTA,CTA,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+150,ARTHROGRAM,ARTHROGRAM,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+158,EXTREMITIES,EXTREMITIES,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+176,HEAD AND NECK,HEAD AND NECK,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+194,TMJ (Temporo-Mandibular Joints),TMJ (Temporo-Mandibular Joints),http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+196,PELVIS,PELVIS,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+198,SPINES,SPINES,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+206,THORAX,THORAX,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+214,OTHERS,OTHERS,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+217,ABDOMEN,ABDOMEN,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+219,MRA (MR ANGIOGRAPHY),MRA (MR ANGIOGRAPHY),http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+230,MRV (MR VENOGRAPHY),MRV (MR VENOGRAPHY),http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+235,MRI ARTHROGRAM,MRI ARTHROGRAM,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+243,BREAST,BREAST,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+245,DYNAMIC,DYNAMIC,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+250,EXTREMITIES,EXTREMITIES,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+276,FUNCTIONAL,FUNCTIONAL,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+280,HEAD & NECK,HEAD & NECK,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+294,HEPATOBILLIARY SYSTEM,HEPATOBILLIARY SYSTEM,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+297,MRI PELVIS,MRI PELVIS,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+303,MRI SPINES,MRI SPINES,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+309,MRI THORAX,MRI THORAX,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+312,URINARY SYSTEM,URINARY SYSTEM,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+317,OTHERS,OTHERS,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+321,BREAST (MAMMOGRAPHY),BREAST (MAMMOGRAPHY),http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+327,ANATOMICAL REGION,ANATOMICAL REGION,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+334,BREAST,BREAST,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+336,CNS,CNS,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+341,CIRCULATORY SYSTEM - ARTERIES,CIRCULATORY SYSTEM - ARTERIES,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+352,CIRCULATORY SYSTEM - VEINS,CIRCULATORY SYSTEM - VEINS,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+363,DIGESTIVE SYSTEM,DIGESTIVE SYSTEM,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+366,ENDOCRINE SYSTEM,ENDOCRINE SYSTEM,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+369,HEPATOBILLIARY SYSTEM,HEPATOBILLIARY SYSTEM,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+375,INTEGUMENT & MUSCULOSKELETAL SYSTEM & SOFT TISSUES),INTEGUMENT & MUSCULOSKELETAL SYSTEM & SOFT TISSUES),http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+382,MUSCULOSKELETAL SYSTEM (BONES & JOINTS),MUSCULOSKELETAL SYSTEM (BONES & JOINTS),http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+395,REPRODUCTIVE SYSTEM - FEMALE,REPRODUCTIVE SYSTEM - FEMALE,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+399,REPRODUCTIVE SYSTEM - MALE,REPRODUCTIVE SYSTEM - MALE,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+405,RESPIRATORY SYSTEM,RESPIRATORY SYSTEM,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+408,URINARY SYSTEM,URINARY SYSTEM,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+414,OTHERS,OTHERS,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+417,ANATOMICAL REGION (Mobile),ANATOMICAL REGION (Mobile),http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+421,CNS (Mobile),CNS (Mobile),http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+425,CIRCULATORY SYSTEM - ARTERIES (Mobile),CIRCULATORY SYSTEM - ARTERIES (Mobile),http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+436,CIRCULATORY SYSTEM - VEINS (Mobile),CIRCULATORY SYSTEM - VEINS (Mobile),http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+446,HEPATOBILLIARY SYSTEM (Mobile),HEPATOBILLIARY SYSTEM (Mobile),http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+451,RESPIRATORY SYSTEM (Mobile),RESPIRATORY SYSTEM (Mobile),http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+454,URINARY SYSTEM (Mobile),URINARY SYSTEM (Mobile),http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+460,ANGIOGRAM â€“ ABDOMINAL / PELVIS,ANGIOGRAM â€“ ABDOMINAL / PELVIS,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+466,ANGIOGRAM - CEREBRAL,ANGIOGRAM - CEREBRAL,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+477,ANGIOGRAM - THORACIC,ANGIOGRAM - THORACIC,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+484,VENOGRAPHY ABDOMINAL / PELVIS,VENOGRAPHY ABDOMINAL / PELVIS,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+492,VENOGRAPHY EXTREMITIES,VENOGRAPHY EXTREMITIES,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+500,VENOGRAPHY HEAD & NECK,VENOGRAPHY HEAD & NECK,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+504,VENOGRAPHY THORACIC,VENOGRAPHY THORACIC,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+507,ANGIOPLASTY,ANGIOPLASTY,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+530,ATHERECTOMY,ATHERECTOMY,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+535,EMBOLISATION,EMBOLISATION,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+553,ENDOVASCULAR BRACHYTHERAPY,ENDOVASCULAR BRACHYTHERAPY,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+556,FIBRIN STRIPPING,FIBRIN STRIPPING,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+559,FISTULOGRAM,FISTULOGRAM,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+564,FOREIGN BODY RETRIEVAL,FOREIGN BODY RETRIEVAL,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+567,PORT PLACEMENT,PORT PLACEMENT,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+569,STENTING,STENTING,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+591,THROMBOLYSIS,THROMBOLYSIS,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+607,GASTROINTESTINAL SYSTEM,GASTROINTESTINAL SYSTEM,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+612,HEPATOBILIARY SYSTEM & PANCREAS,HEPATOBILIARY SYSTEM & PANCREAS,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+623,RESPIRATORY SYSTEM,RESPIRATORY SYSTEM,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+631,URINARY SYSTEM,URINARY SYSTEM,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+648,VENOINTERVENTION AND ACCESS MANAGEMENT,VENOINTERVENTION AND ACCESS MANAGEMENT,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+655,BREAST,BREAST,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+662,CT GUIDED PROCEDURES,CT GUIDED PROCEDURES,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+670,MRI GUIDED PROCEDURES,MRI GUIDED PROCEDURES,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+672,US GUIDED PROCEDURES,US GUIDED PROCEDURES,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+697,US GUIDED PROCEDURES (MOBILE),US GUIDED PROCEDURES (MOBILE),http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+704,BONE DENSITOMETRY (BMD),BONE DENSITOMETRY (BMD),http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+713,URINARY SYSTEM (IVU),URINARY SYSTEM (IVU),http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+715,CMR,CMR,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+720,FIXATION,FIXATION,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+763,OSTEOTOMY,OSTEOTOMY,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+768,FB LOCATION,FB LOCATION,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+773,II PCNL,II PCNL,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+778,RIRS,RIRS,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+785,II STENTING,II STENTING,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+789,II URS,II URS,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+793,II OTHERS,II OTHERS,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+800,FILM (HARD COPY),FILM (HARD COPY),http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+806,FILM (EXTERNAL),FILM (EXTERNAL),http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+814,SKULL AND FACIAL BONES,SKULL AND FACIAL BONES,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+818,DIGESTIVE SYSTEM,DIGESTIVE SYSTEM,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+837,HEPATOBILIARY SYSTEM & PANCREAS,HEPATOBILIARY SYSTEM & PANCREAS,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+842,MUSCULOSKELETAL SYSTEM,MUSCULOSKELETAL SYSTEM,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+847,REPRODUCTIVE SYSTEM - FEMALE,REPRODUCTIVE SYSTEM - FEMALE,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+849,RESPIRATORY SYSTEM,RESPIRATORY SYSTEM,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+851,URINARY SYSTEM,URINARY SYSTEM,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore
+855,OTHERS,OTHERS,http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core,CodeSystemImagingRegionMyCore

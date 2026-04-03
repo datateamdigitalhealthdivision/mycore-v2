@@ -1,0 +1,883 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-audit-10",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-audit-10",
+  "title": "Alcohol Use Disorder Identification Test 10 [AUDIT-10]",
+  "status": "active",
+  "date": "2023-08-30T01:44:59.0418083+00:00",
+  "description": "It consists of 10 questions on alcohol use. The responses to these questions can be scored and the total score prompts feedback to the person and in some cases offers specific advice.",
+  "useContext": [
+    {
+      "code": {
+        "system": "http://hl7.org/fhir/CodeSystem/usage-context-type",
+        "code": "workflow",
+        "display": "Workflow Setting"
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "self-assessment",
+            "display": "Self-Assessment"
+          }
+        ]
+      }
+    }
+  ],
+  "purpose": "The AUDIT questionnaire is designed to help in the self-assessment of alcohol consumption and to identify any implications for the person's health and wellbeing, now and in the future.",
+  "code": [
+    {
+      "system": "http://loinc.org",
+      "code": "72110-0",
+      "display": "Alcohol Use Disorder Identification Test [AUDIT]"
+    }
+  ],
+  "item": [
+    {
+      "linkId": "00",
+      "code": [
+        {
+          "system": "http://loinc.org",
+          "code": "46098-0",
+          "display": "Sex"
+        }
+      ],
+      "prefix": "1",
+      "text": "Please select your gender",
+      "type": "choice",
+      "required": false,
+      "answerOption": [
+        {
+          "valueCoding": {
+            "system": "http://hl7.org/fhir/administrative-gender",
+            "code": "male",
+            "display": "Male"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://hl7.org/fhir/administrative-gender",
+            "code": "female",
+            "display": "Female"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://hl7.org/fhir/administrative-gender",
+            "code": "other",
+            "display": "Undetermine"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "01",
+      "code": [
+        {
+          "system": "http://loinc.org",
+          "code": "68518-0",
+          "display": "How often do you have a drink containing alcohol"
+        }
+      ],
+      "prefix": "2",
+      "text": "How often do you have a drink containing alcohol?",
+      "type": "choice",
+      "required": true,
+      "answerOption": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 0.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA6270-8",
+            "display": "Never"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 1.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18926-8",
+            "display": "Monthly or less"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 2.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18927-6",
+            "display": "2-4 times a month"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 3.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18928-4",
+            "display": "2-3 times a week"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 4.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18929-2",
+            "display": "4 or more times a week"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "02",
+      "code": [
+        {
+          "system": "http://loinc.org",
+          "code": "68519-8",
+          "display": "How many standard drinks containing alcohol do you have on a typical day"
+        }
+      ],
+      "prefix": "3",
+      "text": "How many standard drinks containing alcohol do you have on a typical day when drinking?",
+      "type": "choice",
+      "required": true,
+      "answerOption": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 0.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA6270-8",
+            "display": "Never"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 1.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18926-8",
+            "display": "Monthly or less"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 2.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18927-6",
+            "display": "2-4 times a month"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 3.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18928-4",
+            "display": "2-3 times a week"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 4.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18929-2",
+            "display": "4 or more times a week"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "03",
+      "code": [
+        {
+          "system": "http://loinc.org",
+          "code": "68520-6",
+          "display": "How often do you have 6 or more drinks on 1 occasion"
+        }
+      ],
+      "prefix": "4",
+      "text": "How often do you have six or more drinks on one occasion?",
+      "type": "choice",
+      "required": true,
+      "answerOption": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 0.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA6270-8",
+            "display": "Never"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 1.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18926-8",
+            "display": "Monthly or less"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 2.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18927-6",
+            "display": "2-4 times a month"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 3.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18928-4",
+            "display": "2-3 times a week"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 4.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18929-2",
+            "display": "4 or more times a week"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "04",
+      "code": [
+        {
+          "system": "http://loinc.org",
+          "code": "97734-8",
+          "display": "Inability to stop drinking once started"
+        }
+      ],
+      "prefix": "5",
+      "text": "During the past year, how often have you found that you were not able to stop drinking once you had started?",
+      "type": "choice",
+      "required": true,
+      "answerOption": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 0.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA6270-8",
+            "display": "Never"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 1.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18933-4",
+            "display": "Less than monthly"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 2.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18876-5",
+            "display": "Monthly"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 3.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18891-4",
+            "display": "Weekly"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 4.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18934-2",
+            "display": "Daily or almost daily"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "05",
+      "code": [
+        {
+          "system": "http://loinc.org",
+          "code": "97735-5",
+          "display": "Failed expectations due to drinking"
+        }
+      ],
+      "prefix": "6",
+      "text": "During the past year, how often have you failed to do what was normally expected of you because of drinking?",
+      "type": "choice",
+      "required": true,
+      "answerOption": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 0.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA6270-8",
+            "display": "Never"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 1.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18933-4",
+            "display": "Less than monthly"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 2.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18876-5",
+            "display": "Monthly"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 3.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18891-4",
+            "display": "Weekly"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 4.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18934-2",
+            "display": "Daily or almost daily"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "06",
+      "code": [
+        {
+          "system": "http://loinc.org",
+          "code": "97736-3",
+          "display": "Drink needed in morning to begin activities after drinking session"
+        }
+      ],
+      "prefix": "7",
+      "text": "During the past year, how often have you needed a drink in the morning to get yourself going after a heavy drinking session?",
+      "type": "choice",
+      "required": true,
+      "answerOption": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 0.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA6270-8",
+            "display": "Never"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 1.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18933-4",
+            "display": "Less than monthly"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 2.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18876-5",
+            "display": "Monthly"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 3.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18891-4",
+            "display": "Weekly"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 4.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18934-2",
+            "display": "Daily or almost daily"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "07",
+      "code": [
+        {
+          "system": "http://loinc.org",
+          "code": "97737-1",
+          "display": "Guilt or remorse after drinking"
+        }
+      ],
+      "prefix": "8",
+      "text": "During the past year, how often have you had a feeling of guilt or remorse after drinking?",
+      "type": "choice",
+      "required": true,
+      "answerOption": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 0.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA6270-8",
+            "display": "Never"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 1.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18933-4",
+            "display": "Less than monthly"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 2.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18876-5",
+            "display": "Monthly"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 3.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18891-4",
+            "display": "Weekly"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 4.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18934-2",
+            "display": "Daily or almost daily"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "08",
+      "code": [
+        {
+          "system": "http://loinc.org",
+          "code": "97738-9",
+          "display": "Inability to recall events from night before due to drinking"
+        }
+      ],
+      "prefix": "9",
+      "text": "During the past year, how often have you been unable to remember what happened the night before because you had been drinking?",
+      "type": "choice",
+      "required": true,
+      "answerOption": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 0.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA6270-8",
+            "display": "Never"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 1.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18933-4",
+            "display": "Less than monthly"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 2.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18876-5",
+            "display": "Monthly"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 3.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18891-4",
+            "display": "Weekly"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 4.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18934-2",
+            "display": "Daily or almost daily"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "09",
+      "code": [
+        {
+          "system": "http://loinc.org",
+          "code": "97739-7",
+          "display": "Injury to you or someone else resulting from drinking"
+        }
+      ],
+      "prefix": "10",
+      "text": "Have you or someone else been injured as a result of your drinking?",
+      "type": "choice",
+      "required": true,
+      "answerOption": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 0.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA32-8",
+            "display": "No"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 2.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA32279-4",
+            "display": "Yes, but not in the last year"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 4.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA32280-2",
+            "display": "Yes, during the last year"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "10",
+      "code": [
+        {
+          "system": "http://loinc.org",
+          "code": "97740-5",
+          "display": "Has anyone expressed concern about your drinking or suggested you cut down"
+        }
+      ],
+      "prefix": "11",
+      "text": "Has a relative or friend, doctor or other health worker been concerned about your drinking or suggested you cut down?",
+      "type": "choice",
+      "required": true,
+      "answerOption": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 0.0
+            }
+          ],
+          "valueCoding": {
+            "code": "LA32-8",
+            "display": "No"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 2.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA32279-4",
+            "display": "Yes, but not in the last year"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 4.0
+            }
+          ],
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA32280-2",
+            "display": "Yes, during the last year"
+          }
+        }
+      ]
+    },
+    {
+      "id": "score",
+      "linkId": "11",
+      "code": [
+        {
+          "system": "http://loinc.org",
+          "code": "75624-7",
+          "display": "Total score [AUDIT]"
+        }
+      ],
+      "prefix": "12",
+      "text": "Total score [AUDIT]",
+      "type": "integer",
+      "required": true,
+      "readOnly": true
+    },
+    {
+      "id": "outcome",
+      "linkId": "12",
+      "code": [
+        {
+          "code": "outcome"
+        }
+      ],
+      "prefix": "13",
+      "text": "Outcome Summary [AUDIT]",
+      "type": "choice",
+      "required": true,
+      "readOnly": true,
+      "answerOption": [
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/outcome-audit-10-my-core",
+            "code": "a1",
+            "display": "Low-risk consumption"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/outcome-audit-10-my-core",
+            "code": "a2",
+            "display": "Hazardous or harmful alcohol consumption"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/outcome-audit-10-my-core",
+            "code": "a3",
+            "display": "Likelihood of alcohol dependence"
+          }
+        }
+      ]
+    }
+  ]
+}

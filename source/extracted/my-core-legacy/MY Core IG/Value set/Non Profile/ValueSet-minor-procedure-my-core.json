@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-minor-procedure-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetMinorProcedure (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/ValueSet/minor-procedure-my-core</tt><p>Minor Procedure</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/minor-procedure-my-core",
+  "name": "ValueSetMinorProcedureMyCore",
+  "title": "ValueSetMinorProcedure (MY Core)",
+  "status": "active",
+  "date": "2023-01-12T07:17:10.431612+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Minor Procedure",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/minor-procedure-my-core"
+      }
+    ]
+  }
+}

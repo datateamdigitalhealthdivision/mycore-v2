@@ -1,0 +1,453 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-maternal-17",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-17",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/bfb81ffe-637d-4b3f-befa-f7a1546ed9f8"
+    },
+    "authored": "2022-11-23T00:42:29.983Z",
+    "item": [
+        {
+            "linkId": "maternal-17.0",
+            "text": "Trimester of Assessment",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "code": "00",
+                        "display": "Trimester 1 (<12 month)"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-17.1",
+            "text": "Jangkamasa tidak datang haid",
+            "answer": [
+                {
+                    "valueString": "12/52"
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-17.3",
+            "text": "Senarai Semak Pengendalian Ibu Hamil (Kod Merah)",
+            "item": [
+                {
+                    "linkId": "maternal-17.3.1",
+                    "text": "Eclampsia",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.3.2",
+                    "text": "Pre-eclampsia (tekanan darah tinggi dengan urin protein)",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.3.3",
+                    "text": "Hypertensive crisis",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.3.4",
+                    "text": "Penyakit jantung semasa mengandung, dengan tanda dan gejala (sesak nafas, berdebar-debar)",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.3.5",
+                    "text": "Sesak nafas dan/ atau kadar pernafasan >22/min",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.3.6",
+                    "text": "Pendarahan antepartum (termasuk keguguran)",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.3.7",
+                    "text": "Denyutan jantung janin yang abnormal • FHR <110/min selepas 22/52 • FHR >160/min selepas 32/52",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.3.8",
+                    "text": "Anemia dengan simptom pada mana-mana gestasi atau Hb ≤7g/dL",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.3.9",
+                    "text": " Kontraksi rahim pramatang",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.3.10",
+                    "text": "Keluar air ketuban tanpa kontraksi",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.3.11",
+                    "text": " Sawan",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.3.12",
+                    "text": "Demam dengan tanda-tanda sepsis (lesu, dehidrasi, tachycardia)",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.3.13",
+                    "text": "Kes disyaki denggi (demam berserta sakit kepala, sakit sendi, sakit perut, muntah, cirit birit dan sebagainya)",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.3.14",
+                    "text": "Gejala Deep Vein Thrombosis (DVT) dan/ atau Pulmonary Embolism",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.3.15",
+                    "text": "Keinginan mencederakan / bunuh diri",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-17.4",
+            "text": "Senarai Semak Pengendalian Ibu Hamil (Kod Kuning)",
+            "item": [
+                {
+                    "linkId": "maternal-17.4.1",
+                    "text": "Ibu HIV positif",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.4.2",
+                    "text": "Ibu Hepatitis B positif",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.4.3",
+                    "text": "Ibu Tuberkulosis/ Malaria/ Syphilis",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.4.4",
+                    "text": "Tekanan darah >140/90 - <160/100mmHg tanpa/dengan urin protein",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.4.5",
+                    "text": "Tekanan darah tinggi (140/90mmHg) dengan urin protein",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.4.6",
+                    "text": "Ibu diabetes dengan rawatan dan/ atau komplikasi",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.4.7",
+                    "text": "**Pergerakan janin kurang semasa kandungan ≥32 minggu dengan faktor risiko",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.4.8",
+                    "text": "Kandungan melebihi 7 hari dari EDD",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.4.9",
+                    "text": "Ibu dengan masalah perubatan yang memerlukan rawatan bersama di hospital",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.4.10",
+                    "text": "Ibu tunggal atau ibu remaja (<20 tahun)",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.4.11",
+                    "text": "Ibu berumur ≥40 tahun",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.4.12",
+                    "text": "Hemoglobin 7 - <9g/dL dan asymptomatic",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.4.13",
+                    "text": "Placenta previa tanpa pendarahan",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.4.14",
+                    "text": "Maternal pyrexia ≥38˚C atau >3 hari",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.4.15",
+                    "text": "Penyakit jantung tanpa gejala",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.4.16",
+                    "text": "*Ketagihan dadah/ rokok/ alkohol",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.4.17",
+                    "text": "Skor risiko antenatal Venous Thromboembolism (VTE) ≥3",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.4.18",
+                    "text": "Kandungan kembar",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.4.19",
+                    "text": "Masalah kesihatan mental",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.4.20",
+                    "text": "BMI >40kgm/2",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-17.5",
+            "text": "Senarai Semak Pengendalian Ibu Hamil (Kod Hijau)",
+            "item": [
+                {
+                    "linkId": "maternal-17.5.1",
+                    "text": "Rh negatif",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.5.2",
+                    "text": "Berat badan ibu sebelum mengandung atau ketika booking <45kg",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.5.3",
+                    "text": "Obes (≥30.0kg/m²)",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.5.4",
+                    "text": "Pertambahan berat badan yang mendadak (>2 kg dalam seminggu)",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.5.5",
+                    "text": "Berat badan statik atau menurun (dalam tempoh sebulan)",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.5.6",
+                    "text": "Masalah perubatan semasa",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.5.7",
+                    "text": "Masalah ginekologi yang lalu (fibroid, cyst, pembedahan)",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.5.8",
+                    "text": "LNMP yang tidak pasti",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-17.5.9",
+                    "text": "3 kali keguguran yang berturutan",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

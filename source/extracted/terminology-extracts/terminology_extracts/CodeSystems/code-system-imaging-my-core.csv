@@ -1,0 +1,763 @@
+code,display,definition,system_url,system_name
+000,No Information,No Information,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+002,Abdomen,Abdomen,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+003,KUB,KUB,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+005,Chest,Chest,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+006,Chest ( AP Long Line - Paeds),Chest ( AP Long Line - Paeds),http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+008,Acromio Clavicular Joint,Acromio Clavicular Joint,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+009,Ankle Joint Right,Ankle Joint Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+010,Ankle Joint Left,Ankle Joint Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+011,Both Upper Limbs- Paediatric - Bone Length Measurement (AP),Both Upper Limbs- Paediatric - Bone Length Measurement (AP),http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+012,Both Lower Limbs- Paediatric - Bone Length Measurement,Both Lower Limbs- Paediatric - Bone Length Measurement,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+013,Calcaneum Right,Calcaneum Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+014,Calcaneum Left,Calcaneum Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+015,Clavicle Right,Clavicle Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+016,Clavicle Left,Clavicle Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+017,Elbow Joint Right,Elbow Joint Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+018,Elbow Joint Left,Elbow Joint Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+019,Femur Right X,Femur Right X,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+020,Femur Left X Ray,Femur Left X Ray,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+021,Fingers Right X Ray,Fingers Right X Ray,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+022,Fingers Left X Ray,Fingers Left X Ray,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+023,Foot Right,Foot Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+024,Foot Left,Foot Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+025,Hand Right,Hand Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+026,Hand Left,Hand Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+027,Hip Joint Right,Hip Joint Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+028,Hip Joint Left,Hip Joint Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+029,HumerRight,HumerRight,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+030,HumerLeft,HumerLeft,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+031,Knee Joint Right,Knee Joint Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+032,Knee Joint Left,Knee Joint Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+033,RadiUlna Right,RadiUlna Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+034,RadiUlna Left,RadiUlna Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+035,Scaphoid Left,Scaphoid Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+036,Scaphoid Right,Scaphoid Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+037,Scapula Right,Scapula Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+038,Scapula Left,Scapula Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+039,Shoulder Joint Right,Shoulder Joint Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+040,Shoulder Joint Left,Shoulder Joint Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+041,Sterno-Clavicular Joints,Sterno-Clavicular Joints,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+042,Sternum,Sternum,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+043,Thumb Right,Thumb Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+044,Thumb Left,Thumb Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+045,Tibia/Fibula Right,Tibia/Fibula Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+046,Tibia/Fibula Left,Tibia/Fibula Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+047,Wrist Joint Right,Wrist Joint Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+048,Wrist Joint Left,Wrist Joint Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+050,Pelvis,Pelvis,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+051,Pelvimetry,Pelvimetry,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+053,Skeletal Survey - Bone Age,Skeletal Survey - Bone Age,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+054,Skeletal Survey - Bone Dysplasia,Skeletal Survey - Bone Dysplasia,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+055,Skeletal Survey - Metastases (Paediatric),Skeletal Survey - Metastases (Paediatric),http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+056,Skeletal Survey - Metastases (Adult),Skeletal Survey - Metastases (Adult),http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+057,Skeletal Survey - Multiple Myeloma,Skeletal Survey - Multiple Myeloma,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+058,Skeletal Survey - NAI,Skeletal Survey - NAI,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+059,Skeletal Survey - Renal Osteo-Dystrophy (Adult),Skeletal Survey - Renal Osteo-Dystrophy (Adult),http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+060,Skeletal Survey - Renal Osteo-Dystrophy (Paediatric),Skeletal Survey - Renal Osteo-Dystrophy (Paediatric),http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+061,Skeletal Survey - Total Body - Infant,Skeletal Survey - Total Body - Infant,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+063,Facial Bones,Facial Bones,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+064,IAM (Internal Auditory Meatus),IAM (Internal Auditory Meatus),http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+065,Mandible,Mandible,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+066,Mastoids,Mastoids,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+067,Maxilla,Maxilla,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+068,Nasal Bone,Nasal Bone,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+069,CBCT,CBCT,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+070,Orbits,Orbits,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+071,Paranasal Sinuses,Paranasal Sinuses,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+072,PetroTemporal Bone Ray,PetroTemporal Bone Ray,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+073,Pituitary Fossa,Pituitary Fossa,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+074,Post Nasal Space,Post Nasal Space,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+075,Skull,Skull,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+076,OPG,OPG,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+077,TMJ (Temporo-Mandibular Joints),TMJ (Temporo-Mandibular Joints),http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+078,Zygoma,Zygoma,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+080,Cervical Spine,Cervical Spine,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+081,Neck,Neck,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+082,Cervical Spine C1 C2,Cervical Spine C1 C2,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+083,Thoracic Spine,Thoracic Spine,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+084,Thoraco Lumbar Spine,Thoraco Lumbar Spine,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+085,Lumbo Sacral Spine,Lumbo Sacral Spine,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+086,Whole Spine,Whole Spine,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+087,Sacro Iliac Joints,Sacro Iliac Joints,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+088,Sacrum Coccyx,Sacrum Coccyx,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+090,Mobile Abdomen,Mobile Abdomen,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+092,Mobile Chest,Mobile Chest,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+094,Mobile Ankle Joint Right,Mobile Ankle Joint Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+095,Mobile Ankle Joint Left,Mobile Ankle Joint Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+096,Mobile Clavicle Right,Mobile Clavicle Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+097,Mobile Clavicle Left,Mobile Clavicle Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+098,Mobile Elbow Right,Mobile Elbow Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+099,Mobile Elbow Left,Mobile Elbow Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+100,Mobile Femur Right,Mobile Femur Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+101,Mobile Femur Left,Mobile Femur Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+102,Mobile Foot Right,Mobile Foot Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+103,Mobile Foot Left,Mobile Foot Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+104,Mobile Hand Right,Mobile Hand Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+105,Mobile Hand Left,Mobile Hand Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+106,Mobile Hip Right,Mobile Hip Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+107,Mobile Hip Left,Mobile Hip Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+108,Mobile Humerus,Mobile Humerus,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+109,Mobile HumerLeft,Mobile HumerLeft,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+110,Mobile Knee Joint Right,Mobile Knee Joint Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+111,Mobile Knee Joint Left,Mobile Knee Joint Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+112,Mobile RadiUlna Right,Mobile RadiUlna Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+113,Mobile RadiUlna Left,Mobile RadiUlna Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+114,Mobile Shoulder Joint Right,Mobile Shoulder Joint Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+115,Mobile Shoulder Joint Left X,Mobile Shoulder Joint Left X,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+116,Mobile Tibia Fibula Right,Mobile Tibia Fibula Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+117,Mobile Tibia Fibula Left,Mobile Tibia Fibula Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+118,Mobile Wrist Joint Right,Mobile Wrist Joint Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+119,Mobile Wrist Joint Left,Mobile Wrist Joint Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+121,Mobile Pelvis,Mobile Pelvis,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+123,Mobile Skeletal Survey - Total Body,Mobile Skeletal Survey - Total Body,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+125,Mobile Skull X Ray,Mobile Skull X Ray,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+127,Mobile Spine Cervical,Mobile Spine Cervical,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+128,Mobile Spine Thoracic,Mobile Spine Thoracic,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+129,Mobile Spine Thoraco Lumbar,Mobile Spine Thoraco Lumbar,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+130,Mobile Spine Lumbo Sacral,Mobile Spine Lumbo Sacral,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+131,Mobile Spine Whole Spine,Mobile Spine Whole Spine,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+133,Abdomen / Pelvis,Abdomen / Pelvis,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+134,Abdomen / Pelvis - Multiphase,Abdomen / Pelvis - Multiphase,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+135,Urography (CTU),Urography (CTU),http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+136,Liver 4 phase,Liver 4 phase,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+137,Renal,Renal,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+138,Adrenals,Adrenals,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+140,CTA Abdomen,CTA Abdomen,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+141,PetroBone,PetroBone,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+142,CTA Brain,CTA Brain,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+143,CTA Aorta,CTA Aorta,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+144,CTA Carotid,CTA Carotid,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+145,CTA Hepatobiliary,CTA Hepatobiliary,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+146,CTA Lower Limbs,CTA Lower Limbs,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+147,CTA Renal,CTA Renal,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+148,CTA Upper Limb Left,CTA Upper Limb Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+149,CTA Upper Limb Right,CTA Upper Limb Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+151,Arthrogram - Shoulder,Arthrogram - Shoulder,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+152,Arthrogram - Wrist,Arthrogram - Wrist,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+153,Arthrogram - Elbow,Arthrogram - Elbow,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+154,Arthrogram - Hip,Arthrogram - Hip,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+155,Arthrogram - Knee,Arthrogram - Knee,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+156,Arthrogram - Ankle,Arthrogram - Ankle,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+157,Arthrogram - Others,Arthrogram - Others,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+159,Ankle Joint Left,Ankle Joint Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+160,Ankle Joint Right,Ankle Joint Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+161,CT-Hand Left,CT-Hand Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+162,CT-Hand Right,CT-Hand Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+163,Elbow Joint Left,Elbow Joint Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+164,Elbow Joint Right,Elbow Joint Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+165,Hip Joints,Hip Joints,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+166,Knee Joint Left,Knee Joint Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+167,Knee Joint Right,Knee Joint Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+168,Lower Limb Left,Lower Limb Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+169,Lower Limb Right,Lower Limb Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+170,Shoulder Joint Left,Shoulder Joint Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+171,Shoulder Joint Right,Shoulder Joint Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+172,Upper Limb Left,Upper Limb Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+173,Upper Limb Right,Upper Limb Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+174,Wrist Joint Left,Wrist Joint Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+175,Wrist Joint Right,Wrist Joint Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+177,Brain - Contrast,Brain - Contrast,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+178,Brain,Brain,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+179,Brain - Brain Suite,Brain - Brain Suite,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+180,Maxillo-facial,Maxillo-facial,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+181,Head & Neck,Head & Neck,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+182,Skull,Skull,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+183,IAM (Int. Auditory Meatus),IAM (Int. Auditory Meatus),http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+184,Neck,Neck,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+185,OMC (Osteo-Meatal Complex),OMC (Osteo-Meatal Complex),http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+186,Orbits,Orbits,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+187,Face,Face,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+188,Face - Contrast,Face - Contrast,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+189,Facial Bone,Facial Bone,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+190,Paranasal Sinuses,Paranasal Sinuses,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+191,Temporal Bone (HRCT),Temporal Bone (HRCT),http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+192,Cisternography,Cisternography,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+193,Pituitary Fossa,Pituitary Fossa,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+194,TMJ (Temporo-Mandibular Joints),TMJ (Temporo-Mandibular Joints),http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+195,Neck Thorax Abdomen,Neck Thorax Abdomen,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+197,Pelvis,Pelvis,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+199,Myelogram - Cervical,Myelogram - Cervical,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+200,Myelogram - Lumbar,Myelogram - Lumbar,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+201,Myelogram - Thoracic,Myelogram - Thoracic,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+202,Spine - Cervical,Spine - Cervical,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+203,Spine - Lumbar,Spine - Lumbar,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+204,Spine - Sacrum & Coccyx,Spine - Sacrum & Coccyx,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+205,Spine -Thoracic,Spine -Thoracic,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+207,Lungs (HRCT),Lungs (HRCT),http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+208,Thorax,Thorax,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+209,Thorax and Abdomen,Thorax and Abdomen,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+210,Thorax Abdomen Pelvis,Thorax Abdomen Pelvis,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+211,Cardiac Ca Score,Cardiac Ca Score,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+212,CTPA (Pulmonary Artery),CTPA (Pulmonary Artery),http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+213,Cardiac,Cardiac,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+215,PET/Imaging Request Form - Oncology,PET/Imaging Request Form - Oncology,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+216,Others,Others,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+218,MRI Abdomen,MRI Abdomen,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+220,MRA - Cerebral,MRA - Cerebral,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+221,MRA - Carotids,MRA - Carotids,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+222,MRA - Renal,MRA - Renal,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+223,MRA - Hepatobiliary,MRA - Hepatobiliary,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+224,MRA - Upper Extremity Right,MRA - Upper Extremity Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+225,MRA - Upper Extremity Left,MRA - Upper Extremity Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+226,MRA - Lower Extremity,MRA - Lower Extremity,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+227,MRA - Abdomen,MRA - Abdomen,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+228,MRA - Thorax,MRA - Thorax,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+229,MRA - Others,MRA - Others,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+231,MRV - Brain,MRV - Brain,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+232,MRV - Upper Extremity Right,MRV - Upper Extremity Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+233,MRV - Upper Extremity Left,MRV - Upper Extremity Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+234,MRV - Lower Extremity,MRV - Lower Extremity,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+236,MRI Arthrogram - Shoulder,MRI Arthrogram - Shoulder,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+237,MRI Arthrogram - Wrist,MRI Arthrogram - Wrist,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+238,MRI Arthrogram - Elbow,MRI Arthrogram - Elbow,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+239,MRI Arthrogram - Hip,MRI Arthrogram - Hip,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+240,MRI Arthrogram - Knee,MRI Arthrogram - Knee,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+241,MRI Arthrogram - Ankle,MRI Arthrogram - Ankle,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+242,MRI Arthrogram - Others,MRI Arthrogram - Others,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+244,MRI Breasts,MRI Breasts,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+246,MR Dynamic - Spine - Cervical,MR Dynamic - Spine - Cervical,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+247,MR Dynamic - Wrist Joints,MR Dynamic - Wrist Joints,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+248,MR Dynamic - Temporo-mandibular Joint,MR Dynamic - Temporo-mandibular Joint,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+249,MR Dynamic - Others,MR Dynamic - Others,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+251,MRI Ankle Joint Left,MRI Ankle Joint Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+252,MRI Ankle Joint Right,MRI Ankle Joint Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+253,MRI Elbow Joint Left,MRI Elbow Joint Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+254,MRI Elbow Joint Right,MRI Elbow Joint Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+255,MRI Forearm Left,MRI Forearm Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+256,MRI Forearm Right,MRI Forearm Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+257,MRI Lower Leg Left,MRI Lower Leg Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+258,MRI Lower Leg Right,MRI Lower Leg Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+259,MRI Foot Left,MRI Foot Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+260,MRI Foot Right,MRI Foot Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+261,MRI Shoulder Joint Left,MRI Shoulder Joint Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+262,MRI Shoulder Joint Right,MRI Shoulder Joint Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+263,MRI Hand Left,MRI Hand Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+264,MRI Hand Right,MRI Hand Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+265,MRI Upper Arm Left,MRI Upper Arm Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+266,MRI Upper Arm Right,MRI Upper Arm Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+267,MRI Hip Joints,MRI Hip Joints,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+268,MRI Thigh Left,MRI Thigh Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+269,MRI Thigh Right,MRI Thigh Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+270,MRI Knee Joint Left,MRI Knee Joint Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+271,MRI Knee Joint Right,MRI Knee Joint Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+272,MRI Wrist Joint Left,MRI Wrist Joint Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+273,MRI Wrist Joint Right,MRI Wrist Joint Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+274,MRI Brachial Plex- Left,MRI Brachial Plex- Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+275,MRI Brachial Plex- Right,MRI Brachial Plex- Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+277,MRI Perfusion,MRI Perfusion,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+278,MRI Spectroscopy,MRI Spectroscopy,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+279,MRI Functional,MRI Functional,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+281,MRI Brain,MRI Brain,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+282,MRI Brain Stem,MRI Brain Stem,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+283,MRI Brain - Advanced Neuro Imaging (Diffusion/Perfusion/Spectroscopy/ Functional),MRI Brain - Advanced Neuro Imaging (Diffusion/Perfusion/Spectroscopy/ Functional),http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+284,MRI Face,MRI Face,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+285,MRI Cisternogram,MRI Cisternogram,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+286,MRI IAM (Internal Auditory Meatus),MRI IAM (Internal Auditory Meatus),http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+287,MRI Neck,MRI Neck,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+288,MRI Orbits,MRI Orbits,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+289,MRI Paranasal Sinuses,MRI Paranasal Sinuses,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+290,MRI Pituitary Fossa,MRI Pituitary Fossa,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+291,MRI Temporal Lobe,MRI Temporal Lobe,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+292,MRI TMJ ( Temporo-Mandibular Joints),MRI TMJ ( Temporo-Mandibular Joints),http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+293,MRI Salivary Glands,MRI Salivary Glands,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+295,MRI - Hepatobiliary,MRI - Hepatobiliary,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+296,MRCP (MR Cholangio-Pancreatography),MRCP (MR Cholangio-Pancreatography),http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+298,MRI Pelvimetry,MRI Pelvimetry,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+299,MRI Pelvis,MRI Pelvis,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+300,MRI Uter(Genitourinary System),MRI Uter(Genitourinary System),http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+301,MRI Feotus,MRI Feotus,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+302,MRI Rectum,MRI Rectum,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+304,MRI Spine - Cervical,MRI Spine - Cervical,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+305,MRI Spine - Lumbar,MRI Spine - Lumbar,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+306,MRI Spine - Thoracic,MRI Spine - Thoracic,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+307,MRI Spine - Whole,MRI Spine - Whole,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+308,MRI Sacroiliac Joint,MRI Sacroiliac Joint,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+310,MRI Thorax,MRI Thorax,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+311,MRI - Cardiac,MRI - Cardiac,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+313,MRI - Renal,MRI - Renal,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+314,MRI - Adrenals,MRI - Adrenals,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+315,MRI - Prostate,MRI - Prostate,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+316,MRI - Urogram,MRI - Urogram,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+318,MRI AV Fistulogram,MRI AV Fistulogram,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+319,MRI - Others,MRI - Others,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+320,MRI Wholebody,MRI Wholebody,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+322,Mammogram Diagnostic - Bilateral,Mammogram Diagnostic - Bilateral,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+323,Mammogram Diagnostic - Left,Mammogram Diagnostic - Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+324,Mammogram Diagnostic - Right,Mammogram Diagnostic - Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+325,Mammogram - Specimen,Mammogram - Specimen,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+326,Mammography - Screening,Mammography - Screening,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+328,Cranium,Cranium,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+329,Abdomen,Abdomen,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+330,Neck,Neck,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+331,Head & Neck,Head & Neck,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+332,Face,Face,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+333,Pelvis,Pelvis,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+335,Breasts,Breasts,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+337,Brain,Brain,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+338,Brain - Doppler,Brain - Doppler,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+339,Spinal Cord,Spinal Cord,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+341,Abdominal Aorta,Abdominal Aorta,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+342,Doppler - Carotid Artery,Doppler - Carotid Artery,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+343,Doppler Aorta,Doppler Aorta,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+344,Doppler Lower Limb Artery Left,Doppler Lower Limb Artery Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+345,Doppler Lower Limb Artery Right,Doppler Lower Limb Artery Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+346,Doppler Renal Artery,Doppler Renal Artery,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+347,Doppler Upper Limb Artery Left,Doppler Upper Limb Artery Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+348,Doppler Upper Limb Artery Right,Doppler Upper Limb Artery Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+349,Doppler ArterioVenoFistula,Doppler ArterioVenoFistula,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+350,Thoracic Aorta,Thoracic Aorta,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+351,Other Arteries,Other Arteries,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+353,Doppler Abdominal Veins,Doppler Abdominal Veins,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+354,Doppler Lower Limb Vein - Left,Doppler Lower Limb Vein - Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+355,Doppler Lower Limb Vein - Right,Doppler Lower Limb Vein - Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+356,Doppler Neck Vein,Doppler Neck Vein,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+357,Doppler Renal Vein - Left,Doppler Renal Vein - Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+358,Doppler Renal Vein - Right,Doppler Renal Vein - Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+359,Doppler Upper Limb Vein - Left,Doppler Upper Limb Vein - Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+360,Doppler Upper Limb Vein - Right,Doppler Upper Limb Vein - Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+361,Neck Vein,Neck Vein,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+362,Other Veins,Other Veins,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+364,Rectum,Rectum,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+366,Adrenals,Adrenals,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+367,Parathyroids,Parathyroids,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+368,Thyroid,Thyroid,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+370,Doppler - Liver,Doppler - Liver,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+371,Hepatobiliary System,Hepatobiliary System,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+372,Pancreas,Pancreas,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+374,Abdominal Wall,Abdominal Wall,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+375,Chest Wall,Chest Wall,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+376,Axilla,Axilla,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+377,Limb - Lower,Limb - Lower,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+378,Limb - Upper,Limb - Upper,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+379,Tendon - Limb - Lower,Tendon - Limb - Lower,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+380,Tendon - Limb - Upper,Tendon - Limb - Upper,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+381,Inguinal region,Inguinal region,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+383,Elbow Joints,Elbow Joints,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+384,Hands,Hands,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+385,Fingers,Fingers,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+386,Toes,Toes,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+387,Hip Joints,Hip Joints,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+388,Knee Joints,Knee Joints,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+389,Shoulder Joints,Shoulder Joints,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+390,Spine - Cervical,Spine - Cervical,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+391,Spine - Lumbar,Spine - Lumbar,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+392,Spine - Sacrum and Coccyx,Spine - Sacrum and Coccyx,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+393,Spine -Thoracic,Spine -Thoracic,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+394,Wrist Joints,Wrist Joints,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+396,Gynaecology,Gynaecology,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+397,Obstetric,Obstetric,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+398,Transvaginal,Transvaginal,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+400,Doppler Scrotum/Testes,Doppler Scrotum/Testes,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+401,Penis,Penis,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+402,Prostate and Seminal Vesicles,Prostate and Seminal Vesicles,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+403,Prostate and Seminal Vesicles - Transrectal,Prostate and Seminal Vesicles - Transrectal,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+404,Scrotum/Testes,Scrotum/Testes,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+406,Diaphragm,Diaphragm,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+407,Thorax,Thorax,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+409,Doppler - Kidneys,Doppler - Kidneys,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+410,Kidney Allograft,Kidney Allograft,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+411,"Kidneys, Ureters and Bladder","Kidneys, Ureters and Bladder",http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+412,Bladder,Bladder,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+413,Kidney,Kidney,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+415,Endoscopic,Endoscopic,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+416,Others,Others,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+418,Mobile Abdomen,Mobile Abdomen,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+419,Mobile Head & Neck,Mobile Head & Neck,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+420,Mobile Pelvis,Mobile Pelvis,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+422,Mobile Brain,Mobile Brain,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+423,Mobile Brain - Doppler,Mobile Brain - Doppler,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+424,Mobile Spinal Cord,Mobile Spinal Cord,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+426,Mobile Abdominal Aorta,Mobile Abdominal Aorta,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+427,Mobile Doppler - Carotid Artery,Mobile Doppler - Carotid Artery,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+428,Mobile Doppler Aorta,Mobile Doppler Aorta,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+429,MobileDoppler Lower Limb Artery Left,MobileDoppler Lower Limb Artery Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+430,Mobile Doppler Lower Limb Artery Right -,Mobile Doppler Lower Limb Artery Right -,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+431,Mobile Doppler Renal Artery,Mobile Doppler Renal Artery,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+432,Mobile Doppler Upper Limb Artery Left,Mobile Doppler Upper Limb Artery Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+433,Mobile Doppler Upper Limb Artery Right,Mobile Doppler Upper Limb Artery Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+434,Mobile Thoracic Aorta,Mobile Thoracic Aorta,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+435,Other Arteries,Other Arteries,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+437,Mobile Doppler Abdominal Veins -,Mobile Doppler Abdominal Veins -,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+438,Mobile Doppler Lower Limb Vein - Left,Mobile Doppler Lower Limb Vein - Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+439,Mobile Doppler Lower Limb Vein - Right,Mobile Doppler Lower Limb Vein - Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+440,Mobile Doppler Neck Vein,Mobile Doppler Neck Vein,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+441,Mobile Doppler Renal Vein,Mobile Doppler Renal Vein,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+442,Mobile Doppler Upper Limb Vein - Left -,Mobile Doppler Upper Limb Vein - Left -,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+443,Mobile Doppler Upper Limb Vein - Right -,Mobile Doppler Upper Limb Vein - Right -,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+444,Other Veins,Other Veins,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+445,Mobile Neck Vein,Mobile Neck Vein,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+447,Mobile Doppler - Liver,Mobile Doppler - Liver,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+448,Mobile Guided Liver Aspiration,Mobile Guided Liver Aspiration,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+449,Mobile Guided Liver Biopsy,Mobile Guided Liver Biopsy,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+450,Mobile Hepatobiliary System,Mobile Hepatobiliary System,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+452,Mobile Diaphragm,Mobile Diaphragm,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+453,Mobile Thorax,Mobile Thorax,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+455,Mobile Doppler - Kidneys,Mobile Doppler - Kidneys,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+456,Mobile Kidney Allograft,Mobile Kidney Allograft,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+457,"Mobile Kidneys, Ureters and Bladder","Mobile Kidneys, Ureters and Bladder",http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+458,Mobile Bladder,Mobile Bladder,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+459,Mobile Kidney,Mobile Kidney,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+461,Angiography â€“ Aorta Abdominal,Angiography â€“ Aorta Abdominal,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+462,Angiography â€“ Visceral,Angiography â€“ Visceral,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+463,Angiography Renal,Angiography Renal,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+464,Angiography â€“ Pelvis,Angiography â€“ Pelvis,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+465,Angiography â€“ Kidney Allograft,Angiography â€“ Kidney Allograft,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+467,Angiography - Intracranial - 4 Vessel Study,Angiography - Intracranial - 4 Vessel Study,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+468,Angiography - Intracranial - 6 Vessel Study,Angiography - Intracranial - 6 Vessel Study,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+469,Angiography - Extracranial,Angiography - Extracranial,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+470,Angiography Single Vessel (Specify),Angiography Single Vessel (Specify),http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+471,Angiography â€“ Aorta and Lower Extremities - Bilateral,Angiography â€“ Aorta and Lower Extremities - Bilateral,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+472,Angiography â€“ Lower Extremity Right,Angiography â€“ Lower Extremity Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+473,Angiography â€“ Lower Extremity Left,Angiography â€“ Lower Extremity Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+474,Angiography - Upper Extremities Bilateral,Angiography - Upper Extremities Bilateral,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+475,Angiography â€“ Upper Extremity Right,Angiography â€“ Upper Extremity Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+476,Angiography â€“ Upper Extremity Left,Angiography â€“ Upper Extremity Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+478,Angiography - Arch Aortogram,Angiography - Arch Aortogram,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+479,Angiography â€“ Aorta Thoracic,Angiography â€“ Aorta Thoracic,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+480,Angiography â€“ Aorta Thoraco-abdominal,Angiography â€“ Aorta Thoraco-abdominal,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+481,Angiography â€“ Intercostal and Bronchial,Angiography â€“ Intercostal and Bronchial,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+482,Angiography â€“ Spinal,Angiography â€“ Spinal,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+483,Angiography â€“ Pulmonary,Angiography â€“ Pulmonary,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+485,Venography â€“ Inferior Vena Cava,Venography â€“ Inferior Vena Cava,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+486,Venography Renal,Venography Renal,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+487,Venography â€“ Portal and Splanchnic / Mesentric,Venography â€“ Portal and Splanchnic / Mesentric,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+488,Venography â€“ Pelvic Vein,Venography â€“ Pelvic Vein,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+489,Venography â€“ Kidney Allograft,Venography â€“ Kidney Allograft,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+490,Venography â€“ Spinal,Venography â€“ Spinal,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+491,Venography â€“ Others,Venography â€“ Others,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+493,Venography â€“ Lower Extremity Right,Venography â€“ Lower Extremity Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+494,Venography â€“ Lower Extremity Left,Venography â€“ Lower Extremity Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+495,Venography â€“ Lower Extremity - Both,Venography â€“ Lower Extremity - Both,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+496,Venography â€“ Upper Extremity Central,Venography â€“ Upper Extremity Central,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+497,Venography â€“ Upper Extremity Right,Venography â€“ Upper Extremity Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+498,Venography â€“ Upper Extremity Left,Venography â€“ Upper Extremity Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+499,Venography â€“ Dialysis shunt / Fistula,Venography â€“ Dialysis shunt / Fistula,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+501,Venography â€“ Jugular Vein Bilateral,Venography â€“ Jugular Vein Bilateral,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+502,Venography â€“ Jugular Vein Right,Venography â€“ Jugular Vein Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+503,Venography â€“ Jugualr Vein Left,Venography â€“ Jugualr Vein Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+505,Venography â€“ Superior Vena Cava,Venography â€“ Superior Vena Cava,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+506,Venography - Others,Venography - Others,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+508,Angioplasty â€“ Aorta Abdominal,Angioplasty â€“ Aorta Abdominal,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+509,Angioplasty â€“ Renal Bilateral,Angioplasty â€“ Renal Bilateral,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+510,Angioplasty â€“ Renal Right,Angioplasty â€“ Renal Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+511,Angioplasty â€“ Renal Left,Angioplasty â€“ Renal Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+512,Angioplasty â€“ Renal Allograft,Angioplasty â€“ Renal Allograft,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+513,Angioplasty Iliac Left,Angioplasty Iliac Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+514,Angioplasty Iliac Right,Angioplasty Iliac Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+515,Angioplasty - Abdomen / Pelvis - Others,Angioplasty - Abdomen / Pelvis - Others,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+516,Angioplasty Cerebral â€“ Carotid Common Left,Angioplasty Cerebral â€“ Carotid Common Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+517,Angioplasty Cerebral â€“ Carotid Common Right,Angioplasty Cerebral â€“ Carotid Common Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+518,Angioplasty Cerebral â€“ Carotid External Left,Angioplasty Cerebral â€“ Carotid External Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+519,Angioplasty Cerebral â€“ Carotid External Right,Angioplasty Cerebral â€“ Carotid External Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+520,Angioplasty Cerebral â€“ Carotid Internal Left,Angioplasty Cerebral â€“ Carotid Internal Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+521,Angioplasty Cerebral â€“ Carotid Internal Right,Angioplasty Cerebral â€“ Carotid Internal Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+522,Angioplasty Cerebral â€“ Vertebral Left,Angioplasty Cerebral â€“ Vertebral Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+523,Angioplasty Cerebral â€“ Vertebral Right,Angioplasty Cerebral â€“ Vertebral Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+524,Angioplasty Cerebral â€“ Others,Angioplasty Cerebral â€“ Others,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+525,Angioplasty â€“ Upper Extremity Right,Angioplasty â€“ Upper Extremity Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+526,Angioplasty â€“ Upper Extremity Left,Angioplasty â€“ Upper Extremity Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+527,Angioplasty â€“ Lower Extremity Right,Angioplasty â€“ Lower Extremity Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+528,Angioplasty â€“ Lower Extremity Left,Angioplasty â€“ Lower Extremity Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+529,Angioplasty - Thoracic,Angioplasty - Thoracic,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+531,Atherectomy Abdomen,Atherectomy Abdomen,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+532,Atherectomy Cerebral - Single,Atherectomy Cerebral - Single,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+533,Atherectomy Extremity - Single,Atherectomy Extremity - Single,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+534,Atherectomy Thorax - Single,Atherectomy Thorax - Single,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+536,Embolisation - Visceral,Embolisation - Visceral,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+537,Embolisation - Hepatic,Embolisation - Hepatic,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+538,Embolisation â€“ Renal Right,Embolisation â€“ Renal Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+539,Embolisation â€“ Renal Left,Embolisation â€“ Renal Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+540,Embolisation â€“ Renal Allograft,Embolisation â€“ Renal Allograft,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+541,Embolisation Iliac Left,Embolisation Iliac Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+542,Embolisation Iliac Right,Embolisation Iliac Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+543,Embolisation Uterine Artery,Embolisation Uterine Artery,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+544,Chemo - Embolisation - Liver,Chemo - Embolisation - Liver,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+545,Embolisation - Others,Embolisation - Others,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+546,Embolisation Cerebral,Embolisation Cerebral,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+547,Embolisation Extracranial,Embolisation Extracranial,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+548,Embolisation â€“ Upper Extremity Right,Embolisation â€“ Upper Extremity Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+549,Embolisation â€“ Upper Extremity Left,Embolisation â€“ Upper Extremity Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+550,Embolisation â€“ Lower Extremity Right,Embolisation â€“ Lower Extremity Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+551,Embolisation â€“ Lower Extremity Left,Embolisation â€“ Lower Extremity Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+552,Embolisation Thorax,Embolisation Thorax,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+554,Endovascular Brachytherapy - Lower Arteries,Endovascular Brachytherapy - Lower Arteries,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+555,Endovascular Brachytherapy - Upper Arteries,Endovascular Brachytherapy - Upper Arteries,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+557,Fibrin Stripping - Lower Arteries,Fibrin Stripping - Lower Arteries,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+558,Fibrin Stripping - Upper Arteries,Fibrin Stripping - Upper Arteries,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+560,Fistulogram / Sinogram - Abdomen / Pelvis,Fistulogram / Sinogram - Abdomen / Pelvis,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+561,Fistulogram / Sinogram - Head / Neck,Fistulogram / Sinogram - Head / Neck,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+562,Fistulogram / Sinogram - Lower Extremity,Fistulogram / Sinogram - Lower Extremity,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+563,Fistulogram / Sinogram - Upper Extremity,Fistulogram / Sinogram - Upper Extremity,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+565,Foreign Body Retrieval - Lower Arteries,Foreign Body Retrieval - Lower Arteries,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+566,Foreign Body Retrieval - Upper Arteries,Foreign Body Retrieval - Upper Arteries,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+568,Port Placement - Vein,Port Placement - Vein,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+570,Stenting â€“ Aorta Abdominal,Stenting â€“ Aorta Abdominal,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+571,Stenting â€“ Renal Allograft,Stenting â€“ Renal Allograft,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+572,Stenting â€“ Renal Left,Stenting â€“ Renal Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+573,Stenting â€“ Renal Right,Stenting â€“ Renal Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+574,Stenting Iliac Left,Stenting Iliac Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+575,Stenting Iliac Right,Stenting Iliac Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+576,Stenting - Others,Stenting - Others,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+577,Stenting Cerebral â€“ Carotid Common Right,Stenting Cerebral â€“ Carotid Common Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+578,Stenting Cerebral â€“Carotid Common Left,Stenting Cerebral â€“Carotid Common Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+579,Stenting Cerebral â€“ Carotid Internal Right,Stenting Cerebral â€“ Carotid Internal Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+580,Stenting Cerebral â€“ Carotid Internal Left,Stenting Cerebral â€“ Carotid Internal Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+581,Stenting Cerebral â€“ Carotid External Right,Stenting Cerebral â€“ Carotid External Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+582,Stenting Cerebral â€“ Carotid ExternalLeft,Stenting Cerebral â€“ Carotid ExternalLeft,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+583,Stenting Cerebral â€“ Vertebral Right,Stenting Cerebral â€“ Vertebral Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+584,Stenting Cerebral â€“ Vertebral Left,Stenting Cerebral â€“ Vertebral Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+585,Stenting Cerebral - Others,Stenting Cerebral - Others,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+586,Stenting â€“ Upper Extremity Right,Stenting â€“ Upper Extremity Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+587,Stenting â€“ UpperExtremity Left,Stenting â€“ UpperExtremity Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+588,Stenting â€“ Lower Extremity Right,Stenting â€“ Lower Extremity Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+589,Stenting â€“ Lower Extremity Left,Stenting â€“ Lower Extremity Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+590,Stenting â€“ Thoracic,Stenting â€“ Thoracic,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+592,Thrombolysis Abdominal Artery,Thrombolysis Abdominal Artery,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+593,Thrombolysis Abdominal Vein,Thrombolysis Abdominal Vein,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+594,Thrombolysis Cerebral Artery,Thrombolysis Cerebral Artery,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+595,Thrombolysis Cerebral Vein,Thrombolysis Cerebral Vein,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+596,Thrombolysis â€“ Lower Extremity Right Artery,Thrombolysis â€“ Lower Extremity Right Artery,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+597,Thrombolysis â€“ Lower Extremity Right Vein,Thrombolysis â€“ Lower Extremity Right Vein,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+598,Thrombolysis â€“ Upper Extremity Left Artery,Thrombolysis â€“ Upper Extremity Left Artery,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+599,Thrombolysis â€“ Upper Extremity Left Vein,Thrombolysis â€“ Upper Extremity Left Vein,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+600,Thrombolysis â€“ Upper Extremity Right Artery,Thrombolysis â€“ Upper Extremity Right Artery,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+601,Thrombolysis â€“ Upper Extremity Right Vein,Thrombolysis â€“ Upper Extremity Right Vein,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+602,Thrombolysis â€“Lower Extremity Left Artery,Thrombolysis â€“Lower Extremity Left Artery,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+603,Thrombolysis â€“Lower Extremity Left Vein,Thrombolysis â€“Lower Extremity Left Vein,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+604,Thrombolysis - Thoracic Artery,Thrombolysis - Thoracic Artery,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+605,Thrombolysis - Pulmonary,Thrombolysis - Pulmonary,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+606,Thrombolysis - Thoracic Vein,Thrombolysis - Thoracic Vein,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+608,Oesophageal Dilatation,Oesophageal Dilatation,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+609,Oesophageal Stent Insertion,Oesophageal Stent Insertion,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+610,Fluoroscopy Guided GI - Dilatation,Fluoroscopy Guided GI - Dilatation,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+611,Gastrointestinal System - Others,Gastrointestinal System - Others,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+613,Biliary Dilatation,Biliary Dilatation,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+614,Biliary Dilatation & Stenting,Biliary Dilatation & Stenting,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+615,Fluoroscopy Guided Biopsy - Transjugular - Liver,Fluoroscopy Guided Biopsy - Transjugular - Liver,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+616,Pancreatic DuStenting,Pancreatic DuStenting,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+617,PercutaneoCholecystostomy,PercutaneoCholecystostomy,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+618,PTBD (PercutaneoTranshepatic Biliary Drainage),PTBD (PercutaneoTranshepatic Biliary Drainage),http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+619,PTC (PercutaneoTranshepatic Cholangiogram),PTC (PercutaneoTranshepatic Cholangiogram),http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+620,Removal of Calcul/ Worm - Biliary - Percutaneous,Removal of Calcul/ Worm - Biliary - Percutaneous,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+621,Removal of Worms / Calcul- Biliary - Endoscopic,Removal of Worms / Calcul- Biliary - Endoscopic,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+622,Hepatobiliary System - Others,Hepatobiliary System - Others,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+624,Fluoroscopy Guided Biopsy - Lung left,Fluoroscopy Guided Biopsy - Lung left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+625,Fluoroscopy Guided Biopsy - Lung right,Fluoroscopy Guided Biopsy - Lung right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+626,Insertion of Bronchial Stent - Left,Insertion of Bronchial Stent - Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+627,Insertion of Bronchial Stent - Right,Insertion of Bronchial Stent - Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+628,Insertion of Tracheal Stent,Insertion of Tracheal Stent,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+629,Occlusion of Broncho-pleural Fistula - Left,Occlusion of Broncho-pleural Fistula - Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+630,Occlusion of Broncho-pleural Fistula Right,Occlusion of Broncho-pleural Fistula Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+632,APG (Antegrade Pyelogram) - Left,APG (Antegrade Pyelogram) - Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+633,APG (Antegrade Pyelogram) - Right,APG (Antegrade Pyelogram) - Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+634,Fluoroscopy Guided Cystostomy,Fluoroscopy Guided Cystostomy,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+635,Fluoroscopy Guided Nephrostomy - Bilateral,Fluoroscopy Guided Nephrostomy - Bilateral,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+636,Fluoroscopy Guided Nephrostomy - Left,Fluoroscopy Guided Nephrostomy - Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+637,Fluoroscopy Guided Nephrostomy - Right,Fluoroscopy Guided Nephrostomy - Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+638,PercutaneoNephrostomy,PercutaneoNephrostomy,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+639,PercutaneoAntegrade Ureteroplasty/Stenting - Left,PercutaneoAntegrade Ureteroplasty/Stenting - Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+640,PercutaneoAntegrade Ureteroplasty/Stenting - Right,PercutaneoAntegrade Ureteroplasty/Stenting - Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+641,PercutaneoRemoval of Urinary Calcul- Left,PercutaneoRemoval of Urinary Calcul- Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+642,PercutaneoRemoval of Urinary Calcul- Right,PercutaneoRemoval of Urinary Calcul- Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+643,Retrograde Ureteroplasty/Stenting - Left,Retrograde Ureteroplasty/Stenting - Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+644,Retrograde Ureteroplasty/Stenting - Right,Retrograde Ureteroplasty/Stenting - Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+645,RPG (Retrograde Pyelogram) - Bilateral,RPG (Retrograde Pyelogram) - Bilateral,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+646,RPG (Retrograde Pyelogram) - Left,RPG (Retrograde Pyelogram) - Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+647,RPG (Retrograde Pyelogram) - Right,RPG (Retrograde Pyelogram) - Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+649,Venography â€“ IVC (Inf. Vena Cava) - Filter Insertion,Venography â€“ IVC (Inf. Vena Cava) - Filter Insertion,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+650,TIPSS/DIPSS (Porto Systemic Shunt),TIPSS/DIPSS (Porto Systemic Shunt),http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+651,VenoSampling - Petrosal,VenoSampling - Petrosal,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+652,VenoSampling - Adrenal,VenoSampling - Adrenal,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+653,VenoSampling - Pancreas,VenoSampling - Pancreas,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+654,Insertion VenoCatheter,Insertion VenoCatheter,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+656,Mammogram - Ductogram Left,Mammogram - Ductogram Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+657,Mammogram - Ductogram Right,Mammogram - Ductogram Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+658,Mammogram - Wire Localisation Left,Mammogram - Wire Localisation Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+659,Mammogram - Wire Localisation Right,Mammogram - Wire Localisation Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+660,Mammogram Stereotactic biopsy Left,Mammogram Stereotactic biopsy Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+661,Mammogram Stereotactic Biopsy Right,Mammogram Stereotactic Biopsy Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+663,Guided Procedure - Abdomen,Guided Procedure - Abdomen,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+664,Guided Procedures - Brain,Guided Procedures - Brain,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+665,Guided Procedure - Spine,Guided Procedure - Spine,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+666,Guided Procedure - Thorax,Guided Procedure - Thorax,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+667,Guided Procedure - MSK,Guided Procedure - MSK,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+668,Guided Procedure - Others,Guided Procedure - Others,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+669,Image Guided Surgery (IGS),Image Guided Surgery (IGS),http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+671,MRI guided Procedures,MRI guided Procedures,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+673,Guided Biopsy/Aspiration - Breast Left,Guided Biopsy/Aspiration - Breast Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+674,Guided Biopsy/Aspiration - Breast Right,Guided Biopsy/Aspiration - Breast Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+675,Guided Hookwire Localisation - Breast Left,Guided Hookwire Localisation - Breast Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+676,Guided Hoowire Localisation - Breast Right,Guided Hoowire Localisation - Breast Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+677,Guided Biopsy - Thyroid/Neck,Guided Biopsy - Thyroid/Neck,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+678,Guided Liver Aspiration,Guided Liver Aspiration,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+679,Guided Liver Biopsy,Guided Liver Biopsy,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+680,Guided Tumour Ablation Therapy,Guided Tumour Ablation Therapy,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+681,Guided Biopsy / Aspiration Abdominal,Guided Biopsy / Aspiration Abdominal,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+682,Guided Aspiration - Abdomen,Guided Aspiration - Abdomen,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+683,Guided Biopsy / Aspiration Chest Wall,Guided Biopsy / Aspiration Chest Wall,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+684,Guided Biopsy / Aspiration Limb - Lower,Guided Biopsy / Aspiration Limb - Lower,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+685,Guided Biopsy / Aspiration Limb - Upper,Guided Biopsy / Aspiration Limb - Upper,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+686,Guided Procedure - Elbow,Guided Procedure - Elbow,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+687,Guided Procedure - Hip,Guided Procedure - Hip,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+688,Guided Procedure - Shoulder,Guided Procedure - Shoulder,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+689,Guided Procedure - Knee,Guided Procedure - Knee,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+690,Guided Procedure - Wrist Joints,Guided Procedure - Wrist Joints,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+691,Guided Procedure - Thorax,Guided Procedure - Thorax,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+692,Guided Cystostomy,Guided Cystostomy,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+693,Guided Nephrostomy - Left,Guided Nephrostomy - Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+694,Guided Nephrostomy - Right,Guided Nephrostomy - Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+695,Guided - MSK,Guided - MSK,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+696,Thorax - marking for Pleural Tapping,Thorax - marking for Pleural Tapping,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+698,Guided Liver Aspiration - Mobile,Guided Liver Aspiration - Mobile,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+699,Guided Liver Biopsy - Mobile,Guided Liver Biopsy - Mobile,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+700,Guided Procedure - Thorax - Mobile,Guided Procedure - Thorax - Mobile,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+701,Guided Cystostomy - Mobile,Guided Cystostomy - Mobile,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+702,Guided Nephrostomy - Left - Mobile,Guided Nephrostomy - Left - Mobile,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+703,Guided Nephrostomy - Right - Mobile,Guided Nephrostomy - Right - Mobile,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+705,BMD Hip Joint Left - AP,BMD Hip Joint Left - AP,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+706,BMD Hip Joint Right - AP,BMD Hip Joint Right - AP,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+707,BMD Wrist Joint Left - AP,BMD Wrist Joint Left - AP,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+708,BMD Wrist Joint Right - AP,BMD Wrist Joint Right - AP,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+709,BMD Whole Body Supine - AP,BMD Whole Body Supine - AP,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+710,BMD Lumbar Spine -AP,BMD Lumbar Spine -AP,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+711,BMD Lumbar Spine - Lateral,BMD Lumbar Spine - Lateral,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+712,BMD Pelvis Supine - AP,BMD Pelvis Supine - AP,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+714,IVU,IVU,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+716,II Check CMR Lower Limb - Right,II Check CMR Lower Limb - Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+717,II Check CMR Lower Limb - Left,II Check CMR Lower Limb - Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+718,II Check CMR Upper Limb - Right,II Check CMR Upper Limb - Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+719,II Check CMR Upper Limb - Left,II Check CMR Upper Limb - Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+721,II Check Fixation External (Including Ilizarov) Femur Right,II Check Fixation External (Including Ilizarov) Femur Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+722,II Check Fixation External (Including Ilizarov) Femur Left,II Check Fixation External (Including Ilizarov) Femur Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+723,II Check Fixation External (Including Ilizarov) Tibia/Fibula Right,II Check Fixation External (Including Ilizarov) Tibia/Fibula Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+724,II Check Fixation External (Including Ilizarov) Tibia/Fibula Left,II Check Fixation External (Including Ilizarov) Tibia/Fibula Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+725,II Check Fixation External (Including Ilizarov) Foot Right,II Check Fixation External (Including Ilizarov) Foot Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+726,II Check Fixation External (Including Ilizarov) Foot Left,II Check Fixation External (Including Ilizarov) Foot Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+727,II Check Fixation Internal - Joint prosthesis - Ankle Right,II Check Fixation Internal - Joint prosthesis - Ankle Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+728,II Check Fixation Internal - Joint prosthesis - Ankle Left,II Check Fixation Internal - Joint prosthesis - Ankle Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+729,II Check Fixation Internal - Joint prosthesis - Elbow Right,II Check Fixation Internal - Joint prosthesis - Elbow Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+730,II Check Fixation Internal - Joint prosthesis - Elbow Left,II Check Fixation Internal - Joint prosthesis - Elbow Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+731,II Check Fixation Internal - Joint prosthesis - Hand Right,II Check Fixation Internal - Joint prosthesis - Hand Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+732,II Check Fixation Internal - Joint prosthesis - Hand Left,II Check Fixation Internal - Joint prosthesis - Hand Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+733,II Check Fixation Internal - Joint prosthesis - Hip Right,II Check Fixation Internal - Joint prosthesis - Hip Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+734,II Check Fixation Internal - Joint prosthesis - Hip Left,II Check Fixation Internal - Joint prosthesis - Hip Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+735,II Check Fixation Internal - Joint prosthesis - Knee Right,II Check Fixation Internal - Joint prosthesis - Knee Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+736,II Check Fixation Internal - Joint prosthesis - Knee Left,II Check Fixation Internal - Joint prosthesis - Knee Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+737,II Check Fixation Internal - Joint prosthesis - Shoulder Right,II Check Fixation Internal - Joint prosthesis - Shoulder Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+738,II Check Fixation Internal - Joint prosthesis - Shoulder Left,II Check Fixation Internal - Joint prosthesis - Shoulder Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+739,II Check Fixation Internal - Joint prosthesis - Wrist Right,II Check Fixation Internal - Joint prosthesis - Wrist Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+740,II Check Fixation Internal - Joint prosthesis - Wrist Left,II Check Fixation Internal - Joint prosthesis - Wrist Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+741,II Check Fixation Internal - K-wires - Upper Body Bones,II Check Fixation Internal - K-wires - Upper Body Bones,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+742,II Check Fixation Internal - K-wires - Lower Body Bones,II Check Fixation Internal - K-wires - Lower Body Bones,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+743,II Check Fixation Internal - Plates Upper Body Bones,II Check Fixation Internal - Plates Upper Body Bones,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+744,II Check Fixation Internal - Plates - Lower Body Bones,II Check Fixation Internal - Plates - Lower Body Bones,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+745,II Check Fixation Internal - Rod - Radi/ Ulna Right,II Check Fixation Internal - Rod - Radi/ Ulna Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+746,II Check Fixation Internal - Rod - Radi/ Ulna Left,II Check Fixation Internal - Rod - Radi/ Ulna Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+747,II Check Fixation Internal - Rod - Spine,II Check Fixation Internal - Rod - Spine,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+748,II Check Fixation Internal - Screws - Cannulated Screws - Upper Body Bones,II Check Fixation Internal - Screws - Cannulated Screws - Upper Body Bones,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+749,II Check Fixation Internal - Screws - Cannulated Screws - Lower Body Bones,II Check Fixation Internal - Screws - Cannulated Screws - Lower Body Bones,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+750,II Check Fixation Internal - Screws - DHS - Hip Right,II Check Fixation Internal - Screws - DHS - Hip Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+751,II Check Fixation Internal - Screws - DHS - Hip Left,II Check Fixation Internal - Screws - DHS - Hip Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+752,II Check Fixation Internal - Screws - Pedicle screw,II Check Fixation Internal - Screws - Pedicle screw,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+753,II Check Fixation Internal Intramedullary Nails - Femur Right,II Check Fixation Internal Intramedullary Nails - Femur Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+754,II Check Fixation Internal Intramedullary Nails - Femur Left,II Check Fixation Internal Intramedullary Nails - Femur Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+755,II Check Fixation Internal Intramedullary Nails - Humer- Right,II Check Fixation Internal Intramedullary Nails - Humer- Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+756,II Check Fixation Internal Intramedullary Nails - HumerLeft,II Check Fixation Internal Intramedullary Nails - HumerLeft,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+757,II Check Fixation Internal Intramedullary Nails - Radius/Ulna Right,II Check Fixation Internal Intramedullary Nails - Radius/Ulna Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+758,II Check Fixation Internal Intramedullary Nails - Radius/Ulna Left,II Check Fixation Internal Intramedullary Nails - Radius/Ulna Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+759,II Check Fixation Internal Intramedullary Nails - Tibia Right,II Check Fixation Internal Intramedullary Nails - Tibia Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+760,II Check Fixation Internal Intramedullary Nails - Tibia Left,II Check Fixation Internal Intramedullary Nails - Tibia Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+761,II Upper Limbs,II Upper Limbs,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+762,II Lower Limbs,II Lower Limbs,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+764,II Check Osteotomy Lower Limb Right,II Check Osteotomy Lower Limb Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+765,II Check Osteotomy Lower Limb Left,II Check Osteotomy Lower Limb Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+766,II Check Osteotomy Upper Limb Right,II Check Osteotomy Upper Limb Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+767,II Check Osteotomy Upper Limb Left,II Check Osteotomy Upper Limb Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+769,II Locate FB - Head and Neck,II Locate FB - Head and Neck,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+770,II Locate FB - Lower Limb,II Locate FB - Lower Limb,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+771,II Locate FB - Trunk,II Locate FB - Trunk,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+772,II Locate FB - Upper Limb,II Locate FB - Upper Limb,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+774,II PCNL (Percutaneous-Nephrolithotripsy) Bilateral,II PCNL (Percutaneous-Nephrolithotripsy) Bilateral,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+775,II PCNL (Percutaneous-Nephrolithotripsy) Left,II PCNL (Percutaneous-Nephrolithotripsy) Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+776,II PCNL (Percutaneous-Nephrolithotripsy) Right,II PCNL (Percutaneous-Nephrolithotripsy) Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+777,II PCVL (PercutaneoVesicolithotripsy),II PCVL (PercutaneoVesicolithotripsy),http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+779,II RIRS (Retro Intra-Renal Surgery) - Bilateral,II RIRS (Retro Intra-Renal Surgery) - Bilateral,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+780,II RIRS (Retro Intra-Renal Surgery) - Left,II RIRS (Retro Intra-Renal Surgery) - Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+781,II RIRS (Retro Intra-Renal Surgery) - Right,II RIRS (Retro Intra-Renal Surgery) - Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+782,II RPG (Retrograde Pyelo-Ureterogram) Bilateral,II RPG (Retrograde Pyelo-Ureterogram) Bilateral,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+783,II RPG (Retrograde Pyelo-Ureterogram) Left,II RPG (Retrograde Pyelo-Ureterogram) Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+784,II RPG (Retrograde Pyelo-Ureterogram) Right,II RPG (Retrograde Pyelo-Ureterogram) Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+786,II Stenting Left Ureter,II Stenting Left Ureter,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+787,II Stenting Right Ureter,II Stenting Right Ureter,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+788,II Stenting Ureter Bilateral,II Stenting Ureter Bilateral,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+790,II URS (Uretero-Renoscopy) Bilateral,II URS (Uretero-Renoscopy) Bilateral,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+791,II URS (Uretero-Renoscopy) Left,II URS (Uretero-Renoscopy) Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+792,II URS (Uretero-Renoscopy) Right,II URS (Uretero-Renoscopy) Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+794,II Vasogram,II Vasogram,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+795,II OTC (Operative-Cholangiogram),II OTC (Operative-Cholangiogram),http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+796,II Pacemaker Insertion,II Pacemaker Insertion,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+797,PermCath Insertion,PermCath Insertion,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+798,II Pyelo-Nephrolithotomy Left,II Pyelo-Nephrolithotomy Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+799,II Pyelo-Nephrolithotomy Right,II Pyelo-Nephrolithotomy Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+801,Print Image on Film,Print Image on Film,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+802,Digitise Image From Film,Digitise Image From Film,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+803,CD / DVD,CD / DVD,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+804,Print Image on CD/DVD,Print Image on CD/DVD,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+805,Digitise Image from CD/DVD,Digitise Image from CD/DVD,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+807,External - General Radiography,External - General Radiography,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+808,DVD / CD,DVD / CD,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+809,External Reporting - Mammography,External Reporting - Mammography,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+810,External Reporting - CT,External Reporting - CT,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+811,External Reporting - MRI,External Reporting - MRI,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+812,External Reporting - US,External Reporting - US,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+813,External Reporting - ANGIO / IR,External Reporting - ANGIO / IR,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+815,OPG (Orthopantomogram),OPG (Orthopantomogram),http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+816,CB(Cone Beam Computerized Tomography),CB(Cone Beam Computerized Tomography),http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+817,Skull - Lateral Cephalometry,Skull - Lateral Cephalometry,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+819,Barium Swallow,Barium Swallow,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+820,Swallow - Water Soluble Contrast,Swallow - Water Soluble Contrast,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+821,Barium Meal,Barium Meal,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+822,Barium Meal Follow Through,Barium Meal Follow Through,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+823,Duodenogram,Duodenogram,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+824,Upper GI Study - Water Soluble Contrast,Upper GI Study - Water Soluble Contrast,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+825,Enema - Small Bowel,Enema - Small Bowel,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+826,Barium/Contrast - Small Bowel Enema,Barium/Contrast - Small Bowel Enema,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+827,Barium Enema,Barium Enema,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+828,Barium/Water Soluble Contrast -Studies,Barium/Water Soluble Contrast -Studies,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+829,Enema - Water Soluble Contrast,Enema - Water Soluble Contrast,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+830,Loopogram Distal - Barium,Loopogram Distal - Barium,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+831,Loopogram Distal - Water Soluble Contrast,Loopogram Distal - Water Soluble Contrast,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+832,Loopogram Proximal - Barium,Loopogram Proximal - Barium,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+833,Loopogram Proximal - Water Soluble Contrast,Loopogram Proximal - Water Soluble Contrast,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+834,Proctogram,Proctogram,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+835,Intussusseption Reduction - Hydrostatic,Intussusseption Reduction - Hydrostatic,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+836,Intussusseption Reduction - Air,Intussusseption Reduction - Air,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+838,ERCP (Endoscopic Retrograde Cholangio-Pancreatogram),ERCP (Endoscopic Retrograde Cholangio-Pancreatogram),http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+839,Operative Cholangiogram,Operative Cholangiogram,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+840,Tubogram,Tubogram,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+841,T-Tube Cholangiography,T-Tube Cholangiography,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+843,Myelogram - Cervical Spine,Myelogram - Cervical Spine,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+844,Myelogram - Thoracic Spine,Myelogram - Thoracic Spine,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+845,Myelogram - Lumbar Spine,Myelogram - Lumbar Spine,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+846,Arthrogram,Arthrogram,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+848,HSG (Hysterosalpingogram),HSG (Hysterosalpingogram),http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+850,Diaphragmatic Movement,Diaphragmatic Movement,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+852,Cystogram,Cystogram,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+853,MCU (Micturiting Cysto-urethrogram),MCU (Micturiting Cysto-urethrogram),http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+854,Ascending/Descending Urethrogram,Ascending/Descending Urethrogram,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+856,Dacryocystogram - Bilateral,Dacryocystogram - Bilateral,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+857,Dacryocystogram - Left,Dacryocystogram - Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+858,Dacryocystogram - Right,Dacryocystogram - Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+859,Genitogram,Genitogram,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+860,Line Patency - Abdomen / Pelvis,Line Patency - Abdomen / Pelvis,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+861,Line Patency - Head / Neck,Line Patency - Head / Neck,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+862,Line Patency - Lower Extremity,Line Patency - Lower Extremity,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+863,Line Patency - Upper Extremity,Line Patency - Upper Extremity,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+864,Sialogram Parotid Left,Sialogram Parotid Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+865,Sialogram Parotid Right,Sialogram Parotid Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+866,Sialogram Submandibular Left,Sialogram Submandibular Left,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+867,Sialogram Submandibular Right,Sialogram Submandibular Right,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+868,Pacemaker Insertion,Pacemaker Insertion,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+869,Pancreas,Pancreas,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore
+871,Mammogram - Additional View,Mammogram - Additional View,http://fhir.hie.moh.gov.my/CodeSystem/imaging-my-core,CodeSystemImagingMyCore

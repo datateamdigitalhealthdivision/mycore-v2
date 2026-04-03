@@ -1,0 +1,30 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-loinc-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetLoinc (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/ValueSet/loinc-my-core</tt><p>LOINC value set</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/loinc-my-core",
+  "name": "ValueSetLoincMyCore",
+  "title": "ValueSetLoinc (MY Core)",
+  "status": "active",
+  "date": "2023-01-03T04:47:56.9010407+00:00",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "LOINC value set",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org"
+      }
+    ]
+  }
+}

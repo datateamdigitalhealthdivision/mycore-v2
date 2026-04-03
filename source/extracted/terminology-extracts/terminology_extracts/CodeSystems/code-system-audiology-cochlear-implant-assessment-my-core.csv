@@ -1,0 +1,25 @@
+code,display,definition,system_url,system_name
+10,POST OP FOLLOW UP INSICION SITE CHECK,POST OP FOLLOW UP INSICION SITE CHECK,http://fhir.hie.moh.gov.my/CodeSystem/audiology-cochlear-implant-assessment-my-core,CodeSystemAudiologyCochlearImplantAssessmentMyCore
+11,POST OP FOLLOW UP CI DEVICE CHECK,POST OP FOLLOW UP CI DEVICE CHECK,http://fhir.hie.moh.gov.my/CodeSystem/audiology-cochlear-implant-assessment-my-core,CodeSystemAudiologyCochlearImplantAssessmentMyCore
+12,POST OP FOLLOW UP IMPEDANCE CHECK,POST OP FOLLOW UP IMPEDANCE CHECK,http://fhir.hie.moh.gov.my/CodeSystem/audiology-cochlear-implant-assessment-my-core,CodeSystemAudiologyCochlearImplantAssessmentMyCore
+13,POST OP FOLLOW UP NEURAL RESPONSE TELEMETRY CHECK,POST OP FOLLOW UP NEURAL RESPONSE TELEMETRY CHECK,http://fhir.hie.moh.gov.my/CodeSystem/audiology-cochlear-implant-assessment-my-core,CodeSystemAudiologyCochlearImplantAssessmentMyCore
+14,POST OP FOLLOW UP ECAP,POST OP FOLLOW UP ECAP,http://fhir.hie.moh.gov.my/CodeSystem/audiology-cochlear-implant-assessment-my-core,CodeSystemAudiologyCochlearImplantAssessmentMyCore
+15,POST OP FOLLOW UP ESRT,POST OP FOLLOW UP ESRT,http://fhir.hie.moh.gov.my/CodeSystem/audiology-cochlear-implant-assessment-my-core,CodeSystemAudiologyCochlearImplantAssessmentMyCore
+16,POST OP FOLLOW UP EABR,POST OP FOLLOW UP EABR,http://fhir.hie.moh.gov.my/CodeSystem/audiology-cochlear-implant-assessment-my-core,CodeSystemAudiologyCochlearImplantAssessmentMyCore
+17,POST OP FOLLOW UP MAPPING/HEARING PROFILE,POST OP FOLLOW UP MAPPING/HEARING PROFILE,http://fhir.hie.moh.gov.my/CodeSystem/audiology-cochlear-implant-assessment-my-core,CodeSystemAudiologyCochlearImplantAssessmentMyCore
+18,POST OP FOLLOW UP BALANCING,POST OP FOLLOW UP BALANCING,http://fhir.hie.moh.gov.my/CodeSystem/audiology-cochlear-implant-assessment-my-core,CodeSystemAudiologyCochlearImplantAssessmentMyCore
+19,POST OP FOLLOW UP DATA LOGGING,POST OP FOLLOW UP DATA LOGGING,http://fhir.hie.moh.gov.my/CodeSystem/audiology-cochlear-implant-assessment-my-core,CodeSystemAudiologyCochlearImplantAssessmentMyCore
+20,POST OP COUNSELLING,POST OP COUNSELLING,http://fhir.hie.moh.gov.my/CodeSystem/audiology-cochlear-implant-assessment-my-core,CodeSystemAudiologyCochlearImplantAssessmentMyCore
+21,CI OUTCOMES CuHI-QoL,CI OUTCOMES CuHI-QoL,http://fhir.hie.moh.gov.my/CodeSystem/audiology-cochlear-implant-assessment-my-core,CodeSystemAudiologyCochlearImplantAssessmentMyCore
+22,CI OUTCOMES NCIQ,CI OUTCOMES NCIQ,http://fhir.hie.moh.gov.my/CodeSystem/audiology-cochlear-implant-assessment-my-core,CodeSystemAudiologyCochlearImplantAssessmentMyCore
+23,CI OUTCOMES OTHERS,CI OUTCOMES OTHERS,http://fhir.hie.moh.gov.my/CodeSystem/audiology-cochlear-implant-assessment-my-core,CodeSystemAudiologyCochlearImplantAssessmentMyCore
+00,PRE OP ASSESSMENT,PRE OP ASSESSMENT,http://fhir.hie.moh.gov.my/CodeSystem/audiology-cochlear-implant-assessment-my-core,CodeSystemAudiologyCochlearImplantAssessmentMyCore
+01,INTRA OP IMPENDANCE TESTING,INTRA OP IMPENDANCE TESTING,http://fhir.hie.moh.gov.my/CodeSystem/audiology-cochlear-implant-assessment-my-core,CodeSystemAudiologyCochlearImplantAssessmentMyCore
+02,INTRA OP TELEMETRY TESTING,INTRA OP TELEMETRY TESTING,http://fhir.hie.moh.gov.my/CodeSystem/audiology-cochlear-implant-assessment-my-core,CodeSystemAudiologyCochlearImplantAssessmentMyCore
+03,INTRA OP ELECTRICAL STAPEDIUS REFLEX THRESHOLD,INTRA OP ELECTRICAL STAPEDIUS REFLEX THRESHOLD,http://fhir.hie.moh.gov.my/CodeSystem/audiology-cochlear-implant-assessment-my-core,CodeSystemAudiologyCochlearImplantAssessmentMyCore
+04,INTRA OP ELECTRICA AUDITORY BRAINSTEM RESPONSE,INTRA OP ELECTRICA AUDITORY BRAINSTEM RESPONSE,http://fhir.hie.moh.gov.my/CodeSystem/audiology-cochlear-implant-assessment-my-core,CodeSystemAudiologyCochlearImplantAssessmentMyCore
+05,POST OP SWITCH ON/ACTIVATION INCISION SITE CHECK,POST OP SWITCH ON/ACTIVATION INCISION SITE CHECK,http://fhir.hie.moh.gov.my/CodeSystem/audiology-cochlear-implant-assessment-my-core,CodeSystemAudiologyCochlearImplantAssessmentMyCore
+06,POST OP SWITCH ON/ACTIVATION CI DEVICE CHECK,POST OP SWITCH ON/ACTIVATION CI DEVICE CHECK,http://fhir.hie.moh.gov.my/CodeSystem/audiology-cochlear-implant-assessment-my-core,CodeSystemAudiologyCochlearImplantAssessmentMyCore
+07,POST OP SWITCH ON/ACTIVATION IMPEDANCE CHECK,POST OP SWITCH ON/ACTIVATION IMPEDANCE CHECK,http://fhir.hie.moh.gov.my/CodeSystem/audiology-cochlear-implant-assessment-my-core,CodeSystemAudiologyCochlearImplantAssessmentMyCore
+08,POST OP SWITCH ON/ACTIVATION NEURAL RESPONSE TELEMETRY CHECK,POST OP SWITCH ON/ACTIVATION NEURAL RESPONSE TELEMETRY CHECK,http://fhir.hie.moh.gov.my/CodeSystem/audiology-cochlear-implant-assessment-my-core,CodeSystemAudiologyCochlearImplantAssessmentMyCore
+09,POST OP SWITCH ON/ACTIVATION PROGRAMMING,POST OP SWITCH ON/ACTIVATION PROGRAMMING,http://fhir.hie.moh.gov.my/CodeSystem/audiology-cochlear-implant-assessment-my-core,CodeSystemAudiologyCochlearImplantAssessmentMyCore

@@ -1,0 +1,387 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-maternal-20",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-20",
+  "version": "1.0.0",
+  "name": "QMaternal20",
+  "title": "Pemeriksaan Kandungan Semasa",
+  "status": "active",
+  "date": "2023-08-30T01:19:04.1804145+00:00",
+  "description": "Description of routine examiniation",
+  "purpose": "Purpose of routine examination",
+  "item": [
+    {
+      "linkId": "maternal-20.1",
+      "code": [
+        {
+          "code": "maternal-20.1"
+        }
+      ],
+      "text": "Jenis Lawatan",
+      "type": "choice",
+      "answerOption": [
+        {
+          "valueCoding": {
+            "code": "maternal-lk",
+            "display": "Lawatan Klinik"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "maternal-lr",
+            "display": "Lawatan Rumah"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-20.2",
+      "code": [
+        {
+          "code": "maternal-20.2"
+        }
+      ],
+      "text": "Ujian Makmal",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "maternal-20.2.1",
+          "code": [
+            {
+              "code": "maternal-20.2.1"
+            }
+          ],
+          "text": "Urin Protein",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "167273002",
+                "display": "Not Detected"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "167274008",
+                "display": "Trace"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "167275009",
+                "display": "1+"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "167276005",
+                "display": "2+"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "167277001",
+                "display": "3+"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "167278006",
+                "display": "4+"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "maternal-20.2.1.1",
+              "code": [
+                {
+                  "code": "maternal-20.2.1.1"
+                }
+              ],
+              "text": "Urin Protein Remark",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-20.2.2",
+          "code": [
+            {
+              "code": "maternal-20.2.2"
+            }
+          ],
+          "text": "Urin Sugar",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "167273002",
+                "display": "Not Detected"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "167262009",
+                "display": "Trace"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "167264005",
+                "display": "1+"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "167265006",
+                "display": "2+"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "167266007",
+                "display": "3+"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "167267003",
+                "display": "4+"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "maternal-20.2.2.1",
+              "code": [
+                {
+                  "code": "maternal-20.2.2.1"
+                }
+              ],
+              "text": "Urin Sugar Remark",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-20.2.3",
+          "code": [
+            {
+              "code": "maternal-20.2.3"
+            }
+          ],
+          "text": "Hb",
+          "type": "quantity"
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-20.3",
+      "code": [
+        {
+          "code": "maternal-20.3"
+        }
+      ],
+      "text": "Pemeriksaan",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "maternal-20.3.1",
+          "code": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Weight"
+            }
+          ],
+          "text": "Berat",
+          "type": "quantity"
+        },
+        {
+          "linkId": "maternal-20.3.2",
+          "code": [
+            {
+              "system": "http://loinc.org",
+              "code": "35094-2",
+              "display": "Blood pressure panel"
+            }
+          ],
+          "text": "Blood Pressure",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "maternal-20.3.2.1",
+              "code": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic Blood Pressure"
+                }
+              ],
+              "text": "Systolic",
+              "type": "quantity"
+            },
+            {
+              "linkId": "maternal-20.3.2.2",
+              "code": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic Blood Pressure"
+                }
+              ],
+              "text": "Diastolic",
+              "type": "quantity"
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-20.3.3",
+          "code": [
+            {
+              "system": "http://loinc.org",
+              "code": "59408-5",
+              "display": "Heart Rate"
+            }
+          ],
+          "text": "Nadi",
+          "type": "quantity"
+        },
+        {
+          "linkId": "maternal-20.3.4",
+          "code": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "267038008",
+              "display": "Edema"
+            }
+          ],
+          "text": "Edema",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-20.4",
+      "code": [
+        {
+          "code": "maternal-20.4"
+        }
+      ],
+      "text": "Kandungan",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "maternal-20.4.1",
+          "code": [
+            {
+              "code": "maternal-20.4.1"
+            }
+          ],
+          "text": "Tempoh hamil",
+          "type": "quantity"
+        },
+        {
+          "linkId": "maternal-20.4.2",
+          "code": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "364253002",
+              "display": "Fundal height of uterus"
+            }
+          ],
+          "text": "Tinggi Rahim",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-20.5",
+      "code": [
+        {
+          "code": "maternal-20.5"
+        }
+      ],
+      "text": "Janin",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "maternal-20.5.1",
+          "code": [
+            {
+              "code": "maternal-20.5.1"
+            }
+          ],
+          "text": "Presentasi",
+          "type": "string"
+        },
+        {
+          "linkId": "maternal-20.5.2",
+          "code": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "249043002",
+              "display": "Fetal heart rate"
+            }
+          ],
+          "text": "Jantung",
+          "type": "string"
+        },
+        {
+          "linkId": "maternal-20.5.3",
+          "code": [
+            {
+              "code": "maternal-20.5.3"
+            }
+          ],
+          "text": "Gerak",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-20.6",
+      "code": [
+        {
+          "code": "maternal-20.6"
+        }
+      ],
+      "text": "Masalah",
+      "type": "text"
+    },
+    {
+      "linkId": "maternal-20.7",
+      "code": [
+        {
+          "code": "maternal-20.7"
+        }
+      ],
+      "text": "Pengendalian dan Rawatan",
+      "type": "text"
+    },
+    {
+      "linkId": "maternal-20.8",
+      "code": [
+        {
+          "code": "maternal-20.8"
+        }
+      ],
+      "text": "Tarikh Temujanji",
+      "type": "dateTime",
+      "repeats": true
+    }
+  ]
+}

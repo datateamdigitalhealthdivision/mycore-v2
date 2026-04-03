@@ -1,0 +1,4 @@
+code,display,system,include_type,valueset_url,valueset_name
+routine,Routine,http://hl7.org/fhir/request-priority,explicit,http://fhir.hie.moh.gov.my/ValueSet/priority-my-core,ValueSetPriorityMyCore
+urgent,Urgent,http://hl7.org/fhir/request-priority,explicit,http://fhir.hie.moh.gov.my/ValueSet/priority-my-core,ValueSetPriorityMyCore
+stat,STAT,http://hl7.org/fhir/request-priority,explicit,http://fhir.hie.moh.gov.my/ValueSet/priority-my-core,ValueSetPriorityMyCore

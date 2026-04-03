@@ -1,0 +1,38 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-relatedperson-relationship-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetRelatedPerson (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/ValueSet/relatedperson-relationship-my-core</tt><p>Related Person Relationship My Core</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/relatedperson-relationship-my-core",
+  "identifier": [
+    {
+      "value": "ValueSet-relatedperson-relationship-my-core"
+    }
+  ],
+  "name": "ValueSetRelatedPersonRelationshipMyCore",
+  "title": "ValueSetRelatedPersonRelationship (MY Core)",
+  "status": "active",
+  "date": "2023-02-23T04:59:30.4857498+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Related Person Relationship My Core",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/relatedperson-relationship-my-core"
+      }
+    ]
+  }
+}

@@ -1,0 +1,806 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-hpt-note",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-hpt-note",
+  "version": "1.0.0",
+  "name": "QHptNoteA",
+  "title": "Hypertension Clerking Note",
+  "status": "active",
+  "date": "2023-09-01T03:32:09.231284+00:00",
+  "description": "Hypertension Clerking Note",
+  "item": [
+    {
+      "linkId": "hpt-note.1",
+      "text": "Concomitant Disease",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "hpt-note.1.1",
+          "text": "Diabetes Mellitus",
+          "type": "boolean"
+        },
+        {
+          "linkId": "hpt-note.1.2",
+          "text": "Renal Disease",
+          "type": "boolean"
+        },
+        {
+          "linkId": "hpt-note.1.3",
+          "text": "Heart Failure",
+          "type": "boolean"
+        },
+        {
+          "linkId": "hpt-note.1.4",
+          "text": "Gout",
+          "type": "boolean"
+        },
+        {
+          "linkId": "hpt-note.1.5",
+          "text": "Concomitant Disease Remarks",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "linkId": "hpt-note.2",
+      "text": "Past Medical Admissions for Hypertension",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "hpt-note.2.1",
+          "text": "Any Ward Admissions For Hypertension Emergencies",
+          "type": "boolean"
+        },
+        {
+          "linkId": "hpt-note.2.2",
+          "text": "Any Emergency Department Encounters",
+          "type": "boolean"
+        },
+        {
+          "linkId": "hpt-note.2.3",
+          "text": "Past Medical Admissions Remarks",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "linkId": "hpt-note.3",
+      "text": "Medication Summary",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "hpt-note.3.1",
+          "text": "Findings",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "linkId": "hpt-note.4",
+      "text": "Smoking History",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "hpt-note.4.1",
+          "text": "Starting Date of Smoking",
+          "type": "date"
+        },
+        {
+          "linkId": "hpt-note.4.2",
+          "text": "How Many Cigarettes Per Day",
+          "type": "integer"
+        },
+        {
+          "linkId": "hpt-note.4.3",
+          "text": "Pack Years of Smoking (years)",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "linkId": "hpt-note.5",
+      "text": "Social History",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "hpt-note.5.1",
+          "text": "Findings",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "linkId": "hpt-note.6",
+      "text": "Family History",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "hpt-note.6.1",
+          "text": "Findings",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "linkId": "hpt-note.7",
+      "text": "Symptoms",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "hpt-note.7.1",
+          "text": "Visual Disturbances",
+          "type": "boolean"
+        },
+        {
+          "linkId": "hpt-note.7.2",
+          "text": "Chest Pain",
+          "type": "boolean"
+        },
+        {
+          "linkId": "hpt-note.7.3",
+          "text": "Lower Limb Swellings",
+          "type": "boolean"
+        },
+        {
+          "linkId": "hpt-note.7.4",
+          "text": "Headache",
+          "type": "boolean"
+        },
+        {
+          "linkId": "hpt-note.7.5",
+          "text": "Vomiting",
+          "type": "boolean"
+        },
+        {
+          "linkId": "hpt-note.7.6",
+          "text": "Limb Weakness",
+          "type": "boolean"
+        },
+        {
+          "linkId": "hpt-note.7.7",
+          "text": "Shortness of Breath",
+          "type": "boolean"
+        },
+        {
+          "linkId": "hpt-note.7.8",
+          "text": "Symptoms Remarks",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "linkId": "hpt-note.8",
+      "text": "History of Presenting Illness Summary",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "hpt-note.8.1",
+          "text": "Findings",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "linkId": "hpt-note.9",
+      "text": "Initial Vital Signs",
+      "type": "group",
+      "item": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/minValue-my-core",
+              "valueInteger": 1
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/maxValue-my-core",
+              "valueInteger": 300
+            }
+          ],
+          "linkId": "hpt-note.9.1",
+          "code": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic Blood Pressure"
+            }
+          ],
+          "text": "Systolic Blood Pressure (mmHg)",
+          "type": "quantity",
+          "initial": [
+            {
+              "valueQuantity": {
+                "unit": "mmHg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            }
+          ]
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/minValue-my-core",
+              "valueInteger": 1
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/maxValue-my-core",
+              "valueInteger": 250
+            }
+          ],
+          "linkId": "hpt-note.9.2",
+          "code": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic Blood Pressure"
+            }
+          ],
+          "text": "Diastolic Blood Pressure (mmHg)",
+          "type": "quantity",
+          "enableWhen": [
+            {
+              "question": "hpt-note.9.1",
+              "operator": "exists",
+              "answerBoolean": true
+            }
+          ],
+          "initial": [
+            {
+              "valueQuantity": {
+                "unit": "mmHg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            }
+          ]
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/minValue-my-core",
+              "valueInteger": 0
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/maxValue-my-core",
+              "valueInteger": 400
+            }
+          ],
+          "linkId": "hpt-note.9.9",
+          "text": "Heart Rate (/min)",
+          "type": "quantity",
+          "initial": [
+            {
+              "valueQuantity": {
+                "unit": "per minute",
+                "system": "http://unitsofmeasure.org",
+                "code": "/min"
+              }
+            }
+          ]
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/minValue-my-core",
+              "valueInteger": 0
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/maxValue-my-core",
+              "valueInteger": 100
+            }
+          ],
+          "linkId": "hpt-note.9.10",
+          "text": "Oxygen Saturation (%)",
+          "type": "quantity",
+          "initial": [
+            {
+              "valueQuantity": {
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              }
+            }
+          ]
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/minValue-my-core",
+              "valueInteger": 0
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/maxValue-my-core",
+              "valueInteger": 100
+            }
+          ],
+          "linkId": "hpt-note.9.11",
+          "code": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body Temperature"
+            }
+          ],
+          "text": "Body Temperature (°C)",
+          "type": "quantity",
+          "initial": [
+            {
+              "valueQuantity": {
+                "unit": "°C",
+                "system": "http://unitsofmeasure.org",
+                "code": "Cel"
+              }
+            }
+          ]
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/minValue-my-core",
+              "valueInteger": 0
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/maxValue-my-core",
+              "valueInteger": 10
+            }
+          ],
+          "linkId": "hpt-note.9.12",
+          "text": "Pain score",
+          "type": "quantity"
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/minValue-my-core",
+              "valueInteger": 0
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/maxValue-my-core",
+              "valueInteger": 80
+            }
+          ],
+          "linkId": "hpt-note.9.13",
+          "text": "Respiratory Rate (/min)",
+          "type": "quantity",
+          "initial": [
+            {
+              "valueQuantity": {
+                "unit": "per minute",
+                "system": "http://unitsofmeasure.org",
+                "code": "/min"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "hpt-note.10",
+      "text": "Blood Pressure Second Reading",
+      "type": "group",
+      "item": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/minValue-my-core",
+              "valueInteger": 1
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/maxValue-my-core",
+              "valueInteger": 300
+            }
+          ],
+          "linkId": "hpt-note.10.1",
+          "code": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic Blood Pressure"
+            }
+          ],
+          "text": "Systolic Blood Pressure Second Reading (mmHg)",
+          "type": "quantity",
+          "initial": [
+            {
+              "valueQuantity": {
+                "unit": "mmHg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            }
+          ]
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/minValue-my-core",
+              "valueInteger": 1
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/maxValue-my-core",
+              "valueInteger": 250
+            }
+          ],
+          "linkId": "hpt-note.10.2",
+          "code": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic Blood Pressure"
+            }
+          ],
+          "text": "Diastolic Blood Pressure Second Reading (mmHg)",
+          "type": "quantity",
+          "enableWhen": [
+            {
+              "question": "hpt-note.10.1",
+              "operator": "exists",
+              "answerBoolean": true
+            }
+          ],
+          "initial": [
+            {
+              "valueQuantity": {
+                "unit": "mmHg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "hpt-note.10.3",
+          "text": "Recorded Time",
+          "type": "dateTime"
+        }
+      ]
+    },
+    {
+      "linkId": "hpt-note.11",
+      "text": "Blood Pressure Standing",
+      "type": "group",
+      "item": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/minValue-my-core",
+              "valueInteger": 1
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/maxValue-my-core",
+              "valueInteger": 300
+            }
+          ],
+          "linkId": "hpt-note.11.1",
+          "code": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic Blood Pressure"
+            }
+          ],
+          "text": "Systolic Blood Pressure Standing (mmHg)",
+          "type": "quantity",
+          "initial": [
+            {
+              "valueQuantity": {
+                "unit": "mmHg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            }
+          ]
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/minValue-my-core",
+              "valueInteger": 1
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/maxValue-my-core",
+              "valueInteger": 250
+            }
+          ],
+          "linkId": "hpt-note.11.2",
+          "code": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic Blood Pressure"
+            }
+          ],
+          "text": "Diastolic Blood Pressure Standing (mmHg)",
+          "type": "quantity",
+          "enableWhen": [
+            {
+              "question": "hpt-note.11.1",
+              "operator": "exists",
+              "answerBoolean": true
+            }
+          ],
+          "initial": [
+            {
+              "valueQuantity": {
+                "unit": "mmHg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "hpt-note.11.3",
+          "text": "Recorded Time",
+          "type": "dateTime"
+        }
+      ]
+    },
+    {
+      "linkId": "hpt-note.12",
+      "text": "Blood Pressure Seated",
+      "type": "group",
+      "item": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/minValue-my-core",
+              "valueInteger": 1
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/maxValue-my-core",
+              "valueInteger": 300
+            }
+          ],
+          "linkId": "hpt-note.12.1",
+          "text": "Systolic Blood Pressure Seated (mmHg)",
+          "type": "quantity",
+          "initial": [
+            {
+              "valueQuantity": {
+                "unit": "mmHg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            }
+          ]
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/minValue-my-core",
+              "valueInteger": 1
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/maxValue-my-core",
+              "valueInteger": 250
+            }
+          ],
+          "linkId": "hpt-note.12.2",
+          "code": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic Blood Pressure"
+            }
+          ],
+          "text": "Diastolic Blood Pressure Seated (mmHg)",
+          "type": "quantity",
+          "enableWhen": [
+            {
+              "question": "hpt-note.12.1",
+              "operator": "exists",
+              "answerBoolean": true
+            }
+          ],
+          "initial": [
+            {
+              "valueQuantity": {
+                "unit": "mmHg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "hpt-note.12.3",
+          "text": "Recorded Time",
+          "type": "dateTime"
+        }
+      ]
+    },
+    {
+      "linkId": "hpt-note.13",
+      "text": "Central Nervous System Examinations",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "hpt-note.13.1",
+          "text": "Findings",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "linkId": "hpt-note.14",
+      "text": "Eye Examination",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "hpt-note.14.1",
+          "text": "Findings",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "linkId": "hpt-note.15",
+      "text": "Cranial Nerves Examination",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "hpt-note.15.1",
+          "text": "Findings",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "linkId": "hpt-note.16",
+      "text": "Cardiac Examination",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "hpt-note.16.1",
+          "text": "Findings",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "linkId": "hpt-note.17",
+      "text": "General Endocrine Examination",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "hpt-note.17.1",
+          "text": "Findings",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "linkId": "hpt-note.18",
+      "text": "Abdominal Examination",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "hpt-note.18.1",
+          "text": "Findings",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "linkId": "hpt-note.19",
+      "text": "Respiratory Examination",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "hpt-note.19.1",
+          "text": "Findings",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "linkId": "hpt-note.20",
+      "text": "General Examination Findings Summary",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "hpt-note.20.1",
+          "text": "Findings",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "linkId": "hpt-note.21",
+      "text": "Investigations / Special Test",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "hpt-note.21.1",
+          "text": "Fundoscopy",
+          "type": "text"
+        },
+        {
+          "linkId": "hpt-note.21.2",
+          "text": "US KUB Findings",
+          "type": "text"
+        },
+        {
+          "linkId": "hpt-note.21.3",
+          "text": "CT Scan Findings",
+          "type": "text"
+        },
+        {
+          "linkId": "hpt-note.21.4",
+          "text": "Xray Findings",
+          "type": "text"
+        },
+        {
+          "linkId": "hpt-note.21.5",
+          "text": "General Investigations / Summary",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "linkId": "hpt-note.22",
+      "text": "Diagnosis",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "hpt-note.22.1",
+          "text": "Diagnosis",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "linkId": "hpt-note.23",
+      "text": "Management / Treatment",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "hpt-note.23.1",
+          "text": "Management Summary",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "linkId": "hpt-note.24",
+      "text": "TCA Date",
+      "type": "group",
+      "item": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/dateRule-my-core",
+              "valueString": "futureDate"
+            }
+          ],
+          "linkId": "hpt-note.24.1",
+          "text": "Date",
+          "type": "dateTime"
+        }
+      ]
+    },
+    {
+      "linkId": "hpt-note.25",
+      "text": "Referral",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "hpt-note.25.1",
+          "text": "Reason for Referral",
+          "type": "text"
+        },
+        {
+          "linkId": "hpt-note.25.2",
+          "text": "Spoken To",
+          "type": "string"
+        },
+        {
+          "linkId": "hpt-note.25.3",
+          "text": "Time of Referral made",
+          "type": "dateTime"
+        }
+      ]
+    }
+  ]
+}

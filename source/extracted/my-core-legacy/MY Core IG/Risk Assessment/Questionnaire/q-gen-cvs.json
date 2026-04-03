@@ -1,0 +1,233 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-gen-cvs",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-gen-cvs",
+  "title": "General CVD Risk Prediction",
+  "status": "active",
+  "date": "2023-08-30T01:44:59.0418083+00:00",
+  "description": "Framingham Risk Score is used to estimate the 10-year cardiovascular risk of an individual",
+  "useContext": [
+    {
+      "code": {
+        "system": "http://hl7.org/fhir/CodeSystem/usage-context-type",
+        "code": "workflow",
+        "display": "Workflow Setting"
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "self-assessment",
+            "display": "Self-Assessment"
+          }
+        ]
+      }
+    }
+  ],
+  "purpose": "Based on a population 30 to 74 years old and without CVD at the baseline examination, including predictors age, diabetes, smoking, treated and untreated systolic blood pressure, total cholesterol, HDL cholesterol and BMI",
+  "code": [
+    {
+      "system": "http://loinc.org",
+      "code": "65853-4",
+      "display": "General cardiovascular disease 10Y risk [#] Framingham.D'Agostino"
+    }
+  ],
+  "item": [
+    {
+      "linkId": "01",
+      "code": [
+        {
+          "system": "http://loinc.org",
+          "code": "76691-5",
+          "display": "Gender identity"
+        }
+      ],
+      "text": "Gender",
+      "type": "choice",
+      "required": true,
+      "answerOption": [
+        {
+          "valueCoding": {
+            "system": "http://hl7.org/fhir/administrative-gender",
+            "code": "male",
+            "display": "Male"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://hl7.org/fhir/administrative-gender",
+            "code": "female",
+            "display": "Female"
+          }
+        }
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/minValue-my-core",
+          "valueInteger": 0
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/maxValue-my-core",
+          "valueInteger": 130
+        }
+      ],
+      "linkId": "02",
+      "code": [
+        {
+          "system": "http://loinc.org",
+          "code": "30525-0",
+          "display": "Age"
+        }
+      ],
+      "text": "Age",
+      "type": "integer",
+      "required": true
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/minValue-my-core",
+          "valueInteger": 1
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/maxValue-my-core",
+          "valueInteger": 300
+        }
+      ],
+      "linkId": "03",
+      "code": [
+        {
+          "system": "http://loinc.org",
+          "code": "8480-6",
+          "display": "Systolic blood pressure"
+        }
+      ],
+      "text": "Systolic Blood Pressure",
+      "type": "quantity",
+      "required": true
+    },
+    {
+      "linkId": "04",
+      "code": [
+        {
+          "system": "http://loinc.org",
+          "code": "95547-6",
+          "display": "Patient is being treated for high blood pressure"
+        }
+      ],
+      "text": "Treated for Hypertension",
+      "type": "boolean",
+      "required": true
+    },
+    {
+      "linkId": "05",
+      "code": [
+        {
+          "system": "http://loinc.org",
+          "code": "72166-2",
+          "display": "Tobacco smoking status"
+        }
+      ],
+      "text": "Smoking Status",
+      "type": "boolean",
+      "required": true
+    },
+    {
+      "linkId": "06",
+      "code": [
+        {
+          "system": "http://loinc.org",
+          "code": "33248-6",
+          "display": "Diabetes status [Identifier]"
+        }
+      ],
+      "text": "Treated for Diabetes",
+      "type": "boolean",
+      "required": true
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/minValue-my-core",
+          "valueInteger": 10
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/maxValue-my-core",
+          "valueInteger": 50
+        }
+      ],
+      "linkId": "07",
+      "code": [
+        {
+          "system": "http://loinc.org",
+          "code": "39156-5",
+          "display": "Body mass index (BMI) [Ratio]"
+        }
+      ],
+      "text": "Body Mass Index (BMI)",
+      "type": "quantity",
+      "required": true
+    },
+    {
+      "id": "score",
+      "linkId": "08",
+      "code": [
+        {
+          "system": "http://loinc.org",
+          "code": "65853-4",
+          "display": "General cardiovascular disease 10Y risk [#] Framingham.D'Agostino"
+        }
+      ],
+      "text": "Your 10-Year Heart Attack Risk score",
+      "type": "quantity",
+      "required": true,
+      "readOnly": true
+    },
+    {
+      "id": "outcome",
+      "linkId": "09",
+      "code": [
+        {
+          "system": "http://loinc.org",
+          "code": "65853-4",
+          "display": "General cardiovascular disease 10Y risk [#] Framingham.D'Agostino"
+        }
+      ],
+      "text": "Your 10-Year Heart Attack Risk outcome",
+      "type": "choice",
+      "required": true,
+      "readOnly": true,
+      "answerOption": [
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/outcome-gen-cvs-my-core",
+            "code": "a1",
+            "display": "Low heart attack risk"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/outcome-gen-cvs-my-core",
+            "code": "a2",
+            "display": "Moderate heart attack risk"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/outcome-gen-cvs-my-core",
+            "code": "a3",
+            "display": "High heart attack risk"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/outcome-gen-cvs-my-core",
+            "code": "a4",
+            "display": "Very high heart attack risk"
+          }
+        }
+      ]
+    }
+  ]
+}

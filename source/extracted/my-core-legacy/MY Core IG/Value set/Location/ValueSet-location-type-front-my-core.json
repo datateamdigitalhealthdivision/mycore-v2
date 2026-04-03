@@ -1,0 +1,32 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-location-type-front-my-core",
+  "meta": {
+    "source": "#6VktDJgaIPy3gYU2",
+    "tag": [
+      {
+        "system": "https://smilecdr.com/fhir/NamingSystem/tags",
+        "code": "validation_passed",
+        "display": "Validation Passed"
+      }
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetLocationTypeFront (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/ValueSet/location-type-front-my-core</tt><p>Location Type Front</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/location-type-front-my-core",
+  "name": "ValueSetLocationTypeFrontMyCore",
+  "title": "ValueSetLocationTypeFront (MY Core)",
+  "status": "active",
+  "date": "2023-06-08T03:08:38.5864399+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "description": "Location Type Front",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/location-type-my-core"
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+code,display,definition,system_url,system_name
+PN,PN,PN,http://fhir.hie.moh.gov.my/CodeSystem/drug-type-my-core,CodeSystemDrugTypeMyCore
+RM,Raw Material,Raw Material,http://fhir.hie.moh.gov.my/CodeSystem/drug-type-my-core,CodeSystemDrugTypeMyCore
+GL,General,General,http://fhir.hie.moh.gov.my/CodeSystem/drug-type-my-core,CodeSystemDrugTypeMyCore
+RF,Radiopharma,Radiopharma,http://fhir.hie.moh.gov.my/CodeSystem/drug-type-my-core,CodeSystemDrugTypeMyCore
+GR,Generator,Generator,http://fhir.hie.moh.gov.my/CodeSystem/drug-type-my-core,CodeSystemDrugTypeMyCore

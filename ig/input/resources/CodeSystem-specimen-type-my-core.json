@@ -1,0 +1,169 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "specimen-type-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemSpecimenType (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/specimen-type-my-core</tt><p>Malaysia specimen type</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/specimen-type-my-core",
+  "version": "2.0.0",
+  "name": "CodeSystemSpecimenTypeMyCore",
+  "title": "CodeSystemSpecimenType (MY Core)",
+  "status": "active",
+  "date": "2023-10-02T05:48:48.613112+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Malaysia specimen type",
+  "compositional": false,
+  "content": "complete",
+  "count": 26,
+  "concept": [
+    {
+      "code": "Urine",
+      "display": "Urine",
+      "definition": "Urine"
+    },
+    {
+      "code": "Ser/Plas",
+      "display": "Serum/Plasma",
+      "definition": "Serum/Plasma"
+    },
+    {
+      "code": "Wound",
+      "display": "Wound",
+      "definition": "Wound"
+    },
+    {
+      "code": "XXX",
+      "display": "Other",
+      "definition": "Other"
+    },
+    {
+      "code": "Bld",
+      "display": "Blood",
+      "definition": "Blood"
+    },
+    {
+      "code": "BldA",
+      "display": "Blood Arterial",
+      "definition": "Blood Arterial"
+    },
+    {
+      "code": "^Patient",
+      "display": "Patient Sample",
+      "definition": "Patient Sample"
+    },
+    {
+      "code": "PPP",
+      "display": "Platelet Poor Plasma",
+      "definition": "Platelet Poor Plasma"
+    },
+    {
+      "code": "Sputum",
+      "display": "Sputum",
+      "definition": "Sputum"
+    },
+    {
+      "code": "BldC",
+      "display": "Blood Capillary",
+      "definition": "Blood Capillary"
+    },
+    {
+      "code": "Thrt",
+      "display": "Throat",
+      "definition": "Throat"
+    },
+    {
+      "code": "Body fld",
+      "display": "Body Fluid",
+      "definition": "Body Fluid"
+    },
+    {
+      "code": "Stool",
+      "display": "Stool",
+      "definition": "Stool"
+    },
+    {
+      "code": "Cvx",
+      "display": "Cervix",
+      "definition": "Cervix"
+    },
+    {
+      "code": "CSF",
+      "display": "CSF",
+      "definition": "CSF"
+    },
+    {
+      "code": "Genital",
+      "display": "Genital",
+      "definition": "Genital"
+    },
+    {
+      "code": "Ser",
+      "display": "Serum",
+      "definition": "Serum"
+    },
+    {
+      "code": "Tiss",
+      "display": "Tissue",
+      "definition": "Tissue"
+    },
+    {
+      "code": "BldCoA",
+      "display": "Blood Cord Arterial",
+      "definition": "Blood Cord Arterial"
+    },
+    {
+      "code": "Ctp",
+      "display": "Catheter Tip",
+      "definition": "Catheter Tip"
+    },
+    {
+      "code": "Urethra",
+      "display": "Urethra",
+      "definition": "Urethra"
+    },
+    {
+      "code": "Urine+Ser/Plas",
+      "display": "Urine + Serum/Plasma",
+      "definition": "Urine + Serum/Plasma"
+    },
+    {
+      "code": "Plas",
+      "display": "Plasma",
+      "definition": "Plasma"
+    },
+    {
+      "code": "Vag",
+      "display": "Vagina",
+      "definition": "Vagina"
+    },
+    {
+      "code": "Abscess",
+      "display": "Abscess",
+      "definition": "Abscess"
+    },
+    {
+      "code": "Bld/Tiss",
+      "display": "Blood/Tissue",
+      "definition": "Blood/Tissue"
+    },
+    {
+      "code": "Ser+Bld",
+      "display": "Serum + Blood",
+      "definition": "Serum + Blood"
+    }
+  ],
+  "experimental": false,
+  "caseSensitive": true
+}

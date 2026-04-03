@@ -1,0 +1,32 @@
+{
+  "resourceType": "ValueSet",
+  "id": "service-type-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSet Service Type My Core</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/service-type-my-core</tt><p>Malaysia Healthcare Service Type</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/service-type-my-core",
+  "name": "ValueSetServiceTypeMyCore",
+  "title": "ValueSetServiceType (MY Core)",
+  "status": "active",
+  "date": "2023-01-03T04:47:56.9010407+00:00",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "Malaysia Healthcare Service Type",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/service-type-my-core"
+      }
+    ]
+  },
+  "version": "2.0.0",
+  "experimental": false
+}

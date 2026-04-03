@@ -1,0 +1,29 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "AdverseEvent-my-core",
+  "url": "http://fhir.hie.moh.gov.my/StructureDefinition/AdverseEvent-my-core",
+  "version": "1.0.0",
+  "name": "AdverseEventMyCore",
+  "title": "AdverseEvent (MY Core)",
+  "status": "active",
+  "date": "2022-05-24T00:17:33.1225559+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "AdverseEvent",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/AdverseEvent",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "AdverseEvent.event",
+        "path": "AdverseEvent.event",
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/adverse-event-event-my-core"
+        }
+      }
+    ]
+  }
+}

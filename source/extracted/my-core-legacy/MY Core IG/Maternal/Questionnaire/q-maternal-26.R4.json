@@ -1,0 +1,48 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-maternal-26",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-26",
+  "version": "1.0.0",
+  "name": "QMaternal26",
+  "title": "Jadual Suntikan Thromboprophylaxis Untuk Ibu Postnatal ((SUBCUTANEOUS UNFRACTIONATED HEPARIN/ LOW MOLECULAR WEIGHT HEPARIN) - Jika Berkaitan",
+  "status": "active",
+  "date": "2023-08-30T01:19:04.1804145+00:00",
+  "item": [
+    {
+      "linkId": "maternal-26.1",
+      "text": "Nama ubat",
+      "type": "choice",
+      "answerOption": [
+        {
+          "valueCoding": {
+            "system": "http://snomed.info/sct",
+            "code": "373294004",
+            "display": "Low Molecular Weight Heparin"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://snomed.info/sct",
+            "code": "372877000",
+            "display": "Subcutaneous Unfractionated Heparin"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-26.2",
+      "text": "Dos",
+      "type": "quantity"
+    },
+    {
+      "linkId": "maternal-26.3",
+      "text": "Tarikh",
+      "type": "date"
+    },
+    {
+      "linkId": "maternal-26.4",
+      "text": "Masa",
+      "type": "dateTime"
+    }
+  ]
+}

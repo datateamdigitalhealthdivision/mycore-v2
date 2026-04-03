@@ -1,0 +1,94 @@
+code,display,definition,system_url,system_name
+00,No Information,No Information,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+01,Immune Stain,Immune Stain,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+02,Other stain,Other stain,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+03,Masson Trichrome,Masson Trichrome,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+04,Alcian Blue PAS,Alcian Blue PAS,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+05,PAS,PAS,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+06,PAS+D,PAS+D,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+07,Mucincarmine,Mucincarmine,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+08,AFB,AFB,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+09,Wade Fite,Wade Fite,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+10,Giemsa,Giemsa,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+11,Gram Stain,Gram Stain,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+12,Luxol Fast Blue,Luxol Fast Blue,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+13,Methanamine,Methanamine,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+14,Van Gieson,Van Gieson,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+15,Verhoeff-Van Gieson,Verhoeff-Van Gieson,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+16,Reticulin,Reticulin,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+17,Von Kossa stain,Von Kossa stain,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+18,Fouchet stain,Fouchet stain,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+19,Congo red stain,Congo red stain,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+20,Oil red O stain,Oil red O stain,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+21,Masson Fontana,Masson Fontana,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+22,Rhodamine stain,Rhodamine stain,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+23,Bielschowsky stain,Bielschowsky stain,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+24,PTAH,PTAH,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+25,Grimelius,Grimelius,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+26,Touludine Blue,Touludine Blue,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+27,Alcian Blue,Alcian Blue,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+28,Melanin Bleach,Melanin Bleach,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+29,Sudan IV,Sudan IV,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+30,Crystal Violet,Crystal Violet,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+31,Molgen,Molgen,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+32,FISH,FISH,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+33,Wet preparation,Wet preparation,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+34,Gram stain,Gram stain,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+35,Manual,Manual,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+36,Latex agglutination,Latex agglutination,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+37,Rapid ICT,Rapid ICT,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+38,Culture,Culture,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+39,Agar diffusion,Agar diffusion,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+40,Gradient strip,Gradient strip,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+41,MIC,MIC,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+42,Gradient strip ARD,Gradient strip ARD,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+43,PCR,PCR,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+44,Probe.amp.tar,Probe.amp.tar,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+45,Molecular,Molecular,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+46,Latex agglutination,Latex agglutination,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+47,ZN Stain,ZN Stain,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+48,IF Stain,IF Stain,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+49,Modified ZN,Modified ZN,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+50,IF,IF,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+51,IA,IA,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+52,ICT(Immunochromatographic),ICT(Immunochromatographic),http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+53,Floculation,Floculation,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+54,Agglutination,Agglutination,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+55,Agglutination (titre),Agglutination (titre),http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+56,Not Mention,Not Mention,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+57,Not mention (titre),Not mention (titre),http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+58,IIP,IIP,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+59,KOH preparation,KOH preparation,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+60,India ink preparation,India ink preparation,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+61,LPCB stain,LPCB stain,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+62,wet preparation,wet preparation,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+63,Environmental culture,Environmental culture,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+64,Colorzyme,Colorzyme,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+65,Elisa,Elisa,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+66,ICT,ICT,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+67,EIA/ICT,EIA/ICT,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+68,Immunoblot,Immunoblot,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+69,FEI,FEI,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+70,IB,IB,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+71,Flow cytometry,Flow cytometry,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+72,RAST,RAST,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+73,LA,LA,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+74,Nephelometry,Nephelometry,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+75,FC,FC,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+76,EM,EM,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+77,IA rapid,IA rapid,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+78,IFAT,IFAT,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+79,Western blot,Western blot,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+80,sequencing,sequencing,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+81,RT-PCR,RT-PCR,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+82,Probe.amp.tar,Probe.amp.tar,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+83,Serology,Serology,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+84,Isolation,Isolation,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+85,Giemsa stain,Giemsa stain,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+86,DMSO stain/Gram chromotrope stain,DMSO stain/Gram chromotrope stain,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+87,Wet Mount,Wet Mount,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+88,Direct smear,Direct smear,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+89,Fecal concentration,Fecal concentration,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+90,Trichrome stain,Trichrome stain,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+91,Multiplex PCR,Multiplex PCR,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore
+92,Seminested PCR,Seminested PCR,http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core,CodeSystemLabMethodMyCore

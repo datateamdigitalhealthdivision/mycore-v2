@@ -1,0 +1,11 @@
+code,display,definition,system_url,system_name
+M,Mesial,Mesial,http://fhir.hie.moh.gov.my/CodeSystem/surface-my-core,CodeSystemSurfaceMyCore
+D,Distal,Distal,http://fhir.hie.moh.gov.my/CodeSystem/surface-my-core,CodeSystemSurfaceMyCore
+O,Occlusal,Occlusal,http://fhir.hie.moh.gov.my/CodeSystem/surface-my-core,CodeSystemSurfaceMyCore
+P,Palatal,Palatal,http://fhir.hie.moh.gov.my/CodeSystem/surface-my-core,CodeSystemSurfaceMyCore
+B,Buccal,Buccal,http://fhir.hie.moh.gov.my/CodeSystem/surface-my-core,CodeSystemSurfaceMyCore
+L,Lingual,Lingual,http://fhir.hie.moh.gov.my/CodeSystem/surface-my-core,CodeSystemSurfaceMyCore
+F,Labial,Facial,http://fhir.hie.moh.gov.my/CodeSystem/surface-my-core,CodeSystemSurfaceMyCore
+I,Incisal,Incisal,http://fhir.hie.moh.gov.my/CodeSystem/surface-my-core,CodeSystemSurfaceMyCore
+C,Cervical,Cervical,http://fhir.hie.moh.gov.my/CodeSystem/surface-my-core,CodeSystemSurfaceMyCore
+N/A,Not Applicable,Not Applicable,http://fhir.hie.moh.gov.my/CodeSystem/surface-my-core,CodeSystemSurfaceMyCore

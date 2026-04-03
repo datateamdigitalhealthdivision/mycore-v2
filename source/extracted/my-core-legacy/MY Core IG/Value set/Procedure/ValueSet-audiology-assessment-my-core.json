@@ -1,0 +1,100 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-audiology-assessment-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetAudiologyAssessment(MY Core)</h2><tt>http://fhir.hie.moh.gov.my/ValueSet/audiology-assessment-my-core</tt><p>Malaysia Audiology Assessment</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/audiology-assessment-my-core",
+  "name": "ValueSetAudiologyAssessmentMyCore",
+  "title": "ValueSetAudiologyAssessment(MY Core)",
+  "status": "active",
+  "date": "2023-07-25T00:23:50.1094378+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "description": "Malaysia Audiology Assessment",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core",
+        "concept": [
+          {
+            "code": "00",
+            "display": "OTOSCOPIC EXAMINATION"
+          },
+          {
+            "code": "01",
+            "display": "IMPEDANCE TEST TYMPANOMETRY 226Hz"
+          },
+          {
+            "code": "02",
+            "display": "IMPEDANCE TEST TYMPANOMETRY 1kHz"
+          },
+          {
+            "code": "03",
+            "display": "IMPEDANCE ACOUSTOC REFLEX TEST"
+          },
+          {
+            "code": "04",
+            "display": "IMPEDANCE REFLAX DECAY TEST"
+          },
+          {
+            "code": "05",
+            "display": "IMPEDANCE EUSTACHIAN TUBE DYSFUNCTION TEST"
+          },
+          {
+            "code": "06",
+            "display": "SCREENING OAE"
+          },
+          {
+            "code": "07",
+            "display": "SCREENING AABR"
+          },
+          {
+            "code": "08",
+            "display": "BOA APR"
+          },
+          {
+            "code": "09",
+            "display": "BOA DT"
+          },
+          {
+            "code": "10",
+            "display": "AUDIOMETRY PTA"
+          },
+          {
+            "code": "11",
+            "display": "AUDIOMETRY PTA PAEDIATRIC"
+          },
+          {
+            "code": "12",
+            "display": "AUDIOMERTY PLAY"
+          },
+          {
+            "code": "13",
+            "display": "AUDIOMETRY VRA"
+          },
+          {
+            "code": "14",
+            "display": "AUDIOMETRY SPEECH"
+          },
+          {
+            "code": "15",
+            "display": "AUDIOMETRY AIDED"
+          },
+          {
+            "code": "16",
+            "display": "AUDIOMETRY HIGH FREQUENCY"
+          },
+          {
+            "code": "17",
+            "display": "SPECIAL TONE DECAY TEST"
+          },
+          {
+            "code": "18",
+            "display": "SPECIAL STENGER TEST"
+          }
+        ]
+      }
+    ]
+  }
+}

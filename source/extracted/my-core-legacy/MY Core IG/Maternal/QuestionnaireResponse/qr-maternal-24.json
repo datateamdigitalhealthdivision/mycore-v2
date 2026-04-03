@@ -1,0 +1,258 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-maternal-24",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-24",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/bfb81ffe-637d-4b3f-befa-f7a1546ed9f8"
+    },
+    "authored": "2022-11-16T03:56:06.596Z",
+    "author": {
+        "reference": "PractitionerRole/cd16e0cb-3e0f-43bb-9197-901f5daff3ba/_history/27"
+    },
+    "item": [
+        {
+            "linkId": "maternal-24.1",
+            "text": "Suhu badan",
+            "answer": [
+                {
+                    "valueQuantity": {
+                        "value": 37
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-24.2",
+            "text": "Tekanan darah",
+            "item": [
+                {
+                    "linkId": "maternal-24.2.1",
+                    "text": "Sistolik",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 120
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-24.2.2",
+                    "text": "Diastolik",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 90
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-24.3",
+            "text": "Nadi",
+            "answer": [
+                {
+                    "valueQuantity": {
+                        "value": 90
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-24.4",
+            "text": "Penafasan",
+            "answer": [
+                {
+                    "valueQuantity": {
+                        "value": 20
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-24.5",
+            "text": "Payudara",
+            "answer": [
+                {
+                    "valueString": "normal"
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-24.6",
+            "text": "Tinggi rahim",
+            "answer": [
+                {
+                    "valueQuantity": {
+                        "value": 8
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-24.7",
+            "text": "Lokia",
+            "item": [
+                {
+                    "linkId": "maternal-24.7.1",
+                    "text": "Bau",
+                    "answer": [
+                        {
+                            "valueString": "normal"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-24.7.2",
+                    "text": "Rubra",
+                    "answer": [
+                        {
+                            "valueString": "normal"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-24.7.3",
+                    "text": "Serosa",
+                    "answer": [
+                        {
+                            "valueString": "normal"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-24.7.4",
+                    "text": "Alba",
+                    "answer": [
+                        {
+                            "valueString": "normal"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-24.7.5",
+                    "text": "Pad chart",
+                    "answer": [
+                        {
+                            "valueString": "normal"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-24.8",
+            "text": "Perineum/luka episiotomi",
+            "answer": [
+                {
+                    "valueString": "normal"
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-24.9",
+            "text": "Luka pembedahan",
+            "answer": [
+                {
+                    "valueString": "normal"
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-24.10",
+            "text": "PU",
+            "answer": [
+                {
+                    "valueString": "normal"
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-24.11",
+            "text": "BO",
+            "answer": [
+                {
+                    "valueString": "normal"
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-24.12",
+            "text": "Ibu bergerak/berjalan (ambulasi)",
+            "answer": [
+                {
+                    "valueString": "normal"
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-24.13",
+            "text": "Menilai simptom kemurungan /psikosis ibu",
+            "answer": [
+                {
+                    "valueString": "normal"
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-24.14",
+            "text": "Tanda & simptom DVT/Pulmonary Thromboembolism",
+            "item": [
+                {
+                    "linkId": "maternal-24.14.1",
+                    "text": "Sakit dada",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-24.14.2",
+                    "text": "Susah bernafas",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-24.14.3",
+                    "text": "Sakit/bengkak kaki",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-24.14.4",
+                    "text": "Redness/inflammation of lower limb",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-24.14.5",
+                    "text": "Calf tenderness",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

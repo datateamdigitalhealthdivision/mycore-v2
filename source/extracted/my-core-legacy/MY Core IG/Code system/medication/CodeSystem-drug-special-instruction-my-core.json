@@ -1,0 +1,652 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-drug-special-instruction-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemDrugSpecialInstruction (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core</tt><p>Drug Special Instruction</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core",
+  "version": "1.0.0",
+  "name": "CodeSystemDrugSpecialInstructionMyCore",
+  "title": "CodeSystemDrugSpecialInstruction (MY Core)",
+  "status": "active",
+  "date": "2023-01-12T21:13:03.0089063+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Drug Special Instruction",
+  "compositional": false,
+  "content": "complete",
+  "count": 124,
+  "concept": [
+    {
+      "code": "10",
+      "display": "Administer 15-30 minutes before _______________",
+      "definition": "Administer 15-30 minutes before _______________"
+    },
+    {
+      "code": "20",
+      "display": "Administer at the same time everyday",
+      "definition": "Administer at the same time everyday"
+    },
+    {
+      "code": "30",
+      "display": "Administer within 15-30 mins before meal",
+      "definition": "Administer within 15-30 mins before meal"
+    },
+    {
+      "code": "40",
+      "display": "Administer within 5-15 minutes before meal",
+      "definition": "Administer within 5-15 minutes before meal"
+    },
+    {
+      "code": "50",
+      "display": "Apply 6-8 hours then wash. Only 1 application is necessary",
+      "definition": "Apply 6-8 hours then wash. Only 1 application is necessary"
+    },
+    {
+      "code": "60",
+      "display": "Apply liberally to lesion with suitable applicator",
+      "definition": "Apply liberally to lesion with suitable applicator"
+    },
+    {
+      "code": "70",
+      "display": "Apply sparingly. For external use only.",
+      "definition": "Apply sparingly. For external use only."
+    },
+    {
+      "code": "80",
+      "display": "Apply to affected area. Leave to dry",
+      "definition": "Apply to affected area. Leave to dry"
+    },
+    {
+      "code": "90",
+      "display": "Apply to hair-free area of skin on chest or inner side arm",
+      "definition": "Apply to hair-free area of skin on chest or inner side arm"
+    },
+    {
+      "code": "100",
+      "display": "Apply to lesion for not more than 5 hour then wash off",
+      "definition": "Apply to lesion for not more than 5 hour then wash off"
+    },
+    {
+      "code": "110",
+      "display": "Apply to wet hair leave for 15min rinse.",
+      "definition": "Apply to wet hair leave for 15min rinse."
+    },
+    {
+      "code": "114",
+      "display": "Avoid abrupt withdrawal, use as directed by doctor/pharmacist",
+      "definition": "Avoid abrupt withdrawal, use as directed by doctor/pharmacist"
+    },
+    {
+      "code": "120",
+      "display": "Careful handwashing after use is recommended",
+      "definition": "Careful handwashing after use is recommended"
+    },
+    {
+      "code": "130",
+      "display": "Chew or dissolve with water",
+      "definition": "Chew or dissolve with water"
+    },
+    {
+      "code": "140",
+      "display": "Chew thoroughly before swallowing",
+      "definition": "Chew thoroughly before swallowing"
+    },
+    {
+      "code": "150",
+      "display": "Cleanse area with water only allow to dry prior application",
+      "definition": "Cleanse area with water only allow to dry prior application"
+    },
+    {
+      "code": "160",
+      "display": "Contact doctor if allergic reaction occurs",
+      "definition": "Contact doctor if allergic reaction occurs"
+    },
+    {
+      "code": "170",
+      "display": "Day 4-7: Take 1 white tablet (0.5mg) 2 times a day",
+      "definition": "Day 4-7: Take 1 white tablet (0.5mg) 2 times a day"
+    },
+    {
+      "code": "180",
+      "display": "Dilute up to 3 times its volume with warm water",
+      "definition": "Dilute up to 3 times its volume with warm water"
+    },
+    {
+      "code": "190",
+      "display": "Dilute with 1 glass of water before drink",
+      "definition": "Dilute with 1 glass of water before drink"
+    },
+    {
+      "code": "200",
+      "display": "Dilute with glass of water/juice/milk and drink",
+      "definition": "Dilute with glass of water/juice/milk and drink"
+    },
+    {
+      "code": "210",
+      "display": "Discard after 1 month of opening. EXP DATE:",
+      "definition": "Discard after 1 month of opening. EXP DATE:"
+    },
+    {
+      "code": "214",
+      "display": "Dilute well with water before taking",
+      "definition": "Dilute well with water before taking"
+    },
+    {
+      "code": "220",
+      "display": "Dissolve in 1 glass water and drink",
+      "definition": "Dissolve in 1 glass water and drink"
+    },
+    {
+      "code": "222",
+      "display": "Do not apply to open wounds or burnt",
+      "definition": "Do not apply to open wounds or burnt"
+    },
+    {
+      "code": "230",
+      "display": "Do not eat/drink for 10minutes after taking this drug",
+      "definition": "Do not eat/drink for 10minutes after taking this drug"
+    },
+    {
+      "code": "234",
+      "display": "Do not dilute with Saline Solution (Sodium Chloride)",
+      "definition": "Do not dilute with Saline Solution (Sodium Chloride)"
+    },
+    {
+      "code": "236",
+      "display": "Do not stop medicine without doctor's advice",
+      "definition": "Do not stop medicine without doctor's advice"
+    },
+    {
+      "code": "238",
+      "display": "Do not take more than 8 tablets a day",
+      "definition": "Do not take more than 8 tablets a day"
+    },
+    {
+      "code": "240",
+      "display": "Drink plenty of warm water",
+      "definition": "Drink plenty of warm water"
+    },
+    {
+      "code": "250",
+      "display": "Drink plenty of water",
+      "definition": "Drink plenty of water"
+    },
+    {
+      "code": "260",
+      "display": "Followed by another 240ml of water.",
+      "definition": "Followed by another 240ml of water."
+    },
+    {
+      "code": "270",
+      "display": "For external use only",
+      "definition": "For external use only"
+    },
+    {
+      "code": "280",
+      "display": "For Intravenous Infusion Only",
+      "definition": "For Intravenous Infusion Only"
+    },
+    {
+      "code": "290",
+      "display": "For topical use",
+      "definition": "For topical use"
+    },
+    {
+      "code": "300",
+      "display": "Further dilute with ______ Dext 5%. Inf ____ hr",
+      "definition": "Further dilute with ______ Dext 5%. Inf ____ hr"
+    },
+    {
+      "code": "310",
+      "display": "Further dilute with ______ NS. Inf ____ hr",
+      "definition": "Further dilute with ______ NS. Inf ____ hr"
+    },
+    {
+      "code": "320",
+      "display": "If rash, fever, sore throat or eye irritation occurs,",
+      "definition": "If rash, fever, sore throat or eye irritation occurs,"
+    },
+    {
+      "code": "330",
+      "display": "Keep away from direct sunlight",
+      "definition": "Keep away from direct sunlight"
+    },
+    {
+      "code": "340",
+      "display": "Leave for 10 minutes. Then rinse thoroughly",
+      "definition": "Leave for 10 minutes. Then rinse thoroughly"
+    },
+    {
+      "code": "350",
+      "display": "Leave for 24 hours then wash off.",
+      "definition": "Leave for 24 hours then wash off."
+    },
+    {
+      "code": "360",
+      "display": "Leave for 4 minutes. Rinse thoroughly with warm water",
+      "definition": "Leave for 4 minutes. Rinse thoroughly with warm water"
+    },
+    {
+      "code": "370",
+      "display": "Leave for 8-12 hours. Wash thoroughly with warm water",
+      "definition": "Leave for 8-12 hours. Wash thoroughly with warm water"
+    },
+    {
+      "code": "380",
+      "display": "Leave in the mouth as long as possible",
+      "definition": "Leave in the mouth as long as possible"
+    },
+    {
+      "code": "384",
+      "display": "May cause drowsiness, dizziness and dry mouth. Take as directed",
+      "definition": "May cause drowsiness, dizziness and dry mouth. Take as directed"
+    },
+    {
+      "code": "390",
+      "display": "May cause drowsiness. Take as directed",
+      "definition": "May cause drowsiness. Take as directed"
+    },
+    {
+      "code": "400",
+      "display": "No food atleast 2 hr before at least 1hr after dose",
+      "definition": "No food atleast 2 hr before at least 1hr after dose"
+    },
+    {
+      "code": "404",
+      "display": "Not for IV use",
+      "definition": "Not for IV use"
+    },
+    {
+      "code": "410",
+      "display": "Place tab on tongue. Let it dissolve before swallowing",
+      "definition": "Place tab on tongue. Let it dissolve before swallowing"
+    },
+    {
+      "code": "420",
+      "display": "Protect this medicine from light",
+      "definition": "Protect this medicine from light"
+    },
+    {
+      "code": "430",
+      "display": "Protect this medicine from moisture and light",
+      "definition": "Protect this medicine from moisture and light"
+    },
+    {
+      "code": "440",
+      "display": "Recons with Manufacturer Supplied Diluent",
+      "definition": "Recons with Manufacturer Supplied Diluent"
+    },
+    {
+      "code": "450",
+      "display": "Recons with Normal Saline",
+      "definition": "Recons with Normal Saline"
+    },
+    {
+      "code": "454",
+      "display": "Recons with Normal Saline/ WFI",
+      "definition": "Recons with Normal Saline/ WFI"
+    },
+    {
+      "code": "460",
+      "display": "Recons with Water for Inj (WFI)",
+      "definition": "Recons with Water for Inj (WFI)"
+    },
+    {
+      "code": "470",
+      "display": "Rinse mouth after inhalation",
+      "definition": "Rinse mouth after inhalation"
+    },
+    {
+      "code": "474",
+      "display": "Shake 3-5 times before using",
+      "definition": "Shake 3-5 times before using"
+    },
+    {
+      "code": "480",
+      "display": "Shake well before use",
+      "definition": "Shake well before use"
+    },
+    {
+      "code": "490",
+      "display": "Shake well before use. For external use only.",
+      "definition": "Shake well before use. For external use only."
+    },
+    {
+      "code": "500",
+      "display": "Soak/wash the affected part for 5-10 minute",
+      "definition": "Soak/wash the affected part for 5-10 minute"
+    },
+    {
+      "code": "510",
+      "display": "Stand/sit upright at least 30min. Do not lie down",
+      "definition": "Stand/sit upright at least 30min. Do not lie down"
+    },
+    {
+      "code": "514",
+      "display": "Store between 2-°C, do not freeze",
+      "definition": "Store between 2-°C, do not freeze"
+    },
+    {
+      "code": "516",
+      "display": "Store unopened between 2-8°C, do not freeze",
+      "definition": "Store unopened between 2-8°C, do not freeze"
+    },
+    {
+      "code": "520",
+      "display": "Swallow whole tablet/ capsule with a full glass of water.",
+      "definition": "Swallow whole tablet/ capsule with a full glass of water."
+    },
+    {
+      "code": "530",
+      "display": "Swallow whole tablet/ Dissolve in a little water",
+      "definition": "Swallow whole tablet/ Dissolve in a little water"
+    },
+    {
+      "code": "540",
+      "display": "Swallow with full glass of water while standing upright",
+      "definition": "Swallow with full glass of water while standing upright"
+    },
+    {
+      "code": "550",
+      "display": "Take 15-30 minute before meal",
+      "definition": "Take 15-30 minute before meal"
+    },
+    {
+      "code": "560",
+      "display": "Take 30 minute before food or 2 hours after food",
+      "definition": "Take 30 minute before food or 2 hours after food"
+    },
+    {
+      "code": "564",
+      "display": "Take 30 mins before meal",
+      "definition": "Take 30 mins before meal"
+    },
+    {
+      "code": "570",
+      "display": "Take at regular intervals",
+      "definition": "Take at regular intervals"
+    },
+    {
+      "code": "580",
+      "display": "Take consistently at the same time everyday",
+      "definition": "Take consistently at the same time everyday"
+    },
+    {
+      "code": "590",
+      "display": "Take every 5 min if pain.See Dr if pain persist",
+      "definition": "Take every 5 min if pain.See Dr if pain persist"
+    },
+    {
+      "code": "600",
+      "display": "Take medicine as directed by pharmacist",
+      "definition": "Take medicine as directed by pharmacist"
+    },
+    {
+      "code": "610",
+      "display": "Take medicine at 6pm everyday",
+      "definition": "Take medicine at 6pm everyday"
+    },
+    {
+      "code": "620",
+      "display": "Take medicine preferably at bedtime",
+      "definition": "Take medicine preferably at bedtime"
+    },
+    {
+      "code": "624",
+      "display": "Take medicine preferably at bedtime, but not immediately before going to bed",
+      "definition": "Take medicine preferably at bedtime, but not immediately before going to bed"
+    },
+    {
+      "code": "630",
+      "display": "Take medicine regularly. Avoid abrupt discontinuation",
+      "definition": "Take medicine regularly. Avoid abrupt discontinuation"
+    },
+    {
+      "code": "640",
+      "display": "Take regularly and complete the whole course as directed.",
+      "definition": "Take regularly and complete the whole course as directed."
+    },
+    {
+      "code": "650",
+      "display": "Take with a full glass of water or juice",
+      "definition": "Take with a full glass of water or juice"
+    },
+    {
+      "code": "660",
+      "display": "Take with fatty meals regularly complete the course",
+      "definition": "Take with fatty meals regularly complete the course"
+    },
+    {
+      "code": "670",
+      "display": "Take with food or milky drinks",
+      "definition": "Take with food or milky drinks"
+    },
+    {
+      "code": "680",
+      "display": "Take with full glass of water",
+      "definition": "Take with full glass of water"
+    },
+    {
+      "code": "690",
+      "display": "Take with full glass of water Stand/sit upright atleast 1hr",
+      "definition": "Take with full glass of water Stand/sit upright atleast 1hr"
+    },
+    {
+      "code": "700",
+      "display": "This drug may cause drowsiness",
+      "definition": "This drug may cause drowsiness"
+    },
+    {
+      "code": "710",
+      "display": "Tip of crystal moistened by dipping in water before applying",
+      "definition": "Tip of crystal moistened by dipping in water before applying"
+    },
+    {
+      "code": "714",
+      "display": "To be chewed or sucked",
+      "definition": "To be chewed or sucked"
+    },
+    {
+      "code": "720",
+      "display": "To be swallowed whole, not chewed/crush",
+      "definition": "To be swallowed whole, not chewed/crush"
+    },
+    {
+      "code": "730",
+      "display": "Use as directed by pharmacist",
+      "definition": "Use as directed by pharmacist"
+    },
+    {
+      "code": "740",
+      "display": "Use as directed. Shake well before use",
+      "definition": "Use as directed. Shake well before use"
+    },
+    {
+      "code": "750",
+      "display": "Use undiluted",
+      "definition": "Use undiluted"
+    },
+    {
+      "code": "760",
+      "display": "Wash hand before and after applying.",
+      "definition": "Wash hand before and after applying."
+    },
+    {
+      "code": "770",
+      "display": "Wash hands before after handling med/bottle contain pills",
+      "definition": "Wash hands before after handling med/bottle contain pills"
+    },
+    {
+      "code": "780",
+      "display": "Wash hands before applying. Do not touch application's tip",
+      "definition": "Wash hands before applying. Do not touch application's tip"
+    },
+    {
+      "code": "790",
+      "display": "Wash hands before applying.Dont let applicator tip touch eye",
+      "definition": "Wash hands before applying.Dont let applicator tip touch eye"
+    },
+    {
+      "code": "800",
+      "display": "Wash hands before applying/ using",
+      "definition": "Wash hands before applying/ using"
+    },
+    {
+      "code": "810",
+      "display": "Wet hair. Massage 5-15ml to wet hair and rinse thorougly",
+      "definition": "Wet hair. Massage 5-15ml to wet hair and rinse thorougly"
+    },
+    {
+      "code": "820",
+      "display": "Administer within 15 minutes before meal",
+      "definition": "Administer within 15 minutes before meal"
+    },
+    {
+      "code": "830",
+      "display": "Administer within 30 mins before meal",
+      "definition": "Administer within 30 mins before meal"
+    },
+    {
+      "code": "840",
+      "display": "Apply at bedtime and leave on skin for 6-10 hours",
+      "definition": "Apply at bedtime and leave on skin for 6-10 hours"
+    },
+    {
+      "code": "850",
+      "display": "Apply on scalp at bedtime. Wash off the next morning",
+      "definition": "Apply on scalp at bedtime. Wash off the next morning"
+    },
+    {
+      "code": "860",
+      "display": "Can be mixed with food or drink",
+      "definition": "Can be mixed with food or drink"
+    },
+    {
+      "code": "870",
+      "display": "Day 1: Take 125 mg cap/tab once a day",
+      "definition": "Day 1: Take 125 mg cap/tab once a day"
+    },
+    {
+      "code": "880",
+      "display": "Dilute 1 part with 1 part warm water before use",
+      "definition": "Dilute 1 part with 1 part warm water before use"
+    },
+    {
+      "code": "890",
+      "display": "Dilute/Dissolve with __glass / __ml of water before drink",
+      "definition": "Dilute/Dissolve with __glass / __ml of water before drink"
+    },
+    {
+      "code": "900",
+      "display": "Dilute with 1 glass / 250ml of water before drink",
+      "definition": "Dilute with 1 glass / 250ml of water before drink"
+    },
+    {
+      "code": "910",
+      "display": "Dilute with 1 glass / 250ml of water/juice/milk and drink",
+      "definition": "Dilute with 1 glass / 250ml of water/juice/milk and drink"
+    },
+    {
+      "code": "920",
+      "display": "Discard 7 days after opening. EXP DATE:",
+      "definition": "Discard 7 days after opening. EXP DATE:"
+    },
+    {
+      "code": "930",
+      "display": "Dissolve 3 or 4 crystal in 500ml hot water. Inhale vapour",
+      "definition": "Dissolve 3 or 4 crystal in 500ml hot water. Inhale vapour"
+    },
+    {
+      "code": "940",
+      "display": "Dissolve in 1 glass / 250ml water and drink",
+      "definition": "Dissolve in 1 glass / 250ml water and drink"
+    },
+    {
+      "code": "950",
+      "display": "Dissolve in 1 L of water before use",
+      "definition": "Dissolve in 1 L of water before use"
+    },
+    {
+      "code": "960",
+      "display": "Dissolve ____ pack in ______ ML water",
+      "definition": "Dissolve ____ pack in ______ ML water"
+    },
+    {
+      "code": "970",
+      "display": "Dissolve ____ TABLET in ______ ML water",
+      "definition": "Dissolve ____ TABLET in ______ ML water"
+    },
+    {
+      "code": "980",
+      "display": "Do not eat/drink for 1 hour after use",
+      "definition": "Do not eat/drink for 1 hour after use"
+    },
+    {
+      "code": "990",
+      "display": "Keep in refrigerator -temp 2-8 C",
+      "definition": "Keep in refrigerator -temp 2-8 C"
+    },
+    {
+      "code": "1000",
+      "display": "Leave for 10-15 mins and rinse thoroughly",
+      "definition": "Leave for 10-15 mins and rinse thoroughly"
+    },
+    {
+      "code": "1010",
+      "display": "Leave overnight (8-14 hours) Wash thoroughly with warm water",
+      "definition": "Leave overnight (8-14 hours) Wash thoroughly with warm water"
+    },
+    {
+      "code": "1020",
+      "display": "Pour 1 teaspoon to 500 ml of hot water. Inhale the vapour",
+      "definition": "Pour 1 teaspoon to 500 ml of hot water. Inhale the vapour"
+    },
+    {
+      "code": "1030",
+      "display": "Shake well before use.",
+      "definition": "Shake well before use."
+    },
+    {
+      "code": "1040",
+      "display": "Take after meals to avoid gastric discomfort",
+      "definition": "Take after meals to avoid gastric discomfort"
+    },
+    {
+      "code": "1050",
+      "display": "Take for 4 weeks, rest or 2 weeks",
+      "definition": "Take for 4 weeks, rest or 2 weeks"
+    },
+    {
+      "code": "1060",
+      "display": "Take medicine as directed by doctor/pharmacist",
+      "definition": "Take medicine as directed by doctor/pharmacist"
+    },
+    {
+      "code": "1070",
+      "display": "Take with a full glass / 250ml of water or juice",
+      "definition": "Take with a full glass / 250ml of water or juice"
+    },
+    {
+      "code": "1080",
+      "display": "Use as directed by doctor/ pharmacist",
+      "definition": "Use as directed by doctor/ pharmacist"
+    },
+    {
+      "code": "1090",
+      "display": "Use as directed. Shake well before use",
+      "definition": "Use as directed. Shake well before use"
+    }
+  ]
+}

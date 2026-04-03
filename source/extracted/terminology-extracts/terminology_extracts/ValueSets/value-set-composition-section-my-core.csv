@@ -1,0 +1,18 @@
+code,display,system,include_type,valueset_url,valueset_name
+LP199484-9,Form,http://fhir.hie.moh.gov.my/CodeSystem/composition-section-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/composition-section-my-core,ValueSetCompositionSectionMyCore
+55752-0,Clinical Information,http://fhir.hie.moh.gov.my/CodeSystem/composition-section-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/composition-section-my-core,ValueSetCompositionSectionMyCore
+11450-4,Problem List,http://fhir.hie.moh.gov.my/CodeSystem/composition-section-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/composition-section-my-core,ValueSetCompositionSectionMyCore
+8716-3,Vital Sign,http://fhir.hie.moh.gov.my/CodeSystem/composition-section-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/composition-section-my-core,ValueSetCompositionSectionMyCore
+48765-2,Allergy And Intolerance,http://fhir.hie.moh.gov.my/CodeSystem/composition-section-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/composition-section-my-core,ValueSetCompositionSectionMyCore
+85893-6,Adverse Event,http://fhir.hie.moh.gov.my/CodeSystem/composition-section-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/composition-section-my-core,ValueSetCompositionSectionMyCore
+10160-0,Medication,http://fhir.hie.moh.gov.my/CodeSystem/composition-section-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/composition-section-my-core,ValueSetCompositionSectionMyCore
+29762-2,Social History,http://fhir.hie.moh.gov.my/CodeSystem/composition-section-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/composition-section-my-core,ValueSetCompositionSectionMyCore
+10157-6,Family History,http://fhir.hie.moh.gov.my/CodeSystem/composition-section-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/composition-section-my-core,ValueSetCompositionSectionMyCore
+11369-6,Immunization,http://fhir.hie.moh.gov.my/CodeSystem/composition-section-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/composition-section-my-core,ValueSetCompositionSectionMyCore
+51848-0,Assessment,http://fhir.hie.moh.gov.my/CodeSystem/composition-section-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/composition-section-my-core,ValueSetCompositionSectionMyCore
+18776-5,Plan of Care,http://fhir.hie.moh.gov.my/CodeSystem/composition-section-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/composition-section-my-core,ValueSetCompositionSectionMyCore
+83835-9,Dentistry,http://fhir.hie.moh.gov.my/CodeSystem/composition-section-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/composition-section-my-core,ValueSetCompositionSectionMyCore
+32885-6,Dental Chart,http://fhir.hie.moh.gov.my/CodeSystem/composition-section-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/composition-section-my-core,ValueSetCompositionSectionMyCore
+59776-5,Procedure description,http://fhir.hie.moh.gov.my/CodeSystem/composition-section-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/composition-section-my-core,ValueSetCompositionSectionMyCore
+55109-3,Complications Document,http://fhir.hie.moh.gov.my/CodeSystem/composition-section-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/composition-section-my-core,ValueSetCompositionSectionMyCore
+55107-7,Addendum Note,http://fhir.hie.moh.gov.my/CodeSystem/composition-section-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/composition-section-my-core,ValueSetCompositionSectionMyCore

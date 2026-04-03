@@ -1,0 +1,49 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-child-add",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "identifier": {
+        "system": "http://fhir.hie.moh.gov.my/sid/template-section",
+        "value": "qr-child-add"
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-child-add",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/3a1fe467-cad5-4ec9-83f8-fd6dfb46470c"
+    },
+    "authored": "2023-04-27T00:20:14.414Z",
+    "item": [
+        {
+            "linkId": "child-add.1",
+            "text": "Umur semasa lawatan",
+            "answer": [
+                {
+                    "valueString": "enter string"
+                }
+            ]
+        },
+        {
+            "linkId": "child-add.2",
+            "text": "Perkara yang membimbangkan ibu bapa/penjaga",
+            "answer": [
+                {
+                    "valueString": "enter string"
+                }
+            ]
+        },
+        {
+            "linkId": "child-add.3",
+            "text": "Maklumat Tambahan",
+            "answer": [
+                {
+                    "valueString": "enter string"
+                }
+            ]
+        }
+    ]
+}

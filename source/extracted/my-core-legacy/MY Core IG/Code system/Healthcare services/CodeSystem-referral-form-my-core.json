@@ -1,0 +1,37 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-referral-form-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemReferralForm (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/referral-form-my-core</tt><p>Type of referral form</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/referral-form-my-core",
+  "version": "1.0.0",
+  "name": "CodeSystemReferralFormMyCore",
+  "title": "CodeSystemReferralForm (MY Core)",
+  "status": "active",
+  "date": "2023-03-30T05:18:54.6783317+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Task output type code system",
+  "compositional": false,
+  "content": "complete",
+  "count": 1,
+  "concept": [
+    {
+      "code": "per-pat-301",
+      "display": "PER-PAT 301",
+      "definition": "PER-PAT 301"
+    }
+  ]
+}

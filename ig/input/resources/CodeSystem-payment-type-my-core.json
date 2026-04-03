@@ -1,0 +1,42 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "payment-type-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemPaymentType (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/payment-type-my-core</tt><p>Payment Type</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/payment-type-my-core",
+  "name": "CodeSystemPaymentTypeMyCore",
+  "title": "CodeSystemPaymentType (MY Core)",
+  "status": "active",
+  "date": "2023-06-26T00:55:17.2867281+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Payment Type",
+  "compositional": false,
+  "content": "complete",
+  "count": 2,
+  "concept": [
+    {
+      "code": "cash",
+      "display": "Cash"
+    },
+    {
+      "code": "cashless-fpx",
+      "display": "Cashless - FPX"
+    }
+  ],
+  "version": "2.0.0",
+  "experimental": false,
+  "caseSensitive": true
+}

@@ -1,0 +1,223 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-child-4y",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-child-4y",
+  "version": "1.0.0",
+  "name": "QChild4y",
+  "title": "Lawatan Umur 4 Tahun",
+  "status": "active",
+  "date": "2023-08-30T06:43:50.5035753+00:00",
+  "item": [
+    {
+      "linkId": "child-4y.1",
+      "text": "Tarikh lawatan",
+      "type": "dateTime"
+    },
+    {
+      "linkId": "child-4y.2",
+      "text": "Umur semasa lawatan",
+      "type": "quantity",
+      "initial": [
+        {
+          "valueQuantity": {
+            "unit": "day",
+            "system": "http://unitsofmeasure.org",
+            "code": "d"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "child-4y.3",
+      "text": "Aktiviti",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "child-4y.3.1",
+          "text": "Berat (kg)",
+          "type": "quantity",
+          "item": [
+            {
+              "linkId": "child-4y.3.1.1",
+              "text": "Catatan (Normal/KBB/KBBT/MP)",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-4y.3.2",
+          "text": "Panjang (cm)",
+          "type": "quantity",
+          "item": [
+            {
+              "linkId": "child-4y.3.2.1",
+              "text": "Catatan (Normal/B/BT/ME)",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-4y.3.3",
+          "text": "BMI (kg/m2)",
+          "type": "quantity",
+          "item": [
+            {
+              "linkId": "child-4y.3.3.1",
+              "text": "Catatan (Normal/MP/B/BT)",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-4y.3.4",
+          "text": "Pemeriksaan fizikal (termasuk mulut)",
+          "type": "string",
+          "item": [
+            {
+              "linkId": "child-4y.3.4.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-4y.3.5",
+          "text": "Pemeriksaan mata",
+          "type": "dateTime",
+          "item": [
+            {
+              "linkId": "child-4y.3.5.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-4y.3.6",
+          "text": "Rujuk Pegawai Perubatan",
+          "type": "dateTime",
+          "item": [
+            {
+              "linkId": "child-4y.3.6.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-4y.3.7",
+          "text": "Rujuk Pemeriksaan Pergigian",
+          "type": "dateTime",
+          "item": [
+            {
+              "linkId": "child-4y.3.7.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-4y.3.8",
+          "text": "Imunisasi (Rujuk Jadual dan Rekod Imunisasi)",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "linkId": "child-4y.4",
+      "text": "Perkara yang membimbangkan ibubapa/penjaga",
+      "type": "string"
+    },
+    {
+      "linkId": "child-4y.5",
+      "text": "Senarai Semak Perkembangan (sila semak terlebih dahulu apa yang ibubapa/penjaga tulis): Tandakan pada ruangan yang berkenaan",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "child-4y.5.1",
+          "text": "Orang lain boleh memahami pertuturan anak",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-4y.5.2",
+          "text": "Anak boleh bercakap menggunakan ayat sepenuhnya?",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-4y.5.3",
+          "text": "Anak boleh meniru lukisan bulatan. (Perhatikan)",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-4y.5.4",
+          "text": "Anak boleh berinteraksi dengan kanak-kanak lain",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "child-4y.6",
+      "text": "Jika ada 'tidak' pada senarai semak perkembangan, rujuk Pegawai Perubatan/FMS/Pakar Pediatrik dan isikan maklumat di bawah.",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "child-4y.6.1",
+          "text": "Tarikh Temujanji",
+          "type": "dateTime"
+        },
+        {
+          "linkId": "child-4y.6.2",
+          "text": "Tempat Rujukan",
+          "type": "string"
+        },
+        {
+          "linkId": "child-4y.6.3",
+          "text": "Tujuan Rujukan",
+          "type": "string"
+        },
+        {
+          "linkId": "child-4y.6.4",
+          "text": "Jika ada 'tidak' pada senarai semak, Jalankan penilaian perkembangan mengguna Carta Denver",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-4y.6.5",
+          "text": "Jika ada 'tidak' pada senarai semak, Lakukan stimulasi awal",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "child-4y.7",
+      "text": "Bimbingan Awal. Tandakan selepas nasihat diberi. (Rujuk Panduan Ibu bapa/Penjaga)",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "child-4y.7.1",
+          "text": "Kebersihan diri Pergigian \na. Berus gigi dengan ubat gigi berfluorida bersaiz sebesar sebiji kacang pis dua kali sehari terutamanya sebelum tidur malam. \nb.Dapatkan pemeriksaan gigi setiap 6 bulan. \nc.Hentikan tabiat menghisap jari/puting tiruan bagi mengelakkan masalah susun atur pergigian.",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-4y.7.2",
+          "text": "Pemakanan \na. Beri anak makanan berkhasiat semasa waktu makan utama. \nb. Pilih snek berkhasiat kepada anak seperti buah-buahan, sayur-sayuran, susu, dadih elakkan makanan ringan yang tidak berkhasiat, minumam bergas dan manis. \nc.Pastikan anak anda minum 4-6 gelas cecair dalam bentuk air masak, jus buah-buahan atau sup.",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-4y.7.3",
+          "text": "Keselamatan dan Pencegahan Kecederaan \na. Mengajar anak amalan baik di jalan raya. \nb. Gunakan topi keselamatan bila menunggang basikal. \nc. Pastikan anak menggunakan kerusi keselamatan dan pasang tali pinggang keselamatan semasa di dalam kereta. \nd. Elakkan anak bermain di longkang, kolam, perigi atau sungai. \ne.Pastikan tingkap berpagar untuk mengelakkan anak anda terjatuh.",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-4y.7.4",
+          "text": "Perkembangan anak \na.Amalkan peraturan yang sentiasa tetap dan tegas. \nb. Guna budi bicara sebelum menjatuhkan hukuman. \nc. Luangkan masa untuk berbual dengan anak anda. \nd. Jadi seorang pendengar yang baik. \ne. Menekankan amalan yang baik dengan puji-pujian. \nf. Hindarkan dari memberi gelaran yang negatif terhadap anak anda.",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "child-4y.remark",
+      "text": "Catatan / Rumusan",
+      "type": "text"
+    }
+  ]
+}

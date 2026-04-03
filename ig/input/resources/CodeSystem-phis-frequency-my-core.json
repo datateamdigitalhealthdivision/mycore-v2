@@ -1,0 +1,1172 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "phis-frequency-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemPhisFrequency (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/phis-frequency-my-core</tt><p>Phis Frequency</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/phis-frequency-my-core",
+  "version": "2.0.0",
+  "name": "CodeSystemPhisFrequencyMyCore",
+  "title": "CodeSystemPhisFrequency (MY Core)",
+  "status": "active",
+  "date": "2023-06-08T03:08:38.5864399+00:00",
+  "description": "Phis Frequency",
+  "compositional": false,
+  "content": "complete",
+  "count": 230,
+  "concept": [
+    {
+      "code": "10AM",
+      "display": "at 10 AM",
+      "definition": "pada jam 10 pagi"
+    },
+    {
+      "code": "10PM",
+      "display": "at 10 PM",
+      "definition": "pada jam 10 malam"
+    },
+    {
+      "code": "1Q10WK",
+      "display": "Once every 10 weeks",
+      "definition": "1 kali setiap 10 minggu"
+    },
+    {
+      "code": "1Q12WK",
+      "display": "Once every 12 weeks",
+      "definition": "1 kali setiap 12 minggu"
+    },
+    {
+      "code": "1Q1M",
+      "display": "Once a month",
+      "definition": "1 kali sebulan"
+    },
+    {
+      "code": "1Q1WK",
+      "display": "Once a week",
+      "definition": "1 kali seminggu (hari ____________)"
+    },
+    {
+      "code": "1Q2M",
+      "display": "Once every 2 months",
+      "definition": "1 kali setiap 2 bulan"
+    },
+    {
+      "code": "1Q2WK",
+      "display": "Once every 2 weeks",
+      "definition": "1 kali setiap 2 minggu"
+    },
+    {
+      "code": "1Q3M",
+      "display": "every 3 month",
+      "definition": "Setiap 3 bulan"
+    },
+    {
+      "code": "1Q3WK",
+      "display": "Once every 3 weeks",
+      "definition": "1 kali setiap 3 minggu"
+    },
+    {
+      "code": "1Q4WK",
+      "display": "Once every 4 weeks",
+      "definition": "1 kali setiap 4 minggu"
+    },
+    {
+      "code": "1Q5WK",
+      "display": "Once every 5 weeks",
+      "definition": "1 kali setiap 5 minggu"
+    },
+    {
+      "code": "1Q6M",
+      "display": "every 6 months",
+      "definition": "1 kali setiap 6 bulan"
+    },
+    {
+      "code": "1Q8WK",
+      "display": "Once every 8 weeks",
+      "definition": "1 kali setiap 8 minggu"
+    },
+    {
+      "code": "2PM",
+      "display": "at 2 PM",
+      "definition": "pada jam 2 petang"
+    },
+    {
+      "code": "2XWK",
+      "display": "2 times a week",
+      "definition": "2 kali seminggu (hari ______ &________)"
+    },
+    {
+      "code": "3XWK",
+      "display": "3 times a week",
+      "definition": "3 kali seminggu (hari _____, ______, _______)"
+    },
+    {
+      "code": "4PM",
+      "display": "at 4 PM",
+      "definition": "pada jam 4 petang"
+    },
+    {
+      "code": "4XWK",
+      "display": "4 times a week",
+      "definition": "4 kali seminggu (hari _____, _____, _____ & _____)"
+    },
+    {
+      "code": "5XDLY",
+      "display": "5 times a day",
+      "definition": "5 kali sehari"
+    },
+    {
+      "code": "5XWK",
+      "display": "5 times a week",
+      "definition": "5 kali seminggu (hari_______ -__________)"
+    },
+    {
+      "code": "6AM",
+      "display": "at 6 am",
+      "definition": "pada jam 6 pagi"
+    },
+    {
+      "code": "6PM",
+      "display": "at 6 PM",
+      "definition": "pada jam 6 petang"
+    },
+    {
+      "code": "6XDLY",
+      "display": "6 times a day",
+      "definition": "6 kali sehari"
+    },
+    {
+      "code": "6XWK",
+      "display": "6 times a week",
+      "definition": "6 kali seminggu (hari ______ - _____)"
+    },
+    {
+      "code": "7xDLY",
+      "display": "7 times a day",
+      "definition": "7 kali sehari"
+    },
+    {
+      "code": "8PM",
+      "display": "at 8 PM",
+      "definition": "pada jam 8 malam"
+    },
+    {
+      "code": "8XDLY",
+      "display": "8 times a day",
+      "definition": "8 kali sehari"
+    },
+    {
+      "code": "9XDLY",
+      "display": "9 times a day",
+      "definition": "9 kali sehari"
+    },
+    {
+      "code": "AD",
+      "display": "As Directed",
+      "definition": "Seperti diarahkan"
+    },
+    {
+      "code": "AsDirected",
+      "display": "As Directed",
+      "definition": "Seperti yg diarahkan"
+    },
+    {
+      "code": "BD-10D-3M",
+      "display": "BD for 10 days every 3 months",
+      "definition": "2 kali sehari untuk 10 hari setiap 3 bulan"
+    },
+    {
+      "code": "BD-10D-M",
+      "display": "BD for 10days monthly",
+      "definition": "2 kali sehari selama 10hari setiap bulan"
+    },
+    {
+      "code": "BD-12D-3M",
+      "display": "BD for 12 days every 3 months",
+      "definition": "2 kali sehari untuk 12 hari setiap 3 bulan"
+    },
+    {
+      "code": "BD-12D-M",
+      "display": "BD for 12days monthly",
+      "definition": "2 kali sehari untuk 12 hari setiap bulan"
+    },
+    {
+      "code": "BD-14D-3M",
+      "display": "BD for 14 days every 3 months",
+      "definition": "2 kali sehari untuk 14 hari setiap 3 bulan"
+    },
+    {
+      "code": "BD-14D-3WK",
+      "display": "BD D1-D14 every 3 weeks",
+      "definition": "2 kali sehari selama 14 hari, rehat 1 minggu"
+    },
+    {
+      "code": "BD-14D-M",
+      "display": "BD for 14days monthly",
+      "definition": "2 kali sehari selama 14 hari setiap bulan"
+    },
+    {
+      "code": "BD-21D-M",
+      "display": "BD for 21days monthly",
+      "definition": "2 kali sehari untuk 21 hari setiap bulan"
+    },
+    {
+      "code": "BD-5D-M",
+      "display": "BD for 5 days monthly",
+      "definition": "2 kali sehari untuk 5 hari setiap bulan"
+    },
+    {
+      "code": "BD-7D-3M",
+      "display": "BD for 7 days every 3 month",
+      "definition": "2 kali sehari untuk 7 hari setiap 3 bulan"
+    },
+    {
+      "code": "BD-D1-D3-M",
+      "display": "BD for 3 days monthly",
+      "definition": "2 kali sehari untuk 3 hari setiap bulan"
+    },
+    {
+      "code": "BD-D1-D4-M",
+      "display": "BD for 4 days monthly",
+      "definition": "2 kali sehari untuk 4 hari setiap bulan"
+    },
+    {
+      "code": "BD-D11-25M",
+      "display": "BD day 11-25 monthly",
+      "definition": "2 kali sehari dari hari ke 11-25 setiap bulan"
+    },
+    {
+      "code": "BD-D16-25M",
+      "display": "BD day16-25 monthly",
+      "definition": "2 kali sehari dari hari ke 16-25 setiap bulan"
+    },
+    {
+      "code": "BD-qW",
+      "display": "BD once a week",
+      "definition": "2 kali sehari - setiap minggu"
+    },
+    {
+      "code": "BDD1-7M",
+      "display": "BD for 7 days monthly",
+      "definition": "2 kali sehari selama 7 hari setiap bulan"
+    },
+    {
+      "code": "BD_2d_w",
+      "display": "BD for 2 days weekly",
+      "definition": "2 kali sehari untuk 2 hari (hari ................"
+    },
+    {
+      "code": "BD_2xQW",
+      "display": "BD 2 times a week",
+      "definition": "2 kali sehari pd hari_____ & _____"
+    },
+    {
+      "code": "BD_4d_w",
+      "display": "BD for 4 days weekly",
+      "definition": "2 kali sehari untuk 4 hari (hari ................"
+    },
+    {
+      "code": "BD_5d_w",
+      "display": "BD for 5 days weekly",
+      "definition": "2 kali sehari untuk 5 hari (hari ................"
+    },
+    {
+      "code": "BD_EOD",
+      "display": "BD every other day",
+      "definition": "2 kali sehari setiap selang sehari (mula pada ____"
+    },
+    {
+      "code": "BD_HD",
+      "display": "BD  HD/PD day  (3x a week)",
+      "definition": "2 kali sehari pada hari dialisis"
+    },
+    {
+      "code": "BD_HD_sc",
+      "display": "BD  HD day  (3x a week) schedule",
+      "definition": "2 kali sehari pada hari hemodialisis"
+    },
+    {
+      "code": "BD_M-F_W",
+      "display": "BD Mon-Fri Weekly",
+      "definition": "2 kali sehari setiap Isnin hingga Jumaat"
+    },
+    {
+      "code": "BD_MT",
+      "display": "BD on Mon & Thur",
+      "definition": "2 kali sehari setiap Isnin & Khamis"
+    },
+    {
+      "code": "BD_MWF",
+      "display": "BD on Mon, Wed, Fri",
+      "definition": "2 kali sehari setiap Isnin, Rabu, Jumaat"
+    },
+    {
+      "code": "BD_MWFS",
+      "display": "BD on Mon, Wed, Fri, Sun",
+      "definition": "2 kali sehari setiap Isnin, Rabu, Jumaat, Ahad"
+    },
+    {
+      "code": "BD_STT",
+      "display": "BD on Sun, Tue, Thurs",
+      "definition": "2 kali sehari setiap Ahad, Selasa & Khamis"
+    },
+    {
+      "code": "BD_STTS",
+      "display": "BD on Sun, Tue, Thurs, Sat",
+      "definition": "2 kali sehari setiap Ahad, Selasa, Khamis, Sabtu"
+    },
+    {
+      "code": "BD_SW",
+      "display": "BD on Sun & Wed",
+      "definition": "2 kali sehari setiap Ahad & Rabu"
+    },
+    {
+      "code": "BD_TTS",
+      "display": "BD on Tue, Thurs, Sat",
+      "definition": "2 kali sehari setiap Selasa, Khamis & Sabtu"
+    },
+    {
+      "code": "BD_nHD",
+      "display": "BD  nonHD/PD day (4x a week)",
+      "definition": "2 kali sehari pada hari bukan dialisis"
+    },
+    {
+      "code": "BD_nHD_sc",
+      "display": "BD  nonHD day  (4x a week) schedule",
+      "definition": "2 kali sehari pada hari bukan hemodialisis"
+    },
+    {
+      "code": "BID",
+      "display": "BD (twice daily)",
+      "definition": "2 kali sehari"
+    },
+    {
+      "code": "CONT",
+      "display": "CONT",
+      "definition": "Berterusan"
+    },
+    {
+      "code": "D1",
+      "display": "Day 1",
+      "definition": "Hari pertama shj"
+    },
+    {
+      "code": "D1-3-5-7",
+      "display": "OD on Sun,Tues,Thurs,Sat",
+      "definition": "1 kali sehari setiap Ahad, Selasa, Khamis, Sabtu"
+    },
+    {
+      "code": "D1-D12-M",
+      "display": "OD D1-D12 monthly",
+      "definition": "1 kali sehari untuk 12 hari setiap bulan"
+    },
+    {
+      "code": "D1-D14 M",
+      "display": "OD for 14days Monthly",
+      "definition": "1 kali sehari selama 14 hari setiap bulan"
+    },
+    {
+      "code": "D1-D2",
+      "display": "D1-D2 weekly",
+      "definition": "1 kali sehari -Setiap Isnin dan Selasa"
+    },
+    {
+      "code": "D1-D21-M",
+      "display": "OD for 21days monthly",
+      "definition": "1 kali sehari selama 21hari setiap bulan"
+    },
+    {
+      "code": "D1-D2M",
+      "display": "Day 1-Day2 monthly",
+      "definition": "hari pertama & kedua setiap bulan"
+    },
+    {
+      "code": "D1-D3",
+      "display": "D1-D3 weekly",
+      "definition": "1 kali sehari -Setiap Isnin hingga Rabu"
+    },
+    {
+      "code": "D1-D3-M",
+      "display": "OD for 3 days monthly",
+      "definition": "1 kali sehari selama 3 hari setiap bulan"
+    },
+    {
+      "code": "D1-D4",
+      "display": "D1-D4 weekly",
+      "definition": "1 kali sehari -Setiap Isnin hingga Khamis"
+    },
+    {
+      "code": "D1-D4-M",
+      "display": "OD for 4 days monthly",
+      "definition": "1 kali sehari selama 4 hari setiap bulan"
+    },
+    {
+      "code": "D1-D5",
+      "display": "D1-D5 weekly",
+      "definition": "1 kali sehari- Setiap Isnin hingga Jumaat"
+    },
+    {
+      "code": "D1-D6",
+      "display": "D1-D6 weekly",
+      "definition": "1 kali sehari -Setiap Isnin hingga Sabtu"
+    },
+    {
+      "code": "D1-D7-M",
+      "display": "OD for 7 days monthly",
+      "definition": "1 kali sehari selama 7 hari setiap bulan"
+    },
+    {
+      "code": "D1-M",
+      "display": "Day 1 monthly",
+      "definition": "Day 1 every month"
+    },
+    {
+      "code": "D1andD7",
+      "display": "Day 1 and Day 7",
+      "definition": "Hari ke-1 dan hari ke-7"
+    },
+    {
+      "code": "D2-4-6",
+      "display": "Mon,Wed,Fri",
+      "definition": "1 kali sehari -Setiap Isnin, Rabu, Jumaat"
+    },
+    {
+      "code": "D2-D3-M",
+      "display": "D2-D3 monthly",
+      "definition": "Hari kedua - ketiga setiap bulan"
+    },
+    {
+      "code": "D2-D6-M",
+      "display": "D2-D6 Monthly",
+      "definition": "Hari kedua - keenam setiap bulan"
+    },
+    {
+      "code": "D2-D7",
+      "display": "D2-D7 weekly",
+      "definition": "1 kali sehari -Setiap Selasa hingga Ahad"
+    },
+    {
+      "code": "D3-D7",
+      "display": "D3-D7 weekly",
+      "definition": "1 kali sehari -Setiap Rabu hingga Ahad"
+    },
+    {
+      "code": "D3-D7-1M",
+      "display": "D3-D7 monthly",
+      "definition": "Hari ke-3 hingga hari ke-7 setiap bulan"
+    },
+    {
+      "code": "D4-D7",
+      "display": "D4-D7 weekly",
+      "definition": "1 kali sehari -Setiap Khamis hingga Ahad"
+    },
+    {
+      "code": "D5-D7",
+      "display": "D5-D7 weekly",
+      "definition": "1 kali sehari -Setiap Jumaat hingga Ahad"
+    },
+    {
+      "code": "D5-D9-M",
+      "display": "D5-D9 Monthly",
+      "definition": "Hari ke-5 - ke-9 setiap bulan"
+    },
+    {
+      "code": "D6-D7",
+      "display": "D6-D7 weekly",
+      "definition": "1 kali sehari -Setiap Sabtu dan Ahad"
+    },
+    {
+      "code": "D7",
+      "display": "Day 7 weekly",
+      "definition": "Setiap Ahad"
+    },
+    {
+      "code": "EOD",
+      "display": "EOD",
+      "definition": "Selang sehari (mula pada __________)"
+    },
+    {
+      "code": "EODMWF",
+      "display": "OD on Mon, Wed, Fri",
+      "definition": "1 kali sehari setiap Isnin, Rabu, Jumaat"
+    },
+    {
+      "code": "EODTTS",
+      "display": "OD on Tue, Thur, Sat",
+      "definition": "1 kali sehari setiap Selasa, Khamis, Sabtu"
+    },
+    {
+      "code": "ODTF",
+      "display": "OD on Tue, Fri",
+      "definition": "1 kali sehari setiap Khamis, Jumaat"
+    },
+    {
+      "code": "EOW",
+      "display": "Every other week",
+      "definition": "Selang seminggu"
+    },
+    {
+      "code": "Fri-Sat",
+      "display": "Fri-Sat weekly",
+      "definition": "1 kali sehari -Setiap Jumaat hingga Sabtu"
+    },
+    {
+      "code": "Fri-Sun",
+      "display": "Fri-Sun weekly",
+      "definition": "1 kali sehari -Setiap Jumaat-Ahad"
+    },
+    {
+      "code": "Fri-Wed",
+      "display": "Fri-Wed Weekly",
+      "definition": "1 kali sehari -Setiap jumaat hingga rabu"
+    },
+    {
+      "code": "HS",
+      "display": "HS (at bedtime)",
+      "definition": "Sebelum tidur"
+    },
+    {
+      "code": "MON&THURS",
+      "display": "OD Mon & Thur",
+      "definition": "1 kali sehari setiap Isnin & Khamis"
+    },
+    {
+      "code": "MWFSat",
+      "display": "OD on Mon,Wed,Fri,Sat",
+      "definition": "1 kali sehari setiap Isnin, Rabu, Jumaat, Sabtu"
+    },
+    {
+      "code": "MWFSun",
+      "display": "OD on Mon,Wed,Fri,Sun",
+      "definition": "1 kali sehari setiap isnin, rabu, jumaat, ahad"
+    },
+    {
+      "code": "Mon-Fri",
+      "display": "Mon-Fri weekly",
+      "definition": "1 kali sehari -Setiap Isnin-Jumaat"
+    },
+    {
+      "code": "Mon-Sat",
+      "display": "Mon-Sat weekly",
+      "definition": "1 kali sehari -Setiap Isnin-Sabtu"
+    },
+    {
+      "code": "Mon-Thu",
+      "display": "Mon-Thu weekly",
+      "definition": "1 kali sehari -Setiap Isnin-Khamis"
+    },
+    {
+      "code": "Mon-Tue",
+      "display": "Mon-Tue weekly",
+      "definition": "1 kali sehari -Setiap Isnin-Selasa"
+    },
+    {
+      "code": "Mon-Wed",
+      "display": "Mon-Wed weekly",
+      "definition": "1 kali sehari -Setiap Isnin-Rabu"
+    },
+    {
+      "code": "NA",
+      "display": "Not Applicable",
+      "definition": "Tidak Berkenaan"
+    },
+    {
+      "code": "NOON-ON",
+      "display": "Afternoon + ON",
+      "definition": "setiap jam 12tghr dan 8 malam"
+    },
+    {
+      "code": "OD",
+      "display": "OD (once daily)",
+      "definition": "1 Kali Sehari"
+    },
+    {
+      "code": "OD-10D-M",
+      "display": "OD for 10days monthly",
+      "definition": "1 kali sehari selama 10hari setiap bulan"
+    },
+    {
+      "code": "OD-14D-3M",
+      "display": "OD for 14 days every 3 months",
+      "definition": "1 kali sehari untuk 14 hari setiap 3 bulan"
+    },
+    {
+      "code": "OD-25D-M",
+      "display": "OD for 25days monthly",
+      "definition": "1 kali sehari selama 25hari setiap bulan"
+    },
+    {
+      "code": "OD-28D-M",
+      "display": "OD for 28days monthly",
+      "definition": "1 kali sehari selama 28hari setiap bulan"
+    },
+    {
+      "code": "OD-5D-3WK",
+      "display": "OD D1-D5 every 3weeks",
+      "definition": "1 kali sehari selama 5hari setiap 3 minggu"
+    },
+    {
+      "code": "OD-5D-M",
+      "display": "OD for 5 days Monthly",
+      "definition": "1 kali sehari selama 5 hari setiap bulan"
+    },
+    {
+      "code": "OD-7D-3M",
+      "display": "OD for 7 days every 3 month",
+      "definition": "1 kali sehari untuk 7 hari setiap 3 bulan"
+    },
+    {
+      "code": "OD-D11-25M",
+      "display": "OD day11-25 monthly",
+      "definition": "1 kali sehari dari hari ke 11-25 setiap bulan"
+    },
+    {
+      "code": "OD-D16-25M",
+      "display": "OD day16-25 monthly",
+      "definition": "1 kali sehari dari hari ke 16 - 25  setiap bulan"
+    },
+    {
+      "code": "OD-MWSat",
+      "display": "OD on Mon, Wed, Sat",
+      "definition": "1 kali sehari setiap Isnin, Rabu, Sabtu"
+    },
+    {
+      "code": "OD10-off10",
+      "display": "OD for 10 days, OFF for 10 days cycle",
+      "definition": "Makan untuk 10 hari dan berhenti untuk 10 hari"
+    },
+    {
+      "code": "OD_HD",
+      "display": "OD HD/PD day (3x a week)",
+      "definition": "1 kali sehari pada hari dialisis"
+    },
+    {
+      "code": "OD_nHD",
+      "display": "OD nonHD/PD day (4x a week)",
+      "definition": "1 kali sehari pada hari bukan dialisis"
+    },
+    {
+      "code": "OM",
+      "display": "OM (every morning)",
+      "definition": "Setiap pagi"
+    },
+    {
+      "code": "OM-NOON",
+      "display": "OM + afternoon",
+      "definition": "setiap pagi dan tengahari"
+    },
+    {
+      "code": "OMHS",
+      "display": "Morning & at bedtime",
+      "definition": "Pagi dan sebelum tidur"
+    },
+    {
+      "code": "ON",
+      "display": "ON (every night)",
+      "definition": "Setiap malam"
+    },
+    {
+      "code": "ONCE",
+      "display": "Single dose",
+      "definition": "Sekali sahaja"
+    },
+    {
+      "code": "ONCE-",
+      "display": "Single Dose",
+      "definition": "Satu dos sahaja"
+    },
+    {
+      "code": "ON_HD",
+      "display": "ON  HD day (3x a week)",
+      "definition": "setiap malam pada hari hemodialisis"
+    },
+    {
+      "code": "ON_TDS",
+      "display": "ON 3x a week",
+      "definition": "Setiap malam 3 kali seminggu"
+    },
+    {
+      "code": "ON_nHD",
+      "display": "ON nonHD day (4x a week)",
+      "definition": "setiap malam pada hari bukan hemodialisis"
+    },
+    {
+      "code": "OV",
+      "display": "PM (every evening)",
+      "definition": "Setiap petang"
+    },
+    {
+      "code": "PRN",
+      "display": "PRN",
+      "definition": "bila perlu"
+    },
+    {
+      "code": "PRN-3D-M",
+      "display": "PRN for 3 days monthly",
+      "definition": "bila perlu untuk 3 hari setiap bulan"
+    },
+    {
+      "code": "PRN-5D-M",
+      "display": "PRN for 5 days monthly",
+      "definition": "bila perlu untuk 5 hari setiap bulan"
+    },
+    {
+      "code": "PRN1",
+      "display": "OD PRN",
+      "definition": "1 kali setiap hari, bila perlu"
+    },
+    {
+      "code": "PRN2",
+      "display": "BD PRN",
+      "definition": "2 kali sehari, bila perlu"
+    },
+    {
+      "code": "PRN3",
+      "display": "TDS PRN",
+      "definition": "3 kali sehari, bila perlu"
+    },
+    {
+      "code": "PRN3-3D-M",
+      "display": "TDS PRN for 3 days monthly",
+      "definition": "3 kali sehari/bila perlu untuk 3 hari setiap bulan"
+    },
+    {
+      "code": "PRN4",
+      "display": "QID PRN",
+      "definition": "4 kali sehari, bila perlu"
+    },
+    {
+      "code": "PRN5",
+      "display": "5 X daily PRN",
+      "definition": "5 kali sehari bila perlu"
+    },
+    {
+      "code": "PRN6",
+      "display": "Q4H / PRN",
+      "definition": "setiap 4 jam atau bila perlu"
+    },
+    {
+      "code": "PRN_EOD",
+      "display": "EOD PRN",
+      "definition": "Selang sehari, bila perlu"
+    },
+    {
+      "code": "PRN_OM",
+      "display": "OM PRN",
+      "definition": "setiap pagi, bila perlu"
+    },
+    {
+      "code": "PRN_ON",
+      "display": "ON PRN",
+      "definition": "setiap malam, bila perlu"
+    },
+    {
+      "code": "Q10D",
+      "display": "every 10 days",
+      "definition": "1 kali setiap 10 hari"
+    },
+    {
+      "code": "Q10M",
+      "display": "every 10 minutes",
+      "definition": "Setiap 10 minit"
+    },
+    {
+      "code": "Q12H",
+      "display": "Q12H",
+      "definition": "Setiap 12 jam"
+    },
+    {
+      "code": "Q12H_PRN",
+      "display": "Q12H / PRN",
+      "definition": "setiap 12jam atau bila perlu"
+    },
+    {
+      "code": "Q14D",
+      "display": "every 14 days",
+      "definition": "1 kali setiap 14 hari"
+    },
+    {
+      "code": "Q15M",
+      "display": "every 15 minutes",
+      "definition": "Setiap 15 minit"
+    },
+    {
+      "code": "Q18H",
+      "display": "Q18H",
+      "definition": "Setiap 18 jam"
+    },
+    {
+      "code": "Q1H",
+      "display": "Q1H",
+      "definition": "Setiap 1 jam"
+    },
+    {
+      "code": "Q24H",
+      "display": "Q24H",
+      "definition": "Setiap 24 jam"
+    },
+    {
+      "code": "Q28D",
+      "display": "every 28 days",
+      "definition": "1 kali setiap 28 hari"
+    },
+    {
+      "code": "Q2D",
+      "display": "every 2 days",
+      "definition": "Setiap 2 hari"
+    },
+    {
+      "code": "Q2H",
+      "display": "Q2H",
+      "definition": "Setiap 2 jam"
+    },
+    {
+      "code": "Q30M",
+      "display": "every 30 minutes",
+      "definition": "Setiap 30 minit"
+    },
+    {
+      "code": "Q36H",
+      "display": "Q36H",
+      "definition": "Setiap 36 jam"
+    },
+    {
+      "code": "Q3D",
+      "display": "every 3 days",
+      "definition": "Setiap 3 hari"
+    },
+    {
+      "code": "Q3H",
+      "display": "Q3H",
+      "definition": "Setiap 3 jam"
+    },
+    {
+      "code": "Q48H",
+      "display": "Q48H",
+      "definition": "Setiap 48 jam"
+    },
+    {
+      "code": "Q4D",
+      "display": "every 4 days",
+      "definition": "Setiap 4 hari"
+    },
+    {
+      "code": "Q4H",
+      "display": "Q4H",
+      "definition": "Setiap 4 jam"
+    },
+    {
+      "code": "Q5D",
+      "display": "every 5 days",
+      "definition": "Setiap 5 hari"
+    },
+    {
+      "code": "Q5M",
+      "display": "every 5 minutes",
+      "definition": "Setiap 5 minit"
+    },
+    {
+      "code": "Q6H",
+      "display": "Q6H",
+      "definition": "Setiap 6 jam"
+    },
+    {
+      "code": "Q6H_PRN",
+      "display": "Q6H / PRN",
+      "definition": "setiap 6 jam atau bila perlu"
+    },
+    {
+      "code": "Q6W",
+      "display": "Once every 6 weeks",
+      "definition": "1 kali setiap 6 minggu"
+    },
+    {
+      "code": "Q72H",
+      "display": "Q72H",
+      "definition": "Setiap 72 jam"
+    },
+    {
+      "code": "Q7D",
+      "display": "every 7 days",
+      "definition": "1 kali setiap 7 hari"
+    },
+    {
+      "code": "Q8H",
+      "display": "Q8H",
+      "definition": "Setiap 8 jam"
+    },
+    {
+      "code": "Q8H_PRN",
+      "display": "Q8H / PRN",
+      "definition": "setiap 8jam atau bila perlu"
+    },
+    {
+      "code": "Q90M",
+      "display": "every 90 minutes",
+      "definition": "Setiap 90 minit"
+    },
+    {
+      "code": "Q96H",
+      "display": "Q96H",
+      "definition": "Setiap 96 jam"
+    },
+    {
+      "code": "QFRI",
+      "display": "Every Friday (OD)",
+      "definition": "1 kali sehari setiap hari Jumaat"
+    },
+    {
+      "code": "QID",
+      "display": "QID (4 times a day)",
+      "definition": "4 kali sehari"
+    },
+    {
+      "code": "QID-3D-M",
+      "display": "QID for 3 days Monthly",
+      "definition": "4 kali sehari untuk 3 hari setiap bulan"
+    },
+    {
+      "code": "QID-5D-M",
+      "display": "QID for 5 days Monthly",
+      "definition": "4 kali sehari untuk 5 hari setiap bulan"
+    },
+    {
+      "code": "QID-6D-M",
+      "display": "QID for 6 days Monthly",
+      "definition": "4 kali sehari untuk 6 hari setiap bulan"
+    },
+    {
+      "code": "QID-7D-M",
+      "display": "QID for 7 days monthly",
+      "definition": "4 kali sehari untuk 7 hari setiap bulan"
+    },
+    {
+      "code": "QID_D1D4_M",
+      "display": "QID for 4 days monthly",
+      "definition": "4 kali sehari untuk 4 hari setiap bulan"
+    },
+    {
+      "code": "QMON",
+      "display": "Every Monday (OD)",
+      "definition": "1 kali sehari setiap hari Isnin"
+    },
+    {
+      "code": "QSAT",
+      "display": "Every Saturday (OD)",
+      "definition": "1 kali sehari setiap hari Sabtu"
+    },
+    {
+      "code": "QSUN",
+      "display": "Every Sunday (OD)",
+      "definition": "1 kali sehari setiap hari Ahad"
+    },
+    {
+      "code": "QTHU",
+      "display": "Every Thursday (OD)",
+      "definition": "1 kali sehari setiap hari Khamis"
+    },
+    {
+      "code": "QTUE",
+      "display": "Every Tuesday (OD)",
+      "definition": "1 kali sehari setiap hari Selasa"
+    },
+    {
+      "code": "QWED",
+      "display": "Every Wednesday (OD)",
+      "definition": "1 kali sehari setiap hari Rabu"
+    },
+    {
+      "code": "STAT",
+      "display": "STAT",
+      "definition": "Serta merta"
+    },
+    {
+      "code": "SUN&WED",
+      "display": "OD Sun & Wed",
+      "definition": "1 kali sehari setiap Ahad & Rabu"
+    },
+    {
+      "code": "Sat-Sun",
+      "display": "Sat-Sun weekly",
+      "definition": "1 kali sehari -Setiap Sabtu-Ahad"
+    },
+    {
+      "code": "Sat-Thur",
+      "display": "Sat-Thur Weekly",
+      "definition": "1 kali sehari -Setiap sabtu hingga khamis"
+    },
+    {
+      "code": "Sun-Fri",
+      "display": "Sun-Fri weekly",
+      "definition": "1 kali sehari -Setiap Ahad hingga Jumaat"
+    },
+    {
+      "code": "Sun-Mon",
+      "display": "Sun-Mon weekly",
+      "definition": "Setiap Ahad hingga Isnin"
+    },
+    {
+      "code": "Sun-Thur",
+      "display": "Sun-Thur weekly",
+      "definition": "1 kali sehari -Setiap Ahad hingga Khamis"
+    },
+    {
+      "code": "Sun-Tue",
+      "display": "Sun-Tue weekly",
+      "definition": "Setiap Ahad hingga Selasa"
+    },
+    {
+      "code": "Sun-Wed",
+      "display": "Sun-Wed weekly",
+      "definition": "1 kali sehari -Setiap Ahad hingga Rabu"
+    },
+    {
+      "code": "SunTT",
+      "display": "OD on Sun,Tue,Thurs",
+      "definition": "1 kali sehari setiap Ahad, Selasa, Khamis"
+    },
+    {
+      "code": "TDS-10D-M",
+      "display": "TDS for 10days monthly",
+      "definition": "3 kali sehari selama 10hari setiap bulan"
+    },
+    {
+      "code": "TDS-14D-M",
+      "display": "TDS for 14days monthly",
+      "definition": "3 kali sehari selama 14hari setiap bulan"
+    },
+    {
+      "code": "TDS-21D-M",
+      "display": "TDS for 21days monthly",
+      "definition": "3 kali sehari untuk 21 hari setiap bulan"
+    },
+    {
+      "code": "TDS-3D-M",
+      "display": "TDS for 3 days monthly",
+      "definition": "3 kali sehari untuk 3 hari setiap bulan"
+    },
+    {
+      "code": "TDS-5D-3M",
+      "display": "TDS for 5 days every 3 months",
+      "definition": "3 kali sehari untuk 5 hari setiap 3 bulan"
+    },
+    {
+      "code": "TDS-5D-M",
+      "display": "TDS for 5 days monthly",
+      "definition": "3 kali sehari untuk 5 hari setiap bulan"
+    },
+    {
+      "code": "TDS-6D-M",
+      "display": "TDS for 6 days monthly",
+      "definition": "3 kali sehari untuk 6 hari setiap bulan"
+    },
+    {
+      "code": "TDS-7D-3M",
+      "display": "TDS for 7 days every 3 month",
+      "definition": "3 kali sehari untuk 7 hari setiap 3 bulan"
+    },
+    {
+      "code": "TDS-D11-25",
+      "display": "TDS day11-25 monthly",
+      "definition": "3 kali sehari dari hari ke11-25 setiap bulan"
+    },
+    {
+      "code": "TDS-D16-25",
+      "display": "TDS day16-25 monthly",
+      "definition": "3 kali sehari dari hari ke 16-25 setiap bulan"
+    },
+    {
+      "code": "TDSD1-7M",
+      "display": "TDS for 7 days monthly",
+      "definition": "3 kali sehari selama 7 hari setiap bulan"
+    },
+    {
+      "code": "TDS_15D_M",
+      "display": "TDS for 15days monthly",
+      "definition": "3 kali sehari selama 15hari setiap bulan"
+    },
+    {
+      "code": "TDS_D1D2_M",
+      "display": "TDS for 2 days monthly",
+      "definition": "3 kali sehari untuk 2 hari setiap bulan"
+    },
+    {
+      "code": "TDS_D1D4_M",
+      "display": "TDS for 4 days monthly",
+      "definition": "3 kali sehari untuk 4 hari setiap bulan"
+    },
+    {
+      "code": "TDS_FSS",
+      "display": "TDS on Fri, Sat, Sun",
+      "definition": "3 kali sehari setiap Jumaat, Sabtu, Ahad"
+    },
+    {
+      "code": "TDS_HD",
+      "display": "TDS  HD/PD day  (3x a week)",
+      "definition": "3 kali sehari pada hari dialisis"
+    },
+    {
+      "code": "TDS_MWFS",
+      "display": "TDS on Mon, Wed, Fri, Sat",
+      "definition": "3 kali sehari setiap Isnin, Rabu, Jumaat, Sabtu"
+    },
+    {
+      "code": "TDS_nHD",
+      "display": "TDS  nonHD/PD day  (4x a week)",
+      "definition": "3 kali sehari pada hari bukan dialisis"
+    },
+    {
+      "code": "TID",
+      "display": "TDS (3 times a day)",
+      "definition": "3 kali sehari"
+    },
+    {
+      "code": "TTSSun",
+      "display": "OD on Tue,Thurs,Sat,Sun",
+      "definition": "1 kali sehari setiap Selasa, Khamis, Sabtu, Ahad"
+    },
+    {
+      "code": "Thu-Sun",
+      "display": "Thu-Sun weekly",
+      "definition": "1 kali sehari -Setiap Khamis-Ahad"
+    },
+    {
+      "code": "Thur-Sat",
+      "display": "Thur-Sat weekly",
+      "definition": "1 kali sehari -Setiap Khamis hingga Sabtu"
+    },
+    {
+      "code": "Thur-Tue",
+      "display": "Thur-Tue Weekly",
+      "definition": "1 kali sehari -Setiap khamis hingga selasa"
+    },
+    {
+      "code": "Tue-Sat",
+      "display": "Tue-Sat weekly",
+      "definition": "1 kali sehari -Setiap Selasa hingga Sabtu"
+    },
+    {
+      "code": "Tue-Sun",
+      "display": "Tue-Sun weekly",
+      "definition": "1 kali sehari -Setiap Selasa-Ahad"
+    },
+    {
+      "code": "Wed-Mon",
+      "display": "Wed-Mon Weekly",
+      "definition": "1 kali sehari -Setiap rabu hingga Isnin"
+    },
+    {
+      "code": "Wed-Sat",
+      "display": "Wed-Sat weekly",
+      "definition": "1 kali sehari -Setiap Rabu hingga Sabtu"
+    },
+    {
+      "code": "Wed-Sun",
+      "display": "Wed-Sun weekly",
+      "definition": "1 kali sehari -Setiap Rabu-Ahad"
+    }
+  ],
+  "experimental": false,
+  "caseSensitive": true
+}

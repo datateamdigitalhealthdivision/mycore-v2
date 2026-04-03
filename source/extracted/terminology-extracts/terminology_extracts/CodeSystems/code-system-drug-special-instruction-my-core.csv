@@ -1,0 +1,125 @@
+code,display,definition,system_url,system_name
+10,Administer 15-30 minutes before _______________,Administer 15-30 minutes before _______________,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+20,Administer at the same time everyday,Administer at the same time everyday,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+30,Administer within 15-30 mins before meal,Administer within 15-30 mins before meal,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+40,Administer within 5-15 minutes before meal,Administer within 5-15 minutes before meal,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+50,Apply 6-8 hours then wash. Only 1 application is necessary,Apply 6-8 hours then wash. Only 1 application is necessary,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+60,Apply liberally to lesion with suitable applicator,Apply liberally to lesion with suitable applicator,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+70,Apply sparingly. For external use only.,Apply sparingly. For external use only.,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+80,Apply to affected area. Leave to dry,Apply to affected area. Leave to dry,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+90,Apply to hair-free area of skin on chest or inner side arm,Apply to hair-free area of skin on chest or inner side arm,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+100,Apply to lesion for not more than 5 hour then wash off,Apply to lesion for not more than 5 hour then wash off,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+110,Apply to wet hair leave for 15min rinse.,Apply to wet hair leave for 15min rinse.,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+114,"Avoid abrupt withdrawal, use as directed by doctor/pharmacist","Avoid abrupt withdrawal, use as directed by doctor/pharmacist",http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+120,Careful handwashing after use is recommended,Careful handwashing after use is recommended,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+130,Chew or dissolve with water,Chew or dissolve with water,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+140,Chew thoroughly before swallowing,Chew thoroughly before swallowing,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+150,Cleanse area with water only allow to dry prior application,Cleanse area with water only allow to dry prior application,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+160,Contact doctor if allergic reaction occurs,Contact doctor if allergic reaction occurs,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+170,Day 4-7: Take 1 white tablet (0.5mg) 2 times a day,Day 4-7: Take 1 white tablet (0.5mg) 2 times a day,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+180,Dilute up to 3 times its volume with warm water,Dilute up to 3 times its volume with warm water,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+190,Dilute with 1 glass of water before drink,Dilute with 1 glass of water before drink,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+200,Dilute with glass of water/juice/milk and drink,Dilute with glass of water/juice/milk and drink,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+210,Discard after 1 month of opening. EXP DATE:,Discard after 1 month of opening. EXP DATE:,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+214,Dilute well with water before taking,Dilute well with water before taking,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+220,Dissolve in 1 glass water and drink,Dissolve in 1 glass water and drink,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+222,Do not apply to open wounds or burnt,Do not apply to open wounds or burnt,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+230,Do not eat/drink for 10minutes after taking this drug,Do not eat/drink for 10minutes after taking this drug,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+234,Do not dilute with Saline Solution (Sodium Chloride),Do not dilute with Saline Solution (Sodium Chloride),http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+236,Do not stop medicine without doctor's advice,Do not stop medicine without doctor's advice,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+238,Do not take more than 8 tablets a day,Do not take more than 8 tablets a day,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+240,Drink plenty of warm water,Drink plenty of warm water,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+250,Drink plenty of water,Drink plenty of water,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+260,Followed by another 240ml of water.,Followed by another 240ml of water.,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+270,For external use only,For external use only,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+280,For Intravenous Infusion Only,For Intravenous Infusion Only,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+290,For topical use,For topical use,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+300,Further dilute with ______ Dext 5%. Inf ____ hr,Further dilute with ______ Dext 5%. Inf ____ hr,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+310,Further dilute with ______ NS. Inf ____ hr,Further dilute with ______ NS. Inf ____ hr,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+320,"If rash, fever, sore throat or eye irritation occurs,","If rash, fever, sore throat or eye irritation occurs,",http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+330,Keep away from direct sunlight,Keep away from direct sunlight,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+340,Leave for 10 minutes. Then rinse thoroughly,Leave for 10 minutes. Then rinse thoroughly,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+350,Leave for 24 hours then wash off.,Leave for 24 hours then wash off.,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+360,Leave for 4 minutes. Rinse thoroughly with warm water,Leave for 4 minutes. Rinse thoroughly with warm water,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+370,Leave for 8-12 hours. Wash thoroughly with warm water,Leave for 8-12 hours. Wash thoroughly with warm water,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+380,Leave in the mouth as long as possible,Leave in the mouth as long as possible,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+384,"May cause drowsiness, dizziness and dry mouth. Take as directed","May cause drowsiness, dizziness and dry mouth. Take as directed",http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+390,May cause drowsiness. Take as directed,May cause drowsiness. Take as directed,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+400,No food atleast 2 hr before at least 1hr after dose,No food atleast 2 hr before at least 1hr after dose,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+404,Not for IV use,Not for IV use,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+410,Place tab on tongue. Let it dissolve before swallowing,Place tab on tongue. Let it dissolve before swallowing,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+420,Protect this medicine from light,Protect this medicine from light,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+430,Protect this medicine from moisture and light,Protect this medicine from moisture and light,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+440,Recons with Manufacturer Supplied Diluent,Recons with Manufacturer Supplied Diluent,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+450,Recons with Normal Saline,Recons with Normal Saline,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+454,Recons with Normal Saline/ WFI,Recons with Normal Saline/ WFI,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+460,Recons with Water for Inj (WFI),Recons with Water for Inj (WFI),http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+470,Rinse mouth after inhalation,Rinse mouth after inhalation,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+474,Shake 3-5 times before using,Shake 3-5 times before using,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+480,Shake well before use,Shake well before use,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+490,Shake well before use. For external use only.,Shake well before use. For external use only.,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+500,Soak/wash the affected part for 5-10 minute,Soak/wash the affected part for 5-10 minute,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+510,Stand/sit upright at least 30min. Do not lie down,Stand/sit upright at least 30min. Do not lie down,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+514,"Store between 2-°C, do not freeze","Store between 2-°C, do not freeze",http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+516,"Store unopened between 2-8°C, do not freeze","Store unopened between 2-8°C, do not freeze",http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+520,Swallow whole tablet/ capsule with a full glass of water.,Swallow whole tablet/ capsule with a full glass of water.,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+530,Swallow whole tablet/ Dissolve in a little water,Swallow whole tablet/ Dissolve in a little water,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+540,Swallow with full glass of water while standing upright,Swallow with full glass of water while standing upright,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+550,Take 15-30 minute before meal,Take 15-30 minute before meal,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+560,Take 30 minute before food or 2 hours after food,Take 30 minute before food or 2 hours after food,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+564,Take 30 mins before meal,Take 30 mins before meal,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+570,Take at regular intervals,Take at regular intervals,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+580,Take consistently at the same time everyday,Take consistently at the same time everyday,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+590,Take every 5 min if pain.See Dr if pain persist,Take every 5 min if pain.See Dr if pain persist,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+600,Take medicine as directed by pharmacist,Take medicine as directed by pharmacist,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+610,Take medicine at 6pm everyday,Take medicine at 6pm everyday,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+620,Take medicine preferably at bedtime,Take medicine preferably at bedtime,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+624,"Take medicine preferably at bedtime, but not immediately before going to bed","Take medicine preferably at bedtime, but not immediately before going to bed",http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+630,Take medicine regularly. Avoid abrupt discontinuation,Take medicine regularly. Avoid abrupt discontinuation,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+640,Take regularly and complete the whole course as directed.,Take regularly and complete the whole course as directed.,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+650,Take with a full glass of water or juice,Take with a full glass of water or juice,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+660,Take with fatty meals regularly complete the course,Take with fatty meals regularly complete the course,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+670,Take with food or milky drinks,Take with food or milky drinks,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+680,Take with full glass of water,Take with full glass of water,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+690,Take with full glass of water Stand/sit upright atleast 1hr,Take with full glass of water Stand/sit upright atleast 1hr,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+700,This drug may cause drowsiness,This drug may cause drowsiness,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+710,Tip of crystal moistened by dipping in water before applying,Tip of crystal moistened by dipping in water before applying,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+714,To be chewed or sucked,To be chewed or sucked,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+720,"To be swallowed whole, not chewed/crush","To be swallowed whole, not chewed/crush",http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+730,Use as directed by pharmacist,Use as directed by pharmacist,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+740,Use as directed. Shake well before use,Use as directed. Shake well before use,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+750,Use undiluted,Use undiluted,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+760,Wash hand before and after applying.,Wash hand before and after applying.,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+770,Wash hands before after handling med/bottle contain pills,Wash hands before after handling med/bottle contain pills,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+780,Wash hands before applying. Do not touch application's tip,Wash hands before applying. Do not touch application's tip,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+790,Wash hands before applying.Dont let applicator tip touch eye,Wash hands before applying.Dont let applicator tip touch eye,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+800,Wash hands before applying/ using,Wash hands before applying/ using,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+810,Wet hair. Massage 5-15ml to wet hair and rinse thorougly,Wet hair. Massage 5-15ml to wet hair and rinse thorougly,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+820,Administer within 15 minutes before meal,Administer within 15 minutes before meal,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+830,Administer within 30 mins before meal,Administer within 30 mins before meal,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+840,Apply at bedtime and leave on skin for 6-10 hours,Apply at bedtime and leave on skin for 6-10 hours,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+850,Apply on scalp at bedtime. Wash off the next morning,Apply on scalp at bedtime. Wash off the next morning,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+860,Can be mixed with food or drink,Can be mixed with food or drink,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+870,Day 1: Take 125 mg cap/tab once a day,Day 1: Take 125 mg cap/tab once a day,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+880,Dilute 1 part with 1 part warm water before use,Dilute 1 part with 1 part warm water before use,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+890,Dilute/Dissolve with __glass / __ml of water before drink,Dilute/Dissolve with __glass / __ml of water before drink,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+900,Dilute with 1 glass / 250ml of water before drink,Dilute with 1 glass / 250ml of water before drink,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+910,Dilute with 1 glass / 250ml of water/juice/milk and drink,Dilute with 1 glass / 250ml of water/juice/milk and drink,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+920,Discard 7 days after opening. EXP DATE:,Discard 7 days after opening. EXP DATE:,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+930,Dissolve 3 or 4 crystal in 500ml hot water. Inhale vapour,Dissolve 3 or 4 crystal in 500ml hot water. Inhale vapour,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+940,Dissolve in 1 glass / 250ml water and drink,Dissolve in 1 glass / 250ml water and drink,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+950,Dissolve in 1 L of water before use,Dissolve in 1 L of water before use,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+960,Dissolve ____ pack in ______ ML water,Dissolve ____ pack in ______ ML water,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+970,Dissolve ____ TABLET in ______ ML water,Dissolve ____ TABLET in ______ ML water,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+980,Do not eat/drink for 1 hour after use,Do not eat/drink for 1 hour after use,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+990,Keep in refrigerator -temp 2-8 C,Keep in refrigerator -temp 2-8 C,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+1000,Leave for 10-15 mins and rinse thoroughly,Leave for 10-15 mins and rinse thoroughly,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+1010,Leave overnight (8-14 hours) Wash thoroughly with warm water,Leave overnight (8-14 hours) Wash thoroughly with warm water,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+1020,Pour 1 teaspoon to 500 ml of hot water. Inhale the vapour,Pour 1 teaspoon to 500 ml of hot water. Inhale the vapour,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+1030,Shake well before use.,Shake well before use.,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+1040,Take after meals to avoid gastric discomfort,Take after meals to avoid gastric discomfort,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+1050,"Take for 4 weeks, rest or 2 weeks","Take for 4 weeks, rest or 2 weeks",http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+1060,Take medicine as directed by doctor/pharmacist,Take medicine as directed by doctor/pharmacist,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+1070,Take with a full glass / 250ml of water or juice,Take with a full glass / 250ml of water or juice,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+1080,Use as directed by doctor/ pharmacist,Use as directed by doctor/ pharmacist,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore
+1090,Use as directed. Shake well before use,Use as directed. Shake well before use,http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core,CodeSystemDrugSpecialInstructionMyCore

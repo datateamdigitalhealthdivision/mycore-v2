@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-cooking-demonstration-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetCookingDemonstation (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/ValueSet/cooking-demonstration-my-core</tt><p>Cooking Demonstration</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/cooking-demonstration-my-core",
+  "name": "ValueSetCookingDemonstationMyCore",
+  "title": "ValueSetCookingDemonstation (MY Core)",
+  "status": "active",
+  "date": "2023-03-07T04:19:34.7742501+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Cooking Demonstration",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/cooking-demonstration-my-core"
+      }
+    ]
+  }
+}

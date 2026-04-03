@@ -1,0 +1,9 @@
+code,display,system,include_type,valueset_url,valueset_name
+AD,Admission diagnosis,http://terminology.hl7.org/CodeSystem/diagnosis-role,explicit,http://fhir.hie.moh.gov.my/ValueSet/diagnosis-role-my-core,ValueSetDiagnosisRoleMyCore
+DD,Discharge diagnosis,http://terminology.hl7.org/CodeSystem/diagnosis-role,explicit,http://fhir.hie.moh.gov.my/ValueSet/diagnosis-role-my-core,ValueSetDiagnosisRoleMyCore
+CC,Chief complaint,http://terminology.hl7.org/CodeSystem/diagnosis-role,explicit,http://fhir.hie.moh.gov.my/ValueSet/diagnosis-role-my-core,ValueSetDiagnosisRoleMyCore
+CM,Comorbidity diagnosis,http://terminology.hl7.org/CodeSystem/diagnosis-role,explicit,http://fhir.hie.moh.gov.my/ValueSet/diagnosis-role-my-core,ValueSetDiagnosisRoleMyCore
+pre-op,pre-op diagnosis,http://terminology.hl7.org/CodeSystem/diagnosis-role,explicit,http://fhir.hie.moh.gov.my/ValueSet/diagnosis-role-my-core,ValueSetDiagnosisRoleMyCore
+post-op,post-op diagnosis,http://terminology.hl7.org/CodeSystem/diagnosis-role,explicit,http://fhir.hie.moh.gov.my/ValueSet/diagnosis-role-my-core,ValueSetDiagnosisRoleMyCore
+billing,Billing,http://terminology.hl7.org/CodeSystem/diagnosis-role,explicit,http://fhir.hie.moh.gov.my/ValueSet/diagnosis-role-my-core,ValueSetDiagnosisRoleMyCore
+*,Include all concepts from system,http://fhir.hie.moh.gov.my/CodeSystem/diagnosis-role-my-core,include-all,http://fhir.hie.moh.gov.my/ValueSet/diagnosis-role-my-core,ValueSetDiagnosisRoleMyCore

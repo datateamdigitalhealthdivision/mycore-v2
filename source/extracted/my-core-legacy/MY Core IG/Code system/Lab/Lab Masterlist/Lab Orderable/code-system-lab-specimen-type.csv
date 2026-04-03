@@ -1,0 +1,28 @@
+code,display,definition
+Bld,Blood,Blood
+Urine,Urine,Urine
+Ser/Plas,Serum/Plasma,Serum/Plasma
+Wound,Wound,Wound
+XXX,Other,Other
+BldA,Blood Arterial,Blood Arterial
+^Patient,Patient Sample,Patient Sample
+PPP,Platelet Poor Plasma,Platelet Poor Plasma
+Sputum,Sputum,Sputum
+BldC,Blood Capillary,Blood Capillary
+Thrt,Throat,Throat
+Body fld,Body Fluid,Body Fluid
+Stool,Stool,Stool
+Cvx,Cervix,Cervix
+CSF,CSF,CSF
+Genital,Genital,Genital
+Ser,Serum,Serum
+Tiss,Tissue,Tissue
+BldCoA,Blood Cord Arterial,Blood Cord Arterial
+Ctp,Catheter Tip,Catheter Tip
+Urethra,Urethra,Urethra
+Urine+Ser/Plas,Urine + Serum/Plasma,Urine + Serum/Plasma
+Plas,Plasma,Plasma
+Vag,Vagina,Vagina
+Abscess,Abscess,Abscess
+Bld/Tiss,Blood/Tissue,Blood/Tissue
+Ser+Bld,Serum + Blood,Serum + Blood

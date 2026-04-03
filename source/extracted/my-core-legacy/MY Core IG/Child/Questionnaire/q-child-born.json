@@ -1,0 +1,719 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-child-born",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-child-born",
+  "version": "1.0.0",
+  "name": "QChildborn",
+  "title": "Rekod Baru Lahir",
+  "status": "active",
+  "date": "2023-08-30T06:43:50.5035753+00:00",
+  "item": [
+    {
+      "linkId": "child-born.1",
+      "text": "Vital sign",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "child-born.1.1",
+          "text": "Suhu badan",
+          "type": "quantity"
+        },
+        {
+          "linkId": "child-born.1.2",
+          "text": "Kadar respiratori",
+          "type": "quantity"
+        },
+        {
+          "linkId": "child-born.1.3",
+          "text": "Kadar denyutan jantung",
+          "type": "quantity"
+        }
+      ]
+    },
+    {
+      "linkId": "child-born.2",
+      "text": "Buang air besar dalam masa 24 jam",
+      "type": "boolean"
+    },
+    {
+      "linkId": "child-born.3",
+      "text": "Buang air kecil dalam masa 24 jam",
+      "type": "boolean"
+    },
+    {
+      "linkId": "child-born.4",
+      "text": "Memulakan penyusuan susu ibu",
+      "type": "boolean"
+    },
+    {
+      "linkId": "child-born.5",
+      "text": "Pemeriksaan am",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "child-born.5.1",
+          "text": "General Condition",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-born-5.1.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-born.5.2",
+          "text": "Appearance",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-born-5.2.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-born.5.3",
+          "text": "Colour",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-born-5.3.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-born.5.4",
+          "text": "Skin",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-born-5.4.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-born.5.5",
+          "text": "Head/Neck",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-born-5.5.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-born.5.6",
+          "text": "Ears",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-born-5.6.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-born.5.7",
+          "text": "Eyes (including red light reflex)",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-born-5.7.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-born.5.8",
+          "text": "Lips",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-born-5.8.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-born.5.9",
+          "text": "Gum",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-born-5.9.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-born.5.10",
+          "text": "Palate",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-born-5.10.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-born.5.11",
+          "text": "Chest",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-born-5.11.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-born.5.12",
+          "text": "Respiration",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-born-5.12.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-born.5.13",
+          "text": "Heart",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-born-5.13.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-born.5.14",
+          "text": "Abdomen",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-born-5.14.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-born.5.15",
+          "text": "Spine",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-born-5.15.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-born.5.16",
+          "text": "Anus",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-born-5.16.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-born.5.17",
+          "text": "Genitalia",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-born-5.17.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-born.5.18",
+          "text": "Femoral Pulse",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-born-5.18.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-born.5.19",
+          "text": "Hips",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-born-5.19.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-born.5.20",
+          "text": "Hands",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-born-5.20.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-born.5.21",
+          "text": "Feet",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-born-5.21.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-born.5.22",
+          "text": "Moro Reflex",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-born-5.22.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "child-born.6",
+      "text": "Maklumat tambahan (jika ada)",
+      "type": "text"
+    },
+    {
+      "linkId": "child-born.7",
+      "text": "Bimbingan awal untuk ibubapa/penjaga",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "child-born.7.1",
+          "text": "Ibu bapa/ penjaga perlu memberitahu klinik berhampiran dalam masa 24 jam selepas keluar dari hospital supaya jururawat dapat melawat ibu dan bayi di rumah dalam masa beberapa hari akan datang.",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-born.7.2",
+          "text": "Susukan bayi anda dengan susu ibu sahaja dalam tempoh enam bulan pertama dan teruskan penyusuan susu ibu sehingga anak berumur dua tahun. Kerap membuang air besar adalah normal bagi bayi yang diberi susu ibu.",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-born.7.3",
+          "text": "Bayi anda mungkin mengalami jaundis dalam beberapa hari selepas lahir. Dapatkan nasihat perubatan secepat mungkin apabila jaundis dikesan. Jangan jemur bayi anda.",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-born.7.4",
+          "text": "Pastikan tali pusat bayi anda bersih dan kering",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-born.7.5",
+          "text": "Rasa suhu air mandian sebelum memandikan bayi anda. Sentiasa isikan besen mandi dengan air sejuk terlebih dahulu sebelum air panas.",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-born.7.6",
+          "text": "Dapatkan imunisasi untuk bayi anda mengikut jadual untuk melindunginya daripada mendapat jangkitan yang teruk.",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-born.7.7",
+          "text": "Daftar kelahiran bayi anda dalam masa 14 hari.",
+          "type": "boolean"
+        }
+      ]
+    }
+  ]
+}

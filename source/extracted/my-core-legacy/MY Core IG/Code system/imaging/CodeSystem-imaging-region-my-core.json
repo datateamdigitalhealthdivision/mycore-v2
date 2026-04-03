@@ -1,0 +1,1689 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-imaging-region-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemImagingRegion (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core</tt><p>Malaysia imaging region code system</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core",
+  "name": "CodeSystemImagingRegionMyCore",
+  "title": "CodeSystemImagingRegion (MY Core)",
+  "status": "active",
+  "date": "2023-06-08T03:08:38.5864399+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "Malaysia imaging region code system",
+  "compositional": false,
+  "content": "complete",
+  "count": 110,
+  "property": [
+    {
+      "code": "modalityCode",
+      "type": "code"
+    },
+    {
+      "code": "modalityDisplay",
+      "type": "string"
+    }
+  ],
+  "concept": [
+    {
+      "code": "001",
+      "display": "ABDOMEN",
+      "definition": "ABDOMEN",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "01"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "GENERAL RADIOGRAPHY"
+        }
+      ]
+    },
+    {
+      "code": "004",
+      "display": "CHEST",
+      "definition": "CHEST",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "01"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "GENERAL RADIOGRAPHY"
+        }
+      ]
+    },
+    {
+      "code": "007",
+      "display": "EXTREMITIES",
+      "definition": "EXTREMITIES",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "01"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "GENERAL RADIOGRAPHY"
+        }
+      ]
+    },
+    {
+      "code": "049",
+      "display": "PELVIS",
+      "definition": "PELVIS",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "01"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "GENERAL RADIOGRAPHY"
+        }
+      ]
+    },
+    {
+      "code": "052",
+      "display": "SKELETAL SURVEY",
+      "definition": "SKELETAL SURVEY",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "01"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "GENERAL RADIOGRAPHY"
+        }
+      ]
+    },
+    {
+      "code": "062",
+      "display": "SKULL & FACIAL BONES",
+      "definition": "SKULL & FACIAL BONES",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "01"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "GENERAL RADIOGRAPHY"
+        }
+      ]
+    },
+    {
+      "code": "079",
+      "display": "SPINES",
+      "definition": "SPINES",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "01"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "GENERAL RADIOGRAPHY"
+        }
+      ]
+    },
+    {
+      "code": "089",
+      "display": "ABDOMEN (Mobile)",
+      "definition": "ABDOMEN (Mobile)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "01"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "GENERAL RADIOGRAPHY"
+        }
+      ]
+    },
+    {
+      "code": "091",
+      "display": "CHEST (Mobile)",
+      "definition": "CHEST (Mobile)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "02"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "GENERAL RADIOGRAPHY (Mobile)"
+        }
+      ]
+    },
+    {
+      "code": "093",
+      "display": "EXTREMITIES (Mobile)",
+      "definition": "EXTREMITIES (Mobile)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "02"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "GENERAL RADIOGRAPHY (Mobile)"
+        }
+      ]
+    },
+    {
+      "code": "120",
+      "display": "PELVIS (Mobile)",
+      "definition": "PELVIS (Mobile)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "02"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "GENERAL RADIOGRAPHY (Mobile)"
+        }
+      ]
+    },
+    {
+      "code": "122",
+      "display": "SKELETAL SURVEY - Infant (Mobile)",
+      "definition": "SKELETAL SURVEY - Infant (Mobile)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "02"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "GENERAL RADIOGRAPHY (Mobile)"
+        }
+      ]
+    },
+    {
+      "code": "124",
+      "display": "SKULL (Mobile)",
+      "definition": "SKULL (Mobile)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "02"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "GENERAL RADIOGRAPHY (Mobile)"
+        }
+      ]
+    },
+    {
+      "code": "126",
+      "display": "SPINE (Mobile)",
+      "definition": "SPINE (Mobile)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "02"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "GENERAL RADIOGRAPHY (Mobile)"
+        }
+      ]
+    },
+    {
+      "code": "132",
+      "display": "ABDOMEN",
+      "definition": "ABDOMEN",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "05"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "CT"
+        }
+      ]
+    },
+    {
+      "code": "139",
+      "display": "CTA",
+      "definition": "CTA",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "05"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "CT"
+        }
+      ]
+    },
+    {
+      "code": "150",
+      "display": "ARTHROGRAM",
+      "definition": "ARTHROGRAM",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "05"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "CT"
+        }
+      ]
+    },
+    {
+      "code": "158",
+      "display": "EXTREMITIES",
+      "definition": "EXTREMITIES",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "05"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "CT"
+        }
+      ]
+    },
+    {
+      "code": "176",
+      "display": "HEAD AND NECK",
+      "definition": "HEAD AND NECK",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "05"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "CT"
+        }
+      ]
+    },
+    {
+      "code": "194",
+      "display": "TMJ (Temporo-Mandibular Joints)",
+      "definition": "TMJ (Temporo-Mandibular Joints)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "05"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "CT"
+        }
+      ]
+    },
+    {
+      "code": "196",
+      "display": "PELVIS",
+      "definition": "PELVIS",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "05"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "CT"
+        }
+      ]
+    },
+    {
+      "code": "198",
+      "display": "SPINES",
+      "definition": "SPINES",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "05"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "CT"
+        }
+      ]
+    },
+    {
+      "code": "206",
+      "display": "THORAX",
+      "definition": "THORAX",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "05"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "CT"
+        }
+      ]
+    },
+    {
+      "code": "214",
+      "display": "OTHERS",
+      "definition": "OTHERS",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "05"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "CT"
+        }
+      ]
+    },
+    {
+      "code": "217",
+      "display": "ABDOMEN",
+      "definition": "ABDOMEN",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "11"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MRI"
+        }
+      ]
+    },
+    {
+      "code": "219",
+      "display": "MRA (MR ANGIOGRAPHY)",
+      "definition": "MRA (MR ANGIOGRAPHY)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "11"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MRI"
+        }
+      ]
+    },
+    {
+      "code": "230",
+      "display": "MRV (MR VENOGRAPHY)",
+      "definition": "MRV (MR VENOGRAPHY)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "11"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MRI"
+        }
+      ]
+    },
+    {
+      "code": "235",
+      "display": "MRI ARTHROGRAM",
+      "definition": "MRI ARTHROGRAM",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "11"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MRI"
+        }
+      ]
+    },
+    {
+      "code": "243",
+      "display": "BREAST",
+      "definition": "BREAST",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "11"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MRI"
+        }
+      ]
+    },
+    {
+      "code": "245",
+      "display": "DYNAMIC",
+      "definition": "DYNAMIC",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "11"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MRI"
+        }
+      ]
+    },
+    {
+      "code": "250",
+      "display": "EXTREMITIES",
+      "definition": "EXTREMITIES",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "11"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MRI"
+        }
+      ]
+    },
+    {
+      "code": "276",
+      "display": "FUNCTIONAL",
+      "definition": "FUNCTIONAL",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "11"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MRI"
+        }
+      ]
+    },
+    {
+      "code": "280",
+      "display": "HEAD & NECK",
+      "definition": "HEAD & NECK",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "11"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MRI"
+        }
+      ]
+    },
+    {
+      "code": "294",
+      "display": "HEPATOBILLIARY SYSTEM",
+      "definition": "HEPATOBILLIARY SYSTEM",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "11"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MRI"
+        }
+      ]
+    },
+    {
+      "code": "297",
+      "display": "MRI PELVIS",
+      "definition": "MRI PELVIS",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "11"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MRI"
+        }
+      ]
+    },
+    {
+      "code": "303",
+      "display": "MRI SPINES",
+      "definition": "MRI SPINES",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "11"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MRI"
+        }
+      ]
+    },
+    {
+      "code": "309",
+      "display": "MRI THORAX",
+      "definition": "MRI THORAX",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "11"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MRI"
+        }
+      ]
+    },
+    {
+      "code": "312",
+      "display": "URINARY SYSTEM",
+      "definition": "URINARY SYSTEM",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "11"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MRI"
+        }
+      ]
+    },
+    {
+      "code": "317",
+      "display": "OTHERS",
+      "definition": "OTHERS",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "11"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MRI"
+        }
+      ]
+    },
+    {
+      "code": "321",
+      "display": "BREAST (MAMMOGRAPHY)",
+      "definition": "BREAST (MAMMOGRAPHY)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "10"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MAMMOGRAPHY"
+        }
+      ]
+    },
+    {
+      "code": "327",
+      "display": "ANATOMICAL REGION",
+      "definition": "ANATOMICAL REGION",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND"
+        }
+      ]
+    },
+    {
+      "code": "334",
+      "display": "BREAST",
+      "definition": "BREAST",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND"
+        }
+      ]
+    },
+    {
+      "code": "336",
+      "display": "CNS",
+      "definition": "CNS",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND"
+        }
+      ]
+    },
+    {
+      "code": "341",
+      "display": "CIRCULATORY SYSTEM - ARTERIES",
+      "definition": "CIRCULATORY SYSTEM - ARTERIES",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND"
+        }
+      ]
+    },
+    {
+      "code": "352",
+      "display": "CIRCULATORY SYSTEM - VEINS",
+      "definition": "CIRCULATORY SYSTEM - VEINS",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND"
+        }
+      ]
+    },
+    {
+      "code": "363",
+      "display": "DIGESTIVE SYSTEM",
+      "definition": "DIGESTIVE SYSTEM",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND"
+        }
+      ]
+    },
+    {
+      "code": "366",
+      "display": "ENDOCRINE SYSTEM",
+      "definition": "ENDOCRINE SYSTEM",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND"
+        }
+      ]
+    },
+    {
+      "code": "369",
+      "display": "HEPATOBILLIARY SYSTEM",
+      "definition": "HEPATOBILLIARY SYSTEM",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND"
+        }
+      ]
+    },
+    {
+      "code": "375",
+      "display": "INTEGUMENT & MUSCULOSKELETAL SYSTEM & SOFT TISSUES)",
+      "definition": "INTEGUMENT & MUSCULOSKELETAL SYSTEM & SOFT TISSUES)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND"
+        }
+      ]
+    },
+    {
+      "code": "382",
+      "display": "MUSCULOSKELETAL SYSTEM (BONES & JOINTS)",
+      "definition": "MUSCULOSKELETAL SYSTEM (BONES & JOINTS)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND"
+        }
+      ]
+    },
+    {
+      "code": "395",
+      "display": "REPRODUCTIVE SYSTEM - FEMALE",
+      "definition": "REPRODUCTIVE SYSTEM - FEMALE",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND"
+        }
+      ]
+    },
+    {
+      "code": "399",
+      "display": "REPRODUCTIVE SYSTEM - MALE",
+      "definition": "REPRODUCTIVE SYSTEM - MALE",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND"
+        }
+      ]
+    },
+    {
+      "code": "405",
+      "display": "RESPIRATORY SYSTEM",
+      "definition": "RESPIRATORY SYSTEM",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND"
+        }
+      ]
+    },
+    {
+      "code": "408",
+      "display": "URINARY SYSTEM",
+      "definition": "URINARY SYSTEM",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND"
+        }
+      ]
+    },
+    {
+      "code": "414",
+      "display": "OTHERS",
+      "definition": "OTHERS",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND"
+        }
+      ]
+    },
+    {
+      "code": "417",
+      "display": "ANATOMICAL REGION (Mobile)",
+      "definition": "ANATOMICAL REGION (Mobile)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "14"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND (Mobile)"
+        }
+      ]
+    },
+    {
+      "code": "421",
+      "display": "CNS (Mobile)",
+      "definition": "CNS (Mobile)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "14"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND (Mobile)"
+        }
+      ]
+    },
+    {
+      "code": "425",
+      "display": "CIRCULATORY SYSTEM - ARTERIES (Mobile)",
+      "definition": "CIRCULATORY SYSTEM - ARTERIES (Mobile)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "14"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND (Mobile)"
+        }
+      ]
+    },
+    {
+      "code": "436",
+      "display": "CIRCULATORY SYSTEM - VEINS (Mobile)",
+      "definition": "CIRCULATORY SYSTEM - VEINS (Mobile)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "14"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND (Mobile)"
+        }
+      ]
+    },
+    {
+      "code": "446",
+      "display": "HEPATOBILLIARY SYSTEM (Mobile)",
+      "definition": "HEPATOBILLIARY SYSTEM (Mobile)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "14"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND (Mobile)"
+        }
+      ]
+    },
+    {
+      "code": "451",
+      "display": "RESPIRATORY SYSTEM (Mobile)",
+      "definition": "RESPIRATORY SYSTEM (Mobile)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "14"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND (Mobile)"
+        }
+      ]
+    },
+    {
+      "code": "454",
+      "display": "URINARY SYSTEM (Mobile)",
+      "definition": "URINARY SYSTEM (Mobile)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "14"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND (Mobile)"
+        }
+      ]
+    },
+    {
+      "code": "460",
+      "display": "ANGIOGRAM â€“ ABDOMINAL / PELVIS",
+      "definition": "ANGIOGRAM â€“ ABDOMINAL / PELVIS",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "03"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ANGIOGRAPHY"
+        }
+      ]
+    },
+    {
+      "code": "466",
+      "display": "ANGIOGRAM - CEREBRAL",
+      "definition": "ANGIOGRAM - CEREBRAL",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "03"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ANGIOGRAPHY"
+        }
+      ]
+    },
+    {
+      "code": "477",
+      "display": "ANGIOGRAM - THORACIC",
+      "definition": "ANGIOGRAM - THORACIC",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "03"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ANGIOGRAPHY"
+        }
+      ]
+    },
+    {
+      "code": "484",
+      "display": "VENOGRAPHY ABDOMINAL / PELVIS",
+      "definition": "VENOGRAPHY ABDOMINAL / PELVIS",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "03"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ANGIOGRAPHY"
+        }
+      ]
+    },
+    {
+      "code": "492",
+      "display": "VENOGRAPHY EXTREMITIES",
+      "definition": "VENOGRAPHY EXTREMITIES",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "03"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ANGIOGRAPHY"
+        }
+      ]
+    },
+    {
+      "code": "500",
+      "display": "VENOGRAPHY HEAD & NECK",
+      "definition": "VENOGRAPHY HEAD & NECK",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "03"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ANGIOGRAPHY"
+        }
+      ]
+    },
+    {
+      "code": "504",
+      "display": "VENOGRAPHY THORACIC",
+      "definition": "VENOGRAPHY THORACIC",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "03"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ANGIOGRAPHY"
+        }
+      ]
+    },
+    {
+      "code": "507",
+      "display": "ANGIOPLASTY",
+      "definition": "ANGIOPLASTY",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        }
+      ]
+    },
+    {
+      "code": "530",
+      "display": "ATHERECTOMY",
+      "definition": "ATHERECTOMY",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        }
+      ]
+    },
+    {
+      "code": "535",
+      "display": "EMBOLISATION",
+      "definition": "EMBOLISATION",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        }
+      ]
+    },
+    {
+      "code": "553",
+      "display": "ENDOVASCULAR BRACHYTHERAPY",
+      "definition": "ENDOVASCULAR BRACHYTHERAPY",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        }
+      ]
+    },
+    {
+      "code": "556",
+      "display": "FIBRIN STRIPPING",
+      "definition": "FIBRIN STRIPPING",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        }
+      ]
+    },
+    {
+      "code": "559",
+      "display": "FISTULOGRAM",
+      "definition": "FISTULOGRAM",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        }
+      ]
+    },
+    {
+      "code": "564",
+      "display": "FOREIGN BODY RETRIEVAL",
+      "definition": "FOREIGN BODY RETRIEVAL",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        }
+      ]
+    },
+    {
+      "code": "567",
+      "display": "PORT PLACEMENT",
+      "definition": "PORT PLACEMENT",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        }
+      ]
+    },
+    {
+      "code": "569",
+      "display": "STENTING",
+      "definition": "STENTING",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        }
+      ]
+    },
+    {
+      "code": "591",
+      "display": "THROMBOLYSIS",
+      "definition": "THROMBOLYSIS",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        }
+      ]
+    },
+    {
+      "code": "607",
+      "display": "GASTROINTESTINAL SYSTEM",
+      "definition": "GASTROINTESTINAL SYSTEM",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        }
+      ]
+    },
+    {
+      "code": "612",
+      "display": "HEPATOBILIARY SYSTEM & PANCREAS",
+      "definition": "HEPATOBILIARY SYSTEM & PANCREAS",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        }
+      ]
+    },
+    {
+      "code": "623",
+      "display": "RESPIRATORY SYSTEM",
+      "definition": "RESPIRATORY SYSTEM",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        }
+      ]
+    },
+    {
+      "code": "631",
+      "display": "URINARY SYSTEM",
+      "definition": "URINARY SYSTEM",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        }
+      ]
+    },
+    {
+      "code": "648",
+      "display": "VENOINTERVENTION AND ACCESS MANAGEMENT",
+      "definition": "VENOINTERVENTION AND ACCESS MANAGEMENT",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        }
+      ]
+    },
+    {
+      "code": "655",
+      "display": "BREAST",
+      "definition": "BREAST",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        }
+      ]
+    },
+    {
+      "code": "662",
+      "display": "CT GUIDED PROCEDURES",
+      "definition": "CT GUIDED PROCEDURES",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        }
+      ]
+    },
+    {
+      "code": "670",
+      "display": "MRI GUIDED PROCEDURES",
+      "definition": "MRI GUIDED PROCEDURES",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        }
+      ]
+    },
+    {
+      "code": "672",
+      "display": "US GUIDED PROCEDURES",
+      "definition": "US GUIDED PROCEDURES",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        }
+      ]
+    },
+    {
+      "code": "697",
+      "display": "US GUIDED PROCEDURES (MOBILE)",
+      "definition": "US GUIDED PROCEDURES (MOBILE)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        }
+      ]
+    },
+    {
+      "code": "704",
+      "display": "BONE DENSITOMETRY (BMD)",
+      "definition": "BONE DENSITOMETRY (BMD)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "04"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "BMD"
+        }
+      ]
+    },
+    {
+      "code": "713",
+      "display": "URINARY SYSTEM (IVU)",
+      "definition": "URINARY SYSTEM (IVU)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "09"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTRAVENOUROGRAPHY (IVU)"
+        }
+      ]
+    },
+    {
+      "code": "715",
+      "display": "CMR",
+      "definition": "CMR",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MOBILE C-ARM"
+        }
+      ]
+    },
+    {
+      "code": "720",
+      "display": "FIXATION",
+      "definition": "FIXATION",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MOBILE C-ARM"
+        }
+      ]
+    },
+    {
+      "code": "763",
+      "display": "OSTEOTOMY",
+      "definition": "OSTEOTOMY",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MOBILE C-ARM"
+        }
+      ]
+    },
+    {
+      "code": "768",
+      "display": "FB LOCATION",
+      "definition": "FB LOCATION",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MOBILE C-ARM"
+        }
+      ]
+    },
+    {
+      "code": "773",
+      "display": "II PCNL",
+      "definition": "II PCNL",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MOBILE C-ARM"
+        }
+      ]
+    },
+    {
+      "code": "778",
+      "display": "RIRS",
+      "definition": "RIRS",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MOBILE C-ARM"
+        }
+      ]
+    },
+    {
+      "code": "785",
+      "display": "II STENTING",
+      "definition": "II STENTING",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MOBILE C-ARM"
+        }
+      ]
+    },
+    {
+      "code": "789",
+      "display": "II URS",
+      "definition": "II URS",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MOBILE C-ARM"
+        }
+      ]
+    },
+    {
+      "code": "793",
+      "display": "II OTHERS",
+      "definition": "II OTHERS",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MOBILE C-ARM"
+        }
+      ]
+    },
+    {
+      "code": "800",
+      "display": "FILM (HARD COPY)",
+      "definition": "FILM (HARD COPY)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "15"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "HARD COPY"
+        }
+      ]
+    },
+    {
+      "code": "806",
+      "display": "FILM (EXTERNAL)",
+      "definition": "FILM (EXTERNAL)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "16"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "REPORTING (EXTERNAL)"
+        }
+      ]
+    },
+    {
+      "code": "814",
+      "display": "SKULL AND FACIAL BONES",
+      "definition": "SKULL AND FACIAL BONES",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "06"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "DENTAL"
+        }
+      ]
+    },
+    {
+      "code": "818",
+      "display": "DIGESTIVE SYSTEM",
+      "definition": "DIGESTIVE SYSTEM",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "07"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "FLUOROSCOPY"
+        }
+      ]
+    },
+    {
+      "code": "837",
+      "display": "HEPATOBILIARY SYSTEM & PANCREAS",
+      "definition": "HEPATOBILIARY SYSTEM & PANCREAS",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "07"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "FLUOROSCOPY"
+        }
+      ]
+    },
+    {
+      "code": "842",
+      "display": "MUSCULOSKELETAL SYSTEM",
+      "definition": "MUSCULOSKELETAL SYSTEM",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "07"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "FLUOROSCOPY"
+        }
+      ]
+    },
+    {
+      "code": "847",
+      "display": "REPRODUCTIVE SYSTEM - FEMALE",
+      "definition": "REPRODUCTIVE SYSTEM - FEMALE",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "07"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "FLUOROSCOPY"
+        }
+      ]
+    },
+    {
+      "code": "849",
+      "display": "RESPIRATORY SYSTEM",
+      "definition": "RESPIRATORY SYSTEM",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "07"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "FLUOROSCOPY"
+        }
+      ]
+    },
+    {
+      "code": "851",
+      "display": "URINARY SYSTEM",
+      "definition": "URINARY SYSTEM",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "07"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "FLUOROSCOPY"
+        }
+      ]
+    },
+    {
+      "code": "855",
+      "display": "OTHERS",
+      "definition": "OTHERS",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "07"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "FLUOROSCOPY"
+        }
+      ]
+    }
+  ]
+}

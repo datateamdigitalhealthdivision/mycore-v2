@@ -1,0 +1,5 @@
+code,display,definition,system_url,system_name
+internal,Internal,Schedule only for internal booking,http://fhir.hie.moh.gov.my/CodeSystem/schedule-type-my-core,CodeSystemScheduleTypeMyCore
+public,Public,Schedule allowed for public booking,http://fhir.hie.moh.gov.my/CodeSystem/schedule-type-my-core,CodeSystemScheduleTypeMyCore
+affiliate,Affiliate,Schedule allowed for affiliated organization booking,http://fhir.hie.moh.gov.my/CodeSystem/schedule-type-my-core,CodeSystemScheduleTypeMyCore
+outsource,Outsource,Schedule allowed for outsource organization booking,http://fhir.hie.moh.gov.my/CodeSystem/schedule-type-my-core,CodeSystemScheduleTypeMyCore

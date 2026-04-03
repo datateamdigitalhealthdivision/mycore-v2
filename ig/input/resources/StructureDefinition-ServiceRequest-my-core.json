@@ -1,0 +1,265 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "ServiceRequest-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/ServiceRequest-my-core",
+  "version": "2.0.0",
+  "name": "ServiceRequestMyCore",
+  "title": "ServiceRequest (MY Core)",
+  "status": "active",
+  "date": "2023-09-21T01:23:50.8726413+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "description": "A record of a request for service such as diagnostic investigations, treatments, or operations to be performed.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "ServiceRequest",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/ServiceRequest",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "ServiceRequest.extension:attester",
+        "path": "ServiceRequest.extension",
+        "sliceName": "attester",
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/attester-my-core"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "ServiceRequest.extension:relatesTo",
+        "path": "ServiceRequest.extension",
+        "sliceName": "relatesTo",
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/relates-to-my-core"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "ServiceRequest.category",
+        "path": "ServiceRequest.category",
+        "min": 1
+      },
+      {
+        "id": "ServiceRequest.category.coding",
+        "path": "ServiceRequest.category.coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "system"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 1
+      },
+      {
+        "id": "ServiceRequest.category.coding:serviceRequestCategory",
+        "path": "ServiceRequest.category.coding",
+        "sliceName": "serviceRequestCategory",
+        "max": "1",
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/service-request-category-my-core"
+        }
+      },
+      {
+        "id": "ServiceRequest.category.coding:serviceRequestCategory.system",
+        "path": "ServiceRequest.category.coding.system",
+        "min": 1,
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/service-request-category-my-core"
+      },
+      {
+        "id": "ServiceRequest.category.coding:labSubGroup",
+        "path": "ServiceRequest.category.coding",
+        "sliceName": "labSubGroup",
+        "binding": {
+          "strength": "example",
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/lab-sub-group-my-core"
+        }
+      },
+      {
+        "id": "ServiceRequest.category.coding:labSubGroup.system",
+        "path": "ServiceRequest.category.coding.system",
+        "min": 1,
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/lab-sub-group-my-core"
+      },
+      {
+        "id": "ServiceRequest.category.coding:imagingModality",
+        "path": "ServiceRequest.category.coding",
+        "sliceName": "imagingModality",
+        "max": "1",
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/imaging-modality-my-core"
+        }
+      },
+      {
+        "id": "ServiceRequest.category.coding:imagingModality.system",
+        "path": "ServiceRequest.category.coding.system",
+        "min": 1,
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/imaging-modality-my-core"
+      },
+      {
+        "id": "ServiceRequest.category.coding:imagingRegion",
+        "path": "ServiceRequest.category.coding",
+        "sliceName": "imagingRegion",
+        "max": "1",
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/imaging-region-my-core"
+        }
+      },
+      {
+        "id": "ServiceRequest.category.coding:imagingRegion.system",
+        "path": "ServiceRequest.category.coding.system",
+        "min": 1,
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/imaging-region-my-core"
+      },
+      {
+        "id": "ServiceRequest.code",
+        "path": "ServiceRequest.code",
+        "binding": {
+          "strength": "example",
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/loinc-my-core"
+        }
+      },
+      {
+        "id": "ServiceRequest.code.coding",
+        "path": "ServiceRequest.code.coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "system"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
+        "id": "ServiceRequest.code.coding:lab",
+        "path": "ServiceRequest.code.coding",
+        "sliceName": "lab",
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/lab-my-core"
+        }
+      },
+      {
+        "id": "ServiceRequest.code.coding:lab.system",
+        "path": "ServiceRequest.code.coding.system",
+        "min": 1,
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/lab-my-core"
+      },
+      {
+        "id": "ServiceRequest.code.coding:imaging",
+        "path": "ServiceRequest.code.coding",
+        "sliceName": "imaging",
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/imaging-my-core"
+        }
+      },
+      {
+        "id": "ServiceRequest.code.coding:imaging.system",
+        "path": "ServiceRequest.code.coding.system",
+        "min": 1,
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/imaging-my-core"
+      },
+      {
+        "id": "ServiceRequest.code.coding:procedure",
+        "path": "ServiceRequest.code.coding",
+        "sliceName": "procedure",
+        "binding": {
+          "strength": "example",
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/procedure-code-my-core"
+        }
+      },
+      {
+        "id": "ServiceRequest.code.coding:procedure.system",
+        "path": "ServiceRequest.code.coding.system",
+        "min": 1,
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/procedure-my-core"
+      },
+      {
+        "id": "ServiceRequest.asNeeded[x]",
+        "path": "ServiceRequest.asNeeded[x]",
+        "binding": {
+          "strength": "example",
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/referral-form-my-core"
+        }
+      },
+      {
+        "id": "ServiceRequest.authoredOn",
+        "path": "ServiceRequest.authoredOn",
+        "min": 1
+      },
+      {
+        "id": "ServiceRequest.performerType",
+        "path": "ServiceRequest.performerType",
+        "binding": {
+          "strength": "example",
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/schedule-type-my-core"
+        }
+      },
+      {
+        "id": "ServiceRequest.bodySite",
+        "path": "ServiceRequest.bodySite",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "coding.id"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
+        "id": "ServiceRequest.bodySite:side",
+        "path": "ServiceRequest.bodySite",
+        "sliceName": "side",
+        "binding": {
+          "strength": "example",
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/side-my-core"
+        }
+      },
+      {
+        "id": "ServiceRequest.bodySite:side.coding.id",
+        "path": "ServiceRequest.bodySite.coding.id",
+        "min": 1,
+        "fixedString": "side"
+      },
+      {
+        "id": "ServiceRequest.bodySite:site",
+        "path": "ServiceRequest.bodySite",
+        "sliceName": "site",
+        "binding": {
+          "strength": "example",
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/site-my-core"
+        }
+      },
+      {
+        "id": "ServiceRequest.bodySite:site.coding.id",
+        "path": "ServiceRequest.bodySite.coding.id",
+        "min": 1,
+        "fixedString": "site"
+      }
+    ]
+  },
+  "experimental": false
+}

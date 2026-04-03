@@ -1,0 +1,23 @@
+{
+  "resourceType": "ValueSet",
+  "id": "phis-uom-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetPhisUom (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/phis-uom-my-core</tt><p>Phis uom</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/phis-uom-my-core",
+  "name": "ValueSetPhisUomMyCore",
+  "title": "ValueSetPhisUom (MY Core)",
+  "status": "active",
+  "date": "2023-03-31T00:47:28.8476721+00:00",
+  "description": "Phis uom",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/phis-uom-my-core"
+      }
+    ]
+  },
+  "version": "2.0.0",
+  "experimental": false
+}

@@ -1,0 +1,700 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-child-born",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "identifier": {
+        "system": "http://fhir.hie.moh.gov.my/sid/template-section",
+        "value": "qr-child-born"
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-child-born",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/3a1fe467-cad5-4ec9-83f8-fd6dfb46470c"
+    },
+    "authored": "2023-04-27T00:20:14.414Z",
+    "item": [
+        {
+            "linkId": "child-born.1",
+            "text": "Vital sign",
+            "item": [
+                {
+                    "linkId": "child-born.1.1",
+                    "text": "Suhu badan",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 37
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-born.1.2",
+                    "text": "Kadar respiratori",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 23
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-born.1.3",
+                    "text": "Kadar denyutan jantung",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 150
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "child-born.2",
+            "text": "Buang air besar dalam masa 24 jam",
+            "answer": [
+                {
+                    "valueBoolean": true
+                }
+            ]
+        },
+        {
+            "linkId": "child-born.3",
+            "text": "Buang air kecil dalam masa 24 jam",
+            "answer": [
+                {
+                    "valueBoolean": false
+                }
+            ]
+        },
+        {
+            "linkId": "child-born.4",
+            "text": "Memulakan penyusuan susu ibu",
+            "answer": [
+                {
+                    "valueBoolean": true
+                }
+            ]
+        },
+        {
+            "linkId": "child-born.5",
+            "text": "Pemeriksaan am",
+            "item": [
+                {
+                    "linkId": "child-born.5.1",
+                    "text": "General Condition",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "17621005",
+                                "display": "Normal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-born-5.1.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-born.5.2",
+                    "text": "Appearance",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "263654008",
+                                "display": "Abnormal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-born-5.2.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-born.5.3",
+                    "text": "Colour",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "17621005",
+                                "display": "Normal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-born-5.3.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-born.5.4",
+                    "text": "Skin",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "17621005",
+                                "display": "Normal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-born-5.4.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-born.5.5",
+                    "text": "Head/Neck",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "263654008",
+                                "display": "Abnormal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-born-5.5.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-born.5.6",
+                    "text": "Ears",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "263654008",
+                                "display": "Abnormal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-born-5.6.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-born.5.7",
+                    "text": "Eyes (including red light reflex)",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "17621005",
+                                "display": "Normal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-born-5.7.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-born.5.8",
+                    "text": "Lips",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "17621005",
+                                "display": "Normal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-born-5.8.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-born.5.9",
+                    "text": "Gum",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "17621005",
+                                "display": "Normal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-born-5.9.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-born.5.10",
+                    "text": "Palate",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "263654008",
+                                "display": "Abnormal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-born-5.10.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-born.5.11",
+                    "text": "Chest",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "17621005",
+                                "display": "Normal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-born-5.11.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-born.5.12",
+                    "text": "Respiration",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "17621005",
+                                "display": "Normal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-born-5.12.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-born.5.13",
+                    "text": "Heart",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "263654008",
+                                "display": "Abnormal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-born-5.13.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-born.5.14",
+                    "text": "Abdomen",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "263654008",
+                                "display": "Abnormal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-born-5.14.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-born.5.15",
+                    "text": "Spine",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "17621005",
+                                "display": "Normal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-born-5.15.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-born.5.16",
+                    "text": "Anus",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "263654008",
+                                "display": "Abnormal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-born-5.16.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-born.5.17",
+                    "text": "Genitalia",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "263654008",
+                                "display": "Abnormal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-born-5.17.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-born.5.18",
+                    "text": "Femoral Pulse",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "17621005",
+                                "display": "Normal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-born-5.18.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-born.5.19",
+                    "text": "Hips",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "263654008",
+                                "display": "Abnormal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-born-5.19.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-born.5.20",
+                    "text": "Hands",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "17621005",
+                                "display": "Normal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-born-5.20.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-born.5.21",
+                    "text": "Feet",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "17621005",
+                                "display": "Normal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-born-5.21.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-born.5.22",
+                    "text": "Moro Reflex",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "263654008",
+                                "display": "Abnormal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-born-5.22.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "child-born.6",
+            "text": "Maklumat tambahan (jika ada)",
+            "answer": [
+                {
+                    "valueString": "Maklumat Tambahan goes here"
+                }
+            ]
+        },
+        {
+            "linkId": "child-born.7",
+            "text": "Bimbingan awal untuk ibubapa/penjaga",
+            "item": [
+                {
+                    "linkId": "child-born.7.1",
+                    "text": "Ibu bapa/ penjaga perlu memberitahu klinik berhampiran dalam masa 24 jam selepas keluar dari hospital supaya jururawat dapat melawat ibu dan bayi di rumah dalam masa beberapa hari akan datang.",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-born.7.2",
+                    "text": "Susukan bayi anda dengan susu ibu sahaja dalam tempoh enam bulan pertama dan teruskan penyusuan susu ibu sehingga anak berumur dua tahun. Kerap membuang air besar adalah normal bagi bayi yang diberi susu ibu.",
+                    "answer": [
+                        {
+                            "valueBoolean": false
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-born.7.3",
+                    "text": "Bayi anda mungkin mengalami jaundis dalam beberapa hari selepas lahir. Dapatkan nasihat perubatan secepat mungkin apabila jaundis dikesan. Jangan jemur bayi anda.",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-born.7.4",
+                    "text": "Pastikan tali pusat bayi anda bersih dan kering",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-born.7.5",
+                    "text": "Rasa suhu air mandian sebelum memandikan bayi anda. Sentiasa isikan besen mandi dengan air sejuk terlebih dahulu sebelum air panas.",
+                    "answer": [
+                        {
+                            "valueBoolean": false
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-born.7.6",
+                    "text": "Dapatkan imunisasi untuk bayi anda mengikut jadual untuk melindunginya daripada mendapat jangkitan yang teruk.",
+                    "answer": [
+                        {
+                            "valueBoolean": false
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-born.7.7",
+                    "text": "Daftar kelahiran bayi anda dalam masa 14 hari.",
+                    "answer": [
+                        {
+                            "valueBoolean": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

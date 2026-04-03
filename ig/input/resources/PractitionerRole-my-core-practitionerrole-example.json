@@ -1,0 +1,37 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "my-core-practitionerrole-example",
+  "meta": {
+    "profile": [
+      "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/PractitionerRole-my-core"
+    ]
+  },
+  "practitioner": {
+    "reference": "Practitioner/my-core-practitioner-example"
+  },
+  "organization": {
+    "reference": "Organization/my-core-organization-example"
+  },
+  "code": [
+    {
+      "coding": [
+        {
+          "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/practitioner-role-code-my-core",
+          "code": "MO",
+          "display": "Medical Officer"
+        }
+      ]
+    }
+  ],
+  "specialty": [
+    {
+      "coding": [
+        {
+          "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/specialty-my-core",
+          "code": "124",
+          "display": "General Radiology"
+        }
+      ]
+    }
+  ]
+}

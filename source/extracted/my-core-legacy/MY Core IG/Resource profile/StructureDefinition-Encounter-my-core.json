@@ -1,0 +1,333 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Encounter-my-core",
+  "meta": {
+    "versionId": "7",
+    "lastUpdated": "2023-09-21T04:10:13.9074653+00:00",
+    "source": "#OKBKw8n15m3hGlff"
+  },
+  "url": "http://fhir.hie.moh.gov.my/StructureDefinition/Encounter-my-core",
+  "version": "1.0.0",
+  "name": "EncounterMyCore",
+  "title": "Encounter (MY Core)",
+  "status": "active",
+  "date": "2023-09-21T04:10:27.4754435+00:00",
+  "description": "An interaction during which services are provided to the patient.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Encounter",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Encounter",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Encounter.extension:audit",
+        "path": "Encounter.extension",
+        "sliceName": "audit",
+        "short": "Record audit on individual who recorded and updated the data",
+        "definition": "Record audit on individual who recorded and updated the data",
+        "comment": "Record audit on individual who recorded and updated the data",
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://fhir.hie.moh.gov.my/StructureDefinition/audit-my-core"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "Encounter.extension:outcome",
+        "path": "Encounter.extension",
+        "sliceName": "outcome",
+        "short": "Encounter outcome reason",
+        "definition": "Encounter outcome reason",
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://fhir.hie.moh.gov.my/StructureDefinition/encounter-outcome-my-core"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "Encounter.extension:visitType",
+        "path": "Encounter.extension",
+        "sliceName": "visitType",
+        "label": "visit type",
+        "short": "visit type",
+        "definition": "visit type",
+        "comment": "visit type",
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://fhir.hie.moh.gov.my/StructureDefinition/visit-type-my-core"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "Encounter.extension:internalReferral",
+        "path": "Encounter.extension",
+        "sliceName": "internalReferral",
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://fhir.hie.moh.gov.my/StructureDefinition/internal-refferal-my-core"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "Encounter.extension:Rating",
+        "path": "Encounter.extension",
+        "sliceName": "Rating",
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://fhir.hie.moh.gov.my/StructureDefinition/encounter-rating-my-core"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "Encounter.extension:NcdVcDxMyCore",
+        "path": "Encounter.extension",
+        "sliceName": "NcdVcDxMyCore",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://fhir.hie.moh.gov.my/StructureDefinition/ncd-vc-dx-my-core"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "Encounter.identifier",
+        "path": "Encounter.identifier",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "system"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 1
+      },
+      {
+        "id": "Encounter.identifier:encounterNo",
+        "path": "Encounter.identifier",
+        "sliceName": "encounterNo",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Encounter.identifier:encounterNo.system",
+        "path": "Encounter.identifier.system",
+        "fixedUri": "http://fhir.hie.moh.gov.my/sid/encounter-id"
+      },
+      {
+        "id": "Encounter.identifier:vcToken",
+        "path": "Encounter.identifier",
+        "sliceName": "vcToken",
+        "max": "1"
+      },
+      {
+        "id": "Encounter.identifier:vcToken.system",
+        "path": "Encounter.identifier.system",
+        "fixedUri": "http://fhir.hie.moh.gov.my/sid/vc-token"
+      },
+      {
+        "id": "Encounter.status",
+        "path": "Encounter.status",
+        "short": "arrived | in-progress | finished | unknown",
+        "definition": "arrived | in-progress | finished | unknown",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/encounter-status-my-core"
+        }
+      },
+      {
+        "id": "Encounter.class",
+        "path": "Encounter.class",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/encounter-class-my-core"
+        }
+      },
+      {
+        "id": "Encounter.classHistory.class",
+        "path": "Encounter.classHistory.class",
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/encounter-class-my-core"
+        }
+      },
+      {
+        "id": "Encounter.type",
+        "path": "Encounter.type",
+        "short": "Primary specialty managing the encounter",
+        "definition": "Primary specialty managing the encounter",
+        "comment": "Primary specialty managing the encounter",
+        "min": 1,
+        "binding": {
+          "strength": "example",
+          "description": "Primary specialty managing the encounter",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/specialty-my-core"
+        }
+      },
+      {
+        "id": "Encounter.type.coding",
+        "path": "Encounter.type.coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "system"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Encounter.type.coding:service",
+        "path": "Encounter.type.coding",
+        "sliceName": "service",
+        "binding": {
+          "strength": "example",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/specialty-my-core"
+        }
+      },
+      {
+        "id": "Encounter.type.coding:service.system",
+        "path": "Encounter.type.coding.system",
+        "fixedUri": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core"
+      },
+      {
+        "id": "Encounter.type.coding:category",
+        "path": "Encounter.type.coding",
+        "sliceName": "category",
+        "binding": {
+          "strength": "example",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/encounter-category-my-core"
+        }
+      },
+      {
+        "id": "Encounter.type.coding:category.system",
+        "path": "Encounter.type.coding.system",
+        "fixedUri": "http://fhir.hie.moh.gov.my/CodeSystem/encounter-category-my-core"
+      },
+      {
+        "id": "Encounter.serviceType",
+        "path": "Encounter.serviceType",
+        "short": "Based on PIK code service type",
+        "definition": "Based on PIK code service type",
+        "min": 1,
+        "binding": {
+          "strength": "required",
+          "description": "Based on PIK code service type",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/service-type-my-core"
+        }
+      },
+      {
+        "id": "Encounter.priority",
+        "path": "Encounter.priority",
+        "binding": {
+          "strength": "example",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/encounter-priority-my-core"
+        }
+      },
+      {
+        "id": "Encounter.subject",
+        "path": "Encounter.subject",
+        "min": 1
+      },
+      {
+        "id": "Encounter.period",
+        "path": "Encounter.period",
+        "min": 1
+      },
+      {
+        "id": "Encounter.period.start",
+        "path": "Encounter.period.start",
+        "min": 1
+      },
+      {
+        "id": "Encounter.diagnosis.use",
+        "path": "Encounter.diagnosis.use",
+        "min": 1,
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/diagnosis-role-my-core"
+        }
+      },
+      {
+        "id": "Encounter.hospitalization.admitSource.coding",
+        "path": "Encounter.hospitalization.admitSource.coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "system"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Encounter.hospitalization.admitSource.coding:internal",
+        "path": "Encounter.hospitalization.admitSource.coding",
+        "sliceName": "internal",
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/internal-referral-source-type-my-core"
+        }
+      },
+      {
+        "id": "Encounter.hospitalization.admitSource.coding:internal.system",
+        "path": "Encounter.hospitalization.admitSource.coding.system",
+        "min": 1,
+        "fixedUri": "http://fhir.hie.moh.gov.my/CodeSystem/internal-referral-source-type-my-core"
+      },
+      {
+        "id": "Encounter.hospitalization.admitSource.coding:external",
+        "path": "Encounter.hospitalization.admitSource.coding",
+        "sliceName": "external",
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/external-referral-source-type-my-core"
+        }
+      },
+      {
+        "id": "Encounter.hospitalization.admitSource.coding:external.system",
+        "path": "Encounter.hospitalization.admitSource.coding.system",
+        "min": 1,
+        "fixedUri": "http://fhir.hie.moh.gov.my/CodeSystem/external-referral-source-type-my-core"
+      },
+      {
+        "id": "Encounter.serviceProvider",
+        "path": "Encounter.serviceProvider",
+        "min": 1
+      }
+    ]
+  }
+}

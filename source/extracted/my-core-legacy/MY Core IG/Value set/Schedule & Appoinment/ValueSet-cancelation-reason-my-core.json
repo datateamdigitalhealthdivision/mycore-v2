@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-cancelation-reason-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetCancelationReason (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/ValueSet/cancelation-reason-my-core</tt><p>Appointment cancellation reason</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/cancelation-reason-my-core",
+  "name": "ValueSetCancelationReasonMyCore",
+  "title": "ValueSetCancelationReason (MY Core)",
+  "status": "active",
+  "date": "2023-01-03T04:47:56.9010407+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Appointment cancellation reason",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/cancellation-reason-my-core"
+      }
+    ]
+  }
+}

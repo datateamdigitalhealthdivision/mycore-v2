@@ -1,0 +1,5 @@
+code,display,definition,system_url,system_name
+safety,Safety,Flags related to safety precautions,http://fhir.hie.moh.gov.my/CodeSystem/flag-category-my-core,CodeSystemFlagCategoryMyCore
+admin,Administrative,Flags related to administrative and financial processes,http://fhir.hie.moh.gov.my/CodeSystem/flag-category-my-core,CodeSystemFlagCategoryMyCore
+clinical,Clinical,Flags related to the subject's clinical data and condition,http://fhir.hie.moh.gov.my/CodeSystem/flag-category-my-core,CodeSystemFlagCategoryMyCore
+organ-donor-pledger,Organ Donor Pledger,Flags related to the patient pledging to allow organ donation,http://fhir.hie.moh.gov.my/CodeSystem/flag-category-my-core,CodeSystemFlagCategoryMyCore

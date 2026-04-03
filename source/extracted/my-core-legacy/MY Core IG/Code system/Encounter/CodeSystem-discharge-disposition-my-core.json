@@ -1,0 +1,75 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-discharge-disposition-my-core",
+  "meta": {
+    "source": "#KYjMFtjaYi7IQx6S"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemDischargeDisposition (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/discharge-disposition-my-core</tt><p>Discharge disposition</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/discharge-disposition-my-core",
+  "version": "1.0.0",
+  "name": "CodeSystemDischargeDispositionMyCore",
+  "title": "CodeSystemDischargeDisposition (MY Core)",
+  "status": "active",
+  "date": "2023-07-25T00:23:50.1094378+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Discharge disposition",
+  "compositional": false,
+  "content": "complete",
+  "count": 8,
+  "concept": [
+    {
+      "code": "00",
+      "display": "No Information",
+      "definition": "No Information"
+    },
+    {
+      "code": "01",
+      "display": "Home",
+      "definition": "Home"
+    },
+    {
+      "code": "02",
+      "display": "Left Against Advice / At Own Risk (AOR)",
+      "definition": "Left Against Advice / At Own Risk (AOR)"
+    },
+    {
+      "code": "03",
+      "display": "Absconded",
+      "definition": "Absconded"
+    },
+    {
+      "code": "04",
+      "display": "Transfer To Another Facility",
+      "definition": "Transfer To Another Facility"
+    },
+    {
+      "code": "05",
+      "display": "Deceased",
+      "definition": "Expired"
+    },
+    {
+      "code": "06",
+      "display": "Admitted",
+      "definition": "Admitted"
+    },
+    {
+      "code": "07",
+      "display": "Allowed Leave Of Absence (LOA)",
+      "definition": "Allowed Leave Of Absence (LOA)"
+    }
+  ]
+}

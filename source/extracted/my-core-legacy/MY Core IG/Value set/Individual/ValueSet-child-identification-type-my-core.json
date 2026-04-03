@@ -1,0 +1,40 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-child-identification-type-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetChildIdentificationType (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/ValueSet/child-identification-type-my-core</tt><p>Child identification type</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/child-identification-type-my-core",
+  "name": "ValueSetChildIdentificationTypeMyCore",
+  "title": "ValueSetChildIdentificationType (MY Core)",
+  "status": "active",
+  "date": "2023-03-31T00:47:28.8476721+00:00",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "Child identification type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "66839005",
+            "display": "Father"
+          },
+          {
+            "code": "72705000",
+            "display": "Mother"
+          }
+        ]
+      }
+    ]
+  }
+}

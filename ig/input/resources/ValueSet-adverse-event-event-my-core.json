@@ -1,0 +1,38 @@
+{
+  "resourceType": "ValueSet",
+  "id": "adverse-event-event-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>AdverseEventEventMyCore</h2><tt>https://smilecdr.mhn.asia/ValueSet/adverse-event-event-my-core</tt><p>Adverse-event event codes</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/adverse-event-event-my-core",
+  "version": "2.0.0",
+  "name": "ValueSetAdverseEventEventMyCore",
+  "title": "ValueSetAdverseEventEvent (MY Core)",
+  "status": "active",
+  "date": "2023-03-31T00:47:28.8476721+00:00",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "Adverse-event event codes",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "82545002",
+            "display": "Blood transfusion reaction"
+          }
+        ]
+      }
+    ]
+  },
+  "experimental": false
+}

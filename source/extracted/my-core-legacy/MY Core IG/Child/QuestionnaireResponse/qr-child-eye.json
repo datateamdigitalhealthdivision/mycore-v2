@@ -1,0 +1,261 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-child-eye",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "identifier": {
+        "system": "http://fhir.hie.moh.gov.my/sid/template-section",
+        "value": "qr-child-eye"
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-child-eye",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/3a1fe467-cad5-4ec9-83f8-fd6dfb46470c"
+    },
+    "authored": "2023-04-27T00:20:14.414Z",
+    "item": [
+        {
+            "linkId": "child-eye.1",
+            "text": "Tarikh ujian dijalankan",
+            "answer": [
+                {
+                    "valueDateTime": "2023-05-10T09:11:35.156Z"
+                }
+            ]
+        },
+        {
+            "linkId": "child-eye.2",
+            "text": "Umur semasa ujian",
+            "answer": [
+                {
+                    "valueQuantity": {
+                        "value": 2,
+                        "unit": "tahun"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "child-eye.3",
+            "text": "Pemerhatian Bahagian Luar Mata",
+            "item": [
+                {
+                    "linkId": "child-eye.3.1",
+                    "text": "Bengkak di sekeliling mata",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-eye.3.2",
+                    "text": "Mata berair",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-eye.3.3",
+                    "text": "Mata bertahi",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-eye.3.4",
+                    "text": "Mata kuyu",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-eye.3.5",
+                    "text": "Ketumbuhan pada mata putih",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-eye.3.6",
+                    "text": "Warna iris mata kanan dan kiri tidak sama",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-eye.3.7",
+                    "text": "Pupil tidak berbentuk bulat",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-eye.3.8",
+                    "text": "Pupil berwarna putih*",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-eye.3.9",
+                    "text": "Lain-lain (sila nyatakan):",
+                    "answer": [
+                        {
+                            "valueString": "mata rosak"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-eye.3.10",
+                    "text": "Sila rujuk kepada Pegawai Perubatan jika kanak-kanak mengalami mata merah atau pupil kanak-kanak kelihatan kabut atau putih",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "child-eye.4",
+            "text": "Ujian Akuiti Visual",
+            "item": [
+                {
+                    "linkId": "child-eye.4.1",
+                    "text": "Mata Kanan",
+                    "item": [
+                        {
+                            "linkId": "child-eye.4.1.1",
+                            "text": "Tanpa Cermin Mata",
+                            "answer": [
+                                {
+                                    "valueString": "6/6"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "child-eye.4.1.2",
+                            "text": "Dengan Cermin Mata",
+                            "answer": [
+                                {
+                                    "valueString": "6/6"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "child-eye.4.1.3",
+                            "text": "Dengan Cermin Mata dan Pin Hole",
+                            "answer": [
+                                {
+                                    "valueString": "6/6"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-eye.4.2",
+                    "text": "Mata Kiri",
+                    "item": [
+                        {
+                            "linkId": "child-eye.4.2.1",
+                            "text": "Tanpa Cermin Mata",
+                            "answer": [
+                                {
+                                    "valueString": "6/6"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "child-eye.4.2.2",
+                            "text": "Dengan cermin mata",
+                            "answer": [
+                                {
+                                    "valueString": "6/6"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "child-eye.4.2.3",
+                            "text": "Dengan cermin mata & pin hole (Kanak-kanak berumur bawah 4 tahun tidak perlu melakukan ujian pinhole)",
+                            "answer": [
+                                {
+                                    "valueString": "6/6"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "child-eye.5",
+            "text": "Rujukan",
+            "answer": [
+                {
+                    "valueBoolean": true,
+                    "item": [
+                        {
+                            "linkId": "child-eye.5.1",
+                            "text": "Tempat Rujukan",
+                            "answer": [
+                                {
+                                    "valueString": "insert entry here"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "child-eye.6",
+            "text": "Ujian Hirschberg",
+            "item": [
+                {
+                    "linkId": "child-eye.6.2",
+                    "text": "Mata Kiri",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "code": "01",
+                                "display": "Selari"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-eye.6.1",
+                    "text": "Mata Kanan",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "code": "02",
+                                "display": "Tidak Selari"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

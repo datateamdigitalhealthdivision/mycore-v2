@@ -1,0 +1,6 @@
+code,display,definition,system_url,system_name
+a01,Normal,Normal,http://fhir.hie.moh.gov.my/CodeSystem/outcome-anxiety-dass-21-my-core,CodeSystemOutcomeAnxietyDass21MyCore
+a02,"Mild Anxiety, please consult your nearest healthcare facility for further information.","Mild Anxiety, please consult your nearest healthcare facility for further information.",http://fhir.hie.moh.gov.my/CodeSystem/outcome-anxiety-dass-21-my-core,CodeSystemOutcomeAnxietyDass21MyCore
+a03,"Moderate Anxiety, please consult your nearest healthcare facility for further information.","Moderate Anxiety, please consult your nearest healthcare facility for further information.",http://fhir.hie.moh.gov.my/CodeSystem/outcome-anxiety-dass-21-my-core,CodeSystemOutcomeAnxietyDass21MyCore
+a04,"Severe Anxiety, please consult your nearest healthcare facility for further information.","Severe Anxiety, please consult your nearest healthcare facility for further information.",http://fhir.hie.moh.gov.my/CodeSystem/outcome-anxiety-dass-21-my-core,CodeSystemOutcomeAnxietyDass21MyCore
+a05,"Extremely Severe Anxiety, please seek medical attention from your nearest healthcare facility.","Extremely Severe Anxiety, please seek medical attention from your nearest healthcare facility.",http://fhir.hie.moh.gov.my/CodeSystem/outcome-anxiety-dass-21-my-core,CodeSystemOutcomeAnxietyDass21MyCore

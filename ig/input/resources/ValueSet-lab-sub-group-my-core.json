@@ -1,0 +1,35 @@
+{
+  "resourceType": "ValueSet",
+  "id": "lab-sub-group-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetLabSubGroup (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/lab-sub-group-my-core</tt><p>Lab Sub Group</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/lab-sub-group-my-core",
+  "name": "ValueSetLabSubGroupMyCore",
+  "title": "ValueSetLabSubGroup (MY Core)",
+  "status": "active",
+  "date": "2023-01-03T04:47:56.9010407+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Lab Sub Group",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/lab-sub-group-my-core"
+      }
+    ]
+  },
+  "version": "2.0.0",
+  "experimental": false
+}

@@ -1,0 +1,44 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "medication-knowledge-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/medication-knowledge-my-core",
+  "version": "2.0.0",
+  "name": "ExtensionMedicationKnowledgeMyCore",
+  "title": "ExtensionMedicationKnowledge (My Core)",
+  "status": "active",
+  "date": "2023-05-08T00:49:51.4209074+00:00",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Medication"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/medication-knowledge-my-core"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "experimental": false
+}

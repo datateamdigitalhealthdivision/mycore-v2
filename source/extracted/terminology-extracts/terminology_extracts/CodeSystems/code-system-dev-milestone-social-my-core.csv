@@ -1,0 +1,54 @@
+code,display,definition,system_url,system_name
+sc6y,Up to 6 weeks of age,Social smile,http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-social-my-core,CodeSystemDevMilestoneSocialMyCore
+sc3m,Up to 3 months of age,"Sustained social contact. 
+Responds with pleasure to friendly handling",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-social-my-core,CodeSystemDevMilestoneSocialMyCore
+sc6m,Up to 6 months of age,"Mouthing. 
+Place hand on bottle and pats it. 
+Grasps feet. 
+Stretches arms out to be carried. 
+Shows delighted response to rough and tumble play. 
+Still friendly with strangers, becomes more reserved after 7 mths.",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-social-my-core,CodeSystemDevMilestoneSocialMyCore
+sc9m,Up to 9 months of age,"Mouthing. 
+Holds and bites small piece of food. 
+Stranger anxiety. 
+Plays Peek-a-boo, imitates hand clapping. 
+Waves bye-bye. 
+Understands ‘object permanence’",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-social-my-core,CodeSystemDevMilestoneSocialMyCore
+sc12m,Up to 12 months of age,"Drinks from cup with assistance, helps with dressing. 
+Gives toys on request. 
+Finds toys hidden from view. 
+Demonstrates affection to family. 
+Enjoys joint interactive play with adults. 
+Plays “Pat-a-Cake”",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-social-my-core,CodeSystemDevMilestoneSocialMyCore
+sc15m,Up to 15 months of age,"Holds and drinks from cup, attempts to hold spoon. 
+Functional play e.g. 
+pushing toy car. 
+Repeated casting.",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-social-my-core,CodeSystemDevMilestoneSocialMyCore
+sc18m,Up to 18 months of age,"Imitates housework. 
+Uses spoon well. 
+Assists with dressing. 
+mouthing stops. 
+Casting less often. 
+Plays contently alone but likes to be near familiar adult.",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-social-my-core,CodeSystemDevMilestoneSocialMyCore
+sc2y,Up to 2 years of age,"Puts on shoes, socks, pants. 
+Dry by day. 
+Parallel play. 
+Watches others play and plays near them, but not with them. 
+Pretend play. 
+Tantrums when frustrated but attention is usually easily distracted.",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-social-my-core,CodeSystemDevMilestoneSocialMyCore
+sc2.5y,Up to 2.5 years of age,"May be dry by night, variable. 
+Eats skilfully More sustained role play e.g. 
+putting dolls to bed, feeding them. 
+Tantrums when thwarted and is less distracted.",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-social-my-core,CodeSystemDevMilestoneSocialMyCore
+sc3y,Up to 3 years of age,"Eats independently, washes hands. 
+May be dry by night. 
+Joins in active make believe play with other children. 
+Understands sharing toys.",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-social-my-core,CodeSystemDevMilestoneSocialMyCore
+sc4y,Up to 4 years of age,"Brushes teeth, dresses independently except for laces, ties and back buttons. 
+Imaginative dressing up and make believe play. 
+Understands need for turn taking in play. 
+Appreciates past, present and future time.",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-social-my-core,CodeSystemDevMilestoneSocialMyCore
+sc5y,Up to 5 years of age,"Dresses and undresses alone. 
+Engages in elaborate make believe group play. 
+Chooses own friends. 
+Cooperative with companions and understands need for rules and fair play.",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-social-my-core,CodeSystemDevMilestoneSocialMyCore

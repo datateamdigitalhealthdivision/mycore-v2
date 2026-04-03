@@ -1,0 +1,51 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Flag-my-core",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2023-01-31T06:06:05.8319022+00:00",
+    "source": "#5dzJshRTjt4KMq0m",
+    "tag": [
+      {
+        "system": "https://smilecdr.com/fhir/NamingSystem/tags",
+        "code": "validation_passed",
+        "display": "Validation Passed"
+      }
+    ]
+  },
+  "url": "http://fhir.hie.moh.gov.my/StructureDefinition/Flag-my-core",
+  "version": "1.0.0",
+  "name": "FlagMyCore",
+  "status": "unknown",
+  "date": "2023-02-23T04:59:30.4857498+00:00",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Flag",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Flag",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Flag.identifier.assigner",
+        "path": "Flag.identifier.assigner",
+        "min": 1
+      },
+      {
+        "id": "Flag.category",
+        "path": "Flag.category",
+        "min": 1,
+        "max": "1",
+        "binding": {
+          "strength": "example",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/flag-category-my-core"
+        }
+      },
+      {
+        "id": "Flag.code.text",
+        "path": "Flag.code.text",
+        "min": 1
+      }
+    ]
+  }
+}

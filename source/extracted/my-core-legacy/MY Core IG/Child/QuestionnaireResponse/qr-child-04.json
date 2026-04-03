@@ -1,0 +1,233 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-child-04",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "identifier": {
+        "system": "http://fhir.hie.moh.gov.my/sid/template-section",
+        "value": "qr-child-04"
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-child-04",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/3a1fe467-cad5-4ec9-83f8-fd6dfb46470c"
+    },
+    "authored": "2023-04-27T00:20:14.414Z",
+    "item": [
+        {
+            "linkId": "child-4.1",
+            "text": "Waktu Lahir",
+            "answer": [
+                {
+                    "valueDateTime": "2023-04-27T00:41:05.886Z"
+                }
+            ]
+        },
+        {
+            "linkId": "child-4.2",
+            "text": "Jangkasama Kandungan",
+            "answer": [
+                {
+                    "valueQuantity": {
+                        "value": 40
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "child-4.3",
+            "text": "Tempat Lahir",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+                        "code": "02",
+                        "display": "Klink"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "child-4.4",
+            "text": "Jenis Keliran",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+                        "code": "03",
+                        "display": "Forceps"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "child-4.5",
+            "text": "Komplikasi (jika ada)",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+                        "code": "02",
+                        "display": "Meconium stained liquor"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "child-4.6",
+            "text": "Komplikasi lain (jika ada)",
+            "answer": [
+                {
+                    "valueString": "Tiada, kalau ada pown taknak bagitau :v"
+                }
+            ]
+        },
+        {
+            "linkId": "child-4.7",
+            "text": "Bilangan bayi",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+                        "code": "02",
+                        "display": "Kembar"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "child-4.8",
+            "text": "Skor Apgar",
+            "item": [
+                {
+                    "linkId": "child-4.8.1",
+                    "text": "1 min",
+                    "answer": [
+                        {
+                            "valueInteger": 10
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-4.8.2",
+                    "text": "5 min",
+                    "answer": [
+                        {
+                            "valueInteger": 10
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-4.8.3",
+                    "text": "10 min",
+                    "answer": [
+                        {
+                            "valueInteger": 10
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-4.8.4",
+                    "text": "20 min",
+                    "answer": [
+                        {
+                            "valueInteger": 10
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "child-4.9",
+            "text": "Berat lahir",
+            "answer": [
+                {
+                    "valueQuantity": {
+                        "value": 2.5
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "child-4.10",
+            "text": "Panjang",
+            "answer": [
+                {
+                    "valueQuantity": {
+                        "value": 90
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "child-4.11",
+            "text": "Lilitan kepala",
+            "answer": [
+                {
+                    "valueQuantity": {
+                        "value": 25
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "child-4.12",
+            "text": "IM Vitamin K diberi",
+            "answer": [
+                {
+                    "valueBoolean": true
+                }
+            ]
+        },
+        {
+            "linkId": "child-4.13",
+            "text": "G6PD",
+            "answer": [
+                {
+                    "valueQuantity": {
+                        "value": 12
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "child-4.14",
+            "text": "TSH",
+            "answer": [
+                {
+                    "valueQuantity": {
+                        "value": 32
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "child-4.15",
+            "text": "T4",
+            "answer": [
+                {
+                    "valueQuantity": {
+                        "value": 12
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "child-4.16",
+            "text": "Saringan Pendengaran (jika dilakukan)",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+                        "code": "01",
+                        "display": "Normal"
+                    }
+                }
+            ]
+        }
+    ]
+}

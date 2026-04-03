@@ -1,0 +1,35 @@
+{
+  "resourceType": "ValueSet",
+  "id": "revenue-code-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetRevenueCode (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/revenue-code-my-core</tt><p>Revenue Code</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/revenue-code-my-core",
+  "name": "ValueSetRevenueCodeMyCore",
+  "title": "ValueSetRevenueCode (MY Core)",
+  "status": "active",
+  "date": "2023-03-07T04:19:34.7742501+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Revenue Code",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/revenue-code-my-core"
+      }
+    ]
+  },
+  "version": "2.0.0",
+  "experimental": false
+}

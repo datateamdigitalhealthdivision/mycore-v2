@@ -1,0 +1,360 @@
+code,display,definition,system_url,system_name
+1000,Debridement soft tissue orofacial,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1001,Surgical removal of simple impacted / unerupted tooth,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1002,Soft laser therapy-orofacial,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1003,Reimplantation tooth,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1004,Apicoectomy - anterior tooth,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1005,Apicoectomy - posterior tooth,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1006,Apicoectomy with retrograde root filling - anterior tooh,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1007,Apicoectomy with retrograde root filling - posterior tooh,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1008,TMJ-reduction-closed,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1009,Alveolar bone grafting,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1010,Debridement Suture soft tissue orofacial-lip simple,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1011,Debridement Suture soft tissue orofacial- mouth simple,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1012,Debridement Suture soft tissue orofacial- lip complicated,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1013,Debridement Suture soft tissue orofacial- mouth complicated,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1014,Revision suture soft tissue orofacial-lip simple,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1015,Revision suture soft tissue orofacial-nouth simple,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1016,Revision suture soft tissue orofacial-complicated,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1017,Revision suture soft tissue orofacial-complicated,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1021,Temporary reduction and fixation-midfacial bone,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1022,Temporary reduction and fixation-mandible,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1023,Closed reduction & fixation- midfacial bone,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1024,Closed reduction & fixation- mandible,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1025,Incision and drainage orofacial abscess,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1026,Alveolectomy/Alveoloplasty-maxilla <=4cm,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1027,Alveolectomy / Alveoplasty - maxilla > 4cm,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1028,Alveolectomy/Alveoloplasty-mandible <=4cm,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1029,Alveolectomy/Alveoloplasty-mandible >4cm,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1030,Vestibuloplasty-gingival/alveolar soft tissue,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1031,Vestibuloplasty-gingival/alveolar soft tissue-autograft,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1032,Frenotomy - lingual,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1033,Frenotomy - labial,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1034,Frenectomy - lingual,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1035,Frenectomy - labial,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1036,Frenectomy-LASER -lingual,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1037,Frenectomy-LASER -labial,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1038,Frenoplasty -lingual,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1039,Frenoplasty- labial,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1040,Transplantation tooth,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1041,Surgical removal of retained root,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1042,Surgical removal of displaced tooth / root,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1043,Surgical removal of impacted / unerupted tooth-complex,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1044,Surgical exposure of tooth without placement of attachment,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1045,Surgical exposure of tooth with placement of attachment,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1046,Antral washout-Caldwell-Luc-left,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1047,Antral washout-Caldwell-Luc-right,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1048,Closure oro-antral fistula,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1049,Biopsy-upper lip,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1050,Biopsy-lower lip,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1051,Biopsy-Tongue,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1052,Biopsy-floor of mouth,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1053,Biopsy-Hard palate soft tissue,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1054,Biopsy-Soft palate,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1055,Biopsy-Buccal soft tissue,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1056,Biopsy-gingiva/alveolar soft tissue,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1057,Biopsy-retromolar/palatoglossal arch soft tissue,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1068,Removal foreign body-orofacial-simple,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1069,Removal foreign body-orofacial-complicated,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1070,Removal dental implants-maxilla,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1071,Removal dental implants-mandible,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1072,Removal maxillofacial implants,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1073,Removal internal fixation-maxillofacial,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1074,Removal external fixation-maxillofacial,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1075,Removal dental wires-upper arch,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1076,Removal dental wires-lower arch,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1077,Removal dental wires-both arch,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1078,Injection Medication-orofacial,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1079,Ultrasound therapy-oromaxillofacial,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1080,Operculectomy,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1081,Non-surgical reposition of tooth,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1082,Surgical reposition of tooh,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1083,Application of Prophylaxis,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1084,Photography-oral/facial photo images -Intraoral,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1085,Photography-oral/facial photo images -Extraoral,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1086,Preliminary dental impression (alginate),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1087,Placement of orthodontic bands,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1088,Provision of Removable Retainer - upper arch,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1089,Provision of Removable Retainer - lower arch,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1090,Provision of Removable Retainer - both arches,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1091,Provision of  Removable Space Maintainer  - upper arch,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1092,Provision of  Removable Space Maintainer  - lower arch,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1093,Provision of  Removable Space Maintainer  - both arches,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1094,Provision of fixed retainer - upper arch,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1095,Provision of fixed retainer - lower arch,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1096,Provision of fixed retainer - both arches,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1097,Debond/Removal of fixed retainer - upper arch,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1098,Debond/Removal of fixed retainer - lower arch,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1099,Debond/Removal of fixed retainer - both arches,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1100,Provision of  strapping appliance,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1101,Provision of Removable Appliance - upper arch,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1102,Provision of Removable Appliance - lower arch,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1103,Provision of Removable Appliance - both arches,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1104,Provision of Functional Appliance - Removable,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1105,Provision of Functional Appliance - Fixed,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1106,Provision of Fixed  expansion appliance - maxillary,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1107,Provision of Fixed expansion appliance - mandibulary,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1108,Provision of Fixed Space Maintainer  - upper arch  (Palatal Arch),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1109,Provision of  Fixed Space Maintainer  - lower arch (Lingual Arch),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1110,Provision of  Fixed Space Maintainer  - both arches,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1111,Provision of Fixed Appliance-Upper,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1112,Provision of Fixed Appliance-Lower,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1113,Provision of Fixed Appliance-both,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1114,Provision of Headgear,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1115,Provision of face mask-extra-oral  component (Reverse Headgear),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1116,Provision of lingual arch,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1117,Provision of lip bumper  (Removable Functional),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1118,Repair of Fixed Appliance,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1119,Repair of Removable  Appliance,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1120,Debond/Removal of Fixed Appliance -upper arch,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1121,Debond/Removal of Fixed Appliance -lower arch,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1122,Debond/Removal of Fixed Appliance -both arches,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1123,Review of Fixed Appliance,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1124,"Replacement of orthodontic attachments (buttons,hooks,cleats)",,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1126,Replacement of orthodontic brackets,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1127,Replacement of orthodontic wire- upper arch,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1128,Replacement of orthodontic wire - lower arch,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1129,Replacement of orthodontic wire - both arches,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1130,Removal of fixed appliance components,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1131,Insertion of orthodontic separator,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1132,Interdental stripping,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1133,Placement of traction chain,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1134,Placement of Temporary Anchorage Device,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1138,Chin cup treatment,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1139,Intial examination and diagnosis,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1140,Removable appliance (passive) - upper,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1141,Removable appliance (passive) - lower,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1142,Removable appliance (active)- upper,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1143,Removable appliance (active) - lower,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1144,Partial fixed appliance - upper,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1145,Partial fixed appliance - lower,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1146,Fixed appliance components replacement (per component),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1147,Repair of removable appliance component,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1148,Repair Removable functional appliance,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1149,Provision of Orthodontic auxiliary,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1150,Provision of Transpalatal arch,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1151,Repair of Transpalatal arch,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1152,Repair of Lingual arch,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1153,Transpalatal arch (each re- cementation),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1154,Lingual arch (each re- cementation),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1155,Provision of Essix retainer,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1156,Repair Fixed retainer,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1157,Provision of Gold chain,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1158,Palatal expander treatment,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1159,Headgear treatment,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1160,Repair of Removable retainers,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1161,Fissure sealant - per tooth,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1162,Diet Counselling,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1163,Root Canal Treatment- Arrest resorption,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1164,Inhalation sedation (Nitrous oxide),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1165,Stainless steel crown - per unit,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1166,Strip crown - per unit,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1167,Behavioral therapy,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1168,Splinting of teeth,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1169,Feeding plate,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1170,Sensory testing,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1171,Functional removable appliance,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1172,Taping/Bandaging/Strapping,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1173,Oral muscle stimulation,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1174,Other dental appliances,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1175,Gingivectomy,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1176,Scaling - supragingival-gross with polishing,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1177,Scaling - supragingival-fine with polishing,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1178,Scaling - subgingival-gross with polishing,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1179,Scaling - subgingival-fine with polishing,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1180,Occlusal adjustment,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1181,Crown lengthening with ostectomy,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1182,Immobilisation of teeth,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1183,Gingivectomy-LASER,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1184,Gingivoplasty,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1185,Gingivoplasty-LASER,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1186,Root planing of tooth,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1187,Incision & drainage of peridontal abscess,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1188,Flap surgery,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1189,Open Flap Debridement,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1190,Pocket Elimination Surgery,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1191,Guided tissue regeneration,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1192,Guided Bone Regeneration,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1193,Guided tissue regeneration (second surgery),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1194,Mucogingival surgery-autograft,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1195,Mucogingival surgery-allograft,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1196,Pericision of periodontal ligament,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1197,Furcationplasty-Tunnelling,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1198,Furcationplasty-Grooveplasty,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1199,Veneer gingival Labial,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1200,Crown lengthening without ostectomy,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1201,Periapical surgery,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1202,Root resection,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1203,Tooth Hemisection,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1204,Periodontal examination,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1205,Dental scaling and polishing,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1206,To provide denture-upper full,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1207,To provide  of denture-lower full,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1208,To provide denture-upper partial (1 tooth),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1209,To provide denture-upper partial (2 teeth),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1210,To provide denture-upper partial (3 teeth),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1211,To provide denture-upper partial (4 teeth),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1212,To provide denture-upper partial (5 teeth),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1213,To provide denture-upper partial (6 teeth),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1214,To provide denture-upper partial (7 teeth),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1215,To provide denture-upper partial (8 teeth),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1216,To provide denture-upper partial (9 teeth),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1217,To provide denture-upper partial (10 teeth),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1218,To provide denture-upper partial (11 teeth),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1219,To provide denture-upper partial (12 teeth),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1220,To provide denture-upper partial (13 teeth),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1221,To provide denture-upper partial (14 teeth),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1222,To provide denture-upper partial (15 teeth),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1223,To provide denture-lower partial (1 tooth),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1224,To provide denture-lower partial (2 teeth),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1225,To provide denture-lower partial (3 teeth),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1226,To provide denture-lower partial (4 teeth),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1227,To provide denture-lower partial (5 teeth),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1228,To provide denture-lower partial (6 teeth),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1229,To provide denture-lower partial (7 teeth),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1230,To provide denture-lowerpartial (8 teeth),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1231,To provide denture-lower partial (9 teeth),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1232,To provide denture-lower partial (10 teeth),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1233,To provide denture-lower partial (11 teeth),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1234,To provide denture-lowerpartial (12 teeth),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1235,To provide denture-lower partial (13 teeth),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1236,To provide denture-lowerpartial (14 teeth),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1237,To provide denture-lower partial (15 teeth),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1238,Rebasing and relining of upper denture,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1239,Rebasing and relining of lower denture,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1240,Repair of broken appliance,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1241,Repair of broken obturator,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1242,Placement of restoration - deciduous,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1243,Placement of restoration-permanent- one surface,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1244,Placement of restoration-permanent-multiple surfaces,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1245,Placement of Temporary restoration,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1246,Root canal treatment - interim visits,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1247,Root canal treatment-  obturation of anterior tooth,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1248,Root canal treatment-obturation of premolar,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1249,Root canal treatment - obturation of molar tooth,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1250,Root canal treatment- retrieval of separated/ broken instrument,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1251,Suture removal,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1252,Consultation,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1253,Dental examination and charting,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1254,Comprehensive history and evaluation,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1255,Surgical removal of supernumerary tooth (simple),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1256,Surgical removal of supernumerary tooth (complex),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1257,Surgical removal of retained root,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1258,Pulpectomy - deciduous,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1259,Pulpotomy deciduous tooth,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1260,Provision of Dental appliances or obturators  -small,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1261,Provision of Dental appliances or obturators  -medium,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1262,Provision of Dental appliances or obturators -large,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1263,Dental implant stage 1 surgery,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1264,Dental implant stage 2 surgery,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1265,Provision of veneer,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1266,Bleaching of tooth - non vital,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1267,Bleaching of teeth - vital,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1268,Removal of bridge,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1269,Provision of mouthguard,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1270,Provision of  soft splint,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1271,Provision of hard splint,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1272,Provision of other splint,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1273,Provision of eye prosthesis,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1274,Provision of other maxillofacial prosthesis (ear /nose),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1275,To provide of overdenture-upper full,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1276,To provide of overdenture-lower full,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1279,Provision of feeding plate,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1280,Repair of crown and bridge (with composite),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1281,Removal of post and core,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1282,Removal of crown,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1283,Provision of post and core device,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1284,Construction of provisional restoration per unit (crown/bridge/onlay),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1285,Placement-restoration with pin retention,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1286,Microabrasion,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1287,Arrest of tooth resorption,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1288,Root canal retreatment-obturation of anterior tooth,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1289,Root canal retreatment-obturation of premolar,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1290,Root canal retreatment-obturation of molar,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1291,Repair  of procedural error - eg perforated root,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1292,Retrieval of separated/ broken instrument,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1293,Modification of tooth morphology,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1294,Occlusal adjustment,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1295,Recontouring of pre-existing restoration,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1297,Intentional tooth  reimplantation,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1298,provision of metal copings,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1299,Preventive Resin Restoration I (PRR I),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1300,Preventive Resin Restoration II (PRR II),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1301,Preventive Resin Restoration III (PRR III),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1302,Topical application of fluoride - upper arch,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1303,Topical application of fluoride - lower arch,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1304,Topical application of fluoride - both arches,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1305,Extraction permanent tooth,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1306,Extraction supernumerary,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1307,Extraction retained root,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1308,Extraction deciduous tooth,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1309,Control of post extraction haemorrhage,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1310,Post-extraction complication,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1311,Gingival operculectomy,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1312,"Provision of Inlay (per tooth) 
+(not inclusive of metal charge)",,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1313,"Provision of Crown 
+(including temporary crown but not inclusive of metal charge)",,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1314,"Provision of Fixed Bridge 
+(per abutment teeth including provisional restoration but not inclusive of material and lab charges)",,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1315,"Provision of Removable Bridge 
+(per abutment teeth including provisional restoration but not inclusive of material and lab charges)",,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1317,Apexification (per tooth),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1318,Arrest of tooth resorption (per tooth),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1319,Coronal pulpotomy (per permanent tooth),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1320,Pulpectomy (per deciduous tooth),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1321,Pulp extirpation (per tooth),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1322,Tooth bleaching (external)(per arch),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1323,Tooth bleaching (internal) (per tooth),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1324,Desensitisation (per arch),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1327,Denture repair without changing the base plate,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1328,Denture repair (addition of each acrylic tooth),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1329,Impression for working model,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1330,Aversion therapy,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1331,Behaviour modification,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1332,Desensitization therapy,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1333,Extinction therapy,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1334,Relaxation training,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1335,Hypnosis,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1336,Sedation - Benzodiazepine,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1338,Pulp vitality test,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1339,Diagnostic cast,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1340,Caries susceptibility test,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1341,Zygoma X-Ray,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1342,Post Nasal Space X-Ray,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1343,TMJ-Transcranial - Single View,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1344,TMJ-Transpharyngeal - Single View,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1345,Internal Auditory Meatus (IAM) X-Ray,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1346,Pituitary fossa X-Ray,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1347,Mastoids X-Ray,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1348,Petrous Temporal bone X-Ray,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1349,Cephalometric Postero-anterior of Jaws X-Ray,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1350,Panoramic Tomogram,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1351,True Cephalometric Lateral Skull,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1352,Periapical,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1353,Bitewing,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1354,Upper True Occlusal,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1355,Upper Oblique Occlusal,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1356,Lower Occlusal 450,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1357,Lower Occlusal 900,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1358,Lower Oblique Occlusal,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1359,Digital Periapical,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1360,Digital Bitewing,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1361,Digital Upper True Occlusal,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1362,Digital Upper Oblique Occlusal,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1363,Digital Lower Occlusal 450,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1364,Digital Lower Occlusal 900,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1365,Digital Lower Oblique Occlusal,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1366,CBCT Tooth,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1367,CBCT Teeth,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1368,CBCT Upper Jaw,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1369,CBCT Lower Jaw,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1370,CBCT Upper and Lower Jaw,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1371,CBCT Face,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1372,CBCT Pro Face,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1373,Orthopanthomogram (OPG),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1374,3 D Orthopanthomogram (OPG),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1375,Lower True Occlusal,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1376,Digital Lower True Occlusal,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+1377,Provision of Fixed Appliance (prior to Mar 2017),,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore
+00,Other,,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,CodeSystemDentalProcedureMyCore

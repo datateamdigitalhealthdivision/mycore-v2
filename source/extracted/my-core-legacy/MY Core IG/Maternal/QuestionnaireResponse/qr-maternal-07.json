@@ -1,0 +1,259 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-maternal-07",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-07",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/bfb81ffe-637d-4b3f-befa-f7a1546ed9f8"
+    },
+    "authored": "2022-11-23T00:42:29.983Z",
+    "item": [
+        {
+            "linkId": "maternal-7.1",
+            "text": "Jenis Pemeriksaan",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core",
+                        "code": "maternal-rme-1",
+                        "display": "Routine Medical Exam 1 (RME 1)"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-7.2",
+            "text": "General",
+            "item": [
+                {
+                    "linkId": "maternal-7.2.1",
+                    "text": "Pink/Pallor",
+                    "answer": [
+                        {
+                            "valueString": "pink"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-7.2.2",
+                    "text": "Jaundice",
+                    "answer": [
+                        {
+                            "valueString": "normal"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-7.2.3",
+                    "text": "BP",
+                    "item": [
+                        {
+                            "linkId": "maternal-7.2.3.1",
+                            "text": "Systolic",
+                            "answer": [
+                                {
+                                    "valueQuantity": {
+                                        "value": 120
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "maternal-7.2.3.2",
+                            "text": "Diastolic",
+                            "answer": [
+                                {
+                                    "valueQuantity": {
+                                        "value": 90
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-7.2.4",
+                    "text": "Pulse Rate",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 90
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-7.2.5",
+                    "text": "Pulse Rhythm",
+                    "answer": [
+                        {
+                            "valueString": "regularly regular"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-7.3",
+            "text": "Neck",
+            "item": [
+                {
+                    "linkId": "maternal-7.3.1",
+                    "text": "Swelling",
+                    "answer": [
+                        {
+                            "valueString": "swelling over less left lower zone, not tethered to skin"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-7.4",
+            "text": "CVS",
+            "item": [
+                {
+                    "linkId": "maternal-7.4.1",
+                    "text": "Clubbing",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-7.4.2",
+                    "text": "JVP",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "260399008",
+                                "display": "Raised"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-7.4.3",
+                    "text": "Apex Beat",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "263739008",
+                                "display": "Displaced"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-7.4.4",
+                    "text": "Heart Sounds",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "123824001",
+                                "display": "Abnormal"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-7.5",
+            "text": "Breast",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://snomed.info/sct",
+                        "code": "17621005",
+                        "display": "Normal"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-7.6",
+            "text": "Lungs",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://snomed.info/sct",
+                        "code": "263654008",
+                        "display": "Abnormal"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-7.7",
+            "text": "Abdomen",
+            "item": [
+                {
+                    "linkId": "maternal-7.7.1",
+                    "text": "SFH",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 35
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-7.7.2",
+                    "text": "FHR",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 200
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-7.8",
+            "text": "Lower limbs",
+            "item": [
+                {
+                    "linkId": "maternal-7.8.1",
+                    "text": "Oedema",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-7.8.2",
+                    "text": "Calf tenderness",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-7.9",
+            "text": "Catatan",
+            "answer": [
+                {
+                    "valueString": "Patient has multiple issues, need to be referral to hospital"
+                }
+            ]
+        }
+    ]
+}

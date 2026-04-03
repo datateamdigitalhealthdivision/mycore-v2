@@ -1,0 +1,39 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "observation-category-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemObservationCategory (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/observation-category-my-core</tt><p>Extension of observation category in Malaysia</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/observation-category-my-core",
+  "name": "CodeSystemObservationCategoryMyCore",
+  "title": "CodeSystemObservationCategory (MY Core)",
+  "status": "active",
+  "date": "2023-01-12T21:13:03.0089063+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Extension of observation category in Malaysia",
+  "compositional": false,
+  "content": "complete",
+  "count": 1,
+  "concept": [
+    {
+      "code": "dental-alert",
+      "display": "Dental Alert",
+      "definition": "Dental Alert"
+    }
+  ],
+  "version": "2.0.0",
+  "experimental": false,
+  "caseSensitive": true
+}

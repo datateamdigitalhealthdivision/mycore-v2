@@ -1,0 +1,20 @@
+code,display,system,include_type,valueset_url,valueset_name
+00,OTOSCOPIC EXAMINATION,http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/audiology-assessment-my-core,ValueSetAudiologyAssessmentMyCore
+01,IMPEDANCE TEST TYMPANOMETRY 226Hz,http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/audiology-assessment-my-core,ValueSetAudiologyAssessmentMyCore
+02,IMPEDANCE TEST TYMPANOMETRY 1kHz,http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/audiology-assessment-my-core,ValueSetAudiologyAssessmentMyCore
+03,IMPEDANCE ACOUSTOC REFLEX TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/audiology-assessment-my-core,ValueSetAudiologyAssessmentMyCore
+04,IMPEDANCE REFLAX DECAY TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/audiology-assessment-my-core,ValueSetAudiologyAssessmentMyCore
+05,IMPEDANCE EUSTACHIAN TUBE DYSFUNCTION TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/audiology-assessment-my-core,ValueSetAudiologyAssessmentMyCore
+06,SCREENING OAE,http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/audiology-assessment-my-core,ValueSetAudiologyAssessmentMyCore
+07,SCREENING AABR,http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/audiology-assessment-my-core,ValueSetAudiologyAssessmentMyCore
+08,BOA APR,http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/audiology-assessment-my-core,ValueSetAudiologyAssessmentMyCore
+09,BOA DT,http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/audiology-assessment-my-core,ValueSetAudiologyAssessmentMyCore
+10,AUDIOMETRY PTA,http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/audiology-assessment-my-core,ValueSetAudiologyAssessmentMyCore
+11,AUDIOMETRY PTA PAEDIATRIC,http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/audiology-assessment-my-core,ValueSetAudiologyAssessmentMyCore
+12,AUDIOMERTY PLAY,http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/audiology-assessment-my-core,ValueSetAudiologyAssessmentMyCore
+13,AUDIOMETRY VRA,http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/audiology-assessment-my-core,ValueSetAudiologyAssessmentMyCore
+14,AUDIOMETRY SPEECH,http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/audiology-assessment-my-core,ValueSetAudiologyAssessmentMyCore
+15,AUDIOMETRY AIDED,http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/audiology-assessment-my-core,ValueSetAudiologyAssessmentMyCore
+16,AUDIOMETRY HIGH FREQUENCY,http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/audiology-assessment-my-core,ValueSetAudiologyAssessmentMyCore
+17,SPECIAL TONE DECAY TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/audiology-assessment-my-core,ValueSetAudiologyAssessmentMyCore
+18,SPECIAL STENGER TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/audiology-assessment-my-core,ValueSetAudiologyAssessmentMyCore

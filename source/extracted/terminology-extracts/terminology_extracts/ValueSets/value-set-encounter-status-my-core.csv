@@ -1,0 +1,5 @@
+code,display,system,include_type,valueset_url,valueset_name
+arrived,Arrived,http://hl7.org/fhir/encounter-status,explicit,http://fhir.hie.moh.gov.my/ValueSet/encounter-status-my-core,ValueSetEncounterStatusMyCore
+in-progress,In Progress,http://hl7.org/fhir/encounter-status,explicit,http://fhir.hie.moh.gov.my/ValueSet/encounter-status-my-core,ValueSetEncounterStatusMyCore
+finished,Finished,http://hl7.org/fhir/encounter-status,explicit,http://fhir.hie.moh.gov.my/ValueSet/encounter-status-my-core,ValueSetEncounterStatusMyCore
+unknown,Unknown,http://hl7.org/fhir/encounter-status,explicit,http://fhir.hie.moh.gov.my/ValueSet/encounter-status-my-core,ValueSetEncounterStatusMyCore

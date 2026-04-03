@@ -1,0 +1,53 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-cluster-facility-my-core",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2022-03-17T23:45:04.537+00:00",
+    "source": "#dSt6nIZLbxFFEwcx"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemClusterFacility (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/cluster-facility-my-core</tt><p>Cluster Facility Code System</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/cluster-facility-my-core",
+  "name": "CodeSystemClusterFacilityMyCore",
+  "title": "CodeSystemClusterFacility (MY Core)",
+  "status": "active",
+  "date": "2023-01-12T21:13:03.0089063+00:00",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "Cluster Facility Code System",
+  "compositional": false,
+  "content": "complete",
+  "count": 4,
+  "concept": [
+    {
+      "code": "0",
+      "display": "Lead",
+      "definition": "Lead"
+    },
+    {
+      "code": "1",
+      "display": "Non-Lead",
+      "definition": "Non-Lead"
+    },
+    {
+      "code": "2",
+      "display": "Others",
+      "definition": "Others"
+    },
+    {
+      "code": "3",
+      "display": "Standalone",
+      "definition": "Standalone"
+    }
+  ]
+}

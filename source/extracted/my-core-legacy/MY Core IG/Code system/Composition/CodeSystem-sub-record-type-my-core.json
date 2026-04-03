@@ -1,0 +1,49 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-sub-record-type-my-core",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2023-06-14T16:47:25.89+08:00",
+    "source": "#3su8f873ECAoSg2L"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemSubRecordType (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/sub-record-type-my-core</tt><p>Sub Record Type</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/sub-record-type-my-core",
+  "version": "1.0.0",
+  "name": "CodeSystemSubRecordTypeMyCore",
+  "title": "CodeSystemSubRecordType (MY Core)",
+  "status": "active",
+  "date": "2023-07-25T00:23:50.1094378+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Sub Record Type",
+  "compositional": false,
+  "content": "complete",
+  "count": 3,
+  "concept": [
+    {
+      "code": "sub-001",
+      "display": "Maternal Health Record"
+    },
+    {
+      "code": "sub-002",
+      "display": "Child Health Record"
+    },
+    {
+      "code": "medication-prescription",
+      "display": "Medication Prescription List"
+    }
+  ]
+}

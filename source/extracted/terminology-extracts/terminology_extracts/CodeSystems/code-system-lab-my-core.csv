@@ -1,0 +1,284 @@
+code,display,definition,system_url,system_name
+58410-2,Full Blood Count (FBC),CBC panel - Blood by Automated count,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+600-7,Blood Culture & Sensitivity (Blood C&S),Bacteria identified in Blood by Culture,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+630-4,Urine Culture & Sensitivity (Urine C&S),Bacteria identified in Urine by Culture,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+24331-1,Lipid Profile (LP),Lipid 1996 panel - Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+6462-6,Wound Culture & Sensitivity (Wound C&S),Bacteria identified in Wound by Culture,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+24357-6,Urine Dipstick,Urinalysis macro (dipstick) panel - Urine,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+24356-8,Urine Full Examination Microscopic Examination (UFEME),Urinalysis complete panel - Urine,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+24325-3,Liver Function Test (LFT),Hepatic function 2000 panel - Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+24362-6,Renal Profile (RP),Renal function 2000 panel - Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+543-9,AFB Culture & Sensitivity (AFB C&S),Mycobacterium sp identified in Specimen by Organism specific culture,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+24336-0,Gas panel - Arterial blood,Gas panel - Arterial blood,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+580-1,Fungal Culture & Sensitivity (Fungal C&S),Fungus identified in Specimen by Culture,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+58431-8,Microalbumin panel (24H U),Microalbumin panel - 24 hour Urine,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+13969-1,Creatine kinase.MB (CKMB),Creatine kinase.MB [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+19123-9,Magnesium,Magnesium [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+54089-8,Newborn screening panel,Newborn screening panel American Health Information Community (AHIC),http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2777-1,Phosphate,Phosphate [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+10839-9,Troponin I.cardiac (Trop I),Troponin I.cardiac [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+664-3,Microscopic observation (Gram Stain),Microscopic observation [Identifier] in Specimen by Gram stain,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+634-6,Aerobic Culture & Sensitivity (Aerobic C&S),Bacteria identified in Specimen by Aerobe culture,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+14979-9,Coagulation surface induced (aPTT),aPTT in Platelet poor plasma by Coagulation assay,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+624-7,Respiratory Culture & Sensitivity (Respiratory C&S),Bacteria identified in Sputum by Respiratory culture,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+50190-8,Iron & Iron binding capacity panel (Iron+TIBC),Iron and Iron binding capacity panel - Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+1989-3,Calcidiol,25-hydroxyvitamin D3 [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+41653-7,Glucose Glucometer,Glucose [Mass/volume] in Capillary blood by Glucometer,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+32016-8,Glucose (Blood Capillary),Glucose [Mass/volume] in Capillary blood,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+18481-2,Streptococcus pyogenes Ag,Streptococcus pyogenes Ag [Presence] in Throat,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+3040-3,Triacylglycerol lipase,Lipase [Enzymatic activity/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+11580-8,Thyrotropin (TSH DL),Thyrotropin [Units/volume] in Serum or Plasma by Detection limit <= 0.005 mIU/L,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+3026-2,Thyroxine (T4),Thyroxine (T4) [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+611-4,Fluid Culture & Sensitivity (Fluid C&S),Bacteria identified in Body fluid by Culture,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+4548-4,Hemoglobin A1c/Hemoglobin.total (HbA1c),Hemoglobin A1c/Hemoglobin.total in Blood,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+18282-4,Cannabinoids,Cannabinoids [Presence] in Urine by Screen method,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+625-4,Stool Culture & Sensitivity (Stool C&S),Bacteria identified in Stool by Culture,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+34528-0,Pro Thrombin (PT),PT panel - Platelet poor plasma by Coagulation assay,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+35492-8,Staphylococcus aureus.methicillin resistant DNA (MRSA DNA),Methicillin resistant Staphylococcus aureus (MRSA) DNA [Presence] in Specimen by NAA with probe detection,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+30167-1,Human papilloma virus 16+18+31+33+35+39+45+51+52+56+58+59+68 DNA (HPV),Human papilloma virus 16+18+31+33+35+39+45+51+52+56+58+59+68 DNA [Presence] in Cervix by Probe with signal amplification,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2160-0,Creatinine,Creatinine [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2157-6,Creatine kinase (CK),Creatine kinase [Enzymatic activity/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+30934-4,Natriuretic peptide.B (BNP),Natriuretic peptide B [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2885-2,Protein,Protein [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+635-3,Anaerobe Culture & Sensitivity (Anaerobe C&S),Bacteria identified in Specimen by Anaerobe culture,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+24111-7,Neisseria gonorrhoeae DNA,Neisseria gonorrhoeae DNA [Presence] in Specimen by NAA with probe detection,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+4544-3,Hematocrit,Hematocrit [Volume Fraction] of Blood by Automated count,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+606-4,CSF Culture & Sensitivity (CSF C&S),Bacteria identified in Cerebral spinal fluid by Culture,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+21613-5,Chlamydia trachomatis DNA,Chlamydia trachomatis DNA [Presence] in Specimen by NAA with probe detection,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+718-7,Hemoglobin,Hemoglobin [Mass/volume] in Blood,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+5574-9,Aluminum,Aluminum [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+1798-8,Amylase,Amylase [Enzymatic activity/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+3050-2,Triiodothyronine resin uptake (T3RU),Triiodothyronine resin uptake (T3RU) in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+11529-5,Surgical pathology study,Surgical pathology study,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+48346-1,HIV 1+O+2 Ab,HIV 1+O+2 Ab [Units/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+3024-7,Thyroxine.free,Thyroxine (T4) free [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+10352-3,Genital Culture & Sensitivity (Genital C&S),Bacteria identified in Genital specimen by Aerobe culture,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2823-3,Potassium,Potassium [Moles/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+34535-5,Microalbumin/Creatinine ratio panel (UCr),Microalbumin/Creatinine panel in random Urine,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+22357-8,HIV 1+2 Ab,HIV 1+2 Ab [Units/volume] in Serum,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+680-9,Microscopic observation (Wet prep),Microscopic observation [Identifier] in Specimen by Wet preparation,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+10701-1,Ova & parasites identified,Ova and parasites identified in Stool by Concentration,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+3016-3,Thyrotropin,Thyrotropin [Units/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+1742-6,Alanine aminotransferase,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2986-8,Testosterone,Testosterone [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+48800-7,Second trimester quad maternal screen panel (AFP4),Second trimester quad maternal screen panel - Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+20474-3,Tissue Culture & Sensitivity (Tissue C&S),Bacteria identified in Tissue by Biopsy culture,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2324-2,Gamma glutamyl transferase,Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+34564-5,Cell count & Differential panel (CSF),Cell count and Differential panel - Cerebral spinal fluid,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+13317-3,Staphylococcus aureus.methicillin resistant isolate,Methicillin resistant Staphylococcus aureus [Presence] in Specimen by Organism specific culture,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+43304-5,C. trachomatis rRNA NAA+probe Ql (Specimen),Chlamydia trachomatis rRNA [Presence] in Specimen by NAA with probe detection,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+14316-4,Benzodiazepines,Benzodiazepines [Presence] in Urine by Screen method,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+5198-7,Hepatitis C virus Ab,Hepatitis C virus Ab [Units/volume] in Serum by Immunoassay,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+17849-1,Reticulocytes/100 erythrocytes,Reticulocytes/100 erythrocytes in Blood by Automated count,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2955-3,Sodium (Urine),Sodium [Moles/volume] in Urine,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+1994-3,Calcium.ionized,Calcium.ionized [Moles/volume] in Blood,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2106-3,Choriogonadotropin (pregnancy test),Choriogonadotropin (pregnancy test) [Presence] in Urine,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2276-4,Ferritin,Ferritin [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+30341-2,Erythrocyte sedimentation rate,Erythrocyte sedimentation rate,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+31870-9,Legionella pneumophila Ag,Legionella pneumophila Ag [Presence] in Urine,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+50387-0,C. trachomatis rRNA NAA+probe Ql (Cvx),Chlamydia trachomatis rRNA [Presence] in Cervix by NAA with probe detection,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2132-9,Cobalamins,Cobalamin (Vitamin B12) [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+50388-8,N. gonorrhoeae rRNA NAA+probe Ql (Cvx),Neisseria gonorrhoeae rRNA [Presence] in Cervix by NAA with probe detection,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+3084-1,Urate,Urate [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+1920-8,Aspartate aminotransferase,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+19261-7,Amphetamines,Amphetamines [Presence] in Urine by Screen method,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+15067-2,Follitropin,Follitropin [Units/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2951-2,Sodium,Sodium [Moles/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+1003-3,Indirect antiglobulin test.complement specific reagent,Indirect antiglobulin test.complement specific reagent [Presence] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+34530-6,ABO & Rh group panel (ABO + Rh),ABO and Rh group panel - Blood,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+14338-8,Prealbumin,Prealbumin [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+4024-6,Salicylates,Salicylates [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+34713-8,Clostridioides difficile toxin A+B,Clostridioides difficile toxin A+B [Presence] in Stool,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+32721-3,Tacrolimus,Tacrolimus [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+11572-5,Rheumatoid factor,Rheumatoid factor [Units/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+34557-9,Cell count & Differential panel (Body fld),Cell count and Differential panel - Body fluid,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+1988-5,C reactive protein (CRP),C reactive protein [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+21198-7,Choriogonadotropin.beta subunit,Choriogonadotropin.beta subunit [Units/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+55231-5,Electrolytes panel,Electrolytes panel - Blood,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2345-7,Glucose,Glucose [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+3051-0,Triiodothyronine.free,Triiodothyronine (T3) Free [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2857-1,Prostate specific Ag,Prostate specific Ag [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2532-0,Lactate dehydrogenase,Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2093-3,Cholesterol,Cholesterol [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+5334-8,Rubella virus Ab.IgG,Rubella virus IgG Ab [Units/volume] in Serum or Plasma by Immunoassay,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+34532-2,Blood type & Indirect antibody screen panel,Blood type and Indirect antibody screen panel - Blood,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+10501-5,Lutropin,Lutropin [Units/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+19270-8,Barbiturates,Barbiturates [Presence] in Urine by Screen method,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2243-4,Estradiol,Estradiol (E2) [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+49590-3,Calcidiol & Calciferol panel,Calcidiol and Calciferol panel - Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+51974-4,Gas panel - Arterial cord blood,Gas panel - Arterial cord blood,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2571-8,Triglyceride,Triglyceride [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2284-8,Folate,Folate [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2524-7,Lactate,Lactate [Moles/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+3948-7,PHENobarbital,PHENobarbital [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+5196-1,Hepatitis B virus surface Ag (Hep B sAg),Hepatitis B virus surface Ag [Presence] in Serum or Plasma by Immunoassay,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2639-3,Myoglobin,Myoglobin [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+24351-9,Protein fractions panel,Protein electrophoresis panel - Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+4537-7,Erythrocyte sedimentation rate (ESR),Erythrocyte sedimentation rate by Westergren method,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2335-8,Hemoglobin.gastrointestinal,Hemoglobin.gastrointestinal [Presence] in Stool,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+5671-3,Lead,Lead [Mass/volume] in Blood,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+13655-6,Leukocytes,Leukocytes [Presence] in Stool by Light microscopy,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+24007-7,Epstein Barr virus early Ab.IgG,Epstein Barr virus early IgG Ab [Units/volume] in Serum,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2839-9,Progesterone,Progesterone [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+19128-8,Catheter Tip Culture & Sensitivity (Catheter Tip C&S),Bacteria identified in Catheter tip by Culture,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2842-3,Prolactin,Prolactin [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+3184-9,Activated clotting time ACT Coag,Activated clotting time (ACT) of Blood by Coagulation assay,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+13950-1,Hepatitis A virus Ab.IgM,Hepatitis A virus IgM Ab [Presence] in Serum or Plasma by Immunoassay,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2472-9,IgM,IgM [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+11545-1,Microscopic observation AFB,Microscopic observation [Identifier] in Specimen by Acid fast stain,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+5859-4,Herpes simplex virus identified,Herpes simplex virus identified in Specimen by Organism specific culture,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+1968-7,Bilirubin.glucuronidated+Bilirubin.albumin bound,Bilirubin.direct [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+3255-7,Fibrinogen,Fibrinogen [Mass/volume] in Platelet poor plasma by Coagulation assay,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+10535-3,Digoxin,Digoxin [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2458-8,IgA,IgA [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+24113-3,Hepatitis B virus core Ab.IgM,Hepatitis B virus core IgM Ab [Presence] in Serum or Plasma by Immunoassay,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+667-6,Microscopic observation,Microscopic observation [Identifier] in Specimen by KOH preparation,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+62341-3,Borrelia burgdorferi Ab.IgG+IgM with reflex to immune blot panel,Borrelia burgdorferi IgG+IgM with reflex to immune blot panel - Serum,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+48065-7,Fibrin D-dimer FEU,Fibrin D-dimer FEU [Mass/volume] in Platelet poor plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+5193-8,Hepatitis B virus surface Ab,Hepatitis B virus surface Ab [Units/volume] in Serum or Plasma by Immunoassay,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+33058-9,Ketones,Ketones [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+53927-0,N. gonorrhoeae rRNA NAA+probe Ql (Urethra),Neisseria gonorrhoeae rRNA [Presence] in Urethra by NAA with probe detection,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+60256-5,N. gonorrhoeae rRNA NAA+probe Ql (U),Neisseria gonorrhoeae rRNA [Presence] in Urine by NAA with probe detection,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+8099-4,Thyroperoxidase Ab,Thyroperoxidase Ab [Units/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+20447-9,HIV 1 RNA,HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+34555-3,Creatinine renal clearance panel (24H U+S/P),Creatinine 24H renal clearance panel,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+1314-4,Rh immune globulin screen,Rh immune globulin screen [interpretation],http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+1504-0,Glucose^1H post 50 g glucose PO,Glucose [Mass/volume] in Serum or Plasma --1 hour post 50 g glucose PO,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+5209-2,Herpes simplex virus 2 Ab.IgG,Herpes simplex virus 2 IgG Ab [Units/volume] in Serum by Immunoassay,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+34556-1,Cell count panel (Body fld),Cell count panel - Body fluid,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+4086-5,Valproate,Valproate [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+53925-4,Chlamydia trachomatis rRNA,Chlamydia trachomatis rRNA [Presence] in Urethra by NAA with probe detection,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2161-8,Creatinine (Urine),Creatinine [Mass/volume] in Urine,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+883-9,ABO group,ABO group [Type] in Blood,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2731-8,Parathyrin.intact,Parathyrin.intact [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+14334-7,Lithium,"Lithium, Blood [Moles/volume] in Serum or Plasma",http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+19080-1,Choriogonadotropin,Choriogonadotropin [Units/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2695-5,Osmolality,Osmolality of Urine,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2828-2,Potassium (Urine),Potassium [Moles/volume] in Urine,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+11268-0,Streptococcus pyogenes,Streptococcus pyogenes [Presence] in Throat by Organism specific culture,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+890-4,Blood group antibody screen,Blood group antibody screen [Presence] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+16362-6,Ammonia,Ammonia [Moles/volume] in Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+4092-3,Vancomycin^trough,Vancomycin [Mass/volume] in Serum or Plasma --trough,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+15061-5,Erythropoietin,Erythropoietin (EPO) [Units/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+6896-5,cloZAPine,cloZAPine [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+10331-7,Rh,Rh [Type] in Blood,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+3665-7,Gentamicin^trough,Gentamicin [Mass/volume] in Serum or Plasma --trough,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2888-6,Protein (Urine),Protein [Mass/volume] in Urine,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+584-3,Streptococcus agalactiae,Streptococcus agalactiae [Presence] in Vaginal fluid by Organism specific culture,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+19113-0,IgE,IgE [Units/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+24015-0,Influenza virus A+B Ag,Influenza virus A+B Ag [Presence] in Specimen,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+65759-3,T-cell subsets CD4 & CD8 panel,T-cell subsets CD4 and CD8 panel - Blood,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2078-4,Chloride,Chloride [Moles/volume] in Urine,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+8098-6,Thyroglobulin Ab,Thyroglobulin Ab [Units/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+47383-5,Nuclear Ab IA Ql (S),Nuclear Ab [Presence] in Serum by Immunoassay,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+5047-6,Nuclear Ab IA Qn (S),Nuclear Ab [Units/volume] in Serum by Immunoassay,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+48509-4,Influenza virus A & B RNA,Influenza virus A and B RNA [Identifier] in Specimen by NAA with probe detection,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+53962-7,Alpha-1-Fetoprotein.tumor marker,Alpha-1-fetoprotein.tumor marker [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+1834-1,Alpha-1-Fetoprotein,Alpha-1-Fetoprotein [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+20578-1,Vancomycin,Vancomycin [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+55727-2,Tissue transglutaminase Ab.IgA & IgG panel,Tissue transglutaminase IgA and IgG panel - Serum,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+31147-2,Reagin Ab,Reagin Ab [Titer] in Serum by RPR,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+3034-6,Transferrin,Transferrin [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+3094-0,Urea nitrogen,Urea nitrogen [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+17861-6,Calcium,Calcium [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+1751-7,Albumin,Albumin [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2039-6,Carcinoembryonic Ag,Carcinoembryonic Ag [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+5176-3,Helicobacter pylori Ab.IgG,Helicobacter pylori IgG Ab [Units/volume] in Serum by Immunoassay,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+3968-5,Phenytoin,Phenytoin [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+5403-1,Varicella zoster virus Ab.IgG,Varicella zoster virus IgG Ab [Units/volume] in Serum by Immunoassay,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+20507-0,Reagin Ab RPR Ql (S),Reagin Ab [Presence] in Serum by RPR,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+31017-7,Tissue transglutaminase Ab.IgA,Tissue transglutaminase IgA Ab [Units/volume] in Serum,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+42931-6,C. trachomatis rRNA NAA+probe Ql (U),Chlamydia trachomatis rRNA [Presence] in Urine by NAA with probe detection,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+595-9,Pus Culture & Sensitivity (Pus C&S),Bacteria identified in Abscess by Aerobe culture,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+6864-3,Hemoglobin S,Hemoglobin S [Presence] in Blood by Solubility test,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+20448-7,Insulin,Insulin [Units/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+1975-2,Bilirubin,Bilirubin.total [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2465-3,IgG,IgG [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2881-1,Protein (Body fld),Protein [Mass/volume] in Body fluid,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+5206-8,Herpes simplex virus 1 Ab.IgG,Herpes simplex virus 1 IgG Ab [Units/volume] in Serum by Immunoassay,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+42481-2,Human papilloma virus 6+11+42+43+44 DNA,Human papilloma virus 6+11+42+43+44 DNA [Presence] in Cervix by Probe with signal amplification,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+5028-6,Neisseria gonorrhoeae rRNA,Neisseria gonorrhoeae rRNA [Presence] in Specimen by Probe,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+3432-2,carBAMazepine,carBAMazepine [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+5130-0,DNA double strand Ab,DNA double strand Ab [Units/volume] in Serum,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+13965-9,Homocysteine,Homocysteine [Moles/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2028-9,Carbon dioxide,"Carbon dioxide, total [Moles/volume] in Serum or Plasma",http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2191-5,Dehydroepiandrosterone sulfate,Dehydroepiandrosterone sulfate (DHEA-S) [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+26515-7,Platelets,Platelets [#/volume] in Blood,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+65634-8,Creatinine 24 Hr urine panel (24H U),Creatinine 24 hour urine panel - 24 hour Urine,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+6331-3,Campylobacter sp identified,Campylobacter sp identified in Stool by Organism specific culture,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+21262-1,Escherichia coli shiga-like toxin,Escherichia coli shiga-like toxin [Presence] in Stool by Immunoassay,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+582-7,S. agalactiae Org specific cx Ql (Genital specimen),Streptococcus agalactiae [Presence] in Genital specimen by Organism specific culture,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+34563-7,Cell count panel (CSF),Cell count panel - Cerebral spinal fluid,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+17791-5,Sjogrens syndrome-B extractable nuclear Ab,Sjogrens syndrome-B extractable nuclear Ab [Units/volume] in Serum,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+17792-3,Sjogrens syndrome-A extractable nuclear Ab,Sjogrens syndrome-A extractable nuclear Ab [Units/volume] in Serum,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+7885-7,Epstein Barr virus capsid Ab.IgG,Epstein Barr virus capsid IgG Ab [Units/volume] in Serum,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2143-6,Cortisol,Cortisol [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+7886-5,Epstein Barr virus capsid Ab.IgM,Epstein Barr virus capsid IgM Ab [Units/volume] in Serum,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+47000-5,Candida sp rRNA,Candida sp rRNA [Presence] in Vaginal fluid by Probe,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+6410-5,Gardnerella vaginalis rRNA,Gardnerella vaginalis rRNA [Presence] in Genital specimen by Probe,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+6568-0,Trichomonas vaginalis rRNA,Trichomonas vaginalis rRNA [Presence] in Genital specimen by Probe,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+1558-6,Glucose^post CFst,Fasting glucose [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2742-5,Angiotensin converting enzyme,Angiotensin converting enzyme [Enzymatic activity/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+32997-9,cycloSPORINE^2H post dose,cycloSPORINE [Mass/volume] in Blood --2 hours post dose,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+21654-9,CFTR gene targeted mutation analysis,CFTR gene mutations found [Identifier] in Blood or Tissue by Molecular genetics method Nominal,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+4498-2,Complement C4,Complement C4 [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+6768-6,Alkaline phosphatase,Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+4542-7,Haptoglobin,Haptoglobin [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+4485-9,Complement C3,Complement C3 [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+24338-6,Gas panel - Blood,Gas panel - Blood,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+1518-0,Glucose^2H post 75 g glucose PO,Glucose [Mass/volume] in Serum or Plasma --2 hours post 75 g glucose PO,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2344-0,Glucose (Body fld),Glucose [Mass/volume] in Body fluid,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2342-4,Glucose (CSF),Glucose [Mass/volume] in Cerebral spinal fluid,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2880-3,Protein (CSF),Protein [Mass/volume] in Cerebral spinal fluid,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+31418-7,Heterophile Ab Ql (S),Heterophile Ab [Presence] in Serum,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+5213-4,Heterophile Ab LA Ql (S),Heterophile Ab [Presence] in Serum by Latex agglutination,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+65758-5,T-cell helper (CD4) subset panel,T-cell helper (CD4) subset panel - Blood,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+24363-4,Acute hepatitis 2000 panel,Acute hepatitis 2000 panel - Serum,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+18262-6,Cholesterol.in LDL,Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+5643-2,Ethanol,Ethanol [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+24319-6,Cardiolipin Ab.IgG & IgM panel,Cardiolipin IgG and IgM panel - Serum,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+3520-4,cycloSPORINE,cycloSPORINE [Mass/volume] in Blood,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2498-4,Iron,Iron [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+42637-9,Natriuretic peptide.B,Natriuretic peptide B [Mass/volume] in Blood,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+10334-1,Cancer Ag 125,Cancer Ag 125 [Units/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+30522-7,C reactive protein,C reactive protein [Mass/volume] in Serum or Plasma by High sensitivity method,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+17780-8,Helicobacter pylori Ag,Helicobacter pylori Ag [Presence] in Stool by Immunoassay,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+24360-0,Hemoglobin & Hematocrit panel,Hemoglobin and Hematocrit panel - Blood,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+1986-9,C peptide,C peptide [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+43305-2,N. gonorrhoeae rRNA NAA+probe Ql (Specimen),Neisseria gonorrhoeae rRNA [Presence] in Specimen by NAA with probe detection,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+5763-8,Zinc,Zinc [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+3174-0,Antithrombin,Antithrombin [Units/volume] in Platelet poor plasma by Chromogenic method,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+29771-3,Hemoglobin.gastrointestinal.lower,Hemoglobin.gastrointestinal.lower [Presence] in Stool by Immunoassay,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+24108-3,Cancer Ag 19-9,Cancer Ag 19-9 [Units/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2085-9,Cholesterol.in HDL,Cholesterol in HDL [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+5274-6,Parvovirus B19 Ab.IgM,Parvovirus B19 IgM Ab [Units/volume] in Serum by Immunoassay,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+17842-6,Cancer Ag 27-29,Cancer Ag 27-29 [Units/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+1761-6,Aldolase,Aldolase [Enzymatic activity/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+5370-2,Streptolysin O Ab,Streptolysin O Ab [Units/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+9813-7,Cortisol^AM peak specimen,Cortisol [Mass/volume] in Serum or Plasma --AM peak specimen,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+6476-6,MuV IgG IA Ql (S),Mumps virus IgG Ab [Presence] in Serum by Immunoassay,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+25418-5,MuV IgG IA Qn (S),Mumps virus IgG Ab [Units/volume] in Serum by Immunoassay,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+5244-9,Measles virus Ab.IgG,Measles virus IgG Ab [Units/volume] in Serum by Immunoassay,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+1763-2,Aldosterone,Aldosterone [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+32286-7,Hepatitis C virus genotype,Hepatitis C virus genotype [Identifier] in Serum or Plasma by NAA with probe detection,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+1952-1,Beta-2-Microglobulin,Beta-2-Microglobulin [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+30471-7,levETIRAcetam,levETIRAcetam [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+6948-4,lamoTRIgine,lamoTRIgine [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+13964-2,Methylmalonate,Methylmalonate [Moles/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+1668-3,17-Hydroxyprogesterone,17-Hydroxyprogesterone [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+6412-1,Giardia lamblia Ag,Giardia lamblia Ag [Presence] in Stool by Immunoassay,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+4532-8,Complement total hemolytic CH50,Complement total hemolytic CH50 [Units/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2923-1,Retinol,Retinol [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2484-4,Insulin-like growth factor-I,Insulin-like growth factor-I [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+1649-3,Calcitriol,Calcitriol [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2141-0,Corticotropin,Corticotropin [Mass/volume] in Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+33935-8,Cyclic citrullinated peptide Ab.IgG,Cyclic citrullinated peptide IgG Ab [Units/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+13967-5,Sex hormone binding globulin,Sex hormone binding globulin [Moles/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2915-7,Renin,Renin [Enzymatic activity/volume] in Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+53835-5,"1,5-Anhydroglucitol","1,5-Anhydroglucitol [Mass/volume] in Serum or Plasma",http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+15069-8,Fructosamine,Fructosamine [Moles/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+2900-9,Pyridoxine,Pyridoxine [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+11090-8,Smith extractable nuclear Ab,Smith extractable nuclear Ab [Units/volume] in Serum,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+30166-3,Thyroid stimulating immunoglobulins actual/Normal,Thyroid stimulating immunoglobulins actual/normal in Serum,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+32998-7,Tissue transglutaminase Ab.IgG,Tissue transglutaminase IgG Ab [Units/volume] in Serum,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore
+3053-6,Triiodothyronine,Triiodothyronine (T3) [Mass/volume] in Serum or Plasma,http://fhir.hie.moh.gov.my/CodeSystem/lab-my-core,CodeSystemLabMyCore

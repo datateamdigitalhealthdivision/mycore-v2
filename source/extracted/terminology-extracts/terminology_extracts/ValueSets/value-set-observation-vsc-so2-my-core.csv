@@ -1,0 +1,2 @@
+code,display,system,include_type,valueset_url,valueset_name
+3151-8,Inhaled oxygen flow rate,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-vsc-so2-my-core,ValueSetObservationVSCSO2MyCore

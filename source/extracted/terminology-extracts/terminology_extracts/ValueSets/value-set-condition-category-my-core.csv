@@ -1,0 +1,5 @@
+code,display,system,include_type,valueset_url,valueset_name
+*,Include all concepts from system,http://terminology.hl7.org/CodeSystem/condition-category,include-all,http://fhir.hie.moh.gov.my/ValueSet/condition-category-my-core,ValueSetConditionCategoryMyCore
+*,Include all concepts from system,http://fhir.hie.moh.gov.my/CodeSystem/condition-category-my-core,include-all,http://fhir.hie.moh.gov.my/ValueSet/condition-category-my-core,ValueSetConditionCategoryMyCore
+*,Include all concepts from system,http://fhir.hie.moh.gov.my/CodeSystem/diagnosis-role-my-core,include-all,http://fhir.hie.moh.gov.my/ValueSet/condition-category-my-core,ValueSetConditionCategoryMyCore
+*,Include all concepts from system,http://fhir.hie.moh.gov.my/CodeSystem/dental-alert-code-my-core,include-all,http://fhir.hie.moh.gov.my/ValueSet/condition-category-my-core,ValueSetConditionCategoryMyCore

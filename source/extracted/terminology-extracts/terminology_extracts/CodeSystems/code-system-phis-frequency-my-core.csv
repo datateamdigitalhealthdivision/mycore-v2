@@ -1,0 +1,231 @@
+code,display,definition,system_url,system_name
+10AM,at 10 AM,pada jam 10 pagi,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+10PM,at 10 PM,pada jam 10 malam,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+1Q10WK,Once every 10 weeks,1 kali setiap 10 minggu,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+1Q12WK,Once every 12 weeks,1 kali setiap 12 minggu,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+1Q1M,Once a month,1 kali sebulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+1Q1WK,Once a week,1 kali seminggu (hari ____________),http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+1Q2M,Once every 2 months,1 kali setiap 2 bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+1Q2WK,Once every 2 weeks,1 kali setiap 2 minggu,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+1Q3M,every 3 month,Setiap 3 bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+1Q3WK,Once every 3 weeks,1 kali setiap 3 minggu,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+1Q4WK,Once every 4 weeks,1 kali setiap 4 minggu,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+1Q5WK,Once every 5 weeks,1 kali setiap 5 minggu,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+1Q6M,every 6 months,1 kali setiap 6 bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+1Q8WK,Once every 8 weeks,1 kali setiap 8 minggu,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+2PM,at 2 PM,pada jam 2 petang,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+2XWK,2 times a week,2 kali seminggu (hari ______ &________),http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+3XWK,3 times a week,"3 kali seminggu (hari _____, ______, _______)",http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+4PM,at 4 PM,pada jam 4 petang,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+4XWK,4 times a week,"4 kali seminggu (hari _____, _____, _____ & _____)",http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+5XDLY,5 times a day,5 kali sehari,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+5XWK,5 times a week,5 kali seminggu (hari_______ -__________),http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+6AM,at 6 am,pada jam 6 pagi,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+6PM,at 6 PM,pada jam 6 petang,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+6XDLY,6 times a day,6 kali sehari,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+6XWK,6 times a week,6 kali seminggu (hari ______ - _____),http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+7xDLY,7 times a day,7 kali sehari,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+8PM,at 8 PM,pada jam 8 malam,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+8XDLY,8 times a day,8 kali sehari,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+9XDLY,9 times a day,9 kali sehari,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+AD,As Directed,Seperti diarahkan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+AsDirected,As Directed,Seperti yg diarahkan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+BD-10D-3M,BD for 10 days every 3 months,2 kali sehari untuk 10 hari setiap 3 bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+BD-10D-M,BD for 10days monthly,2 kali sehari selama 10hari setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+BD-12D-3M,BD for 12 days every 3 months,2 kali sehari untuk 12 hari setiap 3 bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+BD-12D-M,BD for 12days monthly,2 kali sehari untuk 12 hari setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+BD-14D-3M,BD for 14 days every 3 months,2 kali sehari untuk 14 hari setiap 3 bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+BD-14D-3WK,BD D1-D14 every 3 weeks,"2 kali sehari selama 14 hari, rehat 1 minggu",http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+BD-14D-M,BD for 14days monthly,2 kali sehari selama 14 hari setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+BD-21D-M,BD for 21days monthly,2 kali sehari untuk 21 hari setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+BD-5D-M,BD for 5 days monthly,2 kali sehari untuk 5 hari setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+BD-7D-3M,BD for 7 days every 3 month,2 kali sehari untuk 7 hari setiap 3 bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+BD-D1-D3-M,BD for 3 days monthly,2 kali sehari untuk 3 hari setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+BD-D1-D4-M,BD for 4 days monthly,2 kali sehari untuk 4 hari setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+BD-D11-25M,BD day 11-25 monthly,2 kali sehari dari hari ke 11-25 setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+BD-D16-25M,BD day16-25 monthly,2 kali sehari dari hari ke 16-25 setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+BD-qW,BD once a week,2 kali sehari - setiap minggu,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+BDD1-7M,BD for 7 days monthly,2 kali sehari selama 7 hari setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+BD_2d_w,BD for 2 days weekly,2 kali sehari untuk 2 hari (hari ................,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+BD_2xQW,BD 2 times a week,2 kali sehari pd hari_____ & _____,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+BD_4d_w,BD for 4 days weekly,2 kali sehari untuk 4 hari (hari ................,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+BD_5d_w,BD for 5 days weekly,2 kali sehari untuk 5 hari (hari ................,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+BD_EOD,BD every other day,2 kali sehari setiap selang sehari (mula pada ____,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+BD_HD,BD  HD/PD day  (3x a week),2 kali sehari pada hari dialisis,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+BD_HD_sc,BD  HD day  (3x a week) schedule,2 kali sehari pada hari hemodialisis,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+BD_M-F_W,BD Mon-Fri Weekly,2 kali sehari setiap Isnin hingga Jumaat,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+BD_MT,BD on Mon & Thur,2 kali sehari setiap Isnin & Khamis,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+BD_MWF,"BD on Mon, Wed, Fri","2 kali sehari setiap Isnin, Rabu, Jumaat",http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+BD_MWFS,"BD on Mon, Wed, Fri, Sun","2 kali sehari setiap Isnin, Rabu, Jumaat, Ahad",http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+BD_STT,"BD on Sun, Tue, Thurs","2 kali sehari setiap Ahad, Selasa & Khamis",http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+BD_STTS,"BD on Sun, Tue, Thurs, Sat","2 kali sehari setiap Ahad, Selasa, Khamis, Sabtu",http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+BD_SW,BD on Sun & Wed,2 kali sehari setiap Ahad & Rabu,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+BD_TTS,"BD on Tue, Thurs, Sat","2 kali sehari setiap Selasa, Khamis & Sabtu",http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+BD_nHD,BD  nonHD/PD day (4x a week),2 kali sehari pada hari bukan dialisis,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+BD_nHD_sc,BD  nonHD day  (4x a week) schedule,2 kali sehari pada hari bukan hemodialisis,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+BID,BD (twice daily),2 kali sehari,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+CONT,CONT,Berterusan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+D1,Day 1,Hari pertama shj,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+D1-3-5-7,"OD on Sun,Tues,Thurs,Sat","1 kali sehari setiap Ahad, Selasa, Khamis, Sabtu",http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+D1-D12-M,OD D1-D12 monthly,1 kali sehari untuk 12 hari setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+D1-D14 M,OD for 14days Monthly,1 kali sehari selama 14 hari setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+D1-D2,D1-D2 weekly,1 kali sehari -Setiap Isnin dan Selasa,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+D1-D21-M,OD for 21days monthly,1 kali sehari selama 21hari setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+D1-D2M,Day 1-Day2 monthly,hari pertama & kedua setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+D1-D3,D1-D3 weekly,1 kali sehari -Setiap Isnin hingga Rabu,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+D1-D3-M,OD for 3 days monthly,1 kali sehari selama 3 hari setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+D1-D4,D1-D4 weekly,1 kali sehari -Setiap Isnin hingga Khamis,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+D1-D4-M,OD for 4 days monthly,1 kali sehari selama 4 hari setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+D1-D5,D1-D5 weekly,1 kali sehari- Setiap Isnin hingga Jumaat,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+D1-D6,D1-D6 weekly,1 kali sehari -Setiap Isnin hingga Sabtu,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+D1-D7-M,OD for 7 days monthly,1 kali sehari selama 7 hari setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+D1-M,Day 1 monthly,Day 1 every month,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+D1andD7,Day 1 and Day 7,Hari ke-1 dan hari ke-7,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+D2-4-6,"Mon,Wed,Fri","1 kali sehari -Setiap Isnin, Rabu, Jumaat",http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+D2-D3-M,D2-D3 monthly,Hari kedua - ketiga setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+D2-D6-M,D2-D6 Monthly,Hari kedua - keenam setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+D2-D7,D2-D7 weekly,1 kali sehari -Setiap Selasa hingga Ahad,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+D3-D7,D3-D7 weekly,1 kali sehari -Setiap Rabu hingga Ahad,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+D3-D7-1M,D3-D7 monthly,Hari ke-3 hingga hari ke-7 setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+D4-D7,D4-D7 weekly,1 kali sehari -Setiap Khamis hingga Ahad,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+D5-D7,D5-D7 weekly,1 kali sehari -Setiap Jumaat hingga Ahad,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+D5-D9-M,D5-D9 Monthly,Hari ke-5 - ke-9 setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+D6-D7,D6-D7 weekly,1 kali sehari -Setiap Sabtu dan Ahad,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+D7,Day 7 weekly,Setiap Ahad,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+EOD,EOD,Selang sehari (mula pada __________),http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+EODMWF,"OD on Mon, Wed, Fri","1 kali sehari setiap Isnin, Rabu, Jumaat",http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+EODTTS,"OD on Tue, Thur, Sat","1 kali sehari setiap Selasa, Khamis, Sabtu",http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+ODTF,"OD on Tue, Fri","1 kali sehari setiap Khamis, Jumaat",http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+EOW,Every other week,Selang seminggu,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Fri-Sat,Fri-Sat weekly,1 kali sehari -Setiap Jumaat hingga Sabtu,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Fri-Sun,Fri-Sun weekly,1 kali sehari -Setiap Jumaat-Ahad,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Fri-Wed,Fri-Wed Weekly,1 kali sehari -Setiap jumaat hingga rabu,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+HS,HS (at bedtime),Sebelum tidur,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+MON&THURS,OD Mon & Thur,1 kali sehari setiap Isnin & Khamis,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+MWFSat,"OD on Mon,Wed,Fri,Sat","1 kali sehari setiap Isnin, Rabu, Jumaat, Sabtu",http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+MWFSun,"OD on Mon,Wed,Fri,Sun","1 kali sehari setiap isnin, rabu, jumaat, ahad",http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Mon-Fri,Mon-Fri weekly,1 kali sehari -Setiap Isnin-Jumaat,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Mon-Sat,Mon-Sat weekly,1 kali sehari -Setiap Isnin-Sabtu,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Mon-Thu,Mon-Thu weekly,1 kali sehari -Setiap Isnin-Khamis,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Mon-Tue,Mon-Tue weekly,1 kali sehari -Setiap Isnin-Selasa,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Mon-Wed,Mon-Wed weekly,1 kali sehari -Setiap Isnin-Rabu,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+NA,Not Applicable,Tidak Berkenaan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+NOON-ON,Afternoon + ON,setiap jam 12tghr dan 8 malam,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+OD,OD (once daily),1 Kali Sehari,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+OD-10D-M,OD for 10days monthly,1 kali sehari selama 10hari setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+OD-14D-3M,OD for 14 days every 3 months,1 kali sehari untuk 14 hari setiap 3 bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+OD-25D-M,OD for 25days monthly,1 kali sehari selama 25hari setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+OD-28D-M,OD for 28days monthly,1 kali sehari selama 28hari setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+OD-5D-3WK,OD D1-D5 every 3weeks,1 kali sehari selama 5hari setiap 3 minggu,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+OD-5D-M,OD for 5 days Monthly,1 kali sehari selama 5 hari setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+OD-7D-3M,OD for 7 days every 3 month,1 kali sehari untuk 7 hari setiap 3 bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+OD-D11-25M,OD day11-25 monthly,1 kali sehari dari hari ke 11-25 setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+OD-D16-25M,OD day16-25 monthly,1 kali sehari dari hari ke 16 - 25  setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+OD-MWSat,"OD on Mon, Wed, Sat","1 kali sehari setiap Isnin, Rabu, Sabtu",http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+OD10-off10,"OD for 10 days, OFF for 10 days cycle",Makan untuk 10 hari dan berhenti untuk 10 hari,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+OD_HD,OD HD/PD day (3x a week),1 kali sehari pada hari dialisis,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+OD_nHD,OD nonHD/PD day (4x a week),1 kali sehari pada hari bukan dialisis,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+OM,OM (every morning),Setiap pagi,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+OM-NOON,OM + afternoon,setiap pagi dan tengahari,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+OMHS,Morning & at bedtime,Pagi dan sebelum tidur,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+ON,ON (every night),Setiap malam,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+ONCE,Single dose,Sekali sahaja,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+ONCE-,Single Dose,Satu dos sahaja,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+ON_HD,ON  HD day (3x a week),setiap malam pada hari hemodialisis,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+ON_TDS,ON 3x a week,Setiap malam 3 kali seminggu,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+ON_nHD,ON nonHD day (4x a week),setiap malam pada hari bukan hemodialisis,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+OV,PM (every evening),Setiap petang,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+PRN,PRN,bila perlu,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+PRN-3D-M,PRN for 3 days monthly,bila perlu untuk 3 hari setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+PRN-5D-M,PRN for 5 days monthly,bila perlu untuk 5 hari setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+PRN1,OD PRN,"1 kali setiap hari, bila perlu",http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+PRN2,BD PRN,"2 kali sehari, bila perlu",http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+PRN3,TDS PRN,"3 kali sehari, bila perlu",http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+PRN3-3D-M,TDS PRN for 3 days monthly,3 kali sehari/bila perlu untuk 3 hari setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+PRN4,QID PRN,"4 kali sehari, bila perlu",http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+PRN5,5 X daily PRN,5 kali sehari bila perlu,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+PRN6,Q4H / PRN,setiap 4 jam atau bila perlu,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+PRN_EOD,EOD PRN,"Selang sehari, bila perlu",http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+PRN_OM,OM PRN,"setiap pagi, bila perlu",http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+PRN_ON,ON PRN,"setiap malam, bila perlu",http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Q10D,every 10 days,1 kali setiap 10 hari,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Q10M,every 10 minutes,Setiap 10 minit,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Q12H,Q12H,Setiap 12 jam,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Q12H_PRN,Q12H / PRN,setiap 12jam atau bila perlu,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Q14D,every 14 days,1 kali setiap 14 hari,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Q15M,every 15 minutes,Setiap 15 minit,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Q18H,Q18H,Setiap 18 jam,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Q1H,Q1H,Setiap 1 jam,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Q24H,Q24H,Setiap 24 jam,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Q28D,every 28 days,1 kali setiap 28 hari,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Q2D,every 2 days,Setiap 2 hari,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Q2H,Q2H,Setiap 2 jam,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Q30M,every 30 minutes,Setiap 30 minit,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Q36H,Q36H,Setiap 36 jam,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Q3D,every 3 days,Setiap 3 hari,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Q3H,Q3H,Setiap 3 jam,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Q48H,Q48H,Setiap 48 jam,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Q4D,every 4 days,Setiap 4 hari,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Q4H,Q4H,Setiap 4 jam,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Q5D,every 5 days,Setiap 5 hari,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Q5M,every 5 minutes,Setiap 5 minit,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Q6H,Q6H,Setiap 6 jam,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Q6H_PRN,Q6H / PRN,setiap 6 jam atau bila perlu,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Q6W,Once every 6 weeks,1 kali setiap 6 minggu,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Q72H,Q72H,Setiap 72 jam,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Q7D,every 7 days,1 kali setiap 7 hari,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Q8H,Q8H,Setiap 8 jam,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Q8H_PRN,Q8H / PRN,setiap 8jam atau bila perlu,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Q90M,every 90 minutes,Setiap 90 minit,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Q96H,Q96H,Setiap 96 jam,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+QFRI,Every Friday (OD),1 kali sehari setiap hari Jumaat,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+QID,QID (4 times a day),4 kali sehari,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+QID-3D-M,QID for 3 days Monthly,4 kali sehari untuk 3 hari setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+QID-5D-M,QID for 5 days Monthly,4 kali sehari untuk 5 hari setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+QID-6D-M,QID for 6 days Monthly,4 kali sehari untuk 6 hari setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+QID-7D-M,QID for 7 days monthly,4 kali sehari untuk 7 hari setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+QID_D1D4_M,QID for 4 days monthly,4 kali sehari untuk 4 hari setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+QMON,Every Monday (OD),1 kali sehari setiap hari Isnin,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+QSAT,Every Saturday (OD),1 kali sehari setiap hari Sabtu,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+QSUN,Every Sunday (OD),1 kali sehari setiap hari Ahad,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+QTHU,Every Thursday (OD),1 kali sehari setiap hari Khamis,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+QTUE,Every Tuesday (OD),1 kali sehari setiap hari Selasa,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+QWED,Every Wednesday (OD),1 kali sehari setiap hari Rabu,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+STAT,STAT,Serta merta,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+SUN&WED,OD Sun & Wed,1 kali sehari setiap Ahad & Rabu,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Sat-Sun,Sat-Sun weekly,1 kali sehari -Setiap Sabtu-Ahad,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Sat-Thur,Sat-Thur Weekly,1 kali sehari -Setiap sabtu hingga khamis,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Sun-Fri,Sun-Fri weekly,1 kali sehari -Setiap Ahad hingga Jumaat,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Sun-Mon,Sun-Mon weekly,Setiap Ahad hingga Isnin,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Sun-Thur,Sun-Thur weekly,1 kali sehari -Setiap Ahad hingga Khamis,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Sun-Tue,Sun-Tue weekly,Setiap Ahad hingga Selasa,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Sun-Wed,Sun-Wed weekly,1 kali sehari -Setiap Ahad hingga Rabu,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+SunTT,"OD on Sun,Tue,Thurs","1 kali sehari setiap Ahad, Selasa, Khamis",http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+TDS-10D-M,TDS for 10days monthly,3 kali sehari selama 10hari setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+TDS-14D-M,TDS for 14days monthly,3 kali sehari selama 14hari setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+TDS-21D-M,TDS for 21days monthly,3 kali sehari untuk 21 hari setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+TDS-3D-M,TDS for 3 days monthly,3 kali sehari untuk 3 hari setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+TDS-5D-3M,TDS for 5 days every 3 months,3 kali sehari untuk 5 hari setiap 3 bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+TDS-5D-M,TDS for 5 days monthly,3 kali sehari untuk 5 hari setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+TDS-6D-M,TDS for 6 days monthly,3 kali sehari untuk 6 hari setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+TDS-7D-3M,TDS for 7 days every 3 month,3 kali sehari untuk 7 hari setiap 3 bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+TDS-D11-25,TDS day11-25 monthly,3 kali sehari dari hari ke11-25 setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+TDS-D16-25,TDS day16-25 monthly,3 kali sehari dari hari ke 16-25 setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+TDSD1-7M,TDS for 7 days monthly,3 kali sehari selama 7 hari setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+TDS_15D_M,TDS for 15days monthly,3 kali sehari selama 15hari setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+TDS_D1D2_M,TDS for 2 days monthly,3 kali sehari untuk 2 hari setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+TDS_D1D4_M,TDS for 4 days monthly,3 kali sehari untuk 4 hari setiap bulan,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+TDS_FSS,"TDS on Fri, Sat, Sun","3 kali sehari setiap Jumaat, Sabtu, Ahad",http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+TDS_HD,TDS  HD/PD day  (3x a week),3 kali sehari pada hari dialisis,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+TDS_MWFS,"TDS on Mon, Wed, Fri, Sat","3 kali sehari setiap Isnin, Rabu, Jumaat, Sabtu",http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+TDS_nHD,TDS  nonHD/PD day  (4x a week),3 kali sehari pada hari bukan dialisis,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+TID,TDS (3 times a day),3 kali sehari,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+TTSSun,"OD on Tue,Thurs,Sat,Sun","1 kali sehari setiap Selasa, Khamis, Sabtu, Ahad",http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Thu-Sun,Thu-Sun weekly,1 kali sehari -Setiap Khamis-Ahad,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Thur-Sat,Thur-Sat weekly,1 kali sehari -Setiap Khamis hingga Sabtu,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Thur-Tue,Thur-Tue Weekly,1 kali sehari -Setiap khamis hingga selasa,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Tue-Sat,Tue-Sat weekly,1 kali sehari -Setiap Selasa hingga Sabtu,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Tue-Sun,Tue-Sun weekly,1 kali sehari -Setiap Selasa-Ahad,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Wed-Mon,Wed-Mon Weekly,1 kali sehari -Setiap rabu hingga Isnin,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Wed-Sat,Wed-Sat weekly,1 kali sehari -Setiap Rabu hingga Sabtu,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore
+Wed-Sun,Wed-Sun weekly,1 kali sehari -Setiap Rabu-Ahad,http://fhir.hie.moh.gov.my/CodeSystem/phis-frequency-my-core,CodeSystemPhisFrequencyMyCore

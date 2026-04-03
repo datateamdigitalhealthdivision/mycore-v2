@@ -1,0 +1,126 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-child-03",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "identifier": {
+        "system": "http://fhir.hie.moh.gov.my/sid/template-section",
+        "value": "qr-child-03"
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-child-03",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/3a1fe467-cad5-4ec9-83f8-fd6dfb46470c"
+    },
+    "authored": "2023-04-27T00:20:14.414Z",
+    "item": [
+        {
+            "linkId": "child-3.1",
+            "text": "VDRL/TPHA",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+                        "code": "01",
+                        "display": "Ya/ Positif"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "child-3.2",
+            "text": "Retroviral",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+                        "code": "02",
+                        "display": "Negatif/ Tiada"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "child-3.3",
+            "text": "Hepatitis B",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+                        "code": "00",
+                        "display": "Tiada Maklumat"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "child-3.4",
+            "text": "Diabetes / GDM",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+                        "code": "00",
+                        "display": "Tiada Maklumat"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "child-3.5",
+            "text": "Hypertension/ PIH",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+                        "code": "01",
+                        "display": "Ya/ Positif"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "child-3.6",
+            "text": "Thalassemia",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+                        "code": "02",
+                        "display": "Negatif/ Tiada"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "child-3.7",
+            "text": "Kumpulan Darah Ibu",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+                        "code": "00",
+                        "display": "AB"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "child-3.8",
+            "text": "Rhesus",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+                        "code": "02",
+                        "display": "Rh-negative"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-referral-type-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemReferralType (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/referral-type-my-core</tt><p>Referral Type code system</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/referral-type-my-core",
+  "version": "1",
+  "name": "CodeSystemReferralTypeMyCore",
+  "title": "CodeSystemReferralType (MY Core)",
+  "status": "active",
+  "date": "2023-01-03T04:47:56.9010407+00:00",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "Referral Type code system",
+  "compositional": false,
+  "versionNeeded": false,
+  "content": "complete",
+  "count": 2,
+  "concept": [
+    {
+      "code": "general",
+      "display": "General",
+      "definition": "Type not specified"
+    },
+    {
+      "code": "specific",
+      "display": "Specific",
+      "definition": "Type specified"
+    }
+  ]
+}

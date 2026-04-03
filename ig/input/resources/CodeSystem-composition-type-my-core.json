@@ -1,0 +1,114 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "composition-type-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemCompositionType (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/composition-type-my-core</tt><p>Composition type code system</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/composition-type-my-core",
+  "version": "2.0.0",
+  "name": "CodeSystemCompositionTypeMyCore",
+  "title": "CodeSystemCompositionType (MY Core)",
+  "status": "active",
+  "date": "2023-06-08T03:08:38.5864399+00:00",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Composition type code system",
+  "copyright": "Malaysia MOH - HIE Steering Committee",
+  "compositional": false,
+  "content": "complete",
+  "count": 16,
+  "concept": [
+    {
+      "code": "34878-9",
+      "display": "Emergency Medicine Note",
+      "definition": "Emergency Medicine Note"
+    },
+    {
+      "code": "sub-001",
+      "display": "Maternal Health Record",
+      "definition": "Maternal Health Record"
+    },
+    {
+      "code": "sub-002",
+      "display": "Child Health Record",
+      "definition": "Child Health Record"
+    },
+    {
+      "code": "0003",
+      "display": "Allied Health",
+      "definition": "Allied Health"
+    },
+    {
+      "code": "34109-9",
+      "display": "Note",
+      "definition": "Note"
+    },
+    {
+      "code": "75476-2",
+      "display": "Physician Note",
+      "definition": "Physician Note"
+    },
+    {
+      "code": "34746-8",
+      "display": "Nurse Note",
+      "definition": "Nurse Note"
+    },
+    {
+      "code": "85443-0",
+      "display": "Hematology Note",
+      "definition": "Hematology Note"
+    },
+    {
+      "code": "68608-9",
+      "display": "Summary Note",
+      "definition": "Summary Note"
+    },
+    {
+      "code": "18842-5",
+      "display": "Discharge Summary Note",
+      "definition": "Discharge Summary Note"
+    },
+    {
+      "code": "28618-7",
+      "display": "Dentistry Note",
+      "definition": "Dentistry Note"
+    },
+    {
+      "code": "34821-9",
+      "display": "Pharmacology Note",
+      "definition": "Pharmacology Note"
+    },
+    {
+      "code": "57133-1",
+      "display": "Referral Note",
+      "definition": "Referral Note"
+    },
+    {
+      "code": "28570-0",
+      "display": "Procedure Note",
+      "definition": "Procedure Note"
+    },
+    {
+      "code": "55107-7",
+      "display": "Addendum Note",
+      "definition": "Addendum Note"
+    },
+    {
+      "code": "68834-1",
+      "display": "Primary Care",
+      "definition": "Primary Care"
+    }
+  ],
+  "experimental": false,
+  "caseSensitive": true
+}

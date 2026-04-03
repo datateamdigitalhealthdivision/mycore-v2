@@ -1,0 +1,5 @@
+code,display,system,include_type,valueset_url,valueset_name
+8357-6,Method,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-vsc-bp-my-core,ValueSetObservationVSCBPMyCore
+41904-4,Measurement site,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-vsc-bp-my-core,ValueSetObservationVSCBPMyCore
+8358-4,Device cuff size,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-vsc-bp-my-core,ValueSetObservationVSCBPMyCore
+41901-0,Type of device,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-vsc-bp-my-core,ValueSetObservationVSCBPMyCore

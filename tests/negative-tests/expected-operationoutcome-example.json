@@ -1,0 +1,13 @@
+{
+  "resourceType": "OperationOutcome",
+  "id": "invalid-payload-operationoutcome-example",
+  "issue": [
+    {
+      "severity": "error",
+      "code": "invalid",
+      "details": {
+        "text": "The submitted payload does not conform to MY Core v2 draft requirements."
+      }
+    }
+  ]
+}

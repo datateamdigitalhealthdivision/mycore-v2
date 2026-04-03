@@ -1,0 +1,112 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-child-rs-carta",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-child-rs-carta",
+  "version": "1.0.0",
+  "name": "QChildRsCarta",
+  "title": "Carta Perkembangan Si Comel Anda",
+  "status": "active",
+  "date": "2023-08-30T06:43:50.5035753+00:00",
+  "item": [
+    {
+      "linkId": "rs-carta-1",
+      "text": "Tarikh",
+      "type": "dateTime"
+    },
+    {
+      "linkId": "rs-carta-2",
+      "text": "Membalas senyuman",
+      "type": "quantity"
+    },
+    {
+      "linkId": "rs-carta-3",
+      "text": "Tegakkan kepala semasa  duduk",
+      "type": "quantity"
+    },
+    {
+      "linkId": "rs-carta-4",
+      "text": "Meniarap dan terlentang",
+      "type": "quantity"
+    },
+    {
+      "linkId": "rs-carta-5",
+      "text": "Mencapai objek",
+      "type": "quantity"
+    },
+    {
+      "linkId": "rs-carta-6",
+      "text": "Memusing kepala ke arah  bunyi",
+      "type": "quantity"
+    },
+    {
+      "linkId": "rs-carta-7",
+      "text": "Duduk tanpa disokong",
+      "type": "quantity"
+    },
+    {
+      "linkId": "rs-carta-8",
+      "text": "Memegang dengan jari  ibu dan jari telunjuk",
+      "type": "quantity"
+    },
+    {
+      "linkId": "rs-carta-9",
+      "text": "Menyebut  papa, mama",
+      "type": "quantity"
+    },
+    {
+      "linkId": "rs-carta-10",
+      "text": "Berjalan beberapa  langkah",
+      "type": "quantity"
+    },
+    {
+      "linkId": "rs-carta-11",
+      "text": "Minum dengan  cawan tanpa dibantu",
+      "type": "quantity"
+    },
+    {
+      "linkId": "rs-carta-12",
+      "text": "Menconteng",
+      "type": "quantity"
+    },
+    {
+      "linkId": "rs-carta-13",
+      "text": "Menyatukan 2 perkataan",
+      "type": "quantity"
+    },
+    {
+      "linkId": "rs-carta-14",
+      "text": "Menendang bola ke depan",
+      "type": "quantity"
+    },
+    {
+      "linkId": "rs-carta-15",
+      "text": "Menanggalkan pakaian",
+      "type": "quantity"
+    },
+    {
+      "linkId": "rs-carta-16",
+      "text": "Mengikut arahan",
+      "type": "quantity"
+    },
+    {
+      "linkId": "rs-carta-17",
+      "text": "Memakai pakaian",
+      "type": "quantity"
+    },
+    {
+      "linkId": "rs-carta-18",
+      "text": "Melompat setempat",
+      "type": "quantity"
+    },
+    {
+      "linkId": "rs-carta-19",
+      "text": "Bermain secara interaktif",
+      "type": "quantity"
+    },
+    {
+      "linkId": "rs-carta-20",
+      "text": "Melukis bulatan",
+      "type": "quantity"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "task-business-status-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemTaskCode (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/task-business-status-my-core</tt><p>Codes indicating the type of action that is expected to be performed</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/task-business-status-my-core",
+  "version": "2.0.0",
+  "name": "CodeSystemTaskBusinessStatusMyCore",
+  "title": "CodeSystemTaskBusinessStatusCode (MY Core)",
+  "status": "active",
+  "date": "2023-04-10T23:23:10.8917831+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Codes indicating the type of action that is expected to be performed",
+  "compositional": false,
+  "content": "complete",
+  "count": 22,
+  "concept": [
+    {
+      "code": "not-arrived",
+      "display": "Not Arrived",
+      "definition": "Task has been deemed as not arrived"
+    },
+    {
+      "code": "pending-dispatch",
+      "display": "Pending Dispatch",
+      "definition": "Task is ready for dispatch"
+    },
+    {
+      "code": "dispatch",
+      "display": "Dispatched",
+      "definition": "Task has been dispatched"
+    },
+    {
+      "code": "accept",
+      "display": "Accepted",
+      "definition": "Task has been accepted"
+    },
+    {
+      "code": "final",
+      "display": "Finalized",
+      "definition": "Task has been finalized and ready to be acted upon"
+    },
+    {
+      "code": "draft",
+      "display": "Drafted",
+      "definition": "Task has been created but not yet active"
+    },
+    {
+      "code": "send",
+      "display": "Sent",
+      "definition": "Task has been sent to performing destination"
+    },
+    {
+      "code": "initiate",
+      "display": "Initiated",
+      "definition": "Task has been initiated"
+    },
+    {
+      "code": "perform",
+      "display": "Performed",
+      "definition": "Task has performed one of its expected outcome"
+    },
+    {
+      "code": "interview",
+      "display": "Interviewed",
+      "definition": "Task subject is being interviewed"
+    },
+    {
+      "code": "arrive",
+      "display": "Arrived",
+      "definition": "Task has arrived to its expected destination"
+    },
+    {
+      "code": "receive",
+      "display": "Received",
+      "definition": "Task has been received at expected receiver"
+    },
+    {
+      "code": "in-progress",
+      "display": "In-Progress",
+      "definition": "Task midway in-progress and can no longer be aborted"
+    },
+    {
+      "code": "skip",
+      "display": "Skipped",
+      "definition": "Task has completed its final outcome by bypassing main processes in completion"
+    },
+    {
+      "code": "abort",
+      "display": "Aborted",
+      "definition": "Task ended prematurely"
+    },
+    {
+      "code": "finish",
+      "display": "Finished",
+      "definition": "Task has completed but requires validation to complete the task"
+    },
+    {
+      "code": "fulfil",
+      "display": "Fulfilled",
+      "definition": "Task reach its final outcome (both pass or fail outcome)"
+    },
+    {
+      "code": "reject",
+      "display": "Rejected",
+      "definition": "Task has been rejected thus ended"
+    },
+    {
+      "code": "hold",
+      "display": "On-Hold",
+      "definition": "Task has been kept on hold"
+    },
+    {
+      "code": "verify",
+      "display": "Verified",
+      "definition": "Task has been verified"
+    },
+    {
+      "code": "validate",
+      "display": "Validated",
+      "definition": "Task has been validated"
+    }
+  ],
+  "experimental": false,
+  "caseSensitive": true
+}

@@ -1,0 +1,300 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-vaccine-code-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemVaccineCode (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core</tt><p>Malaysia vaccine code system</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core",
+  "identifier": [
+    {
+      "value": "code-system-vaccine-code-my-core"
+    }
+  ],
+  "version": "1.0.0",
+  "name": "CodeSystemVaccineCodeMyCore",
+  "title": "CodeSystemVaccineCode (MY Core)",
+  "status": "active",
+  "date": "2023-07-11T07:19:23.6448941+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Malaysia vaccine code system",
+  "copyright": "Malaysia MOH - HIE Steering Committee",
+  "caseSensitive": false,
+  "compositional": false,
+  "versionNeeded": false,
+  "content": "complete",
+  "count": 52,
+  "concept": [
+    {
+      "code": "J07AN01000P4001XX",
+      "display": "BCG Vaccine Freeze-Dried Injection",
+      "definition": "BCG Vaccine Freeze-Dried Injection"
+    },
+    {
+      "code": "J07AM01000P3001XX",
+      "display": "Tetanus Toxoid Injection",
+      "definition": "Tetanus Toxoid Injection"
+    },
+    {
+      "code": "J07AE01000P3001XX",
+      "display": "Cholera Vaccine",
+      "definition": "Cholera Vaccine"
+    },
+    {
+      "code": "J07AF01000P3001XX",
+      "display": "Diphtheria Antitoxin Injection",
+      "definition": "Diphtheria Antitoxin Injection"
+    },
+    {
+      "code": "J07CA06963P3001XX",
+      "display": "DTaP-IPV- Hib Vaccine",
+      "definition": "DTaP-IPV- Hib Vaccine"
+    },
+    {
+      "code": "J07CA05963P3001XX",
+      "display": "Dipht-Pertussis-Tetanus-Hep B Vaccine",
+      "definition": "Dipht-Pertussis-Tetanus-Hep B Vaccine"
+    },
+    {
+      "code": "J07BM02000P3001XX",
+      "display": "Cervarix Vaccine",
+      "definition": "Cervarix Vaccine"
+    },
+    {
+      "code": "J07BM01000P3001XX",
+      "display": "Gardasil Vaccine",
+      "definition": "Gardasil Vaccine"
+    },
+    {
+      "code": "J07AL01000P3001XX",
+      "display": "Pneumococcal Vaccine (Polyvalent - 23)",
+      "definition": "Pneumococcal Vaccine (Polyvalent - 23)"
+    },
+    {
+      "code": "J07AG01000P4001XX",
+      "display": "Haemophilus Influenzae Type B Vaccine",
+      "definition": "Haemophilus Influenzae Type B Vaccine"
+    },
+    {
+      "code": "J07AG52000P3001XX",
+      "display": "Diph-Pertussis-Tetanus-HiB Vaccine",
+      "definition": "Diph-Pertussis-Tetanus-HiB Vaccine"
+    },
+    {
+      "code": "J07BB02963P3001XX",
+      "display": "Influenza Vaccine (Inactivated) Inj",
+      "definition": "Influenza Vaccine (Inactivated) Inj"
+    },
+    {
+      "code": "J07BF02000D5001XX",
+      "display": "Polio Oral Vaccine",
+      "definition": "Polio Oral Vaccine"
+    },
+    {
+      "code": "J07BG01000P4001XX",
+      "display": "Rabies Vaccine Injection",
+      "definition": "Rabies Vaccine Injection"
+    },
+    {
+      "code": "J07BJ01000P3001XX",
+      "display": "Rubella Virus Vaccine (Live Attenuated)",
+      "definition": "Rubella Virus Vaccine (Live Attenuated)"
+    },
+    {
+      "code": "J07AM51963P3001XX",
+      "display": "Diphtheria and Tetanus Vaccine Injection",
+      "definition": "Diphtheria and Tetanus Vaccine Injection"
+    },
+    {
+      "code": "J07BC02000P5002b",
+      "display": "Hepatitis A, Inactivated 80U Vaccine",
+      "definition": "Hepatitis A, Inactivated 80U Vaccine"
+    },
+    {
+      "code": "J07BC02000P5001a",
+      "display": "Hepatitis A Inactivated 160U Vaccine",
+      "definition": "Hepatitis A Inactivated 160U Vaccine"
+    },
+    {
+      "code": "J07BC01000P4001a",
+      "display": "Hepatitis B 10mcg Vaccine (Paed)",
+      "definition": "Hepatitis B 10mcg Vaccine (Paed)"
+    },
+    {
+      "code": "J07BC01000P4001b",
+      "display": "Hepatitis B 20mcg Vaccine (Adult)",
+      "definition": "Hepatitis B 20mcg Vaccine (Adult)"
+    },
+    {
+      "code": "J07BB02963P5001XX",
+      "display": "Influenzae Vaccine",
+      "definition": "Influenzae Vaccine"
+    },
+    {
+      "code": "J07BD52963P4001XX",
+      "display": "Measles, Mumps and Rubella Vaccine",
+      "definition": "Measles, Mumps and Rubella Vaccine"
+    },
+    {
+      "code": "J07BD52963P4002XX",
+      "display": "Measles Rubella Vaccine",
+      "definition": "Measles Rubella Vaccine"
+    },
+    {
+      "code": "J07BD01000P4001XX",
+      "display": "Measle's Vaccine (Live Attenuated)",
+      "definition": "Measle's Vaccine (Live Attenuated)"
+    },
+    {
+      "code": "J07AP02000P3001XX",
+      "display": "Typhoid Vaccine",
+      "definition": "Typhoid Vaccine"
+    },
+    {
+      "code": "J07BK01000P4001XX",
+      "display": "Varicella Zoster Vaccine Live Attenuated",
+      "definition": "Varicella Zoster Vaccine Live Attenuated"
+    },
+    {
+      "code": "J07AJ52963P3001XX",
+      "display": "Diphtheria, Pertussis, Tetanus Vaccine",
+      "definition": "Diphtheria, Pertussis, Tetanus Vaccine"
+    },
+    {
+      "code": "J07AP01000C1001XX",
+      "display": "Typhoid Vaccine Capsule",
+      "definition": "Typhoid Vaccine Capsule"
+    },
+    {
+      "code": "J07AH04000P4001XX",
+      "display": "Meningococcal ACYW 135 Vaccine",
+      "definition": "Meningococcal ACYW 135 Vaccine"
+    },
+    {
+      "code": "J07BB02963P5002XX",
+      "display": "Influenzae Vaccine 15mcg Type A,A,B",
+      "definition": "Influenzae Vaccine 15mcg Type A,A,B"
+    },
+    {
+      "code": "J07AL01000P3001a",
+      "display": "Pneumococcal Vaccine (Polyvalent 13)",
+      "definition": "Pneumococcal Vaccine (Polyvalent 13)"
+    },
+    {
+      "code": "J07BL01000P4001",
+      "display": "Yellow Fever (Live Attenuated) Vaccine",
+      "definition": "Yellow Fever (Live Attenuated) Vaccine"
+    },
+    {
+      "code": "J07BA02000P3001",
+      "display": "Japanese Encephalitis Vaccine 1 mL",
+      "definition": "Japanese Encephalitis Vaccine 1 mL"
+    },
+    {
+      "code": "J07BB02963P5003",
+      "display": "Quadrivalent Seasonal Influenza Vaccine",
+      "definition": "Quadrivalent Seasonal Influenza Vaccine"
+    },
+    {
+      "code": "J07AP03000P5001",
+      "display": "Typhoid Vaccine (Single Dose)",
+      "definition": "Typhoid Vaccine (Single Dose)"
+    },
+    {
+      "code": "J07AH04000P4001a",
+      "display": "Meningococcal ACYW 135 Vaccine",
+      "definition": "Meningococcal ACYW 135 Vaccine"
+    },
+    {
+      "code": "J07BC02000P5006",
+      "display": "Hepatitis A Inactivated 1440 units Vac",
+      "definition": "Hepatitis A Inactivated 1440 units Vac"
+    },
+    {
+      "code": "J07BX03000P3001a",
+      "display": "COVID-19 Vaccine AstraZeneca Inj",
+      "definition": "COVID-19 Vaccine AstraZeneca Inj"
+    },
+    {
+      "code": "J07BX03000P3001",
+      "display": "COVID-19 Vaccine AstraZeneca Inj",
+      "definition": "COVID-19 Vaccine AstraZeneca Inj"
+    },
+    {
+      "code": "J07BX03000P3002",
+      "display": "SARS-CoV-2 Vaccine (Vero Cell), Inj",
+      "definition": "SARS-CoV-2 Vaccine (Vero Cell), Inj"
+    },
+    {
+      "code": "J07BX03000P3003",
+      "display": "COVID-19 Vaccine Convidecia Inj",
+      "definition": "COVID-19 Vaccine Convidecia Inj"
+    },
+    {
+      "code": "J07BB02963P5002a",
+      "display": "Influenzae Vaccine 7.5mcg Type A,A,B",
+      "definition": "Influenzae Vaccine 7.5mcg Type A,A,B"
+    },
+    {
+      "code": "J07BX03000P3002a",
+      "display": "SARS-CoV-2 Vaccine (Vero Cell), Inj",
+      "definition": "SARS-CoV-2 Vaccine (Vero Cell), Inj"
+    },
+    {
+      "code": "J07BC02000P5007",
+      "display": "Hepatitis A, Inactivated 720U Vaccine",
+      "definition": "Hepatitis A, Inactivated 720U Vaccine"
+    },
+    {
+      "code": "J07BX03000P3005",
+      "display": "Covilo COVID-19 Vaccine (Vero Cell) Inj",
+      "definition": "Covilo COVID-19 Vaccine (Vero Cell) Inj"
+    },
+    {
+      "code": "J07AL01000P3001b",
+      "display": "Pneumococcal Vaccine(Polyvalent 10),NTHi",
+      "definition": "Pneumococcal Vaccine(Polyvalent 10),NTHi"
+    },
+    {
+      "code": "J07BF03000P3001",
+      "display": "Poliomyelitis Virus Vaccine, Inactivated",
+      "definition": "Poliomyelitis Virus Vaccine, Inactivated"
+    },
+    {
+      "code": "J07BX03000P3201",
+      "display": "COVID-19 mRNA Vaccine Injection",
+      "definition": "COVID-19 mRNA Vaccine Injection"
+    },
+    {
+      "code": "J07CA09963P3002",
+      "display": "DTaP-IPV-HB-Hib Vaccine",
+      "definition": "DTaP-IPV-HB-Hib Vaccine"
+    },
+    {
+      "code": "J07BC20000P5001",
+      "display": "Hep A 720U & Hep B 20mcg Vaccine PFS",
+      "definition": "Hep A 720U & Hep B 20mcg Vaccine PFS"
+    },
+    {
+      "code": "X0X0X01818X0X18",
+      "display": "Vaccine Covid-16",
+      "definition": "Vaccine Covid-16"
+    },
+    {
+      "code": "J07BX03000P3004",
+      "display": "COVID-19 Vaccine Janssen Inj",
+      "definition": "COVID-19 Vaccine Janssen Inj"
+    }
+  ]
+}

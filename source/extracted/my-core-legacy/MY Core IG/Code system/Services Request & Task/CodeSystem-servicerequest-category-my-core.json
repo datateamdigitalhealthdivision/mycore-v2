@@ -1,0 +1,54 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-servicerequest-category-my-core",
+  "meta": {
+    "source": "#Gnfvik2Z9UxPSkt8"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemServiceRequestCategory (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/servicerequest-category-my-core</tt><p>Service Request Category My Core</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/servicerequest-category-my-core",
+  "name": "CodeSystemServiceRequestCategoryMyCore",
+  "title": "CodeSystemServiceRequestCategory (MY Core)",
+  "status": "active",
+  "date": "2023-07-31T00:31:14.1061097+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Service Request Category My Core",
+  "compositional": false,
+  "content": "complete",
+  "count": 4,
+  "concept": [
+    {
+      "code": "3457005",
+      "display": "Patient Referral",
+      "definition": "Patient Referral"
+    },
+    {
+      "code": "108252007",
+      "display": "Laboratory",
+      "definition": "Laboratory"
+    },
+    {
+      "code": "363679005",
+      "display": "Imaging",
+      "definition": "Imaging"
+    },
+    {
+      "code": "387713003",
+      "display": "Surgical procedure",
+      "definition": "Surgical procedure"
+    }
+  ]
+}

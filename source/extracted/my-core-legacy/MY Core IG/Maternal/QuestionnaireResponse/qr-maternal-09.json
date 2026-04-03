@@ -1,0 +1,61 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-maternal-09",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-09",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/bfb81ffe-637d-4b3f-befa-f7a1546ed9f8"
+    },
+    "authored": "2022-11-16T03:56:06.596Z",
+    "item": [
+        {
+          "linkId": "maternal-9.1",
+          "text": "Tarikh",
+          "answer": [
+            {
+              "valueDateTime": "2022-11-16T00:54:04.078Z"
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-9.2",
+          "text": "POG",
+          "answer": [
+            {
+              "valueQuantity": {
+                "value": 12
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-9.3",
+          "text": "Fasting Blood Sugar",
+          "answer": [
+            {
+              "valueQuantity": {
+                "value": 12
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-9.4",
+          "text": "2H Postprandial",
+          "answer": [
+            {
+              "valueQuantity": {
+                "value": 12
+              }
+            }
+          ]
+        }
+      ]
+    }
+    

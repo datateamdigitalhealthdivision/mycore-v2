@@ -1,0 +1,7 @@
+code,display,definition,system_url,system_name
+ITD,Increase The Dose,Increase The Dose,http://fhir.hie.moh.gov.my/CodeSystem/tdm-recommended-type-my-core,CodeSystemTdmRecommededTypeMyCore
+MTD,Maintain The Dose,Maintain The Dose,http://fhir.hie.moh.gov.my/CodeSystem/tdm-recommended-type-my-core,CodeSystemTdmRecommededTypeMyCore
+RTD,Reduce The Dose,Reduce The Dose,http://fhir.hie.moh.gov.my/CodeSystem/tdm-recommended-type-my-core,CodeSystemTdmRecommededTypeMyCore
+RTP,Refer to Pharmacist Notes,Refer to Pharmacist Notes,http://fhir.hie.moh.gov.my/CodeSystem/tdm-recommended-type-my-core,CodeSystemTdmRecommededTypeMyCore
+STD,Stop The Dose,Stop The Dose,http://fhir.hie.moh.gov.my/CodeSystem/tdm-recommended-type-my-core,CodeSystemTdmRecommededTypeMyCore
+WTD,Withhold The Dose,Withhold The Dose,http://fhir.hie.moh.gov.my/CodeSystem/tdm-recommended-type-my-core,CodeSystemTdmRecommededTypeMyCore

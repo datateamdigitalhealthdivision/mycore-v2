@@ -1,0 +1,80 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-outcome-audit-c-my-core",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2023-06-19T10:23:40.142+08:00",
+    "source": "#hmdG2b4pNzyZrUWD"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemOutcomeAuditC (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/outcome-audit-c-my-core</tt><p>Audit C Outcome Questionnaire</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/outcome-audit-c-my-core",
+  "name": "CodeSystemOutcomeAuditCMyCore",
+  "title": "CodeSystemOutcomeAuditC (MY Core)",
+  "status": "active",
+  "date": "2023-06-26T00:55:17.2867281+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "description": "Audit C Outcome Questionnaire",
+  "compositional": false,
+  "content": "complete",
+  "count": 3,
+  "property": [
+    {
+      "code": "low",
+      "type": "string"
+    },
+    {
+      "code": "high",
+      "type": "string"
+    }
+  ],
+  "concept": [
+    {
+      "code": "a1",
+      "display": "Low-Risk Consumption",
+      "definition": "You are in the low-risk category for alcohol problems. \nCongratulations on this. It is important that we all ensure that any alcohol we consume does not lead to a pattern of hazardous drinking or addictive drinking \nYour score indicates that your consumption is within the low-risk range. It is important that you do not increase your present consumption: doing so can easily result in your drinking becoming hazardous and serious health problems occurring, and indeed, escalating over time. \nPaying attention to your alcohol consumption and ensuring it remains within the low-risk range represents a great investment for your future. \nPlease note that if you are pregnant or contemplating pregnancy, most authorities recommend you do not drink alcohol.",
+      "property": [
+        {
+          "code": "low",
+          "valueString": "0"
+        },
+        {
+          "code": "high",
+          "valueString": "2"
+        }
+      ]
+    },
+    {
+      "code": "a2",
+      "display": "Hazardous or Harmful Alcohol Consumption",
+      "definition": "You are in the category that we call “risky” or “hazardous” alcohol consumption.  \nWhat this means is that your pattern of drinking or overall amount of alcohol you drink is putting you at risk of serious health and personal consequences. This may seem a surprise at first but it is the reality. \nWe know that in your range of alcohol consumption there is a substantial risk of harm in the short-term (such as injuries) and in the long-term (such as diseases of the liver, heart, brain, muscle, nerves and other key organs and systems of the body). Indeed, you may already be experiencing the symptoms of these disorders and may or may not know about this. \nWe recommend as a starting point that you book an appointment with your medical doctor/physician. Your doctor will be able to assess you further and may organise blood tests to identify the damaging effects of alcohol on your body systems. Do not be distressed at this news. It is actually an opportunity to take stock of your alcohol consumption and make changes for the better. Most people with risky or hazardous alcohol consumption can reduce their drinking using straightforward and practical techniques that will substantially reduce their risk of harmful consequences. When people reduce their alcohol consumption from hazardous levels, they typically feel better and more in control of their lives. Please consult your nearest healthcare facility for further information.",
+      "property": [
+        {
+          "code": "low",
+          "valueString": "3"
+        },
+        {
+          "code": "high",
+          "valueString": "4"
+        }
+      ]
+    },
+    {
+      "code": "a3",
+      "display": "Likelihood of Alcohol Dependence",
+      "definition": "This shows that you are likely to have alcohol dependence. \nIt is important that you take action on this, and we recommend that you seek an appointment with your medical doctor/physician. Your doctor will be able to determine the extent of your alcohol dependence and what action you should take and what treatment would be most appropriate. Your doctor is likely to advise that you abstain from alcohol and may well suggest you have blood tests to gauge the impact on your physical health \nAlcohol dependence is a treatable condition and you may receive advice to engage in a treatment program, to take medications, to suppress the \"driving force\" of alcohol dependence, to enrol in a therapy program and to become involved with a self-help fellowship \nWe encourage you to seek advice as alcohol dependence can if untreated have a seriously progressive course \nBy contrast, people who engage in treatment can see their lives transformed and their health and well-being restored. We also encourage you to access the telephone advice lines and internet resources as are available in your own country. Please consult your nearest healthcare facility for further information.",
+      "property": [
+        {
+          "code": "low",
+          "valueString": "5"
+        },
+        {
+          "code": "high",
+          "valueString": "12"
+        }
+      ]
+    }
+  ]
+}

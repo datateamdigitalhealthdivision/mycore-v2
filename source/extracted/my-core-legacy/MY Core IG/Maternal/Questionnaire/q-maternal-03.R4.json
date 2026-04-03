@@ -1,0 +1,424 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-maternal-03",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-03",
+  "version": "1.0.0",
+  "name": "QMaternal03",
+  "title": "Riwayat Kesihatan Ibu Dan Keluarga",
+  "status": "active",
+  "date": "2023-09-06T01:16:51.2403952+00:00",
+  "item": [
+    {
+      "linkId": "maternal-3.1",
+      "text": "Haid",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "maternal-3.1.1",
+          "text": "Jumlah Hari",
+          "type": "quantity"
+        },
+        {
+          "linkId": "maternal-3.1.2",
+          "text": "Pusingan",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "78456001",
+                "display": "Teratur"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "80182007",
+                "display": "Tidak teratur"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-3.2",
+      "text": "Amalan Perancang Keluarga",
+      "type": "group",
+      "required": true,
+      "item": [
+        {
+          "linkId": "maternal-3.2.1",
+          "text": "Mengamal perancang keluarga",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-3.2.2",
+          "text": "Kaedah",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "225370004",
+                "display": "Barrier Method"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "89639000",
+                "display": "Cervical cap and diaphragm"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "268463003",
+                "display": "Coitus Interruptus"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "102954005",
+                "display": "Emergency Contraception"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "137531000119108",
+                "display": "Hormonal patch"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "449038007",
+                "display": "Implant"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "268464009",
+                "display": "Injectables"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "449038007",
+                "display": "Intrauterine Contraception (Hormonal)"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "312079003",
+                "display": "Intrauterine Contraception (Non-Hormonal)"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "237122005",
+                "display": "Lactation Amenorrhoea Methods"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "5935008",
+                "display": "Oral Contraceptives"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "225371000",
+                "display": "Other natural methods"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "268466006",
+                "display": "Spermicidal Contraception"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "137521000119105",
+                "display": "Vaginal Ring"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-3.2.3",
+          "text": "Berapa lama",
+          "type": "quantity"
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-3.3",
+      "text": "Status Merokok",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "maternal-3.3.1",
+          "text": "Ibu",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-3.3.2",
+          "text": "Suami",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-3.3.3",
+          "text": "Remark Status Merokok",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-3.4",
+      "text": "Masalah Perubatan Ibu",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "maternal-3.4.1",
+          "text": "Masalah Perubatan Ibu",
+          "type": "choice",
+          "repeats": true,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "73211009",
+                "display": "Diabetes"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "195967001",
+                "display": "Asma"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "40108008",
+                "display": "Thalasemia"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "19442009",
+                "display": "Thalasemia Carrier"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "38341003",
+                "display": "Hipertensi"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "49601007",
+                "display": "Sakit Jantung"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "14304000",
+                "display": "Tiroid"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "609328004",
+                "display": "Alergi"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "56717001",
+                "display": "Tibi"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "363346000",
+                "display": "Kanser"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "74732009",
+                "display": "Psikiatri"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "271737000",
+                "display": "Anemia"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-3.4.2",
+          "text": "Lain-lain Masalah Perubatan Ibu",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-3.5",
+      "text": "Saringan Tibi",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "maternal-3.5.1",
+          "text": "Adakah anda mengalami batuk lebih 2 minggu",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-3.6",
+      "text": "Masalah Perubatan Keluarga",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "maternal-3.6.1",
+          "text": "Masalah Perubatan Keluarga",
+          "type": "choice",
+          "repeats": true,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "73211009",
+                "display": "Diabetes"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "195967001",
+                "display": "Asma"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "271737000",
+                "display": "Anemia"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "38341003",
+                "display": "Hipertensi"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "49601007",
+                "display": "Sakit Jantung"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "40108008",
+                "display": "Thalasemia"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "19442009",
+                "display": "Thalasemia Carrier"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "609328004",
+                "display": "Alergi"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "56717001",
+                "display": "Tibi"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "74732009",
+                "display": "Psikiatri"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-3.6.2",
+          "text": "Lain-lain Masalah Perubatan Keluarga",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-3.7",
+      "text": "Status Imunisasi Ibu",
+      "type": "group",
+      "repeats": true,
+      "item": [
+        {
+          "linkId": "maternal-3.7.1",
+          "text": "Jenis/Dos vaksin",
+          "type": "string"
+        },
+        {
+          "linkId": "maternal-3.7.2",
+          "text": "Tarikh suntikan",
+          "type": "dateTime"
+        },
+        {
+          "linkId": "maternal-3.7.3",
+          "text": "Batch No",
+          "type": "string"
+        },
+        {
+          "linkId": "maternal-3.7.4",
+          "text": "Tarikh Luput",
+          "type": "dateTime"
+        }
+      ]
+    }
+  ]
+}

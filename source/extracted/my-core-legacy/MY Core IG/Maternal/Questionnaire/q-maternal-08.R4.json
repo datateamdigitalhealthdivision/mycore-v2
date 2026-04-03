@@ -1,0 +1,52 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-maternal-08",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-08",
+  "version": "1.0.0",
+  "name": "QMaternal08",
+  "title": "Senarai Semak Kriteria Untuk Ujian Saringan OGTT",
+  "status": "active",
+  "date": "2023-08-30T01:19:04.1804145+00:00",
+  "item": [
+    {
+      "linkId": "maternal-8.1",
+      "text": "BMI >27 kg/m2",
+      "type": "boolean"
+    },
+    {
+      "linkId": "maternal-8.2",
+      "text": "Sejarah Gestational Diabetes Mellitus (GDM)",
+      "type": "boolean"
+    },
+    {
+      "linkId": "maternal-8.3",
+      "text": "Sejarah keluarga terdekat dengan diabetes",
+      "type": "boolean"
+    },
+    {
+      "linkId": "maternal-8.4",
+      "text": "Sejarah melahirkan bayi macrosomia (berat bayi ≥4 kg)",
+      "type": "boolean"
+    },
+    {
+      "linkId": "maternal-8.5",
+      "text": "Bad Obstetric History: Sejarah kelahiran IUD/ Stillbirth, kecacatan kongenital (contoh : neural tube defects, cardiac defects), shoulder dystocia",
+      "type": "boolean"
+    },
+    {
+      "linkId": "maternal-8.6",
+      "text": "Glycosuria ≥ 2 kali",
+      "type": "boolean"
+    },
+    {
+      "linkId": "maternal-8.7",
+      "text": "Masalah obstetrik sekarang (Hypertensive disease in pregnancy, Polyhdramnios, menerima rawatan Corticosteriods)",
+      "type": "boolean"
+    },
+    {
+      "linkId": "maternal-8.8",
+      "text": "Umur ≥25 tahun (walaupun tanpa faktor risiko GDM yang lain)",
+      "type": "boolean"
+    }
+  ]
+}

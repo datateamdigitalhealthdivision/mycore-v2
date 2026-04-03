@@ -1,0 +1,404 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-child-ds-10-23m",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "identifier": {
+        "system": "http://fhir.hie.moh.gov.my/sid/template-section",
+        "value": "qr-child-ds-10-23m"
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-child-ds-10-23m",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/3a1fe467-cad5-4ec9-83f8-fd6dfb46470c"
+    },
+    "authored": "2023-04-27T00:20:14.414Z",
+    "item": [
+        {
+            "linkId": "child-ds-10-23m.1",
+            "text": "Tarikh",
+            "answer": [
+                {
+                    "valueDateTime": "2023-06-13T04:47:26.432Z"
+                }
+            ]
+        },
+        {
+            "linkId": "child-ds-10-23m.2",
+            "text": "Umur semasa lawatan",
+            "answer": [
+                {
+                    "valueQuantity": {
+                        "value": 11,
+                        "unit": "bulan"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "child-ds-10-23m.3",
+            "text": "Soalan-soalan",
+            "item": [
+                {
+                    "linkId": "child-ds-10-23m.3.1",
+                    "text": "Anak dibiar tertidur dengan botol susu di dalam mulut atau ketika menyusu badan",
+                    "answer": [
+                        {
+                            "valueBoolean": true,
+                            "item": [
+                                {
+                                    "linkId": "child-ds-10-23m.3.1.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "enter string here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-10-23m.3.2",
+                    "text": "Ibubapa/penjaga pernah mendengar tentang karies botol susu",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-10-23m.3.3",
+                    "text": "Pernah mencampurkan gula ke dalam susu anak",
+                    "answer": [
+                        {
+                            "valueBoolean": true,
+                            "item": [
+                                {
+                                    "linkId": "child-ds-10-23m.3.3.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "enter string here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-10-23m.3.4",
+                    "text": "Memberi minuman lain selain daripada susu dengan menggunakan botol susu",
+                    "answer": [
+                        {
+                            "valueBoolean": true,
+                            "item": [
+                                {
+                                    "linkId": "child-ds-10-23m.3.4.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "enter string here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-10-23m.3.5",
+                    "text": "Kerap memberi makanan ringan (snek) di antara waktu makan utama. Jika YA berapa kerap?",
+                    "answer": [
+                        {
+                            "valueBoolean": true,
+                            "item": [
+                                {
+                                    "linkId": "child-ds-10-23m.3.5.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "enter string here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-10-23m.3.6",
+                    "text": "Anak menghisap puting tiruan atau jari",
+                    "answer": [
+                        {
+                            "valueBoolean": true,
+                            "item": [
+                                {
+                                    "linkId": "child-ds-10-23m.3.6.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "enter string here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-10-23m.3.7",
+                    "text": "Ibu bapa/ penjaga pernah memeriksa mulut anak",
+                    "answer": [
+                        {
+                            "valueBoolean": true,
+                            "item": [
+                                {
+                                    "linkId": "child-ds-10-23m.3.7.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "enter string here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-10-23m.3.8",
+                    "text": "Membersihkan mulut anak setiap hari. Jika YA berapa kerap?",
+                    "answer": [
+                        {
+                            "valueBoolean": true,
+                            "item": [
+                                {
+                                    "linkId": "child-ds-10-23m.3.8.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "enter string here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-10-23m.3.9",
+                    "text": "Menggunakan ubat gigi ketika memberus gigi anak",
+                    "answer": [
+                        {
+                            "valueBoolean": true,
+                            "item": [
+                                {
+                                    "linkId": "child-ds-10-23m.3.9.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "enter string here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-10-23m.3.10",
+                    "text": "Pernah membawa anak membuat pemeriksaan gigi. Jika YA berapa kerap?",
+                    "answer": [
+                        {
+                            "valueBoolean": true,
+                            "item": [
+                                {
+                                    "linkId": "child-ds-10-23m.3.10.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "enter string here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "child-ds-10-23m.4",
+            "text": "Bimbingan awal",
+            "item": [
+                {
+                    "linkId": "child-ds-10-23m.4.1",
+                    "text": "Gigi susu adalah penting untuk pembentukan gigi kekal yang sempurna.",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-10-23m.4.2",
+                    "text": "Karies botol susu boleh dielakkan dengan: \na. Tidak membiarkan anak anda tidur dengan menghisap botol susu dalam mulut. \nb. Mengalihkan botol susu dari mulut anak anda dengan perlahan sebaik sahaja anak anda habis menyusu/ tertidur. \nc. Menggunakan cawan bila anak anda berumur 6 bulan ke atas. \nd. Menggalakkan anak anda minum air kosong setiap kali selepas menyusu.",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-10-23m.4.3",
+                    "text": "Mengelakkan anak anda berkongsi makanan dan minuman dengan sesiapa sahaja bagi mencegah jangkitan kuman.",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-10-23m.4.4",
+                    "text": "Gula tersembunyi boleh membahayakan kesihatan anak anda. Oleh itu: \na. Kurangkan makanan dan minuman manis antara waktu makan tetap. \nb. Elakkan dari menambah gula ke dalam susu anak anda. \nc. Elakkan dari menyalut puting dengan madu/manisan.",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-10-23m.4.5",
+                    "text": "Elakkan bayi anda menghisap jari atau puting. Ini akan menyebabkan perubahan bentuk pada rahang (jongang).",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-10-23m.4.6",
+                    "text": "Penjagaan gigi \na. Sentiasa periksa gigi dengan mengangkat bibir anak anda. \nb. Cuci gigi anak anda dengan kain lembut yang basah semasa mandi dan sebelum tidur, sebaik sahaja gigi susu pertama tumbuh. \nc. Berus gigi anak anda dengan berus gigi yang lembut dan ubat gigi apabila gigi bertambah.",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-10-23m.4.7",
+                    "text": "Sekiranya berlakunya trauma/kecederaan pada mulut atau gigi anak anda, sila bawa anak ke klinik pergigian berdekatan",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "child-ds-10-23m.5",
+            "text": "Pemeriksaan",
+            "item": [
+                {
+                    "linkId": "child-ds-10-23m.5.1",
+                    "text": "Bilangan gigi yang ada",
+                    "answer": [
+                        {
+                            "valueString": "enter string here"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-10-23m.5.2",
+                    "text": "Kesihatan mulut: \n- Plak \n- Karies (Bil Gigi)",
+                    "answer": [
+                        {
+                            "valueString": "enter string here"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-10-23m.5.3",
+                    "text": "Keganjilan lain yang dikesan: \n- Ulser \n- White Spot \n- Abscess",
+                    "answer": [
+                        {
+                            "valueString": "enter string here"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-10-23m.5.4",
+                    "text": "Kecederaan \n-Trauma \n- Patah Gigi",
+                    "answer": [
+                        {
+                            "valueString": "enter string here"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-10-23m.5.5",
+                    "text": "Catatan",
+                    "answer": [
+                        {
+                            "valueString": "enter string here"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "child-ds-10-23m.6",
+            "text": "Caries Risk Assessment",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://snomed.info/sct",
+                        "code": "25594002",
+                        "display": "Moderate Risk"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "child-ds-10-23m.7",
+            "text": "Rujuk Kepada Pegawai/Jururawat Pergigian",
+            "item": [
+                {
+                    "linkId": "child-ds-10-23m.7.1",
+                    "text": "Tarikh Temujanji",
+                    "answer": [
+                        {
+                            "valueDateTime": "2023-06-20T04:47:56.007Z"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-10-23m.7.2",
+                    "text": "Tarikh Rawatan",
+                    "answer": [
+                        {
+                            "valueDateTime": "2023-06-18T04:47:57.975Z"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-10-23m.7.3",
+                    "text": "Catatan",
+                    "answer": [
+                        {
+                            "valueString": "enter string here"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-maternal-09",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-09",
+  "version": "1.0.0",
+  "name": "QMaternal09",
+  "title": "Keputusan Ujian OGTT",
+  "status": "active",
+  "date": "2023-08-30T01:19:04.1804145+00:00",
+  "item": [
+    {
+      "linkId": "maternal-9.1",
+      "text": "Keputusan Ujian OGTT",
+      "type": "group",
+      "repeats": true,
+      "item": [
+        {
+          "linkId": "maternal-9.1.1",
+          "text": "Tarikh",
+          "type": "dateTime"
+        },
+        {
+          "linkId": "maternal-9.1.2",
+          "text": "POG",
+          "type": "quantity"
+        },
+        {
+          "linkId": "maternal-9.1.3",
+          "text": "Fasting Blood Sugar",
+          "type": "quantity"
+        },
+        {
+          "linkId": "maternal-9.1.4",
+          "text": "2H Postprandial",
+          "type": "quantity"
+        }
+      ]
+    }
+  ]
+}

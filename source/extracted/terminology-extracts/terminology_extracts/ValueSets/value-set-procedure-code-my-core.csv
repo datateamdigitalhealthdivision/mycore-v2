@@ -1,0 +1,11 @@
+code,display,system,include_type,valueset_url,valueset_name
+*,Include all concepts from system,http://fhir.hie.moh.gov.my/CodeSystem/procedure-my-core,include-all,http://fhir.hie.moh.gov.my/ValueSet/procedure-code-my-core,ValueSetProcedureCodeMyCore
+*,Include all concepts from system,http://fhir.hie.moh.gov.my/CodeSystem/minor-procedure-my-core,include-all,http://fhir.hie.moh.gov.my/ValueSet/procedure-code-my-core,ValueSetProcedureCodeMyCore
+*,Include all concepts from system,http://fhir.hie.moh.gov.my/CodeSystem/diagnostic-procedure-my-core,include-all,http://fhir.hie.moh.gov.my/ValueSet/procedure-code-my-core,ValueSetProcedureCodeMyCore
+*,Include all concepts from system,http://fhir.hie.moh.gov.my/CodeSystem/treatment-procedure-my-core,include-all,http://fhir.hie.moh.gov.my/ValueSet/procedure-code-my-core,ValueSetProcedureCodeMyCore
+*,Include all concepts from system,http://fhir.hie.moh.gov.my/CodeSystem/phlebotomy-my-core,include-all,http://fhir.hie.moh.gov.my/ValueSet/procedure-code-my-core,ValueSetProcedureCodeMyCore
+*,Include all concepts from system,http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core,include-all,http://fhir.hie.moh.gov.my/ValueSet/procedure-code-my-core,ValueSetProcedureCodeMyCore
+*,Include all concepts from system,http://fhir.hie.moh.gov.my/CodeSystem/ophthalmic-procedure-my-core,include-all,http://fhir.hie.moh.gov.my/ValueSet/procedure-code-my-core,ValueSetProcedureCodeMyCore
+*,Include all concepts from system,http://fhir.hie.moh.gov.my/CodeSystem/nutritionist-consultation-my-core,include-all,http://fhir.hie.moh.gov.my/ValueSet/procedure-code-my-core,ValueSetProcedureCodeMyCore
+*,Include all concepts from system,http://fhir.hie.moh.gov.my/CodeSystem/cooking-demonstration-my-core,include-all,http://fhir.hie.moh.gov.my/ValueSet/procedure-code-my-core,ValueSetProcedureCodeMyCore
+117078000,Transfusion of platelet concentrate,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/procedure-code-my-core,ValueSetProcedureCodeMyCore

@@ -1,0 +1,18 @@
+code,display,definition,system_url,system_name
+00,No Information,No Information,http://fhir.hie.moh.gov.my/CodeSystem/ethnic-my-core,CodeSystemEthnicMyCore
+01,Melayu,Melayu,http://fhir.hie.moh.gov.my/CodeSystem/ethnic-my-core,CodeSystemEthnicMyCore
+02,Cina,Cina,http://fhir.hie.moh.gov.my/CodeSystem/ethnic-my-core,CodeSystemEthnicMyCore
+03,India,India,http://fhir.hie.moh.gov.my/CodeSystem/ethnic-my-core,CodeSystemEthnicMyCore
+04,Orang Asli Semenanjung,Orang Asli Semenanjung,http://fhir.hie.moh.gov.my/CodeSystem/ethnic-my-core,CodeSystemEthnicMyCore
+05,Bajau,Bajau,http://fhir.hie.moh.gov.my/CodeSystem/ethnic-my-core,CodeSystemEthnicMyCore
+06,Dusun,Dusun,http://fhir.hie.moh.gov.my/CodeSystem/ethnic-my-core,CodeSystemEthnicMyCore
+07,Kadazan,Kadazan,http://fhir.hie.moh.gov.my/CodeSystem/ethnic-my-core,CodeSystemEthnicMyCore
+08,Murut,Murut,http://fhir.hie.moh.gov.my/CodeSystem/ethnic-my-core,CodeSystemEthnicMyCore
+10,Bumiputera Sabah Lain,Bumiputera Sabah Lain,http://fhir.hie.moh.gov.my/CodeSystem/ethnic-my-core,CodeSystemEthnicMyCore
+11,Melanau,Melanau,http://fhir.hie.moh.gov.my/CodeSystem/ethnic-my-core,CodeSystemEthnicMyCore
+12,Kedayan,Kedayan,http://fhir.hie.moh.gov.my/CodeSystem/ethnic-my-core,CodeSystemEthnicMyCore
+13,Iban,Iban,http://fhir.hie.moh.gov.my/CodeSystem/ethnic-my-core,CodeSystemEthnicMyCore
+14,Bidayuh,Bidayuh,http://fhir.hie.moh.gov.my/CodeSystem/ethnic-my-core,CodeSystemEthnicMyCore
+15,Bumiputera Sarawak Lain,Bumiputera Sarawak Lain,http://fhir.hie.moh.gov.my/CodeSystem/ethnic-my-core,CodeSystemEthnicMyCore
+17,Bukan Warganegara,Bukan Warganegara,http://fhir.hie.moh.gov.my/CodeSystem/ethnic-my-core,CodeSystemEthnicMyCore
+99,Lain-lain,Lain-lain,http://fhir.hie.moh.gov.my/CodeSystem/ethnic-my-core,CodeSystemEthnicMyCore

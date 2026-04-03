@@ -1,0 +1,68 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-maternal-26",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "identifier": {
+        "system": "http://fhir.hie.moh.gov.my/sid/template-section",
+        "value": "qr-maternal-26"
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-26",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/3a1fe467-cad5-4ec9-83f8-fd6dfb46470c"
+    },
+    "authored": "2023-04-27T00:20:14+08:00",
+    "author":{
+        "reference":"PractitionerRole/08a661a4-2855-47e9-8e2e-cbb43f785ecf/_history/3"
+    },
+    "item": [
+        {
+            "linkId": "maternal-26.1",
+            "text": "Nama ubat",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://snomed.info/sct",
+                        "code": "373294004",
+                        "display": "Low Molecular Weight Heparin"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-26.2",
+            "text": "Dos",
+            "answer": [
+                {
+                    "valueQuantity": {
+                        "value": 2121,
+                        "unit": "mg"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-26.3",
+            "text": "Tarikh",
+            "answer": [
+                {
+                    "valueDate": "2023-06-13"
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-26.4",
+            "text": "Masa",
+            "answer": [
+                {
+                    "valueDateTime": "2023-06-12T03:55:08+08:00"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-drug-sub-group-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetDrugSubGroup (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/ValueSet/drug-sub-group-my-core</tt><p>Drug Sub Group</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/drug-sub-group-my-core",
+  "name": "ValueSetDrugSubGroupMyCore",
+  "title": "ValueSetDrugSubGroup (MY Core)",
+  "status": "active",
+  "date": "2023-01-03T04:47:56.9010407+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Drug Sub Group",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/drug-sub-group-my-core"
+      }
+    ]
+  }
+}

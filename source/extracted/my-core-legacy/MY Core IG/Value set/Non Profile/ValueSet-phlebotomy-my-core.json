@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-phlebotomy-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetPhlebotomy (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/ValueSet/phlebotomy-my-core</tt><p>Phlebotomy</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/phlebotomy-my-core",
+  "name": "ValueSetPhlebotomyMyCore",
+  "title": "ValueSetPhlebotomy (MY Core)",
+  "status": "active",
+  "date": "2023-01-12T07:17:10.431612+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Phlebotomy",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/phlebotomy-my-core"
+      }
+    ]
+  }
+}

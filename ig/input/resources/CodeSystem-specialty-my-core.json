@@ -1,0 +1,1138 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "specialty-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/specialty-my-core",
+  "version": "2.0.0",
+  "name": "CodeSystemSpecialtyMyCore",
+  "title": "CodeSystemSpecialty (MY Core)",
+  "status": "active",
+  "date": "2023-09-21T01:23:50.8726413+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "description": "Specialty My Core",
+  "compositional": false,
+  "content": "complete",
+  "count": 223,
+  "concept": [
+    {
+      "code": "10",
+      "display": "Infectious Disease",
+      "definition": "Infectious Disease"
+    },
+    {
+      "code": "11",
+      "display": "Advanced Internal Medicine",
+      "definition": "Advanced Internal Medicine"
+    },
+    {
+      "code": "12",
+      "display": "Medical Oncology",
+      "definition": "Medical Oncology"
+    },
+    {
+      "code": "13",
+      "display": "Nephrology",
+      "definition": "Nephrology"
+    },
+    {
+      "code": "14",
+      "display": "Neurology",
+      "definition": "Neurology"
+    },
+    {
+      "code": "15",
+      "display": "Palliative Care",
+      "definition": "Palliative Care"
+    },
+    {
+      "code": "16",
+      "display": "Respiratory Medicine",
+      "definition": "Respiratory Medicine"
+    },
+    {
+      "code": "17",
+      "display": "Rheumatology",
+      "definition": "Rheumatology"
+    },
+    {
+      "code": "19",
+      "display": "General Surgery",
+      "definition": "General Surgery"
+    },
+    {
+      "code": "20",
+      "display": "Breast & Endocrine Surgery",
+      "definition": "Breast & Endocrine Surgery"
+    },
+    {
+      "code": "21",
+      "display": "Burns & Trauma Surgery",
+      "definition": "Burns & Trauma Surgery"
+    },
+    {
+      "code": "22",
+      "display": "Cardiothoracic Surgery",
+      "definition": "Cardiothoracic Surgery"
+    },
+    {
+      "code": "23",
+      "display": "Colorectal Surgery",
+      "definition": "Colorectal Surgery"
+    },
+    {
+      "code": "24",
+      "display": "Surgical Oncology",
+      "definition": "Surgical Oncology"
+    },
+    {
+      "code": "25",
+      "display": "Hepatopancreaticobiliary (HPB) Surgery",
+      "definition": "Hepatopancreaticobiliary (HPB) Surgery"
+    },
+    {
+      "code": "26",
+      "display": "Neurosurgery",
+      "definition": "Neurosurgery"
+    },
+    {
+      "code": "27",
+      "display": "Paediatric Surgery",
+      "definition": "Paediatric Surgery"
+    },
+    {
+      "code": "28",
+      "display": "Plastic & Reconstructive Surgery",
+      "definition": "Plastic & Reconstructive Surgery"
+    },
+    {
+      "code": "29",
+      "display": "Thoracic Surgery",
+      "definition": "Thoracic Surgery"
+    },
+    {
+      "code": "30",
+      "display": "Upper Gastrointestinal Surgery",
+      "definition": "Upper Gastrointestinal Surgery"
+    },
+    {
+      "code": "31",
+      "display": "Urology",
+      "definition": "Urology"
+    },
+    {
+      "code": "32",
+      "display": "Vascular Surgery",
+      "definition": "Vascular Surgery"
+    },
+    {
+      "code": "34",
+      "display": "General Obstetrics & Gynaecology",
+      "definition": "General Obstetrics & Gynaecology"
+    },
+    {
+      "code": "35",
+      "display": "Gynae-oncology",
+      "definition": "Gynae-oncology"
+    },
+    {
+      "code": "36",
+      "display": "Maternal Fetal Medicine",
+      "definition": "Maternal Fetal Medicine"
+    },
+    {
+      "code": "37",
+      "display": "Reproductive Medicine",
+      "definition": "Reproductive Medicine"
+    },
+    {
+      "code": "38",
+      "display": "Urogynaecology",
+      "definition": "Urogynaecology"
+    },
+    {
+      "code": "40",
+      "display": "General Paediatrics",
+      "definition": "General Paediatrics"
+    },
+    {
+      "code": "41",
+      "display": "Adolescent Medicine",
+      "definition": "Adolescent Medicine"
+    },
+    {
+      "code": "42",
+      "display": "Developmental Paeds",
+      "definition": "Developmental Paeds"
+    },
+    {
+      "code": "43",
+      "display": "Clinical Genetics",
+      "definition": "Clinical Genetics"
+    },
+    {
+      "code": "44",
+      "display": "Neonatology",
+      "definition": "Neonatology"
+    },
+    {
+      "code": "45",
+      "display": "Paediatric Cardiology",
+      "definition": "Paediatric Cardiology"
+    },
+    {
+      "code": "46",
+      "display": "Paediatric Palliative Medicine",
+      "definition": "Paediatric Palliative Medicine"
+    },
+    {
+      "code": "47",
+      "display": "Paediatric Dermatology",
+      "definition": "Paediatric Dermatology"
+    },
+    {
+      "code": "48",
+      "display": "Paediatric Emergency Medicine",
+      "definition": "Paediatric Emergency Medicine"
+    },
+    {
+      "code": "49",
+      "display": "Paediatric Endocrine",
+      "definition": "Paediatric Endocrine"
+    },
+    {
+      "code": "50",
+      "display": "Paediatric Gastroenterology",
+      "definition": "Paediatric Gastroenterology"
+    },
+    {
+      "code": "51",
+      "display": "Paediatric Haemato-oncology",
+      "definition": "Paediatric Haemato-oncology"
+    },
+    {
+      "code": "52",
+      "display": "Paediatric Infectious Diseases",
+      "definition": "Paediatric Infectious Diseases"
+    },
+    {
+      "code": "53",
+      "display": "Paediatric Intensive Care",
+      "definition": "Paediatric Intensive Care"
+    },
+    {
+      "code": "54",
+      "display": "Paediatric Rheumatology",
+      "definition": "Paediatric Rheumatology"
+    },
+    {
+      "code": "55",
+      "display": "Paediatrics Nephrology",
+      "definition": "Paediatrics Nephrology"
+    },
+    {
+      "code": "56",
+      "display": "Paediatrics Neurology",
+      "definition": "Paediatrics Neurology"
+    },
+    {
+      "code": "57",
+      "display": "Paediatrics Respiratory Medicine",
+      "definition": "Paediatrics Respiratory Medicine"
+    },
+    {
+      "code": "59",
+      "display": "General Orthopaedics",
+      "definition": "General Orthopaedics"
+    },
+    {
+      "code": "60",
+      "display": "Joint Arthroplasty",
+      "definition": "Joint Arthroplasty"
+    },
+    {
+      "code": "61",
+      "display": "Arthroscopy & Sports Surgery",
+      "definition": "Arthroscopy & Sports Surgery"
+    },
+    {
+      "code": "62",
+      "display": "Advanced Musculoskeletal Trauma",
+      "definition": "Advanced Musculoskeletal Trauma"
+    },
+    {
+      "code": "63",
+      "display": "Foot & Ankle Surgery",
+      "definition": "Foot & Ankle Surgery"
+    },
+    {
+      "code": "64",
+      "display": "Oncology Orthopaedic",
+      "definition": "Oncology Orthopaedic"
+    },
+    {
+      "code": "65",
+      "display": "Paediatric Orthopaedic",
+      "definition": "Paediatric Orthopaedic"
+    },
+    {
+      "code": "66",
+      "display": "Spine Surgery",
+      "definition": "Spine Surgery"
+    },
+    {
+      "code": "67",
+      "display": "Upper Limb, Hand  & Microsurgery",
+      "definition": "Upper Limb, Hand  & Microsurgery"
+    },
+    {
+      "code": "69",
+      "display": "General Ophthalmology",
+      "definition": "General Ophthalmology"
+    },
+    {
+      "code": "70",
+      "display": "Cornea",
+      "definition": "Cornea"
+    },
+    {
+      "code": "71",
+      "display": "Neuro Ophthalmology",
+      "definition": "Neuro Ophthalmology"
+    },
+    {
+      "code": "72",
+      "display": "Glaucoma",
+      "definition": "Glaucoma"
+    },
+    {
+      "code": "73",
+      "display": "Medical Retinal",
+      "definition": "Medical Retinal"
+    },
+    {
+      "code": "74",
+      "display": "Oculoplastic Surgery",
+      "definition": "Oculoplastic Surgery"
+    },
+    {
+      "code": "75",
+      "display": "Paediatric Ophthalmology",
+      "definition": "Paediatric Ophthalmology"
+    },
+    {
+      "code": "76",
+      "display": "Vitreoretinal",
+      "definition": "Vitreoretinal"
+    },
+    {
+      "code": "78",
+      "display": "General Otorhinolaryngology",
+      "definition": "General Otorhinolaryngology"
+    },
+    {
+      "code": "79",
+      "display": "Head & Neck Surgery",
+      "definition": "Head & Neck Surgery"
+    },
+    {
+      "code": "80",
+      "display": "Otology/Skull Based Surgery",
+      "definition": "Otology/Skull Based Surgery"
+    },
+    {
+      "code": "81",
+      "display": "Paediatric ORL",
+      "definition": "Paediatric ORL"
+    },
+    {
+      "code": "82",
+      "display": "Rhinology",
+      "definition": "Rhinology"
+    },
+    {
+      "code": "84",
+      "display": "General Psychiatry",
+      "definition": "General Psychiatry"
+    },
+    {
+      "code": "85",
+      "display": "Child & Adolescent Psychiatry",
+      "definition": "Child & Adolescent Psychiatry"
+    },
+    {
+      "code": "86",
+      "display": "Addiction & Substance Abuse",
+      "definition": "Addiction & Substance Abuse"
+    },
+    {
+      "code": "87",
+      "display": "Community & Rehab Psychiatry",
+      "definition": "Community & Rehab Psychiatry"
+    },
+    {
+      "code": "88",
+      "display": "Forensic Psychiatry",
+      "definition": "Forensic Psychiatry"
+    },
+    {
+      "code": "89",
+      "display": "Liaison Psychiatry",
+      "definition": "Liaison Psychiatry"
+    },
+    {
+      "code": "90",
+      "display": "Neuropsychiatry",
+      "definition": "Neuropsychiatry"
+    },
+    {
+      "code": "91",
+      "display": "Psychogeriatrics",
+      "definition": "Psychogeriatrics"
+    },
+    {
+      "code": "93",
+      "display": "General Rehabilitation Medicine",
+      "definition": "General Rehabilitation Medicine"
+    },
+    {
+      "code": "95",
+      "display": "General Nuclear Medicine",
+      "definition": "General Nuclear Medicine"
+    },
+    {
+      "code": "97",
+      "display": "General Radiotherapy/Clinical Oncology",
+      "definition": "General Radiotherapy/Clinical Oncology"
+    },
+    {
+      "code": "105",
+      "display": "General Emergency Medicine",
+      "definition": "General Emergency Medicine"
+    },
+    {
+      "code": "107",
+      "display": "General Sports Medicine",
+      "definition": "General Sports Medicine"
+    },
+    {
+      "code": "109",
+      "display": "General Anaesthesiology",
+      "definition": "General Anaesthesiology"
+    },
+    {
+      "code": "110",
+      "display": "Obstetric Anaesthesia",
+      "definition": "Obstetric Anaesthesia"
+    },
+    {
+      "code": "111",
+      "display": "Paediatric Anaesthesia",
+      "definition": "Paediatric Anaesthesia"
+    },
+    {
+      "code": "112",
+      "display": "Adult Intensive Care",
+      "definition": "Adult Intensive Care"
+    },
+    {
+      "code": "113",
+      "display": "Cardiac Anaesthesia",
+      "definition": "Cardiac Anaesthesia"
+    },
+    {
+      "code": "114",
+      "display": "Neuroanaesthesia & Trauma",
+      "definition": "Neuroanaesthesia & Trauma"
+    },
+    {
+      "code": "115",
+      "display": "Pain Management",
+      "definition": "Pain Management"
+    },
+    {
+      "code": "117",
+      "display": "Anatomical Pathology (Histhopathology)",
+      "definition": "Anatomical Pathology (Histhopathology)"
+    },
+    {
+      "code": "118",
+      "display": "Chemical Pathology",
+      "definition": "Chemical Pathology"
+    },
+    {
+      "code": "119",
+      "display": "Haematology",
+      "definition": "Haematology"
+    },
+    {
+      "code": "120",
+      "display": "Medical Microbiology",
+      "definition": "Medical Microbiology"
+    },
+    {
+      "code": "122",
+      "display": "General Transfusion Medicine",
+      "definition": "General Transfusion Medicine"
+    },
+    {
+      "code": "124",
+      "display": "General Radiology",
+      "definition": "General Radiology"
+    },
+    {
+      "code": "125",
+      "display": "Interventional Radiology",
+      "definition": "Interventional Radiology"
+    },
+    {
+      "code": "126",
+      "display": "Paediatric Radiology",
+      "definition": "Paediatric Radiology"
+    },
+    {
+      "code": "127",
+      "display": "Breast & Endocrine",
+      "definition": "Breast & Endocrine"
+    },
+    {
+      "code": "128",
+      "display": "Cardiac Radiology",
+      "definition": "Cardiac Radiology"
+    },
+    {
+      "code": "129",
+      "display": "Gastro Hepatobiliary",
+      "definition": "Gastro Hepatobiliary"
+    },
+    {
+      "code": "130",
+      "display": "Uroradiology",
+      "definition": "Uroradiology"
+    },
+    {
+      "code": "131",
+      "display": "Musculoskeletal Radiology",
+      "definition": "Musculoskeletal Radiology"
+    },
+    {
+      "code": "132",
+      "display": "Women's Imaging",
+      "definition": "Women's Imaging"
+    },
+    {
+      "code": "133",
+      "display": "Forensic Radiology",
+      "definition": "Forensic Radiology"
+    },
+    {
+      "code": "134",
+      "display": "Neuroradiology",
+      "definition": "Neuroradiology"
+    },
+    {
+      "code": "136",
+      "display": "General Forensic Medicine",
+      "definition": "General Forensic Medicine"
+    },
+    {
+      "code": "137",
+      "display": "Clinical Forensic Medicine",
+      "definition": "Clinical Forensic Medicine"
+    },
+    {
+      "code": "138",
+      "display": "Forensic Anthropology",
+      "definition": "Forensic Anthropology"
+    },
+    {
+      "code": "139",
+      "display": "Forensic Pathology",
+      "definition": "Forensic Pathology"
+    },
+    {
+      "code": "140",
+      "display": "Forensic Toxicology",
+      "definition": "Forensic Toxicology"
+    },
+    {
+      "code": "142",
+      "display": "General Multi Disciplines",
+      "definition": "General Multi Disciplines"
+    },
+    {
+      "code": "143",
+      "display": "Obstetrics",
+      "definition": "Obstetrics"
+    },
+    {
+      "code": "144",
+      "display": "Gynaecology",
+      "definition": "Gynaecology"
+    },
+    {
+      "code": "146",
+      "display": "General Family Medicine",
+      "definition": "General Family Medicine"
+    },
+    {
+      "code": "148",
+      "display": "Public Health Medicine",
+      "definition": "Public Health Medicine"
+    },
+    {
+      "code": "149",
+      "display": "Communicable Disease",
+      "definition": "Communicable Disease"
+    },
+    {
+      "code": "150",
+      "display": "Non-communicable Disease",
+      "definition": "Non-communicable Disease"
+    },
+    {
+      "code": "151",
+      "display": "Family Health",
+      "definition": "Family Health"
+    },
+    {
+      "code": "152",
+      "display": "Health Management",
+      "definition": "Health Management"
+    },
+    {
+      "code": "153",
+      "display": "Occupational Health",
+      "definition": "Occupational Health"
+    },
+    {
+      "code": "154",
+      "display": "Environmental Health",
+      "definition": "Environmental Health"
+    },
+    {
+      "code": "155",
+      "display": "Military Medicine",
+      "definition": "Military Medicine"
+    },
+    {
+      "code": "156",
+      "display": "Paediatric Rehabilitation Medicine",
+      "definition": "Paediatric Rehabilitation Medicine"
+    },
+    {
+      "code": "157",
+      "display": "General Paediatrics & Child Health",
+      "definition": "General Paediatrics & Child Health"
+    },
+    {
+      "code": "158",
+      "display": "Comprehensive Ophthalmology",
+      "definition": "Comprehensive Ophthalmology"
+    },
+    {
+      "code": "163",
+      "display": "Clinical Toxicology",
+      "definition": "Clinical Toxicology"
+    },
+    {
+      "code": "164",
+      "display": "Emergency Critical Care",
+      "definition": "Emergency Critical Care"
+    },
+    {
+      "code": "165",
+      "display": "Emergency Trauma Care",
+      "definition": "Emergency Trauma Care"
+    },
+    {
+      "code": "166",
+      "display": "Pre-Hospital Care & Disaster",
+      "definition": "Pre-Hospital Care & Disaster"
+    },
+    {
+      "code": "167",
+      "display": "Paediatric Emergency Medicine",
+      "definition": "Paediatric Emergency Medicine"
+    },
+    {
+      "code": "168",
+      "display": "Regional Anaethesia",
+      "definition": "Regional Anaethesia"
+    },
+    {
+      "code": "169",
+      "display": "General Pathology",
+      "definition": "General Pathology"
+    },
+    {
+      "code": "170",
+      "display": "Oncology Imaging",
+      "definition": "Oncology Imaging"
+    },
+    {
+      "code": "171",
+      "display": "Head & Neck Radiology",
+      "definition": "Head & Neck Radiology"
+    },
+    {
+      "code": "172",
+      "display": "Thoracic Imaging",
+      "definition": "Thoracic Imaging"
+    },
+    {
+      "code": "173",
+      "display": "Emergency Radiology",
+      "definition": "Emergency Radiology"
+    },
+    {
+      "code": "174",
+      "display": "Paediatric Forensic Medicine",
+      "definition": "Paediatric Forensic Medicine"
+    },
+    {
+      "code": "176",
+      "display": "General Special Care Dentistry",
+      "definition": "General Special Care Dentistry"
+    },
+    {
+      "code": "178",
+      "display": "General Forensic Odontology",
+      "definition": "General Forensic Odontology"
+    },
+    {
+      "code": "180",
+      "display": "General Oral Pathology & Oral Medicine",
+      "definition": "General Oral Pathology & Oral Medicine"
+    },
+    {
+      "code": "182",
+      "display": "General Oral Maxillofacial Surgery",
+      "definition": "General Oral Maxillofacial Surgery"
+    },
+    {
+      "code": "184",
+      "display": "General Paediatric Dentistry",
+      "definition": "General Paediatric Dentistry"
+    },
+    {
+      "code": "186",
+      "display": "General Orthodontics",
+      "definition": "General Orthodontics"
+    },
+    {
+      "code": "188",
+      "display": "General Dental Public Health",
+      "definition": "General Dental Public Health"
+    },
+    {
+      "code": "190",
+      "display": "General Periodontology",
+      "definition": "General Periodontology"
+    },
+    {
+      "code": "192",
+      "display": "General Restorative Dentistry",
+      "definition": "General Restorative Dentistry"
+    },
+    {
+      "code": "194",
+      "display": "General Endodontics",
+      "definition": "General Endodontics"
+    },
+    {
+      "code": "196",
+      "display": "General Oral Maxillofacial Imaging",
+      "definition": "General Oral Maxillofacial Imaging"
+    },
+    {
+      "code": "198",
+      "display": "General Prosthodontics",
+      "definition": "General Prosthodontics"
+    },
+    {
+      "code": "500",
+      "display": "Adult Health (Health screening)",
+      "definition": "Adult Health (Health screening)"
+    },
+    {
+      "code": "501",
+      "display": "Antenatal Clinic",
+      "definition": "Antenatal Clinic"
+    },
+    {
+      "code": "502",
+      "display": "Children With Special Need",
+      "definition": "Children With Special Need"
+    },
+    {
+      "code": "503",
+      "display": "Community Health (Mobile clinic)",
+      "definition": "Community Health (Mobile clinic)"
+    },
+    {
+      "code": "504",
+      "display": "Dietetic Service",
+      "definition": "Dietetic Service"
+    },
+    {
+      "code": "505",
+      "display": "DOTS",
+      "definition": "DOTS"
+    },
+    {
+      "code": "506",
+      "display": "Domicilliary Care",
+      "definition": "Domicilliary Care"
+    },
+    {
+      "code": "507",
+      "display": "Family Planning",
+      "definition": "Family Planning"
+    },
+    {
+      "code": "508",
+      "display": "Home visit - Delivery",
+      "definition": "Home visit - Delivery"
+    },
+    {
+      "code": "509",
+      "display": "Home Visit - Others",
+      "definition": "Home Visit - Others"
+    },
+    {
+      "code": "510",
+      "display": "Home visit - Postnatal",
+      "definition": "Home visit - Postnatal"
+    },
+    {
+      "code": "511",
+      "display": "Methadone Clinic",
+      "definition": "Methadone Clinic"
+    },
+    {
+      "code": "512",
+      "display": "Nutrition Service",
+      "definition": "Nutrition Service"
+    },
+    {
+      "code": "513",
+      "display": "Mental Health",
+      "definition": "Mental Health"
+    },
+    {
+      "code": "514",
+      "display": "Postnatal Care - Baby",
+      "definition": "Postnatal Care - Baby"
+    },
+    {
+      "code": "515",
+      "display": "Postnatal Care - Mother",
+      "definition": "Postnatal Care - Mother"
+    },
+    {
+      "code": "516",
+      "display": "Pre-pregnancy Care",
+      "definition": "Pre-pregnancy Care"
+    },
+    {
+      "code": "517",
+      "display": "Occupational Therapy Service",
+      "definition": "Occupational Therapy Service"
+    },
+    {
+      "code": "518",
+      "display": "Physiotherapy Service",
+      "definition": "Physiotherapy Service"
+    },
+    {
+      "code": "519",
+      "display": "Counselling Service",
+      "definition": "Counselling Service"
+    },
+    {
+      "code": "520",
+      "display": "RME - IPT/MRSM/Badan Berkanun",
+      "definition": "RME - IPT/MRSM/Badan Berkanun"
+    },
+    {
+      "code": "521",
+      "display": "RME - Kerajaan (> 40 thn)/Medical Surveillance",
+      "definition": "RME - Kerajaan (> 40 thn)/Medical Surveillance"
+    },
+    {
+      "code": "522",
+      "display": "RME - Orang Awam/Insuran/Lesen/Umrah/Keluarga-Luar Negara",
+      "definition": "RME - Orang Awam/Insuran/Lesen/Umrah/Keluarga-Luar Negara"
+    },
+    {
+      "code": "523",
+      "display": "RME - Pelantikan Kerajaan/Jemaah Haji/Atlet/PLKN",
+      "definition": "RME - Pelantikan Kerajaan/Jemaah Haji/Atlet/PLKN"
+    },
+    {
+      "code": "524",
+      "display": "RME - Sekolah Berasrama",
+      "definition": "RME - Sekolah Berasrama"
+    },
+    {
+      "code": "525",
+      "display": "RME - Warga Asing",
+      "definition": "RME - Warga Asing"
+    },
+    {
+      "code": "526",
+      "display": "Saringan Pengantin",
+      "definition": "Saringan Pengantin"
+    },
+    {
+      "code": "527",
+      "display": "School Health",
+      "definition": "School Health"
+    },
+    {
+      "code": "528",
+      "display": "Smoking Cessation",
+      "definition": "Smoking Cessation"
+    },
+    {
+      "code": "529",
+      "display": "Medical Social Work Service",
+      "definition": "Medical Social Work Service"
+    },
+    {
+      "code": "530",
+      "display": "Womens Health (CBE)",
+      "definition": "Womens Health (CBE)"
+    },
+    {
+      "code": "531",
+      "display": "Diabetic Education",
+      "definition": "Diabetic Education"
+    },
+    {
+      "code": "532",
+      "display": "Whole Blood Donation",
+      "definition": "Whole Blood Donation"
+    },
+    {
+      "code": "533",
+      "display": "Vaccination",
+      "definition": "Vaccination"
+    },
+    {
+      "code": "534",
+      "display": "Platelet Apheresis Donation (A)",
+      "definition": "Platelet Apheresis Donation (A)"
+    },
+    {
+      "code": "535",
+      "display": "Platelet Apheresis Donation (B)",
+      "definition": "Platelet Apheresis Donation (B)"
+    },
+    {
+      "code": "536",
+      "display": "Platelet Apheresis Donation (O)",
+      "definition": "Platelet Apheresis Donation (O)"
+    },
+    {
+      "code": "537",
+      "display": "Platelet Apheresis Donation (AB)",
+      "definition": "Platelet Apheresis Donation (AB)"
+    },
+    {
+      "code": "538",
+      "display": "Plasma Apheresis Donation (A)",
+      "definition": "Plasma Apheresis Donation (A)"
+    },
+    {
+      "code": "539",
+      "display": "Plasma Apheresis Donation (B)",
+      "definition": "Plasma Apheresis Donation (B)"
+    },
+    {
+      "code": "540",
+      "display": "Plasma Apheresis Donation (O)",
+      "definition": "Plasma Apheresis Donation (O)"
+    },
+    {
+      "code": "541",
+      "display": "Plasma Apheresis Donation (AB)",
+      "definition": "Plasma Apheresis Donation (AB)"
+    },
+    {
+      "code": "542",
+      "display": "Medication Therapy Adherence Clinic (MTAC)",
+      "definition": "Medication Therapy Adherence Clinic (MTAC)"
+    },
+    {
+      "code": "543",
+      "display": "Medication Counselling (MC)",
+      "definition": "Medication Counselling (MC)"
+    },
+    {
+      "code": "544",
+      "display": "Therapeutic Drug Monitoring (TDM)",
+      "definition": "Therapeutic Drug Monitoring (TDM)"
+    },
+    {
+      "code": "545",
+      "display": "Parenteral Nutrition (PN)",
+      "definition": "Parenteral Nutrition (PN)"
+    },
+    {
+      "code": "546",
+      "display": "Cytotoxic Drug Reconstitution (CDR)",
+      "definition": "Cytotoxic Drug Reconstitution (CDR)"
+    },
+    {
+      "code": "547",
+      "display": "Radiopharmaceutical",
+      "definition": "Radiopharmaceutical"
+    },
+    {
+      "code": "548",
+      "display": "IV Admixture",
+      "definition": "IV Admixture"
+    },
+    {
+      "code": "549",
+      "display": "Galenical",
+      "definition": "Galenical"
+    },
+    {
+      "code": "550",
+      "display": "Ward Pharmacy",
+      "definition": "Ward Pharmacy"
+    },
+    {
+      "code": "551",
+      "display": "Drug Information & Consumer Education (DICE)",
+      "definition": "Drug Information & Consumer Education (DICE)"
+    },
+    {
+      "code": "552",
+      "display": "Primary Oral Health Care",
+      "definition": "Primary Oral Health Care"
+    },
+    {
+      "code": "553",
+      "display": "Dental School Health",
+      "definition": "Dental School Health"
+    },
+    {
+      "code": "554",
+      "display": "Men's Health",
+      "definition": "Men's Health"
+    },
+    {
+      "code": "555",
+      "display": "General Health screening",
+      "definition": "General Health screening"
+    },
+    {
+      "code": "556",
+      "display": "Clinical Psychology Service",
+      "definition": "Clinical Psychology Service"
+    },
+    {
+      "code": "557",
+      "display": "Speech Language Therapy Service",
+      "definition": "Speech Language Therapy Service"
+    },
+    {
+      "code": "558",
+      "display": "Audiology  Service",
+      "definition": "Audiology  Service"
+    },
+    {
+      "code": "559",
+      "display": "Jabatan Pesakit Luar",
+      "definition": "Jabatan Pesakit Luar"
+    },
+    {
+      "code": "560",
+      "display": "Procedure",
+      "definition": "Procedure"
+    },
+    {
+      "code": "561",
+      "display": "National Health Screening (NHSI)",
+      "definition": "National Health Screening (NHSI)"
+    },
+    {
+      "code": "562",
+      "display": "Peka B40 Screening",
+      "definition": "Peka B40 Screening"
+    },
+    {
+      "code": "563",
+      "display": "Information Technology",
+      "definition": "Information Technology"
+    },
+    {
+      "code": "02",
+      "display": "General Medicine",
+      "definition": "General Medicine"
+    },
+    {
+      "code": "03",
+      "display": "Cardiology",
+      "definition": "Cardiology"
+    },
+    {
+      "code": "04",
+      "display": "Clinical Haematology",
+      "definition": "Clinical Haematology"
+    },
+    {
+      "code": "05",
+      "display": "Dermatology",
+      "definition": "Dermatology"
+    },
+    {
+      "code": "06",
+      "display": "Endocrinology",
+      "definition": "Endocrinology"
+    },
+    {
+      "code": "07",
+      "display": "Gastroenterology",
+      "definition": "Gastroenterology"
+    },
+    {
+      "code": "08",
+      "display": "Geriatric",
+      "definition": "Geriatric"
+    },
+    {
+      "code": "09",
+      "display": "Hepatology",
+      "definition": "Hepatology"
+    },
+    {
+      "code": "564",
+      "display": "STD Clinic",
+      "definition": "STD Clinic"
+    },
+    {
+      "code": "565",
+      "display": "Combine Clinic",
+      "definition": "Combine Clinic"
+    },
+    {
+      "code": "566",
+      "display": "Keputusan Saringan Makmal",
+      "definition": "Keputusan Saringan Makmal"
+    },
+    {
+      "code": "567",
+      "display": "Keputusan Saringan Radiologi",
+      "definition": "Keputusan Saringan Radiologi"
+    }
+  ],
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemSpecialty (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/specialty-my-core</tt><p>Specialty My Core</p></div>"
+  },
+  "experimental": false,
+  "caseSensitive": true
+}

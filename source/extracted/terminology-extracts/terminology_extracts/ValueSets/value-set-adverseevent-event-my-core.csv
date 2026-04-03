@@ -1,0 +1,2 @@
+code,display,system,include_type,valueset_url,valueset_name
+82545002,Blood transfusion reaction,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/adverse-event-event-my-core,ValueSetAdverseEventEventMyCore

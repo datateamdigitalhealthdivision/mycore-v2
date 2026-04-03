@@ -1,0 +1,1252 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-maternal-30",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "identifier": {
+        "system": "http://fhir.hie.moh.gov.my/sid/template-section",
+        "value": "qr-maternal-30"
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-30",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/bfb81ffe-637d-4b3f-befa-f7a1546ed9f8"
+    },
+    "authored": "2022-11-16T03:56:06.596Z",
+    "item": [
+        {
+            "linkId": "30.1",
+            "text": "Antenatal",
+            "item": [
+                {
+                    "linkId": "30.1.1",
+                    "text": "Penjagaan antenatal & jadual ke klinik",
+                    "item": [
+                        {
+                            "linkId": "30.1.1.1",
+                            "text": "Tarikh",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:42:23.400Z"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.1.2",
+                            "text": "Name anggota yang memberi pendidikan",
+                            "answer": [
+                                {
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/b9797173-7e15-4fc3-8f85-d58627935956/_history/20",
+                                        "display": "Nizar"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.1.3",
+                            "text": "Pengesahan ibu",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:42:25.727Z"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "30.1.2",
+                    "text": "Kepentingan datang awal ke klinik",
+                    "item": [
+                        {
+                            "linkId": "30.1.2.1",
+                            "text": "Tarikh",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:42:28.279Z"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.2.2",
+                            "text": "Name anggota yang memberi pendidikan",
+                            "answer": [
+                                {
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/b9797173-7e15-4fc3-8f85-d58627935956/_history/20",
+                                        "display": "Nizar"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.2.3",
+                            "text": "Pengesahan ibu",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:42:29.356Z"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "30.1.3",
+                    "text": "Masalah ringan semasa hamil dan cara mengatasinya",
+                    "item": [
+                        {
+                            "linkId": "30.1.3.1",
+                            "text": "Tarikh",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:42:31.450Z"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.3.2",
+                            "text": "Name anggota yang memberi pendidikan",
+                            "answer": [
+                                {
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/b9797173-7e15-4fc3-8f85-d58627935956/_history/20",
+                                        "display": "Nizar"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.3.3",
+                            "text": "Pengesahan ibu",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:42:33.350Z"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "30.1.4",
+                    "text": "Pemakanan ibu hamil",
+                    "item": [
+                        {
+                            "linkId": "30.1.4.1",
+                            "text": "Tarikh",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:42:35.665Z"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.4.2",
+                            "text": "Name anggota yang memberi pendidikan",
+                            "answer": [
+                                {
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/b9797173-7e15-4fc3-8f85-d58627935956/_history/20",
+                                        "display": "Nizar"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.4.3",
+                            "text": "Pengesahan ibu",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:42:37.248Z"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "30.1.5",
+                    "text": "Kepentingan penyusuan susu ibu kepada bayi",
+                    "item": [
+                        {
+                            "linkId": "30.1.5.1",
+                            "text": "Tarikh",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:42:38.799Z"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.5.2",
+                            "text": "Name anggota yang memberi pendidikan",
+                            "answer": [
+                                {
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/b9797173-7e15-4fc3-8f85-d58627935956/_history/20",
+                                        "display": "Nizar"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.5.3",
+                            "text": "Pengesahan ibu",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:42:40.018Z"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "30.1.6",
+                    "text": "Kepentingan penyusuan susu ibu kepada ibu",
+                    "item": [
+                        {
+                            "linkId": "30.1.6.1",
+                            "text": "Tarikh",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:42:41.962Z"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.6.2",
+                            "text": "Name anggota yang memberi pendidikan",
+                            "answer": [
+                                {
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/b9797173-7e15-4fc3-8f85-d58627935956/_history/20",
+                                        "display": "Nizar"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.6.3",
+                            "text": "Pengesahan ibu",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:42:43.475Z"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "30.1.7",
+                    "text": "Kepentingan sentuhan kulit ke kulit sejurus selepas kelahiran",
+                    "item": [
+                        {
+                            "linkId": "30.1.1.7",
+                            "text": "Tarikh",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:42:45.378Z"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.7.2",
+                            "text": "Name anggota yang memberi pendidikan",
+                            "answer": [
+                                {
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/b9797173-7e15-4fc3-8f85-d58627935956/_history/20",
+                                        "display": "Nizar"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.7.3",
+                            "text": "Pengesahan ibu",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:42:46.576Z"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "30.1.8",
+                    "text": "Kepentingan permulaan awal untuk penyusuan susu ibu",
+                    "item": [
+                        {
+                            "linkId": "30.1.8.1",
+                            "text": "Tarikh",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:42:48.347Z"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.8.2",
+                            "text": "Name anggota yang memberi pendidikan",
+                            "answer": [
+                                {
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/b9797173-7e15-4fc3-8f85-d58627935956/_history/20",
+                                        "display": "Nizar"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.8.3",
+                            "text": "Pengesahan ibu",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:42:50.437Z"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "30.1.9",
+                    "text": "Kepentingan ibu bersama bayi (rooming in) 24 jam sehari",
+                    "item": [
+                        {
+                            "linkId": "30.1.9.1",
+                            "text": "Tarikh",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:42:52.519Z"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.9.2",
+                            "text": "Name anggota yang memberi pendidikan",
+                            "answer": [
+                                {
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/b9797173-7e15-4fc3-8f85-d58627935956/_history/20",
+                                        "display": "Nizar"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.9.3",
+                            "text": "Pengesahan ibu",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:42:53.734Z"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "30.1.10",
+                    "text": "Kepentingan penyusuan susu ibu mengikut kehendak bayi",
+                    "item": [
+                        {
+                            "linkId": "30.1.10.1",
+                            "text": "Tarikh",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:42:55.000Z"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.10.2",
+                            "text": "Name anggota yang memberi pendidikan",
+                            "answer": [
+                                {
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/b9797173-7e15-4fc3-8f85-d58627935956/_history/20",
+                                        "display": "Nizar"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.10.3",
+                            "text": "Pengesahan ibu",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:42:55.907Z"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "30.1.11",
+                    "text": "Kepentingan penyusuan susu ibu dengan kerap untuk memastikan penghasilan susu ibu mencukupi",
+                    "item": [
+                        {
+                            "linkId": "30.1.11.1",
+                            "text": "Tarikh",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:42:57.766Z"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.11.2",
+                            "text": "Name anggota yang memberi pendidikan",
+                            "answer": [
+                                {
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/b9797173-7e15-4fc3-8f85-d58627935956/_history/20",
+                                        "display": "Nizar"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.11.3",
+                            "text": "Pengesahan ibu",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:42:59.286Z"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "30.1.12",
+                    "text": "Kepentingan posisi dan pelekapan yang baik semasa penyusuan susu ibu",
+                    "item": [
+                        {
+                            "linkId": "30.1.12.1",
+                            "text": "Tarikh",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:00.548Z"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.12.2",
+                            "text": "Name anggota yang memberi pendidikan",
+                            "answer": [
+                                {
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/b9797173-7e15-4fc3-8f85-d58627935956/_history/20",
+                                        "display": "Nizar"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.12.3",
+                            "text": "Pengesahan ibu",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:01.426Z"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "30.1.13",
+                    "text": "Kepentingan penyusuan susu ibu secara eksklusif bagi 6 bulan pertama tanpa sebarang makanan atau minuman lain",
+                    "item": [
+                        {
+                            "linkId": "30.1.13.1",
+                            "text": "Tarikh",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:02.920Z"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.13.2",
+                            "text": "Name anggota yang memberi pendidikan",
+                            "answer": [
+                                {
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/b9797173-7e15-4fc3-8f85-d58627935956/_history/20",
+                                        "display": "Nizar"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.13.3",
+                            "text": "Pengesahan ibu",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:03.943Z"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "30.1.14",
+                    "text": "Kepentingan meneruskan penyusuan susu ibu selepas 6 bulan di samping pemberian makanan pelengkap",
+                    "item": [
+                        {
+                            "linkId": "30.1.14.1",
+                            "text": "Tarikh",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:06.466Z"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.14.2",
+                            "text": "Name anggota yang memberi pendidikan",
+                            "answer": [
+                                {
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/b9797173-7e15-4fc3-8f85-d58627935956/_history/20",
+                                        "display": "Nizar"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.14.3",
+                            "text": "Pengesahan ibu",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:07.474Z"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "30.1.15",
+                    "text": "Memastikan memulakan penyusuan awal",
+                    "item": [
+                        {
+                            "linkId": "30.1.15.1",
+                            "text": "Tarikh",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:08.239Z"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.15.2",
+                            "text": "Name anggota yang memberi pendidikan",
+                            "answer": [
+                                {
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/b9797173-7e15-4fc3-8f85-d58627935956/_history/20",
+                                        "display": "Nizar"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.15.3",
+                            "text": "Pengesahan ibu",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:09.470Z"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "30.1.16",
+                    "text": "Bahaya dan risiko bayi yang tidak diberi susu ibu",
+                    "item": [
+                        {
+                            "linkId": "30.1.16.1",
+                            "text": "Tarikh",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:11.410Z"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.16.2",
+                            "text": "Name anggota yang memberi pendidikan",
+                            "answer": [
+                                {
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/b9797173-7e15-4fc3-8f85-d58627935956/_history/20",
+                                        "display": "Nizar"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.16.3",
+                            "text": "Pengesahan ibu",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:12.302Z"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "30.1.17",
+                    "text": "Menyokong dan mengamalkan kelahiran dan penjagaan Mesra Ibu (Mother Friendly Care) - 5 Perkara",
+                    "item": [
+                        {
+                            "linkId": "30.1.17.1",
+                            "text": "Tarikh",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:13.096Z"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.17.2",
+                            "text": "Name anggota yang memberi pendidikan",
+                            "answer": [
+                                {
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/b9797173-7e15-4fc3-8f85-d58627935956/_history/20",
+                                        "display": "Nizar"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.17.3",
+                            "text": "Pengesahan ibu",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:14.639Z"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "30.1.18",
+                    "text": "Persiapan bersalin untuk ibu dan bayi",
+                    "item": [
+                        {
+                            "linkId": "30.1.18.1",
+                            "text": "Tarikh",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:16.938Z"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.18.2",
+                            "text": "Name anggota yang memberi pendidikan",
+                            "answer": [
+                                {
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/b9797173-7e15-4fc3-8f85-d58627935956/_history/20",
+                                        "display": "Nizar"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.18.3",
+                            "text": "Pengesahan ibu",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:17.923Z"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "30.1.19",
+                    "text": "Senaman antenatal",
+                    "item": [
+                        {
+                            "linkId": "30.1.19.1",
+                            "text": "Tarikh",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:18.908Z"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.19.2",
+                            "text": "Name anggota yang memberi pendidikan",
+                            "answer": [
+                                {
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/b9797173-7e15-4fc3-8f85-d58627935956/_history/20",
+                                        "display": "Nizar"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.19.3",
+                            "text": "Pengesahan ibu",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:19.949Z"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "30.1.20",
+                    "text": "Perancang keluarga",
+                    "item": [
+                        {
+                            "linkId": "30.1.20.1",
+                            "text": "Tarikh",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:21.846Z"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.20.2",
+                            "text": "Name anggota yang memberi pendidikan",
+                            "answer": [
+                                {
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/b9797173-7e15-4fc3-8f85-d58627935956/_history/20",
+                                        "display": "Nizar"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.20.3",
+                            "text": "Pengesahan ibu",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:22.814Z"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "30.1.21",
+                    "text": "Tanda-tanda bersalin & proses kelahiran",
+                    "item": [
+                        {
+                            "linkId": "30.1.21.1",
+                            "text": "Tarikh",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:23.650Z"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.21.2",
+                            "text": "Name anggota yang memberi pendidikan",
+                            "answer": [
+                                {
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/b9797173-7e15-4fc3-8f85-d58627935956/_history/20",
+                                        "display": "Nizar"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.21.3",
+                            "text": "Pengesahan ibu",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:24.445Z"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "30.1.22",
+                    "text": "Kelahiran selamat & bahaya kelahiran tidak selamat",
+                    "item": [
+                        {
+                            "linkId": "30.1.22.1",
+                            "text": "Tarikh",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:25.893Z"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.22.2",
+                            "text": "Name anggota yang memberi pendidikan",
+                            "answer": [
+                                {
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/b9797173-7e15-4fc3-8f85-d58627935956/_history/20",
+                                        "display": "Nizar"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.22.3",
+                            "text": "Pengesahan ibu",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:26.727Z"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "30.1.23",
+                    "text": "Pemberitahuan awal kelahiran",
+                    "item": [
+                        {
+                            "linkId": "30.1.23.1",
+                            "text": "Tarikh",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:28.869Z"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.23.2",
+                            "text": "Name anggota yang memberi pendidikan",
+                            "answer": [
+                                {
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/b9797173-7e15-4fc3-8f85-d58627935956/_history/20",
+                                        "display": "Nizar"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.23.3",
+                            "text": "Pengesahan ibu",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:30.408Z"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "30.1.24",
+                    "text": "Penjagaan kesihatan pergigian",
+                    "item": [
+                        {
+                            "linkId": "30.1.24.1",
+                            "text": "Tarikh",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:32.240Z"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.24.2",
+                            "text": "Name anggota yang memberi pendidikan",
+                            "answer": [
+                                {
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/b9797173-7e15-4fc3-8f85-d58627935956/_history/20",
+                                        "display": "Nizar"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.24.3",
+                            "text": "Pengesahan ibu",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:33.387Z"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "30.1.25",
+                    "text": "Jaundis neonatal",
+                    "item": [
+                        {
+                            "linkId": "30.1.25.1",
+                            "text": "Tarikh",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:34.423Z"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.25.2",
+                            "text": "Name anggota yang memberi pendidikan",
+                            "answer": [
+                                {
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/b9797173-7e15-4fc3-8f85-d58627935956/_history/20",
+                                        "display": "Nizar"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.1.25.3",
+                            "text": "Pengesahan ibu",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:35.321Z"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "30.2",
+            "text": "Postnatal",
+            "item": [
+                {
+                    "linkId": "30.2.1",
+                    "text": "Pemakanan semasa dalam pantang",
+                    "item": [
+                        {
+                            "linkId": "30.2.1.1",
+                            "text": "Tarikh",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:36.788Z"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.2.1.3",
+                            "text": "Pengesahan ibu",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:37.970Z"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "30.2.2",
+                    "text": "Senaman postnatal",
+                    "item": [
+                        {
+                            "linkId": "30.2.2.1",
+                            "text": "Tarikh",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:39.682Z"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.2.2.2",
+                            "text": "Name anggota yang memberi pendidikan",
+                            "answer": [
+                                {
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/b9797173-7e15-4fc3-8f85-d58627935956/_history/20",
+                                        "display": "Nizar"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.2.2.3",
+                            "text": "Pengesahan ibu",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:40.597Z"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "30.2.3",
+                    "text": "Penjagaan kebersihan diri, luka episiotomi & luka pembedahan",
+                    "item": [
+                        {
+                            "linkId": "30.2.3.1",
+                            "text": "Tarikh",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:41.384Z"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.2.3.2",
+                            "text": "Name anggota yang memberi pendidikan",
+                            "answer": [
+                                {
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/b9797173-7e15-4fc3-8f85-d58627935956/_history/20",
+                                        "display": "Nizar"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.2.3.3",
+                            "text": "Pengesahan ibu",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:44:07.714Z"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "30.2.4",
+                    "text": "Kepentingan mendapat rawatan awal",
+                    "item": [
+                        {
+                            "linkId": "30.2.4.1",
+                            "text": "Tarikh",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:43.541Z"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.2.4.2",
+                            "text": "Name anggota yang memberi pendidikan",
+                            "answer": [
+                                {
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/b9797173-7e15-4fc3-8f85-d58627935956/_history/20",
+                                        "display": "Nizar"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.2.4.3",
+                            "text": "Pengesahan ibu",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:44.224Z"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "30.2.5",
+                    "text": "Pengesanan jaundis",
+                    "item": [
+                        {
+                            "linkId": "30.2.5.1",
+                            "text": "Tarikh",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:45.063Z"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.2.5.2",
+                            "text": "Name anggota yang memberi pendidikan",
+                            "answer": [
+                                {
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/b9797173-7e15-4fc3-8f85-d58627935956/_history/20",
+                                        "display": "Nizar"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.2.5.3",
+                            "text": "Pengesahan ibu",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:45.964Z"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "30.3",
+            "text": "Keadaan Luar Biasa Semasa Hamil",
+            "item": [
+                {
+                    "linkId": "30.3.1",
+                    "text": "Pre-eclampsia semasa hamil dan tanda & simptom Pre-eclampsia",
+                    "item": [
+                        {
+                            "linkId": "30.3.1.1",
+                            "text": "Tarikh",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:48.333Z"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.3.1.2",
+                            "text": "Name anggota yang memberi pendidikan",
+                            "answer": [
+                                {
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/b9797173-7e15-4fc3-8f85-d58627935956/_history/20",
+                                        "display": "Nizar"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.3.1.3",
+                            "text": "Pengesahan ibu",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:49.711Z"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "30.3.2",
+                    "text": "Diabetes semasa hamil",
+                    "item": [
+                        {
+                            "linkId": "30.3.2.1",
+                            "text": "Tarikh",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:51.946Z"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.3.2.2",
+                            "text": "Name anggota yang memberi pendidikan",
+                            "answer": [
+                                {
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/b9797173-7e15-4fc3-8f85-d58627935956/_history/20",
+                                        "display": "Nizar"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.3.2.3",
+                            "text": "Pengesahan ibu",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:53.161Z"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "30.3.3",
+                    "text": "Anaemia dan kesan kepada ibu dan janin",
+                    "item": [
+                        {
+                            "linkId": "30.3.3.1",
+                            "text": "Tarikh",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:53.959Z"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.3.3.2",
+                            "text": "Name anggota yang memberi pendidikan",
+                            "answer": [
+                                {
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/b9797173-7e15-4fc3-8f85-d58627935956/_history/20",
+                                        "display": "Nizar"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.3.3.3",
+                            "text": "Pengesahan ibu",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:54.924Z"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "30.3.4",
+                    "text": "Pendarahan semasa hamil",
+                    "item": [
+                        {
+                            "linkId": "30.3.4.1",
+                            "text": "Tarikh",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:56.547Z"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.3.4.2",
+                            "text": "Name anggota yang memberi pendidikan",
+                            "answer": [
+                                {
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/b9797173-7e15-4fc3-8f85-d58627935956/_history/20",
+                                        "display": "Nizar"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "30.3.4.3",
+                            "text": "Pengesahan ibu",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-08-25T00:43:57.933Z"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-encounter-class-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystem-encounter-class-my-core</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/encounter-class-my-core</tt><p>Encounter Class list</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/encounter-class-my-core",
+  "identifier": [
+    {
+      "value": "code-system-encounter-class-my-core"
+    }
+  ],
+  "version": "1.0.0",
+  "name": "CodeSystemEncounterClassMyCore",
+  "title": "CodeSystem-encounter-class-my-core",
+  "status": "active",
+  "date": "2023-06-08T03:08:38.5864399+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Encounter Class list",
+  "compositional": false,
+  "content": "complete",
+  "count": 9,
+  "concept": [
+    {
+      "code": "AMB",
+      "display": "Outpatient",
+      "definition": "Ambulatory"
+    },
+    {
+      "code": "IMP",
+      "display": "Inpatient",
+      "definition": "Inpatient"
+    },
+    {
+      "code": "EMER",
+      "display": "Emergency",
+      "definition": "Emergency"
+    },
+    {
+      "code": "VR",
+      "display": "Virtual",
+      "definition": "Virtual"
+    },
+    {
+      "code": "CS",
+      "display": "Clinical Support",
+      "definition": "Clinical Support"
+    },
+    {
+      "code": "SS",
+      "display": "Day Care",
+      "definition": "Short Stay"
+    },
+    {
+      "code": "PAC",
+      "display": "Patient Admission Center (PAC)",
+      "definition": "PAC"
+    },
+    {
+      "code": "FLD",
+      "display": "Field",
+      "definition": "Field"
+    },
+    {
+      "code": "ADM",
+      "display": "Administrative",
+      "definition": "Administrative"
+    }
+  ]
+}

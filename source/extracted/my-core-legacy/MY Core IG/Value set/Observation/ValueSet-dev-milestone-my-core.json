@@ -1,0 +1,36 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-developmental-milestone-my-core",
+  "meta": {
+    "versionId": "4",
+    "lastUpdated": "2023-05-23T04:13:01.102+00:00",
+    "source": "#b97PVicAmCDX7ZVF"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetDevelopmentalMilestone (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/ValueSet/developmental-milestone-my-core</tt><p>Developmental Milestone</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/developmental-milestone-my-core",
+  "version": "1.0.0",
+  "name": "ValueSetDevelopmentalMilestoneMyCore",
+  "title": "ValueSetDevelopmentalMilestone (MY Core)",
+  "status": "active",
+  "date": "2023-09-04T01:26:51.2813+00:00",
+  "description": "Developmental Milestone",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/developmental-milestone-my-core"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "397669002",
+            "display": "Age"
+          }
+        ]
+      }
+    ]
+  }
+}

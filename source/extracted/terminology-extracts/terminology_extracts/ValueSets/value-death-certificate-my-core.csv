@@ -1,0 +1,5 @@
+code,display,system,include_type,valueset_url,valueset_name
+02,Underlying Condition,http://fhir.hie.moh.gov.my/CodeSystem/death-certificate-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/death-certificate-my-core,ValueSetDeathCertificateMyCore
+03,Underlying Cause of Death,http://fhir.hie.moh.gov.my/CodeSystem/death-certificate-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/death-certificate-my-core,ValueSetDeathCertificateMyCore
+04,External Causes of Morbidity & Mortality,http://fhir.hie.moh.gov.my/CodeSystem/death-certificate-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/death-certificate-my-core,ValueSetDeathCertificateMyCore
+10,Terminal Cause of Death,http://fhir.hie.moh.gov.my/CodeSystem/death-certificate-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/death-certificate-my-core,ValueSetDeathCertificateMyCore

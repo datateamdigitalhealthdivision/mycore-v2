@@ -1,0 +1,40 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-ethnic-my-core",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2022-03-18T01:14:22.309+00:00"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetEthnic (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/ValueSet/ethnic-my-core</tt><p>Common ethnic in Malaysia</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/ethnic-my-core",
+  "identifier": [
+    {
+      "value": "ethnic-my-core"
+    }
+  ],
+  "name": "ValueSetEthnicMyCore",
+  "title": "ValueSetEthnic (MY Core)",
+  "status": "active",
+  "date": "2023-01-03T04:47:56.9010407+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "Common ethnic in Malaysia",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/ethnic-my-core"
+      }
+    ]
+  }
+}

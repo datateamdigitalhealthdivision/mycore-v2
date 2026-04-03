@@ -1,0 +1,79 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "composition-category-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemCompositionCategory (MYCore)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/composition-category-my-core</tt><p>Composition category</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/composition-category-my-core",
+  "identifier": [
+    {
+      "value": "code-system-composition-category-my-core"
+    }
+  ],
+  "version": "2.0.0",
+  "name": "CodeSystemCompositionCategoryMyCore",
+  "title": "CodeSystemCompositionCategory (MYCore)",
+  "status": "active",
+  "date": "2023-06-08T03:08:38.5864399+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Composition category",
+  "compositional": false,
+  "content": "complete",
+  "count": 8,
+  "concept": [
+    {
+      "code": "LP173418-7",
+      "display": "Note",
+      "definition": "Note"
+    },
+    {
+      "code": "LP73428-2",
+      "display": "Summary Note",
+      "definition": "Summary Note"
+    },
+    {
+      "code": "LP72467-1",
+      "display": "Discharge Summary Note",
+      "definition": "Discharge Summary Note"
+    },
+    {
+      "code": "LP97117-3",
+      "display": "Referral Note",
+      "definition": "Referral Note"
+    },
+    {
+      "code": "LP74249-1",
+      "display": "Procedure note",
+      "definition": "Procedure note"
+    },
+    {
+      "code": "sub-record",
+      "display": "Sub-Record",
+      "definition": "Sub-Record"
+    },
+    {
+      "code": "LP199484-9",
+      "display": "Form",
+      "definition": "Form"
+    },
+    {
+      "code": "LP416816-9",
+      "display": "Check List",
+      "definition": "Check List"
+    }
+  ],
+  "experimental": false,
+  "caseSensitive": true
+}

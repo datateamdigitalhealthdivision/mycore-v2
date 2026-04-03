@@ -1,0 +1,157 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-maternal-01",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/baseR4/Questionnaire/q-maternal-01",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/f92c383f-68de-46c1-8cde-970efa2d0f15/_history/1"
+    },
+    "authored": "2023-01-01T04:14:25+08:00",
+    "item": [
+        {
+            "linkId": "maternal-1.1",
+            "text": "THA (LNMP)",
+            "answer": [
+                {
+                    "valueDate": "2023-08-01",
+                    "item": [
+                        {
+                            "linkId": "maternal-1.1.1",
+                            "text": "Unsure Date",
+                            "answer": [
+                                {
+                                    "valueBoolean": true
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-1.2",
+            "text": "TAL (EDD)",
+            "answer": [
+                {
+                    "valueDate": "2024-05-07"
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-1.3",
+            "text": "RE EDD",
+            "answer": [
+                {
+                    "valueDate": "2024-05-14"
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-1.4",
+            "text": "Gravida",
+            "answer": [
+                {
+                    "valueInteger": 3
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-1.5",
+            "text": "Para",
+            "answer": [
+                {
+                    "valueInteger": 2,
+                    "item": [
+                        {
+                            "linkId": "maternal-1.5.1",
+                            "text": "+",
+                            "answer": [
+                                {
+                                    "valueInteger": 1
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "maternal-1.5.2",
+                            "text": "Para remark",
+                            "answer": [
+                                {
+                                    "valueString": "miscarriage"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-1.6",
+            "text": "Jururawat Y/M",
+            "answer": [
+                {
+                    "valueReference": {
+                        "reference": "PractitionerRole/121d966a-ca39-44dd-8e49-345f5ef1e484",
+                        "display": "SAIFULDAULAH BIN MOHD HAFIZ NGOO ( Medical Officer )"
+                    }
+                },
+                {
+                    "valueReference": {
+                        "reference": "PractitionerRole/19c428c2-21aa-4494-b416-22bd51de90d7",
+                        "display": "ZULAIKA ( Medical Officer )"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-1.8",
+            "text": "Height",
+            "answer": [
+                {
+                    "valueQuantity": {
+                        "value": 168
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-1.9",
+            "text": "Booking Weight",
+            "answer": [
+                {
+                    "valueQuantity": {
+                        "value": 55
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-1.10",
+            "text": "BMI",
+            "answer": [
+                {
+                    "valueQuantity": {
+                        "value": 19.49
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-1.11",
+            "text": "BMI category",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "code": "310252000",
+                        "display": "Kurang Berat Badan (BMI < 20)"
+                    }
+                }
+            ]
+        }
+    ]
+}

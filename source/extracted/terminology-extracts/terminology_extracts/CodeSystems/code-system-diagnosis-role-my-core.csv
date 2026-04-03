@@ -1,0 +1,11 @@
+code,display,definition,system_url,system_name
+00,Tiada Maklumat,Tiada Maklumat,http://fhir.hie.moh.gov.my/CodeSystem/diagnosis-role-my-core,CodeSystemDiagnosisRoleMyCore
+01,Main Diagnosis,Main Diagnosis,http://fhir.hie.moh.gov.my/CodeSystem/diagnosis-role-my-core,CodeSystemDiagnosisRoleMyCore
+02,Underlying Condition,Underlying Condition,http://fhir.hie.moh.gov.my/CodeSystem/diagnosis-role-my-core,CodeSystemDiagnosisRoleMyCore
+03,Underlying Cause of Death,Underlying Cause of Death,http://fhir.hie.moh.gov.my/CodeSystem/diagnosis-role-my-core,CodeSystemDiagnosisRoleMyCore
+04,External Causes of Morbidity & Mortality,External Causes of Morbidity & Mortality,http://fhir.hie.moh.gov.my/CodeSystem/diagnosis-role-my-core,CodeSystemDiagnosisRoleMyCore
+05,Complication Diagnosis,Complication Diagnosis,http://fhir.hie.moh.gov.my/CodeSystem/diagnosis-role-my-core,CodeSystemDiagnosisRoleMyCore
+08,Other Diagnosis,Other Diagnosis,http://fhir.hie.moh.gov.my/CodeSystem/diagnosis-role-my-core,CodeSystemDiagnosisRoleMyCore
+10,Terminal Cause of Death,Terminal Cause of Death,http://fhir.hie.moh.gov.my/CodeSystem/diagnosis-role-my-core,CodeSystemDiagnosisRoleMyCore
+11,Traditional Medicine Disorder,Traditional Medicine Disorder,http://fhir.hie.moh.gov.my/CodeSystem/diagnosis-role-my-core,CodeSystemDiagnosisRoleMyCore
+12,Traditional Medicine Pattern,Traditional Medicine Pattern,http://fhir.hie.moh.gov.my/CodeSystem/diagnosis-role-my-core,CodeSystemDiagnosisRoleMyCore

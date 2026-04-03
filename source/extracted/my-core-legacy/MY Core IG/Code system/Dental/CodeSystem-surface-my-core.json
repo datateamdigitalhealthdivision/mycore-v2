@@ -1,0 +1,81 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-surface-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemSurface (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/surface-my-core</tt><p>Surface</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/surface-my-core",
+  "name": "CodeSystemSurfaceMyCore",
+  "title": "CodeSystemSurface (MY Core)",
+  "status": "active",
+  "date": "2023-07-11T07:19:23.6448941+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Surface",
+  "compositional": false,
+  "content": "complete",
+  "count": 10,
+  "concept": [
+    {
+      "code": "M",
+      "display": "Mesial",
+      "definition": "Mesial"
+    },
+    {
+      "code": "D",
+      "display": "Distal",
+      "definition": "Distal"
+    },
+    {
+      "code": "O",
+      "display": "Occlusal",
+      "definition": "Occlusal"
+    },
+    {
+      "code": "P",
+      "display": "Palatal",
+      "definition": "Palatal"
+    },
+    {
+      "code": "B",
+      "display": "Buccal",
+      "definition": "Buccal"
+    },
+    {
+      "code": "L",
+      "display": "Lingual",
+      "definition": "Lingual"
+    },
+    {
+      "code": "F",
+      "display": "Labial",
+      "definition": "Facial"
+    },
+    {
+      "code": "I",
+      "display": "Incisal",
+      "definition": "Incisal"
+    },
+    {
+      "code": "C",
+      "display": "Cervical",
+      "definition": "Cervical"
+    },
+    {
+      "code": "N/A",
+      "display": "Not Applicable",
+      "definition": "Not Applicable"
+    }
+  ]
+}

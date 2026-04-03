@@ -1,0 +1,15 @@
+code,display,system,include_type,valueset_url,valueset_name
+initiate,Initiated,http://fhir.hie.moh.gov.my/CodeSystem/task-business-status-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/task-status-lab-my-core,ValueSetTaskStatusLabMyCore
+perform,Performed,http://fhir.hie.moh.gov.my/CodeSystem/task-business-status-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/task-status-lab-my-core,ValueSetTaskStatusLabMyCore
+receive,Received,http://fhir.hie.moh.gov.my/CodeSystem/task-business-status-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/task-status-lab-my-core,ValueSetTaskStatusLabMyCore
+in-progress,In-Progress,http://fhir.hie.moh.gov.my/CodeSystem/task-business-status-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/task-status-lab-my-core,ValueSetTaskStatusLabMyCore
+skip,Skipped,http://fhir.hie.moh.gov.my/CodeSystem/task-business-status-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/task-status-lab-my-core,ValueSetTaskStatusLabMyCore
+abort,Aborted,http://fhir.hie.moh.gov.my/CodeSystem/task-business-status-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/task-status-lab-my-core,ValueSetTaskStatusLabMyCore
+finish,Finished,http://fhir.hie.moh.gov.my/CodeSystem/task-business-status-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/task-status-lab-my-core,ValueSetTaskStatusLabMyCore
+reject,Rejected,http://fhir.hie.moh.gov.my/CodeSystem/task-business-status-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/task-status-lab-my-core,ValueSetTaskStatusLabMyCore
+hold,On-Hold,http://fhir.hie.moh.gov.my/CodeSystem/task-business-status-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/task-status-lab-my-core,ValueSetTaskStatusLabMyCore
+verify,Verified,http://fhir.hie.moh.gov.my/CodeSystem/task-business-status-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/task-status-lab-my-core,ValueSetTaskStatusLabMyCore
+validate,Validated,http://fhir.hie.moh.gov.my/CodeSystem/task-business-status-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/task-status-lab-my-core,ValueSetTaskStatusLabMyCore
+fulfil,Fulfilled,http://fhir.hie.moh.gov.my/CodeSystem/task-business-status-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/task-status-lab-my-core,ValueSetTaskStatusLabMyCore
+active,active,http://hl7.org/fhir/ValueSet/request-status|4.0.1,explicit,http://fhir.hie.moh.gov.my/ValueSet/task-status-lab-my-core,ValueSetTaskStatusLabMyCore
+revoked,Revoked,http://hl7.org/fhir/ValueSet/request-status|4.0.1,explicit,http://fhir.hie.moh.gov.my/ValueSet/task-status-lab-my-core,ValueSetTaskStatusLabMyCore

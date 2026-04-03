@@ -1,0 +1,73 @@
+{
+  "resourceType": "ValueSet",
+  "id": "diagnosis-role-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetDiagnosisRole (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/diagnosis-role-my-core</tt><p>Extension from FHIR base DiagnosisRole Value Set</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/diagnosis-role-my-core",
+  "identifier": [
+    {
+      "value": "value-set-diagnosis-role-my-core"
+    }
+  ],
+  "name": "ValueSetDiagnosisRoleMyCore",
+  "title": "ValueSetDiagnosisRole (MY Core)",
+  "status": "active",
+  "date": "2023-06-08T03:08:38.5864399+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Extension from FHIR base DiagnosisRole Value Set",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/diagnosis-role",
+        "concept": [
+          {
+            "code": "AD",
+            "display": "Admission diagnosis"
+          },
+          {
+            "code": "DD",
+            "display": "Discharge diagnosis"
+          },
+          {
+            "code": "CC",
+            "display": "Chief complaint"
+          },
+          {
+            "code": "CM",
+            "display": "Comorbidity diagnosis"
+          },
+          {
+            "code": "pre-op",
+            "display": "pre-op diagnosis"
+          },
+          {
+            "code": "post-op",
+            "display": "post-op diagnosis"
+          },
+          {
+            "code": "billing",
+            "display": "Billing"
+          }
+        ]
+      },
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/diagnosis-role-my-core"
+      }
+    ]
+  },
+  "version": "2.0.0",
+  "experimental": false
+}

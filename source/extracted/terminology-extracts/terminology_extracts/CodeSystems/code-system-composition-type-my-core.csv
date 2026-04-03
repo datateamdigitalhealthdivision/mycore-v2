@@ -1,0 +1,17 @@
+code,display,definition,system_url,system_name
+34878-9,Emergency Medicine Note,Emergency Medicine Note,http://fhir.hie.moh.gov.my/CodeSystem/composition-type-my-core,CodeSystemCompositionTypeMyCore
+sub-001,Maternal Health Record,Maternal Health Record,http://fhir.hie.moh.gov.my/CodeSystem/composition-type-my-core,CodeSystemCompositionTypeMyCore
+sub-002,Child Health Record,Child Health Record,http://fhir.hie.moh.gov.my/CodeSystem/composition-type-my-core,CodeSystemCompositionTypeMyCore
+0003,Allied Health,Allied Health,http://fhir.hie.moh.gov.my/CodeSystem/composition-type-my-core,CodeSystemCompositionTypeMyCore
+34109-9,Note,Note,http://fhir.hie.moh.gov.my/CodeSystem/composition-type-my-core,CodeSystemCompositionTypeMyCore
+75476-2,Physician Note,Physician Note,http://fhir.hie.moh.gov.my/CodeSystem/composition-type-my-core,CodeSystemCompositionTypeMyCore
+34746-8,Nurse Note,Nurse Note,http://fhir.hie.moh.gov.my/CodeSystem/composition-type-my-core,CodeSystemCompositionTypeMyCore
+85443-0,Hematology Note,Hematology Note,http://fhir.hie.moh.gov.my/CodeSystem/composition-type-my-core,CodeSystemCompositionTypeMyCore
+68608-9,Summary Note,Summary Note,http://fhir.hie.moh.gov.my/CodeSystem/composition-type-my-core,CodeSystemCompositionTypeMyCore
+18842-5,Discharge Summary Note,Discharge Summary Note,http://fhir.hie.moh.gov.my/CodeSystem/composition-type-my-core,CodeSystemCompositionTypeMyCore
+28618-7,Dentistry Note,Dentistry Note,http://fhir.hie.moh.gov.my/CodeSystem/composition-type-my-core,CodeSystemCompositionTypeMyCore
+34821-9,Pharmacology Note,Pharmacology Note,http://fhir.hie.moh.gov.my/CodeSystem/composition-type-my-core,CodeSystemCompositionTypeMyCore
+57133-1,Referral Note,Referral Note,http://fhir.hie.moh.gov.my/CodeSystem/composition-type-my-core,CodeSystemCompositionTypeMyCore
+28570-0,Procedure Note,Procedure Note,http://fhir.hie.moh.gov.my/CodeSystem/composition-type-my-core,CodeSystemCompositionTypeMyCore
+55107-7,Addendum Note,Addendum Note,http://fhir.hie.moh.gov.my/CodeSystem/composition-type-my-core,CodeSystemCompositionTypeMyCore
+68834-1,Primary Care,Primary Care,http://fhir.hie.moh.gov.my/CodeSystem/composition-type-my-core,CodeSystemCompositionTypeMyCore

@@ -1,0 +1,54 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-child-rs-12m",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-child-rs-12m",
+  "version": "1.0.0",
+  "name": "QChildRs12M",
+  "title": "Senarai Semak Rekod Saya Ibu Bapa (Lawatan 12 Bulan)",
+  "status": "active",
+  "date": "2023-08-30T06:43:50.5035753+00:00",
+  "item": [
+    {
+      "linkId": "rs-12m-1",
+      "text": "Bangun berdiri apabila ditarik tangannya?",
+      "type": "boolean"
+    },
+    {
+      "linkId": "rs-12m-2",
+      "text": "Mengetuk 2 kiub/objek?",
+      "type": "boolean"
+    },
+    {
+      "linkId": "rs-12m-3",
+      "text": "Mengambil benda kecil menggunakan ibu jari dan jari telunjuk (pincer grasp)?",
+      "type": "boolean"
+    },
+    {
+      "linkId": "rs-12m-4",
+      "text": "Bermain ‘tepuk amai-amai’?",
+      "type": "boolean"
+    },
+    {
+      "linkId": "rs-12m-5",
+      "text": "Menyebut Pa-Pa, Ma-ma (tidak spesifik)?",
+      "type": "boolean"
+    },
+    {
+      "linkId": "rs-12m-6",
+      "text": "Adakah anda mempunyai masalah menjaga bayi anda?",
+      "type": "boolean"
+    },
+    {
+      "linkId": "rs-12m-7",
+      "text": "Adakah anda mempunyai sebarang kebimbangan terhadap bayi?",
+      "type": "boolean",
+      "item": [
+        {
+          "linkId": "rs-12m-7-1",
+          "text": "Sekiranya ada, nyatakan",
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}

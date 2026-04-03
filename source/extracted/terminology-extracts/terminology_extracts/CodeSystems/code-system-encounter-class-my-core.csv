@@ -1,0 +1,10 @@
+code,display,definition,system_url,system_name
+AMB,Outpatient,Ambulatory,http://fhir.hie.moh.gov.my/CodeSystem/encounter-class-my-core,CodeSystemEncounterClassMyCore
+IMP,Inpatient,Inpatient,http://fhir.hie.moh.gov.my/CodeSystem/encounter-class-my-core,CodeSystemEncounterClassMyCore
+EMER,Emergency,Emergency,http://fhir.hie.moh.gov.my/CodeSystem/encounter-class-my-core,CodeSystemEncounterClassMyCore
+VR,Virtual,Virtual,http://fhir.hie.moh.gov.my/CodeSystem/encounter-class-my-core,CodeSystemEncounterClassMyCore
+CS,Clinical Support,Clinical Support,http://fhir.hie.moh.gov.my/CodeSystem/encounter-class-my-core,CodeSystemEncounterClassMyCore
+SS,Day Care,Short Stay,http://fhir.hie.moh.gov.my/CodeSystem/encounter-class-my-core,CodeSystemEncounterClassMyCore
+PAC,Patient Admission Center (PAC),PAC,http://fhir.hie.moh.gov.my/CodeSystem/encounter-class-my-core,CodeSystemEncounterClassMyCore
+FLD,Field,Field,http://fhir.hie.moh.gov.my/CodeSystem/encounter-class-my-core,CodeSystemEncounterClassMyCore
+ADM,Administrative,Administrative,http://fhir.hie.moh.gov.my/CodeSystem/encounter-class-my-core,CodeSystemEncounterClassMyCore

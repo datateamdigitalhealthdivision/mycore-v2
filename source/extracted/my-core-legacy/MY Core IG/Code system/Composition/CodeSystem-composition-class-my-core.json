@@ -1,0 +1,42 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-composition-class-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemCompositionClass (MYCore)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/composition-class-my-core</tt><p>Composition class</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/composition-class-my-core",
+  "version": "1.0.0",
+  "name": "CodeSystemCompositionClassMyCore",
+  "title": "CodeSystemCompositionClass (MYCore)",
+  "status": "active",
+  "date": "2023-03-07T04:19:34.7742501+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Composition class",
+  "compositional": false,
+  "content": "complete",
+  "count": 2,
+  "concept": [
+    {
+      "code": "free-entry",
+      "display": "Free Entry",
+      "definition": "Free Entry"
+    },
+    {
+      "code": "form-entry",
+      "display": "Form Entry",
+      "definition": "Form Entry"
+    }
+  ]
+}

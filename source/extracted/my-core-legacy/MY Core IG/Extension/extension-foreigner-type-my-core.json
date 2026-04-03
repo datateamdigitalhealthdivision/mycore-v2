@@ -1,0 +1,42 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "foreigner-type-my-core",
+  "url": "http://fhir.hie.moh.gov.my/StructureDefinition/foreigner-type-my-core",
+  "name": "ExtensionForeignerTypeMyCore",
+  "status": "draft",
+  "date": "2023-06-08T03:08:38.5864399+00:00",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Patient"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://fhir.hie.moh.gov.my/StructureDefinition/foreigner-type-my-core"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/foreigner-type-my-core"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resourceType": "ValueSet",
+  "id": "allergy-negation-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetAllergyNegation (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/allergy-negation-my-core</tt><p>Allergy Negation Statement</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/allergy-negation-my-core",
+  "name": "ValueSetAllergyNegationMyCore",
+  "title": "ValueSetAllergyNegation (MY Core)",
+  "status": "active",
+  "date": "2023-03-07T01:09:07.9519734+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Allergy Negation Statement",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "716186003",
+            "display": "No Known Allergy"
+          },
+          {
+            "code": "1631000175102",
+            "display": "Require Allergy Assessment"
+          },
+          {
+            "code": "370860007",
+            "display": "To Be Confirmed"
+          }
+        ]
+      }
+    ]
+  },
+  "version": "2.0.0",
+  "experimental": false
+}

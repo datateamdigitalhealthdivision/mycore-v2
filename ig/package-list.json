@@ -1,0 +1,23 @@
+{
+  "package-id": "my.moh.kkmhub.myehr.core",
+  "canonical": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core",
+  "title": "Malaysian National MY Core v2 Implementation Guide",
+  "introduction": "Draft national baseline FHIR R4 implementation guide for Malaysia under the MyEHR publication model.",
+  "list": [
+    {
+      "version": "current",
+      "desc": "Continuous Integration Build",
+      "path": "https://datateamdigitalhealthdivision.github.io/myehr-mycore-v2",
+      "status": "ci-build",
+      "current": true
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-04-02",
+      "desc": "Initial MY Core v2 draft release",
+      "path": "https://datateamdigitalhealthdivision.github.io/myehr-mycore-v2/2.0.0",
+      "status": "draft",
+      "sequence": "Draft"
+    }
+  ]
+}

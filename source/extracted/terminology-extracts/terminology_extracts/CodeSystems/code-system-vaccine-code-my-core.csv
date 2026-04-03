@@ -1,0 +1,53 @@
+code,display,definition,system_url,system_name
+J07AN01000P4001XX,BCG Vaccine Freeze-Dried Injection,BCG Vaccine Freeze-Dried Injection,http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07AM01000P3001XX,Tetanus Toxoid Injection,Tetanus Toxoid Injection,http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07AE01000P3001XX,Cholera Vaccine,Cholera Vaccine,http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07AF01000P3001XX,Diphtheria Antitoxin Injection,Diphtheria Antitoxin Injection,http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07CA06963P3001XX,DTaP-IPV- Hib Vaccine,DTaP-IPV- Hib Vaccine,http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07CA05963P3001XX,Dipht-Pertussis-Tetanus-Hep B Vaccine,Dipht-Pertussis-Tetanus-Hep B Vaccine,http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07BM02000P3001XX,Cervarix Vaccine,Cervarix Vaccine,http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07BM01000P3001XX,Gardasil Vaccine,Gardasil Vaccine,http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07AL01000P3001XX,Pneumococcal Vaccine (Polyvalent - 23),Pneumococcal Vaccine (Polyvalent - 23),http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07AG01000P4001XX,Haemophilus Influenzae Type B Vaccine,Haemophilus Influenzae Type B Vaccine,http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07AG52000P3001XX,Diph-Pertussis-Tetanus-HiB Vaccine,Diph-Pertussis-Tetanus-HiB Vaccine,http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07BB02963P3001XX,Influenza Vaccine (Inactivated) Inj,Influenza Vaccine (Inactivated) Inj,http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07BF02000D5001XX,Polio Oral Vaccine,Polio Oral Vaccine,http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07BG01000P4001XX,Rabies Vaccine Injection,Rabies Vaccine Injection,http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07BJ01000P3001XX,Rubella Virus Vaccine (Live Attenuated),Rubella Virus Vaccine (Live Attenuated),http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07AM51963P3001XX,Diphtheria and Tetanus Vaccine Injection,Diphtheria and Tetanus Vaccine Injection,http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07BC02000P5002b,"Hepatitis A, Inactivated 80U Vaccine","Hepatitis A, Inactivated 80U Vaccine",http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07BC02000P5001a,Hepatitis A Inactivated 160U Vaccine,Hepatitis A Inactivated 160U Vaccine,http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07BC01000P4001a,Hepatitis B 10mcg Vaccine (Paed),Hepatitis B 10mcg Vaccine (Paed),http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07BC01000P4001b,Hepatitis B 20mcg Vaccine (Adult),Hepatitis B 20mcg Vaccine (Adult),http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07BB02963P5001XX,Influenzae Vaccine,Influenzae Vaccine,http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07BD52963P4001XX,"Measles, Mumps and Rubella Vaccine","Measles, Mumps and Rubella Vaccine",http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07BD52963P4002XX,Measles Rubella Vaccine,Measles Rubella Vaccine,http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07BD01000P4001XX,Measle's Vaccine (Live Attenuated),Measle's Vaccine (Live Attenuated),http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07AP02000P3001XX,Typhoid Vaccine,Typhoid Vaccine,http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07BK01000P4001XX,Varicella Zoster Vaccine Live Attenuated,Varicella Zoster Vaccine Live Attenuated,http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07AJ52963P3001XX,"Diphtheria, Pertussis, Tetanus Vaccine","Diphtheria, Pertussis, Tetanus Vaccine",http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07AP01000C1001XX,Typhoid Vaccine Capsule,Typhoid Vaccine Capsule,http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07AH04000P4001XX,Meningococcal ACYW 135 Vaccine,Meningococcal ACYW 135 Vaccine,http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07BB02963P5002XX,"Influenzae Vaccine 15mcg Type A,A,B","Influenzae Vaccine 15mcg Type A,A,B",http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07AL01000P3001a,Pneumococcal Vaccine (Polyvalent 13),Pneumococcal Vaccine (Polyvalent 13),http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07BL01000P4001,Yellow Fever (Live Attenuated) Vaccine,Yellow Fever (Live Attenuated) Vaccine,http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07BA02000P3001,Japanese Encephalitis Vaccine 1 mL,Japanese Encephalitis Vaccine 1 mL,http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07BB02963P5003,Quadrivalent Seasonal Influenza Vaccine,Quadrivalent Seasonal Influenza Vaccine,http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07AP03000P5001,Typhoid Vaccine (Single Dose),Typhoid Vaccine (Single Dose),http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07AH04000P4001a,Meningococcal ACYW 135 Vaccine,Meningococcal ACYW 135 Vaccine,http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07BC02000P5006,Hepatitis A Inactivated 1440 units Vac,Hepatitis A Inactivated 1440 units Vac,http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07BX03000P3001a,COVID-19 Vaccine AstraZeneca Inj,COVID-19 Vaccine AstraZeneca Inj,http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07BX03000P3001,COVID-19 Vaccine AstraZeneca Inj,COVID-19 Vaccine AstraZeneca Inj,http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07BX03000P3002,"SARS-CoV-2 Vaccine (Vero Cell), Inj","SARS-CoV-2 Vaccine (Vero Cell), Inj",http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07BX03000P3003,COVID-19 Vaccine Convidecia Inj,COVID-19 Vaccine Convidecia Inj,http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07BB02963P5002a,"Influenzae Vaccine 7.5mcg Type A,A,B","Influenzae Vaccine 7.5mcg Type A,A,B",http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07BX03000P3002a,"SARS-CoV-2 Vaccine (Vero Cell), Inj","SARS-CoV-2 Vaccine (Vero Cell), Inj",http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07BC02000P5007,"Hepatitis A, Inactivated 720U Vaccine","Hepatitis A, Inactivated 720U Vaccine",http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07BX03000P3005,Covilo COVID-19 Vaccine (Vero Cell) Inj,Covilo COVID-19 Vaccine (Vero Cell) Inj,http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07AL01000P3001b,"Pneumococcal Vaccine(Polyvalent 10),NTHi","Pneumococcal Vaccine(Polyvalent 10),NTHi",http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07BF03000P3001,"Poliomyelitis Virus Vaccine, Inactivated","Poliomyelitis Virus Vaccine, Inactivated",http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07BX03000P3201,COVID-19 mRNA Vaccine Injection,COVID-19 mRNA Vaccine Injection,http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07CA09963P3002,DTaP-IPV-HB-Hib Vaccine,DTaP-IPV-HB-Hib Vaccine,http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07BC20000P5001,Hep A 720U & Hep B 20mcg Vaccine PFS,Hep A 720U & Hep B 20mcg Vaccine PFS,http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+X0X0X01818X0X18,Vaccine Covid-16,Vaccine Covid-16,http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore
+J07BX03000P3004,COVID-19 Vaccine Janssen Inj,COVID-19 Vaccine Janssen Inj,http://fhir.hie.moh.gov.my/CodeSystem/vaccine-code-my-core,CodeSystemVaccineCodeMyCore

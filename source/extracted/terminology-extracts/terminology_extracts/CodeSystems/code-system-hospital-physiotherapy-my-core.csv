@@ -1,0 +1,84 @@
+code,display,definition,system_url,system_name
+10,Didynamic Current,Didynamic Current,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+11,Transcutaneous Electrical Nerve Stimulation,Transcutaneous Electrical Nerve Stimulation,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+12,Functional Electrical Stimulation,Functional Electrical Stimulation,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+13,Laser Therapy,Laser Therapy,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+14,Biofeedback,Biofeedback,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+15,Myofeedback,Myofeedback,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+16,Infra Red Therapy,Infra Red Therapy,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+17,Hot Pack,Hot Pack,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+18,Wax Bath,Wax Bath,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+19,Exercise - Active / Passive / Resisted,Exercise - Active / Passive / Resisted,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+20,Group Exercise,Group Exercise,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+21,Mechanical Exercise,Mechanical Exercise,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+22,Ambulation,Ambulation,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+23,Gait Training,Gait Training,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+24,Isokinetic,Isokinetic,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+25,Treadmill,Treadmill,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+26,Pelvic Floor Muscle Exercise,Pelvic Floor Muscle Exercise,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+27,Counter Bracing Technique,Counter Bracing Technique,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+28,Ante / Post Natal Exercise,Ante / Post Natal Exercise,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+29,Therapeutic Ball Exercise,Therapeutic Ball Exercise,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+30,Functional Activities,Functional Activities,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+31,Balance Training,Balance Training,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+32,Suspension Therapy,Suspension Therapy,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+33,Motorised Cycle,Motorised Cycle,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+34,Tilt Table Activity,Tilt Table Activity,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+35,Mat Activity,Mat Activity,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+36,Ultraviolet Light Therapy,Ultraviolet Light Therapy,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+37,Supportive,Supportive,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+38,Compression,Compression,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+39,Taping,Taping,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+40,Cryotherapy by Air,Cryotherapy by Air,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+41,Cryocuff,Cryocuff,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+42,Ice Pack,Ice Pack,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+43,Whirpool,Whirpool,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+44,Hydrotherapy Pool,Hydrotherapy Pool,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+45,Cervical Traction,Cervical Traction,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+46,Lumbar Traction,Lumbar Traction,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+47,Sequential Pump,Sequential Pump,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+48,Continuous Passive Motion,Continuous Passive Motion,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+49,Breathing Exercise,Breathing Exercise,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+50,Postural Drainage,Postural Drainage,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+51,Percussion / Vibration / Shaking,Percussion / Vibration / Shaking,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+52,Suction,Suction,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+53,Inspiratory Muscle Training,Inspiratory Muscle Training,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+54,Positive Expiratory Pressure,Positive Expiratory Pressure,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+55,Active Cycle Breathing Technique,Active Cycle Breathing Technique,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+56,Inhalation Therapy,Inhalation Therapy,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+57,Incentive Spirometer,Incentive Spirometer,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+58,Nebuliser,Nebuliser,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+59,Use Of Adjuncts In Respiratory Care,Use Of Adjuncts In Respiratory Care,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+60,Joint Mobilization,Joint Mobilization,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+61,McKenzie / Maitland Technique,McKenzie / Maitland Technique,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+62,Neurodevelopmental Therapy,Neurodevelopmental Therapy,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+63,Acupressure,Acupressure,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+64,Icing and Brushing,Icing and Brushing,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+65,Soft Tissue Manipulation,Soft Tissue Manipulation,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+66,Myofascial Release,Myofascial Release,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+67,Sensory Reeducation,Sensory Reeducation,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+68,Special Hand Exercise Regime,Special Hand Exercise Regime,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+69,Bladder / Bowel Training,Bladder / Bowel Training,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+70,Manual Lymphatic Drainage,Manual Lymphatic Drainage,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+71,Management of Pelvic Floor Dysfunction Using Adjuncts,Management of Pelvic Floor Dysfunction Using Adjuncts,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+72,Special Protocol for Orthopedic Conditions,Special Protocol for Orthopedic Conditions,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+73,Lumbar / Cervical Stabilization,Lumbar / Cervical Stabilization,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+74,Cognitive Behavioral Therapy,Cognitive Behavioral Therapy,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+75,Proprioceptive Neuromuscular Facilitation,Proprioceptive Neuromuscular Facilitation,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+76,Dry Needling,Dry Needling,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+77,Mobilization with Movement,Mobilization with Movement,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+78,Vestibular Rehabilitation,Vestibular Rehabilitation,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+79,Muscle Energy Technique,Muscle Energy Technique,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+80,Patient Education,Patient Education,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+81,Carer / Family Education,Carer / Family Education,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+82,Home Exercise Programme,Home Exercise Programme,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+01,Shockwave Therapy,Shockwave Therapy,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+02,Real Time Ultra Sound,Real Time Ultra Sound,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+03,Shortwave Diathermy,Shortwave Diathermy,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+04,Ultrasound Therapy,Ultrasound Therapy,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+05,Interferential Therapy,Interferential Therapy,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+06,Faradic Stimulation,Faradic Stimulation,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+07,Interrupted Direct Current,Interrupted Direct Current,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+08,Direct Current,Direct Current,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+09,Iontophorosis,Iontophorosis,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore
+00,Lain-lain,Lain-lain,http://fhir.hie.moh.gov.my/CodeSystem/hospital-physiotherapy-my-core,CodeSystemHospitalPhysiotherapyMyCore

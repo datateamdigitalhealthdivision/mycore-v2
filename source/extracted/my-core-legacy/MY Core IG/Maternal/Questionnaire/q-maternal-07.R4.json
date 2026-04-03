@@ -1,0 +1,264 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-maternal-07",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-07",
+  "version": "1.0.0",
+  "name": "QMaternal07",
+  "title": "Pemeriksaan Oleh Pegawai Perubatan dan Pegawai Pergigian",
+  "status": "active",
+  "date": "2023-08-30T01:19:04.1804145+00:00",
+  "item": [
+    {
+      "linkId": "maternal-7.1",
+      "code": [
+        {
+          "code": "maternal-7.1"
+        }
+      ],
+      "text": "Jenis Pemeriksaan",
+      "type": "choice",
+      "answerOption": [
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core",
+            "code": "maternal-rme-1",
+            "display": "Routine Medical Exam 1 (RME 1)"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core",
+            "code": "maternal-rme-2",
+            "display": "Routine Medical Exam 2 (RME 2)"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core",
+            "code": "maternal-rme-add",
+            "display": "Additional Medical Exam"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core",
+            "code": "maternal-rme-dental",
+            "display": "Dental Routine Medical Exam"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-7.2",
+      "text": "General",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "maternal-7.2.1",
+          "text": "Pink/Pallor",
+          "type": "string"
+        },
+        {
+          "linkId": "maternal-7.2.2",
+          "text": "Jaundice",
+          "type": "string"
+        },
+        {
+          "linkId": "maternal-7.2.3",
+          "text": "BP",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "maternal-7.2.3.1",
+              "text": "Systolic",
+              "type": "quantity"
+            },
+            {
+              "linkId": "maternal-7.2.3.2",
+              "text": "Diastolic",
+              "type": "quantity"
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-7.2.4",
+          "text": "Pulse Rate",
+          "type": "quantity"
+        },
+        {
+          "linkId": "maternal-7.2.5",
+          "text": "Pulse Rhythm",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-7.3",
+      "text": "Neck",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "maternal-7.3.1",
+          "text": "Swelling",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-7.4",
+      "text": "CVS",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "maternal-7.4.1",
+          "text": "Clubbing",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-7.4.2",
+          "text": "JVP",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "260399008",
+                "display": "Raised"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-7.4.3",
+          "text": "Apex Beat",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263739008",
+                "display": "Displaced"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-7.4.4",
+          "text": "Heart Sounds",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "301132007",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "123824001",
+                "display": "Abnormal"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-7.5",
+      "text": "Breast",
+      "type": "choice",
+      "answerOption": [
+        {
+          "valueCoding": {
+            "system": "http://snomed.info/sct",
+            "code": "17621005",
+            "display": "Normal"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://snomed.info/sct",
+            "code": "263654008",
+            "display": "Abnormal"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-7.6",
+      "text": "Lungs",
+      "type": "choice",
+      "answerOption": [
+        {
+          "valueCoding": {
+            "system": "http://snomed.info/sct",
+            "code": "17621005",
+            "display": "Normal"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://snomed.info/sct",
+            "code": "263654008",
+            "display": "Abnormal"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-7.7",
+      "text": "Abdomen",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "maternal-7.7.1",
+          "text": "SFH",
+          "type": "string"
+        },
+        {
+          "linkId": "maternal-7.7.2",
+          "text": "FHR",
+          "type": "quantity"
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-7.8",
+      "text": "Lower limbs",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "maternal-7.8.1",
+          "text": "Oedema",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-7.8.2",
+          "text": "Calf tenderness",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-7.9",
+      "text": "Catatan",
+      "type": "text"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "resourceType": "ValueSet",
+  "id": "cluster-facility-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/cluster-facility-my-core",
+  "name": "ValueSetClusterFacilityMyCore",
+  "title": "ValueSetClusterFacility (MY Core)",
+  "status": "active",
+  "date": "2023-01-03T04:47:56.9010407+00:00",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "Cluster Facility Value Set",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/cluster-facility-my-core"
+      }
+    ]
+  },
+  "version": "2.0.0",
+  "experimental": false
+}

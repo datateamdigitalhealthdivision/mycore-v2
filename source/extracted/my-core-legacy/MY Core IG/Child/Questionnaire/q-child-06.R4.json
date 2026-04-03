@@ -1,0 +1,221 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-child-06",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-child-06",
+  "version": "1.0.0",
+  "name": "QChild06",
+  "title": "Rawatan Neonatal",
+  "status": "active",
+  "date": "2023-10-02T05:48:48.613112+00:00",
+  "item": [
+    {
+      "linkId": "child-6",
+      "text": "Rawatan Neonatal",
+      "type": "group",
+      "repeats": true,
+      "item": [
+        {
+          "linkId": "child-6.1",
+          "text": "Tarikh",
+          "type": "dateTime"
+        },
+        {
+          "linkId": "child-6.2",
+          "text": "Umur semasa lawatan",
+          "type": "quantity"
+        },
+        {
+          "linkId": "child-6.3",
+          "text": "Berat badan",
+          "type": "quantity"
+        },
+        {
+          "linkId": "child-6.4",
+          "text": "Panjang",
+          "type": "quantity"
+        },
+        {
+          "linkId": "child-6.5",
+          "text": "Lilitan kepala",
+          "type": "quantity"
+        },
+        {
+          "linkId": "child-6.6",
+          "text": "Tindakbalas",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+                "code": "01",
+                "display": "Aktif"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+                "code": "02",
+                "display": "Tidak aktif"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "child-6.7",
+          "text": "Warna bayi",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+                "code": "01",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+                "code": "02",
+                "display": "Biru"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+                "code": "03",
+                "display": "Pucat"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "child-6.8",
+          "text": "Wajah dismorfik (Con: Down's Syndrome)",
+          "type": "string"
+        },
+        {
+          "linkId": "child-6.9",
+          "text": "Jaundis",
+          "type": "string"
+        },
+        {
+          "linkId": "child-6.10",
+          "text": "Keadaan kulit",
+          "type": "string"
+        },
+        {
+          "linkId": "child-6.11",
+          "text": "Penilaian penyusuan",
+          "type": "string"
+        },
+        {
+          "linkId": "child-6.12",
+          "text": "Buang air besar",
+          "type": "string"
+        },
+        {
+          "linkId": "child-6.13",
+          "text": "Buang air kecil",
+          "type": "string"
+        },
+        {
+          "linkId": "child-6.14",
+          "text": "Kadar pernafasan (normal 40 - 60/min)",
+          "type": "quantity"
+        },
+        {
+          "linkId": "child-6.15",
+          "text": "Kadar denyutan jantung (normal 120 - 160/min)",
+          "type": "quantity"
+        },
+        {
+          "linkId": "child-6.16",
+          "text": "Suhu badan (normal suhu ketiak 36.5 - 37.0°C)",
+          "type": "quantity"
+        },
+        {
+          "linkId": "child-6.17",
+          "text": "Fontanelle (Rupabentuk/ Ubun-ubun/ Bengkak/ benjolan/ caput)",
+          "type": "string"
+        },
+        {
+          "linkId": "child-6.18",
+          "text": "Leher - bengkak/ ketulan",
+          "type": "string"
+        },
+        {
+          "linkId": "child-6.19",
+          "text": "Mata (contoh: juling, katarak, lelehan dll)",
+          "type": "string"
+        },
+        {
+          "linkId": "child-6.20",
+          "text": "Mulut (contoh: sumbing, gigi, oral thrush dll)",
+          "type": "string"
+        },
+        {
+          "linkId": "child-6.21",
+          "text": "Telinga (bentuk, lelehan dll)",
+          "type": "string"
+        },
+        {
+          "linkId": "child-6.22",
+          "text": "Sistem respiratori Bentuk dada, bunyi pernafasan, grunting dll)",
+          "type": "string"
+        },
+        {
+          "linkId": "child-6.23",
+          "text": "Sistem Kardiovaskular (bunyi luar biasa dll)",
+          "type": "string"
+        },
+        {
+          "linkId": "child-6.24",
+          "text": "Abdomen (distented, tali pusat, benjolan dll)",
+          "type": "string"
+        },
+        {
+          "linkId": "child-6.25",
+          "text": "Alat kelamin (rupa bentuk, testis, lelehan)",
+          "type": "string"
+        },
+        {
+          "linkId": "child-6.26",
+          "text": "Tulang (tulang belakang, tangan, kaki, jari, hip)",
+          "type": "string"
+        },
+        {
+          "linkId": "child-6.27",
+          "text": "Sistem neurologi",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "child-6.27.1",
+              "text": "Reflex",
+              "type": "string"
+            },
+            {
+              "linkId": "child-6.27.2",
+              "text": "Muscle tone",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-6.28",
+          "text": "Perkara yang membimbangkan ibu bapa/penjaga",
+          "type": "string"
+        },
+        {
+          "linkId": "child-6.29",
+          "text": "Bimbingan awal diberikan",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-6.30",
+          "text": "Catatan",
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}

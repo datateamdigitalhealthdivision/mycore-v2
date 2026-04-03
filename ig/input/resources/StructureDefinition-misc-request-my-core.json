@@ -1,0 +1,111 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "misc-request-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/misc-request-my-core",
+  "name": "ExtensionMiscRequestMyCore",
+  "title": "ExtensionMiscRequest (MY Core)",
+  "status": "active",
+  "date": "2023-06-26T00:55:17.2867281+00:00",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "MedicationRequest"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 0
+      },
+      {
+        "id": "Extension.extension:miscFrequency",
+        "path": "Extension.extension",
+        "sliceName": "miscFrequency",
+        "min": 0
+      },
+      {
+        "id": "Extension.extension:miscFrequency.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "miscFrequency"
+      },
+      {
+        "id": "Extension.extension:miscFrequency.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:miscRoute",
+        "path": "Extension.extension",
+        "sliceName": "miscRoute",
+        "min": 0
+      },
+      {
+        "id": "Extension.extension:miscRoute.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "miscRoute"
+      },
+      {
+        "id": "Extension.extension:miscRoute.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:miscUom",
+        "path": "Extension.extension",
+        "sliceName": "miscUom",
+        "min": 0
+      },
+      {
+        "id": "Extension.extension:miscUom.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "miscUom"
+      },
+      {
+        "id": "Extension.extension:miscUom.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/misc-request-my-core"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "max": "0"
+      }
+    ]
+  },
+  "version": "2.0.0",
+  "experimental": false
+}

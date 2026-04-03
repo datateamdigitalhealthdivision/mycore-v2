@@ -1,0 +1,942 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "hospital-physiotherapy-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemHospitalPhysiotherapy (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/hospital-physiotherapy-my-core</tt><p>Malaysia Hospital Physiotherapy</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/hospital-physiotherapy-my-core",
+  "name": "CodeSystemHospitalPhysiotherapyMyCore",
+  "title": "CodeSystemHospitalPhysiotherapy (MY Core)",
+  "status": "active",
+  "date": "2023-07-25T00:23:50.1094378+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "description": "Malaysia Hospital Physiotherapy",
+  "compositional": false,
+  "content": "complete",
+  "count": 83,
+  "property": [
+    {
+      "code": "Category",
+      "type": "string"
+    }
+  ],
+  "concept": [
+    {
+      "code": "10",
+      "display": "Didynamic Current",
+      "definition": "Didynamic Current",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Electrotherapy Modalities"
+        }
+      ]
+    },
+    {
+      "code": "11",
+      "display": "Transcutaneous Electrical Nerve Stimulation",
+      "definition": "Transcutaneous Electrical Nerve Stimulation",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Electrotherapy Modalities"
+        }
+      ]
+    },
+    {
+      "code": "12",
+      "display": "Functional Electrical Stimulation",
+      "definition": "Functional Electrical Stimulation",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Electrotherapy Modalities"
+        }
+      ]
+    },
+    {
+      "code": "13",
+      "display": "Laser Therapy",
+      "definition": "Laser Therapy",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Electrotherapy Modalities"
+        }
+      ]
+    },
+    {
+      "code": "14",
+      "display": "Biofeedback",
+      "definition": "Biofeedback",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Electrotherapy Modalities"
+        }
+      ]
+    },
+    {
+      "code": "15",
+      "display": "Myofeedback",
+      "definition": "Myofeedback",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Electrotherapy Modalities"
+        }
+      ]
+    },
+    {
+      "code": "16",
+      "display": "Infra Red Therapy",
+      "definition": "Infra Red Therapy",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Electrotherapy Modalities"
+        }
+      ]
+    },
+    {
+      "code": "17",
+      "display": "Hot Pack",
+      "definition": "Hot Pack",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Thermal Agent"
+        }
+      ]
+    },
+    {
+      "code": "18",
+      "display": "Wax Bath",
+      "definition": "Wax Bath",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Thermal Agent"
+        }
+      ]
+    },
+    {
+      "code": "19",
+      "display": "Exercise - Active / Passive / Resisted",
+      "definition": "Exercise - Active / Passive / Resisted",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Theraputic Exercise"
+        }
+      ]
+    },
+    {
+      "code": "20",
+      "display": "Group Exercise",
+      "definition": "Group Exercise",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Theraputic Exercise"
+        }
+      ]
+    },
+    {
+      "code": "21",
+      "display": "Mechanical Exercise",
+      "definition": "Mechanical Exercise",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Theraputic Exercise"
+        }
+      ]
+    },
+    {
+      "code": "22",
+      "display": "Ambulation",
+      "definition": "Ambulation",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Theraputic Exercise"
+        }
+      ]
+    },
+    {
+      "code": "23",
+      "display": "Gait Training",
+      "definition": "Gait Training",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Theraputic Exercise"
+        }
+      ]
+    },
+    {
+      "code": "24",
+      "display": "Isokinetic",
+      "definition": "Isokinetic",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Theraputic Exercise"
+        }
+      ]
+    },
+    {
+      "code": "25",
+      "display": "Treadmill",
+      "definition": "Treadmill",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Theraputic Exercise"
+        }
+      ]
+    },
+    {
+      "code": "26",
+      "display": "Pelvic Floor Muscle Exercise",
+      "definition": "Pelvic Floor Muscle Exercise",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Theraputic Exercise"
+        }
+      ]
+    },
+    {
+      "code": "27",
+      "display": "Counter Bracing Technique",
+      "definition": "Counter Bracing Technique",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Theraputic Exercise"
+        }
+      ]
+    },
+    {
+      "code": "28",
+      "display": "Ante / Post Natal Exercise",
+      "definition": "Ante / Post Natal Exercise",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Theraputic Exercise"
+        }
+      ]
+    },
+    {
+      "code": "29",
+      "display": "Therapeutic Ball Exercise",
+      "definition": "Therapeutic Ball Exercise",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Theraputic Exercise"
+        }
+      ]
+    },
+    {
+      "code": "30",
+      "display": "Functional Activities",
+      "definition": "Functional Activities",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Theraputic Exercise"
+        }
+      ]
+    },
+    {
+      "code": "31",
+      "display": "Balance Training",
+      "definition": "Balance Training",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Theraputic Exercise"
+        }
+      ]
+    },
+    {
+      "code": "32",
+      "display": "Suspension Therapy",
+      "definition": "Suspension Therapy",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Theraputic Exercise"
+        }
+      ]
+    },
+    {
+      "code": "33",
+      "display": "Motorised Cycle",
+      "definition": "Motorised Cycle",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Theraputic Exercise"
+        }
+      ]
+    },
+    {
+      "code": "34",
+      "display": "Tilt Table Activity",
+      "definition": "Tilt Table Activity",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Theraputic Exercise"
+        }
+      ]
+    },
+    {
+      "code": "35",
+      "display": "Mat Activity",
+      "definition": "Mat Activity",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Theraputic Exercise"
+        }
+      ]
+    },
+    {
+      "code": "36",
+      "display": "Ultraviolet Light Therapy",
+      "definition": "Ultraviolet Light Therapy",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Phototherapy"
+        }
+      ]
+    },
+    {
+      "code": "37",
+      "display": "Supportive",
+      "definition": "Supportive",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Bandaging"
+        }
+      ]
+    },
+    {
+      "code": "38",
+      "display": "Compression",
+      "definition": "Compression",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Bandaging"
+        }
+      ]
+    },
+    {
+      "code": "39",
+      "display": "Taping",
+      "definition": "Taping",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Strapping"
+        }
+      ]
+    },
+    {
+      "code": "40",
+      "display": "Cryotherapy by Air",
+      "definition": "Cryotherapy by Air",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Cryotherapy"
+        }
+      ]
+    },
+    {
+      "code": "41",
+      "display": "Cryocuff",
+      "definition": "Cryocuff",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Cryotherapy"
+        }
+      ]
+    },
+    {
+      "code": "42",
+      "display": "Ice Pack",
+      "definition": "Ice Pack",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Cryotherapy"
+        }
+      ]
+    },
+    {
+      "code": "43",
+      "display": "Whirpool",
+      "definition": "Whirpool",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Hydrotherapy"
+        }
+      ]
+    },
+    {
+      "code": "44",
+      "display": "Hydrotherapy Pool",
+      "definition": "Hydrotherapy Pool",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Hydrotherapy"
+        }
+      ]
+    },
+    {
+      "code": "45",
+      "display": "Cervical Traction",
+      "definition": "Cervical Traction",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Mechanical Therapy"
+        }
+      ]
+    },
+    {
+      "code": "46",
+      "display": "Lumbar Traction",
+      "definition": "Lumbar Traction",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Mechanical Therapy"
+        }
+      ]
+    },
+    {
+      "code": "47",
+      "display": "Sequential Pump",
+      "definition": "Sequential Pump",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Mechanical Therapy"
+        }
+      ]
+    },
+    {
+      "code": "48",
+      "display": "Continuous Passive Motion",
+      "definition": "Continuous Passive Motion",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Mechanical Therapy"
+        }
+      ]
+    },
+    {
+      "code": "49",
+      "display": "Breathing Exercise",
+      "definition": "Breathing Exercise",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Chest Therapy"
+        }
+      ]
+    },
+    {
+      "code": "50",
+      "display": "Postural Drainage",
+      "definition": "Postural Drainage",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Chest Therapy"
+        }
+      ]
+    },
+    {
+      "code": "51",
+      "display": "Percussion / Vibration / Shaking",
+      "definition": "Percussion / Vibration / Shaking",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Chest Therapy"
+        }
+      ]
+    },
+    {
+      "code": "52",
+      "display": "Suction",
+      "definition": "Suction",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Chest Therapy"
+        }
+      ]
+    },
+    {
+      "code": "53",
+      "display": "Inspiratory Muscle Training",
+      "definition": "Inspiratory Muscle Training",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Chest Therapy"
+        }
+      ]
+    },
+    {
+      "code": "54",
+      "display": "Positive Expiratory Pressure",
+      "definition": "Positive Expiratory Pressure",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Chest Therapy"
+        }
+      ]
+    },
+    {
+      "code": "55",
+      "display": "Active Cycle Breathing Technique",
+      "definition": "Active Cycle Breathing Technique",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Chest Therapy"
+        }
+      ]
+    },
+    {
+      "code": "56",
+      "display": "Inhalation Therapy",
+      "definition": "Inhalation Therapy",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Chest Therapy"
+        }
+      ]
+    },
+    {
+      "code": "57",
+      "display": "Incentive Spirometer",
+      "definition": "Incentive Spirometer",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Chest Therapy"
+        }
+      ]
+    },
+    {
+      "code": "58",
+      "display": "Nebuliser",
+      "definition": "Nebuliser",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Chest Therapy"
+        }
+      ]
+    },
+    {
+      "code": "59",
+      "display": "Use Of Adjuncts In Respiratory Care",
+      "definition": "Use Of Adjuncts In Respiratory Care",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Chest Therapy"
+        }
+      ]
+    },
+    {
+      "code": "60",
+      "display": "Joint Mobilization",
+      "definition": "Joint Mobilization",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Special Techniques"
+        }
+      ]
+    },
+    {
+      "code": "61",
+      "display": "McKenzie / Maitland Technique",
+      "definition": "McKenzie / Maitland Technique",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Special Techniques"
+        }
+      ]
+    },
+    {
+      "code": "62",
+      "display": "Neurodevelopmental Therapy",
+      "definition": "Neurodevelopmental Therapy",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Special Techniques"
+        }
+      ]
+    },
+    {
+      "code": "63",
+      "display": "Acupressure",
+      "definition": "Acupressure",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Special Techniques"
+        }
+      ]
+    },
+    {
+      "code": "64",
+      "display": "Icing and Brushing",
+      "definition": "Icing and Brushing",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Special Techniques"
+        }
+      ]
+    },
+    {
+      "code": "65",
+      "display": "Soft Tissue Manipulation",
+      "definition": "Soft Tissue Manipulation",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Special Techniques"
+        }
+      ]
+    },
+    {
+      "code": "66",
+      "display": "Myofascial Release",
+      "definition": "Myofascial Release",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Special Techniques"
+        }
+      ]
+    },
+    {
+      "code": "67",
+      "display": "Sensory Reeducation",
+      "definition": "Sensory Reeducation",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Special Techniques"
+        }
+      ]
+    },
+    {
+      "code": "68",
+      "display": "Special Hand Exercise Regime",
+      "definition": "Special Hand Exercise Regime",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Special Techniques"
+        }
+      ]
+    },
+    {
+      "code": "69",
+      "display": "Bladder / Bowel Training",
+      "definition": "Bladder / Bowel Training",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Special Techniques"
+        }
+      ]
+    },
+    {
+      "code": "70",
+      "display": "Manual Lymphatic Drainage",
+      "definition": "Manual Lymphatic Drainage",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Special Techniques"
+        }
+      ]
+    },
+    {
+      "code": "71",
+      "display": "Management of Pelvic Floor Dysfunction Using Adjuncts",
+      "definition": "Management of Pelvic Floor Dysfunction Using Adjuncts",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Special Techniques"
+        }
+      ]
+    },
+    {
+      "code": "72",
+      "display": "Special Protocol for Orthopedic Conditions",
+      "definition": "Special Protocol for Orthopedic Conditions",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Special Techniques"
+        }
+      ]
+    },
+    {
+      "code": "73",
+      "display": "Lumbar / Cervical Stabilization",
+      "definition": "Lumbar / Cervical Stabilization",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Special Techniques"
+        }
+      ]
+    },
+    {
+      "code": "74",
+      "display": "Cognitive Behavioral Therapy",
+      "definition": "Cognitive Behavioral Therapy",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Special Techniques"
+        }
+      ]
+    },
+    {
+      "code": "75",
+      "display": "Proprioceptive Neuromuscular Facilitation",
+      "definition": "Proprioceptive Neuromuscular Facilitation",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Special Techniques"
+        }
+      ]
+    },
+    {
+      "code": "76",
+      "display": "Dry Needling",
+      "definition": "Dry Needling",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Special Techniques"
+        }
+      ]
+    },
+    {
+      "code": "77",
+      "display": "Mobilization with Movement",
+      "definition": "Mobilization with Movement",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Special Techniques"
+        }
+      ]
+    },
+    {
+      "code": "78",
+      "display": "Vestibular Rehabilitation",
+      "definition": "Vestibular Rehabilitation",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Special Techniques"
+        }
+      ]
+    },
+    {
+      "code": "79",
+      "display": "Muscle Energy Technique",
+      "definition": "Muscle Energy Technique",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Special Techniques"
+        }
+      ]
+    },
+    {
+      "code": "80",
+      "display": "Patient Education",
+      "definition": "Patient Education",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Educations"
+        }
+      ]
+    },
+    {
+      "code": "81",
+      "display": "Carer / Family Education",
+      "definition": "Carer / Family Education",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Educations"
+        }
+      ]
+    },
+    {
+      "code": "82",
+      "display": "Home Exercise Programme",
+      "definition": "Home Exercise Programme",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Educations"
+        }
+      ]
+    },
+    {
+      "code": "01",
+      "display": "Shockwave Therapy",
+      "definition": "Shockwave Therapy",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Electrotherapy Modalities"
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "display": "Real Time Ultra Sound",
+      "definition": "Real Time Ultra Sound",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Electrotherapy Modalities"
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "display": "Shortwave Diathermy",
+      "definition": "Shortwave Diathermy",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Electrotherapy Modalities"
+        }
+      ]
+    },
+    {
+      "code": "04",
+      "display": "Ultrasound Therapy",
+      "definition": "Ultrasound Therapy",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Electrotherapy Modalities"
+        }
+      ]
+    },
+    {
+      "code": "05",
+      "display": "Interferential Therapy",
+      "definition": "Interferential Therapy",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Electrotherapy Modalities"
+        }
+      ]
+    },
+    {
+      "code": "06",
+      "display": "Faradic Stimulation",
+      "definition": "Faradic Stimulation",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Electrotherapy Modalities"
+        }
+      ]
+    },
+    {
+      "code": "07",
+      "display": "Interrupted Direct Current",
+      "definition": "Interrupted Direct Current",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Electrotherapy Modalities"
+        }
+      ]
+    },
+    {
+      "code": "08",
+      "display": "Direct Current",
+      "definition": "Direct Current",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Electrotherapy Modalities"
+        }
+      ]
+    },
+    {
+      "code": "09",
+      "display": "Iontophorosis",
+      "definition": "Iontophorosis",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Electrotherapy Modalities"
+        }
+      ]
+    },
+    {
+      "code": "00",
+      "display": "Lain-lain",
+      "definition": "Lain-lain",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Others"
+        }
+      ]
+    }
+  ],
+  "version": "2.0.0",
+  "experimental": false,
+  "caseSensitive": true
+}

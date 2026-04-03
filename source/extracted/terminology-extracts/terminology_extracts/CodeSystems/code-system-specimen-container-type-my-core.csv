@@ -1,0 +1,57 @@
+code,display,definition,system_url,system_name
+001,Plain tube,Plain tube,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+002,Urine container,Urine container,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+003,24hr urine bottle with 10mL 25% HCl,24hr urine bottle with 10mL 25% HCl,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+004,Whatmann 903 Filter Paper,Whatmann 903 Filter Paper,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+005,EDTA tube,EDTA tube,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+006,Pre-chilled EDTA,Pre-chilled EDTA,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+007,Falcon tube,Falcon tube,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+008,Sodium Fluoride tube,Sodium Fluoride tube,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+009,Lithium Heparin tube,Lithium Heparin tube,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+010,K2 EDTA tube,K2 EDTA tube,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+011,Clean tube,Clean tube,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+012,Heparinised syringe,Heparinised syringe,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+013,24hr urine bottle,24hr urine bottle,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+014,EDTA tube / Heparin tube,EDTA tube / Heparin tube,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+015,Plain tube & Urine container,Plain tube & Urine container,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+016,Potassium Oxalate + Sodium Fluoride tube,Sodium Fluoride tube / Dissodium EDTA / Potassium Oxalate + Sodium Fluoride tube,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+017,Plain tube / EDTA tube,Plain tube / EDTA tube,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+018,Sodium Fluoride tube tube,Sodium Fluoride tube tube,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+019,Urine container & EDTA tube,Urine container & EDTA tube,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+020,24hr urine bottle 0.2g Sodium Bicarbonate,24hr urine bottle 0.2g Sodium Bicarbonate,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+021,Heparin tube,Heparin tube,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+022,Special microtube with EDTA & DTE,Special microtube with EDTA & DTE,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+023,Tissue cassette,Tissue cassette,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+024,Fixed thin smear prepared on glass slide or sterile container,Fixed thin smear prepared on glass slide or sterile container,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+025,Sterile container,Sterile container,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+26,Smear,Smear,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+027,Fixed thin smear prepared on glass slide,Fixed thin smear prepared on glass slide,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+028,Capped container,Capped container,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+030,Supplied vial with fixative,Supplied vial with fixative,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+031,3.2% trisodium citrate,3.2% trisodium citrate,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+032,Lithium Heparin tube,Lithium Heparin tube,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+033,Direct Smear,Direct Smear,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+034,Sodium Heparin tube,Sodium Heparin tube,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+035,Microtainer K2EDTA tube,Microtainer K2EDTA tube,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+036,EDTA tube MAP (pediatric infectious sample),EDTA tube MAP (pediatric infectious sample),http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+037,Filter paper,Filter paper,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+038,Fresh finger prick,Fresh finger prick,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+039,NA Slant/ Culture plate,NA Slant/ Culture plate,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+040,Sterile container / Falcon tube,Sterile container / Falcon tube,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+041,Myco F Lytic blood bottle,Myco F Lytic blood bottle,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+042,Aerobic blood bottle,Aerobic blood bottle,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+043,Anaerobic blood bottle,Anaerobic blood bottle,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+044,Pediatric blood bottle,Pediatric blood bottle,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+045,Thick film,Thick film,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+046,Thin film,Thin film,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+047,Charcoal/ Stuart transport medium,Charcoal/ Stuart transport medium,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+048,Attest,Attest,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+049,Plain sterile swab,Plain sterile swab,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+050,Myco F Lytic BACTEC bottle,Myco F Lytic BACTEC bottle,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+051,Instrument in wrapping/ actual pack,Instrument in wrapping/ actual pack,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+052,Stuart transport medium,Stuart transport medium,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+053,Thioglycolate transport medium,Thioglycolate transport medium,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+054,Sterile container / boric acid,Sterile container / boric acid,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+055,Sterile container contains VTM,Sterile container contains VTM,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+056,Viral Transport Medium,Viral Transport Medium,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore
+057,Plain tube / EDTA tube / Lithium Heparin tube,Plain tube / EDTA tube / Lithium Heparin tube,http://fhir.hie.moh.gov.my/CodeSystem/specimen-container-type-my-core,CodeSystemSpecimenContainerTypeMyCore

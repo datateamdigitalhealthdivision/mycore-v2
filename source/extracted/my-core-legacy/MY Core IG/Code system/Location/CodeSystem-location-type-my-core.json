@@ -1,0 +1,30 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-location-type-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemLocationType (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/location-type-my-core</tt><p>Location Type</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/location-type-my-core",
+  "version": "1.0.0",
+  "name": "CodeSystemLocationTypeMyCore",
+  "title": "CodeSystemLocationType (MY Core)",
+  "status": "active",
+  "date": "2023-04-10T23:23:10.8917831+00:00",
+  "description": "Location Type",
+  "compositional": false,
+  "content": "complete",
+  "count": 2,
+  "concept": [
+    {
+      "code": "OT",
+      "display": "Operation Theatre",
+      "definition": "Operation Theatre"
+    },
+    {
+      "code": "SCS",
+      "display": "Specimen Collecting Site",
+      "definition": "Specimen Collecting Site"
+    }
+  ]
+}

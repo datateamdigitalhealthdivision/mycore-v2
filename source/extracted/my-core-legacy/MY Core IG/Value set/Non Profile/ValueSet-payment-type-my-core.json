@@ -1,0 +1,38 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-payment-type-my-core",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2023-01-09T07:05:16.608+08:00",
+    "source": "#2HjZEXgsoIbWGkcn"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetPaymentType (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/ValueSet/payment-type-my-core</tt><p>Payment Type</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/payment-type-my-core",
+  "name": "ValueSetPaymentType_MyCore",
+  "title": "ValueSetPaymentType (MY Core)",
+  "status": "active",
+  "date": "2023-06-26T00:55:17.2867281+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Payment Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/payment-type-my-core"
+      }
+    ]
+  }
+}

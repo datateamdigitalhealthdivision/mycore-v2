@@ -1,0 +1,462 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-maternal-18",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-18",
+  "version": "1.0.0",
+  "name": "QMaternal18",
+  "title": "Senarai Semak Risiko VTE Semasa Hamil dan Puerperium",
+  "status": "active",
+  "date": "2023-08-30T01:19:04.1804145+00:00",
+  "description": "Reference: Prevention & Treatment of Thromboembolism in Pregnancy and Puerperium, 2018",
+  "purpose": "*Note: Thromboprophylaxis is recommended during the transient period. Consider stopping once the transient risks are deemed no longer significant.",
+  "code": [
+    {
+      "code": "q-maternal-18"
+    }
+  ],
+  "item": [
+    {
+      "linkId": "maternal-18.1",
+      "code": [
+        {
+          "code": "maternal-18.1"
+        }
+      ],
+      "prefix": "1",
+      "text": "VTE risk factor",
+      "type": "choice",
+      "answerOption": [
+        {
+          "valueCoding": {
+            "code": "00",
+            "display": "Pre pregnancy/Booking"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "01",
+            "display": "Admission New Illness"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "02",
+            "display": "Post Delivery"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-18.2",
+      "code": [
+        {
+          "code": "maternal-18.2"
+        }
+      ],
+      "prefix": "2",
+      "text": "Pre-existing risk factors",
+      "type": "group",
+      "item": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 4.0
+            }
+          ],
+          "linkId": "maternal-18.2.1",
+          "code": [
+            {
+              "code": "maternal-18.2.1"
+            }
+          ],
+          "prefix": "2.1",
+          "text": "Previous VTE (VTE Score - 4)",
+          "type": "boolean"
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 3.0
+            }
+          ],
+          "linkId": "maternal-18.2.2",
+          "code": [
+            {
+              "code": "maternal-18.2.2"
+            }
+          ],
+          "prefix": "2.2",
+          "text": "High risk thrombophilia (VTE Score - 3)",
+          "type": "boolean"
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 3.0
+            }
+          ],
+          "linkId": "maternal-18.2.3",
+          "code": [
+            {
+              "code": "maternal-18.2.3"
+            }
+          ],
+          "prefix": "2.3",
+          "text": "Medical comorbidities (VTE Score - 3)",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-18.2.4",
+          "code": [
+            {
+              "code": "maternal-18.2.4"
+            }
+          ],
+          "prefix": "2.4",
+          "text": "Obesity",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+                    "valueDecimal": 2.0
+                  }
+                ],
+                "system": "http://fhir.hie.moh.gov.my/CodeSystem/maternal-record-my-core",
+                "code": "00",
+                "display": "BMI ≥40kg/m2 (VTE Score - 2)"
+              }
+            },
+            {
+              "valueCoding": {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+                    "valueDecimal": 1.0
+                  }
+                ],
+                "system": "http://fhir.hie.moh.gov.my/CodeSystem/maternal-record-my-core",
+                "code": "01",
+                "display": "BMI 30-39kg/m2 (VTE Score - 1)"
+              }
+            }
+          ]
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 1.0
+            }
+          ],
+          "linkId": "maternal-18.2.5",
+          "code": [
+            {
+              "code": "maternal-18.2.5"
+            }
+          ],
+          "prefix": "2.5",
+          "text": "Family history of VTE (VTE Score - 1)",
+          "type": "boolean"
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 1.0
+            }
+          ],
+          "linkId": "maternal-18.2.6",
+          "code": [
+            {
+              "code": "maternal-18.2.6"
+            }
+          ],
+          "prefix": "2.6",
+          "text": "Low risk thrombophilia (VTE Score - 1)",
+          "type": "boolean"
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 1.0
+            }
+          ],
+          "linkId": "maternal-18.2.7",
+          "code": [
+            {
+              "code": "maternal-18.2.7"
+            }
+          ],
+          "prefix": "2.7",
+          "text": "Current smoker >10 per day (VTE Score - 1)",
+          "type": "boolean"
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 1.0
+            }
+          ],
+          "linkId": "maternal-18.2.8",
+          "code": [
+            {
+              "code": "maternal-18.2.8"
+            }
+          ],
+          "prefix": "2.8",
+          "text": "Gross varicose veins(VTE Score - 1)",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-18.3",
+      "code": [
+        {
+          "code": "maternal-18.3"
+        }
+      ],
+      "prefix": "4",
+      "text": "Obstetric risk factors",
+      "type": "group",
+      "item": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 2.0
+            }
+          ],
+          "linkId": "maternal-18.3.1",
+          "code": [
+            {
+              "code": "maternal-18.3.1"
+            }
+          ],
+          "prefix": "3.1",
+          "text": "Caesaren section (emergency & elective) (VTE Score - 2)",
+          "type": "boolean"
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 1.0
+            }
+          ],
+          "linkId": "maternal-18.3.2",
+          "code": [
+            {
+              "code": "maternal-18.3.2"
+            }
+          ],
+          "prefix": "3.2",
+          "text": "Pre eclampsia (VTE Score - 1)",
+          "type": "boolean"
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 1.0
+            }
+          ],
+          "linkId": "maternal-18.3.3",
+          "code": [
+            {
+              "code": "maternal-18.3.3"
+            }
+          ],
+          "prefix": "3.3",
+          "text": "IVF (1st trimester risk only) (VTE Score - 1)",
+          "type": "boolean"
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 1.0
+            }
+          ],
+          "linkId": "maternal-18.3.4",
+          "code": [
+            {
+              "code": "maternal-18.3.4"
+            }
+          ],
+          "prefix": "3.4",
+          "text": "Rotational instrumental delivery (VTE Score - 1)",
+          "type": "boolean"
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 1.0
+            }
+          ],
+          "linkId": "maternal-18.3.5",
+          "code": [
+            {
+              "code": "maternal-18.3.5"
+            }
+          ],
+          "prefix": "3.5",
+          "text": "PPH (>100mls) or requires blood transfusion (VTE Score - 1)",
+          "type": "boolean"
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 1.0
+            }
+          ],
+          "linkId": "maternal-18.3.6",
+          "code": [
+            {
+              "code": "maternal-18.3.6"
+            }
+          ],
+          "prefix": "3.6",
+          "text": "Stillbirth (current) (VTE Score - 1)",
+          "type": "boolean"
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 1.0
+            }
+          ],
+          "linkId": "maternal-18.3.7",
+          "code": [
+            {
+              "code": "maternal-18.3.7"
+            }
+          ],
+          "prefix": "3.7",
+          "text": "Prolonged labour (>24 hours) (VTE Score - 1)",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-18.4",
+      "code": [
+        {
+          "code": "maternal-18.4"
+        }
+      ],
+      "prefix": "4",
+      "text": "Transient risk factors",
+      "type": "group",
+      "item": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 4.0
+            }
+          ],
+          "linkId": "maternal-18.4.1",
+          "code": [
+            {
+              "code": "maternal-18.4.1"
+            }
+          ],
+          "prefix": "4.1",
+          "text": "Surgical procedures (excluding episiotomy, 1st & 2nd degree perineal repair, evacuation of products of conception) (VTE Score - 4)",
+          "type": "boolean"
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 4.0
+            }
+          ],
+          "linkId": "maternal-18.4.2",
+          "code": [
+            {
+              "code": "maternal-18.4.2"
+            }
+          ],
+          "prefix": "4.2",
+          "text": "Hyperemesis gravidarum / OHSS (VTE Score - 4)",
+          "type": "boolean"
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 1.0
+            }
+          ],
+          "linkId": "maternal-18.4.3",
+          "code": [
+            {
+              "code": "maternal-18.4.3"
+            }
+          ],
+          "prefix": "4.3",
+          "text": "Systemic/ Postpartum infection (VTE Score - 1)",
+          "type": "boolean"
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 1.0
+            }
+          ],
+          "linkId": "maternal-18.4.4",
+          "code": [
+            {
+              "code": "maternal-18.4.4"
+            }
+          ],
+          "prefix": "4.4",
+          "text": "Immobility Dehydration/ Admission beyond 3 days (VTE Score - 1)",
+          "type": "boolean"
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue-my-core",
+              "valueDecimal": 1.0
+            }
+          ],
+          "linkId": "maternal-18.4.5",
+          "code": [
+            {
+              "code": "maternal-18.4.5"
+            }
+          ],
+          "prefix": "4.5",
+          "text": "Long distance travel (> 4hours) (VTE Score - 1)",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-18.5",
+      "code": [
+        {
+          "code": "maternal-18.5"
+        }
+      ],
+      "prefix": "5",
+      "text": "Total score",
+      "type": "quantity"
+    }
+  ]
+}

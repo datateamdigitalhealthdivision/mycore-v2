@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-observation-vsc-bp-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetObservationVSCBP (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/ValueSet/observation-vsc-bp-my-core</tt><p>Value Set for Observation vital sign panel LOINC 85353-1</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/observation-vsc-bp-my-core",
+  "identifier": [
+    {
+      "value": "value-set-observation-vital-signs-note-my-core"
+    }
+  ],
+  "version": "1.0.0",
+  "name": "ValueSetObservationVSCBPMyCore",
+  "title": "ValueSetObservationVSCBP (MY Core)",
+  "status": "active",
+  "date": "2022-08-01T04:48:03.5159935+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Value Set for Observation vital sign panel LOINC 85353-1",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "8357-6",
+            "display": "Method"
+          },
+          {
+            "code": "41904-4",
+            "display": "Measurement site"
+          },
+          {
+            "code": "8358-4",
+            "display": "Device cuff size"
+          },
+          {
+            "code": "41901-0",
+            "display": "Type of device"
+          }
+        ]
+      }
+    ]
+  }
+}

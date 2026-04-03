@@ -1,0 +1,90 @@
+{
+  "resourceType": "ValueSet",
+  "id": "audiology-electrophysiology-test-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetAudiologyElectrophysiologyTest(MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/audiology-electrophysiology-test-my-core</tt><p>Malaysia Audiology Electrophysiology Test</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/audiology-electrophysiology-test-my-core",
+  "name": "ValueSetAudiologyElectrophysiologytestMyCore",
+  "title": "ValueSetAudiologyElectrophysiologyTest(MY Core)",
+  "status": "active",
+  "date": "2023-07-25T00:23:50.1094378+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "description": "Malaysia Audiology Electrophysiology Test",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/audiology-electrophysiology-test-my-core",
+        "concept": [
+          {
+            "code": "00",
+            "display": "ELECTROPHYSIOLOGY OAE TEST"
+          },
+          {
+            "code": "01",
+            "display": "ELECTROPHYSIOLOGY DPOAE TEST"
+          },
+          {
+            "code": "02",
+            "display": "ELECTROPHYSIOLOGY TEOAE TEST"
+          },
+          {
+            "code": "03",
+            "display": "ELECTROPHYSIOLOGY ABR CLICK TEST"
+          },
+          {
+            "code": "04",
+            "display": "ELECTROPHYSIOLOGY ABR AIR CONDUCTION TEST"
+          },
+          {
+            "code": "05",
+            "display": "ELECTROPHYSIOLOGY ABR BONE CONDUCTION TEST"
+          },
+          {
+            "code": "06",
+            "display": "ELECTROPHYSIOLOGY ABR TONEBURST/CHIRP TEST"
+          },
+          {
+            "code": "07",
+            "display": "ELECTROPHYSIOLOGY ABR TONEBURST/CHIRP AIR CONDUCTION TEST"
+          },
+          {
+            "code": "08",
+            "display": "ELECTROPHYSIOLOGY ABR TONEBURST/CHIRP BONE CONDUCTION TEST"
+          },
+          {
+            "code": "09",
+            "display": "ELECTROPHYSIOLOGY ASSR TEST"
+          },
+          {
+            "code": "10",
+            "display": "ADVANCE ELECTRHOPHYSIOLOGY COCHLEAR MICROPHONIC TEST"
+          },
+          {
+            "code": "11",
+            "display": "ADVANCE ELECTRHOPHYSIOLOGY ABR SITE OF LESION TEST"
+          },
+          {
+            "code": "12",
+            "display": "ADVANCE ELECTRHOPHYSIOLOGY CERA TEST"
+          },
+          {
+            "code": "13",
+            "display": "ADVANCE ELECTRHOPHYSIOLOGY ECOCHG TEST"
+          },
+          {
+            "code": "14",
+            "display": "ADVANCE ELECTRHOPHYSIOLOGY MLR TEST"
+          },
+          {
+            "code": "15",
+            "display": "ADVANCE ELECTRHOPHYSIOLOGY LLR/P300"
+          }
+        ]
+      }
+    ]
+  },
+  "version": "2.0.0",
+  "experimental": false
+}

@@ -1,0 +1,93 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-religion-my-core",
+  "meta": {
+    "versionId": "4",
+    "lastUpdated": "2022-07-04T23:17:18.747+00:00"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemReligion (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/religion-my-core</tt><p>Malaysia Common Religion</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/religion-my-core",
+  "name": "CodeSystemReligionMyCore",
+  "title": "CodeSystemReligion (MY Core)",
+  "status": "active",
+  "date": "2023-01-12T21:13:03.0089063+00:00",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "Malaysia Common Religion",
+  "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/religion-my-core",
+  "compositional": false,
+  "content": "complete",
+  "count": 12,
+  "concept": [
+    {
+      "code": "0",
+      "display": "No Information",
+      "definition": "No Information"
+    },
+    {
+      "code": "1",
+      "display": "Islam",
+      "definition": "Islam"
+    },
+    {
+      "code": "2",
+      "display": "Christianity",
+      "definition": "Christianity"
+    },
+    {
+      "code": "3",
+      "display": "Buddhism",
+      "definition": "Buddhism"
+    },
+    {
+      "code": "4",
+      "display": "Hinduism",
+      "definition": "Hinduism"
+    },
+    {
+      "code": "5",
+      "display": "Sikhism",
+      "definition": "Sikhism"
+    },
+    {
+      "code": "6",
+      "display": "Atheist",
+      "definition": "Atheist"
+    },
+    {
+      "code": "7",
+      "display": "Taoism",
+      "definition": "Taoism"
+    },
+    {
+      "code": "8",
+      "display": "Confucianism",
+      "definition": "Confucianism"
+    },
+    {
+      "code": "9",
+      "display": "Bahaism",
+      "definition": "Bahaism"
+    },
+    {
+      "code": "10",
+      "display": "Animism",
+      "definition": "Animism"
+    },
+    {
+      "code": "99",
+      "display": "Others",
+      "definition": "Others"
+    }
+  ]
+}

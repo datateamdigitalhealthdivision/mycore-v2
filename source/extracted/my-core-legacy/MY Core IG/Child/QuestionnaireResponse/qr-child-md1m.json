@@ -1,0 +1,604 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-child-md1m",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "identifier": {
+        "system": "http://fhir.hie.moh.gov.my/sid/template-section",
+        "value": "qr-child-md1m"
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-child-md1m",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/3a1fe467-cad5-4ec9-83f8-fd6dfb46470c"
+    },
+    "authored": "2023-04-27T00:20:14.414Z",
+    "item": [
+        {
+            "linkId": "child-md1m.1",
+            "text": "Vital sign",
+            "item": [
+                {
+                    "linkId": "child-md1m.1.1",
+                    "text": "Suhu badan",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 37
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-md1m.1.2",
+                    "text": "Kadar respiratori",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 25
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-md1m.1.3",
+                    "text": "Kadar denyutan jantung",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 100
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "child-md1m.2",
+            "text": "Pemeriksaan am",
+            "item": [
+                {
+                    "linkId": "child-md1m.2.1",
+                    "text": "General Condition",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "17621005",
+                                "display": "Normal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-md1m.2.1.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-md1m.2.2",
+                    "text": "Appearance",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "17621005",
+                                "display": "Normal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-md1m.2.2.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-md1m.2.3",
+                    "text": "Colour",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "263654008",
+                                "display": "Abnormal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-md1m.2.3.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-md1m.2.4",
+                    "text": "Skin",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "17621005",
+                                "display": "Normal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-md1m.2.4.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-md1m.2.5",
+                    "text": "Head/Neck",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "263654008",
+                                "display": "Abnormal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-md1m.2.5.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-md1m.2.6",
+                    "text": "Ears",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "263654008",
+                                "display": "Abnormal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-md1m.2.6.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-md1m.2.7",
+                    "text": "Eyes (including red light reflex)",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "17621005",
+                                "display": "Normal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-md1m.2.7.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-md1m.2.8",
+                    "text": "Lips",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "263654008",
+                                "display": "Abnormal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-md1m.2.8.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-md1m.2.9",
+                    "text": "Gum",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "263654008",
+                                "display": "Abnormal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-md1m.2.9.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-md1m.2.10",
+                    "text": "Palate",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "17621005",
+                                "display": "Normal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-md1m.2.10.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-md1m.2.11",
+                    "text": "Chest",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "17621005",
+                                "display": "Normal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-md1m.2.11.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-md1m.2.12",
+                    "text": "Respiration",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "263654008",
+                                "display": "Abnormal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-md1m.2.12.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-md1m.2.13",
+                    "text": "Heart",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "17621005",
+                                "display": "Normal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-md1m.2.13.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-md1m.2.14",
+                    "text": "Abdomen",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "263654008",
+                                "display": "Abnormal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-md1m.2.14.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-md1m.2.15",
+                    "text": "Spine",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "263654008",
+                                "display": "Abnormal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-md1m.2.15.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-md1m.2.16",
+                    "text": "Anus",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "17621005",
+                                "display": "Normal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-md1m.2.16.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-md1m.2.17",
+                    "text": "Genitalia",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "263654008",
+                                "display": "Abnormal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-md1m.2.17.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-md1m.2.18",
+                    "text": "Femoral Pulse",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "263654008",
+                                "display": "Abnormal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-md1m.2.18.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-md1m.2.19",
+                    "text": "Hips",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "263654008",
+                                "display": "Abnormal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-md1m.2.19.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-md1m.2.20",
+                    "text": "Hands",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "17621005",
+                                "display": "Normal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-md1m.2.20.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-md1m.2.21",
+                    "text": "Feet",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "17621005",
+                                "display": "Normal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-md1m.2.21.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-md1m.2.22",
+                    "text": "Moro Reflex",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "263654008",
+                                "display": "Abnormal"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-md1m.2.22.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "Catatan goes here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "child-md1m.3",
+            "text": "Catatan",
+            "answer": [
+                {
+                    "valueString": "Catatan goes here"
+                }
+            ]
+        }
+    ]
+}

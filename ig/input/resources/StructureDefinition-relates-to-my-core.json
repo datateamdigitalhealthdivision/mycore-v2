@@ -1,0 +1,90 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "relates-to-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/relates-to-my-core",
+  "name": "ExtensionRelatesToMyCore",
+  "title": "ExtensionRelatesTo (MY Core)",
+  "status": "active",
+  "date": "2023-04-10T23:23:10.8917831+00:00",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "ServiceRequest"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 0
+      },
+      {
+        "id": "Extension.extension:code",
+        "path": "Extension.extension",
+        "sliceName": "code",
+        "min": 0,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://hl7.org/fhir/ValueSet/document-relationship-type"
+        }
+      },
+      {
+        "id": "Extension.extension:code.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "code"
+      },
+      {
+        "id": "Extension.extension:targetReference",
+        "path": "Extension.extension",
+        "sliceName": "targetReference",
+        "min": 0
+      },
+      {
+        "id": "Extension.extension:targetReference.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "targetReference"
+      },
+      {
+        "id": "Extension.extension:targetReference.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Composition",
+              "http://hl7.org/fhir/StructureDefinition/ServiceRequest"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/relates-to-my-core"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "max": "0"
+      }
+    ]
+  },
+  "version": "2.0.0",
+  "experimental": false
+}

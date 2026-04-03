@@ -1,0 +1,13 @@
+code,display,system,include_type,valueset_url,valueset_name
+s6w,Up to 6 weeks of age,http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-speech-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-speech-my-core,ValueSetDevMilestoneSpeechMyCore
+s3m,Up to 3 months of age,http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-speech-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-speech-my-core,ValueSetDevMilestoneSpeechMyCore
+s6m,Up to 6 months of age,http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-speech-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-speech-my-core,ValueSetDevMilestoneSpeechMyCore
+s9m,Up to 9 months of age,http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-speech-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-speech-my-core,ValueSetDevMilestoneSpeechMyCore
+s12m,Up to 12 months of age,http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-speech-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-speech-my-core,ValueSetDevMilestoneSpeechMyCore
+s15m,Up to 15 months of age,http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-speech-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-speech-my-core,ValueSetDevMilestoneSpeechMyCore
+s18m,Up to 18 months of age,http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-speech-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-speech-my-core,ValueSetDevMilestoneSpeechMyCore
+s2y,Up to 2 years of age,http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-speech-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-speech-my-core,ValueSetDevMilestoneSpeechMyCore
+s2.5y,Up to 2.5 years of age,http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-speech-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-speech-my-core,ValueSetDevMilestoneSpeechMyCore
+s3y,Up to 3 years of age,http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-speech-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-speech-my-core,ValueSetDevMilestoneSpeechMyCore
+s4y,Up to 4 years of age,http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-speech-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-speech-my-core,ValueSetDevMilestoneSpeechMyCore
+s5y,Up to 5 years of age,http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-speech-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-speech-my-core,ValueSetDevMilestoneSpeechMyCore

@@ -1,0 +1,9 @@
+code,display,system,include_type,valueset_url,valueset_name
+Outpatient Treatment,559,code-system-specialty-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/quick-scheduling-my-core,ValueSetQuickSchedulingMyCore
+National Health Screening Initiative (NHSI),561,code-system-specialty-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/quick-scheduling-my-core,ValueSetQuickSchedulingMyCore
+Quit Smoking Service,528,code-system-specialty-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/quick-scheduling-my-core,ValueSetQuickSchedulingMyCore
+Peka B40 Health Screening,562,code-system-specialty-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/quick-scheduling-my-core,ValueSetQuickSchedulingMyCore
+General Health Screening,555,code-system-specialty-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/quick-scheduling-my-core,ValueSetQuickSchedulingMyCore
+Family Planning,507,code-system-specialty-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/quick-scheduling-my-core,ValueSetQuickSchedulingMyCore
+Procedure,551,code-system-specialty-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/quick-scheduling-my-core,ValueSetQuickSchedulingMyCore
+Pre-Marital Screening,526,code-system-specialty-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/quick-scheduling-my-core,ValueSetQuickSchedulingMyCore

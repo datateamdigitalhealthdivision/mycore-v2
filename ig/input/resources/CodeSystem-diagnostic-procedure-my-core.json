@@ -1,0 +1,94 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "diagnostic-procedure-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemDiagnosticProcedure (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/diagnostic-procedure-my-core</tt><p>Diagnostic Procedure</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/diagnostic-procedure-my-core",
+  "name": "CodeSystemDiagnosticProcedureMyCore",
+  "title": "CodeSystemDiagnosticProcedure (MY Core)",
+  "status": "active",
+  "date": "2023-03-30T05:43:27.7205555+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Diagnostic Procedure",
+  "compositional": false,
+  "content": "complete",
+  "count": 15,
+  "concept": [
+    {
+      "code": "10",
+      "display": "Rapid Test Human Immunodeficiency Virus (HIV)"
+    },
+    {
+      "code": "11",
+      "display": "Hess Test"
+    },
+    {
+      "code": "12",
+      "display": "Daily Blood Pressure (BP)"
+    },
+    {
+      "code": "13",
+      "display": "Rectal Swab"
+    },
+    {
+      "code": "14",
+      "display": "Auriscopy / Ophthalmoscopy"
+    },
+    {
+      "code": "00",
+      "display": "Other"
+    },
+    {
+      "code": "01",
+      "display": "Peak Flow Meter"
+    },
+    {
+      "code": "02",
+      "display": "Fundus Camera"
+    },
+    {
+      "code": "03",
+      "display": "Electrocardiogram (ECG)"
+    },
+    {
+      "code": "04",
+      "display": "Carbon Monoxide (CO) Analyzer"
+    },
+    {
+      "code": "05",
+      "display": "Glucometer Test"
+    },
+    {
+      "code": "06",
+      "display": "Spirometer"
+    },
+    {
+      "code": "07",
+      "display": "Vision Test"
+    },
+    {
+      "code": "08",
+      "display": "Sputum Smear For Acid-Fast Bacillus (AFB)"
+    },
+    {
+      "code": "09",
+      "display": "Skin Smear"
+    }
+  ],
+  "version": "2.0.0",
+  "experimental": false,
+  "caseSensitive": true
+}

@@ -1,0 +1,20 @@
+code,display,definition,system_url,system_name
+10,AUDIOMETRY PTA,AUDIOMETRY PTA,http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core,CodeSystemAudiologyAssessmentMyCore
+11,AUDIOMETRY PTA PAEDIATRIC,AUDIOMETRY PTA PAEDIATRIC,http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core,CodeSystemAudiologyAssessmentMyCore
+12,AUDIOMERTY PLAY,AUDIOMERTY PLAY,http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core,CodeSystemAudiologyAssessmentMyCore
+13,AUDIOMETRY VRA,AUDIOMETRY VRA,http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core,CodeSystemAudiologyAssessmentMyCore
+14,AUDIOMETRY SPEECH,AUDIOMETRY SPEECH,http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core,CodeSystemAudiologyAssessmentMyCore
+15,AUDIOMETRY AIDED,AUDIOMETRY AIDED,http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core,CodeSystemAudiologyAssessmentMyCore
+16,AUDIOMETRY HIGH FREQUENCY,AUDIOMETRY HIGH FREQUENCY,http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core,CodeSystemAudiologyAssessmentMyCore
+17,SPECIAL TONE DECAY TEST,SPECIAL TONE DECAY TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core,CodeSystemAudiologyAssessmentMyCore
+18,SPECIAL STENGER TEST,SPECIAL STENGER TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core,CodeSystemAudiologyAssessmentMyCore
+00,OTOSCOPIC EXAMINATION,OTOSCOPIC EXAMINATION,http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core,CodeSystemAudiologyAssessmentMyCore
+01,IMPEDANCE TEST TYMPANOMETRY 226Hz,IMPEDANCE TEST TYMPANOMETRY 226Hz,http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core,CodeSystemAudiologyAssessmentMyCore
+02,IMPEDANCE TEST TYMPANOMETRY 1kHz,IMPEDANCE TEST TYMPANOMETRY 1kHz,http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core,CodeSystemAudiologyAssessmentMyCore
+03,IMPEDANCE ACOUSTOC REFLEX TEST,IMPEDANCE ACOUSTOC REFLEX TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core,CodeSystemAudiologyAssessmentMyCore
+04,IMPEDANCE REFLAX DECAY TEST,IMPEDANCE REFLAX DECAY TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core,CodeSystemAudiologyAssessmentMyCore
+05,IMPEDANCE EUSTACHIAN TUBE DYSFUNCTION TEST,IMPEDANCE EUSTACHIAN TUBE DYSFUNCTION TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core,CodeSystemAudiologyAssessmentMyCore
+06,SCREENING OAE,SCREENING OAE,http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core,CodeSystemAudiologyAssessmentMyCore
+07,SCREENING AABR,SCREENING AABR,http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core,CodeSystemAudiologyAssessmentMyCore
+08,BOA APR,BOA APR,http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core,CodeSystemAudiologyAssessmentMyCore
+09,BOA DT,BOA DT,http://fhir.hie.moh.gov.my/CodeSystem/audiology-assessment-my-core,CodeSystemAudiologyAssessmentMyCore

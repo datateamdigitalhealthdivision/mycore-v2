@@ -1,0 +1,97 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-drug-sub-group-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemDrugSubGroup (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/drug-sub-group-my-core</tt><p>Drug Sub Group</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/drug-sub-group-my-core",
+  "version": "1.0.0",
+  "name": "CodeSystemDrugSubGroupMyCore",
+  "title": "CodeSystemDrugSubGroup (MY Core)",
+  "status": "active",
+  "date": "2023-01-12T21:13:03.0089063+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Drug Sub Group",
+  "compositional": false,
+  "content": "complete",
+  "count": 13,
+  "concept": [
+    {
+      "code": "10",
+      "display": "Cytotoxic",
+      "definition": "Cytotoxic"
+    },
+    {
+      "code": "20",
+      "display": "External Preparation",
+      "definition": "External Preparation"
+    },
+    {
+      "code": "30",
+      "display": "Inhalers, Eye/Ear/Nose Preparations",
+      "definition": "Inhalers, Eye/Ear/Nose Preparations"
+    },
+    {
+      "code": "40",
+      "display": "Injectables",
+      "definition": "Injectables"
+    },
+    {
+      "code": "50",
+      "display": "Internal Preparation",
+      "definition": "Internal Preparation"
+    },
+    {
+      "code": "60",
+      "display": "IV/IP/IRR Solution",
+      "definition": "IV/IP/IRR Solution"
+    },
+    {
+      "code": "70",
+      "display": "Parenteral Nutrition",
+      "definition": "Parenteral Nutrition"
+    },
+    {
+      "code": "80",
+      "display": "Psychotropic/Narcotic",
+      "definition": "Psychotropic/Narcotic"
+    },
+    {
+      "code": "90",
+      "display": "Raw Material",
+      "definition": "Raw Material"
+    },
+    {
+      "code": "100",
+      "display": "Tablet/Capsule",
+      "definition": "Tablet/Capsule"
+    },
+    {
+      "code": "110",
+      "display": "Vaccine",
+      "definition": "Vaccine"
+    },
+    {
+      "code": "7880",
+      "display": "Others",
+      "definition": "Others"
+    },
+    {
+      "code": "7890",
+      "display": "Radiopharmaceuticals",
+      "definition": "Radiopharmaceuticals"
+    }
+  ]
+}

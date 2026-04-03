@@ -1,0 +1,48 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-schedule-type-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemScheduleType (MYCore)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/schedule-type-my-core</tt><p>Schedule Type</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/schedule-type-my-core",
+  "name": "CodeSystemScheduleTypeMyCore",
+  "title": "CodeSystemScheduleType (MYCore)",
+  "status": "active",
+  "date": "2023-03-31T00:47:28.8476721+00:00",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "Schedule Type",
+  "compositional": false,
+  "content": "complete",
+  "count": 3,
+  "concept": [
+    {
+      "code": "internal",
+      "display": "Internal",
+      "definition": "Schedule only for internal booking"
+    },
+    {
+      "code": "public",
+      "display": "Public",
+      "definition": "Schedule allowed for public booking"
+    },
+    {
+      "code": "affiliate",
+      "display": "Affiliate",
+      "definition": "Schedule allowed for affiliated organization booking"
+    },
+    {
+      "code": "outsource",
+      "display": "Outsource",
+      "definition": "Schedule allowed for outsource organization booking"
+    }
+  ]
+}

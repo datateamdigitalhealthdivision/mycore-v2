@@ -1,0 +1,4 @@
+code,display,system,include_type,valueset_url,valueset_name
+51440002,Bilateral,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/side-my-core,ValueSetSideMyCore
+7771000,Left,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/side-my-core,ValueSetSideMyCore
+24028007,Right,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/side-my-core,ValueSetSideMyCore

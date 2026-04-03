@@ -1,0 +1,33 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Address-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Address-my-core",
+  "version": "2.0.0",
+  "name": "AddressMyCore",
+  "title": "Address (MY Core)",
+  "status": "active",
+  "date": "2026-04-02",
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Reusable draft address profile for Malaysian civic and service location addresses in MY Core.",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "type": "Address",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Address",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Address",
+        "path": "Address",
+        "short": "MY Core address",
+        "definition": "Base Malaysian address profile used by MY Core resources."
+      }
+    ]
+  },
+  "experimental": false,
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Address (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Address-my-core</tt><p>Reusable draft address profile for Malaysian civic and service location addresses in MY Core.</p></div>"
+  }
+}

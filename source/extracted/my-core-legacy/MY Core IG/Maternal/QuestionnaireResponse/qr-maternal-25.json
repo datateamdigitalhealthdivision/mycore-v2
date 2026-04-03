@@ -1,0 +1,39 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-maternal-25",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-25",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/bfb81ffe-637d-4b3f-befa-f7a1546ed9f8"
+    },
+    "authored": "2022-11-16T03:56:06.596Z",
+    "author": {
+        "reference": "PractitionerRole/cd16e0cb-3e0f-43bb-9197-901f5daff3ba/_history/23"
+    },
+    "item": [
+        {
+            "linkId": "maternal-25.1",
+            "text": "Masalah",
+            "answer": [
+                {
+                    "valueString": "Masalah html entries goes here"
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-25.2",
+            "text": "Pengendalian dan rawatan",
+            "answer": [
+                {
+                    "valueString": "Pengendalian dan rawatan html entries goes here"
+                }
+            ]
+        }
+    ]
+}

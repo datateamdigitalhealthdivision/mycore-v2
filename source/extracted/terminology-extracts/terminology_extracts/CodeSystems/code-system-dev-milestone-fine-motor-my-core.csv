@@ -1,0 +1,51 @@
+code,display,definition,system_url,system_name
+f6w,Up to 6 weeks of age,"Fixates on objects. 
+In supine, follows object from side to midline (90o) Defensive blink by 6-8 weeks",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-fine-motor-my-core,CodeSystemDevMilestoneFineMotorMyCore
+f3m,Up to 3 months of age,"Hand regard. 
+Follows dangling toy from side to side (180°) Hands loosely open. 
+Holds rattle placed in hand momentarily",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-fine-motor-my-core,CodeSystemDevMilestoneFineMotorMyCore
+f6m,Up to 6 months of age,"Palmar grasp of cube. 
+Drops one cube when another is given at 6 mths, retains one cube at hand when another is offered at 7 mths. 
+Transfers object from one hand to another at 7 mths. 
+Eyes move together (any squint is abnormal). 
+Follows activities across room with alertness.",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-fine-motor-my-core,CodeSystemDevMilestoneFineMotorMyCore
+f9m,Up to 9 months of age,"Pokes at small object & begins to point at distant object with index finger. 
+Inferior pincer grasp. 
+Release toy by dropping or pressing against firm surface. 
+Looks in correct direction for fallen toys. 
+Grasp string to pull toy (causal understanding).",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-fine-motor-my-core,CodeSystemDevMilestoneFineMotorMyCore
+f12m,Up to 12 months of age,"Neat pincer grasp. 
+Bangs 2 cubes. 
+Points with index finger at object of interest.",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-fine-motor-my-core,CodeSystemDevMilestoneFineMotorMyCore
+f15m,Up to 15 months of age,"Tower of 2 cubes. 
+Hold 2 cubes in one hand. 
+To and fro scribble with palmar grasp",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-fine-motor-my-core,CodeSystemDevMilestoneFineMotorMyCore
+f18m,Up to 18 months of age,"Tower of 3 cubes. 
+Enjoys putting small objects in and out of containers. 
+Scribbles spontaneously. 
+Enjoys picture books, turns few pages at a time. 
+Hand preference.",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-fine-motor-my-core,CodeSystemDevMilestoneFineMotorMyCore
+f2y,Up to 2 years of age,"Tower of 6 - 7 cubes. 
+Imitates train of cubes, without adding chimney. 
+Circular scribbles. 
+Imitates vertical line. 
+Enjoys picture books and turns pages singly",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-fine-motor-my-core,CodeSystemDevMilestoneFineMotorMyCore
+f2.5y,Up to 2.5 years of age,"Tower of 7- 8 cubes. 
+Imitates train, adding chimney. 
+Recognizes minute details in picture books. 
+Imitates horizontal and vertical line.",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-fine-motor-my-core,CodeSystemDevMilestoneFineMotorMyCore
+f3y,Up to 3 years of age,"Tower of 9 - 10 cubes. 
+Imitates bridge with 3 cubes. 
+Copies a circle. 
+Imitates a cross. 
+Draw a man on request (3 - 10y). 
+Cuts with scissors",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-fine-motor-my-core,CodeSystemDevMilestoneFineMotorMyCore
+f4y,Up to 4 years of age,"Builds 3 steps with 6 cubes after demonstration. 
+Holds pencil with good control. 
+Copies cross. 
+Draws a person with head, legs and trunks. 
+Matches 4 primary colours.",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-fine-motor-my-core,CodeSystemDevMilestoneFineMotorMyCore
+f5y,Up to 5 years of age,"Copies square at 5 years and a triangle at 5 ½ years. 
+Colours neatly, staying within outlines. 
+Draws a man with head, trunk, legs, arms and features. 
+Can cut a strip of paper neatly",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-fine-motor-my-core,CodeSystemDevMilestoneFineMotorMyCore

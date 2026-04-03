@@ -1,0 +1,47 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-organization-category-public-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetOrganizationCategoryPublicMyCore</h2><tt>http://fhir.hie.moh.gov.my/ValueSet/organization-category-public-my-core</tt><p>Value set for public to book organization</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/organization-category-public-my-core",
+  "name": "ValueSetOrganizationCategoryPublicMyCore",
+  "title": "ValueSetOrganizationCategoryPublicMyCore",
+  "status": "active",
+  "date": "2022-09-26T00:35:56.7692009+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Value set for public to book organization",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core",
+        "concept": [
+          {
+            "code": "CLI",
+            "display": "Klinik Kesihatan"
+          },
+          {
+            "code": "KP",
+            "display": "Klinik Pergigian"
+          },
+          {
+            "code": "STH",
+            "display": "Hospital"
+          }
+        ]
+      }
+    ]
+  }
+}

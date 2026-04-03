@@ -1,0 +1,96 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-child-02",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "identifier": {
+        "system": "http://fhir.hie.moh.gov.my/sid/template-section",
+        "value": "qr-child-02"
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-child-02",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/3a1fe467-cad5-4ec9-83f8-fd6dfb46470c"
+    },
+    "authored": "2023-04-27T00:20:14.414Z",
+    "item": [
+        {
+            "linkId": "child-2.1",
+            "text": "Maklumat Adik Beradik",
+            "item": [
+                {
+                    "linkId": "child-2.1.1",
+                    "text": "Tahun Lahir",
+                    "answer": [
+                        {
+                            "valueDate": "2020-04-01"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-2.1.2",
+                    "text": "Jantina",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+                                "code": "01",
+                                "display": "Lelaki"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-2.1.3",
+                    "text": "Masalah/Catatan Kesihatan",
+                    "answer": [
+                        {
+                            "valueString": "Dia ada sakit gigi ^_^"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "child-2.1",
+            "text": "Maklumat Adik Beradik",
+            "item": [
+                {
+                    "linkId": "child-2.1.1",
+                    "text": "Tahun Lahir",
+                    "answer": [
+                        {
+                            "valueDate": "2010-04-01"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-2.1.2",
+                    "text": "Jantina",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+                                "code": "02",
+                                "display": "Perempuan"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-2.1.3",
+                    "text": "Masalah/Catatan Kesihatan",
+                    "answer": [
+                        {
+                            "valueString": "Dia syehat sajew :3"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

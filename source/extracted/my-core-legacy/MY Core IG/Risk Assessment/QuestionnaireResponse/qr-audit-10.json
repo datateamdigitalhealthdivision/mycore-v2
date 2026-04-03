@@ -1,0 +1,185 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-audit-10",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-audit-10",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/bfb81ffe-637d-4b3f-befa-f7a1546ed9f8"
+    },
+    "authored": "2022-08-03T04:22:00.113Z",
+    "author": {
+        "reference": "Patient/bfb81ffe-637d-4b3f-befa-f7a1546ed9f8"
+    },
+    "item": [
+        {
+            "linkId": "00",
+            "text": "Please select your gender",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://hl7.org/fhir/administrative-gender",
+                        "code": "male",
+                        "display": "Male"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "01",
+            "text": "How often do you have a drink containing alcohol?",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://loinc.org",
+                        "code": "LA18926-8",
+                        "display": "Monthly or less"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "02",
+            "text": "How many standard drinks containing alcohol do you have on a typical day when drinking?",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://loinc.org",
+                        "code": "LA18926-8",
+                        "display": "Monthly or less"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "03",
+            "text": "How often do you have six or more drinks on one occasion?",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://loinc.org",
+                        "code": "LA18926-8",
+                        "display": "Monthly or less"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "04",
+            "text": "During the past year, how often have you found that you were not able to stop drinking once you had started?",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://loinc.org",
+                        "code": "LA18933-4",
+                        "display": "Less than monthly"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "05",
+            "text": "During the past year, how often have you failed to do what was normally expected of you because of drinking?",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://loinc.org",
+                        "code": "LA18933-4",
+                        "display": "Less than monthly"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "06",
+            "text": "During the past year, how often have you needed a drink in the morning to get yourself going after a heavy drinking session?",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://loinc.org",
+                        "code": "LA6270-8",
+                        "display": "Never"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "07",
+            "text": "During the past year, how often have you had a feeling of guilt or remorse after drinking?",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://loinc.org",
+                        "code": "LA6270-8",
+                        "display": "Never"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "08",
+            "text": "During the past year, how often have you been unable to remember what happened the night before because you had been drinking?",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://loinc.org",
+                        "code": "LA6270-8",
+                        "display": "Never"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "09",
+            "text": "Have you or someone else been injured as a result of your drinking?",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://loinc.org",
+                        "code": "LA32-8",
+                        "display": "No"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "10",
+            "text": "Has a relative or friend, doctor or other health worker been concerned about your drinking or suggested you cut down?",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "code": "LA32-8",
+                        "display": "No"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "11",
+            "text": "Total score [AUDIT]",
+            "answer": [
+                {
+                    "valueInteger": 7
+                }
+            ]
+        },
+        {
+            "linkId": "12",
+            "text": "Outcome Summary [AUDIT]",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://fhir.hie.moh.gov.my/CodeSystem/outcome-audit-10-my-core",
+                        "code": "a1",
+                        "display": "Low-risk consumption"
+                    }
+                }
+            ]
+        }
+    ]
+}

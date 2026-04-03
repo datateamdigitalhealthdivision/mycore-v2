@@ -1,0 +1,138 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-nutritionist-consultation-my-core",
+  "meta": {
+    "source": "#X5nzWhjZsBdOvWZa"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemNutritionistConsultation (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/nutritionist-consultation-my-core</tt><p>Nutritionist Consultation</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/nutritionist-consultation-my-core",
+  "name": "CodeSystemNutritionistConsultationMyCore",
+  "title": "CodeSystemNutritionistConsultation (MY Core)",
+  "status": "active",
+  "date": "2023-03-30T05:43:27.7205555+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Nutritionist Consultation",
+  "compositional": false,
+  "content": "complete",
+  "count": 26,
+  "concept": [
+    {
+      "code": "00",
+      "display": "Other"
+    },
+    {
+      "code": "01",
+      "display": "Antenatal Mother"
+    },
+    {
+      "code": "02",
+      "display": "Anaemic Antenatal Mother"
+    },
+    {
+      "code": "03",
+      "display": "Postnatal Mother"
+    },
+    {
+      "code": "04",
+      "display": "Lactating Mother"
+    },
+    {
+      "code": "05",
+      "display": "Infant 6-8 Months"
+    },
+    {
+      "code": "06",
+      "display": "Infant 9-11 Months"
+    },
+    {
+      "code": "07",
+      "display": "Young Child 1-3 Years"
+    },
+    {
+      "code": "08",
+      "display": "Child 4-5 Years"
+    },
+    {
+      "code": "10",
+      "display": "Iron Deficiency Anemia (Hb <10 gm %)"
+    },
+    {
+      "code": "11",
+      "display": "Other Nutritional Anemia"
+    },
+    {
+      "code": "12",
+      "display": "Growth Problems For Children <5 years (weight for age <-2 sd)"
+    },
+    {
+      "code": "13",
+      "display": "Growth Problems For Children <5 years (height for age <-2 sd)"
+    },
+    {
+      "code": "14",
+      "display": "Growth Problems For Children <5 years BMI for age <-2 sd)"
+    },
+    {
+      "code": "15",
+      "display": "Growth Problems For Children <5 years BMI for age >+2 sd)"
+    },
+    {
+      "code": "16",
+      "display": "Growth Problems For Children >5 years (BMI for age <-2 sd)"
+    },
+    {
+      "code": "17",
+      "display": "Growth Problems For Children >5 years (BMI for age >+2 sd)"
+    },
+    {
+      "code": "18",
+      "display": "Growth Problems For Children >5 years Height for age <-2 sd)"
+    },
+    {
+      "code": "19",
+      "display": "Weight Problem For Adults (BMI <18.5 kg/m2) (without underlying diseases)"
+    },
+    {
+      "code": "20",
+      "display": "Weight Problem For Adults (BMI >23-34.9 kg/m2) (without underlying diseases)"
+    },
+    {
+      "code": "21",
+      "display": "Weight Problem For Elderly (BMI <18.5 kg/m2) (without underlying diseases)"
+    },
+    {
+      "code": "22",
+      "display": "Weight Problem For Elderly (BMI >23-34.9 kg/m2) (without underlying diseases)"
+    },
+    {
+      "code": "23",
+      "display": "Micronutrient Deficiency/ Excess"
+    },
+    {
+      "code": "24",
+      "display": "Individual with special needs (without underlying diseases)"
+    },
+    {
+      "code": "25",
+      "display": "Other Condition"
+    },
+    {
+      "code": "09",
+      "display": "Complementary Feeding"
+    }
+  ]
+}

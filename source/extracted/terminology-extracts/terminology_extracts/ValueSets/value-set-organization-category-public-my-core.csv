@@ -1,0 +1,4 @@
+code,display,system,include_type,valueset_url,valueset_name
+CLI,Klinik Kesihatan,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/organization-category-public-my-core,ValueSetOrganizationCategoryPublicMyCore
+KP,Klinik Pergigian,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/organization-category-public-my-core,ValueSetOrganizationCategoryPublicMyCore
+STH,Hospital,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/organization-category-public-my-core,ValueSetOrganizationCategoryPublicMyCore

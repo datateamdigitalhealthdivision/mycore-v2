@@ -1,0 +1,145 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "medication-recommended-my-core",
+  "url": "http://fhir.hie.moh.gov.my/StructureDefinition/medication-recommended-my-core",
+  "name": "ExtensionMedicationRecommendedMyCore",
+  "title": "ExtensionMedicationRecommended (MY Core)",
+  "status": "active",
+  "date": "2023-06-08T03:08:38.5864399+00:00",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Medication"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 0
+      },
+      {
+        "id": "Extension.extension:dosage",
+        "path": "Extension.extension",
+        "sliceName": "dosage",
+        "min": 0
+      },
+      {
+        "id": "Extension.extension:dosage.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "dosage"
+      },
+      {
+        "id": "Extension.extension:dosage.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ],
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/phis-uom-my-core"
+        }
+      },
+      {
+        "id": "Extension.extension:route",
+        "path": "Extension.extension",
+        "sliceName": "route",
+        "min": 0
+      },
+      {
+        "id": "Extension.extension:route.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "route"
+      },
+      {
+        "id": "Extension.extension:route.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/phis-route-my-core"
+        }
+      },
+      {
+        "id": "Extension.extension:frequency",
+        "path": "Extension.extension",
+        "sliceName": "frequency",
+        "min": 0
+      },
+      {
+        "id": "Extension.extension:frequency.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "frequency"
+      },
+      {
+        "id": "Extension.extension:frequency.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/phis-frequency-my-core"
+        }
+      },
+      {
+        "id": "Extension.extension:duration",
+        "path": "Extension.extension",
+        "sliceName": "duration",
+        "min": 0
+      },
+      {
+        "id": "Extension.extension:duration.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "duration"
+      },
+      {
+        "id": "Extension.extension:duration.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ],
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "http://hl7.org/fhir/ValueSet/ucum-units"
+        }
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://fhir.hie.moh.gov.my/StructureDefinition/medication-recommended-my-core"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "max": "0"
+      }
+    ]
+  }
+}

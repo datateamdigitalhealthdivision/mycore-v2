@@ -1,0 +1,54 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "FamilyMemberHistory-my-core",
+  "url": "http://fhir.hie.moh.gov.my/StructureDefinition/FamilyMemberHistory-my-core",
+  "version": "1.0.0",
+  "name": "MyFamilyMemberHistory",
+  "title": "FamilyMemberHistory (MY Core)",
+  "status": "active",
+  "date": "2023-01-03T08:42:22.0391449+00:00",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "FamilyMemberHistory",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/FamilyMemberHistory",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "FamilyMemberHistory.date",
+        "path": "FamilyMemberHistory.date",
+        "min": 1
+      },
+      {
+        "id": "FamilyMemberHistory.relationship",
+        "path": "FamilyMemberHistory.relationship",
+        "binding": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "FamilialRelationship"
+            }
+          ],
+          "strength": "required",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/relationship-my-core"
+        }
+      },
+      {
+        "id": "FamilyMemberHistory.sex",
+        "path": "FamilyMemberHistory.sex",
+        "short": "male | female | Undetermine | unknown",
+        "binding": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "Sex"
+            }
+          ],
+          "strength": "extensible",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/administrative-gender-my-core"
+        }
+      }
+    ]
+  }
+}

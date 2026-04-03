@@ -1,0 +1,47 @@
+code,display,definition,system_url,system_name
+g6w,Up to 6 weeks of age,"Pulled to sit: Head lag and rounded back.Ventral Suspension: Head held up momentarily in same plane as body.Prone: Pelvis high but knees no longer under abdomen.Chin raised intermittently off couch. 
+Head turned to one side.",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-gross-motor-my-core,CodeSystemDevMilestoneGrossMotorMyCore
+g3m,Up to 3 months of age,"Pulled to sit: Only slight head lag.Head occasionally bobs forward. 
+Ventral Suspension: Head held up above plane of body. 
+Prone: Pelvis flat. 
+Lifts head up 45° - 90°, weight supported on forearms",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-gross-motor-my-core,CodeSystemDevMilestoneGrossMotorMyCore
+g6m,Up to 6 months of age,"Pulled to sit: Lifts head off couch. 
+Sits with support. 
+Bears full weight on legs. 
+Prone: Supports weight on hands with chest and upper part of abdomen off couch. 
+Rolls over from prone to supine at 5-6 mths, supine to prone at 6-7 mths.",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-gross-motor-my-core,CodeSystemDevMilestoneGrossMotorMyCore
+g9m,Up to 9 months of age,"Sits steadily. 
+Leans forward to pick toy without losing balance. 
+Pulls self to stand. 
+Stands holding on to furniture. 
+Progresses on the floor by rolling, wriggling on abdomen or crawling.",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-gross-motor-my-core,CodeSystemDevMilestoneGrossMotorMyCore
+g12m,Up to 12 months of age,"Gets from lying to sitting to crawling to standing. 
+Walks on hands and feet like a bear. 
+Walks with one hand held. 
+Stands alone. 
+May walk alone.",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-gross-motor-my-core,CodeSystemDevMilestoneGrossMotorMyCore
+g15m,Up to 15 months of age,"Creeps up stairs. 
+Walks alone with broad based gait.",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-gross-motor-my-core,CodeSystemDevMilestoneGrossMotorMyCore
+g18m,Up to 18 months of age,"Walks well, runs rather stiffly though seldom falls. 
+Carry large doll or teddy while walking. 
+Walks up and downstairs with help. 
+Squats to pick up toy.",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-gross-motor-my-core,CodeSystemDevMilestoneGrossMotorMyCore
+g2y,Up to 2 years of age,"Runs safely, avoiding obstacles. 
+Goes up and down stairs alone, 2 feet per step. 
+Able to walk backward pulling toy handle. 
+Walks into large ball while trying to kick it.",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-gross-motor-my-core,CodeSystemDevMilestoneGrossMotorMyCore
+g2.5y,Up to 2.5 years of age,"Jumps with 2 feet together from a low step. 
+Stand on tiptoe if shown. 
+Kicks large ball gently",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-gross-motor-my-core,CodeSystemDevMilestoneGrossMotorMyCore
+g3y,Up to 3 years of age,"Goes up stairs one foot per step and down stairs 2 feet per step. 
+Walk on tiptoe. 
+Stands on 1 foot momentarily. 
+Rides tricycle. 
+Kicks ball forcibly, throw a ball overhand.",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-gross-motor-my-core,CodeSystemDevMilestoneGrossMotorMyCore
+g4y,Up to 4 years of age,"Walks or runs up and down stairs one foot per step. 
+Stand, walk and run on tiptoe. 
+Stands on one foot for 3-5 seconds and hops on one foot.",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-gross-motor-my-core,CodeSystemDevMilestoneGrossMotorMyCore
+g5y,Up to 5 years of age,"Walks on narrow line. 
+Skips on alternate feet. 
+Balance on one foot for 8-10 seconds. 
+Dances to music.",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-gross-motor-my-core,CodeSystemDevMilestoneGrossMotorMyCore

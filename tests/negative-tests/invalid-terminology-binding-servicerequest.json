@@ -1,0 +1,29 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "invalid-servicerequest-terminology",
+  "meta": {
+    "profile": [
+      "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/ServiceRequest-my-core"
+    ]
+  },
+  "status": "active",
+  "intent": "order",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://example.org/invalid-system",
+          "code": "NOT-ALLOWED",
+          "display": "Invalid"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "text": "Invalid category only example"
+  },
+  "subject": {
+    "reference": "Patient/my-core-patient-example"
+  },
+  "authoredOn": "2026-04-02"
+}

@@ -1,0 +1,61 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-quick-scheduling-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetQuickScheduling (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/ValueSet/quick-scheduling-my-core</tt><p>Composition section</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/quick-scheduling-my-core",
+  "identifier": [
+    {
+      "value": "value-set-composition-category-my-core"
+    }
+  ],
+  "version": "1.0.0",
+  "name": "ValueSetQuickSchedulingMyCore",
+  "title": "ValueSetQuickScheduling (MY Core)",
+  "status": "active",
+  "date": "2023-06-08T03:08:38.5864399+00:00",
+  "description": "Composition section",
+  "compose": {
+    "include": [
+      {
+        "system": "code-system-specialty-my-core",
+        "concept": [
+          {
+            "code": "Outpatient Treatment",
+            "display": "559"
+          },
+          {
+            "code": "National Health Screening Initiative (NHSI)",
+            "display": "561"
+          },
+          {
+            "code": "Quit Smoking Service",
+            "display": "528"
+          },
+          {
+            "code": "Peka B40 Health Screening",
+            "display": "562"
+          },
+          {
+            "code": "General Health Screening",
+            "display": "555"
+          },
+          {
+            "code": "Family Planning",
+            "display": "507"
+          },
+          {
+            "code": "Procedure",
+            "display": "551"
+          },
+          {
+            "code": "Pre-Marital Screening",
+            "display": "526"
+          }
+        ]
+      }
+    ]
+  }
+}

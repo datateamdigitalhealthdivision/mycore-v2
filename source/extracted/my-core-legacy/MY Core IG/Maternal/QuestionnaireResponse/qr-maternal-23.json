@@ -1,0 +1,483 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "id": "qr-maternal-23",
+  "meta": {
+      "source": "http://provider.hie.moh.gov.my",
+      "profile": [
+          "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+      ]
+  },
+  "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/qr-maternal-23",
+  "status": "completed",
+  "subject": {
+      "reference": "Patient/bfb81ffe-637d-4b3f-befa-f7a1546ed9f8"
+  },
+  "authored": "2022-11-16T03:56:06.596Z",
+  "item": [
+      {
+          "linkId": "maternal-23.1",
+          "text": "Perihal Ibu",
+          "item": [
+              {
+                  "linkId": "maternal-23.1.1",
+                  "text": "Tempat Kelahiran",
+                  "answer": [
+                      {
+                          "valueString": "Hospital Kuala Lumpur"
+                      }
+                  ]
+              },
+              {
+                  "linkId": "maternal-23.1.2",
+                  "text": "Disambut oleh",
+                  "answer": [
+                      {
+                          "valueString": "Dr. Azizah Md Noor"
+                      }
+                  ]
+              },
+              {
+                  "linkId": "maternal-23.1.3",
+                  "text": "Tarikh lahir dan masa",
+                  "answer": [
+                      {
+                          "valueDateTime": "2022-11-20T08:52:55.571Z"
+                      }
+                  ]
+              },
+              {
+                  "linkId": "maternal-23.1.4",
+                  "text": "Suntikan",
+                  "item": [
+                      {
+                          "linkId": "maternal-23.1.4.1",
+                          "text": "Syntometrin",
+                          "answer": [
+                              {
+                                  "valueBoolean": true
+                              }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "linkId": "maternal-23.1.5",
+                  "text": "Placenta",
+                  "answer": [
+                      {
+                          "valueCoding": {
+                              "system": "http://fhir.hie.moh.gov.my/CodeSystem/maternal-record-my-core",
+                              "code": "00",
+                              "display": "Lengkap"
+                          },
+                          "item": [
+                              {
+                                  "linkId": "maternal-23.1.5.1",
+                                  "text": "Berat",
+                                  "answer": [
+                                      {
+                                          "valueQuantity": {
+                                              "value": 470
+                                          }
+                                      }
+                                  ]
+                              }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "linkId": "maternal-23.1.6",
+                  "text": "Cara Kelahiran",
+                  "item": [
+                      {
+                          "linkId": "maternal-23.1.6.1",
+                          "text": "Spontaneous Vagina Delivery",
+                          "answer": [
+                              {
+                                  "valueCoding": {
+                                      "system": "http://fhir.hie.moh.gov.my/CodeSystem/maternal-record-my-core",
+                                      "code": "01",
+                                      "display": "Breech"
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "linkId": "maternal-23.1.6.2",
+                          "text": "Instrumental Delivery",
+                          "answer": [
+                              {
+                                  "valueCoding": {
+                                      "system": "http://fhir.hie.moh.gov.my/CodeSystem/maternal-record-my-core",
+                                      "code": "00",
+                                      "display": "Forcep"
+                                  },
+                                  "item": [
+                                      {
+                                          "linkId": "maternal-23.1.6.2.1",
+                                          "text": "Indication",
+                                          "answer": [
+                                              {
+                                                  "valueString": "No"
+                                              }
+                                          ]
+                                      }
+                                  ]
+                              }
+                          ]
+                      },
+                      {
+                          "linkId": "maternal-23.1.6.3",
+                          "text": "Caesarean",
+                          "answer": [
+                              {
+                                  "valueCoding": {
+                                      "system": "http://fhir.hie.moh.gov.my/CodeSystem/maternal-record-my-core",
+                                      "code": "00",
+                                      "display": "Elective"
+                                  },
+                                  "item": [
+                                      {
+                                          "linkId": "maternal-23.1.6.3.1",
+                                          "text": "Types",
+                                          "answer": [
+                                              {
+                                                  "valueCoding": {
+                                                      "system": "http://fhir.hie.moh.gov.my/CodeSystem/maternal-record-my-core",
+                                                      "code": "01",
+                                                      "display": "Classical"
+                                                  }
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "linkId": "maternal-23.1.6.3.2",
+                                          "text": "Indications",
+                                          "answer": [
+                                              {
+                                                  "valueString": "No"
+                                              }
+                                          ]
+                                      }
+                                  ]
+                              }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "linkId": "maternal-23.1.7",
+                  "text": "Komplikasi Semasa Bersalin",
+                  "item": [
+                      {
+                          "linkId": "maternal-23.1.7.1",
+                          "text": "Post Partum Hemorhrhage (PPH)",
+                          "answer": [
+                              {
+                                  "valueBoolean": true
+                              }
+                          ]
+                      },
+                      {
+                          "linkId": "maternal-23.1.7.2",
+                          "text": "Retained Placenta",
+                          "answer": [
+                              {
+                                  "valueBoolean": true
+                              }
+                          ]
+                      },
+                      {
+                          "linkId": "maternal-23.1.7.3",
+                          "text": "Parineal Tear",
+                          "answer": [
+                              {
+                                  "valueCoding": {
+                                      "system": "http://fhir.hie.moh.gov.my/CodeSystem/maternal-record-my-core",
+                                      "code": "00",
+                                      "display": "1st Degree"
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "linkId": "maternal-23.1.7.4",
+                          "text": "Lain-lain",
+                          "answer": [
+                              {
+                                  "valueString": "No"
+                              }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "linkId": "maternal-23.1.8",
+                  "text": "Permulaan Penyusuan Susu Ibu dan Sentuhan Kulit ke Kulit (Diisi oleh Hospital)",
+                  "item": [
+                      {
+                          "linkId": "maternal-23.1.8.1",
+                          "text": "Bayi diberikan kepada ibu sejurus selepas bersalin",
+                          "answer": [
+                              {
+                                  "valueBoolean": true,
+                                  "item": [
+                                      {
+                                          "linkId": "maternal-23.1.8.1.1",
+                                          "text": "Sekiranya tidak, nyatakan sebab",
+                                          "answer": [
+                                              {
+                                                  "valueString": "No"
+                                              }
+                                          ]
+                                      }
+                                  ]
+                              }
+                          ]
+                      },
+                      {
+                          "linkId": "23.1.8.2",
+                          "text": "Ibu dan bayi menerima sentuhan kulit ke kulit selama 1 jam",
+                          "answer": [
+                              {
+                                  "valueBoolean": true,
+                                  "item": [
+                                      {
+                                          "linkId": "maternal-23.1.8.2.1",
+                                          "text": "Sekiranya tidak, nyatakan sebab",
+                                          "answer": [
+                                              {
+                                                  "valueString": "No"
+                                              }
+                                          ]
+                                      }
+                                  ]
+                              }
+                          ]
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "linkId": "maternal-23.2",
+          "text": "Perihal Bayi",
+          "item": [
+              {
+                  "linkId": "maternal-23.2.1",
+                  "text": "Berat Lahir",
+                  "answer": [
+                      {
+                          "valueQuantity": {
+                              "value": 2.6
+                          }
+                      }
+                  ]
+              },
+              {
+                  "linkId": "maternal-23.2.2",
+                  "text": "Jantina",
+                  "answer": [
+                      {
+                          "valueCoding": {
+                              "system": "http://fhir.hie.moh.gov.my/CodeSystem/maternal-record-my-core",
+                              "code": "01",
+                              "display": "Perempuan"
+                          }
+                      }
+                  ]
+              },
+              {
+                  "linkId": "maternal-23.2.3",
+                  "text": "Lilitan Kepala",
+                  "answer": [
+                      {
+                          "valueQuantity": {
+                              "value": 32
+                          }
+                      }
+                  ]
+              },
+              {
+                  "linkId": "maternal-23.2.4",
+                  "text": "Lilitan Dada",
+                  "answer": [
+                      {
+                          "valueQuantity": {
+                              "value": 15.5
+                          }
+                      }
+                  ]
+              },
+              {
+                  "linkId": "maternal-23.2.5",
+                  "text": "Keadaan Bayi",
+                  "item": [
+                      {
+                          "linkId": "maternal-23.2.5.1",
+                          "text": "Keadaan",
+                          "answer": [
+                              {
+                                  "valueCoding": {
+                                      "system": "http://fhir.hie.moh.gov.my/CodeSystem/maternal-record-my-core",
+                                      "code": "18",
+                                      "display": "Lahir hidup"
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "linkId": "maternal-23.2.5.2",
+                          "text": "Skop Apgar",
+                          "answer": [
+                              {
+                                  "valueCoding": {
+                                      "system": "http://fhir.hie.moh.gov.my/CodeSystem/maternal-record-my-core",
+                                      "code": "00",
+                                      "display": "1 minit"
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "linkId": "maternal-23.2.5.3",
+                          "text": "Abnormaliti Kongenital",
+                          "answer": [
+                              {
+                                  "valueBoolean": true,
+                                  "item": [
+                                      {
+                                          "linkId": "23.2.5.3.1",
+                                          "text": "Jika ada, nyatakan",
+                                          "answer": [
+                                              {
+                                                  "valueString": "ear"
+                                              }
+                                          ]
+                                      }
+                                  ]
+                              }
+                          ]
+                      },
+                      {
+                          "linkId": "maternal-23.2.5.4",
+                          "text": "Suntikan Vit K diberi",
+                          "answer": [
+                              {
+                                  "valueBoolean": true,
+                                  "item": [
+                                      {
+                                          "linkId": "maternal-23.2.5.4.1",
+                                          "text": "Tarikh",
+                                          "answer": [
+                                              {
+                                                  "valueDate": "2022-11-22"
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "linkId": "maternal-23.2.5.4.2",
+                                          "text": "Masa",
+                                          "answer": [
+                                              {
+                                                  "valueTime": "09:40:17"
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "linkId": "maternal-23.2.5.4.3",
+                                          "text": "Diberi oleh",
+                                          "answer": [
+                                              {
+                                                  "valueString": "Jururawat Aminah"
+                                              }
+                                          ]
+                                      }
+                                  ]
+                              }
+                          ]
+                      },
+                      {
+                          "linkId": "maternal-23.2.5.5",
+                          "text": "Suntikan Hepatitis B dos 1 diberi",
+                          "answer": [
+                              {
+                                  "valueBoolean": true,
+                                  "item": [
+                                      {
+                                          "linkId": "maternal-23.2.5.5.1",
+                                          "text": "Tarikh",
+                                          "answer": [
+                                              {
+                                                  "valueDate": "2022-11-23"
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "linkId": "maternal-23.2.5.5.2",
+                                          "text": "Masa",
+                                          "answer": [
+                                              {
+                                                  "valueTime": "09:36:02"
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "linkId": "maternal-23.2.5.5.3",
+                                          "text": "Diberikan oleh",
+                                          "answer": [
+                                              {
+                                                  "valueString": "Jururawat Aminah"
+                                              }
+                                          ]
+                                      }
+                                  ]
+                              }
+                          ]
+                      },
+                      {
+                          "linkId": "maternal-23.2.5.6",
+                          "text": "G6PD",
+                          "item": [
+                              {
+                                  "linkId": "maternal-23.2.5.6.1",
+                                  "text": "Tarikh diambil",
+                                  "answer": [
+                                      {
+                                          "valueDate": "2022-11-23"
+                                      }
+                                  ]
+                              }
+                          ]
+                      },
+                      {
+                          "linkId": "maternal-23.2.5.7",
+                          "text": "Saringan Conginetal Hypothyodism",
+                          "answer": [
+                              {
+                                  "valueCoding": {
+                                      "system": "http://fhir.hie.moh.gov.my/CodeSystem/maternal-record-my-core",
+                                      "code": "00",
+                                      "display": "T4"
+                                  },
+                                  "item": [
+                                      {
+                                          "linkId": "maternal-23.2.5.7.1",
+                                          "text": "Tarikh diambil",
+                                          "answer": [
+                                              {
+                                                  "valueDate": "2023-02-22"
+                                              }
+                                          ]
+                                      }
+                                  ]
+                              }
+                          ]
+                      }
+                  ]
+              }
+          ]
+      }
+  ]
+}

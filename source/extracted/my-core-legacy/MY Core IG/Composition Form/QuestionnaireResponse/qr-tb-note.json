@@ -1,0 +1,484 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-tb-note",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "identifier": {
+        "system": "http://fhir.hie.moh.gov.my/sid/template-section",
+        "value": "qr-tb-note"
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-tb-note",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/3a1fe467-cad5-4ec9-83f8-fd6dfb46470c"
+    },
+    "authored": "2023-04-27T00:20:14.414Z",
+    "item": [
+        {
+            "linkId": "tb-note.1",
+            "text": "Special Group",
+            "item": [
+                {
+                    "linkId": "tb-note.1.1",
+                    "text": "TB Contact",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "tb-note.1.2",
+                    "text": "Pregnancy",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "tb-note.1.3",
+                    "text": "Other comorbids (e.g Diabetes Mellitus or Hypertension)",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "tb-note.1.4",
+                    "text": "Immunocompromised (e.g. on immunosupressants / HIV)",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "tb-note.1.5",
+                    "text": "Special Group Remarks",
+                    "answer": [
+                        {
+                            "valueString": "insert string here"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "tb-note.2",
+            "text": "Past Medical / Surgical History",
+            "item": [
+                {
+                    "linkId": "tb-note.2.1",
+                    "text": "Past Medical History",
+                    "answer": [
+                        {
+                            "valueString": "insert string here"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "tb-note.2.2",
+                    "text": "Past Surgical History",
+                    "answer": [
+                        {
+                            "valueString": "insert string here"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "tb-note.3",
+            "text": "Medication History",
+            "item": [
+                {
+                    "linkId": "tb-note.3.1",
+                    "text": "Medication Details",
+                    "answer": [
+                        {
+                            "valueString": "insert string here"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "tb-note.4",
+            "text": "Social and Family History",
+            "item": [
+                {
+                    "linkId": "tb-note.4.2",
+                    "text": "Social History",
+                    "answer": [
+                        {
+                            "valueString": "insert string here"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "tb-note.4.1",
+                    "text": "Family History",
+                    "answer": [
+                        {
+                            "valueString": "insert string here"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "tb-note.5",
+            "text": "Symptoms",
+            "item": [
+                {
+                    "linkId": "tb-note.5.1",
+                    "text": "Cough",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "tb-note.5.2",
+                    "text": "Fever",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "tb-note.5.3",
+                    "text": "Night Sweats",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "tb-note.5.4",
+                    "text": "Haemoptysis",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "tb-note.5.5",
+                    "text": "Weight loss",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "tb-note.5.6",
+                    "text": "Chest pain",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "tb-note.5.7",
+                    "text": "Shortness of breath",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "tb-note.5.8",
+                    "text": "Lethargy",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "tb-note.5.9",
+                    "text": "Symptoms Remark",
+                    "answer": [
+                        {
+                            "valueString": "insert string here"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "tb-note.6",
+            "text": "History of Presenting Illness Summary",
+            "item": [
+                {
+                    "linkId": "tb-note.6.1",
+                    "text": "Findings",
+                    "answer": [
+                        {
+                            "valueString": "insert string here"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "tb-note.7",
+            "text": "Vital Signs",
+            "item": [
+                {
+                    "linkId": "tb-note.7.1",
+                    "text": "Systolic Blood Pressure (mmHg)",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 120,
+                                "unit": "mmHg",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mm[Hg]"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "tb-note.7.2",
+                    "text": "Diastolic Blood Pressure (mmHg)",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 70,
+                                "unit": "mmHg",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mm[Hg]"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "tb-note.7.3",
+                    "text": "Heart Rate (/min)",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 66,
+                                "unit": "/min",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "/min"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "tb-note.7.4",
+                    "text": "Body Temperature (°C)",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 36.7,
+                                "unit": "°C",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "Cel"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "tb-note.7.5",
+                    "text": "Oxygen Saturation (%)",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 99,
+                                "unit": "%",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "%"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "tb-note.7.6",
+                    "text": "Respiratory Rate (/min)",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 66,
+                                "unit": "/min",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "/min"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "tb-note.7.7",
+                    "text": "Pain score",
+                    "answer": [
+                        {
+                            "valueInteger": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "tb-note.8",
+            "text": "Physical Examination",
+            "item": [
+                {
+                    "linkId": "tb-note.8.1",
+                    "text": "Findings",
+                    "answer": [
+                        {
+                            "valueString": "insert string here"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "tb-note.9",
+            "text": "Investigations / Special Test",
+            "item": [
+                {
+                    "linkId": "tb-note.9.1",
+                    "text": "Findings",
+                    "answer": [
+                        {
+                            "valueString": "insert string here"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "tb-note.10",
+            "text": "Imaging",
+            "item": [
+                {
+                    "linkId": "tb-note.10.1",
+                    "text": "Chest X ray Intepretation",
+                    "answer": [
+                        {
+                            "valueString": "insert string here"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "tb-note.11",
+            "text": "Diagnosis",
+            "item": [
+                {
+                    "linkId": "tb-note.11.1",
+                    "text": "Diagnosis",
+                    "answer": [
+                        {
+                            "valueString": "insert string here"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "tb-note.12",
+            "text": "Management / Treatment",
+            "item": [
+                {
+                    "linkId": "tb-note.12.1",
+                    "text": "Management Summary",
+                    "answer": [
+                        {
+                            "valueString": "insert string here"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "tb-note.13",
+            "text": "Notification of Infectious Disease",
+            "item": [
+                {
+                    "linkId": "tb-note.13.1",
+                    "text": "Spoken To",
+                    "answer": [
+                        {
+                            "valueString": "insert string here"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "tb-note.13.2",
+                    "text": "Time of Notification",
+                    "answer": [
+                        {
+                            "valueDateTime": "2023-06-13T08:37:27.230Z"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "tb-note.14",
+            "text": "TCA Date",
+            "item": [
+                {
+                    "linkId": "tb-note.14.1",
+                    "text": "Date",
+                    "answer": [
+                        {
+                            "valueDateTime": "2023-06-26T08:37:29.780Z"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "tb-note.15",
+            "text": "Referral",
+            "item": [
+                {
+                    "linkId": "tb-note.15.1",
+                    "text": "Reason for Referral",
+                    "answer": [
+                        {
+                            "valueString": "insert string here"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "tb-note.15.2",
+                    "text": "Spoken To",
+                    "answer": [
+                        {
+                            "valueString": "insert string here"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "tb-note.15.3",
+                    "text": "Time of Referral",
+                    "answer": [
+                        {
+                            "valueDateTime": "2023-06-12T08:37:33.806Z"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

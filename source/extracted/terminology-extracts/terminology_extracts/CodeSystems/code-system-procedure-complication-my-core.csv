@@ -1,0 +1,7 @@
+code,display,definition,system_url,system_name
+00,No Information,No Information,http://fhir.hie.moh.gov.my/CodeSystem/procedure-complication-my-core,CodeSystemProcedureComplicationMyCore
+01,Foreign body left in during procedure,Foreign body left in during procedure,http://fhir.hie.moh.gov.my/CodeSystem/procedure-complication-my-core,CodeSystemProcedureComplicationMyCore
+02,Iatrogenic injury,Iatrogenic injury,http://fhir.hie.moh.gov.my/CodeSystem/procedure-complication-my-core,CodeSystemProcedureComplicationMyCore
+03,Anaesthetics complication,Anaesthetics complication,http://fhir.hie.moh.gov.my/CodeSystem/procedure-complication-my-core,CodeSystemProcedureComplicationMyCore
+04,No complication,No complication,http://fhir.hie.moh.gov.my/CodeSystem/procedure-complication-my-core,CodeSystemProcedureComplicationMyCore
+99,Others (Please specify),Others (Please specify),http://fhir.hie.moh.gov.my/CodeSystem/procedure-complication-my-core,CodeSystemProcedureComplicationMyCore

@@ -1,0 +1,253 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-child-1m",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-child-1m",
+  "version": "1.0.0",
+  "name": "QChild1m",
+  "title": "Lawatan 1 Bulan",
+  "status": "active",
+  "date": "2023-08-30T06:43:50.5035753+00:00",
+  "item": [
+    {
+      "linkId": "child-1m.1",
+      "text": "Tarikh",
+      "type": "dateTime"
+    },
+    {
+      "linkId": "child-1m.2",
+      "text": "Umur semasa lawatan",
+      "type": "quantity",
+      "initial": [
+        {
+          "valueQuantity": {
+            "unit": "day",
+            "system": "http://unitsofmeasure.org",
+            "code": "d"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "child-1m.3",
+      "text": "Aktiviti",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "child-1m.3.1",
+          "text": "Berat (kg)",
+          "type": "quantity",
+          "item": [
+            {
+              "linkId": "child-1m.3.1.1",
+              "text": "Catatan (Normal/KBB/KBBT/MP)",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-1m.3.2",
+          "text": "Panjang (cm)",
+          "type": "quantity",
+          "item": [
+            {
+              "linkId": "child-1m.3.2.1",
+              "text": "Catatan (Normal/B/BT/ME)",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-1m.3.3",
+          "text": "BMI (kg/m2)",
+          "type": "quantity",
+          "item": [
+            {
+              "linkId": "child-1m.3.3.1",
+              "text": "Catatan (normal/MP/B/BT)",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-1m.3.4",
+          "text": "Lilitan kepala (cm)",
+          "type": "quantity",
+          "item": [
+            {
+              "linkId": "child-1m.3.4.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-1m.3.5",
+          "text": "Pemeriksaan fizikal",
+          "type": "string",
+          "item": [
+            {
+              "linkId": "child-1m.3.5.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-1m.3.6",
+          "text": "Tindakbalas",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "55561003",
+                "display": "Aktif"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "73425007",
+                "display": "Tidak aktif"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-1m.3.6.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-1m.3.7",
+          "text": "Warna bayi",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "48786000",
+                "display": "Biru"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "371262000",
+                "display": "Pucat"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-1m.3.7.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-1m.3.8",
+          "text": "Jaundis",
+          "type": "string",
+          "item": [
+            {
+              "linkId": "child-1m.3.8.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-1m.3.9",
+          "text": "Penilaian penyusuan",
+          "type": "string",
+          "item": [
+            {
+              "linkId": "child-1m.3.9.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-1m.3.10",
+          "text": "Bimbingan awal diberikan",
+          "type": "boolean",
+          "item": [
+            {
+              "linkId": "child-1m.3.10.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-1m.3.11",
+          "text": "Imunisasi",
+          "type": "string",
+          "item": [
+            {
+              "linkId": "child-1m.3.11.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-1m.3.12",
+          "text": "Rujuk Pegawai untuk pemeriksaan rutin",
+          "type": "dateTime",
+          "item": [
+            {
+              "linkId": "child-1m.3.12.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "child-1m.4",
+      "text": "Perkara yang membimbangkan ibu bapa/penjaga",
+      "type": "text"
+    },
+    {
+      "linkId": "child-1m.5",
+      "text": "Anggota Kesihatan perlu mendapatkan keputusan G6PD dan TSH/T4 (jika ada) dan catatkan keputusan di rekod kelahiran dalam Bahagian Biodata.",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "child-1m.5.1",
+          "text": "Dilakukan oleh",
+          "type": "reference"
+        },
+        {
+          "linkId": "child-1m.5.2",
+          "text": "Tarikh",
+          "type": "dateTime"
+        },
+        {
+          "linkId": "child-1m.5.3",
+          "text": "Remark",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "linkId": "child-1m.remark",
+      "text": "Catatan / Rumusan",
+      "type": "text"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+code,display,definition,system_url,system_name
+CART,Cartridge,Cartridge,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+CRYS,Crystal,Crystal,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+DROP,Liq Drop,Liq Drop,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+E01,Otic Drop(s),Otic Drop(s),http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+E02,Otic Insert,Otic Insert,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+E03,Otic Ointment,Otic Ointment,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+E04,Otic Powder,Otic Powder,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+E05,Otic Spray,Otic Spray,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+E06,Otic Washes,Otic Washes,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+J01,Parenteral Implant,Parenteral Implant,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+J02,Parenteral Irrig Sol,Parenteral Irrig Sol,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+J03,Powder for IV Soln,Powder for IV Soln,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+J04,Parenteral Solution,Parenteral Solution,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+J05,Parenteral Susp,Parenteral Susp,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+L01,Oral Drop(s),Oral Drop(s),http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+L02,Oral Emulsion,Oral Emulsion,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+L03,Oral Herbal Tea,Oral Herbal Tea,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+L04,Oral Medicated Wine,Oral Medicated Wine,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+L05,Oral Solution,Oral Solution,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+L06,Oral Suspension,Oral Suspension,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+M01,SL/BUC/OMC Cap,SL/BUC/OMC Cap,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+M02,SL/BUC/OMC Drops,SL/BUC/OMC Drops,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+M03,SL/BUC/OMC Gel,SL/BUC/OMC Gel,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+M04,SL/BUC/OMC Gum,SL/BUC/OMC Gum,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+M05,SL/BUC/OMC Lozenges,SL/BUC/OMC Lozenges,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+M06,SL/BUC/OMC MR Tablet,SL/BUC/OMC MR Tablet,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+M07,SL/BUC/OMC Mouthwash,SL/BUC/OMC Mouthwash,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+M08,SL/BUC/OMC Pastille,SL/BUC/OMC Pastille,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+M09,SL/BUC/OMC Susp Powd,SL/BUC/OMC Susp Powd,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+M10,SL/BUC/OMC Spray,SL/BUC/OMC Spray,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+M11,SL/BUC/OMC Tab,SL/BUC/OMC Tab,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+M12,SL/BUC/OMC Susp,SL/BUC/OMC Susp,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+M13,SL/BUC/OMC T. Paste,SL/BUC/OMC T. Paste,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+N01,Nasal Aerosol,Nasal Aerosol,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+N02,Nasal Drop(s),Nasal Drop(s),http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+N03,Nasal Powder,Nasal Powder,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+N04,Nasal Spray,Nasal Spray,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+N05,Nasal Stick,Nasal Stick,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+N06,Nasal Solution,Nasal Solution,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+N07,Nasal Wash,Nasal Wash,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+NA,None,None,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+NONE,Not applicable,Not applicable,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+P01,Pulmonary Aerosol,Pulmonary Aerosol,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+P02,Pulmonary Solution,Pulmonary Solution,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+P03,Pulmonary Powder,Pulmonary Powder,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+PENF,Penfill,Penfill,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+PFSY,Prefilled Syringe,Prefilled Syringe,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+POW,Powder,Powder,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+R01,Rectal Cream,Rectal Cream,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+R02,Rectal Enema,Rectal Enema,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+R03,Rectal Emulsion,Rectal Emulsion,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+R04,Rectal Foam,Rectal Foam,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+R05,Rectal Insert,Rectal Insert,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+R06,Rectal Solution,Rectal Solution,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+R07,Suppository,Suppository,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+R08,Rectal Suspension,Rectal Suspension,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+R09,Rectal Ointment,Rectal Ointment,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+R10,Rectal Tablet,Rectal Tablet,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+R11,Rectal Capsule,Rectal Capsule,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+S01,Oral Solid-Block,Oral Solid-Block,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+S02,Oral Capsule,Oral Capsule,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+S03,Oral Sachets,Oral Sachets,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+S04,Oral G-Resistant Cap,Oral G-Resistant Cap,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+S05,Oral MR Capsule,Oral MR Capsule,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+S06,Oral Cap/Tab,Oral Cap/Tab,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+S07,Oral MR Caplet,Oral MR Caplet,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+S08,Oral Efferv Powder,Oral Efferv Powder,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+S09,Oral Granule,Oral Granule,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+S10,Oral Efferv Granules,Oral Efferv Granules,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+S11,Oral MR Granules,Oral MR Granules,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+S12,Oral Tablet,Oral Tablet,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+S13,Oral Chewable Tablet,Oral Chewable Tablet,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+S14,Oral Disp/Sol Tab,Oral Disp/Sol Tab,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+S15,Oral Efferv Tab,Oral Efferv Tab,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+S16,Oral G-Resistant Tab,Oral G-Resistant Tab,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+S17,Oral MR Tablet,Oral MR Tablet,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+S18,Orodispersible Tab,Orodispersible Tab,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+S19,Oral Pill,Oral Pill,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+S20,Oral Powder,Oral Powder,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+SOLN,Liquid/Solution,Liquid/Solution,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+T01,Topical Aerosol,Topical Aerosol,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+T02,Topical Cream,Topical Cream,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+T03,Dressings,Dressings,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+T04,Topical Foam,Topical Foam,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+T05,Topical Gel,Topical Gel,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+T06,Topical Ointment,Topical Ointment,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+T07,Pill (external use),Pill (external use),http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+T08,Topical Paste,Topical Paste,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+T09,Topical Powder,Topical Powder,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+T10,Plaster/Patches,Plaster/Patches,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+T11,Shampoo,Shampoo,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+T12,Spray,Spray,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+T13,Soap Bar,Soap Bar,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+T14,Topical Liquid,Topical Liquid,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+T15,Topical Liniment,Topical Liniment,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+T16,Liquid Soap,Liquid Soap,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+T17,Topical Lotion,Topical Lotion,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+T18,Topical Paint,Topical Paint,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+T19,Topical Roll On,Topical Roll On,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+V01,Vaginal Capsule,Vaginal Capsule,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+V02,Vaginal Cream,Vaginal Cream,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+V03,Vaginal Douche,Vaginal Douche,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+V04,Vaginal Emulsion,Vaginal Emulsion,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+V05,Vaginal Foam,Vaginal Foam,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+V06,Vaginal Gel,Vaginal Gel,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+V07,Vaginal Insert,Vaginal Insert,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+V08,Vaginal Pessary,Vaginal Pessary,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+V09,Vaginal Solution,Vaginal Solution,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+V10,Vaginal Suspension,Vaginal Suspension,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+V11,Vaginal Tablet,Vaginal Tablet,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+Y01,Opthalmic Drop(s),Opthalmic Drop(s),http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+Y02,Opthalmic Gel,Opthalmic Gel,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+Y03,Opthalmic Insert,Opthalmic Insert,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+Y04,Opthalmic Lotion,Opthalmic Lotion,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+Y05,Opthalmic Powder,Opthalmic Powder,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+Y06,Opthalmic Ointment,Opthalmic Ointment,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+Y07,Eye/Ear Drop,Eye/Ear Drop,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore
+Y08,Opthalmic Solution,Opthalmic Solution,http://fhir.hie.moh.gov.my/CodeSystem/drug-dose-form-my-core,CodeSystemDrugDoseFormMyCore

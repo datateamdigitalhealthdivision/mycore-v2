@@ -1,0 +1,611 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-maternal-30",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-30",
+  "version": "1.0.0",
+  "name": "QMaternal30",
+  "title": "Rekod Pemberian Pendidikan Kesihatan",
+  "status": "active",
+  "date": "2023-08-30T01:19:04.1804145+00:00",
+  "item": [
+    {
+      "linkId": "30.1",
+      "text": "Antenatal",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "30.1.1",
+          "text": "Penjagaan antenatal & jadual ke klinik",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "30.1.1.1",
+              "text": "Tarikh",
+              "type": "dateTime"
+            },
+            {
+              "linkId": "30.1.1.2",
+              "text": "Name anggota yang memberi pendidikan",
+              "type": "reference"
+            }
+          ]
+        },
+        {
+          "linkId": "30.1.2",
+          "text": "Kepentingan datang awal ke klinik",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "30.1.2.1",
+              "text": "Tarikh",
+              "type": "dateTime"
+            },
+            {
+              "linkId": "30.1.2.2",
+              "text": "Name anggota yang memberi pendidikan",
+              "type": "reference"
+            }
+          ]
+        },
+        {
+          "linkId": "30.1.3",
+          "text": "Masalah ringan semasa hamil dan cara mengatasinya",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "30.1.3.1",
+              "text": "Tarikh",
+              "type": "dateTime"
+            },
+            {
+              "linkId": "30.1.3.2",
+              "text": "Name anggota yang memberi pendidikan",
+              "type": "reference"
+            }
+          ]
+        },
+        {
+          "linkId": "30.1.4",
+          "text": "Pemakanan ibu hamil",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "30.1.4.1",
+              "text": "Tarikh",
+              "type": "dateTime"
+            },
+            {
+              "linkId": "30.1.4.2",
+              "text": "Name anggota yang memberi pendidikan",
+              "type": "reference"
+            }
+          ]
+        },
+        {
+          "linkId": "30.1.5",
+          "text": "Kepentingan penyusuan susu ibu kepada bayi",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "30.1.5.1",
+              "text": "Tarikh",
+              "type": "dateTime"
+            },
+            {
+              "linkId": "30.1.5.2",
+              "text": "Name anggota yang memberi pendidikan",
+              "type": "reference"
+            }
+          ]
+        },
+        {
+          "linkId": "30.1.6",
+          "text": "Kepentingan penyusuan susu ibu kepada ibu",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "30.1.6.1",
+              "text": "Tarikh",
+              "type": "dateTime"
+            },
+            {
+              "linkId": "30.1.6.2",
+              "text": "Name anggota yang memberi pendidikan",
+              "type": "reference"
+            }
+          ]
+        },
+        {
+          "linkId": "30.1.7",
+          "text": "Kepentingan sentuhan kulit ke kulit sejurus selepas kelahiran",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "30.1.1.7",
+              "text": "Tarikh",
+              "type": "dateTime"
+            },
+            {
+              "linkId": "30.1.7.2",
+              "text": "Name anggota yang memberi pendidikan",
+              "type": "reference"
+            }
+          ]
+        },
+        {
+          "linkId": "30.1.8",
+          "text": "Kepentingan permulaan awal untuk penyusuan susu ibu",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "30.1.8.1",
+              "text": "Tarikh",
+              "type": "dateTime"
+            },
+            {
+              "linkId": "30.1.8.2",
+              "text": "Name anggota yang memberi pendidikan",
+              "type": "reference"
+            }
+          ]
+        },
+        {
+          "linkId": "30.1.9",
+          "text": "Kepentingan ibu bersama bayi (rooming in) 24 jam sehari",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "30.1.9.1",
+              "text": "Tarikh",
+              "type": "dateTime"
+            },
+            {
+              "linkId": "30.1.9.2",
+              "text": "Name anggota yang memberi pendidikan",
+              "type": "reference"
+            }
+          ]
+        },
+        {
+          "linkId": "30.1.10",
+          "text": "Kepentingan penyusuan susu ibu mengikut kehendak bayi",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "30.1.10.1",
+              "text": "Tarikh",
+              "type": "dateTime"
+            },
+            {
+              "linkId": "30.1.10.2",
+              "text": "Name anggota yang memberi pendidikan",
+              "type": "reference"
+            }
+          ]
+        },
+        {
+          "linkId": "30.1.11",
+          "text": "Kepentingan penyusuan susu ibu dengan kerap untuk memastikan penghasilan susu ibu mencukupi",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "30.1.11.1",
+              "text": "Tarikh",
+              "type": "dateTime"
+            },
+            {
+              "linkId": "30.1.11.2",
+              "text": "Name anggota yang memberi pendidikan",
+              "type": "reference"
+            }
+          ]
+        },
+        {
+          "linkId": "30.1.12",
+          "text": "Kepentingan posisi dan pelekapan yang baik semasa penyusuan susu ibu",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "30.1.12.1",
+              "text": "Tarikh",
+              "type": "dateTime"
+            },
+            {
+              "linkId": "30.1.12.2",
+              "text": "Name anggota yang memberi pendidikan",
+              "type": "reference"
+            }
+          ]
+        },
+        {
+          "linkId": "30.1.13",
+          "text": "Kepentingan penyusuan susu ibu secara eksklusif bagi 6 bulan pertama tanpa sebarang makanan atau minuman lain",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "30.1.13.1",
+              "text": "Tarikh",
+              "type": "dateTime"
+            },
+            {
+              "linkId": "30.1.13.2",
+              "text": "Name anggota yang memberi pendidikan",
+              "type": "reference"
+            }
+          ]
+        },
+        {
+          "linkId": "30.1.14",
+          "text": "Kepentingan meneruskan penyusuan susu ibu selepas 6 bulan di samping pemberian makanan pelengkap",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "30.1.14.1",
+              "text": "Tarikh",
+              "type": "dateTime"
+            },
+            {
+              "linkId": "30.1.14.2",
+              "text": "Name anggota yang memberi pendidikan",
+              "type": "reference"
+            }
+          ]
+        },
+        {
+          "linkId": "30.1.15",
+          "text": "Memastikan memulakan penyusuan awal",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "30.1.15.1",
+              "text": "Tarikh",
+              "type": "dateTime"
+            },
+            {
+              "linkId": "30.1.15.2",
+              "text": "Name anggota yang memberi pendidikan",
+              "type": "reference"
+            }
+          ]
+        },
+        {
+          "linkId": "30.1.16",
+          "text": "Bahaya dan risiko bayi yang tidak diberi susu ibu",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "30.1.16.1",
+              "text": "Tarikh",
+              "type": "dateTime"
+            },
+            {
+              "linkId": "30.1.16.2",
+              "text": "Name anggota yang memberi pendidikan",
+              "type": "reference"
+            }
+          ]
+        },
+        {
+          "linkId": "30.1.17",
+          "text": "Menyokong dan mengamalkan kelahiran dan penjagaan Mesra Ibu (Mother Friendly Care) - 5 Perkara",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "30.1.17.1",
+              "text": "Tarikh",
+              "type": "dateTime"
+            },
+            {
+              "linkId": "30.1.17.2",
+              "text": "Name anggota yang memberi pendidikan",
+              "type": "reference"
+            }
+          ]
+        },
+        {
+          "linkId": "30.1.18",
+          "text": "Persiapan bersalin untuk ibu dan bayi",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "30.1.18.1",
+              "text": "Tarikh",
+              "type": "dateTime"
+            },
+            {
+              "linkId": "30.1.18.2",
+              "text": "Name anggota yang memberi pendidikan",
+              "type": "reference"
+            }
+          ]
+        },
+        {
+          "linkId": "30.1.19",
+          "text": "Senaman antenatal",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "30.1.19.1",
+              "text": "Tarikh",
+              "type": "dateTime"
+            },
+            {
+              "linkId": "30.1.19.2",
+              "text": "Name anggota yang memberi pendidikan",
+              "type": "reference"
+            }
+          ]
+        },
+        {
+          "linkId": "30.1.20",
+          "text": "Perancang keluarga",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "30.1.20.1",
+              "text": "Tarikh",
+              "type": "dateTime"
+            },
+            {
+              "linkId": "30.1.20.2",
+              "text": "Name anggota yang memberi pendidikan",
+              "type": "reference"
+            }
+          ]
+        },
+        {
+          "linkId": "30.1.21",
+          "text": "Tanda-tanda bersalin & proses kelahiran",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "30.1.21.1",
+              "text": "Tarikh",
+              "type": "dateTime"
+            },
+            {
+              "linkId": "30.1.21.2",
+              "text": "Name anggota yang memberi pendidikan",
+              "type": "reference"
+            }
+          ]
+        },
+        {
+          "linkId": "30.1.22",
+          "text": "Kelahiran selamat & bahaya kelahiran tidak selamat",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "30.1.22.1",
+              "text": "Tarikh",
+              "type": "dateTime"
+            },
+            {
+              "linkId": "30.1.22.2",
+              "text": "Name anggota yang memberi pendidikan",
+              "type": "reference"
+            }
+          ]
+        },
+        {
+          "linkId": "30.1.23",
+          "text": "Pemberitahuan awal kelahiran",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "30.1.23.1",
+              "text": "Tarikh",
+              "type": "dateTime"
+            },
+            {
+              "linkId": "30.1.23.2",
+              "text": "Name anggota yang memberi pendidikan",
+              "type": "reference"
+            }
+          ]
+        },
+        {
+          "linkId": "30.1.24",
+          "text": "Penjagaan kesihatan pergigian",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "30.1.24.1",
+              "text": "Tarikh",
+              "type": "dateTime"
+            },
+            {
+              "linkId": "30.1.24.2",
+              "text": "Name anggota yang memberi pendidikan",
+              "type": "reference"
+            }
+          ]
+        },
+        {
+          "linkId": "30.1.25",
+          "text": "Jaundis neonatal",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "30.1.25.1",
+              "text": "Tarikh",
+              "type": "dateTime"
+            },
+            {
+              "linkId": "30.1.25.2",
+              "text": "Name anggota yang memberi pendidikan",
+              "type": "reference"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "30.2",
+      "text": "Postnatal",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "30.2.1",
+          "text": "Pemakanan semasa dalam pantang",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "30.2.1.1",
+              "text": "Tarikh",
+              "type": "dateTime"
+            },
+            {
+              "linkId": "30.2.1.2",
+              "text": "Name anggota yang memberi pendidikan",
+              "type": "reference"
+            }
+          ]
+        },
+        {
+          "linkId": "30.2.2",
+          "text": "Senaman postnatal",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "30.2.2.1",
+              "text": "Tarikh",
+              "type": "dateTime"
+            },
+            {
+              "linkId": "30.2.2.2",
+              "text": "Name anggota yang memberi pendidikan",
+              "type": "reference"
+            }
+          ]
+        },
+        {
+          "linkId": "30.2.3",
+          "text": "Penjagaan kebersihan diri, luka episiotomi & luka pembedahan",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "30.2.3.1",
+              "text": "Tarikh",
+              "type": "dateTime"
+            },
+            {
+              "linkId": "30.2.3.2",
+              "text": "Name anggota yang memberi pendidikan",
+              "type": "reference"
+            }
+          ]
+        },
+        {
+          "linkId": "30.2.4",
+          "text": "Kepentingan mendapat rawatan awal",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "30.2.4.1",
+              "text": "Tarikh",
+              "type": "dateTime"
+            },
+            {
+              "linkId": "30.2.4.2",
+              "text": "Name anggota yang memberi pendidikan",
+              "type": "reference"
+            }
+          ]
+        },
+        {
+          "linkId": "30.2.5",
+          "text": "Pengesanan jaundis",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "30.2.5.1",
+              "text": "Tarikh",
+              "type": "dateTime"
+            },
+            {
+              "linkId": "30.2.5.2",
+              "text": "Name anggota yang memberi pendidikan",
+              "type": "reference"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "30.3",
+      "text": "Keadaan Luar Biasa Semasa Hamil",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "30.3.1",
+          "text": "Pre-eclampsia semasa hamil dan tanda & simptom Pre-eclampsia",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "30.3.1.1",
+              "text": "Tarikh",
+              "type": "dateTime"
+            },
+            {
+              "linkId": "30.3.1.2",
+              "text": "Name anggota yang memberi pendidikan",
+              "type": "reference"
+            }
+          ]
+        },
+        {
+          "linkId": "30.3.2",
+          "text": "Diabetes semasa hamil",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "30.3.2.1",
+              "text": "Tarikh",
+              "type": "dateTime"
+            },
+            {
+              "linkId": "30.3.2.2",
+              "text": "Name anggota yang memberi pendidikan",
+              "type": "reference"
+            }
+          ]
+        },
+        {
+          "linkId": "30.3.3",
+          "text": "Anaemia dan kesan kepada ibu dan janin",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "30.3.3.1",
+              "text": "Tarikh",
+              "type": "dateTime"
+            },
+            {
+              "linkId": "30.3.3.2",
+              "text": "Name anggota yang memberi pendidikan",
+              "type": "reference"
+            }
+          ]
+        },
+        {
+          "linkId": "30.3.4",
+          "text": "Pendarahan semasa hamil",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "30.3.4.1",
+              "text": "Tarikh",
+              "type": "dateTime"
+            },
+            {
+              "linkId": "30.3.4.2",
+              "text": "Name anggota yang memberi pendidikan",
+              "type": "reference"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

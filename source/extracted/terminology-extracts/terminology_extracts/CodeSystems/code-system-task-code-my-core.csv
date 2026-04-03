@@ -1,0 +1,5 @@
+code,display,definition,system_url,system_name
+internal,Internal,Internal,http://fhir.hie.moh.gov.my/CodeSystem/task-code-my-core,CodeSystemTaskMyCore
+affiliate-checkpoint-requester,Affiliate Checkpoint Requester,Affiliate Checkpoint Requester,http://fhir.hie.moh.gov.my/CodeSystem/task-code-my-core,CodeSystemTaskMyCore
+affiliate-checkpoint-tc,Affiliate Checkpoint Transit Centre,Affiliate Checkpoint Transit Centre,http://fhir.hie.moh.gov.my/CodeSystem/task-code-my-core,CodeSystemTaskMyCore
+affiliate-checkpoint-performer,Affiliate Checkpoint Performer,Affiliate Checkpoint Performer,http://fhir.hie.moh.gov.my/CodeSystem/task-code-my-core,CodeSystemTaskMyCore

@@ -1,0 +1,53 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-observation-vsc-t-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetObservationVSCT (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/ValueSet/observation-vsc-t-my-core</tt><p>Value Set for Observation vital sign panel LOINC 85353-1</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/observation-vsc-t-my-core",
+  "identifier": [
+    {
+      "value": "value-set-observation-vital-signs-note-my-core"
+    }
+  ],
+  "version": "1.0.0",
+  "name": "ValueSetObservationVSCTMyCore",
+  "title": "ValueSetObservationVSCT (MY Core)",
+  "status": "active",
+  "date": "2022-08-01T04:48:03.5159935+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Value Set for Observation vital sign panel LOINC 85353-1",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "8327-9",
+            "display": "Body measurement site"
+          },
+          {
+            "code": "8326-1",
+            "display": "Device"
+          },
+          {
+            "code": "8352-7",
+            "display": "Clothing worn"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "monthly-household-income-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemMonthlyHouseholdIncome (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/monthly-household-income-my-core</tt><p>Monthly Household Income</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/monthly-household-income-my-core",
+  "version": "2.0.0",
+  "name": "CodeSystemMonthlyHouseholdIncomeMyCore",
+  "title": "CodeSystemMonthlyHouseholdIncome (MY Core)",
+  "status": "active",
+  "date": "2023-03-07T04:53:04.7216767+00:00",
+  "description": "Monthly Household Income",
+  "compositional": false,
+  "content": "complete",
+  "count": 10,
+  "concept": [
+    {
+      "code": "00",
+      "display": "No Information",
+      "definition": "No Information"
+    },
+    {
+      "code": "01",
+      "display": "No Income",
+      "definition": "No Income"
+    },
+    {
+      "code": "02",
+      "display": "< RM 500",
+      "definition": "< RM 500"
+    },
+    {
+      "code": "03",
+      "display": "RM 500 - RM 1000",
+      "definition": "RM 500 - RM 1000"
+    },
+    {
+      "code": "04",
+      "display": "RM 1001 - RM 1500",
+      "definition": "RM 1001 - RM 1500"
+    },
+    {
+      "code": "05",
+      "display": "RM 1501 - RM 3000",
+      "definition": "RM 1501 - RM 3000"
+    },
+    {
+      "code": "06",
+      "display": "RM 3001 - RM 5000",
+      "definition": "RM 3001 - RM 5000"
+    },
+    {
+      "code": "07",
+      "display": "RM 5001 - RM 10000",
+      "definition": "RM 5001 - RM 10000"
+    },
+    {
+      "code": "08",
+      "display": "RM 10000 - RM 15000",
+      "definition": "RM 10000 - RM 15000"
+    },
+    {
+      "code": "09",
+      "display": "> RM 15000",
+      "definition": "> RM 15000"
+    }
+  ],
+  "experimental": false,
+  "caseSensitive": true
+}

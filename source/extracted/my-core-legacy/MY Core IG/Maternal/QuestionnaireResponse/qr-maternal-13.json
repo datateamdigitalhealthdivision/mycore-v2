@@ -1,0 +1,137 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-maternal-13",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-13",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/bfb81ffe-637d-4b3f-befa-f7a1546ed9f8"
+    },
+    "authored": "2022-11-16T03:56:06.596Z",
+    "item": [
+        {
+            "linkId": "maternal-13.1",
+            "text": "Tinggi",
+            "answer": [
+                {
+                    "valueQuantity": {
+                        "value": 165,
+                        "unit": "meter",
+                        "system": "http://unitsofmeasure.org",
+                        "code": "m"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-13.2",
+            "text": "Berat Ibu Sebelum Hamil",
+            "answer": [
+                {
+                    "valueQuantity": {
+                        "value": 50,
+                        "unit": "kilogram",
+                        "system": "http://unitsofmeasure.org",
+                        "code": "kg"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-13.3",
+            "text": "Nilai BMI Sebelum Hamil",
+            "answer": [
+                {
+                    "valueQuantity": {
+                        "value": 20,
+                        "unit": "kilogram per square meter",
+                        "system": "http://unitsofmeasure.org",
+                        "code": "kg/m2"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-13.4",
+            "text": "Status BMI Sebelum Hamil",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "code": "35425004",
+                        "display": "Normal (BMI 20 -24)"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-13.5",
+            "text": "Jadual Berat Badan Sepanjang Kehamilan",
+            "item": [
+                {
+                    "linkId": "maternal-13.5.1",
+                    "text": "Tarikh Lawatan",
+                    "answer": [
+                        {
+                            "valueDateTime": "2022-11-30T07:58:42.817Z"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-13.5.2",
+                    "text": "Minggu Gestasi",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-13.5.3",
+                    "text": "Berat Badan (kg)",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 52,
+                                "unit": "kilogram",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "kg"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-13.5.4",
+                    "text": "Peningkatan Berat Badan (kg)",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 2,
+                                "unit": "kilogram",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "kg"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-13.5.5",
+                    "text": "Kadar Peningkatan Berat Badan (kg)/ minggu",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 2
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1454 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "dental-procedure-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemDentalProcedure (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/dental-procedure-my-core</tt><p>Dental Procedure</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/dental-procedure-my-core",
+  "name": "CodeSystemDentalProcedureMyCore",
+  "title": "CodeSystemDentalProcedure (MY Core)",
+  "status": "active",
+  "date": "2023-03-30T05:43:27.7205555+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Dental Procedure",
+  "compositional": false,
+  "content": "complete",
+  "count": 355,
+  "concept": [
+    {
+      "code": "1000",
+      "display": "Debridement soft tissue orofacial"
+    },
+    {
+      "code": "1001",
+      "display": "Surgical removal of simple impacted / unerupted tooth"
+    },
+    {
+      "code": "1002",
+      "display": "Soft laser therapy-orofacial"
+    },
+    {
+      "code": "1003",
+      "display": "Reimplantation tooth"
+    },
+    {
+      "code": "1004",
+      "display": "Apicoectomy - anterior tooth"
+    },
+    {
+      "code": "1005",
+      "display": "Apicoectomy - posterior tooth"
+    },
+    {
+      "code": "1006",
+      "display": "Apicoectomy with retrograde root filling - anterior tooh"
+    },
+    {
+      "code": "1007",
+      "display": "Apicoectomy with retrograde root filling - posterior tooh"
+    },
+    {
+      "code": "1008",
+      "display": "TMJ-reduction-closed"
+    },
+    {
+      "code": "1009",
+      "display": "Alveolar bone grafting"
+    },
+    {
+      "code": "1010",
+      "display": "Debridement Suture soft tissue orofacial-lip simple"
+    },
+    {
+      "code": "1011",
+      "display": "Debridement Suture soft tissue orofacial- mouth simple"
+    },
+    {
+      "code": "1012",
+      "display": "Debridement Suture soft tissue orofacial- lip complicated"
+    },
+    {
+      "code": "1013",
+      "display": "Debridement Suture soft tissue orofacial- mouth complicated"
+    },
+    {
+      "code": "1014",
+      "display": "Revision suture soft tissue orofacial-lip simple"
+    },
+    {
+      "code": "1015",
+      "display": "Revision suture soft tissue orofacial-nouth simple"
+    },
+    {
+      "code": "1016",
+      "display": "Revision suture soft tissue orofacial-complicated"
+    },
+    {
+      "code": "1017",
+      "display": "Revision suture soft tissue orofacial-complicated"
+    },
+    {
+      "code": "1021",
+      "display": "Temporary reduction and fixation-midfacial bone"
+    },
+    {
+      "code": "1022",
+      "display": "Temporary reduction and fixation-mandible"
+    },
+    {
+      "code": "1023",
+      "display": "Closed reduction & fixation- midfacial bone"
+    },
+    {
+      "code": "1024",
+      "display": "Closed reduction & fixation- mandible"
+    },
+    {
+      "code": "1025",
+      "display": "Incision and drainage orofacial abscess"
+    },
+    {
+      "code": "1026",
+      "display": "Alveolectomy/Alveoloplasty-maxilla <=4cm"
+    },
+    {
+      "code": "1027",
+      "display": "Alveolectomy / Alveoplasty - maxilla > 4cm"
+    },
+    {
+      "code": "1028",
+      "display": "Alveolectomy/Alveoloplasty-mandible <=4cm"
+    },
+    {
+      "code": "1029",
+      "display": "Alveolectomy/Alveoloplasty-mandible >4cm"
+    },
+    {
+      "code": "1030",
+      "display": "Vestibuloplasty-gingival/alveolar soft tissue"
+    },
+    {
+      "code": "1031",
+      "display": "Vestibuloplasty-gingival/alveolar soft tissue-autograft"
+    },
+    {
+      "code": "1032",
+      "display": "Frenotomy - lingual"
+    },
+    {
+      "code": "1033",
+      "display": "Frenotomy - labial"
+    },
+    {
+      "code": "1034",
+      "display": "Frenectomy - lingual"
+    },
+    {
+      "code": "1035",
+      "display": "Frenectomy - labial"
+    },
+    {
+      "code": "1036",
+      "display": "Frenectomy-LASER -lingual"
+    },
+    {
+      "code": "1037",
+      "display": "Frenectomy-LASER -labial"
+    },
+    {
+      "code": "1038",
+      "display": "Frenoplasty -lingual"
+    },
+    {
+      "code": "1039",
+      "display": "Frenoplasty- labial"
+    },
+    {
+      "code": "1040",
+      "display": "Transplantation tooth"
+    },
+    {
+      "code": "1041",
+      "display": "Surgical removal of retained root"
+    },
+    {
+      "code": "1042",
+      "display": "Surgical removal of displaced tooth / root"
+    },
+    {
+      "code": "1043",
+      "display": "Surgical removal of impacted / unerupted tooth-complex"
+    },
+    {
+      "code": "1044",
+      "display": "Surgical exposure of tooth without placement of attachment"
+    },
+    {
+      "code": "1045",
+      "display": "Surgical exposure of tooth with placement of attachment"
+    },
+    {
+      "code": "1046",
+      "display": "Antral washout-Caldwell-Luc-left"
+    },
+    {
+      "code": "1047",
+      "display": "Antral washout-Caldwell-Luc-right"
+    },
+    {
+      "code": "1048",
+      "display": "Closure oro-antral fistula"
+    },
+    {
+      "code": "1049",
+      "display": "Biopsy-upper lip"
+    },
+    {
+      "code": "1050",
+      "display": "Biopsy-lower lip"
+    },
+    {
+      "code": "1051",
+      "display": "Biopsy-Tongue"
+    },
+    {
+      "code": "1052",
+      "display": "Biopsy-floor of mouth"
+    },
+    {
+      "code": "1053",
+      "display": "Biopsy-Hard palate soft tissue"
+    },
+    {
+      "code": "1054",
+      "display": "Biopsy-Soft palate"
+    },
+    {
+      "code": "1055",
+      "display": "Biopsy-Buccal soft tissue"
+    },
+    {
+      "code": "1056",
+      "display": "Biopsy-gingiva/alveolar soft tissue"
+    },
+    {
+      "code": "1057",
+      "display": "Biopsy-retromolar/palatoglossal arch soft tissue"
+    },
+    {
+      "code": "1068",
+      "display": "Removal foreign body-orofacial-simple"
+    },
+    {
+      "code": "1069",
+      "display": "Removal foreign body-orofacial-complicated"
+    },
+    {
+      "code": "1070",
+      "display": "Removal dental implants-maxilla"
+    },
+    {
+      "code": "1071",
+      "display": "Removal dental implants-mandible"
+    },
+    {
+      "code": "1072",
+      "display": "Removal maxillofacial implants"
+    },
+    {
+      "code": "1073",
+      "display": "Removal internal fixation-maxillofacial"
+    },
+    {
+      "code": "1074",
+      "display": "Removal external fixation-maxillofacial"
+    },
+    {
+      "code": "1075",
+      "display": "Removal dental wires-upper arch"
+    },
+    {
+      "code": "1076",
+      "display": "Removal dental wires-lower arch"
+    },
+    {
+      "code": "1077",
+      "display": "Removal dental wires-both arch"
+    },
+    {
+      "code": "1078",
+      "display": "Injection Medication-orofacial"
+    },
+    {
+      "code": "1079",
+      "display": "Ultrasound therapy-oromaxillofacial"
+    },
+    {
+      "code": "1080",
+      "display": "Operculectomy"
+    },
+    {
+      "code": "1081",
+      "display": "Non-surgical reposition of tooth"
+    },
+    {
+      "code": "1082",
+      "display": "Surgical reposition of tooh"
+    },
+    {
+      "code": "1083",
+      "display": "Application of Prophylaxis"
+    },
+    {
+      "code": "1084",
+      "display": "Photography-oral/facial photo images -Intraoral"
+    },
+    {
+      "code": "1085",
+      "display": "Photography-oral/facial photo images -Extraoral"
+    },
+    {
+      "code": "1086",
+      "display": "Preliminary dental impression (alginate)"
+    },
+    {
+      "code": "1087",
+      "display": "Placement of orthodontic bands"
+    },
+    {
+      "code": "1088",
+      "display": "Provision of Removable Retainer - upper arch"
+    },
+    {
+      "code": "1089",
+      "display": "Provision of Removable Retainer - lower arch"
+    },
+    {
+      "code": "1090",
+      "display": "Provision of Removable Retainer - both arches"
+    },
+    {
+      "code": "1091",
+      "display": "Provision of  Removable Space Maintainer  - upper arch"
+    },
+    {
+      "code": "1092",
+      "display": "Provision of  Removable Space Maintainer  - lower arch"
+    },
+    {
+      "code": "1093",
+      "display": "Provision of  Removable Space Maintainer  - both arches"
+    },
+    {
+      "code": "1094",
+      "display": "Provision of fixed retainer - upper arch"
+    },
+    {
+      "code": "1095",
+      "display": "Provision of fixed retainer - lower arch"
+    },
+    {
+      "code": "1096",
+      "display": "Provision of fixed retainer - both arches"
+    },
+    {
+      "code": "1097",
+      "display": "Debond/Removal of fixed retainer - upper arch"
+    },
+    {
+      "code": "1098",
+      "display": "Debond/Removal of fixed retainer - lower arch"
+    },
+    {
+      "code": "1099",
+      "display": "Debond/Removal of fixed retainer - both arches"
+    },
+    {
+      "code": "1100",
+      "display": "Provision of  strapping appliance"
+    },
+    {
+      "code": "1101",
+      "display": "Provision of Removable Appliance - upper arch"
+    },
+    {
+      "code": "1102",
+      "display": "Provision of Removable Appliance - lower arch"
+    },
+    {
+      "code": "1103",
+      "display": "Provision of Removable Appliance - both arches"
+    },
+    {
+      "code": "1104",
+      "display": "Provision of Functional Appliance - Removable"
+    },
+    {
+      "code": "1105",
+      "display": "Provision of Functional Appliance - Fixed"
+    },
+    {
+      "code": "1106",
+      "display": "Provision of Fixed  expansion appliance - maxillary"
+    },
+    {
+      "code": "1107",
+      "display": "Provision of Fixed expansion appliance - mandibulary"
+    },
+    {
+      "code": "1108",
+      "display": "Provision of Fixed Space Maintainer  - upper arch  (Palatal Arch)"
+    },
+    {
+      "code": "1109",
+      "display": "Provision of  Fixed Space Maintainer  - lower arch (Lingual Arch)"
+    },
+    {
+      "code": "1110",
+      "display": "Provision of  Fixed Space Maintainer  - both arches"
+    },
+    {
+      "code": "1111",
+      "display": "Provision of Fixed Appliance-Upper"
+    },
+    {
+      "code": "1112",
+      "display": "Provision of Fixed Appliance-Lower"
+    },
+    {
+      "code": "1113",
+      "display": "Provision of Fixed Appliance-both"
+    },
+    {
+      "code": "1114",
+      "display": "Provision of Headgear"
+    },
+    {
+      "code": "1115",
+      "display": "Provision of face mask-extra-oral  component (Reverse Headgear)"
+    },
+    {
+      "code": "1116",
+      "display": "Provision of lingual arch"
+    },
+    {
+      "code": "1117",
+      "display": "Provision of lip bumper  (Removable Functional)"
+    },
+    {
+      "code": "1118",
+      "display": "Repair of Fixed Appliance"
+    },
+    {
+      "code": "1119",
+      "display": "Repair of Removable  Appliance"
+    },
+    {
+      "code": "1120",
+      "display": "Debond/Removal of Fixed Appliance -upper arch"
+    },
+    {
+      "code": "1121",
+      "display": "Debond/Removal of Fixed Appliance -lower arch"
+    },
+    {
+      "code": "1122",
+      "display": "Debond/Removal of Fixed Appliance -both arches"
+    },
+    {
+      "code": "1123",
+      "display": "Review of Fixed Appliance"
+    },
+    {
+      "code": "1124",
+      "display": "Replacement of orthodontic attachments (buttons,hooks,cleats)"
+    },
+    {
+      "code": "1126",
+      "display": "Replacement of orthodontic brackets"
+    },
+    {
+      "code": "1127",
+      "display": "Replacement of orthodontic wire- upper arch"
+    },
+    {
+      "code": "1128",
+      "display": "Replacement of orthodontic wire - lower arch"
+    },
+    {
+      "code": "1129",
+      "display": "Replacement of orthodontic wire - both arches"
+    },
+    {
+      "code": "1130",
+      "display": "Removal of fixed appliance components"
+    },
+    {
+      "code": "1131",
+      "display": "Insertion of orthodontic separator"
+    },
+    {
+      "code": "1132",
+      "display": "Interdental stripping"
+    },
+    {
+      "code": "1133",
+      "display": "Placement of traction chain"
+    },
+    {
+      "code": "1134",
+      "display": "Placement of Temporary Anchorage Device"
+    },
+    {
+      "code": "1138",
+      "display": "Chin cup treatment"
+    },
+    {
+      "code": "1139",
+      "display": "Intial examination and diagnosis"
+    },
+    {
+      "code": "1140",
+      "display": "Removable appliance (passive) - upper"
+    },
+    {
+      "code": "1141",
+      "display": "Removable appliance (passive) - lower"
+    },
+    {
+      "code": "1142",
+      "display": "Removable appliance (active)- upper"
+    },
+    {
+      "code": "1143",
+      "display": "Removable appliance (active) - lower"
+    },
+    {
+      "code": "1144",
+      "display": "Partial fixed appliance - upper"
+    },
+    {
+      "code": "1145",
+      "display": "Partial fixed appliance - lower"
+    },
+    {
+      "code": "1146",
+      "display": "Fixed appliance components replacement (per component)"
+    },
+    {
+      "code": "1147",
+      "display": "Repair of removable appliance component"
+    },
+    {
+      "code": "1148",
+      "display": "Repair Removable functional appliance"
+    },
+    {
+      "code": "1149",
+      "display": "Provision of Orthodontic auxiliary"
+    },
+    {
+      "code": "1150",
+      "display": "Provision of Transpalatal arch"
+    },
+    {
+      "code": "1151",
+      "display": "Repair of Transpalatal arch"
+    },
+    {
+      "code": "1152",
+      "display": "Repair of Lingual arch"
+    },
+    {
+      "code": "1153",
+      "display": "Transpalatal arch (each re- cementation)"
+    },
+    {
+      "code": "1154",
+      "display": "Lingual arch (each re- cementation)"
+    },
+    {
+      "code": "1155",
+      "display": "Provision of Essix retainer"
+    },
+    {
+      "code": "1156",
+      "display": "Repair Fixed retainer"
+    },
+    {
+      "code": "1157",
+      "display": "Provision of Gold chain"
+    },
+    {
+      "code": "1158",
+      "display": "Palatal expander treatment"
+    },
+    {
+      "code": "1159",
+      "display": "Headgear treatment"
+    },
+    {
+      "code": "1160",
+      "display": "Repair of Removable retainers"
+    },
+    {
+      "code": "1161",
+      "display": "Fissure sealant - per tooth"
+    },
+    {
+      "code": "1162",
+      "display": "Diet Counselling"
+    },
+    {
+      "code": "1163",
+      "display": "Root Canal Treatment- Arrest resorption"
+    },
+    {
+      "code": "1164",
+      "display": "Inhalation sedation (Nitrous oxide)"
+    },
+    {
+      "code": "1165",
+      "display": "Stainless steel crown - per unit"
+    },
+    {
+      "code": "1166",
+      "display": "Strip crown - per unit"
+    },
+    {
+      "code": "1167",
+      "display": "Behavioral therapy"
+    },
+    {
+      "code": "1168",
+      "display": "Splinting of teeth"
+    },
+    {
+      "code": "1169",
+      "display": "Feeding plate"
+    },
+    {
+      "code": "1170",
+      "display": "Sensory testing"
+    },
+    {
+      "code": "1171",
+      "display": "Functional removable appliance"
+    },
+    {
+      "code": "1172",
+      "display": "Taping/Bandaging/Strapping"
+    },
+    {
+      "code": "1173",
+      "display": "Oral muscle stimulation"
+    },
+    {
+      "code": "1174",
+      "display": "Other dental appliances"
+    },
+    {
+      "code": "1175",
+      "display": "Gingivectomy"
+    },
+    {
+      "code": "1176",
+      "display": "Scaling - supragingival-gross with polishing"
+    },
+    {
+      "code": "1177",
+      "display": "Scaling - supragingival-fine with polishing"
+    },
+    {
+      "code": "1178",
+      "display": "Scaling - subgingival-gross with polishing"
+    },
+    {
+      "code": "1179",
+      "display": "Scaling - subgingival-fine with polishing"
+    },
+    {
+      "code": "1180",
+      "display": "Occlusal adjustment"
+    },
+    {
+      "code": "1181",
+      "display": "Crown lengthening with ostectomy"
+    },
+    {
+      "code": "1182",
+      "display": "Immobilisation of teeth"
+    },
+    {
+      "code": "1183",
+      "display": "Gingivectomy-LASER"
+    },
+    {
+      "code": "1184",
+      "display": "Gingivoplasty"
+    },
+    {
+      "code": "1185",
+      "display": "Gingivoplasty-LASER"
+    },
+    {
+      "code": "1186",
+      "display": "Root planing of tooth"
+    },
+    {
+      "code": "1187",
+      "display": "Incision & drainage of peridontal abscess"
+    },
+    {
+      "code": "1188",
+      "display": "Flap surgery"
+    },
+    {
+      "code": "1189",
+      "display": "Open Flap Debridement"
+    },
+    {
+      "code": "1190",
+      "display": "Pocket Elimination Surgery"
+    },
+    {
+      "code": "1191",
+      "display": "Guided tissue regeneration"
+    },
+    {
+      "code": "1192",
+      "display": "Guided Bone Regeneration"
+    },
+    {
+      "code": "1193",
+      "display": "Guided tissue regeneration (second surgery)"
+    },
+    {
+      "code": "1194",
+      "display": "Mucogingival surgery-autograft"
+    },
+    {
+      "code": "1195",
+      "display": "Mucogingival surgery-allograft"
+    },
+    {
+      "code": "1196",
+      "display": "Pericision of periodontal ligament"
+    },
+    {
+      "code": "1197",
+      "display": "Furcationplasty-Tunnelling"
+    },
+    {
+      "code": "1198",
+      "display": "Furcationplasty-Grooveplasty"
+    },
+    {
+      "code": "1199",
+      "display": "Veneer gingival Labial"
+    },
+    {
+      "code": "1200",
+      "display": "Crown lengthening without ostectomy"
+    },
+    {
+      "code": "1201",
+      "display": "Periapical surgery"
+    },
+    {
+      "code": "1202",
+      "display": "Root resection"
+    },
+    {
+      "code": "1203",
+      "display": "Tooth Hemisection"
+    },
+    {
+      "code": "1204",
+      "display": "Periodontal examination"
+    },
+    {
+      "code": "1205",
+      "display": "Dental scaling and polishing"
+    },
+    {
+      "code": "1206",
+      "display": "To provide denture-upper full"
+    },
+    {
+      "code": "1207",
+      "display": "To provide  of denture-lower full"
+    },
+    {
+      "code": "1208",
+      "display": "To provide denture-upper partial (1 tooth)"
+    },
+    {
+      "code": "1209",
+      "display": "To provide denture-upper partial (2 teeth)"
+    },
+    {
+      "code": "1210",
+      "display": "To provide denture-upper partial (3 teeth)"
+    },
+    {
+      "code": "1211",
+      "display": "To provide denture-upper partial (4 teeth)"
+    },
+    {
+      "code": "1212",
+      "display": "To provide denture-upper partial (5 teeth)"
+    },
+    {
+      "code": "1213",
+      "display": "To provide denture-upper partial (6 teeth)"
+    },
+    {
+      "code": "1214",
+      "display": "To provide denture-upper partial (7 teeth)"
+    },
+    {
+      "code": "1215",
+      "display": "To provide denture-upper partial (8 teeth)"
+    },
+    {
+      "code": "1216",
+      "display": "To provide denture-upper partial (9 teeth)"
+    },
+    {
+      "code": "1217",
+      "display": "To provide denture-upper partial (10 teeth)"
+    },
+    {
+      "code": "1218",
+      "display": "To provide denture-upper partial (11 teeth)"
+    },
+    {
+      "code": "1219",
+      "display": "To provide denture-upper partial (12 teeth)"
+    },
+    {
+      "code": "1220",
+      "display": "To provide denture-upper partial (13 teeth)"
+    },
+    {
+      "code": "1221",
+      "display": "To provide denture-upper partial (14 teeth)"
+    },
+    {
+      "code": "1222",
+      "display": "To provide denture-upper partial (15 teeth)"
+    },
+    {
+      "code": "1223",
+      "display": "To provide denture-lower partial (1 tooth)"
+    },
+    {
+      "code": "1224",
+      "display": "To provide denture-lower partial (2 teeth)"
+    },
+    {
+      "code": "1225",
+      "display": "To provide denture-lower partial (3 teeth)"
+    },
+    {
+      "code": "1226",
+      "display": "To provide denture-lower partial (4 teeth)"
+    },
+    {
+      "code": "1227",
+      "display": "To provide denture-lower partial (5 teeth)"
+    },
+    {
+      "code": "1228",
+      "display": "To provide denture-lower partial (6 teeth)"
+    },
+    {
+      "code": "1229",
+      "display": "To provide denture-lower partial (7 teeth)"
+    },
+    {
+      "code": "1230",
+      "display": "To provide denture-lowerpartial (8 teeth)"
+    },
+    {
+      "code": "1231",
+      "display": "To provide denture-lower partial (9 teeth)"
+    },
+    {
+      "code": "1232",
+      "display": "To provide denture-lower partial (10 teeth)"
+    },
+    {
+      "code": "1233",
+      "display": "To provide denture-lower partial (11 teeth)"
+    },
+    {
+      "code": "1234",
+      "display": "To provide denture-lowerpartial (12 teeth)"
+    },
+    {
+      "code": "1235",
+      "display": "To provide denture-lower partial (13 teeth)"
+    },
+    {
+      "code": "1236",
+      "display": "To provide denture-lowerpartial (14 teeth)"
+    },
+    {
+      "code": "1237",
+      "display": "To provide denture-lower partial (15 teeth)"
+    },
+    {
+      "code": "1238",
+      "display": "Rebasing and relining of upper denture"
+    },
+    {
+      "code": "1239",
+      "display": "Rebasing and relining of lower denture"
+    },
+    {
+      "code": "1240",
+      "display": "Repair of broken appliance"
+    },
+    {
+      "code": "1241",
+      "display": "Repair of broken obturator"
+    },
+    {
+      "code": "1242",
+      "display": "Placement of restoration - deciduous"
+    },
+    {
+      "code": "1243",
+      "display": "Placement of restoration-permanent- one surface"
+    },
+    {
+      "code": "1244",
+      "display": "Placement of restoration-permanent-multiple surfaces"
+    },
+    {
+      "code": "1245",
+      "display": "Placement of Temporary restoration"
+    },
+    {
+      "code": "1246",
+      "display": "Root canal treatment - interim visits"
+    },
+    {
+      "code": "1247",
+      "display": "Root canal treatment-  obturation of anterior tooth"
+    },
+    {
+      "code": "1248",
+      "display": "Root canal treatment-obturation of premolar"
+    },
+    {
+      "code": "1249",
+      "display": "Root canal treatment - obturation of molar tooth"
+    },
+    {
+      "code": "1250",
+      "display": "Root canal treatment- retrieval of separated/ broken instrument"
+    },
+    {
+      "code": "1251",
+      "display": "Suture removal"
+    },
+    {
+      "code": "1252",
+      "display": "Consultation"
+    },
+    {
+      "code": "1253",
+      "display": "Dental examination and charting"
+    },
+    {
+      "code": "1254",
+      "display": "Comprehensive history and evaluation"
+    },
+    {
+      "code": "1255",
+      "display": "Surgical removal of supernumerary tooth (simple)"
+    },
+    {
+      "code": "1256",
+      "display": "Surgical removal of supernumerary tooth (complex)"
+    },
+    {
+      "code": "1257",
+      "display": "Surgical removal of retained root"
+    },
+    {
+      "code": "1258",
+      "display": "Pulpectomy - deciduous"
+    },
+    {
+      "code": "1259",
+      "display": "Pulpotomy deciduous tooth"
+    },
+    {
+      "code": "1260",
+      "display": "Provision of Dental appliances or obturators  -small"
+    },
+    {
+      "code": "1261",
+      "display": "Provision of Dental appliances or obturators  -medium"
+    },
+    {
+      "code": "1262",
+      "display": "Provision of Dental appliances or obturators -large"
+    },
+    {
+      "code": "1263",
+      "display": "Dental implant stage 1 surgery"
+    },
+    {
+      "code": "1264",
+      "display": "Dental implant stage 2 surgery"
+    },
+    {
+      "code": "1265",
+      "display": "Provision of veneer"
+    },
+    {
+      "code": "1266",
+      "display": "Bleaching of tooth - non vital"
+    },
+    {
+      "code": "1267",
+      "display": "Bleaching of teeth - vital"
+    },
+    {
+      "code": "1268",
+      "display": "Removal of bridge"
+    },
+    {
+      "code": "1269",
+      "display": "Provision of mouthguard"
+    },
+    {
+      "code": "1270",
+      "display": "Provision of  soft splint"
+    },
+    {
+      "code": "1271",
+      "display": "Provision of hard splint"
+    },
+    {
+      "code": "1272",
+      "display": "Provision of other splint"
+    },
+    {
+      "code": "1273",
+      "display": "Provision of eye prosthesis"
+    },
+    {
+      "code": "1274",
+      "display": "Provision of other maxillofacial prosthesis (ear /nose)"
+    },
+    {
+      "code": "1275",
+      "display": "To provide of overdenture-upper full"
+    },
+    {
+      "code": "1276",
+      "display": "To provide of overdenture-lower full"
+    },
+    {
+      "code": "1279",
+      "display": "Provision of feeding plate"
+    },
+    {
+      "code": "1280",
+      "display": "Repair of crown and bridge (with composite)"
+    },
+    {
+      "code": "1281",
+      "display": "Removal of post and core"
+    },
+    {
+      "code": "1282",
+      "display": "Removal of crown"
+    },
+    {
+      "code": "1283",
+      "display": "Provision of post and core device"
+    },
+    {
+      "code": "1284",
+      "display": "Construction of provisional restoration per unit (crown/bridge/onlay)"
+    },
+    {
+      "code": "1285",
+      "display": "Placement-restoration with pin retention"
+    },
+    {
+      "code": "1286",
+      "display": "Microabrasion"
+    },
+    {
+      "code": "1287",
+      "display": "Arrest of tooth resorption"
+    },
+    {
+      "code": "1288",
+      "display": "Root canal retreatment-obturation of anterior tooth"
+    },
+    {
+      "code": "1289",
+      "display": "Root canal retreatment-obturation of premolar"
+    },
+    {
+      "code": "1290",
+      "display": "Root canal retreatment-obturation of molar"
+    },
+    {
+      "code": "1291",
+      "display": "Repair  of procedural error - eg perforated root"
+    },
+    {
+      "code": "1292",
+      "display": "Retrieval of separated/ broken instrument"
+    },
+    {
+      "code": "1293",
+      "display": "Modification of tooth morphology"
+    },
+    {
+      "code": "1294",
+      "display": "Occlusal adjustment"
+    },
+    {
+      "code": "1295",
+      "display": "Recontouring of pre-existing restoration"
+    },
+    {
+      "code": "1297",
+      "display": "Intentional tooth  reimplantation"
+    },
+    {
+      "code": "1298",
+      "display": "provision of metal copings"
+    },
+    {
+      "code": "1299",
+      "display": "Preventive Resin Restoration I (PRR I)"
+    },
+    {
+      "code": "1300",
+      "display": "Preventive Resin Restoration II (PRR II)"
+    },
+    {
+      "code": "1301",
+      "display": "Preventive Resin Restoration III (PRR III)"
+    },
+    {
+      "code": "1302",
+      "display": "Topical application of fluoride - upper arch"
+    },
+    {
+      "code": "1303",
+      "display": "Topical application of fluoride - lower arch"
+    },
+    {
+      "code": "1304",
+      "display": "Topical application of fluoride - both arches"
+    },
+    {
+      "code": "1305",
+      "display": "Extraction permanent tooth"
+    },
+    {
+      "code": "1306",
+      "display": "Extraction supernumerary"
+    },
+    {
+      "code": "1307",
+      "display": "Extraction retained root"
+    },
+    {
+      "code": "1308",
+      "display": "Extraction deciduous tooth"
+    },
+    {
+      "code": "1309",
+      "display": "Control of post extraction haemorrhage"
+    },
+    {
+      "code": "1310",
+      "display": "Post-extraction complication"
+    },
+    {
+      "code": "1311",
+      "display": "Gingival operculectomy"
+    },
+    {
+      "code": "1312",
+      "display": "Provision of Inlay (per tooth) \n(not inclusive of metal charge)"
+    },
+    {
+      "code": "1313",
+      "display": "Provision of Crown \n(including temporary crown but not inclusive of metal charge)"
+    },
+    {
+      "code": "1314",
+      "display": "Provision of Fixed Bridge \n(per abutment teeth including provisional restoration but not inclusive of material and lab charges)"
+    },
+    {
+      "code": "1315",
+      "display": "Provision of Removable Bridge \n(per abutment teeth including provisional restoration but not inclusive of material and lab charges)"
+    },
+    {
+      "code": "1317",
+      "display": "Apexification (per tooth)"
+    },
+    {
+      "code": "1318",
+      "display": "Arrest of tooth resorption (per tooth)"
+    },
+    {
+      "code": "1319",
+      "display": "Coronal pulpotomy (per permanent tooth)"
+    },
+    {
+      "code": "1320",
+      "display": "Pulpectomy (per deciduous tooth)"
+    },
+    {
+      "code": "1321",
+      "display": "Pulp extirpation (per tooth)"
+    },
+    {
+      "code": "1322",
+      "display": "Tooth bleaching (external)(per arch)"
+    },
+    {
+      "code": "1323",
+      "display": "Tooth bleaching (internal) (per tooth)"
+    },
+    {
+      "code": "1324",
+      "display": "Desensitisation (per arch)"
+    },
+    {
+      "code": "1327",
+      "display": "Denture repair without changing the base plate"
+    },
+    {
+      "code": "1328",
+      "display": "Denture repair (addition of each acrylic tooth)"
+    },
+    {
+      "code": "1329",
+      "display": "Impression for working model"
+    },
+    {
+      "code": "1330",
+      "display": "Aversion therapy"
+    },
+    {
+      "code": "1331",
+      "display": "Behaviour modification"
+    },
+    {
+      "code": "1332",
+      "display": "Desensitization therapy"
+    },
+    {
+      "code": "1333",
+      "display": "Extinction therapy"
+    },
+    {
+      "code": "1334",
+      "display": "Relaxation training"
+    },
+    {
+      "code": "1335",
+      "display": "Hypnosis"
+    },
+    {
+      "code": "1336",
+      "display": "Sedation - Benzodiazepine"
+    },
+    {
+      "code": "1338",
+      "display": "Pulp vitality test"
+    },
+    {
+      "code": "1339",
+      "display": "Diagnostic cast"
+    },
+    {
+      "code": "1340",
+      "display": "Caries susceptibility test"
+    },
+    {
+      "code": "1341",
+      "display": "Zygoma X-Ray"
+    },
+    {
+      "code": "1342",
+      "display": "Post Nasal Space X-Ray"
+    },
+    {
+      "code": "1343",
+      "display": "TMJ-Transcranial - Single View"
+    },
+    {
+      "code": "1344",
+      "display": "TMJ-Transpharyngeal - Single View"
+    },
+    {
+      "code": "1345",
+      "display": "Internal Auditory Meatus (IAM) X-Ray"
+    },
+    {
+      "code": "1346",
+      "display": "Pituitary fossa X-Ray"
+    },
+    {
+      "code": "1347",
+      "display": "Mastoids X-Ray"
+    },
+    {
+      "code": "1348",
+      "display": "Petrous Temporal bone X-Ray"
+    },
+    {
+      "code": "1349",
+      "display": "Cephalometric Postero-anterior of Jaws X-Ray"
+    },
+    {
+      "code": "1350",
+      "display": "Panoramic Tomogram"
+    },
+    {
+      "code": "1351",
+      "display": "True Cephalometric Lateral Skull"
+    },
+    {
+      "code": "1352",
+      "display": "Periapical"
+    },
+    {
+      "code": "1353",
+      "display": "Bitewing"
+    },
+    {
+      "code": "1354",
+      "display": "Upper True Occlusal"
+    },
+    {
+      "code": "1355",
+      "display": "Upper Oblique Occlusal"
+    },
+    {
+      "code": "1356",
+      "display": "Lower Occlusal 450"
+    },
+    {
+      "code": "1357",
+      "display": "Lower Occlusal 900"
+    },
+    {
+      "code": "1358",
+      "display": "Lower Oblique Occlusal"
+    },
+    {
+      "code": "1359",
+      "display": "Digital Periapical"
+    },
+    {
+      "code": "1360",
+      "display": "Digital Bitewing"
+    },
+    {
+      "code": "1361",
+      "display": "Digital Upper True Occlusal"
+    },
+    {
+      "code": "1362",
+      "display": "Digital Upper Oblique Occlusal"
+    },
+    {
+      "code": "1363",
+      "display": "Digital Lower Occlusal 450"
+    },
+    {
+      "code": "1364",
+      "display": "Digital Lower Occlusal 900"
+    },
+    {
+      "code": "1365",
+      "display": "Digital Lower Oblique Occlusal"
+    },
+    {
+      "code": "1366",
+      "display": "CBCT Tooth"
+    },
+    {
+      "code": "1367",
+      "display": "CBCT Teeth"
+    },
+    {
+      "code": "1368",
+      "display": "CBCT Upper Jaw"
+    },
+    {
+      "code": "1369",
+      "display": "CBCT Lower Jaw"
+    },
+    {
+      "code": "1370",
+      "display": "CBCT Upper and Lower Jaw"
+    },
+    {
+      "code": "1371",
+      "display": "CBCT Face"
+    },
+    {
+      "code": "1372",
+      "display": "CBCT Pro Face"
+    },
+    {
+      "code": "1373",
+      "display": "Orthopanthomogram (OPG)"
+    },
+    {
+      "code": "1374",
+      "display": "3 D Orthopanthomogram (OPG)"
+    },
+    {
+      "code": "1375",
+      "display": "Lower True Occlusal"
+    },
+    {
+      "code": "1376",
+      "display": "Digital Lower True Occlusal"
+    },
+    {
+      "code": "1377",
+      "display": "Provision of Fixed Appliance (prior to Mar 2017)"
+    },
+    {
+      "code": "00",
+      "display": "Other"
+    }
+  ],
+  "version": "2.0.0",
+  "experimental": false,
+  "caseSensitive": true
+}

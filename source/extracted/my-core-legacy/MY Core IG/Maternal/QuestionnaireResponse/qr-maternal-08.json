@@ -1,0 +1,90 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-maternal-08",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-08",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/bfb81ffe-637d-4b3f-befa-f7a1546ed9f8"
+    },
+    "authored": "2022-11-23T00:42:29.983Z",
+    "item": [
+        {
+            "linkId": "maternal-8.1",
+            "text": " BMI >27 kg/m2",
+            "answer": [
+                {
+                    "valueBoolean": true
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-8.2",
+            "text": " Sejarah Gestational Diabetes Mellitus (GDM)",
+            "answer": [
+                {
+                    "valueBoolean": true
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-8.3",
+            "text": "Sejarah keluarga terdekat dengan diabetes",
+            "answer": [
+                {
+                    "valueBoolean": true
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-8.4",
+            "text": " Sejarah melahirkan bayi macrosomia (berat bayi ≥4 kg)",
+            "answer": [
+                {
+                    "valueBoolean": true
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-8.5",
+            "text": "Bad Obstetric History: Sejarah kelahiran IUD/ Stillbirth, kecacatan kongenital (contoh : neural tube defects, cardiac defects), shoulder dystocia",
+            "answer": [
+                {
+                    "valueBoolean": true
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-8.6",
+            "text": "Glycosuria ≥ 2 kali",
+            "answer": [
+                {
+                    "valueBoolean": true
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-8.7",
+            "text": "Masalah obstetrik sekarang (Hypertensive disease in pregnancy, Polyhdramnios, menerima rawatan Corticosteriods)",
+            "answer": [
+                {
+                    "valueBoolean": true
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-8.maternal-8",
+            "text": "Umur ≥25 tahun (walaupun tanpa faktor risiko GDM yang lain)",
+            "answer": [
+                {
+                    "valueBoolean": true
+                }
+            ]
+        }
+    ]
+}

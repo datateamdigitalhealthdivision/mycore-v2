@@ -1,0 +1,221 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-maternal-12",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-12",
+  "name": "QMaternal12",
+  "title": "Pemantauan Profil Pre-Eclampsia",
+  "status": "active",
+  "date": "2023-08-30T01:19:04.1804145+00:00",
+  "item": [
+    {
+      "linkId": "maternal-12.1",
+      "text": "Pemantauan Profil Pre-Eclampsia",
+      "type": "group",
+      "repeats": true,
+      "item": [
+        {
+          "linkId": "maternal-12.1.1",
+          "text": "Tarikh",
+          "type": "date"
+        },
+        {
+          "linkId": "maternal-12.1.2",
+          "text": "POA/POG",
+          "type": "quantity"
+        },
+        {
+          "linkId": "maternal-12.1.3",
+          "text": "Tekanan Darah (BP)",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "maternal-12.1.3.1",
+              "text": "Sistolik",
+              "type": "quantity",
+              "initial": [
+                {
+                  "valueQuantity": {
+                    "unit": "mmHg",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mm[Hg]"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "maternal-12.1.3.2",
+              "text": "Diastolik",
+              "type": "quantity",
+              "initial": [
+                {
+                  "valueQuantity": {
+                    "unit": "mmHg",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mm[Hg]"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-12.1.4",
+          "text": "Proteinuria",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "167273002",
+                "display": "Not Detected"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "167274008",
+                "display": "Trace"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "167275009",
+                "display": "1+"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "167276005",
+                "display": "2+"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "167277001",
+                "display": "3+"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "167278006",
+                "display": "4+"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-12.1.5",
+          "text": "Urea",
+          "type": "quantity",
+          "initial": [
+            {
+              "valueQuantity": {
+                "unit": "mmol/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "mmol/L"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-12.1.6",
+          "text": "Creatinine",
+          "type": "quantity",
+          "initial": [
+            {
+              "valueQuantity": {
+                "unit": "umol/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "umol/L"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-12.1.7",
+          "text": "Uric Acid",
+          "type": "quantity",
+          "initial": [
+            {
+              "valueQuantity": {
+                "unit": "mmol/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "mmol/L"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-12.1.8",
+          "text": "Hemoglobin",
+          "type": "quantity",
+          "initial": [
+            {
+              "valueQuantity": {
+                "unit": "g/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "g/dL"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-12.1.9",
+          "text": "Platelet",
+          "type": "quantity",
+          "initial": [
+            {
+              "valueQuantity": {
+                "unit": "10*3/uL",
+                "system": "http://unitsofmeasure.org",
+                "code": "10*3/uL"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-12.1.10",
+          "text": "AST",
+          "type": "quantity",
+          "initial": [
+            {
+              "valueQuantity": {
+                "unit": "IU/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "[IU]/L"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-12.1.11",
+          "text": "ALT",
+          "type": "quantity",
+          "initial": [
+            {
+              "valueQuantity": {
+                "unit": "IU/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "[IU]/L"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-12.1.12",
+          "text": "Nama Pemeriksa",
+          "type": "string"
+        },
+        {
+          "linkId": "maternal-12.1.13",
+          "text": "Masa",
+          "type": "dateTime"
+        }
+      ]
+    }
+  ]
+}

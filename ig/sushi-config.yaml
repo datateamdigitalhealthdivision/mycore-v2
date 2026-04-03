@@ -1,0 +1,85 @@
+id: my.moh.kkmhub.myehr.core
+canonical: https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core
+name: MYCoreImplementationGuide
+title: Malaysian National MY Core v2 Implementation Guide
+description: Draft national baseline FHIR R4 implementation guide for Malaysia, redeveloped from the legacy MY Core artefacts into the MyEHR publication model.
+status: draft
+version: 2.0.0
+language: en-MY
+fhirVersion: 4.0.1
+copyrightYear: 2026+
+releaseLabel: ci-build
+license: Apache-2.0
+publisher:
+  name: Data Team, Digital Health Division, Ministry of Health Malaysia
+  url: https://github.com/datateamdigitalhealthdivision
+contact:
+  - name: Data Team, Digital Health Division, Ministry of Health Malaysia
+    telecom:
+      - system: url
+        value: https://github.com/datateamdigitalhealthdivision
+pages:
+  index.md:
+    title: Home
+  overview.md:
+    title: National Overview
+  governance-and-scope.md:
+    title: Governance And Scope
+  conformance-model.md:
+    title: Conformance Model
+  profile-families.md:
+    title: Profile Families
+  terminology-and-identifiers.md:
+    title: Terminology And Identifiers
+  security-and-audit.md:
+    title: Security And Audit
+  conformance-testing.md:
+    title: Conformance Testing
+  versioning-and-change-management.md:
+    title: Versioning And Change Management
+  implementation-partner-guide.md:
+    title: Implementation Partner Guide
+  migration-from-v1.md:
+    title: Migration From v1
+  endpoints-and-publication-model.md:
+    title: Endpoints And Publication Model
+  annexes.md:
+    title: Technical Annexes
+  annex-identifier-and-naming.md:
+    title: Identifier And Naming Annex
+  annex-terminology.md:
+    title: Terminology Annex
+  annex-publication-and-build.md:
+    title: Publication And Build Annex
+  annex-programme-content.md:
+    title: Programme Content Annex
+  annex-legacy-reconciliation.md:
+    title: Legacy Reconciliation Annex
+  glossary.md:
+    title: Glossary
+  downloads.md:
+    title: Downloads
+menu:
+  Home: index.html
+  National Overview: overview.html
+  Governance And Scope: governance-and-scope.html
+  Conformance Model: conformance-model.html
+  Profile Families: profile-families.html
+  Terminology And Identifiers: terminology-and-identifiers.html
+  Security And Audit: security-and-audit.html
+  Conformance Testing: conformance-testing.html
+  Versioning And Change Management: versioning-and-change-management.html
+  Implementation Partner Guide: implementation-partner-guide.html
+  Migration From v1: migration-from-v1.html
+  Endpoints And Publication Model: endpoints-and-publication-model.html
+  Technical Annexes: annexes.html
+  Downloads: downloads.html
+  Artefact Index: artifacts.html
+parameters:
+  path-resource:
+    - input/resources
+  special-url-base:
+    - https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core
+  show-inherited-invariants: false
+  usage-stats-opt-out: true
+  excludettl: true

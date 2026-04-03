@@ -1,0 +1,78 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-whooley",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://fhir.hie.moh.gov.my/StructureDefinition/questionnaire-reference-my-core",
+            "valueReference": {
+                "reference": "Questionnaire/q-whooley"
+            }
+        }
+    ],
+    "identifier": {
+        "system": "http://fhir.hie.moh.gov.my/sid/template-section",
+        "value": "qr-whooley"
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-whooley",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/3a1fe467-cad5-4ec9-83f8-fd6dfb46470c"
+    },
+    "authored": "2023-04-27T00:20:14.414Z",
+    "item": [
+        {
+            "linkId": "whooley.1",
+            "text": "During the past month, have you often been bothered by feeling down, depressed or hopeless?",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://snomed.info/sct",
+                        "code": "373066001",
+                        "display": "Yes"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "whooley.2",
+            "text": "During the past month, have you often been bothered by little interest or pleasure in doing things?",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://snomed.info/sct",
+                        "code": "373066001",
+                        "display": "Yes"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "whooley.3",
+            "text": "Whooley Total Score",
+            "answer": [
+                {
+                    "valueInteger": 2
+                }
+            ]
+        },
+        {
+            "linkId": "whooley.4",
+            "text": "Outcome Whooley",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://fhir.hie.moh.gov.my/CodeSystem/outcome-whooley-my-core",
+                        "code": "a1",
+                        "display": "Positive Test"
+                    }
+                }
+            ]
+        }
+    ]
+}

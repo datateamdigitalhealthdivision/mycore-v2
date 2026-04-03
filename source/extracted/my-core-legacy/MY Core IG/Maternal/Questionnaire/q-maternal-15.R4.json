@@ -1,0 +1,94 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-maternal-15",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-15",
+  "version": "1.0.0",
+  "name": "QMaternal15",
+  "title": "Keputusan Pemeriksaan Ultrasound",
+  "status": "active",
+  "date": "2023-08-30T01:19:04.1804145+00:00",
+  "item": [
+    {
+      "linkId": "maternal-15.1",
+      "text": "Tarikh",
+      "type": "dateTime"
+    },
+    {
+      "linkId": "maternal-15.2",
+      "text": "Jangkamasa kandungan",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "maternal-15.2.1",
+          "text": "EDD",
+          "type": "dateTime"
+        },
+        {
+          "linkId": "maternal-15.2.2",
+          "text": "REDD",
+          "type": "dateTime"
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-15.3",
+      "text": "Presentasi",
+      "type": "string"
+    },
+    {
+      "linkId": "maternal-15.4",
+      "text": "FH/FM",
+      "type": "string"
+    },
+    {
+      "linkId": "maternal-15.5",
+      "text": "CRL",
+      "type": "string"
+    },
+    {
+      "linkId": "maternal-15.6",
+      "text": "BPD",
+      "type": "string"
+    },
+    {
+      "linkId": "maternal-15.7",
+      "text": "HC",
+      "type": "string"
+    },
+    {
+      "linkId": "maternal-15.8",
+      "text": "AC",
+      "type": "string"
+    },
+    {
+      "linkId": "maternal-15.9",
+      "text": "FL",
+      "type": "string"
+    },
+    {
+      "linkId": "maternal-15.10",
+      "text": "Estimated fetal weight",
+      "type": "quantity"
+    },
+    {
+      "linkId": "maternal-15.11",
+      "text": "Placenta",
+      "type": "string"
+    },
+    {
+      "linkId": "maternal-15.12",
+      "text": "AFI",
+      "type": "string"
+    },
+    {
+      "linkId": "maternal-15.13",
+      "text": "Ulasan",
+      "type": "string"
+    },
+    {
+      "linkId": "maternal-15.15",
+      "text": "Nama Pemeriksa",
+      "type": "string"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-child-rs-21m",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-child-21m",
+  "version": "1.0.0",
+  "name": "QChildRs21M",
+  "title": "Senarai Semak Rekod Saya Ibu Bapa (Lawatan 21 Bulan)",
+  "status": "active",
+  "date": "2023-08-30T06:43:50.5035753+00:00",
+  "item": [
+    {
+      "linkId": "rs-21m-1",
+      "text": "Menanggalkan pakaian",
+      "type": "boolean"
+    },
+    {
+      "linkId": "rs-21m-2",
+      "text": "Melompat setempat",
+      "type": "boolean"
+    },
+    {
+      "linkId": "rs-21m-3",
+      "text": "Adakah anda mempunyai masalah menjaga bayi anda?",
+      "type": "boolean"
+    },
+    {
+      "linkId": "rs-21m-4",
+      "text": "Adakah anda mempunyai sebarang kebimbangan terhadap bayi?",
+      "type": "boolean",
+      "item": [
+        {
+          "linkId": "rs-21m-4-1",
+          "text": "Sekiranya ada, nyatakan",
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "service-provider-my-core",
+  "url": "http://fhir.hie.moh.gov.my/StructureDefinition/service-provider-my-core",
+  "version": "1.0.0",
+  "name": "ExtensionServiceProviderMyCore",
+  "title": "ExtensionServiceProvider (My Core)",
+  "status": "active",
+  "date": "2023-04-14T00:37:19.1253569+00:00",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "QuestionnaireResponse"
+    },
+    {
+      "type": "element",
+      "expression": "Medication"
+    },
+    {
+      "type": "element",
+      "expression": "Schedule"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://fhir.hie.moh.gov.my/StructureDefinition/service-provider-my-core"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Organization"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

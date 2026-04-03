@@ -1,0 +1,17 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "encounter-id",
+  "name": "MYEncounterIdentifierNamingSystem",
+  "status": "active",
+  "kind": "identifier",
+  "date": "2026-04-02",
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Draft naming system for encounter identifiers used in MY Core examples and starter workflow bundles.",
+  "uniqueId": [
+    {
+      "type": "uri",
+      "value": "https://id.kkmhub.moh.gov.my/sid/encounter-id",
+      "preferred": true
+    }
+  ]
+}

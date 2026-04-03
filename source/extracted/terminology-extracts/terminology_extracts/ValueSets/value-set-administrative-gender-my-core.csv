@@ -1,0 +1,5 @@
+code,display,system,include_type,valueset_url,valueset_name
+male,Male,http://hl7.org/fhir/administrative-gender,explicit,http://fhir.hie.moh.gov.my/ValueSet/administrative-gender-my-core,ValueSetAdministrativeGenderMyCore
+female,Female,http://hl7.org/fhir/administrative-gender,explicit,http://fhir.hie.moh.gov.my/ValueSet/administrative-gender-my-core,ValueSetAdministrativeGenderMyCore
+other,Undetermined,http://hl7.org/fhir/administrative-gender,explicit,http://fhir.hie.moh.gov.my/ValueSet/administrative-gender-my-core,ValueSetAdministrativeGenderMyCore
+unknown,Unknown,http://hl7.org/fhir/administrative-gender,explicit,http://fhir.hie.moh.gov.my/ValueSet/administrative-gender-my-core,ValueSetAdministrativeGenderMyCore

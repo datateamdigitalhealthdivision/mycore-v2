@@ -1,0 +1,163 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-maternal-24",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-24",
+  "version": "1.0.0",
+  "name": "QMaternal24",
+  "title": "Perawatan Postnatal Dirumah",
+  "status": "active",
+  "date": "2023-08-30T01:19:04.1804145+00:00",
+  "item": [
+    {
+      "linkId": "maternal-24.1",
+      "text": "Suhu badan",
+      "type": "quantity"
+    },
+    {
+      "linkId": "maternal-24.2",
+      "text": "Tekanan darah",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "maternal-24.2.1",
+          "text": "Sistolik",
+          "type": "quantity"
+        },
+        {
+          "linkId": "maternal-24.2.2",
+          "text": "Diastolik",
+          "type": "quantity"
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-24.3",
+      "text": "Nadi",
+      "type": "quantity"
+    },
+    {
+      "linkId": "maternal-24.4",
+      "text": "Penafasan",
+      "type": "quantity"
+    },
+    {
+      "linkId": "maternal-24.5",
+      "text": "Payudara",
+      "type": "string"
+    },
+    {
+      "linkId": "maternal-24.6",
+      "text": "Tinggi rahim",
+      "type": "string"
+    },
+    {
+      "linkId": "maternal-24.7",
+      "text": "Lokia",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "maternal-24.7.1",
+          "text": "Bau",
+          "type": "string"
+        },
+        {
+          "linkId": "maternal-24.7.2",
+          "text": "Jenis",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "code": "a1",
+                "display": "Rubra"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "a2",
+                "display": "Serosa"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "a3",
+                "display": "Alba"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-24.7.3",
+          "text": "Pad chart",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-24.8",
+      "text": "Perineum/luka episiotomi",
+      "type": "string"
+    },
+    {
+      "linkId": "maternal-24.9",
+      "text": "Luka pembedahan",
+      "type": "string"
+    },
+    {
+      "linkId": "maternal-24.10",
+      "text": "PU",
+      "type": "string"
+    },
+    {
+      "linkId": "maternal-24.11",
+      "text": "BO",
+      "type": "string"
+    },
+    {
+      "linkId": "maternal-24.12",
+      "text": "Ibu bergerak/berjalan (ambulasi)",
+      "type": "string"
+    },
+    {
+      "linkId": "maternal-24.13",
+      "text": "Menilai simptom kemurungan /psikosis ibu",
+      "type": "string"
+    },
+    {
+      "linkId": "maternal-24.14",
+      "text": "Tanda & simptom DVT/Pulmonary Thromboembolism",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "maternal-24.14.1",
+          "text": "Sakit dada",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-24.14.2",
+          "text": "Susah bernafas",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-24.14.3",
+          "text": "Sakit/bengkak kaki",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-24.14.4",
+          "text": "Redness/inflammation of lower limb",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-24.14.5",
+          "text": "Calf tenderness",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-24.15",
+      "text": "Catatan",
+      "type": "text"
+    }
+  ]
+}

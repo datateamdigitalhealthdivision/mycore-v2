@@ -1,0 +1,6 @@
+code,display,definition,system_url,system_name
+00,Other,,http://fhir.hie.moh.gov.my/CodeSystem/phlebotomy-my-core,CodeSystemPhlebotomyMyCore
+01,Phlebotomy (Blood Taking),,http://fhir.hie.moh.gov.my/CodeSystem/phlebotomy-my-core,CodeSystemPhlebotomyMyCore
+02,Injection,,http://fhir.hie.moh.gov.my/CodeSystem/phlebotomy-my-core,CodeSystemPhlebotomyMyCore
+03,Mantoux Test,,http://fhir.hie.moh.gov.my/CodeSystem/phlebotomy-my-core,CodeSystemPhlebotomyMyCore
+04,Blood Film Malaria Parasite (BFMP),,http://fhir.hie.moh.gov.my/CodeSystem/phlebotomy-my-core,CodeSystemPhlebotomyMyCore

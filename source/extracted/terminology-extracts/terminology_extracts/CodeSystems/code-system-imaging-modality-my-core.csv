@@ -1,0 +1,17 @@
+code,display,definition,system_url,system_name
+01,GENERAL RADIOGRAPHY,GENERAL RADIOGRAPHY,http://fhir.hie.moh.gov.my/CodeSystem/imaging-modality-my-core,CodeSystemImagingModalityMyCore
+02,GENERAL RADIOGRAPHY (Mobile),GENERAL RADIOGRAPHY (Mobile),http://fhir.hie.moh.gov.my/CodeSystem/imaging-modality-my-core,CodeSystemImagingModalityMyCore
+03,ANGIOGRAPHY,ANGIOGRAPHY,http://fhir.hie.moh.gov.my/CodeSystem/imaging-modality-my-core,CodeSystemImagingModalityMyCore
+04,BMD,BMD,http://fhir.hie.moh.gov.my/CodeSystem/imaging-modality-my-core,CodeSystemImagingModalityMyCore
+05,CT,CT,http://fhir.hie.moh.gov.my/CodeSystem/imaging-modality-my-core,CodeSystemImagingModalityMyCore
+06,DENTAL,DENTAL,http://fhir.hie.moh.gov.my/CodeSystem/imaging-modality-my-core,CodeSystemImagingModalityMyCore
+07,FLUOROSCOPY,FLUOROSCOPY,http://fhir.hie.moh.gov.my/CodeSystem/imaging-modality-my-core,CodeSystemImagingModalityMyCore
+08,INTERVENTIONAL RADIOLOGY,INTERVENTIONAL RADIOLOGY,http://fhir.hie.moh.gov.my/CodeSystem/imaging-modality-my-core,CodeSystemImagingModalityMyCore
+09,INTRAVENOUROGRAPHY (IVU),INTRAVENOUROGRAPHY (IVU),http://fhir.hie.moh.gov.my/CodeSystem/imaging-modality-my-core,CodeSystemImagingModalityMyCore
+10,MAMMOGRAPHY,MAMMOGRAPHY,http://fhir.hie.moh.gov.my/CodeSystem/imaging-modality-my-core,CodeSystemImagingModalityMyCore
+11,MRI,MRI,http://fhir.hie.moh.gov.my/CodeSystem/imaging-modality-my-core,CodeSystemImagingModalityMyCore
+12,MOBILE C-ARM,MOBILE C-ARM,http://fhir.hie.moh.gov.my/CodeSystem/imaging-modality-my-core,CodeSystemImagingModalityMyCore
+13,ULTRASOUND,ULTRASOUND,http://fhir.hie.moh.gov.my/CodeSystem/imaging-modality-my-core,CodeSystemImagingModalityMyCore
+14,ULTRASOUND (Mobile),ULTRASOUND (Mobile),http://fhir.hie.moh.gov.my/CodeSystem/imaging-modality-my-core,CodeSystemImagingModalityMyCore
+15,HARD COPY,HARD COPY,http://fhir.hie.moh.gov.my/CodeSystem/imaging-modality-my-core,CodeSystemImagingModalityMyCore
+16,REPORTING (EXTERNAL),REPORTING (EXTERNAL),http://fhir.hie.moh.gov.my/CodeSystem/imaging-modality-my-core,CodeSystemImagingModalityMyCore

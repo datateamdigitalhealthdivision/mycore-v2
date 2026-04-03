@@ -1,0 +1,37 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "ChargeItemDefinition-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/ChargeItemDefinition-my-core",
+  "name": "ChargeItemDefinitionMyCore",
+  "title": "ChargeItemDefinition (MY Core)",
+  "status": "active",
+  "date": "2023-06-08T03:08:38.5864399+00:00",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "ChargeItemDefinition",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/ChargeItemDefinition",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "ChargeItemDefinition.useContext.value[x]",
+        "path": "ChargeItemDefinition.useContext.value[x]",
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/service-type-my-core"
+        }
+      },
+      {
+        "id": "ChargeItemDefinition.propertyGroup.priceComponent.code",
+        "path": "ChargeItemDefinition.propertyGroup.priceComponent.code",
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/revenue-code-my-core"
+        }
+      }
+    ]
+  },
+  "version": "2.0.0",
+  "experimental": false
+}

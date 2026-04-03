@@ -1,0 +1,59 @@
+code,display,definition,system_url,system_name
+q-dengue-checklist,Dengue Checklist,Dengue Checklist,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+q-dengue-checklist-a,Dengue Checklist-a,Detailed Dengue Checklist,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+q-tb-note,Tuberculosis Clerking Note,Tuberculosis Clerking Note,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+q-hpt-note,Hypertension Clerking Note,Hypertension Clerking Note,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+74207-2,Prehospital Medical Note,Prehospital Medical Note,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+maternal-postmx,"Postnatal issues, management & treatment","Postnatal issues, management & treatment",http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+maternal-lk,Pemerikasaan Kandungan Semasa (Lawatan Klinik),Pemerikasaan Kandungan Semasa (Lawatan Klinik),http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+maternal-lr,Pemerikasaan Kandungan Semasa (Lawatan Rumah),Pemerikasaan Kandungan Semasa (Lawatan Rumah),http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+maternal-rme-1,Routine Medical Exam 1 (RME 1),Routine Medical Exam 1 (RME 1),http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+maternal-rme-2,Routine Medical Exam 2 (RME 2),Routine Medical Exam 2 (RME 2),http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+maternal-rme-add,Additional Medical Exam,Additional Medical Exam,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+maternal-rme-dental,Dental Routine Medical Exam,Dental Routine Medical Exam,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+maternal-pks,Pemeriksaan Kandungan Semasa,Pemeriksaan Kandungan Semasa,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+34109-9,Note,Note,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+75476-2,Physician Note,Physician Note,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+34746-8,Nurse Note,Nurse Note,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+85443-0,Hematology Note,Hematology Note,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+0001-0001,Transfusion Adverse Reaction Note,Transfusion Adverse Reaction Note,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+0001-0002,Incorrect Blood Component Transfused,Incorrect Blood Component Transfused,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+68608-9,Summary Note,Summary Note,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+18842-5,Discharge Summary Note,Discharge Summary Note,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+28618-7,Dentistry Note,Dentistry Note,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+34821-9,Pharmacology Note,Pharmacology Note,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+0002-0001,MTAC (Medication therapy adherance clinic),MTAC (Medication therapy adherance clinic),http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+0002-0002,MC (Medication Counselling),MC (Medication Counselling),http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+0002-0003,ADR (Adverse Drug Event),ADR (Adverse Drug Event),http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+57133-1,Referral Note,Referral Note,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+28570-0,Procedure note,Procedure note,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+55107-7,Addendum Note,Addendum Note,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+0003-0001,Allied Health Note,Allied Health Note,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+child-born,Rekod Baru Lahir,Rekod Baru Lahir,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+child-md1m,Rekod Bawah 1 Bulan,Rekod Bawah 1 Bulan,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+child-md,Rekod 18 Bulan (RME 2),Rekod 18 Bulan (RME 2),http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+child-md4y,Rekod Atas 4 Tahun,Rekod Atas 4 Tahun,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+child-madd,Rekod Pemeriksaan Umum,Rekod Pemeriksaan Umum,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+child-ds-0-9m,Pemeriksaan Pergigian (Umur 0-9 Bulan),Pemeriksaan Pergigian (Umur 0-9 Bulan),http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+child-ds-10-23m,Pemeriksaan Pergigian (Umur 10-23 Bulan),Pemeriksaan Pergigian (Umur 10-23 Bulan),http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+child-ds-2-4y,Pemeriksaan Pergigian (Umur 2-4 Tahun),Pemeriksaan Pergigian (Umur 2-4 Tahun),http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+child-ds-add,Pemeriksaan Pergigian Tambahan Kanak-Kanak,Pemeriksaan Pergigian Tambahan Kanak-Kanak,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+child-1m,Lawatan Umur 1 Bulan,Lawatan Umur 1 Bulan,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+child-2m,Lawatan Umur 2 Bulan,Lawatan Umur 2 Bulan,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+child-3-4m,Lawatan Umur 3 & 4 Bulan,Lawatan Umur 3 & 4 Bulan,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+child-5-6m,Lawatan Umur 5 & 6 Bulan,Lawatan Umur 5 & 6 Bulan,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+child-9m,Lawatan Umur 9 Bulan,Lawatan Umur 9 Bulan,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+child-10m,Lawatan Umur 10 Bulan (Sarawak),Lawatan Umur 10 Bulan (Sarawak),http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+child-12-15m,Lawatan Umur 12 & 15 Bulan,Lawatan Umur 12 & 15 Bulan,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+child-18-21m,Lawatan Umur 18 & 21 Bulan,Lawatan Umur 18 & 21 Bulan,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+child-2-3y,"Lawatan Umur 2 Tahun, 2 Tahun 6 Bulan, 3 Tahun & 3 Tahun 6 Bulan","Lawatan Umur 2 Tahun, 2 Tahun 6 Bulan, 3 Tahun & 3 Tahun 6 Bulan",http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+child-4y,Lawatan Umur 4 Tahun,Lawatan Umur 4 Tahun,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+child-5-6y,Lawatan Umur 5 & 6 Tahun,Lawatan Umur 5 & 6 Tahun,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+child-add,Pemeriksaan Tambahan Lawatan Klinik,Pemeriksaan Tambahan Lawatan Klinik,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+185284002,Dietitian,Dietitian,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+308035000,Physiotherapy,Physiotherapy,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+305852001,Occupational Therapy,Occupational Therapy,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+305862008,Speech Therapy,Speech Therapy,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+305769005,Audiology,Audiology,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+773452005,Psychology,Psychology,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore
+410260003,Medical Social Worker,Medical Social Worker,http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core,CodeSystemCompositionEventMYCore

@@ -1,0 +1,90 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-audit-c",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://fhir.hie.moh.gov.my/StructureDefinition/questionnaire-reference-my-core",
+            "valueReference": {
+                "reference": "Questionnaire/q-audit-c"
+            }
+        }
+    ],
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-audit-c",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/bfb81ffe-637d-4b3f-befa-f7a1546ed9f8"
+    },
+    "authored": "2023-01-30T04:22:00.113Z",
+    "author": {
+        "reference": "Patient/bfb81ffe-637d-4b3f-befa-f7a1546ed9f8"
+    },
+    "item": [
+        {
+            "linkId": "01",
+            "text": "How often do you have a drink containing alcohol?",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://loinc.org",
+                        "code": "LA6270-8",
+                        "display": "Never"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "02",
+            "text": "How many standard drinks containing alcohol do you have on a typical day when drinking?",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://loinc.org",
+                        "code": "LA6270-8",
+                        "display": "Never"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "03",
+            "text": "How often do you have six or more drinks on one occasion?",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://loinc.org",
+                        "code": "LA6270-8",
+                        "display": "Never"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "04",
+            "text": "Total score [AUDIT-C]",
+            "answer": [
+                {
+                    "valueInteger": 0
+                }
+            ]
+        },
+        {
+            "linkId": "05",
+            "text": "Outcome Summary [AUDIT]",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://fhir.hie.moh.gov.my/CodeSystem/outcome-audit-c-my-core",
+                        "code": "a1",
+                        "display": "Low-Risk Consumption"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+code,display,system,include_type,valueset_url,valueset_name
+238995004,Acneiform,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/allergy-manifestation-my-core,ValueSetAllergyManifestationMyCore
+56317004,Alopecia,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/allergy-manifestation-my-core,ValueSetAllergyManifestationMyCore
+36715001,Erythema multiforme,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/allergy-manifestation-my-core,ValueSetAllergyManifestationMyCore
+32861005,Erythema nodosum,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/allergy-manifestation-my-core,ValueSetAllergyManifestationMyCore
+73692007,Fixed drug eruption,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/allergy-manifestation-my-core,ValueSetAllergyManifestationMyCore
+247471006,Maculopapular rash,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/allergy-manifestation-my-core,ValueSetAllergyManifestationMyCore
+246622003,Photo sensitivity,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/allergy-manifestation-my-core,ValueSetAllergyManifestationMyCore
+110990003,Pigmentary changes,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/allergy-manifestation-my-core,ValueSetAllergyManifestationMyCore
+418363000,Pruritus only,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/allergy-manifestation-my-core,ValueSetAllergyManifestationMyCore
+423902002,Purpura,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/allergy-manifestation-my-core,ValueSetAllergyManifestationMyCore
+768962006,Toxic epidermal  necrolysis,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/allergy-manifestation-my-core,ValueSetAllergyManifestationMyCore
+73442001,Stevens-Johnson syndrome,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/allergy-manifestation-my-core,ValueSetAllergyManifestationMyCore
+126485001,Urticaria,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/allergy-manifestation-my-core,ValueSetAllergyManifestationMyCore
+41291007,Angioedema,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/allergy-manifestation-my-core,ValueSetAllergyManifestationMyCore
+31996006,Vasculitis,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/allergy-manifestation-my-core,ValueSetAllergyManifestationMyCore
+14912003,Vesiculobullous reaction,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/allergy-manifestation-my-core,ValueSetAllergyManifestationMyCore
+74964007,Other,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/allergy-manifestation-my-core,ValueSetAllergyManifestationMyCore

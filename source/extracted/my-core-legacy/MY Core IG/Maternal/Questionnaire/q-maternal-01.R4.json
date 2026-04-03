@@ -1,0 +1,125 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-maternal-01",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-01",
+  "version": "maternal-1.0.0",
+  "name": "QMaternal01",
+  "title": "Rekod Kesihatan Ibu",
+  "status": "active",
+  "date": "2023-08-30T01:19:04.1804145+00:00",
+  "item": [
+    {
+      "linkId": "maternal-1.1",
+      "text": "THA (LNMP)",
+      "type": "date",
+      "item": [
+        {
+          "linkId": "maternal-1.1.1",
+          "text": "Unsure Date",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-1.2",
+      "text": "TAL (EDD)",
+      "type": "date"
+    },
+    {
+      "linkId": "maternal-1.3",
+      "text": "RE EDD",
+      "type": "date"
+    },
+    {
+      "linkId": "maternal-1.4",
+      "text": "Gravida",
+      "type": "integer"
+    },
+    {
+      "linkId": "maternal-1.5",
+      "text": "Para",
+      "type": "integer",
+      "item": [
+        {
+          "linkId": "maternal-1.5.1",
+          "text": "+",
+          "type": "integer"
+        },
+        {
+          "linkId": "maternal-1.5.2",
+          "text": "Para remark",
+          "type": "string",
+          "maxLength": 20
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-1.6",
+      "text": "Jururawat Y/M",
+      "type": "reference",
+      "repeats": true
+    },
+    {
+      "linkId": "maternal-1.7",
+      "text": "Postnatal Address",
+      "type": "string"
+    },
+    {
+      "linkId": "maternal-1.8",
+      "text": "Height",
+      "type": "quantity"
+    },
+    {
+      "linkId": "maternal-1.9",
+      "text": "Booking Weight",
+      "type": "quantity"
+    },
+    {
+      "linkId": "maternal-1.10",
+      "text": "BMI",
+      "type": "quantity"
+    },
+    {
+      "linkId": "maternal-1.11",
+      "text": "BMI category",
+      "type": "choice",
+      "answerOption": [
+        {
+          "valueCoding": {
+            "code": "310252000",
+            "display": "Kurang Berat Badan (BMI < 20)"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "35425004",
+            "display": "Normal (BMI 20 -24)"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "162863004",
+            "display": "Lebih Berat Badan (BMI 25 - 29)"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "162864005",
+            "display": "Obese (BMI > 30)"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "408512008",
+            "display": "Extreme Obese (BMI > 40)"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-1.12",
+      "text": "Post Natal Record",
+      "type": "boolean"
+    }
+  ]
+}

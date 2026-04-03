@@ -1,0 +1,3 @@
+code,display,system,include_type,valueset_url,valueset_name
+66839005,Father,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/child-identification-type-my-core,ValueSetChildIdentificationTypeMyCore
+72705000,Mother,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/child-identification-type-my-core,ValueSetChildIdentificationTypeMyCore

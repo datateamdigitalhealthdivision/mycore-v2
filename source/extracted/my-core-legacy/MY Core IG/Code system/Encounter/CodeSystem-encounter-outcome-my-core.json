@@ -1,0 +1,41 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-encounter-outcome-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemEncounterOutcome (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/encounter-outcome-my-core</tt><p>Encounter outcome</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/encounter-outcome-my-core",
+  "name": "CodeSystemEncounterOutcomeMyCore",
+  "title": "CodeSystemEncounterOutcome (MY Core)",
+  "status": "active",
+  "date": "2023-06-26T00:55:17.2867281+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Encounter outcome",
+  "compositional": false,
+  "content": "complete",
+  "count": 2,
+  "concept": [
+    {
+      "code": "1",
+      "display": "Successful",
+      "definition": "Successful"
+    },
+    {
+      "code": "2",
+      "display": "Unsuccessful",
+      "definition": "Unsuccessful"
+    }
+  ]
+}

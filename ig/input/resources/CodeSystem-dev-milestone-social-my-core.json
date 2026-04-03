@@ -1,0 +1,83 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "dev-milestone-social-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemDevMilestoneSocial (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/dev-milestone-social-my-core</tt><p>Developmental Milestone Social Motor</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/dev-milestone-social-my-core",
+  "name": "CodeSystemDevMilestoneSocialMyCore",
+  "title": "CodeSystemDevMilestoneSocial (MY Core)",
+  "status": "active",
+  "date": "2023-09-04T01:26:51.2813+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "description": "Developmental Milestone Social Motor",
+  "compositional": false,
+  "content": "complete",
+  "count": 12,
+  "concept": [
+    {
+      "code": "sc6y",
+      "display": "Up to 6 weeks of age",
+      "definition": "Social smile"
+    },
+    {
+      "code": "sc3m",
+      "display": "Up to 3 months of age",
+      "definition": "Sustained social contact. \nResponds with pleasure to friendly handling"
+    },
+    {
+      "code": "sc6m",
+      "display": "Up to 6 months of age",
+      "definition": "Mouthing. \nPlace hand on bottle and pats it. \nGrasps feet. \nStretches arms out to be carried. \nShows delighted response to rough and tumble play. \nStill friendly with strangers, becomes more reserved after 7 mths."
+    },
+    {
+      "code": "sc9m",
+      "display": "Up to 9 months of age",
+      "definition": "Mouthing. \nHolds and bites small piece of food. \nStranger anxiety. \nPlays Peek-a-boo, imitates hand clapping. \nWaves bye-bye. \nUnderstands ‘object permanence’"
+    },
+    {
+      "code": "sc12m",
+      "display": "Up to 12 months of age",
+      "definition": "Drinks from cup with assistance, helps with dressing. \nGives toys on request. \nFinds toys hidden from view. \nDemonstrates affection to family. \nEnjoys joint interactive play with adults. \nPlays “Pat-a-Cake”"
+    },
+    {
+      "code": "sc15m",
+      "display": "Up to 15 months of age",
+      "definition": "Holds and drinks from cup, attempts to hold spoon. \nFunctional play e.g. \npushing toy car. \nRepeated casting."
+    },
+    {
+      "code": "sc18m",
+      "display": "Up to 18 months of age",
+      "definition": "Imitates housework. \nUses spoon well. \nAssists with dressing. \nmouthing stops. \nCasting less often. \nPlays contently alone but likes to be near familiar adult."
+    },
+    {
+      "code": "sc2y",
+      "display": "Up to 2 years of age",
+      "definition": "Puts on shoes, socks, pants. \nDry by day. \nParallel play. \nWatches others play and plays near them, but not with them. \nPretend play. \nTantrums when frustrated but attention is usually easily distracted."
+    },
+    {
+      "code": "sc2.5y",
+      "display": "Up to 2.5 years of age",
+      "definition": "May be dry by night, variable. \nEats skilfully More sustained role play e.g. \nputting dolls to bed, feeding them. \nTantrums when thwarted and is less distracted."
+    },
+    {
+      "code": "sc3y",
+      "display": "Up to 3 years of age",
+      "definition": "Eats independently, washes hands. \nMay be dry by night. \nJoins in active make believe play with other children. \nUnderstands sharing toys."
+    },
+    {
+      "code": "sc4y",
+      "display": "Up to 4 years of age",
+      "definition": "Brushes teeth, dresses independently except for laces, ties and back buttons. \nImaginative dressing up and make believe play. \nUnderstands need for turn taking in play. \nAppreciates past, present and future time."
+    },
+    {
+      "code": "sc5y",
+      "display": "Up to 5 years of age",
+      "definition": "Dresses and undresses alone. \nEngages in elaborate make believe group play. \nChooses own friends. \nCooperative with companions and understands need for rules and fair play."
+    }
+  ],
+  "version": "2.0.0",
+  "experimental": false,
+  "caseSensitive": true
+}

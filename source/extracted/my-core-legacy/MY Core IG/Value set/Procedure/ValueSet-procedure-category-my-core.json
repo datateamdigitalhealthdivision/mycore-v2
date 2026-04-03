@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-procedure-category-my-core",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2022-12-24T00:24:18.485+08:00",
+    "source": "#sNJPJiTQ8I4BZi0j"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetProcedureCategory (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/ValueSet/procedure-category-my-core</tt><p>Procedure Category</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/procedure-category-my-core",
+  "name": "ValueSetProcedureCategoryMyCore",
+  "title": "ValueSetProcedureCategory (MY Core)",
+  "status": "active",
+  "date": "2023-06-08T03:08:38.5864399+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Procedure Category",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/procedure-category-my-core"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "387713003",
+            "display": "Surgical procedure"
+          },
+          {
+            "code": "104075000",
+            "display": "Transfusion medicine service"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-child-5-6m",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-child-5-6m",
+  "version": "1.0.0",
+  "name": "QChild5-6m",
+  "title": "Lawatan Umur 5 & 6 Bulan",
+  "status": "active",
+  "date": "2023-08-30T06:43:50.5035753+00:00",
+  "item": [
+    {
+      "linkId": "child-5-6m.0",
+      "text": "Lawatan",
+      "type": "choice",
+      "answerOption": [
+        {
+          "valueCoding": {
+            "code": "00",
+            "display": "5 bulan"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "01",
+            "display": "6 bulan"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "child-5-6m.1",
+      "text": "Tarikh lawatan",
+      "type": "dateTime"
+    },
+    {
+      "linkId": "child-5-6m.2",
+      "text": "Umur semasa lawatan",
+      "type": "quantity",
+      "initial": [
+        {
+          "valueQuantity": {
+            "unit": "day",
+            "system": "http://unitsofmeasure.org",
+            "code": "d"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "child-5-6m.3",
+      "text": "Aktiviti",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "child-5-6m.3.1",
+          "text": "Berat (kg)",
+          "type": "quantity",
+          "item": [
+            {
+              "linkId": "child-5-6m.3.1.1",
+              "text": "Catatan (Normal/KBB/KBBT/MP)",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-5-6m.3.2",
+          "text": "Panjang (cm)",
+          "type": "quantity",
+          "item": [
+            {
+              "linkId": "child-5-6m.3.2.1",
+              "text": "Catatan (Normal/B/BT/ME)",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-5-6m.3.3",
+          "text": "BMI (kg/m2) \nNota: Ambil BMI pada umur 5 bulan sekiranya ada MP/B/BT)",
+          "type": "quantity",
+          "item": [
+            {
+              "linkId": "child-5-6m.3.3.1",
+              "text": "Catatan (Normal/MP/B/BT)",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-5-6m.3.4",
+          "text": "Lilitan kepala (cm)",
+          "type": "quantity",
+          "item": [
+            {
+              "linkId": "child-5-6m.3.4.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-5-6m.3.5",
+          "text": "Pemeriksaan fizikal (termasuk mulut)",
+          "type": "string",
+          "item": [
+            {
+              "linkId": "child-5-6m.3.5.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-5-6m.3.6",
+          "text": "Perkara yang membimbangkan ibu bapa/penjaga",
+          "type": "string",
+          "item": [
+            {
+              "linkId": "child-5-6m.3.6.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-5-6m.3.7",
+          "text": "Bimbingan awal (Rujuk bimbingan awal umur 6 bulan Panduan Ibubapa/Penjaga",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-5-6m.3.8",
+          "text": "Imunisasi (Rujuk Jadual dan Rekod Imunisasi)",
+          "type": "string"
+        },
+        {
+          "linkId": "child-5-6m.3.9",
+          "text": "Rujuk Pemeriksaan Pergigian (Tarikh)",
+          "type": "dateTime"
+        },
+        {
+          "linkId": "child-5-6m.3.10",
+          "text": "Catatan",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "linkId": "child-5-6m.4",
+      "text": "Senarai Semak Perkembangan Umur 6 bulan (sila semak terlebih dahulu apa yang ibubapa/penjaga tulis): Tandakan pada ruangan yang berkenaan",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "child-5-6m.4.1",
+          "text": "Bayi boleh mengawal kepalanya ketika ditarik dari keadaan baring ke duduk",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-5-6m.4.2",
+          "text": "Bayi boleh meniarap dan menelentang",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-5-6m.4.3",
+          "text": "Bayi boleh menggengam objek",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-5-6m.4.4",
+          "text": "Mata bayi mengikut pergerakan objek",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-5-6m.4.5",
+          "text": "Bayi bertindakbalas kepada bunyi",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "child-5-6m.5",
+      "text": "Jika ada 'tidak' pada senarai semak perkembangan, rujuk Pegawai Perubatan/FMS/Pakar Pediatrik dan isikan maklumat di bawah.",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "child-5-6m.5.1",
+          "text": "Tarikh Temujanji",
+          "type": "dateTime"
+        },
+        {
+          "linkId": "child-5-6m.5.2",
+          "text": "Tempat Rujukan",
+          "type": "string"
+        },
+        {
+          "linkId": "child-5-6m.5.3",
+          "text": "Tujuan Rujukan",
+          "type": "string"
+        },
+        {
+          "linkId": "child-5-6m.5.4",
+          "text": "Jika ada 'tidak' pada senarai semak, Jalankan penilaian perkembangan mengguna Carta Denver",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-5-6m.5.5",
+          "text": "Jika ada 'tidak' pada senarai semak, Lakukan stimulasi awal",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "child-5-6m.6",
+      "text": "Bimbingan Awal Pada Umur 6 Bulan: Tandakan selepas nasihat diberi. (Rujuk Panduan Ibu bapa/Penjaga)",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "child-5-6m.6.1",
+          "text": "Kebersihan diri  \na. Penggunaan puting tiruan adalah tidak digalakkan. Jika penggunaan puting tiruan tidak dapat dielakkan, pastikan puting tidak disalut madu/manisan  \nb. Bersihkan bahagian dalam mulut bayi dengan kain basah sekurang-kurangnya dua kali sehari terutamanya sebelum tidur malam.  \nc. Ibu mestilah membasuh tangan selepas menukar lampin",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-5-6m.6.2",
+          "text": "Pemakanan \na. Makanan pelengkap HANYA diperkenalkan semasa bayi berumur 6 bulan. \n b. Galakkan anak anda minum dari cawan mulai dari umur 6 bulan kerana penggunaan botol susu yang berterusan akan meninggikan risiko kejadian kerosakan gigi.",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-5-6m.6.3",
+          "text": "Pertumbuhan gigi \na. Pertumbuhan gigi susu pertama dijangka akan berlaku. Gigi susu penting untuk panduan gigi kekal tumbuh. Dapatkan pemeriksaan gigi sebaik sahaja gigi tumbuh. \nb. Anak mungkin mengalami ketidakselesaan (air liur meleleh/suka gigit benda keras/demam). Berikan anak sesuatu yang bersih dan selamat untuk digigit. \nc. Hentikan tabiat menghisap jari/puting tiruan bagi mengelakkan masalah susun atur pergigian.",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-5-6m.6.4",
+          "text": "Keselamatan dan Pencegahan Kecederaan \na. Aktiviti bayi anda perlu diawasi setiap masa. \nb. Jangan guna ‘baby walker’ kerana ia boleh menyebabkan kecederaan dalam dan luaran yang teruk. \nc.  Jangan beri bayi anda kacang atau alat permainan yang kecil yang boleh menyebabkan tercekik. \nd. Pilih alat permainan yang selamat dan sesuai untuk bayi anda.",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "child-5-6m.remark",
+      "text": "Catatan / Rumusan",
+      "type": "text"
+    }
+  ]
+}

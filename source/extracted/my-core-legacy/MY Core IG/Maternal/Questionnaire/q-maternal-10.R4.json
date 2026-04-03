@@ -1,0 +1,64 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-maternal-10",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-10",
+  "version": "1.0.0",
+  "name": "QMaternal10",
+  "title": "Pemantauan Paras Gula Dalam Darah",
+  "status": "active",
+  "date": "2023-08-30T01:19:04.1804145+00:00",
+  "item": [
+    {
+      "linkId": "maternal-10.1",
+      "text": "Pemantauan Paras Gula Dalam Darah",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "maternal-10.1.1",
+          "text": "Tarikh",
+          "type": "dateTime"
+        },
+        {
+          "linkId": "maternal-10.1.2",
+          "text": "Pre Breakfast",
+          "type": "quantity"
+        },
+        {
+          "linkId": "maternal-10.1.3",
+          "text": "2 Hours Post Breakfast",
+          "type": "quantity"
+        },
+        {
+          "linkId": "maternal-10.1.4",
+          "text": "Pre Lunch",
+          "type": "quantity"
+        },
+        {
+          "linkId": "maternal-10.1.5",
+          "text": "2 Hours Post Lunch",
+          "type": "quantity"
+        },
+        {
+          "linkId": "maternal-10.1.6",
+          "text": "Pre Dinner",
+          "type": "quantity"
+        },
+        {
+          "linkId": "maternal-10.1.7",
+          "text": "2 Hours Post Dinner",
+          "type": "quantity"
+        },
+        {
+          "linkId": "maternal-10.1.8",
+          "text": "Pre Bed",
+          "type": "quantity"
+        },
+        {
+          "linkId": "maternal-10.1.9",
+          "text": "Catatan",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-maternal-03",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/qr-maternal-03",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/bfb81ffe-637d-4b3f-befa-f7a1546ed9f8"
+    },
+    "authored": "2022-11-16T03:56:06.596Z",
+    "item": [
+        {
+          "linkId": "maternal-3.1",
+          "text": "Haid",
+          "item": [
+            {
+              "linkId": "maternal-3.1.1",
+              "text": "Jumlah Hari",
+              "answer": [
+                {
+                  "valueQuantity": {
+                    "value": 1,
+                    "unit": "month"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "maternal-3.1.2",
+              "text": "Pusingan",
+              "answer": [
+                {
+                  "valueCoding": {
+                    "system": "http://snomed.info/sct",
+                    "code": "78456001",
+                    "display": "Teratur"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-3.2",
+          "text": "Amalan Perancang Keluarga",
+          "item": [
+            {
+              "linkId": "maternal-3.2.1",
+              "text": "Mengamal perancang keluarga",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "maternal-3.2.2",
+              "text": "Kaedah",
+              "answer": [
+                {
+                  "valueCoding": {
+                    "system": "http://snomed.info/sct",
+                    "code": "225370004",
+                    "display": "Barrier Method"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "maternal-3.2.3",
+              "text": "Berapa lama",
+              "answer": [
+                {
+                  "valueQuantity": {
+                    "value": 1,
+                    "unit": "month"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-3.3",
+          "text": "Status Merokok",
+          "item": [
+            {
+              "linkId": "maternal-3.3.1",
+              "text": "Ibu",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "maternal-3.3.2",
+              "text": "Suami",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "maternal-3.3.3",
+              "text": "Remark Status Merokok",
+              "answer": [
+                {
+                  "valueString": "Remark status merokok goes here"
+                }
+              ]
+          }
+          ]
+        },
+        {
+          "linkId": "maternal-3.4",
+          "text": "Masalah Perubatan Ibu",
+          "answer": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "73211009",
+                "display": "Diabetes"
+              },
+              "item": [
+                {
+                  "linkId": "5876813438457",
+                  "text": "Lain-lain",
+                  "answer": [
+                    {
+                      "valueString": "Right Kidney Failure"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "195967001",
+                "display": "Asma"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "40108008",
+                "display": "Thalasemia"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "56717001",
+                "display": "Tibi"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-3.5",
+          "text": "Saringan Tibi",
+          "item": [
+            {
+              "linkId": "maternal-3.5.1",
+              "text": "Adakah anda mengalami batuk lebih 2 minggu",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-3.6",
+          "text": "Masalah Perubatan Keluarga",
+          "item": [
+            {
+              "linkId": "maternal-3.6.1",
+              "text": "Masalah Perubatan Keluarga",
+              "answer": [
+                {
+                  "valueCoding": {
+                    "system": "http://snomed.info/sct",
+                    "code": "195967001",
+                    "display": "Asma"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://snomed.info/sct",
+                    "code": "74732009",
+                    "display": "Psikiatri"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "maternal-3.6.2",
+              "text": "Lain-lain",
+              "answer": [
+                {
+                  "valueString": "Buta Warna"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-3.7",
+          "text": "Status Imunisasi Ibu",
+          "item": [
+            {
+              "linkId": "maternal-3.7.1",
+              "text": "Jenis/Dos vaksin",
+              "answer": [
+                {
+                  "valueString": "Tetanus/Toxoid"
+                }
+              ]
+            },
+            {
+              "linkId": "maternal-3.7.2",
+              "text": "Tarikh suntikan",
+              "answer": [
+                {
+                  "valueDateTime": "2022-11-16T09:29:51.092Z"
+                }
+              ]
+            },
+            {
+              "linkId": "maternal-3.7.3",
+              "text": "Batch No",
+              "answer": [
+                {
+                  "valueString": "1"
+                }
+              ]
+            },
+            {
+              "linkId": "maternal-3.7.4",
+              "text": "Tarikh Luput",
+              "answer": [
+                {
+                  "valueDateTime": "2022-11-16T09:30:07.668Z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-3.7",
+          "text": "Status Imunisasi Ibu",
+          "item": [
+            {
+              "linkId": "maternal-3.7.1",
+              "text": "Jenis/Dos vaksin",
+              "answer": [
+                {
+                  "valueString": "Covid-19"
+                }
+              ]
+            },
+            {
+              "linkId": "maternal-3.7.2",
+              "text": "Tarikh suntikan",
+              "answer": [
+                {
+                  "valueDateTime": "2022-11-16T09:30:40.231Z"
+                }
+              ]
+            },
+            {
+              "linkId": "maternal-3.7.3",
+              "text": "Batch No",
+              "answer": [
+                {
+                  "valueString": "2"
+                }
+              ]
+            },
+            {
+              "linkId": "maternal-3.7.4",
+              "text": "Tarikh Luput",
+              "answer": [
+                {
+                  "valueDateTime": "2022-11-16T09:30:46.725Z"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }

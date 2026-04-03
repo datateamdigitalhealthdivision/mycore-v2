@@ -1,0 +1,45 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Invoice-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Invoice-my-core",
+  "name": "InvoiceMyCore",
+  "title": "Invoice (MY Core)",
+  "status": "active",
+  "date": "2023-01-10T23:01:36.9771953+00:00",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Invoice",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Invoice",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Invoice.identifier.system",
+        "path": "Invoice.identifier.system",
+        "min": 1,
+        "fixedUri": "https://id.kkmhub.moh.gov.my/sid/invoice-no"
+      },
+      {
+        "id": "Invoice.identifier.value",
+        "path": "Invoice.identifier.value",
+        "min": 1
+      },
+      {
+        "id": "Invoice.lineItem.priceComponent.code",
+        "path": "Invoice.lineItem.priceComponent.code",
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/revenue-code-my-core"
+        }
+      },
+      {
+        "id": "Invoice.totalPriceComponent",
+        "path": "Invoice.totalPriceComponent",
+        "contentReference": "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.lineItem.priceComponent"
+      }
+    ]
+  },
+  "version": "2.0.0",
+  "experimental": false
+}

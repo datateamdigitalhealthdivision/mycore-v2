@@ -1,0 +1,9 @@
+code,display,definition,system_url,system_name
+00,No Information,No Information,http://fhir.hie.moh.gov.my/CodeSystem/discharge-disposition-my-core,CodeSystemDischargeDispositionMyCore
+01,Home,Home,http://fhir.hie.moh.gov.my/CodeSystem/discharge-disposition-my-core,CodeSystemDischargeDispositionMyCore
+02,Left Against Advice / At Own Risk (AOR),Left Against Advice / At Own Risk (AOR),http://fhir.hie.moh.gov.my/CodeSystem/discharge-disposition-my-core,CodeSystemDischargeDispositionMyCore
+03,Absconded,Absconded,http://fhir.hie.moh.gov.my/CodeSystem/discharge-disposition-my-core,CodeSystemDischargeDispositionMyCore
+04,Transfer To Another Facility,Transfer To Another Facility,http://fhir.hie.moh.gov.my/CodeSystem/discharge-disposition-my-core,CodeSystemDischargeDispositionMyCore
+05,Deceased,Expired,http://fhir.hie.moh.gov.my/CodeSystem/discharge-disposition-my-core,CodeSystemDischargeDispositionMyCore
+06,Admitted,Admitted,http://fhir.hie.moh.gov.my/CodeSystem/discharge-disposition-my-core,CodeSystemDischargeDispositionMyCore
+07,Allowed Leave Of Absence (LOA),Allowed Leave Of Absence (LOA),http://fhir.hie.moh.gov.my/CodeSystem/discharge-disposition-my-core,CodeSystemDischargeDispositionMyCore

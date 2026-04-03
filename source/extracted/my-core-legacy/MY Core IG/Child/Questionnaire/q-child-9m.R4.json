@@ -1,0 +1,199 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-child-9m",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-child-9m",
+  "version": "1.0.0",
+  "name": "QChild9m",
+  "title": "Lawatan Umur 9 Bulan",
+  "status": "active",
+  "date": "2023-08-30T06:43:50.5035753+00:00",
+  "item": [
+    {
+      "linkId": "child-9m.1",
+      "text": "Tarikh lawatan",
+      "type": "dateTime"
+    },
+    {
+      "linkId": "child-9m.2",
+      "text": "Umur semasa lawatan",
+      "type": "quantity",
+      "initial": [
+        {
+          "valueQuantity": {
+            "unit": "day",
+            "system": "http://unitsofmeasure.org",
+            "code": "d"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "child-9m.3",
+      "text": "Aktiviti",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "child-9m.3.1",
+          "text": "Berat (kg)",
+          "type": "quantity",
+          "item": [
+            {
+              "linkId": "child-9m.3.1.1",
+              "text": "Catatan (Normal/KBB/KBBT/MP)",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-9m.3.2",
+          "text": "Panjang (cm)",
+          "type": "quantity",
+          "item": [
+            {
+              "linkId": "child-9m.3.2.1",
+              "text": "Catatan (Normal/B/BT/ME)",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-9m.3.3",
+          "text": "BMI (kg/m2)",
+          "type": "quantity",
+          "item": [
+            {
+              "linkId": "child-9m.3.3.1",
+              "text": "Catatan (Normal/MP/B/BT)",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-9m.3.4",
+          "text": "Lilitan kepala (cm)",
+          "type": "quantity",
+          "item": [
+            {
+              "linkId": "child-9m.3.4.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-9m.3.5",
+          "text": "Pemeriksaan fizikal (termasuk mulut)",
+          "type": "string",
+          "item": [
+            {
+              "linkId": "child-9m.3.5.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-9m.3.6",
+          "text": "Imunisasi (Rujuk Jadual dan Rekod Imunisasi)",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "linkId": "child-9m.4",
+      "text": "Perkara yang membimbangkan ibubapa/penjaga",
+      "type": "string"
+    },
+    {
+      "linkId": "child-9m.5",
+      "text": "Senarai Semak Perkembangan (sila semak terlebih dahulu apa yang ibubapa/penjaga tulis): Tandakan pada ruangan yang berkenaan",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "child-9m.5.1",
+          "text": "Bayi duduk tanpa bantuan.",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-9m.5.2",
+          "text": "Bayi memindahkan objek dari satu tangan ke tangan yang lain.",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-9m.5.3",
+          "text": "Bayi meniru sebutan...ma-ma…ba-ba… da-da",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-9m.5.4",
+          "text": "Menentukan arah datangnya bunyi dengan tepat?",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "child-9m.6",
+      "text": "Jika ada 'tidak' pada senarai semak perkembangan, rujuk Pegawai Perubatan/FMS/Pakar Pediatrik dan isikan maklumat di bawah.",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "child-9m.6.1",
+          "text": "Tarikh Temujanji",
+          "type": "dateTime"
+        },
+        {
+          "linkId": "child-9m.6.2",
+          "text": "Tempat Rujukan",
+          "type": "string"
+        },
+        {
+          "linkId": "child-9m.6.3",
+          "text": "Tujuan Rujukan",
+          "type": "string"
+        },
+        {
+          "linkId": "child-9m.6.4",
+          "text": "Jika ada 'tidak' pada senarai semak, Jalankan penilaian perkembangan mengguna Carta Denver",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-9m.6.5",
+          "text": "Jika ada 'tidak' pada senarai semak, Lakukan stimulasi awal",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "child-9m.7",
+      "text": "Bimbingan Awal. Tandakan selepas nasihat diberi. (Rujuk Panduan Ibu bapa/Penjaga)",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "child-9m.7.1",
+          "text": "Pemakanan \na. Perkenalkan makanan jejari kepada anak.",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-9m.7.2",
+          "text": "Pergigian. \na. Dapatkan pemeriksaan gigi sekiranya belum diperiksa. \n.b Berus gigi dan gusi anak menggunakan berus gigi yang lembut.",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-9m.7.3",
+          "text": "Keselamatan dan Pencegahan Kecederaan. \na. Jangan guna ‘baby walker’ kerana ia boleh menyebabkan kecederaan dalam dan luaran yang teruk. \nb. Jangan beri bayi anda kacang atau alat permainan yang kecil yang boleh menyebabkannya tercekik.",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-9m.7.4",
+          "text": "Perkembangan. \na. Kerap membaca bahan bacaan bergambar kepada anak. \nb. Sering berbual dengan anak. \nc.Tiada 'screen time' untuk anak.",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "child-9m.remark",
+      "text": "Catatan / Rumusan",
+      "type": "text"
+    }
+  ]
+}

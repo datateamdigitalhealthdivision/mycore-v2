@@ -1,0 +1,28 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "DocumentManifest-my-core",
+  "url": "http://fhir.hie.moh.gov.my/StructureDefinition/DocumentManifest-my-core",
+  "name": "DocumentManifestMyCore",
+  "title": "DocumentManifest (MY Core)",
+  "status": "active",
+  "date": "2023-01-12T01:47:54.9157463+00:00",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "DocumentManifest",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/DocumentManifest",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "DocumentManifest.type",
+        "path": "DocumentManifest.type",
+        "min": 1,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/sub-record-type-my-core"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-dental-code-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemDentalCode (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/dental-code-my-core</tt><p>Dental code</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/dental-code-my-core",
+  "name": "CodeSystemDentalCodeMyCore",
+  "title": "CodeSystemDentalCode (MY Core)",
+  "status": "active",
+  "date": "2023-01-12T21:13:03.0089063+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Dental code",
+  "compositional": false,
+  "content": "complete",
+  "count": 17,
+  "concept": [
+    {
+      "code": "0",
+      "display": "Sound",
+      "definition": "Sound"
+    },
+    {
+      "code": "1",
+      "display": "Caries (D/d)",
+      "definition": "Caries (D/d)"
+    },
+    {
+      "code": "2",
+      "display": "Missing due to caries (M)",
+      "definition": "Missing due to caries (M)"
+    },
+    {
+      "code": "3",
+      "display": "Filled due to caries (F/f)",
+      "definition": "Filled due to caries (F/f)"
+    },
+    {
+      "code": "4",
+      "display": "For extraction due to caries (X/x)",
+      "definition": "For extraction due to caries (X/x)"
+    },
+    {
+      "code": "5",
+      "display": "Impacted tooth",
+      "definition": "Impacted tooth"
+    },
+    {
+      "code": "6",
+      "display": "Unerupted tooth",
+      "definition": "Unerupted tooth"
+    },
+    {
+      "code": "2a",
+      "display": "Missing tooth due to reason other than caries (M)",
+      "definition": "Missing tooth due to reason other than caries (M)"
+    },
+    {
+      "code": "3a",
+      "display": "Filled for reasons other than caries (Fa/fa)",
+      "definition": "Filled for reasons other than caries (Fa/fa)"
+    },
+    {
+      "code": "4a",
+      "display": "For extraction for reasons otner than caries (Xa/xa)",
+      "definition": "For extraction for reasons otner than caries (Xa/xa)"
+    },
+    {
+      "code": "C",
+      "display": "Crown",
+      "definition": "Crown"
+    },
+    {
+      "code": "P",
+      "display": "Pontic",
+      "definition": "Pontic"
+    },
+    {
+      "code": "SN",
+      "display": "Supernumerary tooth",
+      "definition": "Supernumerary tooth"
+    },
+    {
+      "code": "SM",
+      "display": "Space maintainer",
+      "definition": "Space maintainer"
+    },
+    {
+      "code": "L",
+      "display": "Loose tooth",
+      "definition": "Loose tooth"
+    },
+    {
+      "code": "TSl",
+      "display": "Tooth surface loss",
+      "definition": "Tooth surface loss"
+    },
+    {
+      "code": "EDD",
+      "display": "Enamel defect/ dentin/ Molar incisor hypermineralization (MIH)",
+      "definition": "Enamel defect/ dentin/ Molar incisor hypermineralization (MIH)"
+    }
+  ]
+}

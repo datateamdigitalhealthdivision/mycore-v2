@@ -1,0 +1,8 @@
+code,display,definition,system_url,system_name
+00,NEONATAL HEARING HIGH RISK 1ST SCREENING AOE,NEONATAL HEARING HIGH RISK 1ST SCREENING AOE,http://fhir.hie.moh.gov.my/CodeSystem/audiology-neonatal-hearing-screening-my-core,CodeSystemAudiologyNeonatalHearingScreeningMyCore
+01,NEONATAL HEARING HIGH RISK 1ST SCREENING AABR,NEONATAL HEARING HIGH RISK 1ST SCREENING AABR,http://fhir.hie.moh.gov.my/CodeSystem/audiology-neonatal-hearing-screening-my-core,CodeSystemAudiologyNeonatalHearingScreeningMyCore
+02,NEONATAL HEARING NON- HIGH RISK 1ST SCREENING AOE,NEONATAL HEARING NON- HIGH RISK 1ST SCREENING AOE,http://fhir.hie.moh.gov.my/CodeSystem/audiology-neonatal-hearing-screening-my-core,CodeSystemAudiologyNeonatalHearingScreeningMyCore
+03,NEONATAL HEARING NON- HIGH RISK 1ST SCREENING AABR,NEONATAL HEARING NON- HIGH RISK 1ST SCREENING AABR,http://fhir.hie.moh.gov.my/CodeSystem/audiology-neonatal-hearing-screening-my-core,CodeSystemAudiologyNeonatalHearingScreeningMyCore
+04,DIAGNOSTIC ASSESSMENT ABR,DIAGNOSTIC ASSESSMENT ABR,http://fhir.hie.moh.gov.my/CodeSystem/audiology-neonatal-hearing-screening-my-core,CodeSystemAudiologyNeonatalHearingScreeningMyCore
+05,DIAGNOSTIC ASSESSMENT ASSR,DIAGNOSTIC ASSESSMENT ASSR,http://fhir.hie.moh.gov.my/CodeSystem/audiology-neonatal-hearing-screening-my-core,CodeSystemAudiologyNeonatalHearingScreeningMyCore
+06,DIAGNOSTIC ASSESSMENT OTHERS,DIAGNOSTIC ASSESSMENT OTHERS,http://fhir.hie.moh.gov.my/CodeSystem/audiology-neonatal-hearing-screening-my-core,CodeSystemAudiologyNeonatalHearingScreeningMyCore

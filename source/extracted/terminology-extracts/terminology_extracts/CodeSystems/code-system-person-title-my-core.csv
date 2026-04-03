@@ -1,0 +1,74 @@
+code,display,definition,system_url,system_name
+0,No Information,No Information,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C001,Tun,Tun,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C002,Tan Sri,Tan Sri,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C003,Tan Sri Dato',Tan Sri Dato',http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C004,Tan Sri Dato' Dr,Tan Sri Dato' Dr,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C005,Tan Sri Dato' Ir,Tan Sri Dato' Ir,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C006,Tan Sri Dato Seri,Tan Sri Dato Seri,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C007,Tan Sri Datuk,Tan Sri Datuk,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C008,Tan Sri Datuk Dr,Tan Sri Datuk Dr,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C009,Tan Sri Datuk Professor,Tan Sri Datuk Professor,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C010,Tan Sri Datuk Professor Dr,Tan Sri Datuk Professor Dr,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C011,Tan Sri Dr,Tan Sri Dr,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C012,Tan Sri General,Tan Sri General,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C013,Tan Sri Professor,Tan Sri Professor,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C014,Dato',Dato',http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C015,Dato' Dr,Dato' Dr,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C016,Dato' Ir,Dato' Ir,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C017,Dato' Ir Dr,Dato' Ir Dr,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C018,Dato' Paduka Dr,Dato' Paduka Dr,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C019,Dato' Professor Madya Dr,Dato' Professor Madya Dr,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C020,Dato' Senara Muda,Dato' Senara Muda,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C021,Dato' Seri,Dato' Seri,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C022,Dato' Sri,Dato' Sri,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C024,Datuk,Datuk,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C025,Datuk Amar,Datuk Amar,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C026,Datuk Bentara Luar,Datuk Bentara Luar,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C027,Datuk Bentara Raja,Datuk Bentara Raja,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C028,Datuk Dr,Datuk Dr,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C029,Datuk Ir,Datuk Ir,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C030,Datuk Patinggi,Datuk Patinggi,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C031,Datuk Professor,Datuk Professor,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C032,Datuk Professor Dr,Datuk Professor Dr,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C033,Datuk Setia,Datuk Setia,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C034,Datuk Setia Wangsa,Datuk Setia Wangsa,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C035,Datuk Sri,Datuk Sri,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C036,Datuk Sri Amar DiRaja,Datuk Sri Amar DiRaja,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C037,Datuk Sri Dr,Datuk Sri Dr,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C038,Datuk Wira,Datuk Wira,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C039,Datuk Wira Jaya,Datuk Wira Jaya,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C040,Doktor,Doktor,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C041,Ir,Ir,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C042,Ir Dr,Ir Dr,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C047,Major,Major,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C048,Professor,Professor,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C049,Professor DiRaja,Professor DiRaja,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C050,Professor Dr,Professor Dr,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C051,Professor Madya,Professor Madya,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C052,Professor Madya Dr,Professor Madya Dr,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+C053,Datu,Datu,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+L001,Encik,Encik,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+L002,Tuan,Tuan,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+L003,Haji,Haji,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+P001,To' Puan,To' Puan,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+P002,Toh Puan,Toh Puan,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+P003,Puan Sri,Puan Sri,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+P004,Puan Sri Datin,Puan Sri Datin,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+P005,Puan Sri Datin Professor,Puan Sri Datin Professor,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+P006,Puan Sri Dr,Puan Sri Dr,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+P007,Puan Sri Utama,Puan Sri Utama,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+P008,Datin,Datin,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+P009,Datin Amar,Datin Amar,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+P010,Datin Dr,Datin Dr,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+P011,Datin Paduka,Datin Paduka,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+P012,Datin Patinggi,Datin Patinggi,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+P013,Datin Professor,Datin Professor,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+P014,Datin Professor Dr,Datin Professor Dr,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+P015,Datin Setia,Datin Setia,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+P016,Datin Sri,Datin Sri,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+P017,Datin Sri Cempaka,Datin Sri Cempaka,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+P018,Datin Sri Dr,Datin Sri Dr,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+P019,Cik,Cik,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+P020,Puan,Puan,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore
+P021,Hajjah,Hajjah,http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core,CodeSystemPersonTitleMyCore

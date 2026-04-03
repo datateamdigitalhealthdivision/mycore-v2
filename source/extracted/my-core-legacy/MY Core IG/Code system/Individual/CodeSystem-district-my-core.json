@@ -1,0 +1,2400 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-district-my-core",
+  "meta": {
+    "versionId": "04",
+    "lastUpdated": "2022-03-22T05:27:34.404+00:00"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemDistrict (My Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/district-my-core</tt><p>Malaysia District List</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/district-my-core",
+  "version": "1.0.0",
+  "name": "CodeSystemDistrictMyCore",
+  "title": "CodeSystemDistrict (My Core)",
+  "status": "active",
+  "date": "2023-03-08T08:22:01.7613407+00:00",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "Malaysia District List",
+  "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/district-my-core",
+  "hierarchyMeaning": "grouped-by",
+  "compositional": false,
+  "content": "complete",
+  "count": 157,
+  "property": [
+    {
+      "code": "stateCode",
+      "type": "code"
+    },
+    {
+      "code": "stateDisplay",
+      "type": "string"
+    }
+  ],
+  "concept": [
+    {
+      "code": "0",
+      "display": "No Information",
+      "definition": "No Information",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "00"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "No Information"
+        }
+      ]
+    },
+    {
+      "code": "0101",
+      "display": "Batu Pahat",
+      "definition": "Batu Pahat",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "01"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Johor"
+        }
+      ]
+    },
+    {
+      "code": "0102",
+      "display": "Johor Bahru",
+      "definition": "Johor Bahru",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "01"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Johor"
+        }
+      ]
+    },
+    {
+      "code": "0103",
+      "display": "Kluang",
+      "definition": "Kluang",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "01"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Johor"
+        }
+      ]
+    },
+    {
+      "code": "0104",
+      "display": "Kota Tinggi",
+      "definition": "Kota Tinggi",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "01"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Johor"
+        }
+      ]
+    },
+    {
+      "code": "0105",
+      "display": "Mersing",
+      "definition": "Mersing",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "01"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Johor"
+        }
+      ]
+    },
+    {
+      "code": "0106",
+      "display": "Muar",
+      "definition": "Muar",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "01"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Johor"
+        }
+      ]
+    },
+    {
+      "code": "0107",
+      "display": "Pontian",
+      "definition": "Pontian",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "01"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Johor"
+        }
+      ]
+    },
+    {
+      "code": "0108",
+      "display": "Segamat",
+      "definition": "Segamat",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "01"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Johor"
+        }
+      ]
+    },
+    {
+      "code": "0121",
+      "display": "Kulai",
+      "definition": "Kulai",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "01"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Johor"
+        }
+      ]
+    },
+    {
+      "code": "0122",
+      "display": "Tangkak",
+      "definition": "Tangkak",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "01"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Johor"
+        }
+      ]
+    },
+    {
+      "code": "0201",
+      "display": "Baling",
+      "definition": "Baling",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "02"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Kedah"
+        }
+      ]
+    },
+    {
+      "code": "0202",
+      "display": "Bandar Baharu",
+      "definition": "Bandar Baharu",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "02"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Kedah"
+        }
+      ]
+    },
+    {
+      "code": "0203",
+      "display": "Kota Setar",
+      "definition": "Kota Setar",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "02"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Kedah"
+        }
+      ]
+    },
+    {
+      "code": "0204",
+      "display": "Kuala Muda",
+      "definition": "Kuala Muda",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "02"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Kedah"
+        }
+      ]
+    },
+    {
+      "code": "0205",
+      "display": "Kubang Pasu",
+      "definition": "Kubang Pasu",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "02"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Kedah"
+        }
+      ]
+    },
+    {
+      "code": "0206",
+      "display": "Kulim",
+      "definition": "Kulim",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "02"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Kedah"
+        }
+      ]
+    },
+    {
+      "code": "0207",
+      "display": "Langkawi",
+      "definition": "Langkawi",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "02"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Kedah"
+        }
+      ]
+    },
+    {
+      "code": "0208",
+      "display": "Padang Terap",
+      "definition": "Padang Terap",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "02"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Kedah"
+        }
+      ]
+    },
+    {
+      "code": "0209",
+      "display": "Sik",
+      "definition": "Sik",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "02"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Kedah"
+        }
+      ]
+    },
+    {
+      "code": "0210",
+      "display": "Yan",
+      "definition": "Yan",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "02"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Kedah"
+        }
+      ]
+    },
+    {
+      "code": "0211",
+      "display": "Pendang",
+      "definition": "Pendang",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "02"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Kedah"
+        }
+      ]
+    },
+    {
+      "code": "0212",
+      "display": "Pokok Sena",
+      "definition": "Pokok Sena",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "02"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Kedah"
+        }
+      ]
+    },
+    {
+      "code": "0301",
+      "display": "Bachok",
+      "definition": "Bachok",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "03"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Kelantan"
+        }
+      ]
+    },
+    {
+      "code": "0302",
+      "display": "Kota Bharu",
+      "definition": "Kota Bharu",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "03"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Kelantan"
+        }
+      ]
+    },
+    {
+      "code": "0303",
+      "display": "Machang",
+      "definition": "Machang",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "03"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Kelantan"
+        }
+      ]
+    },
+    {
+      "code": "0304",
+      "display": "Pasir Mas",
+      "definition": "Pasir Mas",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "03"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Kelantan"
+        }
+      ]
+    },
+    {
+      "code": "0305",
+      "display": "Pasir Puteh",
+      "definition": "Pasir Puteh",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "03"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Kelantan"
+        }
+      ]
+    },
+    {
+      "code": "0306",
+      "display": "Tanah Merah",
+      "definition": "Tanah Merah",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "03"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Kelantan"
+        }
+      ]
+    },
+    {
+      "code": "0307",
+      "display": "Tumpat",
+      "definition": "Tumpat",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "03"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Kelantan"
+        }
+      ]
+    },
+    {
+      "code": "0308",
+      "display": "Gua Musang",
+      "definition": "Gua Musang",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "03"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Kelantan"
+        }
+      ]
+    },
+    {
+      "code": "0309",
+      "display": "Kuala Krai",
+      "definition": "Kuala Krai",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "03"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Kelantan"
+        }
+      ]
+    },
+    {
+      "code": "0310",
+      "display": "Jeli",
+      "definition": "Jeli",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "03"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Kelantan"
+        }
+      ]
+    },
+    {
+      "code": "0401",
+      "display": "Alor Gajah",
+      "definition": "Alor Gajah",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "04"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Melaka"
+        }
+      ]
+    },
+    {
+      "code": "0402",
+      "display": "Jasin",
+      "definition": "Jasin",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "04"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Melaka"
+        }
+      ]
+    },
+    {
+      "code": "0403",
+      "display": "Melaka Tengah",
+      "definition": "Melaka Tengah",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "04"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Melaka"
+        }
+      ]
+    },
+    {
+      "code": "0501",
+      "display": "Jelebu",
+      "definition": "Jelebu",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "05"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Negeri Sembilan"
+        }
+      ]
+    },
+    {
+      "code": "0502",
+      "display": "Kuala Pilah",
+      "definition": "Kuala Pilah",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "05"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Negeri Sembilan"
+        }
+      ]
+    },
+    {
+      "code": "0503",
+      "display": "Port Dickson",
+      "definition": "Port Dickson",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "05"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Negeri Sembilan"
+        }
+      ]
+    },
+    {
+      "code": "0504",
+      "display": "Rembau",
+      "definition": "Rembau",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "05"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Negeri Sembilan"
+        }
+      ]
+    },
+    {
+      "code": "0505",
+      "display": "Seremban",
+      "definition": "Seremban",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "05"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Negeri Sembilan"
+        }
+      ]
+    },
+    {
+      "code": "0506",
+      "display": "Tampin",
+      "definition": "Tampin",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "05"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Negeri Sembilan"
+        }
+      ]
+    },
+    {
+      "code": "0507",
+      "display": "Jempol",
+      "definition": "Jempol",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "05"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Negeri Sembilan"
+        }
+      ]
+    },
+    {
+      "code": "0601",
+      "display": "Bentong",
+      "definition": "Bentong",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "06"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Pahang"
+        }
+      ]
+    },
+    {
+      "code": "0602",
+      "display": "Cameron Highlands",
+      "definition": "Cameron Highlands",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "06"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Pahang"
+        }
+      ]
+    },
+    {
+      "code": "0603",
+      "display": "Jerantut",
+      "definition": "Jerantut",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "06"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Pahang"
+        }
+      ]
+    },
+    {
+      "code": "0604",
+      "display": "Kuantan",
+      "definition": "Kuantan",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "06"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Pahang"
+        }
+      ]
+    },
+    {
+      "code": "0605",
+      "display": "Lipis",
+      "definition": "Lipis",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "06"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Pahang"
+        }
+      ]
+    },
+    {
+      "code": "0606",
+      "display": "Pekan",
+      "definition": "Pekan",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "06"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Pahang"
+        }
+      ]
+    },
+    {
+      "code": "0607",
+      "display": "Raub",
+      "definition": "Raub",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "06"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Pahang"
+        }
+      ]
+    },
+    {
+      "code": "0608",
+      "display": "Temerloh",
+      "definition": "Temerloh",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "06"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Pahang"
+        }
+      ]
+    },
+    {
+      "code": "0609",
+      "display": "Rompin",
+      "definition": "Rompin",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "06"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Pahang"
+        }
+      ]
+    },
+    {
+      "code": "0610",
+      "display": "Maran",
+      "definition": "Maran",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "06"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Pahang"
+        }
+      ]
+    },
+    {
+      "code": "0611",
+      "display": "Bera",
+      "definition": "Bera",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "06"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Pahang"
+        }
+      ]
+    },
+    {
+      "code": "0701",
+      "display": "Seberang Perai Tengah",
+      "definition": "Seberang Perai Tengah",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "07"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Pulau Pinang"
+        }
+      ]
+    },
+    {
+      "code": "0702",
+      "display": "Seberang Perai Utara",
+      "definition": "Seberang Perai Utara",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "07"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Pulau Pinang"
+        }
+      ]
+    },
+    {
+      "code": "0703",
+      "display": "Seberang Perai Selatan",
+      "definition": "Seberang Perai Selatan",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "07"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Pulau Pinang"
+        }
+      ]
+    },
+    {
+      "code": "0704",
+      "display": "Timur Laut",
+      "definition": "Timur Laut",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "07"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Pulau Pinang"
+        }
+      ]
+    },
+    {
+      "code": "0705",
+      "display": "Barat Daya",
+      "definition": "Barat Daya",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "07"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Pulau Pinang"
+        }
+      ]
+    },
+    {
+      "code": "0801",
+      "display": "Batang Padang",
+      "definition": "Batang Padang",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Perak"
+        }
+      ]
+    },
+    {
+      "code": "0802",
+      "display": "Manjung",
+      "definition": "Manjung",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Perak"
+        }
+      ]
+    },
+    {
+      "code": "0803",
+      "display": "Kinta",
+      "definition": "Kinta",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Perak"
+        }
+      ]
+    },
+    {
+      "code": "0804",
+      "display": "Kerian",
+      "definition": "Kerian",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Perak"
+        }
+      ]
+    },
+    {
+      "code": "0805",
+      "display": "Kuala Kangsar",
+      "definition": "Kuala Kangsar",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Perak"
+        }
+      ]
+    },
+    {
+      "code": "0806",
+      "display": "Larut & Matang",
+      "definition": "Larut & Matang",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Perak"
+        }
+      ]
+    },
+    {
+      "code": "0807",
+      "display": "Hilir Perak",
+      "definition": "Hilir Perak",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Perak"
+        }
+      ]
+    },
+    {
+      "code": "0808",
+      "display": "Ulu Perak",
+      "definition": "Ulu Perak",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Perak"
+        }
+      ]
+    },
+    {
+      "code": "0809",
+      "display": "Perak Tengah",
+      "definition": "Perak Tengah",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Perak"
+        }
+      ]
+    },
+    {
+      "code": "0810",
+      "display": "Kampar",
+      "definition": "Kampar",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Perak"
+        }
+      ]
+    },
+    {
+      "code": "0811",
+      "display": "Muallim",
+      "definition": "Muallim",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Perak"
+        }
+      ]
+    },
+    {
+      "code": "0901",
+      "display": "Perlis",
+      "definition": "Perlis",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "09"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Perlis"
+        }
+      ]
+    },
+    {
+      "code": "1001",
+      "display": "Gombak",
+      "definition": "Gombak",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "10"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Selangor"
+        }
+      ]
+    },
+    {
+      "code": "1002",
+      "display": "Klang",
+      "definition": "Klang",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "10"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Selangor"
+        }
+      ]
+    },
+    {
+      "code": "1003",
+      "display": "Kuala Langat",
+      "definition": "Kuala Langat",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "10"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Selangor"
+        }
+      ]
+    },
+    {
+      "code": "1004",
+      "display": "Kuala Selangor",
+      "definition": "Kuala Selangor",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "10"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Selangor"
+        }
+      ]
+    },
+    {
+      "code": "1005",
+      "display": "Petaling",
+      "definition": "Petaling",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "10"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Selangor"
+        }
+      ]
+    },
+    {
+      "code": "1006",
+      "display": "Sabak Bernam",
+      "definition": "Sabak Bernam",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "10"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Selangor"
+        }
+      ]
+    },
+    {
+      "code": "1007",
+      "display": "Sepang",
+      "definition": "Sepang",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "10"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Selangor"
+        }
+      ]
+    },
+    {
+      "code": "1008",
+      "display": "Ulu Langat",
+      "definition": "Ulu Langat",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "10"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Selangor"
+        }
+      ]
+    },
+    {
+      "code": "1009",
+      "display": "Ulu Selangor",
+      "definition": "Ulu Selangor",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "10"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Selangor"
+        }
+      ]
+    },
+    {
+      "code": "1101",
+      "display": "Besut",
+      "definition": "Besut",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "11"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Terengganu"
+        }
+      ]
+    },
+    {
+      "code": "1102",
+      "display": "Dungun",
+      "definition": "Dungun",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "11"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Terengganu"
+        }
+      ]
+    },
+    {
+      "code": "1103",
+      "display": "Kemaman",
+      "definition": "Kemaman",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "11"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Terengganu"
+        }
+      ]
+    },
+    {
+      "code": "1104",
+      "display": "Kuala Terengganu",
+      "definition": "Kuala Terengganu",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "11"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Terengganu"
+        }
+      ]
+    },
+    {
+      "code": "1105",
+      "display": "Marang",
+      "definition": "Marang",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "11"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Terengganu"
+        }
+      ]
+    },
+    {
+      "code": "1106",
+      "display": "Hulu Terengganu",
+      "definition": "Hulu Terengganu",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "11"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Terengganu"
+        }
+      ]
+    },
+    {
+      "code": "1107",
+      "display": "Setiu",
+      "definition": "Setiu",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "11"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Terengganu"
+        }
+      ]
+    },
+    {
+      "code": "1108",
+      "display": "Kuala Nerus",
+      "definition": "Kuala Nerus",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "11"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Terengganu"
+        }
+      ]
+    },
+    {
+      "code": "1201",
+      "display": "Tawau",
+      "definition": "Tawau",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sabah"
+        }
+      ]
+    },
+    {
+      "code": "1202",
+      "display": "Lahad Datu",
+      "definition": "Lahad Datu",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sabah"
+        }
+      ]
+    },
+    {
+      "code": "1203",
+      "display": "Semporna",
+      "definition": "Semporna",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sabah"
+        }
+      ]
+    },
+    {
+      "code": "1204",
+      "display": "Sandakan",
+      "definition": "Sandakan",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sabah"
+        }
+      ]
+    },
+    {
+      "code": "1205",
+      "display": "Kinabatangan",
+      "definition": "Kinabatangan",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sabah"
+        }
+      ]
+    },
+    {
+      "code": "1206",
+      "display": "Beluran",
+      "definition": "Beluran",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sabah"
+        }
+      ]
+    },
+    {
+      "code": "1207",
+      "display": "Kota Kinabalu",
+      "definition": "Kota Kinabalu",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sabah"
+        }
+      ]
+    },
+    {
+      "code": "1208",
+      "display": "Ranau",
+      "definition": "Ranau",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sabah"
+        }
+      ]
+    },
+    {
+      "code": "1209",
+      "display": "Kota Belud",
+      "definition": "Kota Belud",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sabah"
+        }
+      ]
+    },
+    {
+      "code": "1210",
+      "display": "Tuaran",
+      "definition": "Tuaran",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sabah"
+        }
+      ]
+    },
+    {
+      "code": "1211",
+      "display": "Penampang",
+      "definition": "Penampang",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sabah"
+        }
+      ]
+    },
+    {
+      "code": "1212",
+      "display": "Papar",
+      "definition": "Papar",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sabah"
+        }
+      ]
+    },
+    {
+      "code": "1213",
+      "display": "Kudat",
+      "definition": "Kudat",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sabah"
+        }
+      ]
+    },
+    {
+      "code": "1214",
+      "display": "Kota Marudu",
+      "definition": "Kota Marudu",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sabah"
+        }
+      ]
+    },
+    {
+      "code": "1215",
+      "display": "Pitas",
+      "definition": "Pitas",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sabah"
+        }
+      ]
+    },
+    {
+      "code": "1216",
+      "display": "Beaufort",
+      "definition": "Beaufort",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sabah"
+        }
+      ]
+    },
+    {
+      "code": "1217",
+      "display": "Kuala Penyu",
+      "definition": "Kuala Penyu",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sabah"
+        }
+      ]
+    },
+    {
+      "code": "1218",
+      "display": "Sipitang",
+      "definition": "Sipitang",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sabah"
+        }
+      ]
+    },
+    {
+      "code": "1219",
+      "display": "Tenom",
+      "definition": "Tenom",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sabah"
+        }
+      ]
+    },
+    {
+      "code": "1220",
+      "display": "Nabawan",
+      "definition": "Nabawan",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sabah"
+        }
+      ]
+    },
+    {
+      "code": "1221",
+      "display": "Keningau",
+      "definition": "Keningau",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sabah"
+        }
+      ]
+    },
+    {
+      "code": "1222",
+      "display": "Tambunan",
+      "definition": "Tambunan",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sabah"
+        }
+      ]
+    },
+    {
+      "code": "1223",
+      "display": "Kunak",
+      "definition": "Kunak",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sabah"
+        }
+      ]
+    },
+    {
+      "code": "1224",
+      "display": "Tongod",
+      "definition": "Tongod",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sabah"
+        }
+      ]
+    },
+    {
+      "code": "1225",
+      "display": "Putatan",
+      "definition": "Putatan",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sabah"
+        }
+      ]
+    },
+    {
+      "code": "1226",
+      "display": "Telupid",
+      "definition": "Telupid",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sabah"
+        }
+      ]
+    },
+    {
+      "code": "1301",
+      "display": "Kuching",
+      "definition": "Kuching",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1302",
+      "display": "Bau",
+      "definition": "Bau",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1303",
+      "display": "Lundu",
+      "definition": "Lundu",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1304",
+      "display": "Samarahan",
+      "definition": "Samarahan",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1305",
+      "display": "Serian",
+      "definition": "Serian",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1306",
+      "display": "Simunjan",
+      "definition": "Simunjan",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1307",
+      "display": "Sri Aman",
+      "definition": "Sri Aman",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1308",
+      "display": "Lubok Antu",
+      "definition": "Lubok Antu",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1309",
+      "display": "Betong",
+      "definition": "Betong",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1310",
+      "display": "Saratok",
+      "definition": "Saratok",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1311",
+      "display": "Sarikei",
+      "definition": "Sarikei",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1312",
+      "display": "Maradong",
+      "definition": "Maradong",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1313",
+      "display": "Daro",
+      "definition": "Daro",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1314",
+      "display": "Julau",
+      "definition": "Julau",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1315",
+      "display": "Sibu",
+      "definition": "Sibu",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1316",
+      "display": "Dalat",
+      "definition": "Dalat",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1317",
+      "display": "Mukah",
+      "definition": "Mukah",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1318",
+      "display": "Kanowit",
+      "definition": "Kanowit",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1319",
+      "display": "Bintulu",
+      "definition": "Bintulu",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1320",
+      "display": "Tatau",
+      "definition": "Tatau",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1321",
+      "display": "Kapit",
+      "definition": "Kapit",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1322",
+      "display": "Song",
+      "definition": "Song",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1323",
+      "display": "Belaga",
+      "definition": "Belaga",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1324",
+      "display": "Miri",
+      "definition": "Miri",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1325",
+      "display": "Marudi",
+      "definition": "Marudi",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1326",
+      "display": "Limbang",
+      "definition": "Limbang",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1327",
+      "display": "Lawas",
+      "definition": "Lawas",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1328",
+      "display": "Matu",
+      "definition": "Matu",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1329",
+      "display": "Asajaya",
+      "definition": "Asajaya",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1330",
+      "display": "Pakan",
+      "definition": "Pakan",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1331",
+      "display": "Selangau",
+      "definition": "Selangau",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1332",
+      "display": "Tebedu",
+      "definition": "Tebedu",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1333",
+      "display": "Pusa",
+      "definition": "Pusa",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1334",
+      "display": "Kabong",
+      "definition": "Kabong",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1335",
+      "display": "Tanjong Manis",
+      "definition": "Tanjong Manis",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1336",
+      "display": "Sebauh",
+      "definition": "Sebauh",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1337",
+      "display": "Bukit Mabong",
+      "definition": "Bukit Mabong",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1338",
+      "display": "Subis",
+      "definition": "Subis",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1340",
+      "display": "Telang Usan",
+      "definition": "Telang Usan",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "Sarawak"
+        }
+      ]
+    },
+    {
+      "code": "1401",
+      "display": "W.P. Kuala Lumpur",
+      "definition": "W.P. Kuala Lumpur",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "14"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "W.P. Kuala Lumpur"
+        }
+      ]
+    },
+    {
+      "code": "1501",
+      "display": "W.P. Labuan",
+      "definition": "W.P. Labuan",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "15"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "W.P. Labuan"
+        }
+      ]
+    },
+    {
+      "code": "1601",
+      "display": "W.P. Putrajaya",
+      "definition": "W.P. Putrajaya",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "16"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "W.P. Putrajaya"
+        }
+      ]
+    },
+    {
+      "code": "KOD_NEGERI+DAERAH",
+      "display": "NAMA_DAERAH",
+      "definition": "NAMA_DAERAH",
+      "property": [
+        {
+          "code": "stateCode",
+          "valueCode": "KOD_NEGERI"
+        },
+        {
+          "code": "stateDisplay",
+          "valueString": "NAMA_NEGERI"
+        }
+      ]
+    }
+  ]
+}

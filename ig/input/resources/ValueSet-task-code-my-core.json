@@ -1,0 +1,24 @@
+{
+  "resourceType": "ValueSet",
+  "id": "task-code-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetTaskCodeMyCore (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/task-code-my-core</tt><p>Type of task</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/task-code-my-core",
+  "name": "ValueSetTaskCodeMyCore",
+  "title": "ValueSetTaskCode (MY Core)",
+  "status": "active",
+  "date": "2023-03-30T05:18:54.6783317+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "description": "Type of task",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/task-code-my-core"
+      }
+    ]
+  },
+  "version": "2.0.0",
+  "experimental": false
+}

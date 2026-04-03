@@ -1,0 +1,46 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "monthly-household-income-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/monthly-household-income-my-core",
+  "version": "2.0.0",
+  "name": "ExtensionMonthlyHouseholdIncomeMyCore",
+  "title": "ExtensionMonthlyHouseHoldIncome (MY Core)",
+  "status": "active",
+  "date": "2023-02-23T04:59:30.4857498+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Patient"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/monthly-household-income-my-core"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/monthly-household-income-my-core"
+        }
+      }
+    ]
+  },
+  "experimental": false
+}

@@ -1,0 +1,16 @@
+code,display,definition,system_url,system_name
+1,Agriculture and Fisheries,Agriculture and Fisheries,http://fhir.hie.moh.gov.my/CodeSystem/occupation-sector-my-core,CodeSystemOccupationSectorMyCore
+2,Art and Talent,Art and Talent,http://fhir.hie.moh.gov.my/CodeSystem/occupation-sector-my-core,CodeSystemOccupationSectorMyCore
+3,Information Technology,Information Technology,http://fhir.hie.moh.gov.my/CodeSystem/occupation-sector-my-core,CodeSystemOccupationSectorMyCore
+4,Legal,Legal,http://fhir.hie.moh.gov.my/CodeSystem/occupation-sector-my-core,CodeSystemOccupationSectorMyCore
+5,Manufacturing,Manufacturing,http://fhir.hie.moh.gov.my/CodeSystem/occupation-sector-my-core,CodeSystemOccupationSectorMyCore
+6,Mining,Mining,http://fhir.hie.moh.gov.my/CodeSystem/occupation-sector-my-core,CodeSystemOccupationSectorMyCore
+7,Oil and Gas,Oil and Gas,http://fhir.hie.moh.gov.my/CodeSystem/occupation-sector-my-core,CodeSystemOccupationSectorMyCore
+8,Service,Service,http://fhir.hie.moh.gov.my/CodeSystem/occupation-sector-my-core,CodeSystemOccupationSectorMyCore
+9,Telecommunication,Telecommunication,http://fhir.hie.moh.gov.my/CodeSystem/occupation-sector-my-core,CodeSystemOccupationSectorMyCore
+10,Transportation,Transportation,http://fhir.hie.moh.gov.my/CodeSystem/occupation-sector-my-core,CodeSystemOccupationSectorMyCore
+11,Building and Construction,Building and Construction,http://fhir.hie.moh.gov.my/CodeSystem/occupation-sector-my-core,CodeSystemOccupationSectorMyCore
+12,Education,Education,http://fhir.hie.moh.gov.my/CodeSystem/occupation-sector-my-core,CodeSystemOccupationSectorMyCore
+13,Medical and Health,Medical and Health,http://fhir.hie.moh.gov.my/CodeSystem/occupation-sector-my-core,CodeSystemOccupationSectorMyCore
+99,Others,Others,http://fhir.hie.moh.gov.my/CodeSystem/occupation-sector-my-core,CodeSystemOccupationSectorMyCore
+00,No Information,No Information,http://fhir.hie.moh.gov.my/CodeSystem/occupation-sector-my-core,CodeSystemOccupationSectorMyCore

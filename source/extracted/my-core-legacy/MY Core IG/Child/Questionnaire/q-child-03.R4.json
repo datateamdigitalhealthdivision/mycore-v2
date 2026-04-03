@@ -1,0 +1,236 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-child-03",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-child-03",
+  "version": "1.0.0",
+  "name": "QChild03",
+  "title": "Rekod Antenatal Ibu",
+  "status": "active",
+  "date": "2023-08-30T06:43:50.5035753+00:00",
+  "item": [
+    {
+      "linkId": "child-3.1",
+      "text": "VDRL/TPHA",
+      "type": "choice",
+      "answerOption": [
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "01",
+            "display": "Ya/ Positif"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "02",
+            "display": "Negatif/ Tiada"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "00",
+            "display": "Tiada Maklumat"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "child-3.2",
+      "text": "Retroviral",
+      "type": "choice",
+      "answerOption": [
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "01",
+            "display": "Ya/ Positif"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "02",
+            "display": "Negatif/ Tiada"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "00",
+            "display": "Tiada Maklumat"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "child-3.3",
+      "text": "Hepatitis B",
+      "type": "choice",
+      "answerOption": [
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "01",
+            "display": "Ya/ Positif"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "02",
+            "display": "Negatif/ Tiada"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "00",
+            "display": "Tiada Maklumat"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "child-3.4",
+      "text": "Diabetes / GDM",
+      "type": "choice",
+      "answerOption": [
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "01",
+            "display": "Ya/ Positif"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "02",
+            "display": "Negatif/ Tiada"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "00",
+            "display": "Tiada Maklumat"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "child-3.5",
+      "text": "Hypertension/ PIH",
+      "type": "choice",
+      "answerOption": [
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "01",
+            "display": "Ya/ Positif"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "02",
+            "display": "Negatif/ Tiada"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "00",
+            "display": "Tiada Maklumat"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "child-3.6",
+      "text": "Thalassemia",
+      "type": "choice",
+      "answerOption": [
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "01",
+            "display": "Ya/ Positif"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "02",
+            "display": "Negatif/ Tiada"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "00",
+            "display": "Tiada Maklumat"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "child-3.7",
+      "text": "Kumpulan Darah Ibu",
+      "type": "choice",
+      "answerOption": [
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "01",
+            "display": "A"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "02",
+            "display": "B"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "00",
+            "display": "AB"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "00",
+            "display": "O"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "child-3.8",
+      "text": "Rhesus",
+      "type": "choice",
+      "answerOption": [
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "01",
+            "display": "Rh-positive"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "02",
+            "display": "Rh-negative"
+          }
+        }
+      ]
+    }
+  ]
+}

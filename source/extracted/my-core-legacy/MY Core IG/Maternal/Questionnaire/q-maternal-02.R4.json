@@ -1,0 +1,105 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-maternal-02",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-02",
+  "version": "1.0.0",
+  "name": "QMaternal02",
+  "title": "Perihal Kandungan Lalu",
+  "status": "active",
+  "date": "2023-08-30T01:19:04.1804145+00:00",
+  "item": [
+    {
+      "linkId": "maternal-2.0",
+      "text": "Perihal kandungan lalu",
+      "type": "group",
+      "repeats": true,
+      "item": [
+        {
+          "linkId": "maternal-2.1",
+          "text": "Perihal kandungan lalu",
+          "type": "group",
+          "repeats": true,
+          "item": [
+            {
+              "linkId": "maternal-2.1.1",
+              "text": "Tahun",
+              "type": "date"
+            },
+            {
+              "linkId": "maternal-2.1.2",
+              "text": "Hasil Kandungan",
+              "type": "string"
+            },
+            {
+              "linkId": "maternal-2.1.3",
+              "text": "Jenis Kelahiran",
+              "type": "string"
+            },
+            {
+              "linkId": "maternal-2.1.4",
+              "text": "Tempat",
+              "type": "string"
+            },
+            {
+              "linkId": "maternal-2.1.5",
+              "text": "Disambut Oleh",
+              "type": "string"
+            },
+            {
+              "linkId": "maternal-2.1.6",
+              "text": "Jantina",
+              "type": "choice",
+              "answerOption": [
+                {
+                  "valueCoding": {
+                    "system": "http://hl7.org/fhir/administrative-gender",
+                    "code": "male",
+                    "display": "Lelaki"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://hl7.org/fhir/administrative-gender",
+                    "code": "female",
+                    "display": "Perempuan"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "maternal-2.1.7",
+              "text": "Berat Lahir",
+              "type": "quantity"
+            },
+            {
+              "linkId": "maternal-2.1.8",
+              "text": "Komplikasi Ibu",
+              "type": "string"
+            },
+            {
+              "linkId": "maternal-2.1.9",
+              "text": "Komplikasi Anak",
+              "type": "string"
+            },
+            {
+              "linkId": "maternal-2.1.10",
+              "text": "Penyusuan susu ibu/tempoh",
+              "type": "string"
+            },
+            {
+              "linkId": "maternal-2.1.11",
+              "text": "Keadaan anak sekarang",
+              "type": "string"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-2.2",
+      "text": "Tarikh Perkahwinan",
+      "type": "date",
+      "repeats": true
+    }
+  ]
+}

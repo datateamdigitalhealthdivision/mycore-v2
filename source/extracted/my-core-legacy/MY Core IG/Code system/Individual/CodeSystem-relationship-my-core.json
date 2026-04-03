@@ -1,0 +1,92 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-relationship-my-core",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2022-10-28T06:53:54.135+00:00",
+    "source": "#83mH8d8cMZ3P5cIA"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemRelationship (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/relationship-my-core</tt><p>Code System PIK Relationship My Core</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/relationship-my-core",
+  "name": "CodeSystemRelationshipMyCore",
+  "title": "CodeSystemRelationship (MY Core)",
+  "status": "active",
+  "date": "2023-01-21T00:21:11.4398495+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Code System PIK Relationship My Core",
+  "compositional": false,
+  "content": "complete",
+  "count": 14,
+  "concept": [
+    {
+      "code": "00",
+      "display": "No Information"
+    },
+    {
+      "code": "01",
+      "display": "Wife"
+    },
+    {
+      "code": "02",
+      "display": "Husband"
+    },
+    {
+      "code": "03",
+      "display": "Mother"
+    },
+    {
+      "code": "04",
+      "display": "Father"
+    },
+    {
+      "code": "05",
+      "display": "Biological Child"
+    },
+    {
+      "code": "06",
+      "display": "Step Child"
+    },
+    {
+      "code": "07",
+      "display": "Adopted Child"
+    },
+    {
+      "code": "09",
+      "display": "Grandmother"
+    },
+    {
+      "code": "10",
+      "display": "Grandfather"
+    },
+    {
+      "code": "11",
+      "display": "Sibling"
+    },
+    {
+      "code": "12",
+      "display": "Guardian"
+    },
+    {
+      "code": "13",
+      "display": "Self"
+    },
+    {
+      "code": "99",
+      "display": "Others"
+    }
+  ]
+}

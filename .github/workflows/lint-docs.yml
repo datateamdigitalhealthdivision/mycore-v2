@@ -1,0 +1,25 @@
+﻿name: Lint Docs
+
+on:
+  pull_request:
+    paths:
+      - "README.md"
+      - "docs/**"
+      - "annexes/**"
+      - "tests/**"
+
+jobs:
+  markdown:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Lint markdown
+        uses: DavidAnson/markdownlint-cli2-action@v18
+        with:
+          globs: |
+            README.md
+            docs/**/*.md
+            annexes/**/*.md
+            tests/**/*.md

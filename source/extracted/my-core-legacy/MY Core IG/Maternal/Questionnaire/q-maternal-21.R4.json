@@ -1,0 +1,60 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-maternal-21",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-21",
+  "version": "1.0.0",
+  "name": "QMaternal21",
+  "title": "Kemasukan Hospital",
+  "status": "active",
+  "date": "2023-08-30T01:19:04.1804145+00:00",
+  "item": [
+    {
+      "linkId": "maternal-21.1",
+      "text": "Kemasukan",
+      "type": "group",
+      "repeats": true,
+      "item": [
+        {
+          "linkId": "maternal-21.1.1",
+          "text": "Nama hospital",
+          "type": "string"
+        },
+        {
+          "linkId": "maternal-21.1.2",
+          "text": "R/N",
+          "type": "string"
+        },
+        {
+          "linkId": "maternal-21.1.3",
+          "text": "Tarikh masuk",
+          "type": "dateTime"
+        },
+        {
+          "linkId": "maternal-21.1.4",
+          "text": "Tarikh Keluar",
+          "type": "dateTime"
+        },
+        {
+          "linkId": "maternal-21.1.5",
+          "text": "Diagnosa",
+          "type": "string"
+        },
+        {
+          "linkId": "maternal-21.1.6",
+          "text": "Rawatan semasa discaj",
+          "type": "string"
+        },
+        {
+          "linkId": "maternal-21.1.7",
+          "text": "Tarikh temujanji akan datang",
+          "type": "dateTime"
+        },
+        {
+          "linkId": "maternal-21.1.8",
+          "text": "Pegawai Perubatan",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-dass-21",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://fhir.hie.moh.gov.my/StructureDefinition/questionnaire-reference-my-core",
+            "valueReference": {
+                "reference": "Questionnaire/q-dass-21"
+            }
+        }
+    ],
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-dass-21",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/bfb81ffe-637d-4b3f-befa-f7a1546ed9f8"
+    },
+    "authored": "2023-01-30T04:22:00.113Z",
+    "author": {
+        "reference": "Patient/bfb81ffe-637d-4b3f-befa-f7a1546ed9f8"
+    },
+    "item": [
+        {
+            "linkId": "01",
+            "text": "I found it hard to wind down",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "code": "0",
+                        "display": "Never"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "02",
+            "text": "I was aware of dryness of my mouth",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "code": "0",
+                        "display": "Never"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "03",
+            "text": "I couldn’t seem to experience any positive feeling at all",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "code": "0",
+                        "display": "Never"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "04",
+            "text": "I experienced breathing difficulty (eg, excessively rapid breathing, breathlessness in the absence of physical exertion)",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "code": "0",
+                        "display": "Never"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "05",
+            "text": "I found it difficult to work up the initiative to do things",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "code": "0",
+                        "display": "Never"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "06",
+            "text": "I tended to over-react to situations",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "code": "0",
+                        "display": "Never"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "07",
+            "text": "I experienced trembling (eg, in the hands)",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "code": "0",
+                        "display": "Never"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "08",
+            "text": "I felt that I was using a lot of nervous energy",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "code": "0",
+                        "display": "Never"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "09",
+            "text": "I was worried about situations in which I might panic and make a fool of myself",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "code": "0",
+                        "display": "Never"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "10",
+            "text": "I felt that I had nothing to look forward to",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "code": "0",
+                        "display": "Never"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "11",
+            "text": "I found myself getting agitated",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "code": "0",
+                        "display": "Never"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "12",
+            "text": "I found it difficult to relax",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "code": "0",
+                        "display": "Never"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "13",
+            "text": "I felt down-hearted and blue",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "code": "0",
+                        "display": "Never"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "14",
+            "text": "I was intolerant of anything that kept me from getting on with what I was doing",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "code": "0",
+                        "display": "Never"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "15",
+            "text": "I felt I was close to panic",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "code": "0",
+                        "display": "Never"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "16",
+            "text": "I was unable to become enthusiastic about anything",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "code": "0",
+                        "display": "Never"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "17",
+            "text": "I felt I wasn’t worth much as a person",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "code": "0",
+                        "display": "Never"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "18",
+            "text": "I felt that I was rather touchy",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "code": "0",
+                        "display": "Never"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "19",
+            "text": "I was aware of the action of my heart in the absence of physical exertion (eg, sense of heart rate increase, heart missing a beat)",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "code": "0",
+                        "display": "Never"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "20",
+            "text": "I felt scared without any good reason",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "code": "0",
+                        "display": "Never"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "21",
+            "text": "I felt that life was meaningless",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "code": "0",
+                        "display": "Never"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "22",
+            "text": "Stress Score",
+            "answer": [
+                {
+                    "valueInteger": 0
+                }
+            ]
+        },
+        {
+            "linkId": "23",
+            "text": "Stress Outcome Summary",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://fhir.hie.moh.gov.my/CodeSystem/outcome-stress-dass-21-my-core",
+                        "code": "s01",
+                        "display": "Normal"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "24",
+            "text": "Anxiety Score",
+            "answer": [
+                {
+                    "valueInteger": 0
+                }
+            ]
+        },
+        {
+            "linkId": "25",
+            "text": "Anxiety Outcome Summary",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://fhir.hie.moh.gov.my/CodeSystem/outcome-anxiety-dass-21-my-core",
+                        "code": "a01",
+                        "display": "Normal"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "26",
+            "text": "Depression Score",
+            "answer": [
+                {
+                    "valueInteger": 0
+                }
+            ]
+        },
+        {
+            "linkId": "27",
+            "text": "Depression Outcome Summary",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://fhir.hie.moh.gov.my/CodeSystem/outcome-depression-dass-21-my-core",
+                        "code": "d01",
+                        "display": "Normal"
+                    }
+                }
+            ]
+        }
+    ]
+}

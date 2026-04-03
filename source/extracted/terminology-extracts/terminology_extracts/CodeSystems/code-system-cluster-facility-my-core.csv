@@ -1,0 +1,5 @@
+code,display,definition,system_url,system_name
+0,Lead,Lead,http://fhir.hie.moh.gov.my/CodeSystem/cluster-facility-my-core,CodeSystemClusterFacilityMyCore
+1,Non-Lead,Non-Lead,http://fhir.hie.moh.gov.my/CodeSystem/cluster-facility-my-core,CodeSystemClusterFacilityMyCore
+2,Others,Others,http://fhir.hie.moh.gov.my/CodeSystem/cluster-facility-my-core,CodeSystemClusterFacilityMyCore
+3,Standalone,Standalone,http://fhir.hie.moh.gov.my/CodeSystem/cluster-facility-my-core,CodeSystemClusterFacilityMyCore

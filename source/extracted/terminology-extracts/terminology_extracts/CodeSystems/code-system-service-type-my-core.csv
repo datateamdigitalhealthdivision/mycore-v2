@@ -1,0 +1,17 @@
+code,display,definition,system_url,system_name
+ADM,Administrative,Administrative,http://fhir.hie.moh.gov.my/CodeSystem/service-type-my-core,CodeSystemServiceTypeMyCore
+10,Outpatient HC,Outpatient HC,http://fhir.hie.moh.gov.my/CodeSystem/service-type-my-core,CodeSystemServiceTypeMyCore
+11,Outpatient PAC,Outpatient PAC,http://fhir.hie.moh.gov.my/CodeSystem/service-type-my-core,CodeSystemServiceTypeMyCore
+01,Inpatient,Pesakit Dalam,http://fhir.hie.moh.gov.my/CodeSystem/service-type-my-core,CodeSystemServiceTypeMyCore
+02,Day Care,Rawatan Harian,http://fhir.hie.moh.gov.my/CodeSystem/service-type-my-core,CodeSystemServiceTypeMyCore
+03,Outpatient,Pesakit Luar,http://fhir.hie.moh.gov.my/CodeSystem/service-type-my-core,CodeSystemServiceTypeMyCore
+04,Health Screening (Saringan Kesihatan),Health Screening (Saringan Kesihatan),http://fhir.hie.moh.gov.my/CodeSystem/service-type-my-core,CodeSystemServiceTypeMyCore
+05,Traditional & Complementary Medicine,Perubatan Tradisional & Komplementari,http://fhir.hie.moh.gov.my/CodeSystem/service-type-my-core,CodeSystemServiceTypeMyCore
+06,Clinical Support,Sokongan Klinikal,http://fhir.hie.moh.gov.my/CodeSystem/service-type-my-core,CodeSystemServiceTypeMyCore
+07,Outpatient General (Hospital),Outpatient General,http://fhir.hie.moh.gov.my/CodeSystem/service-type-my-core,CodeSystemServiceTypeMyCore
+08,Outpatient Specialist,Outpatient Specialist,http://fhir.hie.moh.gov.my/CodeSystem/service-type-my-core,CodeSystemServiceTypeMyCore
+09,Emergency & Trauma,Outpatient ETD,http://fhir.hie.moh.gov.my/CodeSystem/service-type-my-core,CodeSystemServiceTypeMyCore
+VCI,Individual Virtual Consultation,Individual Virtual Consultation,http://fhir.hie.moh.gov.my/CodeSystem/service-type-my-core,CodeSystemServiceTypeMyCore
+VCMDT,MDT Virtual Consultation,MDT Virtual Consultation,http://fhir.hie.moh.gov.my/CodeSystem/service-type-my-core,CodeSystemServiceTypeMyCore
+VCE,Education Virtual Consultation,Education Virtual Consultation,http://fhir.hie.moh.gov.my/CodeSystem/service-type-my-core,CodeSystemServiceTypeMyCore
+VCD,On-Demand Virtual Consultation,On-Demand Virtual Consultation,http://fhir.hie.moh.gov.my/CodeSystem/service-type-my-core,CodeSystemServiceTypeMyCore

@@ -1,0 +1,103 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-maternal-11",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-11",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/bfb81ffe-637d-4b3f-befa-f7a1546ed9f8"
+    },
+    "authored": "2022-11-16T03:56:06.596Z",
+    "item": [
+      {
+        "linkId": "maternal-11.1",
+        "text": "Pemantauan Tekanan Darah",
+        "item": [
+          {
+            "linkId": "maternal-11.1.1",
+            "text": "Tarikh",
+            "answer": [
+              {
+                "valueDate": "2022-11-15"
+              }
+            ]
+          },
+          {
+            "linkId": "maternal-11.1.2",
+            "text": "Masa",
+            "answer": [
+              {
+                "valueTime": "14:00:50"
+              }
+            ]
+          },
+          {
+            "linkId": "maternal-11.1.3",
+            "text": "Simptom",
+            "answer": [
+              {
+                "valueString": "Pitam"
+              }
+            ]
+          },
+          {
+            "linkId": "maternal-11.1.4",
+            "text": "Tekanan Darah",
+            "item": [
+              {
+                "linkId": "maternal-11.1.4.1",
+                "text": "Sistolik",
+                "answer": [
+                  {
+                    "valueQuantity": {
+                      "value": 130
+                    }
+                  }
+                ]
+              },
+              {
+                "linkId": "maternal-11.1.4.2",
+                "text": "Diastolik",
+                "answer": [
+                  {
+                    "valueQuantity": {
+                      "value": 80
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "linkId": "maternal-11.1.5",
+            "text": "Denyutan Jantung Janin",
+            "answer": [
+              {
+                "valueQuantity": {
+                  "value": 110
+                }
+              }
+            ]
+          },
+          {
+            "linkId": "maternal-11.1.6",
+            "text": "Urin Protein",
+            "answer": [
+              {
+                "valueQuantity": {
+                  "value": 3
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
+  

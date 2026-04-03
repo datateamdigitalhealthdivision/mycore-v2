@@ -1,0 +1,161 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-maternal-15",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-15",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/bfb81ffe-637d-4b3f-befa-f7a1546ed9f8"
+    },
+    "authored": "2022-11-16T03:56:06.596Z",
+    "item": [
+        {
+            "linkId": "maternal-15.1",
+            "text": "Tarikh",
+            "answer": [
+                {
+                    "valueDateTime": "2022-12-07T08:05:37.543Z"
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-15.2",
+            "text": "Jangkamasa kandungan",
+            "item": [
+                {
+                    "linkId": "maternal-15.2.1",
+                    "text": "EDD",
+                    "answer": [
+                        {
+                            "valueDateTime": "2022-12-12T08:06:00.291Z"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-15.2.2",
+                    "text": "REDD",
+                    "answer": [
+                        {
+                            "valueDateTime": "2022-12-23T08:06:16.912Z"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-15.3",
+            "text": "Presentasi",
+            "answer": [
+                {
+                    "valueString": "normal"
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-15.4",
+            "text": "FH/FM",
+            "answer": [
+                {
+                    "valueString": "normal"
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-15.5",
+            "text": "CRL",
+            "answer": [
+                {
+                    "valueString": "normal"
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-15.6",
+            "text": "BPD",
+            "answer": [
+                {
+                    "valueString": "normal"
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-15.7",
+            "text": "HC",
+            "answer": [
+                {
+                    "valueString": "normal"
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-15.8",
+            "text": "AC",
+            "answer": [
+                {
+                    "valueString": "normal"
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-15.9",
+            "text": "FL",
+            "answer": [
+                {
+                    "valueString": "normal"
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-15.10",
+            "text": "Estimated fetal weight",
+            "answer": [
+                {
+                    "valueQuantity": {
+                        "value": 3
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-15.11",
+            "text": "Placenta",
+            "answer": [
+                {
+                    "valueString": "normal"
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-15.12",
+            "text": "AFI",
+            "answer": [
+                {
+                    "valueString": "normal"
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-15.13",
+            "text": "Ulasan",
+            "answer": [
+                {
+                    "valueString": "tiada "
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-15.15",
+            "text": "Nama Pemeriksa",
+            "answer": [
+                {
+                    "valueString": "vanesh"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+  "resourceType": "MedicationRequest",
+  "id": "my-core-medicationrequest-example",
+  "meta": {
+    "profile": [
+      "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/MedicationRequest-my-core"
+    ]
+  },
+  "status": "active",
+  "intent": "order",
+  "subject": {
+    "reference": "Patient/my-core-patient-example"
+  },
+  "authoredOn": "2026-04-02",
+  "requester": {
+    "reference": "PractitionerRole/my-core-practitionerrole-example"
+  },
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/drug-my-core",
+        "code": "N02BE01000T1001XX",
+        "display": "Paracetamol 500 mg Tablet"
+      }
+    ],
+    "text": "Paracetamol 500 mg Tablet"
+  }
+}

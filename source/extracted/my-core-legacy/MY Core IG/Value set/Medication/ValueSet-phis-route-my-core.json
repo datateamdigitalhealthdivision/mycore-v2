@@ -1,0 +1,21 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-phis-route-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetPhisRoute (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/ValueSet/phis-route-my-core</tt><p>Phis route</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/phis-route-my-core",
+  "name": "ValueSetPhisRouteMyCore",
+  "title": "ValueSetPhisRoute (MY Core)",
+  "status": "active",
+  "date": "2023-03-31T00:47:28.8476721+00:00",
+  "description": "Phis route",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core"
+      }
+    ]
+  }
+}

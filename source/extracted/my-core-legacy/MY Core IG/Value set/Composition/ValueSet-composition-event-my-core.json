@@ -1,0 +1,39 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-composition-event-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetCompositionEvent (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/ValueSet/composition-event-my-core</tt><p>Composition event</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/composition-event-my-core",
+  "identifier": [
+    {
+      "value": "value-set-composition-event-my-core"
+    }
+  ],
+  "version": "1.0.0",
+  "name": "ValueSetCompositionEventMyCore",
+  "title": "ValueSetCompositionEvent (MY Core)",
+  "status": "active",
+  "date": "2022-07-22T03:06:30.8634846+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Composition event",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/composition-event-my-core"
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-dental-alert-code-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemDentalAlertCode (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/dental-alert-code-my-core</tt><p>Dental Alert Code</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/dental-alert-code-my-core",
+  "name": "CodeSystemDentalAlertCodeMyCore",
+  "title": "CodeSystemDentalAlertCode (MY Core)",
+  "status": "active",
+  "date": "2023-01-12T21:13:03.0089063+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Dental Alert Code",
+  "compositional": false,
+  "content": "complete",
+  "count": 5,
+  "concept": [
+    {
+      "code": "medical-alert",
+      "display": "Medical Alert",
+      "definition": "Medical Alert"
+    },
+    {
+      "code": "family-medical-alert",
+      "display": "Family Medical Alert",
+      "definition": "Family Medical Alert"
+    },
+    {
+      "code": "drug-alert",
+      "display": "Drug Alert",
+      "definition": "Drug Alert"
+    },
+    {
+      "code": "allergy-alert",
+      "display": "Allergy Alert",
+      "definition": "Allergy Alert"
+    },
+    {
+      "code": "dental-history",
+      "display": "Dental History",
+      "definition": "Dental History"
+    }
+  ]
+}

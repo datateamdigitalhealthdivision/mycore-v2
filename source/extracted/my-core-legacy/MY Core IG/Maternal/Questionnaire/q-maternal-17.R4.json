@@ -1,0 +1,1003 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-maternal-17",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-17",
+  "version": "1.0.0",
+  "name": "QMaternal17",
+  "title": "Sistem Kod Warna dan Senarai Semak Penjagaan Antenatal",
+  "status": "active",
+  "date": "2023-08-30T01:19:04.1804145+00:00",
+  "description": "Sistem ini menggunakan empat kod warna. Penentuan kod warna ini adalah berdasarkan kepada penilaian faktor risiko ibu semasa lawatan ke klinik/ rumah",
+  "purpose": "Penjagaan ibu adalah berdasarkan kepada kod warna berkenaan:-",
+  "item": [
+    {
+      "linkId": "maternal-17.0",
+      "code": [
+        {
+          "code": "maternal-17.0"
+        }
+      ],
+      "text": "Trimester of Assessment",
+      "type": "choice",
+      "answerOption": [
+        {
+          "valueCoding": {
+            "code": "00",
+            "display": "Trimester 1 (<12 weeks)"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "01",
+            "display": "Trimester 2 (13-22 weeks)"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "02",
+            "display": "Trimester 2 (23-27 weeks)"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "03",
+            "display": "Trimester 3 (28-32 weeks)"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "04",
+            "display": "Trimester 3 (33-36 weeks)"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "05",
+            "display": "Trimester 3 (37-40 weeks)"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "06",
+            "display": "Post-date (>40 weeks)"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-17.2",
+      "code": [
+        {
+          "code": "maternal-17.2"
+        }
+      ],
+      "text": "Rumusan",
+      "type": "choice",
+      "readOnly": true,
+      "answerOption": [
+        {
+          "valueCoding": {
+            "system": "http://snomed.info/sct",
+            "code": "386713009",
+            "display": "Merah"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://snomed.info/sct",
+            "code": "371244009",
+            "display": "Kuning"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://snomed.info/sct",
+            "code": "54662009",
+            "display": "Hijau"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://snomed.info/sct",
+            "code": "371251000",
+            "display": "Putih"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://snomed.info/sct",
+            "code": "310586008",
+            "display": "Putih (ABC)"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-17.3",
+      "code": [
+        {
+          "code": "maternal-17.3"
+        }
+      ],
+      "text": "Senarai Semak Pengendalian Ibu Hamil (Kod Merah)",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "maternal-17.3.1",
+          "code": [
+            {
+              "code": "maternal-17.1"
+            }
+          ],
+          "text": "Eclampsia",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.3.2",
+          "code": [
+            {
+              "code": "maternal-17.3.2"
+            }
+          ],
+          "text": "Pre-eclampsia (tekanan darah tinggi dengan urin protein)",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.3.3",
+          "code": [
+            {
+              "code": "maternal-17.3.3"
+            }
+          ],
+          "text": "Hypertensive crisis",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.3.4",
+          "code": [
+            {
+              "code": "maternal-17.3.4"
+            }
+          ],
+          "text": "Penyakit jantung semasa mengandung, dengan tanda dan gejala (sesak nafas, berdebar-debar)",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.3.5",
+          "code": [
+            {
+              "code": "maternal-17.3.5"
+            }
+          ],
+          "text": "Sesak nafas dan/ atau kadar pernafasan >22/min",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.3.6",
+          "code": [
+            {
+              "code": "maternal-17.3.6"
+            }
+          ],
+          "text": "Pendarahan antepartum (termasuk keguguran)",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.3.7",
+          "code": [
+            {
+              "code": "maternal-17.3.7"
+            }
+          ],
+          "text": "Denyutan jantung janin yang abnormal \n • FHR <110/min selepas 22/52 \n • FHR >160/min selepas 32/52",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.3.8",
+          "code": [
+            {
+              "code": "maternal-17.3.8"
+            }
+          ],
+          "text": "Anemia dengan simptom pada mana-mana gestasi atau Hb ≤7g/dL",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.3.9",
+          "code": [
+            {
+              "code": "maternal-17.3.9"
+            }
+          ],
+          "text": "Kontraksi rahim pramatang",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.3.10",
+          "code": [
+            {
+              "code": "maternal-17.3.10"
+            }
+          ],
+          "text": "Keluar air ketuban tanpa kontraksi",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.3.11",
+          "code": [
+            {
+              "code": "maternal-17.3.11"
+            }
+          ],
+          "text": "Sawan",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.3.12",
+          "code": [
+            {
+              "code": "maternal-17.3.12"
+            }
+          ],
+          "text": "Demam dengan tanda-tanda sepsis (lesu, dehidrasi, tachycardia)",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.3.13",
+          "code": [
+            {
+              "code": "maternal-17.3.13"
+            }
+          ],
+          "text": "Kes disyaki denggi (demam berserta sakit kepala, sakit sendi, sakit perut, muntah, cirit birit dan sebagainya)",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.3.14",
+          "code": [
+            {
+              "code": "maternal-17.3.14"
+            }
+          ],
+          "text": "Gejala Deep Vein Thrombosis (DVT) dan/ atau Pulmonary Embolism",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.3.15",
+          "code": [
+            {
+              "code": "maternal-17.3.15"
+            }
+          ],
+          "text": "Keinginan mencederakan / bunuh diri",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-17.4",
+      "code": [
+        {
+          "code": "maternal-17.4"
+        }
+      ],
+      "text": "Senarai Semak Pengendalian Ibu Hamil (Kod Kuning)",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "maternal-17.4.1",
+          "code": [
+            {
+              "code": "maternal-17.4.1"
+            }
+          ],
+          "text": "Ibu HIV positif",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.4.2",
+          "code": [
+            {
+              "code": "maternal-17.4.2"
+            }
+          ],
+          "text": "Ibu Hepatitis B positif",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.4.3",
+          "code": [
+            {
+              "code": "maternal-17.4.3"
+            }
+          ],
+          "text": "Ibu Tuberkulosis/ Malaria/ Syphilis",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.4.4",
+          "code": [
+            {
+              "code": "maternal-17.4.4"
+            }
+          ],
+          "text": "Tekanan darah >140/90 - <160/100mmHg tanpa/dengan urin protein",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.4.5",
+          "code": [
+            {
+              "code": "maternal-17.4.5"
+            }
+          ],
+          "text": "Tekanan darah tinggi (140/90mmHg) dengan urin protein",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.4.6",
+          "code": [
+            {
+              "code": "maternal-17.4.6"
+            }
+          ],
+          "text": "Ibu diabetes dengan rawatan dan/ atau komplikasi",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.4.7",
+          "code": [
+            {
+              "code": "maternal-17.4.7"
+            }
+          ],
+          "text": "**Pergerakan janin kurang semasa kandungan ≥32 minggu dengan faktor risiko",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.4.8",
+          "code": [
+            {
+              "code": "maternal-17.4.8"
+            }
+          ],
+          "text": "Kandungan melebihi 7 hari dari EDD",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.4.9",
+          "code": [
+            {
+              "code": "maternal-17.4.9"
+            }
+          ],
+          "text": "Ibu dengan masalah perubatan yang memerlukan rawatan bersama di hospital",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.4.10",
+          "code": [
+            {
+              "code": "maternal-17.4.10"
+            }
+          ],
+          "text": "Ibu tunggal atau ibu remaja (<20 tahun)",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.4.11",
+          "code": [
+            {
+              "code": "maternal-17.4.11"
+            }
+          ],
+          "text": "Ibu berumur ≥40 tahun",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.4.12",
+          "code": [
+            {
+              "code": "maternal-17.4.12"
+            }
+          ],
+          "text": "Hemoglobin 7 - <9g/dL dan asymptomatic",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.4.13",
+          "code": [
+            {
+              "code": "maternal-17.4.13"
+            }
+          ],
+          "text": "Placenta previa tanpa pendarahan",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.4.14",
+          "code": [
+            {
+              "code": "maternal-17.4.14"
+            }
+          ],
+          "text": "Maternal pyrexia ≥38˚C atau >3 hari",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.4.15",
+          "code": [
+            {
+              "code": "maternal-17.4.15"
+            }
+          ],
+          "text": "Penyakit jantung tanpa gejala",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.4.16",
+          "code": [
+            {
+              "code": "maternal-17.4.16"
+            }
+          ],
+          "text": "*Ketagihan dadah/ rokok/ alkohol",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.4.17",
+          "code": [
+            {
+              "code": "maternal-17.4.17"
+            }
+          ],
+          "text": "Skor risiko antenatal Venous Thromboembolism (VTE) ≥3",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.4.18",
+          "code": [
+            {
+              "code": "maternal-17.4.18"
+            }
+          ],
+          "text": "Kandungan kembar",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.4.19",
+          "code": [
+            {
+              "code": "maternal-17.4.19"
+            }
+          ],
+          "text": "Masalah kesihatan mental",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.4.20",
+          "code": [
+            {
+              "code": "maternal-17.4.20"
+            }
+          ],
+          "text": "BMI >40kgm/2",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-17.5",
+      "code": [
+        {
+          "code": "maternal-17.5"
+        }
+      ],
+      "text": "Senarai Semak Pengendalian Ibu Hamil (Kod Hijau)",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "maternal-17.5.1",
+          "code": [
+            {
+              "code": "maternal-17.5.1"
+            }
+          ],
+          "text": "Rh negatif",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.5.2",
+          "code": [
+            {
+              "code": "maternal-17.5.2"
+            }
+          ],
+          "text": "Berat badan ibu sebelum mengandung atau ketika booking <45kg",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.5.3",
+          "code": [
+            {
+              "code": "maternal-17.5.3"
+            }
+          ],
+          "text": "Obes (≥30.0kg/m²)",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.5.4",
+          "code": [
+            {
+              "code": "maternal-17.5.4"
+            }
+          ],
+          "text": "Pertambahan berat badan yang mendadak (>2 kg dalam seminggu)",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.5.5",
+          "code": [
+            {
+              "code": "maternal-17.5.5"
+            }
+          ],
+          "text": "Berat badan statik atau menurun (dalam tempoh sebulan)",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.5.6",
+          "code": [
+            {
+              "code": "maternal-17.5.6"
+            }
+          ],
+          "text": "Masalah perubatan semasa",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.5.7",
+          "code": [
+            {
+              "code": "maternal-17.5.7"
+            }
+          ],
+          "text": "Masalah ginekologi yang lalu (fibroid, cyst, pembedahan)",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.5.8",
+          "code": [
+            {
+              "code": "maternal-17.5.8"
+            }
+          ],
+          "text": "LNMP yang tidak pasti",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.5.9",
+          "code": [
+            {
+              "code": "maternal-17.5.9"
+            }
+          ],
+          "text": "3 kali keguguran yang berturutan",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.5.10",
+          "code": [
+            {
+              "code": "maternal-17.5.10"
+            }
+          ],
+          "text": "Sejarah obstetrik yang lalu",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "maternal-17.5.10.1",
+              "code": [
+                {
+                  "code": "maternal-17.5.10.1"
+                }
+              ],
+              "text": "Pembedahan caesarean",
+              "type": "boolean"
+            },
+            {
+              "linkId": "maternal-17.5.10.2",
+              "code": [
+                {
+                  "code": "maternal-17.5.10.2"
+                }
+              ],
+              "text": "PIH/ eclampsia/ diabetes",
+              "type": "boolean"
+            },
+            {
+              "linkId": "maternal-17.5.10.3",
+              "code": [
+                {
+                  "code": "maternal-17.5.10.3"
+                }
+              ],
+              "text": "Kematian perinatal",
+              "type": "boolean"
+            },
+            {
+              "linkId": "maternal-17.5.10.4",
+              "code": [
+                {
+                  "code": "maternal-17.5.10.4"
+                }
+              ],
+              "text": "Bayi dengan berat lahir <2.5kg atau >4kg",
+              "type": "boolean"
+            },
+            {
+              "linkId": "maternal-17.5.10.5",
+              "code": [
+                {
+                  "code": "maternal-17.5.10.5"
+                }
+              ],
+              "text": "Luka perineum 3rd degree dan 4th degree",
+              "type": "boolean"
+            },
+            {
+              "linkId": "maternal-17.5.10.6",
+              "code": [
+                {
+                  "code": "maternal-17.5.10.6"
+                }
+              ],
+              "text": "Retained placenta",
+              "type": "boolean"
+            },
+            {
+              "linkId": "maternal-17.5.10.7",
+              "code": [
+                {
+                  "code": "maternal-17.5.10.7"
+                }
+              ],
+              "text": "Post partum haemorrhage",
+              "type": "boolean"
+            },
+            {
+              "linkId": "maternal-17.5.10.8",
+              "code": [
+                {
+                  "code": "maternal-17.5.10.8"
+                }
+              ],
+              "text": "Kelahiran instrumental",
+              "type": "boolean"
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-17.5.11",
+          "code": [
+            {
+              "code": "maternal-17.5.11"
+            }
+          ],
+          "text": "Pergerakan janin kurang semasa kandungan ≥32 minggu",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.5.12",
+          "code": [
+            {
+              "code": "maternal-17.5.12"
+            }
+          ],
+          "text": "Tekanan darah 140/90 mmHg tanpa urin protein",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.5.13",
+          "code": [
+            {
+              "code": "maternal-17.5.13"
+            }
+          ],
+          "text": "Hemoglobin 9 - <11g/dL",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.5.14",
+          "code": [
+            {
+              "code": "maternal-17.5.14"
+            }
+          ],
+          "text": "Glukosuria 2 kali",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.5.15",
+          "code": [
+            {
+              "code": "maternal-17.5.15"
+            }
+          ],
+          "text": "Air kencing mempunyai protein ≥1+",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.5.16",
+          "code": [
+            {
+              "code": "maternal-17.5.16"
+            }
+          ],
+          "text": "Tinggi rahim (SFH) tidak sejajar dengan jangkamasa kandungan +/- 3cm",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.5.17",
+          "code": [
+            {
+              "code": "maternal-17.5.17"
+            }
+          ],
+          "text": "Breech/ Oblique/ Tranverse dengan tiada tanda sakit bersalin pada 36 minggu kehamilan",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.5.18",
+          "code": [
+            {
+              "code": "maternal-17.5.18"
+            }
+          ],
+          "text": "Kepala bayi tinggi (Head not engaged) semasa kandungan 37 minggu bagi primigravida",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.5.19",
+          "code": [
+            {
+              "code": "maternal-17.5.19"
+            }
+          ],
+          "text": "Ibu GDM dengan kawalan diet tanpa komplikasi",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.5.20",
+          "code": [
+            {
+              "code": "maternal-17.5.20"
+            }
+          ],
+          "text": "Ibu berumur 36 - 39 tahun",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.5.21",
+          "code": [
+            {
+              "code": "maternal-17.5.21"
+            }
+          ],
+          "text": "Primigravida/pseudoprimigravida",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.5.22",
+          "code": [
+            {
+              "code": "maternal-17.5.22"
+            }
+          ],
+          "text": "Grandmultipara ≥5",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.5.23",
+          "code": [
+            {
+              "code": "maternal-17.5.23"
+            }
+          ],
+          "text": "Jarak kelahiran <2 tahun atau melebihi 5 tahun",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.5.24",
+          "code": [
+            {
+              "code": "maternal-17.5.24"
+            }
+          ],
+          "text": "Ketinggian ibu <145cm",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-17.6",
+      "code": [
+        {
+          "code": "maternal-17.6"
+        }
+      ],
+      "text": "Senarai Semak Pengendalian Ibu Hamil (Kod Putih)",
+      "type": "group",
+      "enableWhen": [
+        {
+          "question": "maternal-17.3",
+          "operator": "exists",
+          "answerBoolean": false
+        },
+        {
+          "question": "maternal-17.4",
+          "operator": "exists",
+          "answerBoolean": false
+        },
+        {
+          "question": "maternal-17.5",
+          "operator": "exists",
+          "answerBoolean": false
+        }
+      ],
+      "enableBehavior": "all",
+      "item": [
+        {
+          "linkId": "maternal-17.6.1",
+          "code": [
+            {
+              "code": "maternal-17.6.1"
+            }
+          ],
+          "text": "Gravida 2 – 5 (tidak termasuk pseudoprimigravida)",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.6.2",
+          "code": [
+            {
+              "code": "maternal-17.6.2"
+            }
+          ],
+          "text": "Tiada masalah obstetrik lalu dan semasa",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.6.3",
+          "code": [
+            {
+              "code": "maternal-17.6.3"
+            }
+          ],
+          "text": "Tiada masalah perubatan yang lalu dan semasa",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.6.4",
+          "code": [
+            {
+              "code": "maternal-17.6.4"
+            }
+          ],
+          "text": "Ibu berumur 20 - 35 tahun",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.6.5",
+          "code": [
+            {
+              "code": "maternal-17.6.5"
+            }
+          ],
+          "text": "Ibu berkahwin dan mempunyai sokongan keluarga",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-17.7",
+      "code": [
+        {
+          "code": "maternal-17.7"
+        }
+      ],
+      "text": "Kriteria Untuk Bersalin Di ABC/ Rumah",
+      "type": "group",
+      "enableWhen": [
+        {
+          "question": "maternal-17.6",
+          "operator": "exists",
+          "answerBoolean": true
+        }
+      ],
+      "item": [
+        {
+          "linkId": "maternal-17.7.1",
+          "code": [
+            {
+              "code": "maternal-17.7.1"
+            }
+          ],
+          "text": "Gravida 2 – 5 (tidak termasuk pseudoprimigravida)",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.7.2",
+          "code": [
+            {
+              "code": "maternal-17.7.2"
+            }
+          ],
+          "text": "Tiada masalah obstetrik lalu dan semasa",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.7.3",
+          "code": [
+            {
+              "code": "maternal-17.7.3"
+            }
+          ],
+          "text": "Tiada masalah perubatan yang lalu dan semasa",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.7.4",
+          "code": [
+            {
+              "code": "maternal-17.7.4"
+            }
+          ],
+          "text": "Ibu berumur 20 - 35 tahun",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.7.5",
+          "code": [
+            {
+              "code": "maternal-17.7.5"
+            }
+          ],
+          "text": "Ibu berkahwin dan mempunyai sokongan keluarga",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.7.6",
+          "code": [
+            {
+              "code": "maternal-17.7.6"
+            }
+          ],
+          "text": "POA 37-40 minggu",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.7.7",
+          "code": [
+            {
+              "code": "maternal-17.7.7"
+            }
+          ],
+          "text": "Anggaran berat bayi 2.5-3.5kg",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-17.7.8",
+          "code": [
+            {
+              "code": "maternal-17.7.8"
+            }
+          ],
+          "text": "Persekitaran rumah ibu sesuai",
+          "type": "boolean"
+        }
+      ]
+    }
+  ]
+}

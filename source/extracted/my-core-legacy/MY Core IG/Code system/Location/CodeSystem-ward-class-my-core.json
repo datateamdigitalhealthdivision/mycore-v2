@@ -1,0 +1,65 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-ward-class-my-core",
+  "meta": {
+    "source": "#KYjMFtjaYi7IQx6S"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemWardClass (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/ward-class-my-core</tt><p>Ward Class</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/ward-class-my-core",
+  "version": "1.0.0",
+  "name": "CodeSystemWardClassMyCore",
+  "title": "CodeSystemWardClass (MY Core)",
+  "status": "active",
+  "date": "2023-03-08T08:22:01.7613407+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Ward Class",
+  "compositional": false,
+  "content": "complete",
+  "count": 6,
+  "concept": [
+    {
+      "code": "00",
+      "display": "No Information",
+      "definition": "No Information"
+    },
+    {
+      "code": "01",
+      "display": "1st Class",
+      "definition": "1st Class"
+    },
+    {
+      "code": "02",
+      "display": "2nd Class",
+      "definition": "2nd Class"
+    },
+    {
+      "code": "03",
+      "display": "3rd Class",
+      "definition": "3rd Class"
+    },
+    {
+      "code": "04",
+      "display": "VIP/Royal Class",
+      "definition": "VIP/Royal Class"
+    },
+    {
+      "code": "97",
+      "display": "Others / Not Relevant",
+      "definition": "Others / Not Relevant"
+    }
+  ]
+}

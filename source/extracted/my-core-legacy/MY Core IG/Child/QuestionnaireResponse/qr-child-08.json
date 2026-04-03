@@ -1,0 +1,353 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-child-08",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "identifier": {
+        "system": "http://fhir.hie.moh.gov.my/sid/template-section",
+        "value": "qr-child-08"
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-child-08",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/bfb81ffe-637d-4b3f-befa-f7a1546ed9f8"
+    },
+    "authored": "2022-11-16T03:56:06.596Z",
+    "item": [
+        {
+            "linkId": "8.0",
+            "text": "Rawatan Postnatal (Diisi oleh anggota kesihatan)",
+            "item": [
+                {
+                    "linkId": "8.1",
+                    "text": "Tarikh",
+                    "answer": [
+                        {
+                            "valueDate": "2022-12-13"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "8.2",
+                    "text": "Umur semasa lawatan",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "8.3",
+                    "text": "Berat badan",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "8.4",
+                    "text": "Panjang",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 48
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "8.5",
+                    "text": "Lilitan kepala",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 35
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "8.6",
+                    "text": "Tindakbalas",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+                                "code": "00",
+                                "display": "Aktif"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "8.7",
+                    "text": "Warna bayi",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+                                "code": "00",
+                                "display": "Normal"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "8.8",
+                    "text": "Wajah dismorfik",
+                    "answer": [
+                        {
+                            "valueString": "normal"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "8.9",
+                    "text": "Jaundis",
+                    "answer": [
+                        {
+                            "valueString": "tiada"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "8.10",
+                    "text": "Keadaan kulit",
+                    "answer": [
+                        {
+                            "valueString": "sihat"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "8.11",
+                    "text": "Penilaian penyusuan",
+                    "answer": [
+                        {
+                            "valueString": "normal"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "8.12",
+                    "text": "Buang air besar",
+                    "answer": [
+                        {
+                            "valueString": "lawas"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "8.13",
+                    "text": "Buang air kecil",
+                    "answer": [
+                        {
+                            "valueString": "lawas"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "8.14",
+                    "text": "Kadar pernafasan",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 60,
+                                "unit": "per minute",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "/min"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "8.15",
+                    "text": "Kadar denyutan jantung",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 110,
+                                "unit": "per minute",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "/min"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "8.16",
+                    "text": "Suhu badan",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 36,
+                                "unit": "degree Celsius",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "Cel"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "8.17",
+                    "text": "Kepala",
+                    "answer": [
+                        {
+                            "valueString": "normal"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "8.18",
+                    "text": "Leher",
+                    "answer": [
+                        {
+                            "valueString": "normal"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "8.19",
+                    "text": "Mata",
+                    "answer": [
+                        {
+                            "valueString": "normal"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "8.20",
+                    "text": "Mulut",
+                    "answer": [
+                        {
+                            "valueString": "normal"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "8.21",
+                    "text": "Telinga",
+                    "answer": [
+                        {
+                            "valueString": "normal"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "8.22",
+                    "text": "Sistem respiratori",
+                    "answer": [
+                        {
+                            "valueString": "normal"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "8.23",
+                    "text": "Sistem Kardiovaskular",
+                    "answer": [
+                        {
+                            "valueString": "normal"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "8.24",
+                    "text": "Abdomen",
+                    "answer": [
+                        {
+                            "valueString": "normal"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "8.25",
+                    "text": "Alat kelamin",
+                    "answer": [
+                        {
+                            "valueString": "normal"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "8.26",
+                    "text": "Tulang",
+                    "answer": [
+                        {
+                            "valueString": "normal"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "8.27",
+                    "text": "Sistem neurologi",
+                    "item": [
+                        {
+                            "linkId": "8.27.1",
+                            "text": "Reflex",
+                            "answer": [
+                                {
+                                    "valueString": "normal"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "8.27.2",
+                            "text": "Muscle tone",
+                            "answer": [
+                                {
+                                    "valueString": "normal"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "8.28",
+                    "text": "Perkara yang membimbangkan ibu bapa/penjaga",
+                    "answer": [
+                        {
+                            "valueString": "tiada"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "8.29",
+                    "text": "Bimbingan awal diberikan",
+                    "answer": [
+                        {
+                            "valueString": "tiada"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "8.30",
+                    "text": "Catatan",
+                    "answer": [
+                        {
+                            "valueString": "tiada"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "8.31",
+                    "text": "Nama",
+                    "answer": [
+                        {
+                            "valueString": "Seah"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

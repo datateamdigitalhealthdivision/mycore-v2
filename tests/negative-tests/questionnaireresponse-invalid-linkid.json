@@ -1,0 +1,19 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "id": "invalid-questionnaireresponse-linkid",
+  "questionnaire": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/Questionnaire/my-core-questionnaire-example",
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/my-core-patient-example"
+  },
+  "item": [
+    {
+      "linkId": "wrong-link",
+      "answer": [
+        {
+          "valueString": "0123456789"
+        }
+      ]
+    }
+  ]
+}

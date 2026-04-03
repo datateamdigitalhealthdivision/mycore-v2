@@ -1,0 +1,250 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-maternal-18",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "identifier": {
+        "system": "http://fhir.hie.moh.gov.my/sid/template-section",
+        "value": "qr-maternal-18"
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-18",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/bfb81ffe-637d-4b3f-befa-f7a1546ed9f8"
+    },
+    "authored": "2023-02-06T03:56:06+08:00",
+    "author": {
+        "reference": "PractitionerRole/cd16e0cb-3e0f-43bb-9197-901f5daff3ba/_history/23"
+    },
+    "item": [
+        {
+            "linkId": "maternal-18.1",
+            "text": "VTE risk factor",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "code": "00",
+                        "display": "Pre pregnancy/Booking"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-18.2",
+            "text": "Pre-existing risk factors",
+            "item": [
+                {
+                    "linkId": "maternal-18.3.1",
+                    "text": "Previous VTE (VTE Score - 4)",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-18.3.2",
+                    "text": "High risk thrombophilia (VTE Score - 3)",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-18.3.3",
+                    "text": "Medical comorbidities (VTE Score - 3)",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-18.3.4",
+                    "text": "Obesity",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://fhir.hie.moh.gov.my/CodeSystem/maternal-record-my-core",
+                                "code": "00",
+                                "display": "BMI <40kg/m2 (VTE Score - 2)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-18.3.5",
+                    "text": "Family history of VTE (VTE Score - 1)",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-18.3.6",
+                    "text": "Low risk thrombophilia (VTE Score - 1)",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-18.3.7",
+                    "text": "Current smoker >10 per day (VTE Score - 1)",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-18.3.8",
+                    "text": "Gross varicose veins(VTE Score - 1)",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-18.4",
+            "text": "Obstetric risk factors",
+            "item": [
+                {
+                    "linkId": "maternal-18.4.1",
+                    "text": "Caesaren section (emergency & elective) (VTE Score - 2)",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-18.4.2",
+                    "text": "Pre eclampsia (VTE Score - 1)",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-18.4.3",
+                    "text": "IVF (1st trimester risk only) (VTE Score - 1)",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-18.4.4",
+                    "text": "Rotational instrumental delivery (VTE Score - 1)",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-18.4.5",
+                    "text": "PPH (>100mls) or requires blood transfusion (VTE Score - 1)",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-18.4.6",
+                    "text": "Stillbirth (current) (VTE Score - 1)",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-18.4.7",
+                    "text": "Prolonged labour (>24 hours) (VTE Score - 1)",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-18.5",
+            "text": "Transient risk factors",
+            "item": [
+                {
+                    "linkId": "maternal-18.5.1",
+                    "text": "Surgical procedures (excluding episiotomy, 1st & 4 2 nd degree perineal repair, evacuation of products of conception) (VTE Score - 4)",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-18.5.2",
+                    "text": "Hyperemesis gravidarum / OHSS (VTE Score - 4)",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-18.5.3",
+                    "text": "Systemic/ Postpartum infection (VTE Score - 1)",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-18.5.4",
+                    "text": "Immobility Dehydration/ Admission beyond 3 days (VTE Score - 1)",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-18.5.5",
+                    "text": "Long distance travel (> 4hours) (VTE Score - 1)",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-18.6",
+            "text": "Total score",
+            "answer": [
+                {
+                    "valueQuantity": {
+                        "value": 33
+                    }
+                }
+            ]
+        }
+    ]
+}

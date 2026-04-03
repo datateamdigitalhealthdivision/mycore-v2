@@ -1,0 +1,35 @@
+code,display,definition,system_url,system_name
+10,NCD-PREDM,NCD-PREDM,http://fhir.hie.moh.gov.my/CodeSystem/health-program-physiotherapy-my-core,CodeSystemHealthProgramPhysiotherapyMyCore
+11,NCD-DM,NCD-DM,http://fhir.hie.moh.gov.my/CodeSystem/health-program-physiotherapy-my-core,CodeSystemHealthProgramPhysiotherapyMyCore
+12,"NCD LAIN (HPT, DYSLIPIDEMIA)","NCD LAIN (HPT, DYSLIPIDEMIA)",http://fhir.hie.moh.gov.my/CodeSystem/health-program-physiotherapy-my-core,CodeSystemHealthProgramPhysiotherapyMyCore
+13,NCD-OVERWEIGHT/OBESITY,NCD-OVERWEIGHT/OBESITY,http://fhir.hie.moh.gov.my/CodeSystem/health-program-physiotherapy-my-core,CodeSystemHealthProgramPhysiotherapyMyCore
+14,PULMONARY RECONDITIONING,PULMONARY RECONDITIONING,http://fhir.hie.moh.gov.my/CodeSystem/health-program-physiotherapy-my-core,CodeSystemHealthProgramPhysiotherapyMyCore
+15,OUTREACH-KOMUNITI,OUTREACH-KOMUNITI,http://fhir.hie.moh.gov.my/CodeSystem/health-program-physiotherapy-my-core,CodeSystemHealthProgramPhysiotherapyMyCore
+16,LAWATAN KE RUMAH,LAWATAN KE RUMAH,http://fhir.hie.moh.gov.my/CodeSystem/health-program-physiotherapy-my-core,CodeSystemHealthProgramPhysiotherapyMyCore
+17,KESIHATAN PEKERJAAN,KESIHATAN PEKERJAAN,http://fhir.hie.moh.gov.my/CodeSystem/health-program-physiotherapy-my-core,CodeSystemHealthProgramPhysiotherapyMyCore
+18,PROMOSI / KEM KESIHATAN,PROMOSI / KEM KESIHATAN,http://fhir.hie.moh.gov.my/CodeSystem/health-program-physiotherapy-my-core,CodeSystemHealthProgramPhysiotherapyMyCore
+19,PEMULIHAN DALAM KOMUNITI (PDK),PEMULIHAN DALAM KOMUNITI (PDK),http://fhir.hie.moh.gov.my/CodeSystem/health-program-physiotherapy-my-core,CodeSystemHealthProgramPhysiotherapyMyCore
+20,KELAS PENDIDIKAN - SHOULDER,KELAS PENDIDIKAN - SHOULDER,http://fhir.hie.moh.gov.my/CodeSystem/health-program-physiotherapy-my-core,CodeSystemHealthProgramPhysiotherapyMyCore
+21,KELAS PENDIDIKAN - SPINE,KELAS PENDIDIKAN - SPINE,http://fhir.hie.moh.gov.my/CodeSystem/health-program-physiotherapy-my-core,CodeSystemHealthProgramPhysiotherapyMyCore
+22,KELAS PENDIDIKAN - KNEE,KELAS PENDIDIKAN - KNEE,http://fhir.hie.moh.gov.my/CodeSystem/health-program-physiotherapy-my-core,CodeSystemHealthProgramPhysiotherapyMyCore
+23,KELAS PENDIDIKAN - HAND,KELAS PENDIDIKAN - HAND,http://fhir.hie.moh.gov.my/CodeSystem/health-program-physiotherapy-my-core,CodeSystemHealthProgramPhysiotherapyMyCore
+24,KELAS PENDIDIKAN - NEURO,KELAS PENDIDIKAN - NEURO,http://fhir.hie.moh.gov.my/CodeSystem/health-program-physiotherapy-my-core,CodeSystemHealthProgramPhysiotherapyMyCore
+25,CERAMAH,CERAMAH,http://fhir.hie.moh.gov.my/CodeSystem/health-program-physiotherapy-my-core,CodeSystemHealthProgramPhysiotherapyMyCore
+26,DEMOSTRASI,DEMOSTRASI,http://fhir.hie.moh.gov.my/CodeSystem/health-program-physiotherapy-my-core,CodeSystemHealthProgramPhysiotherapyMyCore
+27,PAMERAN,PAMERAN,http://fhir.hie.moh.gov.my/CodeSystem/health-program-physiotherapy-my-core,CodeSystemHealthProgramPhysiotherapyMyCore
+28,UJIAN SARINGAN,UJIAN SARINGAN,http://fhir.hie.moh.gov.my/CodeSystem/health-program-physiotherapy-my-core,CodeSystemHealthProgramPhysiotherapyMyCore
+29,MULTIDISCIPLINARY MEETING,MULTIDISCIPLINARY MEETING,http://fhir.hie.moh.gov.my/CodeSystem/health-program-physiotherapy-my-core,CodeSystemHealthProgramPhysiotherapyMyCore
+30,THERAPEUTIC EXERCISE,THERAPEUTIC EXERCISE,http://fhir.hie.moh.gov.my/CodeSystem/health-program-physiotherapy-my-core,CodeSystemHealthProgramPhysiotherapyMyCore
+31,ELECTROTHERAPY,ELECTROTHERAPY,http://fhir.hie.moh.gov.my/CodeSystem/health-program-physiotherapy-my-core,CodeSystemHealthProgramPhysiotherapyMyCore
+32,CHEST PHYSIOTHERAPY,CHEST PHYSIOTHERAPY,http://fhir.hie.moh.gov.my/CodeSystem/health-program-physiotherapy-my-core,CodeSystemHealthProgramPhysiotherapyMyCore
+33,SPECIAL TECHNIQUES,SPECIAL TECHNIQUES,http://fhir.hie.moh.gov.my/CodeSystem/health-program-physiotherapy-my-core,CodeSystemHealthProgramPhysiotherapyMyCore
+01,ANTENATAL/POSTNATAL,ANTENATAL/POSTNATAL,http://fhir.hie.moh.gov.my/CodeSystem/health-program-physiotherapy-my-core,CodeSystemHealthProgramPhysiotherapyMyCore
+02,KESIHATAN KANAK-KANAK,KESIHATAN KANAK-KANAK,http://fhir.hie.moh.gov.my/CodeSystem/health-program-physiotherapy-my-core,CodeSystemHealthProgramPhysiotherapyMyCore
+03,KESIHATAN SEKOLAH,KESIHATAN SEKOLAH,http://fhir.hie.moh.gov.my/CodeSystem/health-program-physiotherapy-my-core,CodeSystemHealthProgramPhysiotherapyMyCore
+04,KESIHATAN DEWASA (WELLNESS),KESIHATAN DEWASA (WELLNESS),http://fhir.hie.moh.gov.my/CodeSystem/health-program-physiotherapy-my-core,CodeSystemHealthProgramPhysiotherapyMyCore
+05,KANAK-KANAK KEPERLUAN KHAS,KANAK-KANAK KEPERLUAN KHAS,http://fhir.hie.moh.gov.my/CodeSystem/health-program-physiotherapy-my-core,CodeSystemHealthProgramPhysiotherapyMyCore
+06,KESIHATAN REMAJA,KESIHATAN REMAJA,http://fhir.hie.moh.gov.my/CodeSystem/health-program-physiotherapy-my-core,CodeSystemHealthProgramPhysiotherapyMyCore
+07,KESIHATAN WARGA EMAS (WELLNESS),KESIHATAN WARGA EMAS (WELLNESS),http://fhir.hie.moh.gov.my/CodeSystem/health-program-physiotherapy-my-core,CodeSystemHealthProgramPhysiotherapyMyCore
+08,KESIHATAN WARGA EMAS (INSTITUSI),KESIHATAN WARGA EMAS (INSTITUSI),http://fhir.hie.moh.gov.my/CodeSystem/health-program-physiotherapy-my-core,CodeSystemHealthProgramPhysiotherapyMyCore
+09,PERAWATAN DOMISILIARI,PERAWATAN DOMISILIARI,http://fhir.hie.moh.gov.my/CodeSystem/health-program-physiotherapy-my-core,CodeSystemHealthProgramPhysiotherapyMyCore
+00,LAIN-LAIN,LAIN-LAIN,http://fhir.hie.moh.gov.my/CodeSystem/health-program-physiotherapy-my-core,CodeSystemHealthProgramPhysiotherapyMyCore

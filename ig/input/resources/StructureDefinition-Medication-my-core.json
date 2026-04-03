@@ -1,0 +1,123 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Medication-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Medication-my-core",
+  "version": "2.0.0",
+  "name": "MedicationMyCore",
+  "title": "Medication (MY Core)",
+  "status": "active",
+  "date": "2023-06-08T03:08:38.5864399+00:00",
+  "description": "Medication catalogue for local organization",
+  "purpose": "Medication catalogue for local organization",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Medication",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Medication",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Medication.extension",
+        "path": "Medication.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 0
+      },
+      {
+        "id": "Medication.extension:recommended",
+        "path": "Medication.extension",
+        "sliceName": "recommended",
+        "min": 0,
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/medication-recommended-my-core"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "Medication.extension:packDescription",
+        "path": "Medication.extension",
+        "sliceName": "packDescription",
+        "min": 0,
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/medication-pack-description-my-core"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "Medication.extension:serviceProvider",
+        "path": "Medication.extension",
+        "sliceName": "serviceProvider",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/service-provider-my-core"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "Medication.extension:medicationKnowledge",
+        "path": "Medication.extension",
+        "sliceName": "medicationKnowledge",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/medication-knowledge-my-core"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "Medication.extension:audit",
+        "path": "Medication.extension",
+        "sliceName": "audit",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/audit-my-core"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "Medication.form",
+        "path": "Medication.form",
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/drug-dose-form-my-core"
+        }
+      }
+    ]
+  },
+  "experimental": false
+}

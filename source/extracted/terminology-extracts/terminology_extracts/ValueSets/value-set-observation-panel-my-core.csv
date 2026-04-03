@@ -1,0 +1,7 @@
+code,display,system,include_type,valueset_url,valueset_name
+85353-1,Vital signs panel,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-panel-my-core,ValueSetObservationPanelMyCore
+55418-8,Anthropometry panel,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-panel-my-core,ValueSetObservationPanelMyCore
+41653-7,Glucose panel,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-panel-my-core,ValueSetObservationPanelMyCore
+32885-6,Dental chart,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-panel-my-core,ValueSetObservationPanelMyCore
+82611-5,Wearable device external physiologic monitoring panel,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-panel-my-core,ValueSetObservationPanelMyCore
+0001,Child Anthropometry,http://fhir.hie.moh.gov.my/CodeSystem/observation-panel-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-panel-my-core,ValueSetObservationPanelMyCore

@@ -1,0 +1,785 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-clinic-physiotherapy-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemClinicPhysiotherapy (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core</tt><p>Malaysia Clinic Physiotherapy</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core",
+  "name": "CodeSystemClinicPhysiotherapyMyCore",
+  "title": "CodeSystemClinicPhysiotherapy (MY Core)",
+  "status": "active",
+  "date": "2023-07-25T00:23:50.1094378+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "description": "Malaysia Clinic Physiotherapy",
+  "compositional": false,
+  "content": "complete",
+  "count": 69,
+  "property": [
+    {
+      "code": "Category",
+      "type": "string"
+    }
+  ],
+  "concept": [
+    {
+      "code": "10",
+      "display": "Exs-R (Exercise - Resisted)",
+      "definition": "Exs-R (Exercise - Resisted)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Theraputic Exercise"
+        }
+      ]
+    },
+    {
+      "code": "11",
+      "display": "GE (Group Exs)",
+      "definition": "GE (Group Exs)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Theraputic Exercise"
+        }
+      ]
+    },
+    {
+      "code": "12",
+      "display": "CTE (Circuit Training Exs)",
+      "definition": "CTE (Circuit Training Exs)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Theraputic Exercise"
+        }
+      ]
+    },
+    {
+      "code": "13",
+      "display": "AMB (Ambulation)",
+      "definition": "AMB (Ambulation)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Theraputic Exercise"
+        }
+      ]
+    },
+    {
+      "code": "14",
+      "display": "FA (Functional Activities)",
+      "definition": "FA (Functional Activities)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Theraputic Exercise"
+        }
+      ]
+    },
+    {
+      "code": "15",
+      "display": "BAT (Balance Training)",
+      "definition": "BAT (Balance Training)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Theraputic Exercise"
+        }
+      ]
+    },
+    {
+      "code": "16",
+      "display": "G (Gait Training)",
+      "definition": "G (Gait Training)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Theraputic Exercise"
+        }
+      ]
+    },
+    {
+      "code": "17",
+      "display": "TBE (Therapeutic Ball Exs)",
+      "definition": "TBE (Therapeutic Ball Exs)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Theraputic Exercise"
+        }
+      ]
+    },
+    {
+      "code": "18",
+      "display": "APNE (Ante Post Natal Exs)",
+      "definition": "APNE (Ante Post Natal Exs)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Theraputic Exercise"
+        }
+      ]
+    },
+    {
+      "code": "19",
+      "display": "PFME (Pelvic Floor Mus. Exs)",
+      "definition": "PFME (Pelvic Floor Mus. Exs)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Theraputic Exercise"
+        }
+      ]
+    },
+    {
+      "code": "20",
+      "display": "Mat Activity",
+      "definition": "Mat Activity",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Theraputic Exercise"
+        }
+      ]
+    },
+    {
+      "code": "21",
+      "display": "ME (Mechanical Exs)",
+      "definition": "ME (Mechanical Exs)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Theraputic Exercise"
+        }
+      ]
+    },
+    {
+      "code": "22",
+      "display": "Bicycle (Ergometer / Recumbent Bike)",
+      "definition": "Bicycle (Ergometer / Recumbent Bike)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Theraputic Exercise"
+        }
+      ]
+    },
+    {
+      "code": "23",
+      "display": "T (Treadmill)",
+      "definition": "T (Treadmill)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Theraputic Exercise"
+        }
+      ]
+    },
+    {
+      "code": "24",
+      "display": "Motorised cycle",
+      "definition": "Motorised cycle",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Theraputic Exercise"
+        }
+      ]
+    },
+    {
+      "code": "25",
+      "display": "STH (Suspension Therapy)",
+      "definition": "STH (Suspension Therapy)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Theraputic Exercise"
+        }
+      ]
+    },
+    {
+      "code": "26",
+      "display": "Tilt table Activity",
+      "definition": "Tilt table Activity",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Theraputic Exercise"
+        }
+      ]
+    },
+    {
+      "code": "27",
+      "display": "Cryotherapy by Air",
+      "definition": "Cryotherapy by Air",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Cryotherapy"
+        }
+      ]
+    },
+    {
+      "code": "28",
+      "display": "C (Cryocuff)",
+      "definition": "C (Cryocuff)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Cryotherapy"
+        }
+      ]
+    },
+    {
+      "code": "29",
+      "display": "IP (Ice Pack)",
+      "definition": "IP (Ice Pack)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Cryotherapy"
+        }
+      ]
+    },
+    {
+      "code": "30",
+      "display": "HP (Hotpack)",
+      "definition": "HP (Hotpack)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Thermal"
+        }
+      ]
+    },
+    {
+      "code": "31",
+      "display": "WB (Wax Bath)",
+      "definition": "WB (Wax Bath)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Thermal"
+        }
+      ]
+    },
+    {
+      "code": "32",
+      "display": "IRR (Infrared Therapy)",
+      "definition": "IRR (Infrared Therapy)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Thermal"
+        }
+      ]
+    },
+    {
+      "code": "33",
+      "display": "CT (Cervical Traction)",
+      "definition": "CT (Cervical Traction)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Mechanical Therapy"
+        }
+      ]
+    },
+    {
+      "code": "34",
+      "display": "LTR (Lumbar Traction)",
+      "definition": "LTR (Lumbar Traction)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Mechanical Therapy"
+        }
+      ]
+    },
+    {
+      "code": "35",
+      "display": "CPM (Cont. Pass. Motion)",
+      "definition": "CPM (Cont. Pass. Motion)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Mechanical Therapy"
+        }
+      ]
+    },
+    {
+      "code": "36",
+      "display": "Supportive",
+      "definition": "Supportive",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Bandaging"
+        }
+      ]
+    },
+    {
+      "code": "37",
+      "display": "Compression",
+      "definition": "Compression",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Bandaging"
+        }
+      ]
+    },
+    {
+      "code": "38",
+      "display": "Taping",
+      "definition": "Taping",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Strapping"
+        }
+      ]
+    },
+    {
+      "code": "39",
+      "display": "BE (Breathing Exs)",
+      "definition": "BE (Breathing Exs)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Chest Physiotherapy"
+        }
+      ]
+    },
+    {
+      "code": "40",
+      "display": "ACBT (Act. Cycle Breath. Tech)",
+      "definition": "ACBT (Act. Cycle Breath. Tech)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Chest Physiotherapy"
+        }
+      ]
+    },
+    {
+      "code": "41",
+      "display": "PD (Postural Drainage)",
+      "definition": "PD (Postural Drainage)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Chest Physiotherapy"
+        }
+      ]
+    },
+    {
+      "code": "42",
+      "display": "PVS (Percus / Vibrat / Shaking)",
+      "definition": "PVS (Percus / Vibrat / Shaking)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Chest Physiotherapy"
+        }
+      ]
+    },
+    {
+      "code": "43",
+      "display": "Mechanical Chest Percussion",
+      "definition": "Mechanical Chest Percussion",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Chest Physiotherapy"
+        }
+      ]
+    },
+    {
+      "code": "44",
+      "display": "SUCTION",
+      "definition": "SUCTION",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Chest Physiotherapy"
+        }
+      ]
+    },
+    {
+      "code": "45",
+      "display": "IMT (Inspiratory Muscle Training)",
+      "definition": "IMT (Inspiratory Muscle Training)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Chest Physiotherapy"
+        }
+      ]
+    },
+    {
+      "code": "46",
+      "display": "IS (Incentive Spirometer)",
+      "definition": "IS (Incentive Spirometer)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Chest Physiotherapy"
+        }
+      ]
+    },
+    {
+      "code": "47",
+      "display": "Use of Adjuncts In Respiratory Care",
+      "definition": "Use of Adjuncts In Respiratory Care",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Chest Physiotherapy"
+        }
+      ]
+    },
+    {
+      "code": "48",
+      "display": "JM (Joint Mobilization)",
+      "definition": "JM (Joint Mobilization)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Special Techniques"
+        }
+      ]
+    },
+    {
+      "code": "49",
+      "display": "MT (McKenzie / Maitland Technique)",
+      "definition": "MT (McKenzie / Maitland Technique)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Special Techniques"
+        }
+      ]
+    },
+    {
+      "code": "50",
+      "display": "NT (Neurodevelopmental Therapy)",
+      "definition": "NT (Neurodevelopmental Therapy)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Special Techniques"
+        }
+      ]
+    },
+    {
+      "code": "51",
+      "display": "A (Acupressure)",
+      "definition": "A (Acupressure)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Special Techniques"
+        }
+      ]
+    },
+    {
+      "code": "52",
+      "display": "Icing and Brushing",
+      "definition": "Icing and Brushing",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Special Techniques"
+        }
+      ]
+    },
+    {
+      "code": "53",
+      "display": "STM (Soft Tissue Manipulation)",
+      "definition": "STM (Soft Tissue Manipulation)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Special Techniques"
+        }
+      ]
+    },
+    {
+      "code": "54",
+      "display": "MFR (Myofascial Release)",
+      "definition": "MFR (Myofascial Release)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Special Techniques"
+        }
+      ]
+    },
+    {
+      "code": "55",
+      "display": "SR (Sensory Reeducation)",
+      "definition": "SR (Sensory Reeducation)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Special Techniques"
+        }
+      ]
+    },
+    {
+      "code": "56",
+      "display": "SHER (Special Hand Exercise Regime)",
+      "definition": "SHER (Special Hand Exercise Regime)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Special Techniques"
+        }
+      ]
+    },
+    {
+      "code": "57",
+      "display": "Bladder / Bowel Training",
+      "definition": "Bladder / Bowel Training",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Special Techniques"
+        }
+      ]
+    },
+    {
+      "code": "58",
+      "display": "LCS (Lumbar / Cervical Stabilisation)",
+      "definition": "LCS (Lumbar / Cervical Stabilisation)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Special Techniques"
+        }
+      ]
+    },
+    {
+      "code": "59",
+      "display": "MET (Muscle Energy Technique)",
+      "definition": "MET (Muscle Energy Technique)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Special Techniques"
+        }
+      ]
+    },
+    {
+      "code": "60",
+      "display": "PNF (Proprioceptive Neuromuscular Fasilitation)",
+      "definition": "PNF (Proprioceptive Neuromuscular Fasilitation)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Special Techniques"
+        }
+      ]
+    },
+    {
+      "code": "61",
+      "display": "Mobilization with Movement",
+      "definition": "Mobilization with Movement",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Special Techniques"
+        }
+      ]
+    },
+    {
+      "code": "62",
+      "display": "ViR (Virtual Reality)",
+      "definition": "ViR (Virtual Reality)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Special Techniques"
+        }
+      ]
+    },
+    {
+      "code": "63",
+      "display": "VR (Vestibular Rehabilitation)",
+      "definition": "VR (Vestibular Rehabilitation)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Special Techniques"
+        }
+      ]
+    },
+    {
+      "code": "64",
+      "display": "PE (Patient Education)",
+      "definition": "PE (Patient Education)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Patient Education"
+        }
+      ]
+    },
+    {
+      "code": "65",
+      "display": "CFE (Carer / Family Education)",
+      "definition": "CFE (Carer / Family Education)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Patient Education"
+        }
+      ]
+    },
+    {
+      "code": "66",
+      "display": "HEP (Home Exercise Programme)",
+      "definition": "HEP (Home Exercise Programme)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Patient Education"
+        }
+      ]
+    },
+    {
+      "code": "67",
+      "display": "Teleconsultation",
+      "definition": "Teleconsultation",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Others"
+        }
+      ]
+    },
+    {
+      "code": "CODE",
+      "display": "DISPLAY",
+      "definition": "DEFINITION",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "CATEGORY"
+        }
+      ]
+    },
+    {
+      "code": "01",
+      "display": "SWD (Shortwave Diarthermy)",
+      "definition": "SWD (Shortwave Diarthermy)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Electrotherapy"
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "display": "ShockWT (Shockwave Therapy)",
+      "definition": "ShockWT (Shockwave Therapy)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Electrotherapy"
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "display": "US (Ultrasound Therapy)",
+      "definition": "US (Ultrasound Therapy)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Electrotherapy"
+        }
+      ]
+    },
+    {
+      "code": "04",
+      "display": "IT (Interferential Therapy)",
+      "definition": "IT (Interferential Therapy)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Electrotherapy"
+        }
+      ]
+    },
+    {
+      "code": "05",
+      "display": "TENS/EMS",
+      "definition": "TENS/EMS",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Electrotherapy"
+        }
+      ]
+    },
+    {
+      "code": "06",
+      "display": "Laser (Laser Therapy)",
+      "definition": "Laser (Laser Therapy)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Electrotherapy"
+        }
+      ]
+    },
+    {
+      "code": "07",
+      "display": "Myofeedback / Biofeedback (EMG)",
+      "definition": "Myofeedback / Biofeedback (EMG)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Electrotherapy"
+        }
+      ]
+    },
+    {
+      "code": "08",
+      "display": "Exs-A (Exercise - Active)",
+      "definition": "Exs-A (Exercise - Active)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Theraputic Exercise"
+        }
+      ]
+    },
+    {
+      "code": "09",
+      "display": "Exs-P (Exercise - Passive)",
+      "definition": "Exs-P (Exercise - Passive)",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Theraputic Exercise"
+        }
+      ]
+    },
+    {
+      "code": "00",
+      "display": "LAIN-LAIN",
+      "definition": "LAIN-LAIN",
+      "property": [
+        {
+          "code": "Category",
+          "valueString": "Others"
+        }
+      ]
+    }
+  ]
+}

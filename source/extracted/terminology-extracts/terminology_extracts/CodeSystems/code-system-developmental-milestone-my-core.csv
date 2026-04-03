@@ -1,0 +1,5 @@
+code,display,definition,system_url,system_name
+gross-motor,Gross Motor,Gross Motor,http://fhir.hie.moh.gov.my/CodeSystem/developmental-milestone-my-core,CodeSystemDevelopmentalMilestoneMyCore
+fine-motor,Fine Motor,Fine Motor,http://fhir.hie.moh.gov.my/CodeSystem/developmental-milestone-my-core,CodeSystemDevelopmentalMilestoneMyCore
+speech,Speech,Speech,http://fhir.hie.moh.gov.my/CodeSystem/developmental-milestone-my-core,CodeSystemDevelopmentalMilestoneMyCore
+social,Social,Social,http://fhir.hie.moh.gov.my/CodeSystem/developmental-milestone-my-core,CodeSystemDevelopmentalMilestoneMyCore

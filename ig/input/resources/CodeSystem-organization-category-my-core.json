@@ -1,0 +1,292 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "organization-category-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemOrganizationCategory (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/organization-category-my-core</tt><p>Category of Health Care organization Malaysia</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/organization-category-my-core",
+  "version": "2.0.0",
+  "name": "CodeSystemOrganizationCategoryMyCore",
+  "title": "CodeSystemOrganizationCategory (MY Core)",
+  "status": "active",
+  "date": "2023-01-12T21:13:03.0089063+00:00",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "Category of Health Care organization Malaysia",
+  "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/organization-category-my-core",
+  "compositional": false,
+  "content": "complete",
+  "count": 52,
+  "concept": [
+    {
+      "code": "ATM",
+      "display": "ANGKATAN TENTERA MALAYSIA",
+      "definition": "ANGKATAN TENTERA MALAYSIA"
+    },
+    {
+      "code": "BMU",
+      "display": "REGIONAL BMU",
+      "definition": "REGIONAL BMU"
+    },
+    {
+      "code": "CAC",
+      "display": "COVID-19 ASSESMENT CENTER",
+      "definition": "COVID-19 ASSESMENT CENTER"
+    },
+    {
+      "code": "CLB",
+      "display": "KLINIK BERGERAK",
+      "definition": "KLINIK BERGERAK"
+    },
+    {
+      "code": "CLC",
+      "display": "KLINIK KOMUNITI",
+      "definition": "KLINIK KOMUNITI"
+    },
+    {
+      "code": "CLD",
+      "display": "KLINIK DESA",
+      "definition": "KLINIK DESA"
+    },
+    {
+      "code": "CLI",
+      "display": "KLINIK KESIHATAN",
+      "definition": "KLINIK KESIHATAN"
+    },
+    {
+      "code": "CPR",
+      "display": "CRISIS PPREPAREDNESS AND RESPONSE CENTER",
+      "definition": "CRISIS PPREPAREDNESS AND RESPONSE CENTER"
+    },
+    {
+      "code": "CWC",
+      "display": "KLINIK KESIHATAN IBU DAN ANAK",
+      "definition": "KLINIK KESIHATAN IBU DAN ANAK"
+    },
+    {
+      "code": "HEX",
+      "display": "HOSPITAL EXTENSIONS",
+      "definition": "HOSPITAL EXTENSIONS"
+    },
+    {
+      "code": "IMR",
+      "display": "INSTITUTE MEDICAL RESEARCH",
+      "definition": "INSTITUTE MEDICAL RESEARCH"
+    },
+    {
+      "code": "INS",
+      "display": "SPECIAL MEDICAL INSTITUTION (KKM)",
+      "definition": "SPECIAL MEDICAL INSTITUTION (KKM)"
+    },
+    {
+      "code": "JKN",
+      "display": "JABATAN KESIHATAN NEGERI",
+      "definition": "JABATAN KESIHATAN NEGERI"
+    },
+    {
+      "code": "K1M",
+      "display": "KLINIK 1MALAYSIA",
+      "definition": "KLINIK 1MALAYSIA"
+    },
+    {
+      "code": "KOL",
+      "display": "KOLEJ",
+      "definition": "KOLEJ"
+    },
+    {
+      "code": "KP",
+      "display": "KLINIK PERGIGIAN",
+      "definition": "KLINIK PERGIGIAN"
+    },
+    {
+      "code": "KPH",
+      "display": "KLINIK PERGIGIAN DI HOSPITAL",
+      "definition": "KLINIK PERGIGIAN DI HOSPITAL"
+    },
+    {
+      "code": "KPI",
+      "display": "KLINIK PERGIGIAN DI INSTITUT",
+      "definition": "KLINIK PERGIGIAN DI INSTITUT"
+    },
+    {
+      "code": "KPKK",
+      "display": "KLINIK PERGIGIAN DI KLINIK KESIHATAN",
+      "definition": "KLINIK PERGIGIAN DI KLINIK KESIHATAN"
+    },
+    {
+      "code": "KPKKIA",
+      "display": "KLINIK PERGIGIAN DI KLINIK KESIHATAN IBU DAN ANAK",
+      "definition": "KLINIK PERGIGIAN DI KLINIK KESIHATAN IBU DAN ANAK"
+    },
+    {
+      "code": "KPKKUTC",
+      "display": "KLINIK PERGIGIAN DI KLINIK KESIHATAN UTC",
+      "definition": "KLINIK PERGIGIAN DI KLINIK KESIHATAN UTC"
+    },
+    {
+      "code": "KPRTC",
+      "display": "KLINIK PERGIGIAN DI KLINIK KOMUNITI",
+      "definition": "KLINIK PERGIGIAN DI KLINIK KOMUNITI"
+    },
+    {
+      "code": "KPS",
+      "display": "KLINIK PERGIGIAN SEKOLAH",
+      "definition": "KLINIK PERGIGIAN SEKOLAH"
+    },
+    {
+      "code": "KPUTC",
+      "display": "KLINIK PERGIGIAN UTC",
+      "definition": "KLINIK PERGIGIAN UTC"
+    },
+    {
+      "code": "MJH",
+      "display": "MAJOR HOSPITAL",
+      "definition": "MAJOR HOSPITAL"
+    },
+    {
+      "code": "MJS",
+      "display": "MAJOR SPECIALIST HOSPITAL (KKM)",
+      "definition": "MAJOR SPECIALIST HOSPITAL (KKM)"
+    },
+    {
+      "code": "MKA",
+      "display": "MAKMAL KESIHATAN AWAN",
+      "definition": "MAKMAL KESIHATAN AWAN"
+    },
+    {
+      "code": "MNS",
+      "display": "MINOR SPECIALIST HOSPITAL (KKM)",
+      "definition": "MINOR SPECIALIST HOSPITAL (KKM)"
+    },
+    {
+      "code": "MOH",
+      "display": "MINISTRY OF HEALTH",
+      "definition": "MINISTRY OF HEALTH"
+    },
+    {
+      "code": "MOS",
+      "display": "MOSTI",
+      "definition": "MOSTI"
+    },
+    {
+      "code": "NOS",
+      "display": "NON SPECIALIST HOSPITAL (KKM)",
+      "definition": "NON SPECIALIST HOSPITAL (KKM)"
+    },
+    {
+      "code": "NWH",
+      "display": "NEW HOSPITAL",
+      "definition": "NEW HOSPITAL"
+    },
+    {
+      "code": "OTH",
+      "display": "OTHERS",
+      "definition": "OTHERS"
+    },
+    {
+      "code": "PHP",
+      "display": "PRIVATE HOSPITAL",
+      "definition": "PRIVATE HOSPITAL"
+    },
+    {
+      "code": "PK",
+      "display": "PEJABAT KESIHATAN",
+      "definition": "PEJABAT KESIHATAN"
+    },
+    {
+      "code": "PKB",
+      "display": "PEJABAT KESIHATAN BAHAGIAN",
+      "definition": "PEJABAT KESIHATAN BAHAGIAN"
+    },
+    {
+      "code": "PKD",
+      "display": "PEJABAT KESIHATAN DAERAH",
+      "definition": "PEJABAT KESIHATAN DAERAH"
+    },
+    {
+      "code": "PKK",
+      "display": "PEJABAT KESIHATAN KAWASAN",
+      "definition": "PEJABAT KESIHATAN KAWASAN"
+    },
+    {
+      "code": "PKP",
+      "display": "PEJABAT KESIHATAN PERGIGIAN",
+      "definition": "PEJABAT KESIHATAN PERGIGIAN"
+    },
+    {
+      "code": "PKPD",
+      "display": "PEJABAT KESIHATAN PERGIGIAN DAERAH",
+      "definition": "PEJABAT KESIHATAN PERGIGIAN DAERAH"
+    },
+    {
+      "code": "PLB",
+      "display": "PRIVATE LAB",
+      "definition": "PRIVATE LAB"
+    },
+    {
+      "code": "PMA",
+      "display": "PINTU MASUK ANTARABANGSA",
+      "definition": "PINTU MASUK ANTARABANGSA"
+    },
+    {
+      "code": "PPB",
+      "display": "PEJABAT PERGIGIAN BAHAGIAN",
+      "definition": "PEJABAT PERGIGIAN BAHAGIAN"
+    },
+    {
+      "code": "PPH",
+      "display": "PEJABAT PERGIGIAN HOSPITAL",
+      "definition": "PEJABAT PERGIGIAN HOSPITAL"
+    },
+    {
+      "code": "PPK",
+      "display": "PEJABAT PERGIGIAN KAWASAN",
+      "definition": "PEJABAT PERGIGIAN KAWASAN"
+    },
+    {
+      "code": "PPS",
+      "display": "PEJABAT SUB SEKTOR",
+      "definition": "PEJABAT SUB SEKTOR"
+    },
+    {
+      "code": "PTPKNP",
+      "display": "PEJABAT TIMBALAN PENGARAH KESIHATAN NEGERI (PERGIGIAN)",
+      "definition": "PEJABAT TIMBALAN PENGARAH KESIHATAN NEGERI (PERGIGIAN)"
+    },
+    {
+      "code": "QRC",
+      "display": "QUARANTINE CENTER",
+      "definition": "QUARANTINE CENTER"
+    },
+    {
+      "code": "RPH",
+      "display": "REPLACEMENT HOSPITAL",
+      "definition": "REPLACEMENT HOSPITAL"
+    },
+    {
+      "code": "SPI",
+      "display": "SPECIAL INSTITUTION (KKM)",
+      "definition": "SPECIAL INSTITUTION (KKM)"
+    },
+    {
+      "code": "STH",
+      "display": "STATE HOSPITAL (KKM)",
+      "definition": "STATE HOSPITAL (KKM)"
+    },
+    {
+      "code": "UNI",
+      "display": "UNIVERSITY LAB",
+      "definition": "UNIVERSITY LAB"
+    }
+  ],
+  "experimental": false,
+  "caseSensitive": true
+}

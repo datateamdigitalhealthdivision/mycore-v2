@@ -1,0 +1,1194 @@
+code,display,definition,system_url,system_name
+10,3TC,3TC,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+20,5FU,5FU,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+30,6MP,6MP,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+40,6TG,6TG,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+50,Abelcet,Abelcet,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+60,Achromycin,Achromycin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+70,Actemra,Actemra,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+80,Actifed,Actifed,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+90,Actilyse,Actilyse,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+100,Activelle,Activelle,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+110,Actrapid,Actrapid,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+120,Acular,Acular,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+130,Adalat,Adalat,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+140,Adcetris,Adcetris,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+150,Addamel N,Addamel N,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+160,Adenocor,Adenocor,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+170,Adriamycin,Adriamycin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+180,Advate,Advate,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+190,Aerius,Aerius,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+200,Aggrastat,Aggrastat,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+210,Akurit,Akurit,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+220,Akurit 4,Akurit 4,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+230,Alcaine,Alcaine,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+240,Aldactone,Aldactone,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+250,Aldomet,Aldomet,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+260,Aldurazyme,Aldurazyme,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+270,Alimta,Alimta,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+280,Alkeran,Alkeran,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+290,Alphagan P,Alphagan P,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+300,Alphanate,Alphanate,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+310,Alphanine,Alphanine,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+320,AluTab,AluTab,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+330,Alvesco,Alvesco,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+340,AmBisome,AmBisome,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+350,Amphocil,Amphocil,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+360,Ancotil,Ancotil,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+370,Androcur,Androcur,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+380,Androgel,Androgel,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+390,Angeliq,Angeliq,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+400,Antizol,Antizol,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+410,Anusol,Anusol,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+420,Apidra,Apidra,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+430,Aprovel,Aprovel,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+440,ARA-C,ARA-C,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+450,Arava,Arava,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+460,Arcoxia,Arcoxia,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+470,Aricept,Aricept,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+480,Aricept Avess,Aricept Avess,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+490,Arimidex,Arimidex,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+500,Arixtra,Arixtra,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+510,Aromasin,Aromasin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+520,Artamin,Artamin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+530,Artane,Artane,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+540,A-Scabs,A-Scabs,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+550,ASMQ FDC,ASMQ FDC,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+560,Aspirin,Aspirin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+570,Atarax,Atarax,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+580,Atgam,Atgam,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+590,Atrovent,Atrovent,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+600,Augmentin,Augmentin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+610,Aurorix,Aurorix,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+620,Avandia,Avandia,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+630,Avastin,Avastin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+640,Avaxim,Avaxim,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+650,Avodart,Avodart,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+660,Bactrim,Bactrim,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+670,Bactroban,Bactroban,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+680,Baraclude,Baraclude,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+690,"Baritop, Barytgen","Baritop, Barytgen",http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+700,Beclomet,Beclomet,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+710,Becotide,Becotide,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+720,Benadryl,Benadryl,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+730,Benefix,Benefix,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+740,Benlysta,Benlysta,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+750,Benofos,Benofos,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+760,Berodual®,Berodual®,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+770,Betaferon,Betaferon,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+780,Betaloc,Betaloc,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+790,Betaserc,Betaserc,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+800,Betnesol,Betnesol,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+810,Betnesol-N,Betnesol-N,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+820,Betnovate,Betnovate,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+830,Betnovate-N,Betnovate-N,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+840,Betoptic,Betoptic,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+850,Bisolvon,Bisolvon,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+860,Bonjela,Bonjela,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+870,Bonviva,Bonviva,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+880,Boostrix,Boostrix,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+890,Botox,Botox,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+900,Brevibloc,Brevibloc,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+910,Bricanyl,Bricanyl,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+920,Brilinta,Brilinta,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+930,Brufen,Brufen,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+940,B.S.S,B.S.S,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+950,Budenofalk,Budenofalk,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+960,Burinex,Burinex,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+970,Buscopan,Buscopan,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+980,Buventol,Buventol,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+990,Bydureon,Bydureon,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1000,Byetta,Byetta,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1010,Caelyx,Caelyx,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1020,Calmurid,Calmurid,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1030,Candid,Candid,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1040,Canesten,Canesten,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1050,Capoten,Capoten,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1060,Cardura XL,Cardura XL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1070,Carminative,Carminative,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1080,Casodex,Casodex,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1090,CCNU,CCNU,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1100,Cefobid,Cefobid,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1110,Celebrex,Celebrex,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1120,Cellcept,Cellcept,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1130,Ceporex,Ceporex,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1140,CeraScalp,CeraScalp,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1150,Cerezyme,Cerezyme,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1160,Cernevit,Cernevit,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1170,Certican,Certican,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1180,Cerumol,Cerumol,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1190,Cervarix,Cervarix,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1200,Champix,Champix,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1210,Ciloxan,Ciloxan,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1220,Ciprobay,Ciprobay,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1230,Claforan,Claforan,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1240,Clarinase,Clarinase,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1250,Clarityne,Clarityne,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1260,Clexane,Clexane,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1270,Cloderm,Cloderm,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1280,Clomid,Clomid,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1290,Clopixol,Clopixol,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1300,Clopixol Accuphase,Clopixol Accuphase,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1310,Clopixol Depot,Clopixol Depot,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1320,Clorox,Clorox,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1330,Clozaril,Clozaril,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1340,CMC,CMC,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1350,Co-Approvel,Co-Approvel,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1360,CoDiovan,CoDiovan,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1370,Co-Diovan,Co-Diovan,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1380,Coenzyme Q10,Coenzyme Q10,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1390,Colclean,Colclean,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1400,Coly-Mycin M,Coly-Mycin M,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1410,Combantrin,Combantrin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1420,Combivent,Combivent,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1430,Combivir,Combivir,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1440,Combiwave,Combiwave,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1450,Comtan,Comtan,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1460,Concerta,Concerta,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1470,Concor,Concor,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1480,Controloc,Controloc,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1490,Coralon,Coralon,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1500,Cordarone,Cordarone,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1510,Cortenema,Cortenema,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1520,Cosentyx,Cosentyx,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1530,Coversyl,Coversyl,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1540,Coversyl Plus,Coversyl Plus,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1550,Cozaar,Cozaar,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1560,Cozaar XQ,Cozaar XQ,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1570,Crestor,Crestor,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1580,Crivixan,Crivixan,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1590,Cyclogyl,Cyclogyl,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1600,Cyclomydril,Cyclomydril,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1610,Cymbalta,Cymbalta,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1620,Cymevene,Cymevene,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1630,Cynokit,Cynokit,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1640,Cytomel,Cytomel,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1650,Cytotec,Cytotec,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1660,"Dacrolux, Iris","Dacrolux, Iris",http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1670,Dactinomycin,Dactinomycin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1680,Daflon,Daflon,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1690,Daivobet,Daivobet,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1700,Daivonex,Daivonex,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1710,Daktarin,Daktarin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1720,Dalacin C,Dalacin C,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1730,Daonil,Daonil,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1740,Daxas,Daxas,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1750,Deca Durabolin,Deca Durabolin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1760,Decapeptyl,Decapeptyl,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1770,De-Nol,De-Nol,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1780,Depocon,Depocon,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1790,Dermovate,Dermovate,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1800,Desferal,Desferal,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1810,Detrusitol,Detrusitol,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1820,Dexilant,Dexilant,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1830,Dextrose Saline,Dextrose Saline,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1840,DF118,DF118,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1850,Diamicron,Diamicron,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1860,Diamicron MR,Diamicron MR,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1870,Diamox,Diamox,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1880,Diane 35,Diane 35,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1890,Diavonex,Diavonex,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1900,Differin,Differin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1910,Difflam,Difflam,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1920,Diflucan,Diflucan,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1930,DigiBind,DigiBind,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1940,Dilantin,Dilantin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1950,Dilatrend,Dilatrend,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1960,Diovan,Diovan,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1970,Dipeptivan,Dipeptivan,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1980,Diprivan,Diprivan,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+1990,Distaclor,Distaclor,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2000,Dormicum,Dormicum,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2010,Dostinex,Dostinex,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2020,Dotarem,Dotarem,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2030,Drapolene,Drapolene,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2040,Dulcolax,Dulcolax,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2050,Duodart,Duodart,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2060,DuoTrav,DuoTrav,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2070,Duphalac,Duphalac,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2080,Duphaston,Duphaston,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2090,Duratears Naturale Ocular,Duratears Naturale Ocular,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2100,Durogesic,Durogesic,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2110,Duspatalin,Duspatalin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2120,Dynastat,Dynastat,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2130,Dysport,Dysport,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2140,EBB,EBB,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2150,Ebixa,Ebixa,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2160,Edrophonium Chloride,Edrophonium Chloride,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2170,EES,EES,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2180,Efexor XR,Efexor XR,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2190,Effient,Effient,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2200,Elantan,Elantan,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2210,Elaprase,Elaprase,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2220,Ella,Ella,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2230,Elomet,Elomet,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2240,Elonva,Elonva,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2250,Emend,Emend,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2260,Emla,Emla,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2270,Enbrel,Enbrel,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2280,Enzyplex,Enzyplex,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2290,Epanutin,Epanutin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2300,Epilim,Epilim,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2310,Eprex,Eprex,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2320,Eraxis,Eraxis,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2330,Erbitux,Erbitux,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2340,Escapelle,Escapelle,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2350,Esmeron,Esmeron,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2360,Eumovate,Eumovate,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2370,Eurax,Eurax,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2380,Eurofer Maltofer,Eurofer Maltofer,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2390,Eusol,Eusol,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2400,Eusol A B,Eusol A B,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2410,Euvax-B,Euvax-B,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2420,Exelon,Exelon,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2430,Exforge,Exforge,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2440,Exforge HCT,Exforge HCT,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2450,Exista,Exista,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2460,Exjade,Exjade,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2470,Ezetrol,Ezetrol,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2480,FAC,FAC,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2490,Fampyra,Fampyra,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2500,Farlutal,Farlutal,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2510,Fastum,Fastum,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2520,Feldene,Feldene,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2530,Femara,Femara,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2540,Femoston,Femoston,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2550,Femoston Conti,Femoston Conti,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2560,Ferriprox,Ferriprox,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2570,Fibrogammin,Fibrogammin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2580,Flagyl,Flagyl,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2590,Flavin,Flavin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2600,Fleet,Fleet,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2610,Fleet enema,Fleet enema,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2620,Fleet Oral,Fleet Oral,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2630,Flixotide,Flixotide,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2640,Florinef,Florinef,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2650,Fluanxol Depot,Fluanxol Depot,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2660,Fludara,Fludara,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2670,Flutiform,Flutiform,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2680,Folinic Acid,Folinic Acid,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2690,Forane,Forane,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2700,Fortrans,Fortrans,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2710,Fortum,Fortum,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2720,Fortzaar,Fortzaar,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2730,Forxiga,Forxiga,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2740,Fosamax,Fosamax,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2750,Fosamax Plus,Fosamax Plus,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2760,Fosrenol,Fosrenol,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2770,Fostair,Fostair,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2780,Frisium,Frisium,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2790,Fucicort,Fucicort,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2800,Fucidin,Fucidin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2810,Fucithalmic,Fucithalmic,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2820,Fundamin E,Fundamin E,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2830,Fungizone,Fungizone,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2840,Fybogel,Fybogel,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2850,Fycompa,Fycompa,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2860,Gadavist,Gadavist,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2870,Gadovist,Gadovist,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2880,Galvus,Galvus,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2890,GalvusMet,GalvusMet,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2900,Ganaton,Ganaton,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2910,Garamycin,Garamycin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2920,Garasone,Garasone,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2930,Gardasil,Gardasil,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2940,Gastrografin,Gastrografin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2950,Gaviscon,Gaviscon,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2960,Gazyva,Gazyva,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2970,Gelaspan,Gelaspan,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2980,Gelofusine,Gelofusine,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+2990,Gemzar,Gemzar,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3000,Genotropin,Genotropin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3010,Genteal,Genteal,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3020,Gilenya,Gilenya,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3030,Giona,Giona,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3040,Gleevec,Gleevec,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3050,Glucobay,Glucobay,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3060,Glucophage,Glucophage,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3070,Glucophage XR,Glucophage XR,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3080,Glucovance,Glucovance,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3090,Glyprin Cardiprin,Glyprin Cardiprin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3100,Gonal-F,Gonal-F,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3110,Gonio Gel,Gonio Gel,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3120,GTN,GTN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3130,Gynoflov,Gynoflov,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3140,Gyno-Trosyd,Gyno-Trosyd,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3150,Haemaccel,Haemaccel,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3160,Haes Steril,Haes Steril,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3170,Halaven,Halaven,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3180,Half Saline,Half Saline,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3190,Harnal OCAS,Harnal OCAS,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3200,Hartmanns,Hartmanns,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3210,HCG,HCG,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3220,Hemohes,Hemohes,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3230,Hepsera,Hepsera,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3240,Herbesser,Herbesser,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3250,Herceptin,Herceptin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3260,Hextend,Hextend,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3270,Hibiscrub,Hibiscrub,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3280,Hibitane,Hibitane,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3290,Hidonac,Hidonac,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3300,Hidrasec,Hidrasec,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3310,Humalog,Humalog,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3320,Humalog Mix-25,Humalog Mix-25,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3330,HumalogMix50,HumalogMix50,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3340,Humatin,Humatin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3350,Humira,Humira,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3360,Humulin 30/70,Humulin 30/70,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3370,Humulin N,Humulin N,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3380,Humulin R,Humulin R,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3390,Hycamtin,Hycamtin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3400,Hydergine,Hydergine,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3410,Hydrea,Hydrea,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3420,Hyperhep/Hepabig,Hyperhep/Hepabig,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3430,Hytrin,Hytrin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3440,Hyzaar,Hyzaar,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3450,Iberet-Folic-500,Iberet-Folic-500,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3460,Imdur,Imdur,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3470,Imigran,Imigran,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3480,Imigran FDT,Imigran FDT,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3490,Immucyst,Immucyst,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3500,Imodium,Imodium,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3510,Implanon,Implanon,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3520,Imuran,Imuran,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3530,Inderal,Inderal,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3540,Indocid,Indocid,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3550,Innohep,Innohep,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3560,Inspra,Inspra,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3570,Insulatard,Insulatard,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3580,Insuman Basal,Insuman Basal,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3590,Insuman Comb,Insuman Comb,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3600,Insuman Rapid,Insuman Rapid,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3610,Intralipid,Intralipid,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3620,Intron-A,Intron-A,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3630,Invanz,Invanz,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3640,Invega,Invega,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3650,Invega Sustenna,Invega Sustenna,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3660,Iopamiro,Iopamiro,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3670,Iressa,Iressa,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3680,"ISDN, Isordil","ISDN, Isordil",http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3690,Isentress,Isentress,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3700,Isoket IV,Isoket IV,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3710,Isoptin,Isoptin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3720,Isteropac,Isteropac,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3730,Jakavi,Jakavi,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3740,Janumet,Janumet,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3750,Janumet XR,Janumet XR,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3760,Januvia,Januvia,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3770,JE,JE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3780,Jevtana,Jevtana,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3790,Jumex,Jumex,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3800,Kaletra,Kaletra,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3810,Kalimate,Kalimate,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3820,Kenacort-A,Kenacort-A,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3830,Kenalog in Orabase,Kenalog in Orabase,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3840,Kenhancer,Kenhancer,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3850,Keppra,Keppra,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3860,Ketorolac,Ketorolac,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3870,Kivexa,Kivexa,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3880,Klacid,Klacid,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3890,Kombiglyze,Kombiglyze,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3900,Konakion,Konakion,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3910,KY Jelly,KY Jelly,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3920,Kytril,Kytril,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3930,Lamictal,Lamictal,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3940,Lamisil,Lamisil,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3950,Lanoxin,Lanoxin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3960,Lantus,Lantus,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3970,Lasix,Lasix,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3980,Lastet,Lastet,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+3990,Leukeran,Leukeran,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4000,Levemir,Levemir,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4010,Levophed,Levophed,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4020,Lexapro,Lexapro,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4030,Lexotan,Lexotan,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4040,Lidocaine,Lidocaine,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4050,Lignopad Versatis,Lignopad Versatis,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4060,Lindane,Lindane,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4070,Lioresal,Lioresal,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4080,Lipidem,Lipidem,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4090,Lipitor,Lipitor,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4100,Lipofundin,Lipofundin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4110,Liquifilm,Liquifilm,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4120,LMS,LMS,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4130,Loceryl,Loceryl,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4140,Loette,Loette,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4150,Lomotil,Lomotil,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4160,Lopid,Lopid,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4170,Losec,Losec,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4180,Lucentis,Lucentis,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4190,Lucrin Depot,Lucrin Depot,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4200,Lugol,Lugol,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4210,Lumigan,Lumigan,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4220,Luvox,Luvox,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4230,Lyrica,Lyrica,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4240,Maalox Plus,Maalox Plus,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4250,MabThera,MabThera,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4260,Madopar,Madopar,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4270,Magnevist,Magnevist,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4280,Maltofer,Maltofer,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4290,Marcain,Marcain,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4300,Marcain Heavy,Marcain Heavy,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4310,Maxidex,Maxidex,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4320,Maxipime,Maxipime,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4330,Maxitrol,Maxitrol,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4340,Maxolon,Maxolon,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4350,Meditrol,Meditrol,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4360,Meliane Minulet,Meliane Minulet,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4370,Menopur,Menopur,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4380,"Mercilon, Novynette","Mercilon, Novynette",http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4390,Merislon,Merislon,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4400,Meronem,Meronem,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4410,Metalyse,Metalyse,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4420,Methylcobal,Methylcobal,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4430,Miacalcic,Miacalcic,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4440,Micardis,Micardis,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4450,Micardis Plus,Micardis Plus,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4460,Mictonorm,Mictonorm,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4470,Minipress,Minipress,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4480,Minirin,Minirin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4490,Miostat,Miostat,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4500,Mircera,Mircera,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4510,Mirena,Mirena,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4520,Mixtard-30,Mixtard-30,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4530,MMT,MMT,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4540,Mobic,Mobic,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4550,Moduretic,Moduretic,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4560,Motilium,Motilium,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4570,MTX,MTX,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4580,Mucolator,Mucolator,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4590,Multiload MLCu,Multiload MLCu,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4600,Mycamine,Mycamine,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4610,Mycobutin,Mycobutin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4620,Mycostatin,Mycostatin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4630,Mydfrin,Mydfrin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4640,Mydriacil,Mydriacil,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4650,Mydriatic,Mydriatic,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4660,Myleran,Myleran,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4670,Myonal,Myonal,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4680,Myozyme,Myozyme,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4690,NA,NA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4700,Naprosyn,Naprosyn,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4710,Naropin,Naropin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4720,Nasonex,Nasonex,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4730,Natacyn,Natacyn,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4740,NatrilixSR,NatrilixSR,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4750,Natulan,Natulan,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4760,Navelbine,Navelbine,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4770,NeoProfen,NeoProfen,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4780,Neostigmine,Neostigmine,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4790,Neotigason,Neotigason,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4800,Neupogen,Neupogen,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4810,Neupro,Neupro,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4820,Neurobion,Neurobion,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4830,Neurontin,Neurontin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4840,Nevanac,Nevanac,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4850,Nexium,Nexium,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4860,Nicorette,Nicorette,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4870,Nicorette Patch,Nicorette Patch,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4880,Nimotop,Nimotop,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4890,Nitroderm TTS,Nitroderm TTS,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4900,Nitrosol,Nitrosol,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4910,Nizoral,Nizoral,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4920,Nootropil,Nootropil,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4930,Norcuron,Norcuron,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4940,Norditropin,Norditropin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4950,Norflex,Norflex,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4960,Norfloxin,Norfloxin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4970,Noriday,Noriday,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4980,Normal Saline,Normal Saline,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+4990,Norvasc,Norvasc,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5000,Norvir,Norvir,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5010,Novomix-30,Novomix-30,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5020,Novonorm,Novonorm,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5030,Novorapid,Novorapid,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5040,NovoSeven,NovoSeven,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5050,Nuelin,Nuelin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5060,Nuelin SR,Nuelin SR,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5070,Obimin,Obimin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5080,Obimin Zincofer,Obimin Zincofer,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5090,Octanine,Octanine,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5100,Ocusol,Ocusol,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5110,"Omnipaque, Contrapaque","Omnipaque, Contrapaque",http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5120,Omniscan,Omniscan,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5130,Onbrez,Onbrez,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5140,One Alpha,One Alpha,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5150,One-Alpha,One-Alpha,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5160,Onglyza,Onglyza,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5170,Opticrom,Opticrom,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5180,ORS,ORS,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5190,Otosporin,Otosporin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5200,Ovidrel,Ovidrel,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5210,Oxis,Oxis,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5220,Oxycontin,Oxycontin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5230,Oxynorm,Oxynorm,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5240,Oxytocin,Oxytocin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5250,Panadol,Panadol,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5260,Papase,Papase,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5270,Pariet,Pariet,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5280,Paser,Paser,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5290,Pataday,Pataday,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5300,Patanol,Patanol,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5310,Pavulon,Pavulon,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5320,Peditrace,Peditrace,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5330,Pegasys,Pegasys,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5340,Peg-Intron,Peg-Intron,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5350,Peglasta,Peglasta,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5360,Penglobe,Penglobe,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5370,Penicillin,Penicillin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5380,Penicillin V,Penicillin V,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5390,Pentasa,Pentasa,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5400,Perascope,Perascope,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5410,Persantin,Persantin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5420,Phenergan,Phenergan,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5430,Physiotens,Physiotens,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5440,Piolet,Piolet,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5450,Pipracil,Pipracil,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5460,Piriton,Piriton,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5470,Plasmanate,Plasmanate,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5480,Plavix,Plavix,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5490,Plendil,Plendil,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5500,Pletaal,Pletaal,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5510,Pneumovax 23,Pneumovax 23,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5520,Polaramine,Polaramine,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5530,Polytar,Polytar,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5540,Ponstan,Ponstan,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5550,Pradaxa,Pradaxa,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5560,Pravachol,Pravachol,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5570,Premarin,Premarin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5580,Premelle,Premelle,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5590,Presept,Presept,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5600,Prevenar,Prevenar,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5610,Priftin,Priftin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5620,Pristiq,Pristiq,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5630,Proglycem,Proglycem,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5640,Prograf,Prograf,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5650,Progyluton,Progyluton,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5660,Progynova,Progynova,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5670,Prolia,Prolia,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5680,Proluton Depot,Proluton Depot,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5690,Proscar,Proscar,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5700,Prostin VR,Prostin VR,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5710,Protaxos,Protaxos,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5720,Provera,Provera,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5730,Prozac,Prozac,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5740,Pulmicort,Pulmicort,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5750,Puregon,Puregon,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5760,Quixin Oftaquix,Quixin Oftaquix,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5770,Rameron,Rameron,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5780,Rapamune,Rapamune,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5790,Rapifen,Rapifen,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5800,Rasilez,Rasilez,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5810,Ravin,Ravin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5820,Rebif,Rebif,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5830,Recormon,Recormon,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5840,"Regulon, Marvelon, Desolon","Regulon, Marvelon, Desolon",http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5850,Remicade,Remicade,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5860,Renitrec,Renitrec,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5870,Requip,Requip,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5880,Requip PD,Requip PD,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5890,Resolor,Resolor,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5900,Resonium-A,Resonium-A,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5910,Retin-A,Retin-A,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5920,Retrovir,Retrovir,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5930,Revlimid,Revlimid,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5940,Revolade,Revolade,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5950,Rhogum,Rhogum,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5960,Rigevidon,Rigevidon,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5970,Rimcure 3-FD,Rimcure 3-FD,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5980,Risperdal,Risperdal,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+5990,Risperdal Consta,Risperdal Consta,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6000,Ritalin,Ritalin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6010,Ritalin LA,Ritalin LA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6020,Rivotril,Rivotril,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6030,Roaccutane,Roaccutane,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6040,RoActemra,RoActemra,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6050,Rocaltrol,Rocaltrol,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6060,Rocephine,Rocephine,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6070,Roferon-A,Roferon-A,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6080,Sabril,Sabril,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6090,Saferon,Saferon,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6100,Salazopyrin,Salazopyrin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6110,Salofalk,Salofalk,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6120,Sandimmun,Sandimmun,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6130,Sandimmun Neoral,Sandimmun Neoral,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6140,Sandomigran,Sandomigran,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6150,Saphris,Saphris,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6160,Scoline,Scoline,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6170,Sebitar,Sebitar,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6180,Seebri,Seebri,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6190,Selsun,Selsun,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6200,Seretide,Seretide,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6210,Seroquel,Seroquel,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6220,Sevorane,Sevorane,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6230,Sibelium,Sibelium,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6240,Sifrol,Sifrol,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6250,Signifor,Signifor,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6260,SImdax,SImdax,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6270,Simponi,Simponi,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6280,Simulect,Simulect,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6290,Sinemet,Sinemet,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6300,Singular,Singular,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6310,Sirturo,Sirturo,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6320,Skinoren,Skinoren,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6330,SLN 30,SLN 30,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6340,SLN 40,SLN 40,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6350,Slow K,Slow K,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6360,SMOFlipid,SMOFlipid,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6370,Sofradex,Sofradex,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6380,Solcoseryl,Solcoseryl,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6390,Solian,Solian,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6400,Solu-Medrol,Solu-Medrol,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6410,Soluvit N,Soluvit N,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6420,Sotacor,Sotacor,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6430,Sovenor,Sovenor,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6440,"Spasmolyt, Sanctura","Spasmolyt, Sanctura",http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6450,Spersallerg,Spersallerg,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6460,Spiriva,Spiriva,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6470,Spiriva Respimat,Spiriva Respimat,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6480,Sporanox,Sporanox,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6490,Stamaril,Stamaril,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6500,Stavelo,Stavelo,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6510,Stelara,Stelara,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6520,SteriPrep,SteriPrep,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6530,Sterofundin,Sterofundin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6540,Stilnox,Stilnox,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6550,Stivarga,Stivarga,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6560,Stocrin,Stocrin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6570,Strattera,Strattera,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6580,Striverdi,Striverdi,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6590,Stromectol,Stromectol,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6600,Suboxone,Suboxone,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6610,Sulperazone,Sulperazone,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6620,Suprane,Suprane,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6630,Survanta,Survanta,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6640,Sutent,Sutent,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6650,Symbicort,Symbicort,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6660,Synacthen,Synacthen,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6670,Synagis,Synagis,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6680,Systane Ultra,Systane Ultra,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6690,Tambocor,Tambocor,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6700,Tamiflu,Tamiflu,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6710,Tarceva,Tarceva,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6720,Targin,Targin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6730,Tarivid,Tarivid,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6740,Tasigna,Tasigna,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6750,Taxol,Taxol,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6760,Taxotere,Taxotere,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6770,Tazosin,Tazosin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6780,"Tears Natural, Bion Tear, IRIS","Tears Natural, Bion Tear, IRIS",http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6790,Tegretol,Tegretol,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6800,Tegretol CR,Tegretol CR,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6810,Temodal,Temodal,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6820,Tenormin,Tenormin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6830,Terramycin,Terramycin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6840,Tetraspan,Tetraspan,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6850,Thyrogen,Thyrogen,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6860,Ticlid,Ticlid,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6870,Tienam,Tienam,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6880,Timoptic,Timoptic,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6890,Timoptol,Timoptol,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6900,Tomudex,Tomudex,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6910,Topamax,Topamax,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6920,Toviaz,Toviaz,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6930,Tracium,Tracium,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6940,Tracleer,Tracleer,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6950,Tractocile,Tractocile,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6960,Trajenta,Trajenta,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6970,Trajenta Duo,Trajenta Duo,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6980,Tramal,Tramal,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+6990,Trandate,Trandate,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7000,Transamin,Transamin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7010,Trecator,Trecator,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7020,Tritace,Tritace,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7030,Trivastal retard,Trivastal retard,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7040,Trombovar,Trombovar,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7050,Trosyd,Trosyd,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7060,Trusopt,Trusopt,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7070,Twynsta,Twynsta,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7080,Typhim VI,Typhim VI,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7090,Ultibro,Ultibro,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7100,Ultravist,Ultravist,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7110,Unasyn,Unasyn,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7120,Ural,Ural,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7130,Urovison,Urovison,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7140,Uroxate,Uroxate,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7150,Ursofalk,Ursofalk,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7160,Valcyte,Valcyte,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7170,Valdoxan,Valdoxan,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7180,Valium,Valium,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7190,Varilrix,Varilrix,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7200,Vaseline,Vaseline,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7210,Vasteral,Vasteral,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7220,Vasteral MR,Vasteral MR,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7230,Velcade,Velcade,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7240,Venofer,Venofer,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7250,Venofundin,Venofundin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7260,Ventolin,Ventolin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7270,Verorab,Verorab,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7280,Vesanoid,Vesanoid,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7290,Vesicare,Vesicare,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7300,Vfend,Vfend,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7310,Viagra,Viagra,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7320,Viatril,Viatril,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7330,Vibramycin,Vibramycin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7340,Victoza,Victoza,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7350,Vidaza,Vidaza,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7360,Videx,Videx,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7370,VIEKIRAX,VIEKIRAX,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7380,Vigamox,Vigamox,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7390,Viramune,Viramune,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7400,Visanne,Visanne,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7410,Visipaque,Visipaque,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7420,Vitalipid N,Vitalipid N,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7430,Vitamin B1,Vitamin B1,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7440,Vitamin B12,Vitamin B12,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7450,Vitamin B2,Vitamin B2,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7460,Vitamin B3,Vitamin B3,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7470,Vitamin B5,Vitamin B5,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7480,Vitamin B6,Vitamin B6,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7490,Vitamin C,Vitamin C,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7500,Volibris,Volibris,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7510,Voltaren,Voltaren,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7520,Voluven,Voluven,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7530,Votrient,Votrient,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7540,Vytorin,Vytorin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7550,Whitfields,Whitfields,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7560,Xalacom,Xalacom,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7570,Xalatan,Xalatan,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7580,Xanax,Xanax,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7590,Xarelto,Xarelto,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7600,Xeloda,Xeloda,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7610,Xolair,Xolair,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7620,Xylocaine,Xylocaine,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7630,Xyloproct,Xyloproct,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7640,Xyzal,Xyzal,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7650,YAZ,YAZ,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7660,Zantac,Zantac,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7670,Zarin,Zarin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7680,Zarontin,Zarontin,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7690,Zeldox IM,Zeldox IM,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7700,Zentel,Zentel,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7710,Zinacef,Zinacef,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7720,Zincofer,Zincofer,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7730,Zinnat,Zinnat,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7740,Zithromax,Zithromax,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7750,Zocor,Zocor,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7760,Zofran,Zofran,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7770,Zoladex,Zoladex,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7780,Zoladex LA,Zoladex LA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7790,Zoloft,Zoloft,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7800,Zometa,Zometa,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7810,Zonegran,Zonegran,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7820,Zovirax,Zovirax,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7830,Zyprexa,Zyprexa,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7840,Zyprexa Zydis,Zyprexa Zydis,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7850,Zyrtec,Zyrtec,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7860,Zytiga,Zytiga,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7870,Zyvox,Zyvox,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7880,ABILIFY,ABILIFY,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7890,ABRAXANE,ABRAXANE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7900,ABSTRAL,ABSTRAL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7910,ABSTRAL,ABSTRAL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7920,ACARIZAX,ACARIZAX,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7930,A-CERUMEN,A-CERUMEN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7940,ACLASTA,ACLASTA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7950,ADDAVEN,ADDAVEN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7960,ADIPEXRETARD,ADIPEXRETARD,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7970,ADIPEX RETARD,ADIPEX RETARD,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7980,ADYNOVI,ADYNOVI,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+7990,AFINITOR,AFINITOR,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8000,AFRIN,AFRIN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8010,AKYNZEO,AKYNZEO,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8020,ALBUTEIN,ALBUTEIN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8030,ALDARA,ALDARA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8040,ALECENSA,ALECENSA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8050,ALOXI,ALOXI,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8060,AMBUTYRATE,AMBUTYRATE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8070,ANDRIOL,ANDRIOL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8080,ANGIOCIS,ANGIOCIS,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8090,ANTACIDUM,ANTACIDUM,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8100,APPETON,APPETON,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8110,ARGINITRIC,ARGINITRIC,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8120,ARTIFICIAL TEARS,ARTIFICIAL TEARS,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8130,"ARTIFICIAL TEARS DACROLUX, IRIS","ARTIFICIAL TEARS DACROLUX, IRIS",http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8140,ARTIFICIAL TEARS GENTEAL,ARTIFICIAL TEARS GENTEAL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8150,ASTRAZENECA,ASTRAZENECA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8160,ATIVAN,ATIVAN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8170,ATPF,ATPF,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8180,AUBAGIO,AUBAGIO,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8190,AVAMYS,AVAMYS,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8200,AVIGAN,AVIGAN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8210,AVONEX,AVONEX,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8220,AZARGA,AZARGA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8230,AZOPT,AZOPT,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8240,AZYTER,AZYTER,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8250,BECONASE,BECONASE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8260,BEPROSALIC,BEPROSALIC,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8270,BERODUAL,BERODUAL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8280,BESPONSA,BESPONSA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8290,BETADINE,BETADINE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8300,BETMIGA,BETMIGA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8310,BICNU,BICNU,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8320,BILAXTEN,BILAXTEN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8330,BIOFREEZE,BIOFREEZE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8340,BIOSTATE,BIOSTATE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8350,BIO ZINC,BIO ZINC,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8360,BLINCYTO,BLINCYTO,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8370,BOSULIF,BOSULIF,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8380,BRIDATEC,BRIDATEC,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8390,BRIDION,BRIDION,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8400,BRINEURA,BRINEURA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8410,BRINTELLIX,BRINTELLIX,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8420,BRIVIACT,BRIVIACT,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8430,BROLENE,BROLENE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8440,BVC,BVC,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8450,CARDEPINE,CARDEPINE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8460,CARNI-G,CARNI-G,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8470,CASEN,CASEN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8480,CATIONORM,CATIONORM,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8490,CAVERJECT,CAVERJECT,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8500,CEELIN,CEELIN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8510,CEENU,CEENU,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8520,CELSENTRI,CELSENTRI,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8530,CERETEC,CERETEC,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8540,CERVAGEM,CERVAGEM,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8550,CIALIS,CIALIS,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8560,CIDEX OPA,CIDEX OPA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8570,CIS SULFUR,CIS SULFUR,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8580,COMBIGAN,COMBIGAN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8590,COMIRNATY,COMIRNATY,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8600,CORONAVAC,CORONAVAC,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8610,CORTIMENT,CORTIMENT,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8620,COSOPT,COSOPT,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8630,COVID-19 VACCINE JANSSEN,COVID-19 VACCINE JANSSEN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8640,COVILO,COVILO,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8650,CREMA,CREMA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8660,CRESEMBA,CRESEMBA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8670,CUBICIN,CUBICIN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8680,CUROSURF,CUROSURF,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8690,CYRAMZA,CYRAMZA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8700,CYSTADANE,CYSTADANE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8710,CYSTADROP,CYSTADROP,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8720,DACLAVIR,DACLAVIR,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8730,DANTRIUM,DANTRIUM,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8740,DARZALEX,DARZALEX,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8750,D-CURE,D-CURE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8760,DESCOVY,DESCOVY,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8770,DEXALTIN ORAL PASTE,DEXALTIN ORAL PASTE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8780,DIACOMIT,DIACOMIT,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8790,DICETEL,DICETEL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8800,DIFLAM,DIFLAM,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8810,DIGIFAB,DIGIFAB,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8820,DIMAVAL,DIMAVAL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8830,DIPHERELINE,DIPHERELINE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8840,DIPROGENTA,DIPROGENTA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8850,DMSA RADPHARM,DMSA RADPHARM,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8860,DRYTEC,DRYTEC,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8870,DTPA RADPHARM,DTPA RADPHARM,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8880,DUOTRIC,DUOTRIC,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8890,DURAPHAT,DURAPHAT,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8900,DURATEARS,DURATEARS,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8910,DUROMINE,DUROMINE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8920,DYMISTA,DYMISTA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8930,EDURANT,EDURANT,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8940,ELIDEL,ELIDEL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8950,ELIGARD,ELIGARD,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8960,ELIQUIS,ELIQUIS,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8970,ELITEK,ELITEK,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8980,ELMIRON,ELMIRON,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+8990,ENABLEX,ENABLEX,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9000,ENTRESTO,ENTRESTO,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9010,ENTYVIO,ENTYVIO,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9020,EPIPEN,EPIPEN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9030,EPISTATUS,EPISTATUS,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9040,EQUIRAB,EQUIRAB,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9050,ERLEADA,ERLEADA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9060,ESBRIET,ESBRIET,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9070,ESMYA,ESMYA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9080,EYE GLO,EYE GLO,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9090,EYLEA,EYLEA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9100,FABRAZYME,FABRAZYME,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9110,FACTREL,FACTREL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9120,FAVIRAB,FAVIRAB,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9130,FEIBA,FEIBA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9140,FIRMAGON,FIRMAGON,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9150,FLUORESCITE,FLUORESCITE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9160,FLUORETS,FLUORETS,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9170,FLUQUADRI,FLUQUADRI,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9180,FLUQUADRI JUNIOR,FLUQUADRI JUNIOR,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9190,FOBANCORT,FOBANCORT,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9200,FORACORT,FORACORT,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9210,FORTEO,FORTEO,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9220,FOSCAVIR,FOSCAVIR,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9230,FRAIZERON,FRAIZERON,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9240,FRAXIPARINE,FRAXIPARINE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9250,GAMUNEX,GAMUNEX,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9260,GANFORT,GANFORT,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9270,GIGASEPT,GIGASEPT,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9280,GIOTRIF,GIOTRIF,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9290,GLAMIN,GLAMIN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9300,GLIOLAN,GLIOLAN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9310,GLYCOPHOS,GLYCOPHOS,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9320,GRANOCYTE,GRANOCYTE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9330,GRENDIS,GRENDIS,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9340,HAEMOCOMPLETTAN,HAEMOCOMPLETTAN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9350,HAEMOSOL,HAEMOSOL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9360,HARVONI,HARVONI,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9370,HAVRIX,HAVRIX,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9380,HAVRIX JUNIOR,HAVRIX JUNIOR,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9390,HEMABATE,HEMABATE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9400,HEMLIBRA,HEMLIBRA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9410,HETRAZAN,HETRAZAN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9420,HEVERT,HEVERT,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9430,HIZENTRA,HIZENTRA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9440,HYALASE,HYALASE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9450,HYPERHEP,HYPERHEP,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9460,HYPERRAB,HYPERRAB,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9470,IBRANCE,IBRANCE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9480,ICLUSIG,ICLUSIG,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9490,ILIADIN,ILIADIN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9500,ILOMEDIN,ILOMEDIN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9510,IMBRUVICA,IMBRUVICA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9520,IMFINZA,IMFINZA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9530,IMMUNATE,IMMUNATE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9540,IMOVAX POLIO,IMOVAX POLIO,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9550,INCRELEX,INCRELEX,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9560,INFASURF,INFASURF,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9570,INFLORAN,INFLORAN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9580,INLYTA,INLYTA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9590,INTELENCE,INTELENCE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9600,INTRAGAM,INTRAGAM,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9610,ISOKET,ISOKET,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9620,JARDIANCE,JARDIANCE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9630,KADCYLA,KADCYLA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9640,KALONA,KALONA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9650,KETOSTERIL,KETOSTERIL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9660,KEYTRUDA,KEYTRUDA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9670,KINERET,KINERET,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9680,KISQALI,KISQALI,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9690,KMNO4,KMNO4,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9700,KONZERT,KONZERT,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9710,KUVAN,KUVAN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9720,KYBERNIN,KYBERNIN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9730,KYPROLIS,KYPROLIS,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9740,LACTACYD,LACTACYD,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9750,LARGACTIL,LARGACTIL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9760,LASSAR'S,LASSAR'S,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9770,LEMTRADA,LEMTRADA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9780,LENVIMA,LENVIMA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9790,LEVACT RIBOMUSTIN,LEVACT RIBOMUSTIN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9800,LIPIODOL,LIPIODOL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9810,LOCABIOTAL,LOCABIOTAL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9820,LORBRENA,LORBRENA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9830,LUMASON,LUMASON,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9840,LUSEFI,LUSEFI,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9850,LYSODREN,LYSODREN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9860,MAASOL,MAASOL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9870,MABCAMPATH,MABCAMPATH,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9880,MAVIRET,MAVIRET,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9890,MCT_OIL,MCT_OIL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9900,MEGACE,MEGACE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9910,MENELAT,MENELAT,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9920,MENZZA,MENZZA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9930,MESTINON,MESTINON,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9940,METHERGIN,METHERGIN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9950,METOPIRONE,METOPIRONE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9960,MILICAL,MILICAL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9970,MON MDP,MON MDP,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9980,MONOFER,MONOFER,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+9990,MONSEL'S,MONSEL'S,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10000,MONUROL,MONUROL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10010,MOZEP,MOZEP,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10020,MOZOBIL,MOZOBIL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10030,MUCOSTA,MUCOSTA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10040,MULTAQ,MULTAQ,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10050,MULTIHANCE,MULTIHANCE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10060,MYCOFIT,MYCOFIT,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10070,MYLOTARG,MYLOTARG,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10080,MYODEEN,MYODEEN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10090,MYOVIEW,MYOVIEW,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10100,N/A,N/A,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10110,NAGLAZYME,NAGLAZYME,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10120,NANOCIS,NANOCIS,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10130,NANOCOLL,NANOCOLL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10140,NEBICARD,NEBICARD,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10150,NEBUPENT,NEBUPENT,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10160,NEPRESOL,NEPRESOL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10170,NESP,NESP,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10180,NEUROLITE,NEUROLITE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10190,NEXAVAR,NEXAVAR,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10200,NICOZID,NICOZID,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10210,NINLARO,NINLARO,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10220,NIQUITIN,NIQUITIN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10230,NOXAFIL,NOXAFIL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10240,NPLATE,NPLATE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10250,NUCALA,NUCALA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10260,OCALIVA,OCALIVA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10270,OCREVUS,OCREVUS,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10280,OESTROGEL,OESTROGEL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10290,OFEV,OFEV,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10300,OILATUM,OILATUM,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10310,OLUMIANT,OLUMIANT,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10320,OMACOR,OMACOR,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10330,OMNIPAQUE,OMNIPAQUE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10340,ONCASPAR,ONCASPAR,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10350,ONCOTICE,ONCOTICE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10360,ONORO,ONORO,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10370,OPDIVO,OPDIVO,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10380,OPSUMIT,OPSUMIT,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10390,ORADEX,ORADEX,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10400,ORAL AID,ORAL AID,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10410,ORFADIN,ORFADIN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10420,ORFIRIL,ORFIRIL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10430,ORIFIL LONG,ORIFIL LONG,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10440,OSPOLOT,OSPOLOT,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10450,OSTEOCIS,OSTEOCIS,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10460,OZEMPIC,OZEMPIC,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10470,OZURDEX,OZURDEX,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10480,PANADEINE,PANADEINE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10490,PANOXYL,PANOXYL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10500,PASURTA,PASURTA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10510,PENTAMIDINE,PENTAMIDINE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10520,PERFALGAN,PERFALGAN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10530,PERJETA,PERJETA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10540,PICO-SALAX,PICO-SALAX,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10550,PINETARSOL,PINETARSOL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10560,POLIVY,POLIVY,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10570,PRALUENT,PRALUENT,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10580,PRAXBIND,PRAXBIND,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10590,PREVYMIS,PREVYMIS,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10600,PREZISTA,PREZISTA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10610,PRIMACOR,PRIMACOR,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10620,PRIMACORE,PRIMACORE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10630,PRIMASOL,PRIMASOL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10640,PRIMOVIST,PRIMOVIST,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10650,PROSTIN E2,PROSTIN E2,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10660,PROTHROMBINEX,PROTHROMBINEX,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10670,PROVIGIL,PROVIGIL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10680,PROVOCHOLINE,PROVOCHOLINE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10690,PULMOLYZE,PULMOLYZE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10700,QUESTRAN LIGHT,QUESTRAN LIGHT,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10710,RABISHIELD,RABISHIELD,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10720,RALENZA,RALENZA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10730,RANEXA,RANEXA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10740,REGRO,REGRO,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10750,RELVAR,RELVAR,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10760,REMIFAMIN,REMIFAMIN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10770,RENACARB,RENACARB,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10780,RENACID,RENACID,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10790,RENAHD,RENAHD,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10800,RENVELA,RENVELA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10810,REOPRO,REOPRO,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10820,REPATHA,REPATHA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10830,RESOMAL,RESOMAL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10840,RESTASIS,RESTASIS,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10850,REYATAZ,REYATAZ,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10860,RHINOCORT AQUA,RHINOCORT AQUA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10870,RIBOMUSTIN LEVACT,RIBOMUSTIN LEVACT,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10880,RYDAPT,RYDAPT,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10890,RYTMONORM,RYTMONORM,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10900,RYZODEG,RYZODEG,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10910,SALAFOLK,SALAFOLK,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10920,SANDOSTATIN,SANDOSTATIN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10930,SANDOSTATIN LAR,SANDOSTATIN LAR,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10940,SANDOZ,SANDOZ,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10950,SCINTIMUN GRANULOCYTE,SCINTIMUN GRANULOCYTE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10960,SIMBRINZA,SIMBRINZA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10970,SMECTA,SMECTA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10980,SOLIQUA,SOLIQUA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+10990,SOLIRIS,SOLIRIS,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11000,SOLUWAX,SOLUWAX,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11010,SOMATULINE,SOMATULINE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11020,SONOVUE,SONOVUE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11030,SOVALDI,SOVALDI,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11040,SPIOLTO,SPIOLTO,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11050,SPRYCEL,SPRYCEL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11060,STABLON,STABLON,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11070,STAMICIS,STAMICIS,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11080,STRENSIQ,STRENSIQ,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11090,SUNSENSE,SUNSENSE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11100,SUXILEP,SUXILEP,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11110,SYNFLORIX,SYNFLORIX,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11120,SYNRIBO,SYNRIBO,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11130,SYNTOMETRINE,SYNTOMETRINE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11140,SYNVISC,SYNVISC,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11150,SYNVISC ONE,SYNVISC ONE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11160,TAFLOTAN,TAFLOTAN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11170,TAGRISSO,TAGRISSO,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11180,TALTZ,TALTZ,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11190,TAPCOM-S,TAPCOM-S,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11200,TARGOCID,TARGOCID,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11210,TECENTRIQ,TECENTRIQ,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11220,TECHNESCAN MAG3,TECHNESCAN MAG3,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11230,TELFAST,TELFAST,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11240,TIMAZOL,TIMAZOL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11250,TIMOCOMOD,TIMOCOMOD,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11260,TIMOLAST,TIMOLAST,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11270,TIROSINT,TIROSINT,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11280,TISSEEL,TISSEEL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11290,TIVICAY,TIVICAY,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11300,TORISEL,TORISEL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11310,TOUJEO,TOUJEO,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11320,TRASYLOL,TRASYLOL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11330,TRAVATAN,TRAVATAN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11340,TREANDA,TREANDA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11350,TREMFYA,TREMFYA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11360,TRIBESTAN,TRIBESTAN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11370,TRILEPTAL,TRILEPTAL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11380,TRI-LUMA,TRI-LUMA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11390,TRIMIC,TRIMIC,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11400,TRULICITY,TRULICITY,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11410,TS-ONE,TS-ONE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11420,TWINRIX,TWINRIX,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11430,TYGACIL,TYGACIL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11440,TYKERB,TYKERB,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11450,TYSABRI,TYSABRI,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11460,U-FRAG,U-FRAG,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11470,ULORIC,ULORIC,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11480,ULTRACET,ULTRACET,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11490,UNIQUIN,UNIQUIN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11500,URIRON,URIRON,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11510,UROKINASE,UROKINASE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11520,UVADEX,UVADEX,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11530,VARGATEV,VARGATEV,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11540,VENCLEXTA,VENCLEXTA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11550,VENTAVIS,VENTAVIS,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11560,VERGATEF,VERGATEF,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11570,VERRUMAL,VERRUMAL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11580,VERZENIO,VERZENIO,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11590,VESSEL,VESSEL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11600,VICTRELIS,VICTRELIS,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11610,VIMIZIM,VIMIZIM,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11620,VIMLIDY,VIMLIDY,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11630,VIMPAT,VIMPAT,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11640,VIRACLEAN,VIRACLEAN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11650,VIRADAY,VIRADAY,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11660,VIREAD,VIREAD,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11670,VIRGAN,VIRGAN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11680,VISMED,VISMED,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11690,VISUDYNE,VISUDYNE,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11700,VITALUX,VITALUX,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11710,VOCINTI,VOCINTI,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11720,VOSEVI,VOSEVI,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11730,WELLMEX ATOMIC,WELLMEX ATOMIC,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11740,XALKORI,XALKORI,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11750,XENICAL,XENICAL,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11760,XGEVA,XGEVA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11770,XIFAXAN,XIFAXAN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11780,XIGDUO,XIGDUO,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11790,XIGRIS,XIGRIS,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11800,XOSPATA,XOSPATA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11810,XPOVIO,XPOVIO,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11820,XTANDI,XTANDI,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11830,ZARZIO,ZARZIO,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11840,ZELBORAF,ZELBORAF,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11850,ZELDOX,ZELDOX,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11860,ZEMPLAR,ZEMPLAR,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11870,ZEPATIER,ZEPATIER,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11880,ZERBAXA,ZERBAXA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11890,ZIAGEN,ZIAGEN,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11900,ZINFURO,ZINFURO,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11910,ZOLGENSMA,ZOLGENSMA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11920,ZUHERA,ZUHERA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore
+11930,ZYKADIA,ZYKADIA,http://fhir.hie.moh.gov.my/CodeSystem/drug-trade-name-my-core,CodeSystemDrugTradeNameMyCore

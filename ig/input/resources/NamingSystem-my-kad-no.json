@@ -1,0 +1,17 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "my-kad-no",
+  "name": "MYKadNumberNamingSystem",
+  "status": "active",
+  "kind": "identifier",
+  "date": "2026-04-02",
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Draft naming system for the Malaysian civil identity number namespace used in MY Core examples.",
+  "uniqueId": [
+    {
+      "type": "uri",
+      "value": "https://id.kkmhub.moh.gov.my/sid/my-kad-no",
+      "preferred": true
+    }
+  ]
+}

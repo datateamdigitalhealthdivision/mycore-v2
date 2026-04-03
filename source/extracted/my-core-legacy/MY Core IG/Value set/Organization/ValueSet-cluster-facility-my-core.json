@@ -1,0 +1,31 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-cluster-facility-my-core",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2022-03-09T16:27:41.549+08:00",
+    "source": "#DlNb1rqS6JGRqkxF"
+  },
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/cluster-facility-my-core",
+  "name": "ValueSetClusterFacilityMyCore",
+  "title": "ValueSetClusterFacility (MY Core)",
+  "status": "active",
+  "date": "2023-01-03T04:47:56.9010407+00:00",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "Cluster Facility Value Set",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/cluster-facility-my-core"
+      }
+    ]
+  }
+}

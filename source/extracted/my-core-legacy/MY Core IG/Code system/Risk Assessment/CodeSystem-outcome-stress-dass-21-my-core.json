@@ -1,0 +1,110 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-outcome-stress-dass-21-my-core",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2023-06-19T10:33:56.898+08:00",
+    "source": "#ti8EIcPVdVTTDsqW"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemOutcomeDass21 (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/outcome-stress-dass-21-my-core</tt><p>Depression and Anxiety Stress Scale Scoring Questionnaire</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/outcome-stress-dass-21-my-core",
+  "name": "CodeSystemOutcomeStressDass21MyCore",
+  "title": "CodeSystemOutcomeStressDass21 (MY Core)",
+  "status": "active",
+  "date": "2023-06-26T00:55:17.2867281+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "description": "Stress Scale Scoring Questionnaire",
+  "compositional": false,
+  "content": "complete",
+  "count": 15,
+  "property": [
+    {
+      "code": "low",
+      "type": "string"
+    },
+    {
+      "code": "high",
+      "type": "string"
+    }
+  ],
+  "concept": [
+    {
+      "code": "s01",
+      "display": "Normal",
+      "definition": "Normal",
+      "property": [
+        {
+          "code": "low",
+          "valueString": "0"
+        },
+        {
+          "code": "high",
+          "valueString": "10"
+        }
+      ]
+    },
+    {
+      "code": "s02",
+      "display": "Mild Stress, please consult your nearest healthcare facility for further information.",
+      "definition": "Mild Stress, please consult your nearest healthcare facility for further information.",
+      "property": [
+        {
+          "code": "low",
+          "valueString": "11"
+        },
+        {
+          "code": "high",
+          "valueString": "18"
+        }
+      ]
+    },
+    {
+      "code": "s03",
+      "display": "Moderate Stress, please consult your nearest healthcare facility for further information.",
+      "definition": "Moderate Stress, please consult your nearest healthcare facility for further information.",
+      "property": [
+        {
+          "code": "low",
+          "valueString": "19"
+        },
+        {
+          "code": "high",
+          "valueString": "26"
+        }
+      ]
+    },
+    {
+      "code": "s04",
+      "display": "Severe Stress, please consult your nearest healthcare facility for further information.",
+      "definition": "Severe Stress, please consult your nearest healthcare facility for further information.",
+      "property": [
+        {
+          "code": "low",
+          "valueString": "27"
+        },
+        {
+          "code": "high",
+          "valueString": "34"
+        }
+      ]
+    },
+    {
+      "code": "s05",
+      "display": "Extremely Severe Stress, please seek medical attention from your nearest healthcare facility.",
+      "definition": "Extremely Severe Stress, please seek medical attention from your nearest healthcare facility.",
+      "property": [
+        {
+          "code": "low",
+          "valueString": "35"
+        },
+        {
+          "code": "high",
+          "valueString": "42"
+        }
+      ]
+    }
+  ]
+}

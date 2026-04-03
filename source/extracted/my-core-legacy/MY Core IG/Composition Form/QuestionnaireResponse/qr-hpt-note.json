@@ -1,0 +1,633 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-hpt-note",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "identifier": {
+        "system": "http://fhir.hie.moh.gov.my/sid/template-section",
+        "value": "qr-hpt-note"
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-hpt-note",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/3a1fe467-cad5-4ec9-83f8-fd6dfb46470c"
+    },
+    "authored": "2023-04-27T00:20:14.414Z",
+    "item": [
+        {
+            "linkId": "hpt-note.1",
+            "text": "Concomitant Disease",
+            "item": [
+                {
+                    "linkId": "hpt-note.1.1",
+                    "text": "Diabetes Mellitus",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "hpt-note.1.2",
+                    "text": "Renal Disease",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "hpt-note.1.3",
+                    "text": "Heart Failure",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "hpt-note.1.4",
+                    "text": "Gout",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "hpt-note.1.5",
+                    "text": "Concomitant Disease Remarks",
+                    "answer": [
+                        {
+                            "valueString": "enter string here"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "hpt-note.2",
+            "text": "Past Medical Admissions for Hypertension",
+            "item": [
+                {
+                    "linkId": "hpt-note.2.1",
+                    "text": "Any ward admissions for Hypertension Emergencies",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "hpt-note.2.3",
+                    "text": "Past Medical Admissions Remarks",
+                    "answer": [
+                        {
+                            "valueString": "enter string here"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "hpt-note.3",
+            "text": "Medication History",
+            "answer": [
+                {
+                    "valueString": "enter string here"
+                }
+            ]
+        },
+        {
+            "linkId": "hpt-note.4",
+            "text": "Smoking History",
+            "answer": [
+                {
+                    "valueBoolean": true,
+                    "item": [
+                        {
+                            "linkId": "hpt-note.4.1",
+                            "text": "Starting Date of Smoking",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-05-28T08:24:00.500Z"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "hpt-note.4.2",
+                            "text": "How many ciggarates per day",
+                            "answer": [
+                                {
+                                    "valueInteger": 12
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "hpt-note.4.3",
+                            "text": "Pack years of smoking (years)",
+                            "answer": [
+                                {
+                                    "valueInteger": 12
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "hpt-note.5",
+            "text": "Social History",
+            "answer": [
+                {
+                    "valueString": "enter string here"
+                }
+            ]
+        },
+        {
+            "linkId": "hpt-note.6",
+            "text": "Family History",
+            "answer": [
+                {
+                    "valueString": "enter string here"
+                }
+            ]
+        },
+        {
+            "linkId": "hpt-note.7",
+            "text": "Symptoms",
+            "item": [
+                {
+                    "linkId": "hpt-note.7.1",
+                    "text": "Visual Disturbances",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "hpt-note.7.2",
+                    "text": "Chest pain",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "hpt-note.7.3",
+                    "text": "Lower limb swellings",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "hpt-note.7.4",
+                    "text": "Headache",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "hpt-note.7.5",
+                    "text": "Vomiting",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "hpt-note.7.6",
+                    "text": "Limb weakness",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "hpt-note.7.7",
+                    "text": "Shortness of breath",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "hpt-note.7.8",
+                    "text": "Symptoms Remarks",
+                    "answer": [
+                        {
+                            "valueString": "enter string here"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "hpt-note.8",
+            "text": "History of Presenting Illness Summary",
+            "answer": [
+                {
+                    "valueString": "enter string here"
+                }
+            ]
+        },
+        {
+            "linkId": "hpt-note.9",
+            "text": "Vital Signs",
+            "item": [
+                {
+                    "linkId": "hpt-note.9.1",
+                    "text": "BP on arrival systolic (mmHg)",
+                    "answer": [
+                        {
+                            "valueInteger": 120
+                        }
+                    ]
+                },
+                {
+                    "linkId": "hpt-note.9.2",
+                    "text": "BP on arrival diastolic (mmHg)",
+                    "answer": [
+                        {
+                            "valueInteger": 70
+                        }
+                    ]
+                },
+                {
+                    "linkId": "hpt-note.9.3",
+                    "text": "BP second reading systolic (mmHg)",
+                    "answer": [
+                        {
+                            "valueInteger": 120
+                        }
+                    ]
+                },
+                {
+                    "linkId": "hpt-note.9.4",
+                    "text": "BP second reading diastolic (mmHg)",
+                    "answer": [
+                        {
+                            "valueInteger": 70
+                        }
+                    ]
+                },
+                {
+                    "linkId": "hpt-note.9.5",
+                    "text": "BP systolic standing (mmHg)",
+                    "answer": [
+                        {
+                            "valueInteger": 120
+                        }
+                    ]
+                },
+                {
+                    "linkId": "hpt-note.9.6",
+                    "text": "BP diastolic standing (mmHg)",
+                    "answer": [
+                        {
+                            "valueInteger": 70
+                        }
+                    ]
+                },
+                {
+                    "linkId": "hpt-note.9.7",
+                    "text": "BP systolic seated (mmHg)",
+                    "answer": [
+                        {
+                            "valueInteger": 120
+                        }
+                    ]
+                },
+                {
+                    "linkId": "hpt-note.9.8",
+                    "text": "BP diastolic seated (mmHg)",
+                    "answer": [
+                        {
+                            "valueInteger": 70
+                        }
+                    ]
+                },
+                {
+                    "linkId": "hpt-note.9.9",
+                    "text": "Heart Rate (bpm)",
+                    "answer": [
+                        {
+                            "valueInteger": 99
+                        }
+                    ]
+                },
+                {
+                    "linkId": "hpt-note.9.10",
+                    "text": "SPo2 (%)",
+                    "answer": [
+                        {
+                            "valueInteger": 99
+                        }
+                    ]
+                },
+                {
+                    "linkId": "hpt-note.9.11",
+                    "text": "Temperature (Degrees Celcius)",
+                    "answer": [
+                        {
+                            "valueDecimal": 36.87
+                        }
+                    ]
+                },
+                {
+                    "linkId": "hpt-note.9.12",
+                    "text": "Pain score",
+                    "answer": [
+                        {
+                            "valueInteger": 2
+                        }
+                    ]
+                },
+                {
+                    "linkId": "hpt-note.9.13",
+                    "text": "CCTVR",
+                    "answer": [
+                        {
+                            "valueString": "enter string here"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "hpt-note.10",
+            "text": "Central Nervous System Examinations (Normal Findings)",
+            "answer": [
+                {
+                    "valueBoolean": true,
+                    "item": [
+                        {
+                            "linkId": "hpt-note.10.1",
+                            "text": "Findings",
+                            "answer": [
+                                {
+                                    "valueString": "enter string here"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "hpt-note.11",
+            "text": "Eye Examination (Normal Findings)",
+            "answer": [
+                {
+                    "valueBoolean": true,
+                    "item": [
+                        {
+                            "linkId": "hpt-note.11.1",
+                            "text": "Findings",
+                            "answer": [
+                                {
+                                    "valueString": "enter string here"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "hpt-note.12",
+            "text": "Cranial Nerves Examination (Normal findings)",
+            "answer": [
+                {
+                    "valueBoolean": true,
+                    "item": [
+                        {
+                            "linkId": "hpt-note.12.1",
+                            "text": "Findings",
+                            "answer": [
+                                {
+                                    "valueString": "enter string here"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "hpt-note.13",
+            "text": "Cardiac Examination (Normal Findings)",
+            "answer": [
+                {
+                    "valueBoolean": true,
+                    "item": [
+                        {
+                            "linkId": "hpt-note.13.1",
+                            "text": "Findings",
+                            "answer": [
+                                {
+                                    "valueString": "enter string here"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "hpt-note.14",
+            "text": "General Endocrine Examination (Normal Findings)",
+            "answer": [
+                {
+                    "valueBoolean": true,
+                    "item": [
+                        {
+                            "linkId": "hpt-note.14.1",
+                            "text": "Findings",
+                            "answer": [
+                                {
+                                    "valueString": "enter string here"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "hpt-note.15",
+            "text": "Abdominal Examination (Normal Findings)",
+            "answer": [
+                {
+                    "valueBoolean": true,
+                    "item": [
+                        {
+                            "linkId": "hpt-note.15.1",
+                            "text": "Findings",
+                            "answer": [
+                                {
+                                    "valueString": "enter string here"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "hpt-note.16",
+            "text": "Respiratory Examination (  Normal Findings)",
+            "answer": [
+                {
+                    "valueBoolean": true,
+                    "item": [
+                        {
+                            "linkId": "hpt-note.16.1",
+                            "text": "Findings",
+                            "answer": [
+                                {
+                                    "valueString": "enter string here"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "hpt-note.17",
+            "text": "General Examination Findings Summary",
+            "answer": [
+                {
+                    "valueString": "enter string here"
+                }
+            ]
+        },
+        {
+            "linkId": "hpt-note.18",
+            "text": "Investigations / Special Test",
+            "answer": [
+                {
+                    "valueString": "enter string here",
+                    "item": [
+                        {
+                            "linkId": "hpt-note.18.1",
+                            "text": "Fundoscopy",
+                            "answer": [
+                                {
+                                    "valueString": "enter string here"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "hpt-note.18.2",
+                            "text": "US KUB Findings",
+                            "answer": [
+                                {
+                                    "valueString": "enter string here"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "hpt-note.18.3",
+                            "text": "CT Scan Findings",
+                            "answer": [
+                                {
+                                    "valueString": "enter string here"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "hpt-note.18.4",
+                            "text": "Xray Findings",
+                            "answer": [
+                                {
+                                    "valueString": "enter string here"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "hpt-note.19",
+            "text": "Diagnosis",
+            "answer": [
+                {
+                    "valueString": "enter string here"
+                }
+            ]
+        },
+        {
+            "linkId": "hpt-note.20",
+            "text": "Management/Treatment Summary",
+            "answer": [
+                {
+                    "valueString": "enter string here"
+                }
+            ]
+        },
+        {
+            "linkId": "hpt-note.21",
+            "text": "TCA Date",
+            "answer": [
+                {
+                    "valueDateTime": "2023-05-28T08:24:52.474Z"
+                }
+            ]
+        },
+        {
+            "linkId": "hpt-note.22",
+            "text": "Referral",
+            "answer": [
+                {
+                    "valueBoolean": true,
+                    "item": [
+                        {
+                            "linkId": "hpt-note.22.1",
+                            "text": "Reason for Referral",
+                            "answer": [
+                                {
+                                    "valueString": "enter string here"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "hpt-note.22.2",
+                            "text": "Spoken To:",
+                            "answer": [
+                                {
+                                    "valueString": "enter string here"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "hpt-note.22.3",
+                            "text": "Time of Referral made",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-05-07T08:24:55.409Z"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

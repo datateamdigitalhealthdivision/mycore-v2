@@ -1,0 +1,9 @@
+code,display,definition,system_url,system_name
+01,Clinical Chemistry,,http://fhir.hie.moh.gov.my/CodeSystem/lab-sub-group-my-core,CodeSystemLabSubGroupMyCore
+02,Pathology,,http://fhir.hie.moh.gov.my/CodeSystem/lab-sub-group-my-core,CodeSystemLabSubGroupMyCore
+03,Hematology,,http://fhir.hie.moh.gov.my/CodeSystem/lab-sub-group-my-core,CodeSystemLabSubGroupMyCore
+04,Blood Bank,,http://fhir.hie.moh.gov.my/CodeSystem/lab-sub-group-my-core,CodeSystemLabSubGroupMyCore
+05,Serology,,http://fhir.hie.moh.gov.my/CodeSystem/lab-sub-group-my-core,CodeSystemLabSubGroupMyCore
+06,Molecular,,http://fhir.hie.moh.gov.my/CodeSystem/lab-sub-group-my-core,CodeSystemLabSubGroupMyCore
+07,Microbiology,,http://fhir.hie.moh.gov.my/CodeSystem/lab-sub-group-my-core,CodeSystemLabSubGroupMyCore
+08,Toxicology,,http://fhir.hie.moh.gov.my/CodeSystem/lab-sub-group-my-core,CodeSystemLabSubGroupMyCore

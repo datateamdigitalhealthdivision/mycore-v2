@@ -1,0 +1,6 @@
+code,display,definition,system_url,system_name
+1,Government,Government,http://fhir.hie.moh.gov.my/CodeSystem/organization-type-my-core,CodeSystemOrganizationTypeMyCore
+2,Private,Private,http://fhir.hie.moh.gov.my/CodeSystem/organization-type-my-core,CodeSystemOrganizationTypeMyCore
+3,Non-Governmental Organization,Non-Governmental Organization,http://fhir.hie.moh.gov.my/CodeSystem/organization-type-my-core,CodeSystemOrganizationTypeMyCore
+4,Government (KKM) under construction,Government (KKM) under construction,http://fhir.hie.moh.gov.my/CodeSystem/organization-type-my-core,CodeSystemOrganizationTypeMyCore
+5,Source System,Source System,http://fhir.hie.moh.gov.my/CodeSystem/organization-type-my-core,CodeSystemOrganizationTypeMyCore

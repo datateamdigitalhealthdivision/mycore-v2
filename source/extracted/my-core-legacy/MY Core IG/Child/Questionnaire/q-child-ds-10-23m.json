@@ -1,0 +1,287 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-child-ds-10-23m",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-child-ds-10-23m",
+  "version": "1.0.0",
+  "name": "QChildds1023m",
+  "title": "Pemeriksaan Pergigian (Umur 10-23 Bulan)",
+  "status": "active",
+  "date": "2023-08-30T06:43:50.5035753+00:00",
+  "item": [
+    {
+      "linkId": "child-ds-10-23m.1",
+      "text": "Tarikh",
+      "type": "dateTime"
+    },
+    {
+      "linkId": "child-ds-10-23m.2",
+      "text": "Umur semasa lawatan",
+      "type": "quantity",
+      "initial": [
+        {
+          "valueQuantity": {
+            "unit": "day",
+            "system": "http://unitsofmeasure.org",
+            "code": "d"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "child-ds-10-23m.3",
+      "text": "Soalan-soalan",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "child-ds-10-23m.3.1",
+          "text": "Anak dibiar tertidur dengan botol susu di dalam mulut atau ketika menyusu badan",
+          "type": "boolean",
+          "item": [
+            {
+              "linkId": "child-ds-10-23m.3.1.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-ds-10-23m.3.2",
+          "text": "Ibubapa/penjaga pernah mendengar tentang karies botol susu",
+          "type": "boolean",
+          "item": [
+            {
+              "linkId": "child-ds-10-23m.3.2.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-ds-10-23m.3.3",
+          "text": "Pernah mencampurkan gula ke dalam susu anak",
+          "type": "boolean",
+          "item": [
+            {
+              "linkId": "child-ds-10-23m.3.3.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-ds-10-23m.3.4",
+          "text": "Memberi minuman lain selain daripada susu dengan menggunakan botol susu",
+          "type": "boolean",
+          "item": [
+            {
+              "linkId": "child-ds-10-23m.3.4.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-ds-10-23m.3.5",
+          "text": "Kerap memberi makanan ringan (snek) di antara waktu makan utama. Jika YA berapa kerap?",
+          "type": "boolean",
+          "item": [
+            {
+              "linkId": "child-ds-10-23m.3.5.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-ds-10-23m.3.6",
+          "text": "Anak menghisap puting tiruan atau jari",
+          "type": "boolean",
+          "item": [
+            {
+              "linkId": "child-ds-10-23m.3.6.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-ds-10-23m.3.7",
+          "text": "Ibu bapa/ penjaga pernah memeriksa mulut anak",
+          "type": "boolean",
+          "item": [
+            {
+              "linkId": "child-ds-10-23m.3.7.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-ds-10-23m.3.8",
+          "text": "Membersihkan mulut anak setiap hari. Jika YA berapa kerap?",
+          "type": "boolean",
+          "item": [
+            {
+              "linkId": "child-ds-10-23m.3.8.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-ds-10-23m.3.9",
+          "text": "Menggunakan ubat gigi ketika memberus gigi anak",
+          "type": "boolean",
+          "item": [
+            {
+              "linkId": "child-ds-10-23m.3.9.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-ds-10-23m.3.10",
+          "text": "Pernah membawa anak membuat pemeriksaan gigi. Jika YA berapa kerap?",
+          "type": "boolean",
+          "item": [
+            {
+              "linkId": "child-ds-10-23m.3.10.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "child-ds-10-23m.4",
+      "text": "Bimbingan awal",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "child-ds-10-23m.4.1",
+          "text": "Gigi susu adalah penting untuk pembentukan gigi kekal yang sempurna.",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-ds-10-23m.4.2",
+          "text": "Karies botol susu boleh dielakkan dengan: \na. Tidak membiarkan anak anda tidur dengan menghisap botol susu dalam mulut. \nb. Mengalihkan botol susu dari mulut anak anda dengan perlahan sebaik sahaja anak anda habis menyusu/ tertidur. \nc. Menggunakan cawan bila anak anda berumur 6 bulan ke atas. \nd. Menggalakkan anak anda minum air kosong setiap kali selepas menyusu.",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-ds-10-23m.4.3",
+          "text": "Mengelakkan anak anda berkongsi makanan dan minuman dengan sesiapa sahaja bagi mencegah jangkitan kuman.",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-ds-10-23m.4.4",
+          "text": "Gula tersembunyi boleh membahayakan kesihatan anak anda. Oleh itu: \na. Kurangkan makanan dan minuman manis antara waktu makan tetap. \nb. Elakkan dari menambah gula ke dalam susu anak anda. \nc. Elakkan dari menyalut puting dengan madu/manisan.",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-ds-10-23m.4.5",
+          "text": "Elakkan bayi anda menghisap jari atau puting. Ini akan menyebabkan perubahan bentuk pada rahang (jongang).",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-ds-10-23m.4.6",
+          "text": "Penjagaan gigi \na. Sentiasa periksa gigi dengan mengangkat bibir anak anda. \nb. Cuci gigi anak anda dengan kain lembut yang basah semasa mandi dan sebelum tidur, sebaik sahaja gigi susu pertama tumbuh. \nc. Berus gigi anak anda dengan berus gigi yang lembut dan ubat gigi apabila gigi bertambah.",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-ds-10-23m.4.7",
+          "text": "Sekiranya berlakunya trauma/kecederaan pada mulut atau gigi anak anda, sila bawa anak ke klinik pergigian berdekatan",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "child-ds-10-23m.5",
+      "text": "Pemeriksaan",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "child-ds-10-23m.5.1",
+          "text": "Bilangan gigi yang ada",
+          "type": "string"
+        },
+        {
+          "linkId": "child-ds-10-23m.5.2",
+          "text": "Kesihatan mulut: \n- Plak \n- Karies (Bil Gigi)",
+          "type": "string"
+        },
+        {
+          "linkId": "child-ds-10-23m.5.3",
+          "text": "Keganjilan lain yang dikesan: \n- Ulser \n- White Spot \n- Abscess",
+          "type": "string"
+        },
+        {
+          "linkId": "child-ds-10-23m.5.4",
+          "text": "Kecederaan \n-Trauma \n- Patah Gigi",
+          "type": "string"
+        },
+        {
+          "linkId": "child-ds-10-23m.5.5",
+          "text": "Catatan",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "linkId": "child-ds-10-23m.6",
+      "text": "Caries Risk Assessment",
+      "type": "choice",
+      "answerOption": [
+        {
+          "valueCoding": {
+            "system": "http://snomed.info/sct",
+            "code": "723505004",
+            "display": "Low Risk"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://snomed.info/sct",
+            "code": "25594002",
+            "display": "Moderate Risk"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://snomed.info/sct",
+            "code": "723509005",
+            "display": "High Risk"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "child-ds-10-23m.7",
+      "text": "Rujuk Kepada Pegawai/Jururawat Pergigian",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "child-ds-10-23m.7.1",
+          "text": "Tarikh Temujanji",
+          "type": "dateTime"
+        },
+        {
+          "linkId": "child-ds-10-23m.7.2",
+          "text": "Tarikh Rawatan",
+          "type": "dateTime"
+        },
+        {
+          "linkId": "child-ds-10-23m.7.3",
+          "text": "Catatan",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "linkId": "child-ds-10-23m.remark",
+      "text": "Catatan / Rumusan",
+      "type": "text"
+    }
+  ]
+}

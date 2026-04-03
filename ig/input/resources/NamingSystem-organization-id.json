@@ -1,0 +1,17 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "organization-id",
+  "name": "MYOrganizationIdentifierNamingSystem",
+  "status": "active",
+  "kind": "identifier",
+  "date": "2026-04-02",
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Draft naming system for organisation identifiers used in the MY Core baseline.",
+  "uniqueId": [
+    {
+      "type": "uri",
+      "value": "https://id.kkmhub.moh.gov.my/sid/organization-id",
+      "preferred": true
+    }
+  ]
+}

@@ -1,0 +1,314 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "specimen-container-type-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemSpecimenContainerType (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/specimen-container-type-my-core</tt><p>Malaysia specimen container type</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/specimen-container-type-my-core",
+  "version": "2.0.0",
+  "name": "CodeSystemSpecimenContainerTypeMyCore",
+  "title": "CodeSystemSpecimenContainerType (MY Core)",
+  "status": "active",
+  "date": "2023-09-14T07:09:15.9516088+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Malaysia specimen container type",
+  "compositional": false,
+  "content": "complete",
+  "count": 57,
+  "concept": [
+    {
+      "code": "001",
+      "display": "Plain tube",
+      "definition": "Plain tube"
+    },
+    {
+      "code": "002",
+      "display": "Urine container",
+      "definition": "Urine container"
+    },
+    {
+      "code": "003",
+      "display": "24hr urine bottle with 10mL 25% HCl",
+      "definition": "24hr urine bottle with 10mL 25% HCl"
+    },
+    {
+      "code": "004",
+      "display": "Whatmann 903 Filter Paper",
+      "definition": "Whatmann 903 Filter Paper"
+    },
+    {
+      "code": "005",
+      "display": "EDTA tube",
+      "definition": "EDTA tube"
+    },
+    {
+      "code": "006",
+      "display": "Pre-chilled EDTA",
+      "definition": "Pre-chilled EDTA"
+    },
+    {
+      "code": "007",
+      "display": "Falcon tube",
+      "definition": "Falcon tube"
+    },
+    {
+      "code": "008",
+      "display": "Sodium Fluoride tube",
+      "definition": "Sodium Fluoride tube"
+    },
+    {
+      "code": "009",
+      "display": "Lithium Heparin tube",
+      "definition": "Lithium Heparin tube"
+    },
+    {
+      "code": "010",
+      "display": "K2 EDTA tube",
+      "definition": "K2 EDTA tube"
+    },
+    {
+      "code": "011",
+      "display": "Clean tube",
+      "definition": "Clean tube"
+    },
+    {
+      "code": "012",
+      "display": "Heparinised syringe",
+      "definition": "Heparinised syringe"
+    },
+    {
+      "code": "013",
+      "display": "24hr urine bottle",
+      "definition": "24hr urine bottle"
+    },
+    {
+      "code": "014",
+      "display": "EDTA tube / Heparin tube",
+      "definition": "EDTA tube / Heparin tube"
+    },
+    {
+      "code": "015",
+      "display": "Plain tube & Urine container",
+      "definition": "Plain tube & Urine container"
+    },
+    {
+      "code": "016",
+      "display": "Potassium Oxalate + Sodium Fluoride tube",
+      "definition": "Sodium Fluoride tube / Dissodium EDTA / Potassium Oxalate + Sodium Fluoride tube"
+    },
+    {
+      "code": "017",
+      "display": "Plain tube / EDTA tube",
+      "definition": "Plain tube / EDTA tube"
+    },
+    {
+      "code": "018",
+      "display": "Sodium Fluoride tube tube",
+      "definition": "Sodium Fluoride tube tube"
+    },
+    {
+      "code": "019",
+      "display": "Urine container & EDTA tube",
+      "definition": "Urine container & EDTA tube"
+    },
+    {
+      "code": "020",
+      "display": "24hr urine bottle 0.2g Sodium Bicarbonate",
+      "definition": "24hr urine bottle 0.2g Sodium Bicarbonate"
+    },
+    {
+      "code": "021",
+      "display": "Heparin tube",
+      "definition": "Heparin tube"
+    },
+    {
+      "code": "022",
+      "display": "Special microtube with EDTA & DTE",
+      "definition": "Special microtube with EDTA & DTE"
+    },
+    {
+      "code": "023",
+      "display": "Tissue cassette",
+      "definition": "Tissue cassette"
+    },
+    {
+      "code": "024",
+      "display": "Fixed thin smear prepared on glass slide or sterile container",
+      "definition": "Fixed thin smear prepared on glass slide or sterile container"
+    },
+    {
+      "code": "025",
+      "display": "Sterile container",
+      "definition": "Sterile container"
+    },
+    {
+      "code": "26",
+      "display": "Smear",
+      "definition": "Smear"
+    },
+    {
+      "code": "027",
+      "display": "Fixed thin smear prepared on glass slide",
+      "definition": "Fixed thin smear prepared on glass slide"
+    },
+    {
+      "code": "028",
+      "display": "Capped container",
+      "definition": "Capped container"
+    },
+    {
+      "code": "030",
+      "display": "Supplied vial with fixative",
+      "definition": "Supplied vial with fixative"
+    },
+    {
+      "code": "031",
+      "display": "3.2% trisodium citrate",
+      "definition": "3.2% trisodium citrate"
+    },
+    {
+      "code": "032",
+      "display": "Lithium Heparin tube",
+      "definition": "Lithium Heparin tube"
+    },
+    {
+      "code": "033",
+      "display": "Direct Smear",
+      "definition": "Direct Smear"
+    },
+    {
+      "code": "034",
+      "display": "Sodium Heparin tube",
+      "definition": "Sodium Heparin tube"
+    },
+    {
+      "code": "035",
+      "display": "Microtainer K2EDTA tube",
+      "definition": "Microtainer K2EDTA tube"
+    },
+    {
+      "code": "036",
+      "display": "EDTA tube MAP (pediatric infectious sample)",
+      "definition": "EDTA tube MAP (pediatric infectious sample)"
+    },
+    {
+      "code": "037",
+      "display": "Filter paper",
+      "definition": "Filter paper"
+    },
+    {
+      "code": "038",
+      "display": "Fresh finger prick",
+      "definition": "Fresh finger prick"
+    },
+    {
+      "code": "039",
+      "display": "NA Slant/ Culture plate",
+      "definition": "NA Slant/ Culture plate"
+    },
+    {
+      "code": "040",
+      "display": "Sterile container / Falcon tube",
+      "definition": "Sterile container / Falcon tube"
+    },
+    {
+      "code": "041",
+      "display": "Myco F Lytic blood bottle",
+      "definition": "Myco F Lytic blood bottle"
+    },
+    {
+      "code": "042",
+      "display": "Aerobic blood bottle",
+      "definition": "Aerobic blood bottle"
+    },
+    {
+      "code": "043",
+      "display": "Anaerobic blood bottle",
+      "definition": "Anaerobic blood bottle"
+    },
+    {
+      "code": "044",
+      "display": "Pediatric blood bottle",
+      "definition": "Pediatric blood bottle"
+    },
+    {
+      "code": "045",
+      "display": "Thick film",
+      "definition": "Thick film"
+    },
+    {
+      "code": "046",
+      "display": "Thin film",
+      "definition": "Thin film"
+    },
+    {
+      "code": "047",
+      "display": "Charcoal/ Stuart transport medium",
+      "definition": "Charcoal/ Stuart transport medium"
+    },
+    {
+      "code": "048",
+      "display": "Attest",
+      "definition": "Attest"
+    },
+    {
+      "code": "049",
+      "display": "Plain sterile swab",
+      "definition": "Plain sterile swab"
+    },
+    {
+      "code": "050",
+      "display": "Myco F Lytic BACTEC bottle",
+      "definition": "Myco F Lytic BACTEC bottle"
+    },
+    {
+      "code": "051",
+      "display": "Instrument in wrapping/ actual pack",
+      "definition": "Instrument in wrapping/ actual pack"
+    },
+    {
+      "code": "052",
+      "display": "Stuart transport medium",
+      "definition": "Stuart transport medium"
+    },
+    {
+      "code": "053",
+      "display": "Thioglycolate transport medium",
+      "definition": "Thioglycolate transport medium"
+    },
+    {
+      "code": "054",
+      "display": "Sterile container / boric acid",
+      "definition": "Sterile container / boric acid"
+    },
+    {
+      "code": "055",
+      "display": "Sterile container contains VTM",
+      "definition": "Sterile container contains VTM"
+    },
+    {
+      "code": "056",
+      "display": "Viral Transport Medium",
+      "definition": "Viral Transport Medium"
+    },
+    {
+      "code": "057",
+      "display": "Plain tube / EDTA tube / Lithium Heparin tube",
+      "definition": "Plain tube / EDTA tube / Lithium Heparin tube"
+    }
+  ],
+  "experimental": false,
+  "caseSensitive": true
+}

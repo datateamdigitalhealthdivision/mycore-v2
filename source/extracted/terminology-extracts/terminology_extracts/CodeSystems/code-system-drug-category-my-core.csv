@@ -1,0 +1,10 @@
+code,display,definition,system_url,system_name
+A,A,A,http://fhir.hie.moh.gov.my/CodeSystem/drug-category-my-core,CodeSystemDrugCategoryMyCore
+B,B,B,http://fhir.hie.moh.gov.my/CodeSystem/drug-category-my-core,CodeSystemDrugCategoryMyCore
+C,C,C,http://fhir.hie.moh.gov.my/CodeSystem/drug-category-my-core,CodeSystemDrugCategoryMyCore
+A*,A*,A*,http://fhir.hie.moh.gov.my/CodeSystem/drug-category-my-core,CodeSystemDrugCategoryMyCore
+A#,A#,A#,http://fhir.hie.moh.gov.my/CodeSystem/drug-category-my-core,CodeSystemDrugCategoryMyCore
+C+,C+,C+,http://fhir.hie.moh.gov.my/CodeSystem/drug-category-my-core,CodeSystemDrugCategoryMyCore
+KPK,KPK,KPK,http://fhir.hie.moh.gov.my/CodeSystem/drug-category-my-core,CodeSystemDrugCategoryMyCore
+A/KK,A/KK,A/KK,http://fhir.hie.moh.gov.my/CodeSystem/drug-category-my-core,CodeSystemDrugCategoryMyCore
+Non-FUKKM,Non-FUKKM,Non-FUKKM,http://fhir.hie.moh.gov.my/CodeSystem/drug-category-my-core,CodeSystemDrugCategoryMyCore

@@ -1,0 +1,242 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "dentitian-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemdentitian (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/dentitian-my-core</tt><p>Dentitian</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/dentitian-my-core",
+  "name": "CodeSystemDentitianMyCore",
+  "title": "CodeSystemDentitian (MY Core)",
+  "status": "active",
+  "date": "2023-01-03T04:47:56.9010407+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Dentitian",
+  "compositional": false,
+  "content": "complete",
+  "count": 52,
+  "concept": [
+    {
+      "code": "11",
+      "display": "11"
+    },
+    {
+      "code": "12",
+      "display": "12"
+    },
+    {
+      "code": "13",
+      "display": "13"
+    },
+    {
+      "code": "14",
+      "display": "14"
+    },
+    {
+      "code": "15",
+      "display": "15"
+    },
+    {
+      "code": "16",
+      "display": "16"
+    },
+    {
+      "code": "17",
+      "display": "17"
+    },
+    {
+      "code": "18",
+      "display": "18"
+    },
+    {
+      "code": "21",
+      "display": "21"
+    },
+    {
+      "code": "22",
+      "display": "22"
+    },
+    {
+      "code": "23",
+      "display": "23"
+    },
+    {
+      "code": "24",
+      "display": "24"
+    },
+    {
+      "code": "25",
+      "display": "25"
+    },
+    {
+      "code": "26",
+      "display": "26"
+    },
+    {
+      "code": "27",
+      "display": "27"
+    },
+    {
+      "code": "28",
+      "display": "28"
+    },
+    {
+      "code": "31",
+      "display": "31"
+    },
+    {
+      "code": "32",
+      "display": "32"
+    },
+    {
+      "code": "33",
+      "display": "33"
+    },
+    {
+      "code": "34",
+      "display": "34"
+    },
+    {
+      "code": "35",
+      "display": "35"
+    },
+    {
+      "code": "36",
+      "display": "36"
+    },
+    {
+      "code": "37",
+      "display": "37"
+    },
+    {
+      "code": "38",
+      "display": "38"
+    },
+    {
+      "code": "41",
+      "display": "41"
+    },
+    {
+      "code": "42",
+      "display": "42"
+    },
+    {
+      "code": "43",
+      "display": "43"
+    },
+    {
+      "code": "44",
+      "display": "44"
+    },
+    {
+      "code": "45",
+      "display": "45"
+    },
+    {
+      "code": "46",
+      "display": "46"
+    },
+    {
+      "code": "47",
+      "display": "47"
+    },
+    {
+      "code": "48",
+      "display": "48"
+    },
+    {
+      "code": "51",
+      "display": "51"
+    },
+    {
+      "code": "52",
+      "display": "52"
+    },
+    {
+      "code": "53",
+      "display": "53"
+    },
+    {
+      "code": "54",
+      "display": "54"
+    },
+    {
+      "code": "55",
+      "display": "55"
+    },
+    {
+      "code": "61",
+      "display": "61"
+    },
+    {
+      "code": "62",
+      "display": "62"
+    },
+    {
+      "code": "63",
+      "display": "63"
+    },
+    {
+      "code": "64",
+      "display": "64"
+    },
+    {
+      "code": "65",
+      "display": "65"
+    },
+    {
+      "code": "71",
+      "display": "71"
+    },
+    {
+      "code": "72",
+      "display": "72"
+    },
+    {
+      "code": "73",
+      "display": "73"
+    },
+    {
+      "code": "74",
+      "display": "74"
+    },
+    {
+      "code": "75",
+      "display": "75"
+    },
+    {
+      "code": "81",
+      "display": "81"
+    },
+    {
+      "code": "82",
+      "display": "82"
+    },
+    {
+      "code": "83",
+      "display": "83"
+    },
+    {
+      "code": "84",
+      "display": "84"
+    },
+    {
+      "code": "85",
+      "display": "85"
+    }
+  ],
+  "version": "2.0.0",
+  "experimental": false,
+  "caseSensitive": true
+}

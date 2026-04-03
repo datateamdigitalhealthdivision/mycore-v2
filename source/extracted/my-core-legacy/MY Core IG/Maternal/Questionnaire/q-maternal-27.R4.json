@@ -1,0 +1,182 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-maternal-27",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-27",
+  "version": "1.0.0",
+  "name": "QMaternal27",
+  "title": "Senarai Semak Keberkesanan Penyusuan Susu Ibu Semasa Postnatal",
+  "status": "active",
+  "date": "2023-08-30T01:19:04.1804145+00:00",
+  "item": [
+    {
+      "linkId": "maternal-27.1",
+      "text": "Jenis Lawatan",
+      "type": "choice",
+      "answerOption": [
+        {
+          "valueCoding": {
+            "code": "00",
+            "display": "Lawatan Postnatal Pertama"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "01",
+            "display": "Mengikut Keperluan"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "02",
+            "display": "Lawatan Postnatal Terakhir"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-27.2",
+      "text": "Tanda-tanda am penyusuan susu ibu berjalan dengan baik",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "maternal-27.2.1",
+          "text": "Ibu kelihatan sihat",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-27.2.2",
+          "text": "Ibu tenang dan selesa",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-27.2.3",
+          "text": "Tanda kasih sayang antara ibu dan bayinya",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-27.2.4",
+          "text": "Bayi kelihatan sihat",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-27.2.5",
+          "text": "Bayi tenang dan selesa",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-27.2.6",
+          "text": "Bayi mencapai payudara apabila lapar",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-27.3",
+      "text": "Payudara",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "maternal-27.3.1",
+          "text": "Payudara kelihatan sihat",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-27.3.2",
+          "text": "Tidak sakit atau tidak selesa",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-27.3.3",
+          "text": "Diampu dengan baik, jauh dari areola",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-27.3.4",
+          "text": "Puting menonjol dan protractile",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-27.4",
+      "text": "Posisi bayi",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "maternal-27.4.1",
+          "text": "Kepala dan abdan bayi lurus",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-27.4.2",
+          "text": "Badan bayi rapat dan menghadap ibu",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-27.4.3",
+          "text": "Seluruh badan bayi diampu",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-27.4.4",
+          "text": "Bayi mencapai payudara ibu, hidung bayi bertentangan dengan puting payudara ibu",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-27.5",
+      "text": "Pelengkapan bayi",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "maternal-27.5.1",
+          "text": "Kelihatan lebih areola di atas mulut bayi",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-27.5.2",
+          "text": "Mulut bayi terbuka luas",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-27.5.3",
+          "text": "Bibir bawah melengkup keluar",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-27.5.4",
+          "text": "Dagu bayi menyentuh payudara ibu",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-27.6",
+      "text": "Penghisapan",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "maternal-27.6.1",
+          "text": "Penghisapan perlahan dan mendalam",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-27.6.2",
+          "text": "Pipi penuh dan bulat",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-27.6.3",
+          "text": "Bayi melepaskan payudara dengan sendiri bila habis menyusu",
+          "type": "boolean"
+        },
+        {
+          "linkId": "maternal-27.6.4",
+          "text": "Ibu merasai tanda refleks oksitosin",
+          "type": "boolean"
+        }
+      ]
+    }
+  ]
+}

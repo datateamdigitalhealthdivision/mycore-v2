@@ -1,0 +1,54 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "developmental-milestone-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemDevelopmentalMilestone (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/developmental-milestone-my-core</tt><p>Developmental Milestone</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/developmental-milestone-my-core",
+  "name": "CodeSystemDevelopmentalMilestoneMyCore",
+  "title": "CodeSystemDevelopmentalMilestone (MY Core)",
+  "status": "active",
+  "date": "2023-06-26T00:55:17.2867281+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Developmental Milestone",
+  "compositional": false,
+  "content": "complete",
+  "count": 4,
+  "concept": [
+    {
+      "code": "gross-motor",
+      "display": "Gross Motor",
+      "definition": "Gross Motor"
+    },
+    {
+      "code": "fine-motor",
+      "display": "Fine Motor",
+      "definition": "Fine Motor"
+    },
+    {
+      "code": "speech",
+      "display": "Speech",
+      "definition": "Speech"
+    },
+    {
+      "code": "social",
+      "display": "Social",
+      "definition": "Social"
+    }
+  ],
+  "version": "2.0.0",
+  "experimental": false,
+  "caseSensitive": true
+}

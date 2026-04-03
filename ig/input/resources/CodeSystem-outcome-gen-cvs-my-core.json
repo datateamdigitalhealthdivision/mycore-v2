@@ -1,0 +1,89 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "outcome-gen-cvs-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/outcome-gen-cvs-my-core",
+  "name": "CodeSystemOutcomeGenCvsMyCore",
+  "title": "CodeSystemOutcomeGenCvs (MY Core)",
+  "status": "active",
+  "date": "2023-06-26T00:55:17.2867281+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "description": "General CVD Risk Prediction Questionnaire",
+  "compositional": false,
+  "content": "complete",
+  "count": 4,
+  "property": [
+    {
+      "code": "low",
+      "type": "string"
+    },
+    {
+      "code": "high",
+      "type": "string"
+    }
+  ],
+  "concept": [
+    {
+      "code": "a1",
+      "display": "Low CV risk",
+      "definition": "Low CV risk",
+      "property": [
+        {
+          "code": "low",
+          "valueString": "0"
+        },
+        {
+          "code": "high",
+          "valueString": "9.99"
+        }
+      ]
+    },
+    {
+      "code": "a2",
+      "display": "Moderate CV risk, please consult your nearest healthcare facility",
+      "definition": "Moderate CV risk, please consult your nearest healthcare facility",
+      "property": [
+        {
+          "code": "low",
+          "valueString": "10"
+        },
+        {
+          "code": "high",
+          "valueString": "20.99"
+        }
+      ]
+    },
+    {
+      "code": "a3",
+      "display": "High CV ris, please consult your nearest healthcare facility",
+      "definition": "High CV risk, please consult your nearest healthcare facility",
+      "property": [
+        {
+          "code": "low",
+          "valueString": "21"
+        },
+        {
+          "code": "high",
+          "valueString": "30.99"
+        }
+      ]
+    },
+    {
+      "code": "a4",
+      "display": "Very high CV risk, please consult your nearest healthcare facility",
+      "definition": "Very high CV risk, please consult your nearest healthcare facility",
+      "property": [
+        {
+          "code": "low",
+          "valueString": "31"
+        },
+        {
+          "code": "high",
+          "valueString": "100"
+        }
+      ]
+    }
+  ],
+  "version": "2.0.0",
+  "experimental": false,
+  "caseSensitive": true
+}

@@ -1,0 +1,18 @@
+code,display,definition,system_url,system_name
+1,Presently under care of other dentist,Presently under care of other dentist,http://fhir.hie.moh.gov.my/CodeSystem/dental-history-alert-my-core,CodeSystemDentalHistoryAlertMyCore
+2,Previous Restorations,Previous Restorations,http://fhir.hie.moh.gov.my/CodeSystem/dental-history-alert-my-core,CodeSystemDentalHistoryAlertMyCore
+3,Previous Oral Surgery,Previous Oral Surgery,http://fhir.hie.moh.gov.my/CodeSystem/dental-history-alert-my-core,CodeSystemDentalHistoryAlertMyCore
+4,Previous Prosthodontics,Previous Prosthodontics,http://fhir.hie.moh.gov.my/CodeSystem/dental-history-alert-my-core,CodeSystemDentalHistoryAlertMyCore
+5,Previous Orthodontics,Previous Orthodontics,http://fhir.hie.moh.gov.my/CodeSystem/dental-history-alert-my-core,CodeSystemDentalHistoryAlertMyCore
+6,Pervious Periodontics,Pervious Periodontics,http://fhir.hie.moh.gov.my/CodeSystem/dental-history-alert-my-core,CodeSystemDentalHistoryAlertMyCore
+7,Previous Endodontics,Previous Endodontics,http://fhir.hie.moh.gov.my/CodeSystem/dental-history-alert-my-core,CodeSystemDentalHistoryAlertMyCore
+8,Previous Flouride Exposure,Previous Flouride Exposure,http://fhir.hie.moh.gov.my/CodeSystem/dental-history-alert-my-core,CodeSystemDentalHistoryAlertMyCore
+9,Previous Mucosal Problems,Previous Mucosal Problems,http://fhir.hie.moh.gov.my/CodeSystem/dental-history-alert-my-core,CodeSystemDentalHistoryAlertMyCore
+10,Previous Dental Trauma,Previous Dental Trauma,http://fhir.hie.moh.gov.my/CodeSystem/dental-history-alert-my-core,CodeSystemDentalHistoryAlertMyCore
+11,Previous Maxillofacial Trauma,Previous Maxillofacial Trauma,http://fhir.hie.moh.gov.my/CodeSystem/dental-history-alert-my-core,CodeSystemDentalHistoryAlertMyCore
+12,TMJ Problems,TMJ Problems,http://fhir.hie.moh.gov.my/CodeSystem/dental-history-alert-my-core,CodeSystemDentalHistoryAlertMyCore
+13,Frequency of Dental Visits,Frequency of Dental Visits,http://fhir.hie.moh.gov.my/CodeSystem/dental-history-alert-my-core,CodeSystemDentalHistoryAlertMyCore
+15,Negative Experience with Local Anaesthetics,Negative Experience with Local Anaesthetics,http://fhir.hie.moh.gov.my/CodeSystem/dental-history-alert-my-core,CodeSystemDentalHistoryAlertMyCore
+16,Experience with Extractions,Experience with Extractions,http://fhir.hie.moh.gov.my/CodeSystem/dental-history-alert-my-core,CodeSystemDentalHistoryAlertMyCore
+17,Other Negative Dental Experience,Other Negative Dental Experience,http://fhir.hie.moh.gov.my/CodeSystem/dental-history-alert-my-core,CodeSystemDentalHistoryAlertMyCore
+255,Other Relevant Dental History,Other Relevant Dental History,http://fhir.hie.moh.gov.my/CodeSystem/dental-history-alert-my-core,CodeSystemDentalHistoryAlertMyCore

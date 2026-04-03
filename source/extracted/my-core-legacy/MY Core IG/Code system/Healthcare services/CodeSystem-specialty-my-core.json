@@ -1,0 +1,1147 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-specialty-my-core",
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/specialty-my-core",
+  "status": "active",
+  "date": "2023-09-21T01:23:50.8726413+00:00",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core"
+      }
+    ]
+  },
+  "expansion": {
+    "identifier": "fbc56464-18a3-4b51-9d76-7afbfea0e9f7",
+    "timestamp": "2023-09-07T08:39:47+08:00",
+    "total": 224,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "offset",
+        "valueInteger": 0
+      },
+      {
+        "name": "count",
+        "valueInteger": 1000
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "10",
+        "display": "Infectious Disease"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "11",
+        "display": "Advanced Internal Medicine"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "12",
+        "display": "Medical Oncology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "13",
+        "display": "Nephrology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "14",
+        "display": "Neurology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "15",
+        "display": "Palliative Care"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "16",
+        "display": "Respiratory Medicine"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "17",
+        "display": "Rheumatology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "19",
+        "display": "General Surgery"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "20",
+        "display": "Breast & Endocrine Surgery"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "21",
+        "display": "Burns & Trauma Surgery"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "22",
+        "display": "Cardiothoracic Surgery"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "23",
+        "display": "Colorectal Surgery"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "24",
+        "display": "Surgical Oncology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "25",
+        "display": "Hepatopancreaticobiliary (HPB) Surgery"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "26",
+        "display": "Neurosurgery"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "27",
+        "display": "Paediatric Surgery"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "28",
+        "display": "Plastic & Reconstructive Surgery"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "29",
+        "display": "Thoracic Surgery"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "30",
+        "display": "Upper Gastrointestinal Surgery"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "31",
+        "display": "Urology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "32",
+        "display": "Vascular Surgery"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "34",
+        "display": "General Obstetrics & Gynaecology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "35",
+        "display": "Gynae-oncology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "36",
+        "display": "Maternal Fetal Medicine"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "37",
+        "display": "Reproductive Medicine"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "38",
+        "display": "Urogynaecology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "40",
+        "display": "General Paediatrics"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "41",
+        "display": "Adolescent Medicine"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "42",
+        "display": "Developmental Paeds"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "43",
+        "display": "Clinical Genetics"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "44",
+        "display": "Neonatology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "45",
+        "display": "Paediatric Cardiology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "46",
+        "display": "Paediatric Palliative Medicine"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "47",
+        "display": "Paediatric Dermatology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "48",
+        "display": "Paediatric Emergency Medicine"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "49",
+        "display": "Paediatric Endocrine"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "50",
+        "display": "Paediatric Gastroenterology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "51",
+        "display": "Paediatric Haemato-oncology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "52",
+        "display": "Paediatric Infectious Diseases"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "53",
+        "display": "Paediatric Intensive Care"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "54",
+        "display": "Paediatric Rheumatology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "55",
+        "display": "Paediatrics Nephrology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "56",
+        "display": "Paediatrics Neurology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "57",
+        "display": "Paediatrics Respiratory Medicine"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "59",
+        "display": "General Orthopaedics"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "60",
+        "display": "Joint Arthroplasty"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "61",
+        "display": "Arthroscopy & Sports Surgery"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "62",
+        "display": "Advanced Musculoskeletal Trauma"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "63",
+        "display": "Foot & Ankle Surgery"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "64",
+        "display": "Oncology Orthopaedic"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "65",
+        "display": "Paediatric Orthopaedic"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "66",
+        "display": "Spine Surgery"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "67",
+        "display": "Upper Limb, Hand  & Microsurgery"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "69",
+        "display": "General Ophthalmology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "70",
+        "display": "Cornea"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "71",
+        "display": "Neuro Ophthalmology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "72",
+        "display": "Glaucoma"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "73",
+        "display": "Medical Retinal"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "74",
+        "display": "Oculoplastic Surgery"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "75",
+        "display": "Paediatric Ophthalmology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "76",
+        "display": "Vitreoretinal"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "78",
+        "display": "General Otorhinolaryngology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "79",
+        "display": "Head & Neck Surgery"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "80",
+        "display": "Otology/Skull Based Surgery"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "81",
+        "display": "Paediatric ORL"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "82",
+        "display": "Rhinology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "84",
+        "display": "General Psychiatry"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "85",
+        "display": "Child & Adolescent Psychiatry"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "86",
+        "display": "Addiction & Substance Abuse"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "87",
+        "display": "Community & Rehab Psychiatry"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "88",
+        "display": "Forensic Psychiatry"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "89",
+        "display": "Liaison Psychiatry"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "90",
+        "display": "Neuropsychiatry"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "91",
+        "display": "Psychogeriatrics"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "93",
+        "display": "General Rehabilitation Medicine"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "95",
+        "display": "General Nuclear Medicine"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "97",
+        "display": "General Radiotherapy/Clinical Oncology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "105",
+        "display": "General Emergency Medicine"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "107",
+        "display": "General Sports Medicine"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "109",
+        "display": "General Anaesthesiology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "110",
+        "display": "Obstetric Anaesthesia"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "111",
+        "display": "Paediatric Anaesthesia"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "112",
+        "display": "Adult Intensive Care"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "113",
+        "display": "Cardiac Anaesthesia"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "114",
+        "display": "Neuroanaesthesia & Trauma"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "115",
+        "display": "Pain Management"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "117",
+        "display": "Anatomical Pathology (Histhopathology)"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "118",
+        "display": "Chemical Pathology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "119",
+        "display": "Haematology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "120",
+        "display": "Medical Microbiology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "122",
+        "display": "General Transfusion Medicine"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "124",
+        "display": "General Radiology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "125",
+        "display": "Interventional Radiology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "126",
+        "display": "Paediatric Radiology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "127",
+        "display": "Breast & Endocrine"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "128",
+        "display": "Cardiac Radiology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "129",
+        "display": "Gastro Hepatobiliary"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "130",
+        "display": "Uroradiology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "131",
+        "display": "Musculoskeletal Radiology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "132",
+        "display": "Women's Imaging"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "133",
+        "display": "Forensic Radiology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "134",
+        "display": "Neuroradiology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "136",
+        "display": "General Forensic Medicine"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "137",
+        "display": "Clinical Forensic Medicine"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "138",
+        "display": "Forensic Anthropology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "139",
+        "display": "Forensic Pathology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "140",
+        "display": "Forensic Toxicology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "142",
+        "display": "General Multi Disciplines"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "143",
+        "display": "Obstetrics"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "144",
+        "display": "Gynaecology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "146",
+        "display": "General Family Medicine"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "148",
+        "display": "Public Health Medicine"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "149",
+        "display": "Communicable Disease"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "150",
+        "display": "Non-communicable Disease"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "151",
+        "display": "Family Health"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "152",
+        "display": "Health Management"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "153",
+        "display": "Occupational Health"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "154",
+        "display": "Environmental Health"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "155",
+        "display": "Military Medicine"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "156",
+        "display": "Paediatric Rehabilitation Medicine"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "157",
+        "display": "General Paediatrics & Child Health"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "158",
+        "display": "Comprehensive Ophthalmology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "163",
+        "display": "Clinical Toxicology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "164",
+        "display": "Emergency Critical Care"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "165",
+        "display": "Emergency Trauma Care"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "166",
+        "display": "Pre-Hospital Care & Disaster"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "167",
+        "display": "Paediatric Emergency Medicine"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "168",
+        "display": "Regional Anaethesia"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "169",
+        "display": "General Pathology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "170",
+        "display": "Oncology Imaging"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "171",
+        "display": "Head & Neck Radiology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "172",
+        "display": "Thoracic Imaging"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "173",
+        "display": "Emergency Radiology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "174",
+        "display": "Paediatric Forensic Medicine"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "176",
+        "display": "General Special Care Dentistry"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "178",
+        "display": "General Forensic Odontology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "180",
+        "display": "General Oral Pathology & Oral Medicine"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "182",
+        "display": "General Oral Maxillofacial Surgery"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "184",
+        "display": "General Paediatric Dentistry"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "186",
+        "display": "General Orthodontics"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "188",
+        "display": "General Dental Public Health"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "190",
+        "display": "General Periodontology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "192",
+        "display": "General Restorative Dentistry"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "194",
+        "display": "General Endodontics"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "196",
+        "display": "General Oral Maxillofacial Imaging"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "198",
+        "display": "General Prosthodontics"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "500",
+        "display": "Adult Health (Health screening)"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "501",
+        "display": "Antenatal Clinic"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "502",
+        "display": "Children With Special Need"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "503",
+        "display": "Community Health (Mobile clinic)"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "504",
+        "display": "Dietetic Service"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "505",
+        "display": "DOTS"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "506",
+        "display": "Domicilliary Care"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "507",
+        "display": "Family Planning"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "508",
+        "display": "Home visit - Delivery"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "509",
+        "display": "Home Visit - Others"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "510",
+        "display": "Home visit - Postnatal"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "511",
+        "display": "Methadone Clinic"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "512",
+        "display": "Nutrition Service"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "513",
+        "display": "Mental Health"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "514",
+        "display": "Postnatal Care - Baby"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "515",
+        "display": "Postnatal Care - Mother"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "516",
+        "display": "Pre-pregnancy Care"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "517",
+        "display": "Occupational Therapy Service"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "518",
+        "display": "Physiotherapy Service"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "519",
+        "display": "Counselling Service"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "520",
+        "display": "RME - IPT/MRSM/Badan Berkanun"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "521",
+        "display": "RME - Kerajaan (> 40 thn)/Medical Surveillance"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "522",
+        "display": "RME - Orang Awam/Insuran/Lesen/Umrah/Keluarga-Luar Negara"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "523",
+        "display": "RME - Pelantikan Kerajaan/Jemaah Haji/Atlet/PLKN"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "524",
+        "display": "RME - Sekolah Berasrama"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "525",
+        "display": "RME - Warga Asing"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "526",
+        "display": "Saringan Pengantin"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "527",
+        "display": "School Health"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "528",
+        "display": "Smoking Cessation"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "529",
+        "display": "Medical Social Work Service"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "530",
+        "display": "Womens Health (CBE)"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "531",
+        "display": "Diabetic Education"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "532",
+        "display": "Whole Blood Donation"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "533",
+        "display": "Vaccination"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "534",
+        "display": "Platelet Apheresis Donation (A)"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "535",
+        "display": "Platelet Apheresis Donation (B)"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "536",
+        "display": "Platelet Apheresis Donation (O)"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "537",
+        "display": "Platelet Apheresis Donation (AB)"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "538",
+        "display": "Plasma Apheresis Donation (A)"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "539",
+        "display": "Plasma Apheresis Donation (B)"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "540",
+        "display": "Plasma Apheresis Donation (O)"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "541",
+        "display": "Plasma Apheresis Donation (AB)"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "542",
+        "display": "Medication Therapy Adherence Clinic (MTAC)"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "543",
+        "display": "Medication Counselling (MC)"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "544",
+        "display": "Therapeutic Drug Monitoring (TDM)"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "545",
+        "display": "Parenteral Nutrition (PN)"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "546",
+        "display": "Cytotoxic Drug Reconstitution (CDR)"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "547",
+        "display": "Radiopharmaceutical"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "548",
+        "display": "IV Admixture"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "549",
+        "display": "Galenical"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "550",
+        "display": "Ward Pharmacy"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "551",
+        "display": "Drug Information & Consumer Education (DICE)"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "552",
+        "display": "Primary Oral Health Care"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "553",
+        "display": "Dental School Health"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "554",
+        "display": "Men's Health"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "555",
+        "display": "General Health screening"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "556",
+        "display": "Clinical Psychology Service"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "557",
+        "display": "Speech Language Therapy Service"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "558",
+        "display": "Audiology  Service"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "559",
+        "display": "Jabatan Pesakit Luar"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "560",
+        "display": "Procedure"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "561",
+        "display": "National Health Screening (NHSI)"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "562",
+        "display": "Peka B40 Screening"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "563",
+        "display": "Information Technology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "02",
+        "display": "General Medicine"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "03",
+        "display": "Cardiology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "04",
+        "display": "Clinical Haematology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "05",
+        "display": "Dermatology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "06",
+        "display": "Endocrinology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "07",
+        "display": "Gastroenterology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "08",
+        "display": "Geriatric"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "09",
+        "display": "Hepatology"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "564",
+        "display": "STD Clinic"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "565",
+        "display": "Combine Clinic"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "566",
+        "display": "Keputusan Saringan Makmal"
+      },
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core",
+        "code": "567",
+        "display": "Keputusan Saringan Radiologi"
+      }
+    ]
+  }
+}

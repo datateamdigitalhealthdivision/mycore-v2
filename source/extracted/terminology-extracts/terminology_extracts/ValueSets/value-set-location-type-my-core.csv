@@ -1,0 +1,8 @@
+code,display,system,include_type,valueset_url,valueset_name
+*,Include all concepts from system,http://fhir.hie.moh.gov.my/CodeSystem/ward-category-my-core,include-all,http://fhir.hie.moh.gov.my/ValueSet/location-type-my-core,ValueSetLocationTypeMyCore
+*,Include all concepts from system,http://fhir.hie.moh.gov.my/CodeSystem/encounter-class-my-core,include-all,http://fhir.hie.moh.gov.my/ValueSet/location-type-my-core,ValueSetLocationTypeMyCore
+*,Include all concepts from system,http://fhir.hie.moh.gov.my/CodeSystem/ward-class-my-core,include-all,http://fhir.hie.moh.gov.my/ValueSet/location-type-my-core,ValueSetLocationTypeMyCore
+*,Include all concepts from system,http://fhir.hie.moh.gov.my/CodeSystem/ward-specialty-my-core,include-all,http://fhir.hie.moh.gov.my/ValueSet/location-type-my-core,ValueSetLocationTypeMyCore
+*,Include all concepts from system,http://fhir.hie.moh.gov.my/CodeSystem/location-type-my-core,include-all,http://fhir.hie.moh.gov.my/ValueSet/location-type-my-core,ValueSetLocationTypeMyCore
+*,Include all concepts from system,http://fhir.hie.moh.gov.my/CodeSystem/specialty-my-core,include-all,http://fhir.hie.moh.gov.my/ValueSet/location-type-my-core,ValueSetLocationTypeMyCore
+_ServiceDeliveryLocationRoleType,"ServiceDeliveryLocationRoleType	A role of a place that further classifies the setting (e.g., accident site, road side, work site, community location) in which services are delivered.",http://terminology.hl7.org/CodeSystem/v3-RoleCode,explicit,http://fhir.hie.moh.gov.my/ValueSet/location-type-my-core,ValueSetLocationTypeMyCore

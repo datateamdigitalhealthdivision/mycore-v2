@@ -1,0 +1,18 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-ncd-vc-dx-my-core",
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/ncd-vc-dx-my-core",
+  "name": "ValueSetNcdVcDxMyCore",
+  "title": "ValueSetNcdVcDx (MY Core)",
+  "status": "active",
+  "date": "2023-09-11T01:01:27.4910197+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "description": "NCD VC Report Dx",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/ncd-vc-dx-my-core"
+      }
+    ]
+  }
+}

@@ -1,0 +1,354 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "practitioner-role-code-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemPractitionerRoleCode (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/practitioner-role-code-my-core</tt><p>Malaysia list of practitioner role</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/practitioner-role-code-my-core",
+  "name": "CodeSystemPractitionerRoleCodeMyCore",
+  "title": "CodeSystemPractitionerRoleCode (MY Core)",
+  "status": "active",
+  "date": "2023-06-08T03:08:38.5864399+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Malaysia list of practitioner role",
+  "compositional": false,
+  "content": "complete",
+  "count": 64,
+  "concept": [
+    {
+      "code": "GDYEY1NKXO",
+      "display": "Assistant Enviroment Health Officer",
+      "definition": "Assistant Enviroment Health Officer"
+    },
+    {
+      "code": "AMO",
+      "display": "Assistant Medical Officer",
+      "definition": "Assistant Medical Officer"
+    },
+    {
+      "code": "APHRO",
+      "display": "Assistant Pharmacy Officer",
+      "definition": "Assistant Pharmacy Officer"
+    },
+    {
+      "code": "ASDOHD",
+      "display": "Assistant Senior Director OHD",
+      "definition": "Assistant Senior Director OHD"
+    },
+    {
+      "code": "CNTRLADMIN",
+      "display": "Centraladmin",
+      "definition": "Centraladmin"
+    },
+    {
+      "code": "CASDOHD",
+      "display": "Chief Assistant Senior Director OHD",
+      "definition": "Chief Assistant Senior Director OHD"
+    },
+    {
+      "code": "CN",
+      "display": "Community Nurse",
+      "definition": "Community Nurse"
+    },
+    {
+      "code": "COMFS",
+      "display": "Consultant Oral Maxillo Facial Specialist",
+      "definition": "Consultant Oral Maxillo Facial Specialist"
+    },
+    {
+      "code": "CORTHO",
+      "display": "Consultant Orthodontist",
+      "definition": "Consultant Orthodontist"
+    },
+    {
+      "code": "CPAEDO",
+      "display": "Consultant Paediatric Dentistry",
+      "definition": "Consultant Paediatric Dentistry"
+    },
+    {
+      "code": "CPERIO",
+      "display": "Consultant Periodontist",
+      "definition": "Consultant Periodontist"
+    },
+    {
+      "code": "CRESTO",
+      "display": "Consultant Restorative Specialist",
+      "definition": "Consultant Restorative Specialist"
+    },
+    {
+      "code": "CSND",
+      "display": "Consultant Special Needs Dentistry",
+      "definition": "Consultant Special Needs Dentistry"
+    },
+    {
+      "code": "OMOAISVS8M",
+      "display": "Counsellor",
+      "definition": "Counsellor"
+    },
+    {
+      "code": "ATTd",
+      "display": "Dental Attendant",
+      "definition": "Dental Attendant"
+    },
+    {
+      "code": "CRKd",
+      "display": "Dental Clerk",
+      "definition": "Dental Clerk"
+    },
+    {
+      "code": "DO",
+      "display": "Dental Officer",
+      "definition": "Dental Officer"
+    },
+    {
+      "code": "DOI",
+      "display": "Dental Officer Incharge",
+      "definition": "Dental Officer Incharge"
+    },
+    {
+      "code": "DPHS",
+      "display": "Dental Public Health Specialist",
+      "definition": "Dental Public Health Specialist"
+    },
+    {
+      "code": "DSA",
+      "display": "Dental Surgery Assistant",
+      "definition": "Dental Surgery Assistant"
+    },
+    {
+      "code": "DT",
+      "display": "Dental Technologist",
+      "definition": "Dental Technologist"
+    },
+    {
+      "code": "DN",
+      "display": "Dental Therapist",
+      "definition": "Dental Therapist"
+    },
+    {
+      "code": "DDOHD",
+      "display": "Deputy Director Oral Health Division",
+      "definition": "Deputy Director Oral Health Division"
+    },
+    {
+      "code": "DSHDD",
+      "display": "Deputy State Health Director (Dental)",
+      "definition": "Deputy State Health Director (Dental)"
+    },
+    {
+      "code": "DTT",
+      "display": "Dietitian",
+      "definition": "Dietitian"
+    },
+    {
+      "code": "DOHCP",
+      "display": "Director Oral Health Control and Practice",
+      "definition": "Director Oral Health Control and Practice"
+    },
+    {
+      "code": "DOHD",
+      "display": "Director Oral Health Development",
+      "definition": "Director Oral Health Development"
+    },
+    {
+      "code": "DSTADMIN",
+      "display": "District Admin",
+      "definition": "District Admin"
+    },
+    {
+      "code": "DDO",
+      "display": "District Dental Officer",
+      "definition": "District Dental Officer"
+    },
+    {
+      "code": "2XL5EL5R9Y",
+      "display": "Enviroment Health Officer",
+      "definition": "Enviroment Health Officer"
+    },
+    {
+      "code": "FAADMIN",
+      "display": "Facility Admin",
+      "definition": "Facility Admin"
+    },
+    {
+      "code": "FMS",
+      "display": "Family Medicine Specialist",
+      "definition": "Family Medicine Specialist"
+    },
+    {
+      "code": "FYDO",
+      "display": "First Year Dental Officer",
+      "definition": "First Year Dental Officer"
+    },
+    {
+      "code": "ATTh",
+      "display": "Health Attendant",
+      "definition": "Health Attendant"
+    },
+    {
+      "code": "CRKh",
+      "display": "Health Clerk",
+      "definition": "Health Clerk"
+    },
+    {
+      "code": "CRKhA",
+      "display": "Health Clerk (Accounts)",
+      "definition": "Health Clerk (Accounts)"
+    },
+    {
+      "code": "HEO",
+      "display": "Health Education Officer",
+      "definition": "Health Education Officer"
+    },
+    {
+      "code": "HO",
+      "display": "House Officer",
+      "definition": "House Officer"
+    },
+    {
+      "code": "ITO",
+      "display": "IT Officer",
+      "definition": "IT Officer"
+    },
+    {
+      "code": "ITP",
+      "display": "IT Programmer",
+      "definition": "IT Programmer"
+    },
+    {
+      "code": "ITT",
+      "display": "IT Technician",
+      "definition": "IT Technician"
+    },
+    {
+      "code": "VW9ER47J1B",
+      "display": "Medical Army",
+      "definition": "Medical Army"
+    },
+    {
+      "code": "MLT",
+      "display": "Medical Lab Technologist",
+      "definition": "Medical Lab Technologist"
+    },
+    {
+      "code": "MO",
+      "display": "Medical Officer",
+      "definition": "Medical Officer"
+    },
+    {
+      "code": "MSW",
+      "display": "Medical Social Worker",
+      "definition": "Medical Social Worker"
+    },
+    {
+      "code": "NRS",
+      "display": "Nurse",
+      "definition": "Nurse"
+    },
+    {
+      "code": "NTR",
+      "display": "Nutritionist",
+      "definition": "Nutritionist"
+    },
+    {
+      "code": "OT",
+      "display": "Occupational Therapist",
+      "definition": "Occupational Therapist"
+    },
+    {
+      "code": "MUQUG160J8",
+      "display": "Optometrist",
+      "definition": "Optometrist"
+    },
+    {
+      "code": "OMFS",
+      "display": "Oral Maxillo Facial Specialist",
+      "definition": "Oral Maxillo Facial Specialist"
+    },
+    {
+      "code": "ORTHO",
+      "display": "Orthodontist",
+      "definition": "Orthodontist"
+    },
+    {
+      "code": "PAEDO",
+      "display": "Paediatric Dentistry",
+      "definition": "Paediatric Dentistry"
+    },
+    {
+      "code": "WFFAKB4GYV",
+      "display": "Part Time Worker (PSH)",
+      "definition": "Part Time Worker (PSH)"
+    },
+    {
+      "code": "EX98C1G9RS",
+      "display": "Pegawai Khidmat Pelanggan",
+      "definition": "Pegawai Khidmat Pelanggan"
+    },
+    {
+      "code": "PO",
+      "display": "Pembantu Operasi",
+      "definition": "Pembantu Operasi"
+    },
+    {
+      "code": "PERIO",
+      "display": "Periodontist",
+      "definition": "Periodontist"
+    },
+    {
+      "code": "PHRO",
+      "display": "Pharmacy Officer",
+      "definition": "Pharmacy Officer"
+    },
+    {
+      "code": "PSC",
+      "display": "Physiotherapist",
+      "definition": "Physiotherapist"
+    },
+    {
+      "code": "PSDT",
+      "display": "Post Basic Dental Therapist",
+      "definition": "Post Basic Dental Therapist"
+    },
+    {
+      "code": "FTEQASKWHS",
+      "display": "Principal Dental Therapist",
+      "definition": "Principal Dental Therapist"
+    },
+    {
+      "code": "TDT",
+      "display": "Trainee Dental Technologist",
+      "definition": "Trainee Dental Technologist"
+    },
+    {
+      "code": "superadmin",
+      "display": "Vendor",
+      "definition": "Vendor"
+    },
+    {
+      "code": "VSp",
+      "display": "Visiting Specialist",
+      "definition": "Visiting Specialist"
+    },
+    {
+      "code": "jknadmin",
+      "display": "JKN Admin",
+      "definition": "JKN Admin"
+    }
+  ],
+  "version": "2.0.0",
+  "experimental": false,
+  "caseSensitive": true
+}

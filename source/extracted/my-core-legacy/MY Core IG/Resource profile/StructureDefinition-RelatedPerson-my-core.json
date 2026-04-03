@@ -1,0 +1,148 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "RelatedPerson-my-core",
+  "url": "http://fhir.hie.moh.gov.my/StructureDefinition/RelatedPerson-my-core",
+  "version": "1/.0.0",
+  "name": "RelatedPersonMyCore",
+  "title": "RelatedPerson (MY Core)",
+  "status": "active",
+  "date": "2023-01-03T22:51:36.4921704+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "RelatedPerson",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/RelatedPerson",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "RelatedPerson.identifier",
+        "path": "RelatedPerson.identifier",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "system"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "RelatedPerson.identifier:myKadNo",
+        "path": "RelatedPerson.identifier",
+        "sliceName": "myKadNo"
+      },
+      {
+        "id": "RelatedPerson.identifier:myKadNo.system",
+        "path": "RelatedPerson.identifier.system",
+        "min": 1,
+        "fixedUri": "http://fhir.hie.moh.gov.my/sid/my-kad-no"
+      },
+      {
+        "id": "RelatedPerson.identifier:myKadNo.value",
+        "path": "RelatedPerson.identifier.value",
+        "min": 1
+      },
+      {
+        "id": "RelatedPerson.identifier:passportNo",
+        "path": "RelatedPerson.identifier",
+        "sliceName": "passportNo"
+      },
+      {
+        "id": "RelatedPerson.identifier:passportNo.system",
+        "path": "RelatedPerson.identifier.system",
+        "min": 1,
+        "fixedUri": "http://fhir.hie.moh.gov.my/sid/passport-no"
+      },
+      {
+        "id": "RelatedPerson.identifier:passportNo.value",
+        "path": "RelatedPerson.identifier.value",
+        "min": 1
+      },
+      {
+        "id": "RelatedPerson.identifier:armyNo",
+        "path": "RelatedPerson.identifier",
+        "sliceName": "armyNo"
+      },
+      {
+        "id": "RelatedPerson.identifier:armyNo.system",
+        "path": "RelatedPerson.identifier.system",
+        "min": 1,
+        "fixedUri": "http://fhir.hie.moh.gov.my/sid/army-no"
+      },
+      {
+        "id": "RelatedPerson.identifier:armyNo.value",
+        "path": "RelatedPerson.identifier.value",
+        "min": 1
+      },
+      {
+        "id": "RelatedPerson.identifier:policeNo",
+        "path": "RelatedPerson.identifier",
+        "sliceName": "policeNo"
+      },
+      {
+        "id": "RelatedPerson.identifier:policeNo.system",
+        "path": "RelatedPerson.identifier.system",
+        "min": 1,
+        "fixedUri": "http://fhir.hie.moh.gov.my/sid/police-no"
+      },
+      {
+        "id": "RelatedPerson.identifier:policeNo.value",
+        "path": "RelatedPerson.identifier.value",
+        "min": 1
+      },
+      {
+        "id": "RelatedPerson.identifier:othersNo",
+        "path": "RelatedPerson.identifier",
+        "sliceName": "othersNo"
+      },
+      {
+        "id": "RelatedPerson.identifier:othersNo.system",
+        "path": "RelatedPerson.identifier.system",
+        "min": 1,
+        "fixedUri": "http://fhir.hie.moh.gov.my/sid/others-no"
+      },
+      {
+        "id": "RelatedPerson.identifier:othersNo.value",
+        "path": "RelatedPerson.identifier.value",
+        "min": 1
+      },
+      {
+        "id": "RelatedPerson.relationship",
+        "path": "RelatedPerson.relationship",
+        "binding": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "PatientRelationshipType"
+            }
+          ],
+          "strength": "required",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/relationship-my-core"
+        }
+      },
+      {
+        "id": "RelatedPerson.gender",
+        "path": "RelatedPerson.gender",
+        "binding": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "AdministrativeGender"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding",
+              "valueBoolean": true
+            }
+          ],
+          "strength": "required",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/administrative-gender-my-core"
+        }
+      }
+    ]
+  }
+}

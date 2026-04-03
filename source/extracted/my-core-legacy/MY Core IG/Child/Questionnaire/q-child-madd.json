@@ -1,0 +1,199 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-child-madd",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-child-madd",
+  "version": "1.0.0",
+  "name": "QChildAdditionalMedicalExam",
+  "title": "Additional Medical Exam for Child",
+  "status": "active",
+  "date": "2023-08-30T06:43:50.5035753+00:00",
+  "item": [
+    {
+      "linkId": "child-madd.0",
+      "text": "Umur semasa lawatan",
+      "type": "quantity",
+      "initial": [
+        {
+          "valueQuantity": {
+            "unit": "day",
+            "system": "http://unitsofmeasure.org",
+            "code": "d"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "child-madd.1",
+      "text": "Past Medical/Surgical History",
+      "type": "string"
+    },
+    {
+      "linkId": "child-madd.2",
+      "text": "Medication History",
+      "type": "string"
+    },
+    {
+      "linkId": "child-madd.3",
+      "text": "Social and Family History",
+      "type": "string"
+    },
+    {
+      "linkId": "child-madd.4",
+      "text": "History of Presenting Illness Summary",
+      "type": "string"
+    },
+    {
+      "linkId": "child-madd.5",
+      "text": "Vital Signs",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "child-madd.5.1",
+          "text": "Systolic Blood Pressure (mmHg)",
+          "type": "quantity",
+          "initial": [
+            {
+              "valueQuantity": {
+                "unit": "mmHg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "child-madd.5.2",
+          "text": "Diastolic Blood Pressure (mmHg)",
+          "type": "quantity",
+          "initial": [
+            {
+              "valueQuantity": {
+                "unit": "mmHg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "child-madd.5.3",
+          "text": "Heart Rate (/min)",
+          "type": "quantity",
+          "initial": [
+            {
+              "valueQuantity": {
+                "unit": "/min",
+                "system": "http://unitsofmeasure.org",
+                "code": "/min"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "child-madd.5.4",
+          "text": "Body Temperature (°C)",
+          "type": "quantity",
+          "initial": [
+            {
+              "valueQuantity": {
+                "unit": "°C",
+                "system": "http://unitsofmeasure.org",
+                "code": "Cel"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "child-madd.5.5",
+          "text": "Oxygen Saturation (%)",
+          "type": "quantity",
+          "initial": [
+            {
+              "valueQuantity": {
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "child-madd.5.6",
+          "text": "Respiratory Rate (/min)",
+          "type": "quantity",
+          "initial": [
+            {
+              "valueQuantity": {
+                "unit": "/min",
+                "system": "http://unitsofmeasure.org",
+                "code": "/min"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "child-madd.5.7",
+          "text": "Pain score",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "linkId": "child-madd.6",
+      "text": "Physical Examination Summary",
+      "type": "string"
+    },
+    {
+      "linkId": "child-madd.7",
+      "text": "Investigations / Special Test",
+      "type": "string"
+    },
+    {
+      "linkId": "child-madd.8",
+      "text": "Diagnosis",
+      "type": "string"
+    },
+    {
+      "linkId": "child-madd.9",
+      "text": "Management/Treatment Summary",
+      "type": "string"
+    },
+    {
+      "linkId": "child-madd.10",
+      "text": "TCA Date",
+      "type": "dateTime"
+    },
+    {
+      "linkId": "child-madd.11",
+      "text": "Referral",
+      "type": "boolean",
+      "item": [
+        {
+          "linkId": "child-madd.11.1",
+          "text": "Referral Indication",
+          "type": "string"
+        },
+        {
+          "linkId": "child-madd.11.2",
+          "text": "Spoken To:",
+          "type": "string"
+        },
+        {
+          "linkId": "child-madd.11.3",
+          "text": "Time of Referral",
+          "type": "dateTime"
+        },
+        {
+          "linkId": "child-madd.remark",
+          "text": "Remark",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "linkId": "child-madd.12",
+      "text": "Catatan",
+      "type": "text"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-task-code-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetTaskCodeMyCore (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/ValueSet/task-code-my-core</tt><p>Type of task</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/task-code-my-core",
+  "name": "ValueSetTaskCodeMyCore",
+  "title": "ValueSetTaskCode (MY Core)",
+  "status": "active",
+  "date": "2023-03-30T05:18:54.6783317+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "description": "Type of task",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/task-code-my-core"
+      }
+    ]
+  }
+}

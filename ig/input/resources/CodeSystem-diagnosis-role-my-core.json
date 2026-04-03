@@ -1,0 +1,84 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "diagnosis-role-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemDiagnosisRole (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/diagnosis-role-my-core</tt><p>SMRP Diagnosis Code</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/diagnosis-role-my-core",
+  "version": "2.0.0",
+  "name": "CodeSystemDiagnosisRoleMyCore",
+  "title": "CodeSystemDiagnosisRole (MY Core)",
+  "status": "active",
+  "date": "2023-09-11T01:01:27.4910197+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "SMRP Diagnosis Code",
+  "compositional": false,
+  "content": "complete",
+  "count": 10,
+  "concept": [
+    {
+      "code": "00",
+      "display": "Tiada Maklumat",
+      "definition": "Tiada Maklumat"
+    },
+    {
+      "code": "01",
+      "display": "Main Diagnosis",
+      "definition": "Main Diagnosis"
+    },
+    {
+      "code": "02",
+      "display": "Underlying Condition",
+      "definition": "Underlying Condition"
+    },
+    {
+      "code": "03",
+      "display": "Underlying Cause of Death",
+      "definition": "Underlying Cause of Death"
+    },
+    {
+      "code": "04",
+      "display": "External Causes of Morbidity & Mortality",
+      "definition": "External Causes of Morbidity & Mortality"
+    },
+    {
+      "code": "05",
+      "display": "Complication Diagnosis",
+      "definition": "Complication Diagnosis"
+    },
+    {
+      "code": "08",
+      "display": "Other Diagnosis",
+      "definition": "Other Diagnosis"
+    },
+    {
+      "code": "10",
+      "display": "Terminal Cause of Death",
+      "definition": "Terminal Cause of Death"
+    },
+    {
+      "code": "11",
+      "display": "Traditional Medicine Disorder",
+      "definition": "Traditional Medicine Disorder"
+    },
+    {
+      "code": "12",
+      "display": "Traditional Medicine Pattern",
+      "definition": "Traditional Medicine Pattern"
+    }
+  ],
+  "experimental": false,
+  "caseSensitive": true
+}

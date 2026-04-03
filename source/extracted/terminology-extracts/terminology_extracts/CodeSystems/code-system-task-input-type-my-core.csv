@@ -1,0 +1,23 @@
+code,display,definition,system_url,system_name
+001,Service Request Category,Service Request Category,http://fhir.hie.moh.gov.my/CodeSystem/task-input-type-my-core,CodeSystemTaskInputTypeMyCore
+002,Specimen,Specimen,http://fhir.hie.moh.gov.my/CodeSystem/task-input-type-my-core,CodeSystemTaskInputTypeMyCore
+003,Imaging Modality,Imaging Modality,http://fhir.hie.moh.gov.my/CodeSystem/task-input-type-my-core,CodeSystemTaskInputTypeMyCore
+004,Imaging Region,Imaging Region,http://fhir.hie.moh.gov.my/CodeSystem/task-input-type-my-core,CodeSystemTaskInputTypeMyCore
+005,Imaging Orderable,Imaging Orderable,http://fhir.hie.moh.gov.my/CodeSystem/task-input-type-my-core,CodeSystemTaskInputTypeMyCore
+006,Imaging Study,Imaging Study,http://fhir.hie.moh.gov.my/CodeSystem/task-input-type-my-core,CodeSystemTaskInputTypeMyCore
+007,Contrast,Contrast,http://fhir.hie.moh.gov.my/CodeSystem/task-input-type-my-core,CodeSystemTaskInputTypeMyCore
+008,Contrast Strength,Contrast Strength,http://fhir.hie.moh.gov.my/CodeSystem/task-input-type-my-core,CodeSystemTaskInputTypeMyCore
+009,CD/DVD,CD/DVD,http://fhir.hie.moh.gov.my/CodeSystem/task-input-type-my-core,CodeSystemTaskInputTypeMyCore
+010,Lab Sub Group,Lab Sub Group,http://fhir.hie.moh.gov.my/CodeSystem/task-input-type-my-core,CodeSystemTaskInputTypeMyCore
+011,Primary Performer,Primary Performer,http://fhir.hie.moh.gov.my/CodeSystem/task-input-type-my-core,CodeSystemTaskInputTypeMyCore
+012,Secondary Performer,Secondary Performer,http://fhir.hie.moh.gov.my/CodeSystem/task-input-type-my-core,CodeSystemTaskInputTypeMyCore
+013,Barcode Printer,Barcode Printer,http://fhir.hie.moh.gov.my/CodeSystem/task-input-type-my-core,CodeSystemTaskInputTypeMyCore
+014,Referral Summary,Referral Summary,http://fhir.hie.moh.gov.my/CodeSystem/task-input-type-my-core,CodeSystemTaskInputTypeMyCore
+015,Receive/Not Arrived Date Time,Receive Date Time,http://fhir.hie.moh.gov.my/CodeSystem/task-input-type-my-core,CodeSystemTaskInputTypeMyCore
+016,Accepted Date Time,Accepted Date Time,http://fhir.hie.moh.gov.my/CodeSystem/task-input-type-my-core,CodeSystemTaskInputTypeMyCore
+017,Dispatched Date Time,Dispatched Date Time,http://fhir.hie.moh.gov.my/CodeSystem/task-input-type-my-core,CodeSystemTaskInputTypeMyCore
+018,Printed Status,Printed Status,http://fhir.hie.moh.gov.my/CodeSystem/task-input-type-my-core,CodeSystemTaskInputTypeMyCore
+019,Printed Date Time,Printed Date Time,http://fhir.hie.moh.gov.my/CodeSystem/task-input-type-my-core,CodeSystemTaskInputTypeMyCore
+020,Printed By,Printed By,http://fhir.hie.moh.gov.my/CodeSystem/task-input-type-my-core,CodeSystemTaskInputTypeMyCore
+021,Outsource By,Outsource By,http://fhir.hie.moh.gov.my/CodeSystem/task-input-type-my-core,CodeSystemTaskInputTypeMyCore
+022,Sample Taken Time,Sample Taken Time,http://fhir.hie.moh.gov.my/CodeSystem/task-input-type-my-core,CodeSystemTaskInputTypeMyCore

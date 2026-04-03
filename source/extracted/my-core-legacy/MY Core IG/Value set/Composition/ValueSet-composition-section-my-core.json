@@ -1,0 +1,97 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-composition-section-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetCompositionSection (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/ValueSet/composition-section-my-core</tt><p>Composition section</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/composition-section-my-core",
+  "identifier": [
+    {
+      "value": "value-set-composition-category-my-core"
+    }
+  ],
+  "version": "1.0.0",
+  "name": "ValueSetCompositionSectionMyCore",
+  "title": "ValueSetCompositionSection (MY Core)",
+  "status": "active",
+  "date": "2023-06-08T03:08:38.5864399+00:00",
+  "description": "Composition section",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/composition-section-my-core",
+        "concept": [
+          {
+            "code": "LP199484-9",
+            "display": "Form"
+          },
+          {
+            "code": "55752-0",
+            "display": "Clinical Information"
+          },
+          {
+            "code": "11450-4",
+            "display": "Problem List"
+          },
+          {
+            "code": "8716-3",
+            "display": "Vital Sign"
+          },
+          {
+            "code": "48765-2",
+            "display": "Allergy And Intolerance"
+          },
+          {
+            "code": "85893-6",
+            "display": "Adverse Event"
+          },
+          {
+            "code": "10160-0",
+            "display": "Medication"
+          },
+          {
+            "code": "29762-2",
+            "display": "Social History"
+          },
+          {
+            "code": "10157-6",
+            "display": "Family History"
+          },
+          {
+            "code": "11369-6",
+            "display": "Immunization"
+          },
+          {
+            "code": "51848-0",
+            "display": "Assessment"
+          },
+          {
+            "code": "18776-5",
+            "display": "Plan of Care"
+          },
+          {
+            "code": "83835-9",
+            "display": "Dentistry"
+          },
+          {
+            "code": "32885-6",
+            "display": "Dental Chart"
+          },
+          {
+            "code": "59776-5",
+            "display": "Procedure description"
+          },
+          {
+            "code": "55109-3",
+            "display": "Complications Document"
+          },
+          {
+            "code": "55107-7",
+            "display": "Addendum Note"
+          }
+        ]
+      }
+    ]
+  }
+}

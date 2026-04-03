@@ -1,0 +1,8 @@
+code,display,definition,system_url,system_name
+OTH,Others,Others,http://fhir.hie.moh.gov.my/CodeSystem/tdm-sample-type-my-core,CodeSystemTdmSampleTypeMyCore
+POST,Post,Post,http://fhir.hie.moh.gov.my/CodeSystem/tdm-sample-type-my-core,CodeSystemTdmSampleTypeMyCore
+PRE,Pre,Pre,http://fhir.hie.moh.gov.my/CodeSystem/tdm-sample-type-my-core,CodeSystemTdmSampleTypeMyCore
+RANDOM,Random,Random,http://fhir.hie.moh.gov.my/CodeSystem/tdm-sample-type-my-core,CodeSystemTdmSampleTypeMyCore
+POST1,POST1,POST1,http://fhir.hie.moh.gov.my/CodeSystem/tdm-sample-type-my-core,CodeSystemTdmSampleTypeMyCore
+POST6,POST2,POST2,http://fhir.hie.moh.gov.my/CodeSystem/tdm-sample-type-my-core,CodeSystemTdmSampleTypeMyCore
+RANDOM_2,Random_2,Random_2,http://fhir.hie.moh.gov.my/CodeSystem/tdm-sample-type-my-core,CodeSystemTdmSampleTypeMyCore

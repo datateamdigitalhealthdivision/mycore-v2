@@ -1,0 +1,82 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "treatment-procedure-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemTreatmentProcedure (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/treatment-procedure-my-core</tt><p>Treatment Procedure</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/treatment-procedure-my-core",
+  "name": "CodeSystemTreatmentProcedureMyCore",
+  "title": "CodeSystemTreatmentProcedure (MY Core)",
+  "status": "active",
+  "date": "2023-01-10T23:01:36.9771953+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Treatment Procedure",
+  "compositional": false,
+  "content": "complete",
+  "count": 12,
+  "concept": [
+    {
+      "code": "10",
+      "display": "Insertion of Suppository"
+    },
+    {
+      "code": "11",
+      "display": "Assist Delivery"
+    },
+    {
+      "code": "00",
+      "display": "Other"
+    },
+    {
+      "code": "01",
+      "display": "Dressing  / Desloughing"
+    },
+    {
+      "code": "02",
+      "display": "Bandaging"
+    },
+    {
+      "code": "03",
+      "display": "Splinting / Sprinting"
+    },
+    {
+      "code": "04",
+      "display": "Nebulizer Administer"
+    },
+    {
+      "code": "05",
+      "display": "Eye Irrigation"
+    },
+    {
+      "code": "06",
+      "display": "Ear Irrigation"
+    },
+    {
+      "code": "07",
+      "display": "Diabetic Foot Care"
+    },
+    {
+      "code": "08",
+      "display": "Directly Observed Therapy Surveillance (DOTS) Tuberculosis"
+    },
+    {
+      "code": "09",
+      "display": "Tepid Sponging"
+    }
+  ],
+  "version": "2.0.0",
+  "experimental": false,
+  "caseSensitive": true
+}

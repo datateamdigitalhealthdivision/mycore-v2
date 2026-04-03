@@ -1,0 +1,53 @@
+code,display,definition,system_url,system_name
+s6w,Up to 6 weeks of age,"Quietens to sound at 4 weeks. 
+Vocalises when talked to at 8 weeks.",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-speech-my-core,CodeSystemDevmilestoneSpeechmyCore
+s3m,Up to 3 months of age,"Squeals of pleasure. 
+Says ‘aah’ or ‘naah’ when spoken to. 
+Turns head to sound at the same level.",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-speech-my-core,CodeSystemDevmilestoneSpeechmyCore
+s6m,Up to 6 months of age,"Smiles and vocalises at mirror image. 
+monosyllabic babble. 
+Polysyllabic sounds formedba,da,ka at 7 mths. 
+Turns head towards a sound above the level (7 to 9 months).",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-speech-my-core,CodeSystemDevmilestoneSpeechmyCore
+s9m,Up to 9 months of age,"Babbles loudly in long repetitive syllables. 
+Responds to name. 
+Understands ‘No’ and ‘Bye- bye’ Imitates playful sounds e.g. 
+cough, ‘brrr’ Localises sound above and below the ear level.",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-speech-my-core,CodeSystemDevmilestoneSpeechmyCore
+s12m,Up to 12 months of age,"Knows and responds to name. 
+Babbles in conversational cadences. 
+Understands simple instructions. 
+1 - 3 words with meaning. 
+Locates sounds in all directions.",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-speech-my-core,CodeSystemDevmilestoneSpeechmyCore
+s15m,Up to 15 months of age,"Jargon. 
+2-6 intelligible words. 
+Obeys simple commands. 
+Points to familiar persons, toys when requested.",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-speech-my-core,CodeSystemDevmilestoneSpeechmyCore
+s18m,Up to 18 months of age,"Jargon. 
+6-20 intelligible words. 
+Points to 2 - 3 body parts.",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-speech-my-core,CodeSystemDevmilestoneSpeechmyCore
+s2y,Up to 2 years of age,"Uses 50 or more words. 
+Uses 2 - 3 word phrases. 
+Points to 6 body parts. 
+Names familiar objects and pictures. 
+Follows a series of 2 simple but related commands. 
+Joins in nursery rhymes and sings.",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-speech-my-core,CodeSystemDevmilestoneSpeechmyCore
+s2.5y,Up to 2.5 years of age,"Speaks in phrases. 
+Frequently asks questions (What, Who). 
+Uses pronouns (I, me, you) correctly. 
+Knows full name. 
+Can select pictures of action e.g. 
+which one is eating",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-speech-my-core,CodeSystemDevmilestoneSpeechmyCore
+s3y,Up to 3 years of age,"Gives full name, gender, sometimes age. 
+Uses personal pronouns and most prepositions correctly. 
+Ask many questions (What, where, who) Identify objects by function e.g. 
+which one we drink from. 
+Counts by rote up to 10 or more but does not appreciate quantity beyond 2 or 3. 
+Names 2 colours.",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-speech-my-core,CodeSystemDevmilestoneSpeechmyCore
+s4y,Up to 4 years of age,"Speech grammatically correct and completely intelligible Names 4 colours. 
+Gives full name, address and age. 
+Listens to and tells long stories. 
+Counts by rote up to 20 and begins to count by word and touch up to 4 or 5.",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-speech-my-core,CodeSystemDevmilestoneSpeechmyCore
+s5y,Up to 5 years of age,"Names birthday and home address. 
+Defines nouns by use. 
+Uses “first, then, last” (time and sequence concepts). 
+Enjoys jokes and riddles. 
+Tells time.",http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-speech-my-core,CodeSystemDevmilestoneSpeechmyCore

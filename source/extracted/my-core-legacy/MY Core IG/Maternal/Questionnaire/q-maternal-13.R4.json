@@ -1,0 +1,97 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-maternal-13",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-13",
+  "version": "1.0.0",
+  "name": "QMaternal13",
+  "title": "Pemantauan Peningkatan Berat Badan Ibu Antenatal",
+  "status": "active",
+  "date": "2023-08-30T01:19:04.1804145+00:00",
+  "item": [
+    {
+      "linkId": "maternal-13.1",
+      "text": "Tinggi",
+      "type": "quantity"
+    },
+    {
+      "linkId": "maternal-13.2",
+      "text": "Berat Ibu Sebelum Hamil",
+      "type": "quantity"
+    },
+    {
+      "linkId": "maternal-13.3",
+      "text": "Nilai BMI Sebelum Hamil",
+      "type": "quantity"
+    },
+    {
+      "linkId": "maternal-13.4",
+      "text": "Status BMI Sebelum Hamil",
+      "type": "choice",
+      "answerOption": [
+        {
+          "valueCoding": {
+            "code": "310252000",
+            "display": "Kurang Berat Badan (BMI < 20)"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "35425004",
+            "display": "Normal (BMI 20 -24)"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "162863004",
+            "display": "Lebih Berat Badan (BMI 25 - 29)"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "162864005",
+            "display": "Obese (BMI > 30)"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "408512008",
+            "display": "Extreme Obese (BMI > 40)"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-13.5",
+      "text": "Jadual Berat Badan Sepanjang Kehamilan",
+      "type": "group",
+      "repeats": true,
+      "item": [
+        {
+          "linkId": "maternal-13.5.1",
+          "text": "Tarikh Lawatan",
+          "type": "dateTime"
+        },
+        {
+          "linkId": "maternal-13.5.2",
+          "text": "Minggu Gestasi",
+          "type": "quantity"
+        },
+        {
+          "linkId": "maternal-13.5.3",
+          "text": "Berat Badan (kg)",
+          "type": "quantity"
+        },
+        {
+          "linkId": "maternal-13.5.4",
+          "text": "Peningkatan Berat Badan (kg)",
+          "type": "quantity"
+        },
+        {
+          "linkId": "maternal-13.5.5",
+          "text": "Kadar Peningkatan Berat Badan (kg)/ minggu",
+          "type": "quantity"
+        }
+      ]
+    }
+  ]
+}

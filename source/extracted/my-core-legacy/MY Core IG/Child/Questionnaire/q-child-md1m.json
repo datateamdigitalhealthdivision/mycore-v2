@@ -1,0 +1,676 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-child-md1m",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-child-md1m",
+  "version": "1.0.0",
+  "name": "QChildmd1m",
+  "title": "Rekod 1 Bulan (RME 1)",
+  "status": "active",
+  "date": "2023-08-30T06:43:50.5035753+00:00",
+  "item": [
+    {
+      "linkId": "child-md1m.0",
+      "text": "Umur semasa lawatan",
+      "type": "quantity",
+      "initial": [
+        {
+          "valueQuantity": {
+            "unit": "day",
+            "system": "http://unitsofmeasure.org",
+            "code": "d"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "child-md1m.1",
+      "text": "Vital sign",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "child-md1m.1.1",
+          "text": "Suhu badan",
+          "type": "quantity"
+        },
+        {
+          "linkId": "child-md1m.1.2",
+          "text": "Kadar respiratori",
+          "type": "quantity"
+        },
+        {
+          "linkId": "child-md1m.1.3",
+          "text": "Kadar denyutan jantung",
+          "type": "quantity"
+        }
+      ]
+    },
+    {
+      "linkId": "child-md1m.2",
+      "text": "Pemeriksaan am",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "child-md1m.2.1",
+          "text": "General Condition",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-md1m.2.1.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-md1m.2.2",
+          "text": "Appearance",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-md1m.2.2.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-md1m.2.3",
+          "text": "Colour",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-md1m.2.3.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-md1m.2.4",
+          "text": "Skin",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-md1m.2.4.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-md1m.2.5",
+          "text": "Head/Neck",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-md1m.2.5.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-md1m.2.6",
+          "text": "Ears",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-md1m.2.6.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-md1m.2.7",
+          "text": "Eyes (including red light reflex)",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-md1m.2.7.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-md1m.2.8",
+          "text": "Lips",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-md1m.2.8.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-md1m.2.9",
+          "text": "Gum",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-md1m.2.9.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-md1m.2.10",
+          "text": "Palate",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-md1m.2.10.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-md1m.2.11",
+          "text": "Chest",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-md1m.2.11.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-md1m.2.12",
+          "text": "Respiration",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-md1m.2.12.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-md1m.2.13",
+          "text": "Heart",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-md1m.2.13.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-md1m.2.14",
+          "text": "Abdomen",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-md1m.2.14.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-md1m.2.15",
+          "text": "Spine",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-md1m.2.15.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-md1m.2.16",
+          "text": "Anus",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-md1m.2.16.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-md1m.2.17",
+          "text": "Genitalia",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-md1m.2.17.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-md1m.2.18",
+          "text": "Femoral Pulse",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-md1m.2.18.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-md1m.2.19",
+          "text": "Hips",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-md1m.2.19.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-md1m.2.20",
+          "text": "Hands",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-md1m.2.20.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-md1m.2.21",
+          "text": "Feet",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-md1m.2.21.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-md1m.2.22",
+          "text": "Moro Reflex",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "17621005",
+                "display": "Normal"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "263654008",
+                "display": "Abnormal"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-md1m.2.22.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "child-md1m.3",
+      "text": "Catatan",
+      "type": "text"
+    }
+  ]
+}

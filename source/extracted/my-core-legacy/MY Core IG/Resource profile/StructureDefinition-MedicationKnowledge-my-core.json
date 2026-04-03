@@ -1,0 +1,263 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "MedicationKnowledge-my-core",
+  "url": "http://fhir.hie.moh.gov.my/StructureDefinition/MedicationKnowledge-my-core",
+  "version": "1.0.0",
+  "name": "MedicationKnowledgeMyCore",
+  "status": "active",
+  "date": "2023-06-08T03:08:38.5864399+00:00",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "MedicationKnowledge",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "MedicationKnowledge.extension",
+        "path": "MedicationKnowledge.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 0
+      },
+      {
+        "id": "MedicationKnowledge.extension:audit",
+        "path": "MedicationKnowledge.extension",
+        "sliceName": "audit",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://fhir.hie.moh.gov.my/StructureDefinition/audit-my-core"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "MedicationKnowledge.extension:setting",
+        "path": "MedicationKnowledge.extension",
+        "sliceName": "setting",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://fhir.hie.moh.gov.my/StructureDefinition/medicationknowledge-setting-my-core"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "MedicationKnowledge.code",
+        "path": "MedicationKnowledge.code",
+        "min": 1
+      },
+      {
+        "id": "MedicationKnowledge.doseForm",
+        "path": "MedicationKnowledge.doseForm",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/drug-dose-form-my-core"
+        }
+      },
+      {
+        "id": "MedicationKnowledge.synonym",
+        "path": "MedicationKnowledge.synonym",
+        "binding": {
+          "strength": "preferred",
+          "description": "Trade Name",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/drug-trade-name-my-core"
+        }
+      },
+      {
+        "id": "MedicationKnowledge.productType",
+        "path": "MedicationKnowledge.productType",
+        "binding": {
+          "strength": "required",
+          "description": "Product Type",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/drug-type-my-core"
+        }
+      },
+      {
+        "id": "MedicationKnowledge.ingredient.strength.numerator",
+        "path": "MedicationKnowledge.ingredient.strength.numerator",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/phis-uom-my-core"
+        }
+      },
+      {
+        "id": "MedicationKnowledge.ingredient.strength.denominator",
+        "path": "MedicationKnowledge.ingredient.strength.denominator",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/phis-uom-my-core"
+        }
+      },
+      {
+        "id": "MedicationKnowledge.intendedRoute",
+        "path": "MedicationKnowledge.intendedRoute",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/phis-route-my-core"
+        }
+      },
+      {
+        "id": "MedicationKnowledge.administrationGuidelines.dosage.dosage.extension",
+        "path": "MedicationKnowledge.administrationGuidelines.dosage.dosage.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 0
+      },
+      {
+        "id": "MedicationKnowledge.administrationGuidelines.dosage.dosage.extension:cautionary",
+        "path": "MedicationKnowledge.administrationGuidelines.dosage.dosage.extension",
+        "sliceName": "cautionary",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://fhir.hie.moh.gov.my/StructureDefinition/drug-cautionary-my-core"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "MedicationKnowledge.administrationGuidelines.dosage.dosage.additionalInstruction",
+        "path": "MedicationKnowledge.administrationGuidelines.dosage.dosage.additionalInstruction",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "coding.system"
+            }
+          ],
+          "rules": "open"
+        },
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/drug-special-instruction-my-core"
+        }
+      },
+      {
+        "id": "MedicationKnowledge.administrationGuidelines.dosage.dosage.additionalInstruction:special-instruction",
+        "path": "MedicationKnowledge.administrationGuidelines.dosage.dosage.additionalInstruction",
+        "sliceName": "special-instruction",
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/drug-special-instruction-my-core"
+        }
+      },
+      {
+        "id": "MedicationKnowledge.administrationGuidelines.dosage.dosage.additionalInstruction:special-instruction.coding.system",
+        "path": "MedicationKnowledge.administrationGuidelines.dosage.dosage.additionalInstruction.coding.system",
+        "min": 1,
+        "fixedUri": "http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core"
+      },
+      {
+        "id": "MedicationKnowledge.administrationGuidelines.dosage.dosage.additionalInstruction:cautionary",
+        "path": "MedicationKnowledge.administrationGuidelines.dosage.dosage.additionalInstruction",
+        "sliceName": "cautionary",
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/drug-cautionary-my-core"
+        }
+      },
+      {
+        "id": "MedicationKnowledge.administrationGuidelines.dosage.dosage.additionalInstruction:cautionary.coding.system",
+        "path": "MedicationKnowledge.administrationGuidelines.dosage.dosage.additionalInstruction.coding.system",
+        "min": 1,
+        "fixedUri": "http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core"
+      },
+      {
+        "id": "MedicationKnowledge.administrationGuidelines.dosage.dosage.timing.code",
+        "path": "MedicationKnowledge.administrationGuidelines.dosage.dosage.timing.code",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/phis-frequency-my-core"
+        }
+      },
+      {
+        "id": "MedicationKnowledge.administrationGuidelines.dosage.dosage.doseAndRate.dose[x]",
+        "path": "MedicationKnowledge.administrationGuidelines.dosage.dosage.doseAndRate.dose[x]",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/phis-uom-my-core"
+        }
+      },
+      {
+        "id": "MedicationKnowledge.medicineClassification.extension",
+        "path": "MedicationKnowledge.medicineClassification.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 0
+      },
+      {
+        "id": "MedicationKnowledge.medicineClassification.extension:formulary",
+        "path": "MedicationKnowledge.medicineClassification.extension",
+        "sliceName": "formulary",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://fhir.hie.moh.gov.my/StructureDefinition/formulary-boolean-my-core"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "MedicationKnowledge.medicineClassification.classification",
+        "path": "MedicationKnowledge.medicineClassification.classification",
+        "min": 1,
+        "max": "1",
+        "binding": {
+          "strength": "required",
+          "description": "Drug Category",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/drug-category-my-core"
+        }
+      },
+      {
+        "id": "MedicationKnowledge.regulatory.schedule.schedule",
+        "path": "MedicationKnowledge.regulatory.schedule.schedule",
+        "binding": {
+          "strength": "preferred",
+          "description": "Drug Schedule",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/drug-schedule-my-core"
+        }
+      }
+    ]
+  }
+}

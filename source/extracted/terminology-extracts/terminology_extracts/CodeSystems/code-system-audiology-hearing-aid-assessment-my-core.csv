@@ -1,0 +1,19 @@
+code,display,definition,system_url,system_name
+10,HEARING AID VERIFICATION RECD,HEARING AID VERIFICATION RECD,http://fhir.hie.moh.gov.my/CodeSystem/audiology-hearing-aid-assessment-my-core,CodeSystemAudiologyHearingAidAssessmentMyCore
+11,HEARING AID VEFIRFICATION REIG,HEARING AID VEFIRFICATION REIG,http://fhir.hie.moh.gov.my/CodeSystem/audiology-hearing-aid-assessment-my-core,CodeSystemAudiologyHearingAidAssessmentMyCore
+12,HEARING AID VERIFICATION REAR,HEARING AID VERIFICATION REAR,http://fhir.hie.moh.gov.my/CodeSystem/audiology-hearing-aid-assessment-my-core,CodeSystemAudiologyHearingAidAssessmentMyCore
+13,HEARING AID VERIFICATION AIDED (FREEFIELD) TEST,HEARING AID VERIFICATION AIDED (FREEFIELD) TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-hearing-aid-assessment-my-core,CodeSystemAudiologyHearingAidAssessmentMyCore
+14,HEARING AID VERIFICATION AIDED ( ELECTROPHYSIOLOGY),HEARING AID VERIFICATION AIDED ( ELECTROPHYSIOLOGY),http://fhir.hie.moh.gov.my/CodeSystem/audiology-hearing-aid-assessment-my-core,CodeSystemAudiologyHearingAidAssessmentMyCore
+15,HEARING AID VERIFICATIONS OTHERS,HEARING AID VERIFICATIONS OTHERS,http://fhir.hie.moh.gov.my/CodeSystem/audiology-hearing-aid-assessment-my-core,CodeSystemAudiologyHearingAidAssessmentMyCore
+16,HEARING AID VALIDATION QUALITY OF LIFE QUESTIONNAIRE,HEARING AID VALIDATION QUALITY OF LIFE QUESTIONNAIRE,http://fhir.hie.moh.gov.my/CodeSystem/audiology-hearing-aid-assessment-my-core,CodeSystemAudiologyHearingAidAssessmentMyCore
+17,HEARING AID VALIDATION DATA LOGGING CHECK,HEARING AID VALIDATION DATA LOGGING CHECK,http://fhir.hie.moh.gov.my/CodeSystem/audiology-hearing-aid-assessment-my-core,CodeSystemAudiologyHearingAidAssessmentMyCore
+00,HEARING AID TRIAL,HEARING AID TRIAL,http://fhir.hie.moh.gov.my/CodeSystem/audiology-hearing-aid-assessment-my-core,CodeSystemAudiologyHearingAidAssessmentMyCore
+01,HEARING AID PRESCRIPTION,HEARING AID PRESCRIPTION,http://fhir.hie.moh.gov.my/CodeSystem/audiology-hearing-aid-assessment-my-core,CodeSystemAudiologyHearingAidAssessmentMyCore
+02,EAR IMPRESSION TAKING,EAR IMPRESSION TAKING,http://fhir.hie.moh.gov.my/CodeSystem/audiology-hearing-aid-assessment-my-core,CodeSystemAudiologyHearingAidAssessmentMyCore
+03,HEARING AID FITTING,HEARING AID FITTING,http://fhir.hie.moh.gov.my/CodeSystem/audiology-hearing-aid-assessment-my-core,CodeSystemAudiologyHearingAidAssessmentMyCore
+04,HEARING AID ORIENTATION,HEARING AID ORIENTATION,http://fhir.hie.moh.gov.my/CodeSystem/audiology-hearing-aid-assessment-my-core,CodeSystemAudiologyHearingAidAssessmentMyCore
+05,HEARING AID PROGRAMMING,HEARING AID PROGRAMMING,http://fhir.hie.moh.gov.my/CodeSystem/audiology-hearing-aid-assessment-my-core,CodeSystemAudiologyHearingAidAssessmentMyCore
+06,HEARING AID VERIFICATION,HEARING AID VERIFICATION,http://fhir.hie.moh.gov.my/CodeSystem/audiology-hearing-aid-assessment-my-core,CodeSystemAudiologyHearingAidAssessmentMyCore
+07,HEARING AID VERIFICATION PHSYICAL CHECK,HEARING AID VERIFICATION PHSYICAL CHECK,http://fhir.hie.moh.gov.my/CodeSystem/audiology-hearing-aid-assessment-my-core,CodeSystemAudiologyHearingAidAssessmentMyCore
+08,HEARING AID VERIFICATION LISTENING CHECK,HEARING AID VERIFICATION LISTENING CHECK,http://fhir.hie.moh.gov.my/CodeSystem/audiology-hearing-aid-assessment-my-core,CodeSystemAudiologyHearingAidAssessmentMyCore
+09,HEARING AID VERIFICATION HATB,HEARING AID VERIFICATION HATB,http://fhir.hie.moh.gov.my/CodeSystem/audiology-hearing-aid-assessment-my-core,CodeSystemAudiologyHearingAidAssessmentMyCore

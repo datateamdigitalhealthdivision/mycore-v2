@@ -1,0 +1,4 @@
+code,display,definition,system_url,system_name
+01,Technical related issue,Technical related issue,http://fhir.hie.moh.gov.my/CodeSystem/encounter-outcome-reason-my-core,CodeSystemEncounterOutcomeReasonMyCore
+02,Patient related issue,Patient related issue,http://fhir.hie.moh.gov.my/CodeSystem/encounter-outcome-reason-my-core,CodeSystemEncounterOutcomeReasonMyCore
+03,Facility related issue,Facility related issue,http://fhir.hie.moh.gov.my/CodeSystem/encounter-outcome-reason-my-core,CodeSystemEncounterOutcomeReasonMyCore

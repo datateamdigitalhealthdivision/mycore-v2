@@ -1,0 +1,54 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-child-rs-4y",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-child-rs-4y",
+  "version": "1.0.0",
+  "name": "QChildRs4Y",
+  "title": "Senarai Semak Rekod Saya Ibu Bapa (Lawatan 4 Tahun)",
+  "status": "active",
+  "date": "2023-09-04T01:01:11.3138702+00:00",
+  "item": [
+    {
+      "linkId": "rs-4y-1",
+      "text": "Berdiri sebelah kaki?",
+      "type": "boolean"
+    },
+    {
+      "linkId": "rs-4y-2",
+      "text": "Melukis bulatan?",
+      "type": "boolean"
+    },
+    {
+      "linkId": "rs-4y-3",
+      "text": "Mengurus penjagaan diri seperti buang air kecil dan besar?",
+      "type": "boolean"
+    },
+    {
+      "linkId": "rs-4y-4",
+      "text": "Pertuturan boleh difahami oleh semua orang?",
+      "type": "boolean"
+    },
+    {
+      "linkId": "rs-4y-5",
+      "text": "Bergaul dengan kanak-kanak lain?",
+      "type": "boolean"
+    },
+    {
+      "linkId": "rs-4y-6",
+      "text": "Adakah anda mempunyai masalah menjaga bayi anda?",
+      "type": "boolean"
+    },
+    {
+      "linkId": "rs-4y-7",
+      "text": "Adakah anda mempunyai sebarang kebimbangan terhadap bayi?",
+      "type": "boolean",
+      "item": [
+        {
+          "linkId": "rs-4y-7-1",
+          "text": "Sekiranya ada, nyatakan",
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+code,display,definition,system_url,system_name
+not-arrived,Not Arrived,Task has been deemed as not arrived,http://fhir.hie.moh.gov.my/CodeSystem/task-business-status-my-core,CodeSystemTaskBusinessStatusMyCore
+pending-dispatch,Pending Dispatch,Task is ready for dispatch,http://fhir.hie.moh.gov.my/CodeSystem/task-business-status-my-core,CodeSystemTaskBusinessStatusMyCore
+dispatch,Dispatched,Task has been dispatched,http://fhir.hie.moh.gov.my/CodeSystem/task-business-status-my-core,CodeSystemTaskBusinessStatusMyCore
+accept,Accepted,Task has been accepted,http://fhir.hie.moh.gov.my/CodeSystem/task-business-status-my-core,CodeSystemTaskBusinessStatusMyCore
+final,Finalized,Task has been finalized and ready to be acted upon,http://fhir.hie.moh.gov.my/CodeSystem/task-business-status-my-core,CodeSystemTaskBusinessStatusMyCore
+draft,Drafted,Task has been created but not yet active,http://fhir.hie.moh.gov.my/CodeSystem/task-business-status-my-core,CodeSystemTaskBusinessStatusMyCore
+send,Sent,Task has been sent to performing destination,http://fhir.hie.moh.gov.my/CodeSystem/task-business-status-my-core,CodeSystemTaskBusinessStatusMyCore
+initiate,Initiated,Task has been initiated,http://fhir.hie.moh.gov.my/CodeSystem/task-business-status-my-core,CodeSystemTaskBusinessStatusMyCore
+perform,Performed,Task has performed one of its expected outcome,http://fhir.hie.moh.gov.my/CodeSystem/task-business-status-my-core,CodeSystemTaskBusinessStatusMyCore
+interview,Interviewed,Task subject is being interviewed,http://fhir.hie.moh.gov.my/CodeSystem/task-business-status-my-core,CodeSystemTaskBusinessStatusMyCore
+arrive,Arrived,Task has arrived to its expected destination,http://fhir.hie.moh.gov.my/CodeSystem/task-business-status-my-core,CodeSystemTaskBusinessStatusMyCore
+receive,Received,Task has been received at expected receiver,http://fhir.hie.moh.gov.my/CodeSystem/task-business-status-my-core,CodeSystemTaskBusinessStatusMyCore
+in-progress,In-Progress,Task midway in-progress and can no longer be aborted,http://fhir.hie.moh.gov.my/CodeSystem/task-business-status-my-core,CodeSystemTaskBusinessStatusMyCore
+skip,Skipped,Task has completed its final outcome by bypassing main processes in completion,http://fhir.hie.moh.gov.my/CodeSystem/task-business-status-my-core,CodeSystemTaskBusinessStatusMyCore
+abort,Aborted,Task ended prematurely,http://fhir.hie.moh.gov.my/CodeSystem/task-business-status-my-core,CodeSystemTaskBusinessStatusMyCore
+finish,Finished,Task has completed but requires validation to complete the task,http://fhir.hie.moh.gov.my/CodeSystem/task-business-status-my-core,CodeSystemTaskBusinessStatusMyCore
+fulfil,Fulfilled,Task reach its final outcome (both pass or fail outcome),http://fhir.hie.moh.gov.my/CodeSystem/task-business-status-my-core,CodeSystemTaskBusinessStatusMyCore
+reject,Rejected,Task has been rejected thus ended,http://fhir.hie.moh.gov.my/CodeSystem/task-business-status-my-core,CodeSystemTaskBusinessStatusMyCore
+hold,On-Hold,Task has been kept on hold,http://fhir.hie.moh.gov.my/CodeSystem/task-business-status-my-core,CodeSystemTaskBusinessStatusMyCore
+verify,Verified,Task has been verified,http://fhir.hie.moh.gov.my/CodeSystem/task-business-status-my-core,CodeSystemTaskBusinessStatusMyCore
+validate,Validated,Task has been validated,http://fhir.hie.moh.gov.my/CodeSystem/task-business-status-my-core,CodeSystemTaskBusinessStatusMyCore

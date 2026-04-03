@@ -1,0 +1,5 @@
+code,display,system,include_type,valueset_url,valueset_name
+AMB,Outpatient,http://fhir.hie.moh.gov.my/CodeSystem/encounter-class-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/encounter-class-front-my-core,ValueSetEncounterClassFrontMyCore
+IMP,Inpatient,http://fhir.hie.moh.gov.my/CodeSystem/encounter-class-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/encounter-class-front-my-core,ValueSetEncounterClassFrontMyCore
+EMER,Emergency,http://fhir.hie.moh.gov.my/CodeSystem/encounter-class-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/encounter-class-front-my-core,ValueSetEncounterClassFrontMyCore
+VR,Virtual,http://fhir.hie.moh.gov.my/CodeSystem/encounter-class-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/encounter-class-front-my-core,ValueSetEncounterClassFrontMyCore

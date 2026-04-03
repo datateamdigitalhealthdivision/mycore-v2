@@ -1,0 +1,275 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-child-mc-18m-3y",
+    "meta": {
+      "source": "http://provider.hie.moh.gov.my",
+      "profile": [
+          "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+      ]
+  },
+    "identifier": {
+        "system": "http://fhir.hie.moh.gov.my/sid/template-section",
+        "value": "qr-child-mc-18m-3y"
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-child-mc-18m-3y",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/3a1fe467-cad5-4ec9-83f8-fd6dfb46470c"
+    },
+    "authored": "2023-04-27T00:20:14.414Z",
+    "item": [
+        {
+          "linkId": "child-mc-18m-3y.3",
+          "text": "Soalan (Kanak-kanak memerlukan penilaian lanjut oleh pegawai perubatan sekiranya ada jawapan yang tidak sama dengan jawapan yang terdapat di dalam buku Garis Panduan Rekod Kesihatan Kanak-kanak: \ni. Dua atau lebih soalan kritikal ATAU \nii. ii. Tiga atau lebih mana-mana soalan.",
+          "item": [
+            {
+              "linkId": "child-mc-18m-3y.3.1",
+              "text": "Adakah anak anda seronok apabila ditimang, dibuai atau dihenjut atas kaki/ paha dan sebagainya? \nDoes your child enjoy being swung, bounced on your knee, etc?",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            },
+            {
+              "linkId": "child-mc-18m-3y.3.2",
+              "text": "[SOALAN KRITIKAL] Adakah anak anda menunjukkan minat terhadap kanak-kanak lain? (contohnya bergaul, bermain, berkawan) \nDoes your child take an interest in other children? [CRITICAL QUESTION]",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "child-mc-18m-3y.3.3",
+              "text": "Adakah anak anda suka memanjat, contohnya tangga,kerusi, meja dan lain-lain? \nDoes your child like climbing on things, such as up stairs?",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "child-mc-18m-3y.3.4",
+              "text": "Adakah anak anda seronok bermain “cak-cak” atau main sorok-sorok? \nDoes your child enjoy playing peek-a-boo or hide and seek?",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "child-mc-18m-3y.3.5",
+              "text": "Adakah anak anda pernah bermain olok-olok/ berlakon, contohnya menelefon, bermain anak patung atau bermain masak-masak dan sebagainya? \nDoes your child ever pretend for example to talk on the phone or take care of dolls or pretend other things?",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "child-mc-18m-3y.3.6",
+              "text": "Adakah anak anda pernah menunjuk/ menggunakan jari telunjuk untuk meminta sesuatu? \nDoes your child ever use his/her index finger to point, to ask for something?",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "child-mc-18m-3y.3.7",
+              "text": "[SOALAN KRITIKAL] Adakah anak anda pernah menunjuk menggunakan jari telunjuk terhadap sesuatu yang menarik minatnya?\nDoes your child ever use his/her index finger to point, to indicate interest in something? [CRITICAL QUESTION]",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "child-mc-18m-3y.3.8",
+              "text": "Bolehkah anak anda bermain dengan alat permainan yang kecil dengan betul, selain dari memasukkannya ke dalam mulut, membelek-belek atau menjatuhkan permainan itu?(contohnya kiub, kereta kecil, dll) \nCan your child play properly with small toys without just mouthing, fiddling or dropping them?",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "child-mc-18m-3y.3.9",
+              "text": "[SOALAN KRITIKAL] Pernahkah anak anda membawa objek/ benda dan menunjukkannya kepada anda? \nDoes your child ever bring objects over to you (parent) to show you something? [CRITICAL QUESTION]",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "child-mc-18m-3y.3.10",
+              "text": "Adakah anak anda bertentang mata dengan anda lebih daripada dua saat? \nDoes your child look you in the eye for more than a second or two?",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "child-mc-18m-3y.3.11",
+              "text": "Pernahkah anak anda kelihatan seperti tersangat sensitif/terganggu terhadap bunyi bising?(contohnya: menutup telinga) \nDoes your child ever seem oversensitive to noise?(e.g. plugging ears)",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "child-mc-18m-3y.3.12",
+              "text": "Adakah anak anda senyum bila melihat anda atau membalas senyuman anda. \nDoes your child ever seem oversensitive to noise?(e.g. plugging ears) \nDoes your child smile in response to your face or your smile?",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "child-mc-18m-3y.3.13",
+              "text": "[SOALAN KRITIKAL] Adakah anak anda meniru perlakuan anda (contohnya meniru mimik muka anda dan sebagainya)? \nDoes your child imitate you? (e.g. if you make a face will your child imitate it?) [CRITICAL QUESTION]",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "child-mc-18m-3y.3.14",
+              "text": "[SOALAN KRITIKAL] Adakah anak anda bertindak balas apabila namanya dipanggil? \nDoes your child respond to his/her name when you call? [CRITICAL QUESTION]",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "child-mc-18m-3y.3.15",
+              "text": "[SOALAN KRITIKAL] Sekiranya anda menunjuk pada alat permainan yang jauh dari anda, adakah anak anda akan melihat kepada alat permainan tersebut?  \nIf you point at a toy across the room, does your child look at it? [CRITICAL QUESTION]",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "child-mc-18m-3y.3.16",
+              "text": "Bolehkah anak anda berjalan? \nDoes your child walk?",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "child-mc-18m-3y.3.17",
+              "text": "Adakah anak anda akan melihat pada benda yang sedang anda lihat? \nDoes your child look at things you are looking at?",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "child-mc-18m-3y.3.18",
+              "text": "Adakah anak anda membuat pergerakan jari yang ganjil/pelik dekat mukanya? \nDoes your child make unusual finger movements near his/her face?",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "child-mc-18m-3y.3.19",
+              "text": "Adakah anak anda cuba menarik perhatian anda terhadap aktiviti yang dilakukannya? \nDoes your child try to attract your attention to his/her own activity?",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "child-mc-18m-3y.3.20",
+              "text": "Pernahkah anda terfikir bahawa anak anda ada masalah pendengaran? \nHave you ever wondered if your child is deaf?",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "child-mc-18m-3y.3.21",
+              "text": "Adakah anak anda dapat memahami percakapan orang? \nDoes your child understand what people say?",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "child-mc-18m-3y.3.22",
+              "text": "Adakah anak anda kadang-kala kelihatan termenung atau merayau/berjalan tanpa tujuan? \nDoes your child sometimes stare at nothing or wander with no purpose?",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "child-mc-18m-3y.3.23",
+              "text": "Adakah anak anda memandang ke muka anda untuk melihat reaksi/tindakbalas anda apabila ia menghadapi sesuatu yang baru atau tidak biasa? \nDoes your child look at your face to check your reaction when faced with something unfamiliar?",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "linkId": "child-mc-18m-3y.4",
+          "text": "Summary",
+          "item": [
+            {
+              "linkId": "child-mc-18m-3y.4.1",
+              "text": "Total No",
+              "answer": [
+                {
+                  "valueQuantity": {
+                    "value": 1
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "child-mc-18m-3y.4.2",
+              "text": "Total Yes",
+              "answer": [
+                {
+                  "valueQuantity": {
+                    "value": 22
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "child-mc-18m-3y.4.3",
+              "text": "Outcome",
+              "answer": [
+                {
+                  "valueCoding": {
+                    "code": "pass",
+                    "display": "Pass"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+}

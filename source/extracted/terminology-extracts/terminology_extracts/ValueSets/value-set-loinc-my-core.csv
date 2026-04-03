@@ -1,0 +1,2 @@
+code,display,system,include_type,valueset_url,valueset_name
+*,Include all concepts from system,http://loinc.org,include-all,http://fhir.hie.moh.gov.my/ValueSet/loinc-my-core,ValueSetLoincMyCore

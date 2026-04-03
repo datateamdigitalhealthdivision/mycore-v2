@@ -1,0 +1,335 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-maternal-28",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-28",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/bfb81ffe-637d-4b3f-befa-f7a1546ed9f8"
+    },
+    "authored": "2022-11-16T03:56:06.596Z",
+    "author": {
+        "reference": "Practitioner/3d431987-df04-4018-9af3-d9928cac031f"
+    },
+    "identifier": {
+        "system": "http://fhir.hie.moh.gov.my/sid/template-section",
+        "value": "qr-maternal-28"
+    },
+    "item": [
+        {
+            "linkId": "maternal-28.0",
+            "text": "Hari Postnatal",
+            "answer": [
+                {
+                    "valueQuantity": {
+                        "value": 12,
+                        "unit": "12"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-28.1",
+            "text": "Rumusan",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://snomed.info/sct",
+                        "code": "386713009",
+                        "display": "Merah"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-28.2",
+            "text": "Kod Merah",
+            "item": [
+                {
+                    "linkId": "maternal-28.2.1",
+                    "text": "Eclampsia",
+                    "answer": [
+                        {
+                            "valueBoolean": false
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-28.2.2",
+                    "text": "Pre-eclampsia yang teruk (BP >140/90mmHg, proteinuria) \n Simptomatik: \n – sakit kepala, pening, kabur penglihatan, sakit   epigastrik, mual",
+                    "answer": [
+                        {
+                            "valueBoolean": false
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-28.2.3",
+                    "text": "PPH( Post partum haemorrhage)",
+                    "answer": [
+                        {
+                            "valueBoolean": false
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-28.2.4",
+                    "text": "Retained placenta/ Product of conception",
+                    "answer": [
+                        {
+                            "valueBoolean": false
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-28.2.5",
+                    "text": "Masalah kencing/ urinary:",
+                    "item": [
+                        {
+                            "linkId": "maternal-28.2.5.1",
+                            "text": "Tidak boleh kencing (Acute urinary retention)",
+                            "answer": [
+                                {
+                                    "valueBoolean": false
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "maternal-28.2.5.2",
+                            "text": "Incontinence",
+                            "answer": [
+                                {
+                                    "valueBoolean": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-28.2.6",
+                    "text": "Ibu penghidap penyakit jantung bersalin di rumah",
+                    "answer": [
+                        {
+                            "valueBoolean": false
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-28.2.7",
+                    "text": "Ibu Rhesus negatif bersalin di rumah",
+                    "answer": [
+                        {
+                            "valueBoolean": false
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-28.2.8",
+                    "text": "Tanda dan simptom deep vein thrombosis/  pulmonary embolism:",
+                    "item": [
+                        {
+                            "linkId": "maternal-28.2.8.1",
+                            "text": "Susah bernafas",
+                            "answer": [
+                                {
+                                    "valueBoolean": true
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "maternal-28.2.8.2",
+                            "text": "Sakit/ bengkak betis (calf tenderness/ swelling)",
+                            "answer": [
+                                {
+                                    "valueBoolean": false
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "maternal-28.2.8.3",
+                            "text": "Sakit dada",
+                            "answer": [
+                                {
+                                    "valueBoolean": true
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "maternal-28.2.8.4",
+                            "text": "Kemerahan/ keradangan kaki(redness/  inflammation of lower limbs)",
+                            "answer": [
+                                {
+                                    "valueBoolean": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-28.2.9",
+                    "text": "Hematoma di bahagian luka episiotomi/  pembedahan caesarean",
+                    "answer": [
+                        {
+                            "valueBoolean": false
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-28.2.10",
+                    "text": "Anemia yang teruk (Hb <7g/dL)",
+                    "answer": [
+                        {
+                            "valueBoolean": false
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-28.2.11",
+                    "text": "Anemia Hb <9g/dL dengan tanda-tanda seperti sesak nafas, berdebar-debar, pucat, mudah letih dan pitam",
+                    "answer": [
+                        {
+                            "valueBoolean": false
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-28.2.12",
+                    "text": "Simptom respiratori: \n - Sesak nafas,  \n - Batuk berdarah berpanjangan,  \n - Serangan asma",
+                    "answer": [
+                        {
+                            "valueBoolean": false
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-28.2.13",
+                    "text": "Puerperal Sepsis: Demam, lokia berbau busuk/ luar biasa",
+                    "answer": [
+                        {
+                            "valueBoolean": false
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-28.2.14",
+                    "text": "Keinginan ingin mencederakan/membunuh  diri",
+                    "answer": [
+                        {
+                            "valueBoolean": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-28.3",
+            "text": "Kod Kuning",
+            "item": [
+                {
+                    "linkId": "maternal-28.3.1",
+                    "text": "BP >140/90mmHg, asimptomatik, tiada proteinuria",
+                    "answer": [
+                        {
+                            "valueBoolean": false
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-28.3.2",
+                    "text": "Sebarang simptom yang membimbangkan contoh: loya dan muntah, sakit kepala",
+                    "answer": [
+                        {
+                            "valueBoolean": false
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-28.3.3",
+                    "text": "Jangkitan (wound breakdown)/ di bahagian  luka episiotomi/ pembedahan caesaeran",
+                    "answer": [
+                        {
+                            "valueBoolean": false
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-28.3.4",
+                    "text": "Demam ≥ 37.5 º C",
+                    "answer": [
+                        {
+                            "valueBoolean": false
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-28.3.5",
+                    "text": "Keadaan obstetric bagi kes bersalin di rumah: \n - Kematian perinatal, \n - Berat badan bayi <2.5kg atau >3.5kg",
+                    "answer": [
+                        {
+                            "valueBoolean": false
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-28.3.6",
+                    "text": "Rahim yang tidak mengecut  (subinvolution of uterus)",
+                    "answer": [
+                        {
+                            "valueBoolean": false
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-28.3.7",
+                    "text": "Ibu yang menunjukkan tanda-tanda : \n - Psikiatrik (eg.murung,emosi tidak stabil) \n - Kecacatan mental atau fizikal \n - Keganasan rumah tangga/ sosial",
+                    "answer": [
+                        {
+                            "valueBoolean": false
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-28.3.8",
+                    "text": "Masalah penyusuan susu ibu: \n - Bengkak payudara \n - Puting luka \n - Puting merekah",
+                    "answer": [
+                        {
+                            "valueBoolean": false
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-28.3.9",
+                    "text": "Masalah kencing \n - Kencing kerap (frequency) \n - Sakit kencing (dysuria)",
+                    "answer": [
+                        {
+                            "valueBoolean": false
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-28.3.10",
+                    "text": "Rujukan dengan Temujanji Haemoglobin <9g/dL asimptomatik",
+                    "answer": [
+                        {
+                            "valueBoolean": false
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-28.3.11",
+                    "text": "Rujukan dengan Temujanji Masalah perubatan yang  baru dikesan/keciciran - Contoh: SLE, Diabetes Mellitus , HIV  positif , Hepatitis B positif ,penyakit buah  pinggang semasa mengandung, sel darah  abnormal (blood dyscrasias), syphilis yang  belum dirawat",
+                    "answer": [
+                        {
+                            "valueBoolean": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+.fhir/
+ig/fsh-generated/
+ig/input-cache/
+ig/input-cache/publisher-home-*/
+ig/node_modules/
+ig/output/
+ig/temp/
+ig/template/
+ig/build-live.*
+ig/.jekyll-cache/
+ig/.sass-cache/
+*.log
+Thumbs.db

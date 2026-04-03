@@ -1,0 +1,38 @@
+{
+  "resourceType": "ValueSet",
+  "id": "person-title-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetPersonTitle (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/person-title-my-core</tt><p>Common title/prefix in Malaysia</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/person-title-my-core",
+  "identifier": [
+    {
+      "value": "person-title-my-core"
+    }
+  ],
+  "name": "ValueSetPersonTitleMyCore",
+  "title": "ValueSetPersonTitle (MY Core)",
+  "status": "active",
+  "date": "2023-01-03T04:47:56.9010407+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "Common title/prefix in Malaysia",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/person-title-my-core"
+      }
+    ]
+  },
+  "version": "2.0.0",
+  "experimental": false
+}

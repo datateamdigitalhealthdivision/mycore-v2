@@ -1,0 +1,5 @@
+code,display,definition,system_url,system_name
+3457005,Patient Referral,Patient Referral,http://fhir.hie.moh.gov.my/CodeSystem/servicerequest-category-my-core,CodeSystemServiceRequestCategoryMyCore
+108252007,Laboratory,Laboratory,http://fhir.hie.moh.gov.my/CodeSystem/servicerequest-category-my-core,CodeSystemServiceRequestCategoryMyCore
+363679005,Imaging,Imaging,http://fhir.hie.moh.gov.my/CodeSystem/servicerequest-category-my-core,CodeSystemServiceRequestCategoryMyCore
+387713003,Surgical procedure,Surgical procedure,http://fhir.hie.moh.gov.my/CodeSystem/servicerequest-category-my-core,CodeSystemServiceRequestCategoryMyCore

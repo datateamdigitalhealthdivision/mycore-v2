@@ -1,0 +1,3 @@
+code,display,system,include_type,valueset_url,valueset_name
+166892002,High,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/glucose-level-my-core,ValueSetGlucoseLevelMyCore
+166891009,Low,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/glucose-level-my-core,ValueSetGlucoseLevelMyCore

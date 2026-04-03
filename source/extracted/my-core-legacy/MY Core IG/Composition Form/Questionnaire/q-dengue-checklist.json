@@ -1,0 +1,525 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-dengue-checklist",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-dengue-checklist",
+  "version": "1.0.0",
+  "name": "QDengueChecklist",
+  "title": "Dengue Assessment Checklist",
+  "status": "active",
+  "date": "2023-09-01T03:32:09.231284+00:00",
+  "item": [
+    {
+      "linkId": "dengue-cl.1",
+      "text": "Recognition",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "dengue-cl.1.1",
+          "text": "Fever",
+          "type": "boolean"
+        },
+        {
+          "linkId": "dengue-cl.1.2",
+          "text": "Aches and Pain",
+          "type": "boolean"
+        },
+        {
+          "linkId": "dengue-cl.1.3",
+          "text": "Nausea and / or Vomitting",
+          "type": "boolean"
+        },
+        {
+          "linkId": "dengue-cl.1.4",
+          "text": "Rash",
+          "type": "boolean"
+        },
+        {
+          "linkId": "dengue-cl.1.5",
+          "text": "Leucopenia",
+          "type": "boolean"
+        },
+        {
+          "linkId": "dengue-cl.1.6",
+          "text": "Any Warning Signs",
+          "type": "boolean"
+        },
+        {
+          "linkId": "dengue-cl.1.7",
+          "text": "Remarks",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "linkId": "dengue-cl.2",
+      "text": "Warning signs",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "dengue-cl.2.1",
+          "text": "Persistent Vomiting (3 or more than 3 times over the last 24 hours)",
+          "type": "boolean"
+        },
+        {
+          "linkId": "dengue-cl.2.2",
+          "text": "Persistent Diarrhea (3 or more than 3 times over the last 24 hours)",
+          "type": "boolean"
+        },
+        {
+          "linkId": "dengue-cl.2.3",
+          "text": "Any Abdominal Pain / Tenderness",
+          "type": "boolean"
+        },
+        {
+          "linkId": "dengue-cl.2.4",
+          "text": "Lethargy / Restlessness / Confusion",
+          "type": "boolean"
+        },
+        {
+          "linkId": "dengue-cl.2.5",
+          "text": "Tender Liver",
+          "type": "boolean"
+        },
+        {
+          "linkId": "dengue-cl.2.6",
+          "text": "Third Space Fluid Accumulation",
+          "type": "boolean"
+        },
+        {
+          "linkId": "dengue-cl.2.7",
+          "text": "Spontaneous Bleeding Tendencies",
+          "type": "boolean"
+        },
+        {
+          "linkId": "dengue-cl.2.8",
+          "text": "Raised HCT With Rapid Drop in Platelet. \nMale Age ≤ 60 : HCT >46 \nMale Age >60 : HCT > 42 \nFemale All Ages : >40",
+          "type": "boolean"
+        },
+        {
+          "linkId": "dengue-cl.2.9",
+          "text": "Remarks",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "linkId": "dengue-cl.3",
+      "text": "Other criteria",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "dengue-cl.3.1",
+          "text": "Syncope",
+          "type": "boolean"
+        },
+        {
+          "linkId": "dengue-cl.3.2",
+          "text": "Social factor",
+          "type": "boolean"
+        },
+        {
+          "linkId": "dengue-cl.3.3",
+          "text": "Remarks",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "linkId": "dengue-cl.4",
+      "text": "Special Group",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "dengue-cl.4.1",
+          "text": "Obese",
+          "type": "boolean"
+        },
+        {
+          "linkId": "dengue-cl.4.2",
+          "text": "Pregnant",
+          "type": "boolean"
+        },
+        {
+          "linkId": "dengue-cl.4.3",
+          "text": "Heart failure / CKD / CLD",
+          "type": "boolean"
+        },
+        {
+          "linkId": "dengue-cl.4.4",
+          "text": "Diabetes Mellitus",
+          "type": "boolean"
+        },
+        {
+          "linkId": "dengue-cl.4.5",
+          "text": "Hypertension",
+          "type": "boolean"
+        },
+        {
+          "linkId": "dengue-cl.4.6",
+          "text": "IHD",
+          "type": "boolean"
+        },
+        {
+          "linkId": "dengue-cl.4.7",
+          "text": "COPD",
+          "type": "boolean"
+        },
+        {
+          "linkId": "dengue-cl.4.8",
+          "text": "Age > 65",
+          "type": "boolean"
+        },
+        {
+          "linkId": "dengue-cl.4.9",
+          "text": "Remarks",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "linkId": "dengue-cl.5",
+      "text": "Physical Examination and Vital Signs",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "dengue-cl.5.1",
+          "text": "Physical Examination Findings",
+          "type": "text"
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/minValue",
+              "valueInteger": 1
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+              "valueInteger": 300
+            }
+          ],
+          "linkId": "dengue-cl.5.2",
+          "code": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic Blood Pressure"
+            }
+          ],
+          "text": "Systolic Blood Pressure (mmHg)",
+          "type": "quantity",
+          "initial": [
+            {
+              "valueQuantity": {
+                "unit": "mmHg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            }
+          ]
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/minValue",
+              "valueInteger": 1
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+              "valueInteger": 250
+            }
+          ],
+          "linkId": "dengue-cl.5.3",
+          "code": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic Blood Pressure"
+            }
+          ],
+          "text": "Diastolic Blood Pressure (mmHg)",
+          "type": "quantity",
+          "enableWhen": [
+            {
+              "question": "dengue-cl.5.2",
+              "operator": "exists",
+              "answerBoolean": true
+            }
+          ],
+          "initial": [
+            {
+              "valueQuantity": {
+                "unit": "mmHg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            }
+          ]
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/minValue-my-core",
+              "valueInteger": 0
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/maxValue-my-core",
+              "valueInteger": 400
+            }
+          ],
+          "linkId": "dengue-cl.5.4",
+          "text": "Heart Rate (/min)",
+          "type": "quantity",
+          "initial": [
+            {
+              "valueQuantity": {
+                "unit": "/min",
+                "system": "http://unitsofmeasure.org",
+                "code": "/min"
+              }
+            }
+          ]
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/minValue-my-core",
+              "valueInteger": 0
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/maxValue-my-core",
+              "valueInteger": 100
+            }
+          ],
+          "linkId": "dengue-cl.5.5",
+          "text": "Body Temperature (°C)",
+          "type": "quantity",
+          "initial": [
+            {
+              "valueQuantity": {
+                "unit": "°C",
+                "system": "http://unitsofmeasure.org",
+                "code": "Cel"
+              }
+            }
+          ]
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/minValue-my-core",
+              "valueInteger": 0
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/maxValue-my-core",
+              "valueInteger": 100
+            }
+          ],
+          "linkId": "dengue-cl.5.6",
+          "text": "Oxygen Saturation (%)",
+          "type": "quantity",
+          "initial": [
+            {
+              "valueQuantity": {
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              }
+            }
+          ]
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/minValue-my-core",
+              "valueInteger": 0
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/maxValue-my-core",
+              "valueInteger": 80
+            }
+          ],
+          "linkId": "dengue-cl.5.7",
+          "text": "Respiratory Rate (/min)",
+          "type": "quantity",
+          "initial": [
+            {
+              "valueQuantity": {
+                "unit": "/min",
+                "system": "http://unitsofmeasure.org",
+                "code": "/min"
+              }
+            }
+          ]
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/minValue",
+              "valueInteger": 0
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+              "valueInteger": 10
+            }
+          ],
+          "linkId": "dengue-cl.5.8",
+          "text": "Pain Score",
+          "type": "quantity"
+        }
+      ]
+    },
+    {
+      "linkId": "dengue-cl.6",
+      "text": "Blood Investigation",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "dengue-cl.6.1",
+          "text": "White Cell Counts",
+          "type": "quantity"
+        },
+        {
+          "linkId": "dengue-cl.6.2",
+          "text": "Hb",
+          "type": "quantity"
+        },
+        {
+          "linkId": "dengue-cl.6.3",
+          "text": "HCT",
+          "type": "quantity"
+        },
+        {
+          "linkId": "dengue-cl.6.4",
+          "text": "Platelet",
+          "type": "quantity"
+        },
+        {
+          "linkId": "dengue-cl.6.5",
+          "text": "Dengue Point of Care Checklist (Combo / Rapid Checklist)",
+          "type": "quantity"
+        }
+      ]
+    },
+    {
+      "linkId": "dengue-cl.7",
+      "text": "Severe Dengue",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "dengue-cl.7.1",
+          "text": "Hypotension SBP <90 or MAP <60 or SBP Drop > 40mmHg From Known Baseline",
+          "type": "boolean"
+        },
+        {
+          "linkId": "dengue-cl.7.2",
+          "text": "Shock Index: HR > SBP or Abnormal CCTVR",
+          "type": "boolean"
+        },
+        {
+          "linkId": "dengue-cl.7.3",
+          "text": "Third Space Fluid Accumulation With Respiratory Distress",
+          "type": "boolean"
+        },
+        {
+          "linkId": "dengue-cl.7.4",
+          "text": "Altered Concious Level",
+          "type": "boolean"
+        },
+        {
+          "linkId": "dengue-cl.7.5",
+          "text": "Any bleed GI / Non Mucosal And Non Cutaneous / Non Physiological",
+          "type": "boolean"
+        },
+        {
+          "linkId": "dengue-cl.7.6",
+          "text": "Specific Organ Dysfunction",
+          "type": "boolean"
+        },
+        {
+          "linkId": "dengue-cl.7.7",
+          "text": "Remarks",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "linkId": "dengue-cl.8",
+      "text": "Onset of Illness",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "dengue-cl.8,1",
+          "text": "Fever Onset",
+          "type": "dateTime"
+        },
+        {
+          "linkId": "dengue-cl.8.2",
+          "text": "Critical Phase Onset",
+          "type": "dateTime"
+        }
+      ]
+    },
+    {
+      "linkId": "dengue-cl.9",
+      "text": "Phase of Illness",
+      "type": "choice",
+      "answerOption": [
+        {
+          "valueCoding": {
+            "code": "01",
+            "display": "Febrile"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "02",
+            "display": "Critical"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "03",
+            "display": "Recovery"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "dengue-cl.10",
+      "text": "Diagnosis",
+      "type": "choice",
+      "answerOption": [
+        {
+          "valueCoding": {
+            "code": "01",
+            "display": "Dengue Fever Without Warning Signs"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "02",
+            "display": "Dengue Fever With Warning Signs"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "03",
+            "display": "Severe Dengue"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "dengue-cl.11",
+      "text": "Management",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "dengue-cl.11.1",
+          "text": "Management / Plans",
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}

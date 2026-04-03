@@ -1,0 +1,25 @@
+code,display,system,include_type,valueset_url,valueset_name
+9279-1,Respiratory rate,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-vital-signs-my-core,ValueSetObservationVitalSignsMyCore
+8867-4,Heart rate,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-vital-signs-my-core,ValueSetObservationVitalSignsMyCore
+8361-8,Body position with respect to gravity,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-vital-signs-my-core,ValueSetObservationVitalSignsMyCore
+8887-2,Type of Heart rate device,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-vital-signs-my-core,ValueSetObservationVitalSignsMyCore
+59408-5,Oxygen saturation in Arterial blood by Pulse oximetry,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-vital-signs-my-core,ValueSetObservationVitalSignsMyCore
+3151-8,Inhaled oxygen flow rate,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-vital-signs-my-core,ValueSetObservationVitalSignsMyCore
+8310-5,Body temperature,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-vital-signs-my-core,ValueSetObservationVitalSignsMyCore
+8327-9,Body temperature measurement site,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-vital-signs-my-core,ValueSetObservationVitalSignsMyCore
+8326-1,Type of Body temperature device,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-vital-signs-my-core,ValueSetObservationVitalSignsMyCore
+8352-7,Clothing worn during measure,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-vital-signs-my-core,ValueSetObservationVitalSignsMyCore
+8302-2,Body height,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-vital-signs-my-core,ValueSetObservationVitalSignsMyCore
+8306-3,Body height -lying,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-vital-signs-my-core,ValueSetObservationVitalSignsMyCore
+8287-5,Head Occipital-frontal circumference by Tape measure,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-vital-signs-my-core,ValueSetObservationVitalSignsMyCore
+29463-7,Body weight,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-vital-signs-my-core,ValueSetObservationVitalSignsMyCore
+39156-5,Body mass index (BMI) [Ratio],http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-vital-signs-my-core,ValueSetObservationVitalSignsMyCore
+85354-9,Blood pressure panel with all children optional,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-vital-signs-my-core,ValueSetObservationVitalSignsMyCore
+8480-6,Systolic blood pressure,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-vital-signs-my-core,ValueSetObservationVitalSignsMyCore
+8462-4,Diastolic blood pressure,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-vital-signs-my-core,ValueSetObservationVitalSignsMyCore
+8478-0,Mean blood pressure,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-vital-signs-my-core,ValueSetObservationVitalSignsMyCore
+8357-6,Blood pressure method,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-vital-signs-my-core,ValueSetObservationVitalSignsMyCore
+41904-4,Blood pressure measurement site,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-vital-signs-my-core,ValueSetObservationVitalSignsMyCore
+8358-4,Blood pressure device Cuff size,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-vital-signs-my-core,ValueSetObservationVitalSignsMyCore
+41901-0,Type of Blood pressure device,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-vital-signs-my-core,ValueSetObservationVitalSignsMyCore
+72514-3,Pain Score,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-vital-signs-my-core,ValueSetObservationVitalSignsMyCore

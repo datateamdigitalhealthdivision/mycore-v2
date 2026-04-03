@@ -1,0 +1,20 @@
+code,display,definition,system_url,system_name
+00,No Information,No Information,http://fhir.hie.moh.gov.my/CodeSystem/state-my-core,CodeSystemStateMyCore
+01,Johor,Johor,http://fhir.hie.moh.gov.my/CodeSystem/state-my-core,CodeSystemStateMyCore
+02,Kedah,Kedah,http://fhir.hie.moh.gov.my/CodeSystem/state-my-core,CodeSystemStateMyCore
+03,Kelantan,Kelantan,http://fhir.hie.moh.gov.my/CodeSystem/state-my-core,CodeSystemStateMyCore
+04,Melaka,Melaka,http://fhir.hie.moh.gov.my/CodeSystem/state-my-core,CodeSystemStateMyCore
+05,Negeri Sembilan,Negeri Sembilan,http://fhir.hie.moh.gov.my/CodeSystem/state-my-core,CodeSystemStateMyCore
+06,Pahang,Pahang,http://fhir.hie.moh.gov.my/CodeSystem/state-my-core,CodeSystemStateMyCore
+07,Pulau Pinang,Pulau Pinang,http://fhir.hie.moh.gov.my/CodeSystem/state-my-core,CodeSystemStateMyCore
+08,Perak,Perak,http://fhir.hie.moh.gov.my/CodeSystem/state-my-core,CodeSystemStateMyCore
+09,Perlis,Perlis,http://fhir.hie.moh.gov.my/CodeSystem/state-my-core,CodeSystemStateMyCore
+10,Selangor,Selangor,http://fhir.hie.moh.gov.my/CodeSystem/state-my-core,CodeSystemStateMyCore
+11,Terengganu,Terengganu,http://fhir.hie.moh.gov.my/CodeSystem/state-my-core,CodeSystemStateMyCore
+12,Sabah,Sabah,http://fhir.hie.moh.gov.my/CodeSystem/state-my-core,CodeSystemStateMyCore
+13,Sarawak,Sarawak,http://fhir.hie.moh.gov.my/CodeSystem/state-my-core,CodeSystemStateMyCore
+14,Wilayah Persekutuan Kuala Lumpur,Wilayah Persekutuan Kuala Lumpur,http://fhir.hie.moh.gov.my/CodeSystem/state-my-core,CodeSystemStateMyCore
+15,Wilayah Persekutuan Labuan,Wilayah Persekutuan Labuan,http://fhir.hie.moh.gov.my/CodeSystem/state-my-core,CodeSystemStateMyCore
+16,Wilayah Persekutuan Putrajaya,Wilayah Persekutuan Putrajaya,http://fhir.hie.moh.gov.my/CodeSystem/state-my-core,CodeSystemStateMyCore
+98,Luar Negeri,Luar Negeri,http://fhir.hie.moh.gov.my/CodeSystem/state-my-core,CodeSystemStateMyCore
+99,Others,Others,http://fhir.hie.moh.gov.my/CodeSystem/state-my-core,CodeSystemStateMyCore

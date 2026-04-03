@@ -1,0 +1,219 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-child-2m",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-child-2m",
+  "version": "1.0.0",
+  "name": "QChild2m",
+  "title": "Lawatan umur 2 Bulan",
+  "status": "active",
+  "date": "2023-08-30T06:43:50.5035753+00:00",
+  "item": [
+    {
+      "linkId": "child-2m.1",
+      "text": "Tarikh",
+      "type": "dateTime"
+    },
+    {
+      "linkId": "child-2m.2",
+      "text": "Umur semasa lawatan",
+      "type": "quantity",
+      "initial": [
+        {
+          "valueQuantity": {
+            "unit": "day",
+            "system": "http://unitsofmeasure.org",
+            "code": "d"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "child-2m.3",
+      "text": "Aktiviti",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "child-2m.3.1",
+          "text": "Berat (kg)",
+          "type": "quantity",
+          "item": [
+            {
+              "linkId": "child-2m.3.1.1",
+              "text": "Catatan (Normal/KBB/KBBT/MP)",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-2m.3.2",
+          "text": "Panjang (cm)",
+          "type": "quantity",
+          "item": [
+            {
+              "linkId": "child-2m.3.2.1",
+              "text": "Catatan (Normal/B/BT/ME)",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-2m.3.3",
+          "text": "BMI (kg/m2)",
+          "type": "quantity",
+          "item": [
+            {
+              "linkId": "child-2m.3.3.1",
+              "text": "Catatan (normal/MP/B/BT)",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-2m.3.4",
+          "text": "Lilitan kepala (cm)",
+          "type": "quantity",
+          "item": [
+            {
+              "linkId": "child-2m.3.4.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-2m.3.5",
+          "text": "Pemeriksaan fizikal",
+          "type": "string",
+          "item": [
+            {
+              "linkId": "child-2m.3.5.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-2m.3.6",
+          "text": "Tindakbalas",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "55561003",
+                "display": "Aktif"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://snomed.info/sct",
+                "code": "73425007",
+                "display": "Tidak aktif"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "child-2m.3.6.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-2m.3.7",
+          "text": "Jaundis",
+          "type": "string",
+          "item": [
+            {
+              "linkId": "child-2m.3.7.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-2m.3.8",
+          "text": "Penilaian penyusuan",
+          "type": "string",
+          "item": [
+            {
+              "linkId": "child-2m.3.8.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-2m.3.9",
+          "text": "Imunisasi",
+          "type": "string",
+          "item": [
+            {
+              "linkId": "child-2m.3.9.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "child-2m.4",
+      "text": "Perkara yang membimbangkan ibu bapa/penjaga",
+      "type": "text"
+    },
+    {
+      "linkId": "child-2m.5",
+      "text": "Bimbingan Awal : Tandakan selepas nasihat diberi. Rujuk Panduan Ibubapa/ Penjaga",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "child-2m.5.1",
+          "text": "Sekiranya bayi menangis berterusan, tenangkan bayi. Dapatkan bantuan keluarga, kawan atau pegawai perubatan.",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-2m.5.2",
+          "text": "Jangan merokok di hadapan anak, di dalam rumah atau kenderaan.",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-2m.5.3",
+          "text": "Bermain dengan anak ('tummy time').",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-2m.5.4",
+          "text": "Bersihkan mulut bayi dengan kain lembut yang bersih selepas menyusu. Jangan biarkan bayi tidur dengan botol susu di dalam mulut.",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-2m.5.5",
+          "text": "Jika bayi demam berpanjangan selepas mendapat imunisasi, sila dapatkan nasihat dari anggota kesihatan.",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-2m.5.6",
+          "text": "Berikan urutan kepada bayi.",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-2m.5.7",
+          "text": "Menyanyi atau bercakap dengan anak.",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-2m.5.8",
+          "text": "Rujuk panduan ibubapa/penjaga dalam memilih pengasuh di rumah atau pusat asuhan. Pastikan pusat asuhan: \na. Berdaftar dengan Jabatan Kebajikan Masyarakat \nb. Persekitaran yang selamat dan bersih \nc. Mempunyai penjaga yang terlatih \nd. Anda dibenarkan melawat anak pada bila-bila masa",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "child-2m.remark",
+      "text": "Catatan / Rumusan",
+      "type": "text"
+    }
+  ]
+}

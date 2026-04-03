@@ -1,0 +1,358 @@
+{
+  "resourceType": "ValueSet",
+  "id": "hospital-physiotherapy-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetHospitalPhysiotherapy (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/hospital-physiotherapy-my-core</tt><p>Malaysia Hospital Physiotherapy</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/hospital-physiotherapy-my-core",
+  "name": "ValueSetHospitalPhysiotherapyMyCore",
+  "title": "ValueSetHospitalPhysiotherapy (MY Core)",
+  "status": "active",
+  "date": "2023-07-25T00:23:50.1094378+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "description": "Malaysia Hospital Physiotherapy",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/hospital-physiotherapy-my-core",
+        "concept": [
+          {
+            "code": "00",
+            "display": "Shockwave Therapy"
+          },
+          {
+            "code": "01",
+            "display": "Real Time Ultra Sound"
+          },
+          {
+            "code": "02",
+            "display": "Shortwave Diathermy"
+          },
+          {
+            "code": "03",
+            "display": "Ultrasound Therapy"
+          },
+          {
+            "code": "04",
+            "display": "Interferential Therapy"
+          },
+          {
+            "code": "05",
+            "display": "Faradic Stimulation"
+          },
+          {
+            "code": "06",
+            "display": "Interrupted Direct Current"
+          },
+          {
+            "code": "07",
+            "display": "Direct Current"
+          },
+          {
+            "code": "08",
+            "display": "Iontophorosis"
+          },
+          {
+            "code": "09",
+            "display": "Didynamic Current"
+          },
+          {
+            "code": "10",
+            "display": "Transcutaneous Electrical Nerve Stimulation"
+          },
+          {
+            "code": "11",
+            "display": "Functional Electrical Stimulation"
+          },
+          {
+            "code": "12",
+            "display": "Laser Therapy"
+          },
+          {
+            "code": "13",
+            "display": "Biofeedback"
+          },
+          {
+            "code": "14",
+            "display": "Myofeedback"
+          },
+          {
+            "code": "15",
+            "display": "Infra Red Therapy"
+          },
+          {
+            "code": "16",
+            "display": "Hot Pack"
+          },
+          {
+            "code": "17",
+            "display": "Wax Bath"
+          },
+          {
+            "code": "18",
+            "display": "Exercise - Active / Passive / Resisted"
+          },
+          {
+            "code": "19",
+            "display": "Group Exercise"
+          },
+          {
+            "code": "20",
+            "display": "Mechanical Exercise"
+          },
+          {
+            "code": "21",
+            "display": "Ambulation"
+          },
+          {
+            "code": "22",
+            "display": "Gait Training"
+          },
+          {
+            "code": "23",
+            "display": "Isokinetic"
+          },
+          {
+            "code": "24",
+            "display": "Treadmill"
+          },
+          {
+            "code": "25",
+            "display": "Pelvic Floor Muscle Exercise"
+          },
+          {
+            "code": "26",
+            "display": "Counter Bracing Technique"
+          },
+          {
+            "code": "27",
+            "display": "Ante / Post Natal Exercise"
+          },
+          {
+            "code": "28",
+            "display": "Therapeutic Ball Exercise"
+          },
+          {
+            "code": "29",
+            "display": "Functional Activities"
+          },
+          {
+            "code": "30",
+            "display": "Balance Training"
+          },
+          {
+            "code": "31",
+            "display": "Suspension Therapy"
+          },
+          {
+            "code": "32",
+            "display": "Motorised Cycle"
+          },
+          {
+            "code": "33",
+            "display": "Tilt Table Activity"
+          },
+          {
+            "code": "34",
+            "display": "Mat Activity"
+          },
+          {
+            "code": "35",
+            "display": "Ultraviolet Light Therapy"
+          },
+          {
+            "code": "36",
+            "display": "Supportive"
+          },
+          {
+            "code": "37",
+            "display": "Compression"
+          },
+          {
+            "code": "38",
+            "display": "Taping"
+          },
+          {
+            "code": "39",
+            "display": "Cryotherapy by Air"
+          },
+          {
+            "code": "40",
+            "display": "Cryocuff"
+          },
+          {
+            "code": "41",
+            "display": "Ice Pack"
+          },
+          {
+            "code": "42",
+            "display": "Whirpool"
+          },
+          {
+            "code": "43",
+            "display": "Hydrotherapy Pool"
+          },
+          {
+            "code": "44",
+            "display": "Cervical Traction"
+          },
+          {
+            "code": "45",
+            "display": "Lumbar Traction"
+          },
+          {
+            "code": "46",
+            "display": "Sequential Pump"
+          },
+          {
+            "code": "47",
+            "display": "Continuous Passive Motion"
+          },
+          {
+            "code": "48",
+            "display": "Breathing Exercise"
+          },
+          {
+            "code": "49",
+            "display": "Postural Drainage"
+          },
+          {
+            "code": "50",
+            "display": "Percussion / Vibration / Shaking"
+          },
+          {
+            "code": "51",
+            "display": "Suction"
+          },
+          {
+            "code": "52",
+            "display": "Inspiratory Muscle Training"
+          },
+          {
+            "code": "53",
+            "display": "Positive Expiratory Pressure"
+          },
+          {
+            "code": "54",
+            "display": "Active Cycle Breathing Technique"
+          },
+          {
+            "code": "55",
+            "display": "Inhalation Therapy"
+          },
+          {
+            "code": "56",
+            "display": "Incentive Spirometer"
+          },
+          {
+            "code": "57",
+            "display": "Nebuliser"
+          },
+          {
+            "code": "58",
+            "display": "Use Of Adjuncts In Respiratory Care"
+          },
+          {
+            "code": "59",
+            "display": "Joint Mobilization"
+          },
+          {
+            "code": "60",
+            "display": "McKenzie / Maitland Technique"
+          },
+          {
+            "code": "61",
+            "display": "Neurodevelopmental Therapy"
+          },
+          {
+            "code": "62",
+            "display": "Acupressure"
+          },
+          {
+            "code": "63",
+            "display": "Icing and Brushing"
+          },
+          {
+            "code": "64",
+            "display": "Soft Tissue Manipulation"
+          },
+          {
+            "code": "65",
+            "display": "Myofascial Release"
+          },
+          {
+            "code": "66",
+            "display": "Sensory Reeducation"
+          },
+          {
+            "code": "67",
+            "display": "Special Hand Exercise Regime"
+          },
+          {
+            "code": "68",
+            "display": "Bladder / Bowel Training"
+          },
+          {
+            "code": "69",
+            "display": "Manual Lymphatic Drainage"
+          },
+          {
+            "code": "70",
+            "display": "Management of Pelvic Floor Dysfunction Using Adjuncts"
+          },
+          {
+            "code": "71",
+            "display": "Special Protocol for Orthopedic Conditions"
+          },
+          {
+            "code": "72",
+            "display": "Lumbar / Cervical Stabilization"
+          },
+          {
+            "code": "73",
+            "display": "Cognitive Behavioral Therapy"
+          },
+          {
+            "code": "74",
+            "display": "Proprioceptive Neuromuscular Facilitation"
+          },
+          {
+            "code": "75",
+            "display": "Dry Needling"
+          },
+          {
+            "code": "76",
+            "display": "Mobilization with Movement"
+          },
+          {
+            "code": "77",
+            "display": "Vestibular Rehabilitation"
+          },
+          {
+            "code": "78",
+            "display": "Muscle Energy Technique"
+          },
+          {
+            "code": "79",
+            "display": "Patient Education"
+          },
+          {
+            "code": "80",
+            "display": "Carer / Family Education"
+          },
+          {
+            "code": "81",
+            "display": "Home Exercise Programme"
+          },
+          {
+            "code": "82",
+            "display": "Lain-lain"
+          }
+        ]
+      }
+    ]
+  },
+  "version": "2.0.0",
+  "experimental": false
+}

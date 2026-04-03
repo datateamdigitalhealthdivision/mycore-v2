@@ -1,0 +1,38 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-encounter-category-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetEncounterCategory (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/ValueSet/encounter-category-my-core</tt><p>Encounter Category</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/encounter-category-my-core",
+  "identifier": [
+    {
+      "value": "value-set-observation-panel-my-core"
+    }
+  ],
+  "name": "ValueSetEncounterCategoryMyCore",
+  "title": "ValueSetEncounterCategory (MY Core)",
+  "status": "active",
+  "date": "2023-01-03T04:47:56.9010407+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Encounter Category",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/encounter-category-my-core"
+      }
+    ]
+  }
+}

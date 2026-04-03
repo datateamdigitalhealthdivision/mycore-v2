@@ -1,0 +1,13 @@
+code,display,system,include_type,valueset_url,valueset_name
+sc6w,Up to 6 weeks of age,http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-social-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-social-my-core,ValueSetDevMilestoneSocialMyCore
+sc3m,Up to 3 months of age,http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-social-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-social-my-core,ValueSetDevMilestoneSocialMyCore
+sc6m,Up to 6 months of age,http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-social-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-social-my-core,ValueSetDevMilestoneSocialMyCore
+sc9m,Up to 9 months of age,http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-social-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-social-my-core,ValueSetDevMilestoneSocialMyCore
+sc12m,Up to 12 months of age,http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-social-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-social-my-core,ValueSetDevMilestoneSocialMyCore
+sc15m,Up to 15 months of age,http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-social-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-social-my-core,ValueSetDevMilestoneSocialMyCore
+sc18m,Up to 18 months of age,http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-social-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-social-my-core,ValueSetDevMilestoneSocialMyCore
+sc2y,Up to 2 years of age,http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-social-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-social-my-core,ValueSetDevMilestoneSocialMyCore
+sc2.5y,Up to 2.5 years of age,http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-social-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-social-my-core,ValueSetDevMilestoneSocialMyCore
+sc3y,Up to 3 years of age,http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-social-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-social-my-core,ValueSetDevMilestoneSocialMyCore
+sc4y,Up to 4 years of age,http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-social-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-social-my-core,ValueSetDevMilestoneSocialMyCore
+sc5y,Up to 5 years of age,http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-social-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-social-my-core,ValueSetDevMilestoneSocialMyCore

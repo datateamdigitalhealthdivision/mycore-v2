@@ -1,0 +1,95 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-occupation-sector-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemOccupationSector (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/occupation-sector-my-core</tt><p>Occupational Sector</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/occupation-sector-my-core",
+  "version": "1",
+  "name": "CodeSystemOccupationSectorMyCore",
+  "title": "CodeSystemOccupationSector (MY Core)",
+  "status": "active",
+  "date": "2023-03-08T08:22:01.7613407+00:00",
+  "description": "Occupation Sector",
+  "compositional": false,
+  "content": "complete",
+  "count": 15,
+  "concept": [
+    {
+      "code": "1",
+      "display": "Agriculture and Fisheries",
+      "definition": "Agriculture and Fisheries"
+    },
+    {
+      "code": "2",
+      "display": "Art and Talent",
+      "definition": "Art and Talent"
+    },
+    {
+      "code": "3",
+      "display": "Information Technology",
+      "definition": "Information Technology"
+    },
+    {
+      "code": "4",
+      "display": "Legal",
+      "definition": "Legal"
+    },
+    {
+      "code": "5",
+      "display": "Manufacturing",
+      "definition": "Manufacturing"
+    },
+    {
+      "code": "6",
+      "display": "Mining",
+      "definition": "Mining"
+    },
+    {
+      "code": "7",
+      "display": "Oil and Gas",
+      "definition": "Oil and Gas"
+    },
+    {
+      "code": "8",
+      "display": "Service",
+      "definition": "Service"
+    },
+    {
+      "code": "9",
+      "display": "Telecommunication",
+      "definition": "Telecommunication"
+    },
+    {
+      "code": "10",
+      "display": "Transportation",
+      "definition": "Transportation"
+    },
+    {
+      "code": "11",
+      "display": "Building and Construction",
+      "definition": "Building and Construction"
+    },
+    {
+      "code": "12",
+      "display": "Education",
+      "definition": "Education"
+    },
+    {
+      "code": "13",
+      "display": "Medical and Health",
+      "definition": "Medical and Health"
+    },
+    {
+      "code": "99",
+      "display": "Others",
+      "definition": "Others"
+    },
+    {
+      "code": "00",
+      "display": "No Information",
+      "definition": "No Information"
+    }
+  ]
+}

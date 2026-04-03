@@ -1,0 +1,14 @@
+code,display,system,include_type,valueset_url,valueset_name
+11779-6,Delivery date Estimated from last menstrual period,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-obstetric-us-my-core,ValueSetObservationObstetricUsMyCore
+11781-2,Delivery date US composite estimate,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-obstetric-us-my-core,ValueSetObservationObstetricUsMyCore
+18185-9,Gestational age,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-obstetric-us-my-core,ValueSetObservationObstetricUsMyCore
+18850-8,Fetal presentation US,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-obstetric-us-my-core,ValueSetObservationObstetricUsMyCore
+11615-2,Fetal Heart Activity US,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-obstetric-us-my-core,ValueSetObservationObstetricUsMyCore
+11957-8,Fetal Crown Rump length US,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-obstetric-us-my-core,ValueSetObservationObstetricUsMyCore
+8288-3,Head Occipital-frontal circumference by US,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-obstetric-us-my-core,ValueSetObservationObstetricUsMyCore
+11862-0,Fetal Abdomen Diameter transverse US,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-obstetric-us-my-core,ValueSetObservationObstetricUsMyCore
+11963-6,Fetal Femur diaphysis Length US,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-obstetric-us-my-core,ValueSetObservationObstetricUsMyCore
+11727-5,Fetal Body weight estimated by US,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-obstetric-us-my-core,ValueSetObservationObstetricUsMyCore
+11995-8,Placenta position US.measurement,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-obstetric-us-my-core,ValueSetObservationObstetricUsMyCore
+11627-7,Fetal Amniotic fluid index.summation derived by US,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-obstetric-us-my-core,ValueSetObservationObstetricUsMyCore
+11820-8,Fetal Head Diameter.biparietal US,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-obstetric-us-my-core,ValueSetObservationObstetricUsMyCore

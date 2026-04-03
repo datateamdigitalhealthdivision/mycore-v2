@@ -1,0 +1,4 @@
+code,display,system,include_type,valueset_url,valueset_name
+8327-9,Body measurement site,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-vsc-t-my-core,ValueSetObservationVSCTMyCore
+8326-1,Device,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-vsc-t-my-core,ValueSetObservationVSCTMyCore
+8352-7,Clothing worn,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-vsc-t-my-core,ValueSetObservationVSCTMyCore

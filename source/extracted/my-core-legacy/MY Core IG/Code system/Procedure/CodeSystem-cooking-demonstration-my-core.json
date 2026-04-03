@@ -1,0 +1,70 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-cooking-demonstration-my-core",
+  "meta": {
+    "source": "#X5nzWhjZsBdOvWZa"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemCookingDemonstration (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/cooking-demonstration-my-core</tt><p>Cooking Demonstration</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/cooking-demonstration-my-core",
+  "name": "CodeSystemCookingDemonstrationMyCore",
+  "title": "CodeSystemCookingDemonstration (MY Core)",
+  "status": "active",
+  "date": "2023-03-30T05:43:27.7205555+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Cooking Demonstration",
+  "compositional": false,
+  "content": "complete",
+  "count": 9,
+  "concept": [
+    {
+      "code": "00",
+      "display": "Other"
+    },
+    {
+      "code": "01",
+      "display": "Antenatal Mother"
+    },
+    {
+      "code": "02",
+      "display": "Anaemic Antenatal Mother"
+    },
+    {
+      "code": "03",
+      "display": "Postnatal Mother"
+    },
+    {
+      "code": "04",
+      "display": "Lactating Mother"
+    },
+    {
+      "code": "05",
+      "display": "Infant 6-8 Months"
+    },
+    {
+      "code": "06",
+      "display": "Infant 9-11 Months"
+    },
+    {
+      "code": "07",
+      "display": "Young Child 1-3 Years"
+    },
+    {
+      "code": "08",
+      "display": "Child 4-5 Years"
+    }
+  ]
+}

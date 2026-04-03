@@ -1,0 +1,76 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-visit-type-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemVisitType (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/visit-type-my-core</tt><p>Encounter Visit Type PIK code</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/visit-type-my-core",
+  "name": "CodeSystemVistTypeMyCore",
+  "title": "CodeSystemVisitType (MY Core)",
+  "status": "active",
+  "date": "2023-01-12T21:27:35.705533+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Encounter Visit Type PIK code",
+  "compositional": false,
+  "content": "complete",
+  "count": 9,
+  "concept": [
+    {
+      "code": "00",
+      "display": "No Information",
+      "definition": "No Information"
+    },
+    {
+      "code": "01",
+      "display": "New",
+      "definition": "New"
+    },
+    {
+      "code": "02",
+      "display": "Elective",
+      "definition": "Elective"
+    },
+    {
+      "code": "03",
+      "display": "Urgent",
+      "definition": "Urgent"
+    },
+    {
+      "code": "04",
+      "display": "Follow-up",
+      "definition": "Follow-up"
+    },
+    {
+      "code": "05",
+      "display": "Routine",
+      "definition": "Routine"
+    },
+    {
+      "code": "06",
+      "display": "Repeat",
+      "definition": "Repeat"
+    },
+    {
+      "code": "07",
+      "display": "Unscheduled",
+      "definition": "Unscheduled"
+    },
+    {
+      "code": "08",
+      "display": "Continuum",
+      "definition": "Continuum"
+    }
+  ]
+}

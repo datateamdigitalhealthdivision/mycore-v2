@@ -1,0 +1,236 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-child-12-15m",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-child-12-15m",
+  "version": "1.0.0",
+  "name": "QChild12-15m",
+  "title": "Lawatan Umur 12 & 15 Bulan",
+  "status": "active",
+  "date": "2023-08-30T06:43:50.5035753+00:00",
+  "item": [
+    {
+      "linkId": "child-12-15m.0",
+      "text": "Lawatan",
+      "type": "choice",
+      "answerOption": [
+        {
+          "valueCoding": {
+            "code": "00",
+            "display": "12 bulan"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "01",
+            "display": "15 bulan"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "child-12-15m.1",
+      "text": "Tarikh lawatan",
+      "type": "dateTime"
+    },
+    {
+      "linkId": "child-12-15m.2",
+      "text": "Umur semasa lawatan",
+      "type": "quantity"
+    },
+    {
+      "linkId": "child-12-15m.3",
+      "text": "Aktiviti",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "child-12-15m.3.1",
+          "text": "Berat (kg)",
+          "type": "quantity",
+          "item": [
+            {
+              "linkId": "child-12-15m.3.1.1",
+              "text": "Catatan (Normal/KBB/KBBT/MP)",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-12-15m.3.2",
+          "text": "Panjang (cm)",
+          "type": "quantity",
+          "item": [
+            {
+              "linkId": "child-12-15m.3.2.1",
+              "text": "Catatan (Normal/B/BT/ME)",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-12-15m.3.3",
+          "text": "BMI (kg/m2)",
+          "type": "quantity",
+          "item": [
+            {
+              "linkId": "child-12-15m.3.3.1",
+              "text": "Catatan (Normal/MP/B/BT)",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-12-15m.3.4",
+          "text": "Lilitan kepala (cm)",
+          "type": "quantity",
+          "item": [
+            {
+              "linkId": "child-12-15m.3.4.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-12-15m.3.5",
+          "text": "Pemeriksaan fizikal (termasuk mulut)",
+          "type": "string",
+          "item": [
+            {
+              "linkId": "child-12-15m.3.5.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-12-15m.3.6",
+          "text": "Perkara yang membimbangkan ibu bapa/penjaga",
+          "type": "string",
+          "item": [
+            {
+              "linkId": "child-12-15m.3.6.1",
+              "text": "Catatan",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "child-12-15m.3.7",
+          "text": "Rujuk Pemeriksaan Pergigian (Tarikh)",
+          "type": "dateTime"
+        },
+        {
+          "linkId": "child-12-15m.3.8",
+          "text": "Imunisasi (Rujuk Jadual dan Rekod Imunisasi)",
+          "type": "string"
+        },
+        {
+          "linkId": "child-12-15m.3.9",
+          "text": "Catatan",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "linkId": "child-12-15m.4",
+      "text": "Senarai Semak Perkembangan Umur 12 bulan (sila semak terlebih dahulu apa yang ibubapa/penjaga tulis): Tandakan pada ruangan yang berkenaan",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "child-12-15m.4.1",
+          "text": "Bayi berdiri tanpa bantuan.",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-12-15m.4.2",
+          "text": "Bayi mengambil benda kecil dengan menggunakan ibu jari dan telunjuk.(thumb & index finger grasp)",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-12-15m.4.3",
+          "text": "Bayi menggetuk 2 objek satu sama lain.",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-12-15m.4.4",
+          "text": "Bayi menyebut da-da/ ma-ma tanpa makna.",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-12-15m.4.5",
+          "text": "Bayi boleh bermain tepuk amai-amai atau melambai tangan.",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "child-12-15m.5",
+      "text": "Jika ada 'tidak' pada senarai semak perkembangan, rujuk Pegawai Perubatan/FMS/Pakar Pediatrik dan isikan maklumat di bawah.",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "child-12-15m.5.1",
+          "text": "Tarikh Temujanji",
+          "type": "dateTime"
+        },
+        {
+          "linkId": "child-12-15m.5.2",
+          "text": "Tempat Rujukan",
+          "type": "string"
+        },
+        {
+          "linkId": "child-12-15m.5.3",
+          "text": "Tujuan Rujukan",
+          "type": "string"
+        },
+        {
+          "linkId": "child-12-15m.5.4",
+          "text": "Jika ada 'tidak' pada senarai semak, Jalankan penilaian perkembangan mengguna Carta Denver",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-12-15m.5.5",
+          "text": "Jika ada 'tidak' pada senarai semak, Lakukan stimulasi awal",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "child-12-15m.6",
+      "text": "Bimbingan Awal Pada Umur 12 Bulan: Tandakan selepas nasihat diberi. (Rujuk Panduan Ibu bapa/Penjaga)",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "child-12-15m.6.1",
+          "text": "Kebersihan diri  \na. Cuci tangan sebelum makan dan selepas ke tandas.  \nb. Memberus gigi sekurang-kurangnya dua kali sehari terutamanya sebelum tidur malam.  \nc. Boleh guna secalit ubat gigi berfluorida bagi anak yang sudah pandai meludah. \nd. Biasakan periksa gigi anak dengan mengangkat bibir. \ne. Pastikan anak mendapat pemeriksaan gigi di klinik sebaiknya dua kali setahun.",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-12-15m.6.2",
+          "text": "Pemakanan \na. Galakkan penyusuan susu ibu sehingga bayi berumur 2 tahun.  \nb. Perkenalkan makanan keluarga kepada anak secara beransur-ansur.",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-12-15m.6.3",
+          "text": "Keselamatan dan pencegahan kecederaan \na. Jangan tinggalkan bayi anda di tempat takungan air (contoh: baldi, besen, bilik air dan lain-lain) tanpa pengawasan kerana ia boleh menyebabkan lemas. \nb. Jangan biarkan bayi anda bermain beg plastik kerana boleh mengakibatkan lemas. \nc. Semua ubatan dan racun (contoh: minyak tanah/ agen peluntur) perlu disimpan di tempat yang selamat dan tidak dapat diambil atau disimpan di dalam bekas yang tidak boleh dibuka oleh kanak-kanak. \nd. Jangan beri anak anda kacang dan bahagian permainan yang kecil kerana boleh menyebabkan tercekik. \ne. Gunakan tempat duduk anak (Baby Car Seat) di dalam kereta semasa memandu.",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-12-15m.6.4",
+          "text": "Kemahiran keibubapaan \na. Amalkan kemahiran keibubapaan yang baik. \nb. Memukul dan menengking tidak boleh membantu dalam mendisiplinkan kanak-kanak.",
+          "type": "boolean"
+        },
+        {
+          "linkId": "child-12-15m.6.5",
+          "text": "Perkembangan anak \n.a Kerap berbual, membaca dan bercerita dengan anak untuk meningkatkan perkembangan bahasa \nb. Tiada 'screen time' (TV, telefon pintar, tablet) \nc. Pastikan anak mendapat tidur yang cukup",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "linkId": "child-12-15m.remark",
+      "text": "Catatan / Rumusan",
+      "type": "text"
+    }
+  ]
+}

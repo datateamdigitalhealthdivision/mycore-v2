@@ -1,0 +1,240 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-child-madd",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "identifier": {
+        "system": "http://fhir.hie.moh.gov.my/sid/template-section",
+        "value": "qr-child-madd"
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-child-madd",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/3a1fe467-cad5-4ec9-83f8-fd6dfb46470c"
+    },
+    "authored": "2023-04-27T00:20:14.414Z",
+    "item": [
+        {
+            "linkId": "child-madd.1",
+            "text": "Past Medical/Surgical History",
+            "answer": [
+                {
+                    "valueString": "insert string here"
+                }
+            ]
+        },
+        {
+            "linkId": "child-madd.2",
+            "text": "Medication History",
+            "answer": [
+                {
+                    "valueString": "insert string here"
+                }
+            ]
+        },
+        {
+            "linkId": "child-madd.3",
+            "text": "Social and Family History",
+            "answer": [
+                {
+                    "valueString": "insert string here"
+                }
+            ]
+        },
+        {
+            "linkId": "child-madd.4",
+            "text": "History of Presenting Illness Summary",
+            "answer": [
+                {
+                    "valueString": "insert string here"
+                }
+            ]
+        },
+        {
+            "linkId": "child-madd.5",
+            "text": "Vital Signs",
+            "item": [
+                {
+                    "linkId": "child-madd.5.1",
+                    "text": "Systolic Blood Pressure (mmHg)",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 120,
+                                "unit": "mmHg",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mm[Hg]"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-madd.5.2",
+                    "text": "Diastolic Blood Pressure (mmHg)",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 70,
+                                "unit": "mmHg",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mm[Hg]"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-madd.5.3",
+                    "text": "Heart Rate (/min)",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 11,
+                                "unit": "/min",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "/min"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-madd.5.4",
+                    "text": "Body Temperature (°C)",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 36.7,
+                                "unit": "°C",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "Cel"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-madd.5.5",
+                    "text": "Oxygen Saturation (%)",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 99,
+                                "unit": "%",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "%"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-madd.5.6",
+                    "text": "Respiratory Rate (/min)",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 33,
+                                "unit": "/min",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "/min"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-madd.5.7",
+                    "text": "Pain score",
+                    "answer": [
+                        {
+                            "valueInteger": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "child-madd.6",
+            "text": "Physical Examination Summary",
+            "answer": [
+                {
+                    "valueString": "insert string here"
+                }
+            ]
+        },
+        {
+            "linkId": "child-madd.7",
+            "text": "Investigations / Special Test",
+            "answer": [
+                {
+                    "valueString": "insert string here"
+                }
+            ]
+        },
+        {
+            "linkId": "child-madd.8",
+            "text": "Diagnosis",
+            "answer": [
+                {
+                    "valueString": "insert string here"
+                }
+            ]
+        },
+        {
+            "linkId": "child-madd.9",
+            "text": "Management/Treatment Summary",
+            "answer": [
+                {
+                    "valueString": "insert string here"
+                }
+            ]
+        },
+        {
+            "linkId": "child-madd.10",
+            "text": "TCA Date",
+            "answer": [
+                {
+                    "valueDateTime": "2023-06-12T04:20:25.349Z"
+                }
+            ]
+        },
+        {
+            "linkId": "child-madd.11",
+            "text": "Referral",
+            "answer": [
+                {
+                    "valueBoolean": true,
+                    "item": [
+                        {
+                            "linkId": "child-madd.11.1",
+                            "text": "Referral Indication",
+                            "answer": [
+                                {
+                                    "valueString": "insert string here"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "child-madd.11.2",
+                            "text": "Spoken To:",
+                            "answer": [
+                                {
+                                    "valueString": "insert string here"
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "child-madd.11.3",
+                            "text": "Time of Referral",
+                            "answer": [
+                                {
+                                    "valueDateTime": "2023-06-12T04:20:31.039Z"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

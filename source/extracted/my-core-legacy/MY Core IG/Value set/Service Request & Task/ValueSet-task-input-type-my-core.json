@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-task-input-type-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetTaskInputType (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/ValueSet/task-input-type-my-core</tt><p>Task Input Type Code System</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/task-input-type-my-core",
+  "name": "ValueSetTaskInputTypeMyCore",
+  "title": "ValueSetTaskInputType (MY Core)",
+  "status": "active",
+  "date": "2023-01-03T04:47:56.9010407+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Task Input Type Code System",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/task-input-type-my-core"
+      }
+    ]
+  }
+}

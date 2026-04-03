@@ -1,0 +1,114 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "reason-code-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemReasonCode (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/reason-code-my-core</tt><p>Reason for encounter codes in Malaysia</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/reason-code-my-core",
+  "version": "2.0.0",
+  "name": "CodeSystemReasonCodeMyCore",
+  "title": "CodeSystemReasonCode (MY Core)",
+  "status": "active",
+  "date": "2023-01-12T21:13:03.0089063+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Reason for encounter codes in Malaysia",
+  "compositional": false,
+  "content": "complete",
+  "count": 16,
+  "concept": [
+    {
+      "code": "300",
+      "display": "EMERGENCY PRESENTATION",
+      "definition": "EMERGENCY PRESENTATION"
+    },
+    {
+      "code": "310",
+      "display": "UNSCHEDULED ED RETURNS POST-TRAUMA",
+      "definition": "UNSCHEDULED ED RETURNS POST-TRAUMA"
+    },
+    {
+      "code": "320",
+      "display": "RETURN VISIT, PLANNED FOLLOW UP",
+      "definition": "RETURN VISIT, PLANNED FOLLOW UP"
+    },
+    {
+      "code": "330",
+      "display": "PRE-ARRANGED ADMISSION",
+      "definition": "PRE-ARRANGED ADMISSION"
+    },
+    {
+      "code": "340",
+      "display": "DEAD ON ARRIVAL",
+      "definition": "DEAD ON ARRIVAL"
+    },
+    {
+      "code": "ADM",
+      "display": "ADMISSION",
+      "definition": "ADMISSION"
+    },
+    {
+      "code": "ETD",
+      "display": "EMERGENCY",
+      "definition": "EMERGENCY"
+    },
+    {
+      "code": "DWC",
+      "display": "DEATH WITH COVID -19",
+      "definition": "DEATH WITH COVID -19"
+    },
+    {
+      "code": "DDC",
+      "display": "DEATH DUE TO COVID-19",
+      "definition": "DEATH DUE TO COVID-19"
+    },
+    {
+      "code": "HCW",
+      "display": "HEALTHCARE WORKER",
+      "definition": "HEALTHCARE WORKER"
+    },
+    {
+      "code": "PUS",
+      "display": "PERSON UNDER SURVEILLANCE",
+      "definition": "PERSON UNDER SURVEILLANCE"
+    },
+    {
+      "code": "SP",
+      "display": "SPECIALIST",
+      "definition": "SPECIALIST"
+    },
+    {
+      "code": "CLS",
+      "display": "CLOSE CONTACT",
+      "definition": "CLOSE CONTACT"
+    },
+    {
+      "code": "OTH",
+      "display": "OTHERS",
+      "definition": "OTHERS"
+    },
+    {
+      "code": "PUI",
+      "display": "PATIENT UNDER INVESTIGATION",
+      "definition": "PATIENT UNDER INVESTIGATION"
+    },
+    {
+      "code": "C19",
+      "display": "CONFIRMED COVID-19",
+      "definition": "CONFIRMED COVID-19"
+    }
+  ],
+  "experimental": false,
+  "caseSensitive": true
+}

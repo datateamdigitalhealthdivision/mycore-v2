@@ -1,0 +1,6 @@
+code,display,definition,system_url,system_name
+00,No Information,,http://fhir.hie.moh.gov.my/CodeSystem/procedure-performer-role-my-core,CodeSystemProcedurePerformerRoleMyCore
+01,Main,,http://fhir.hie.moh.gov.my/CodeSystem/procedure-performer-role-my-core,CodeSystemProcedurePerformerRoleMyCore
+02,Supervisor,,http://fhir.hie.moh.gov.my/CodeSystem/procedure-performer-role-my-core,CodeSystemProcedurePerformerRoleMyCore
+03,Assistant,,http://fhir.hie.moh.gov.my/CodeSystem/procedure-performer-role-my-core,CodeSystemProcedurePerformerRoleMyCore
+04,Others,,http://fhir.hie.moh.gov.my/CodeSystem/procedure-performer-role-my-core,CodeSystemProcedurePerformerRoleMyCore

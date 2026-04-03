@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-encounter-class-front-my-core",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2023-03-28T02:50:04.846+00:00",
+    "source": "#YX5LqrAz1X6kHi1b"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetEncounterFrontClass (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/ValueSet/encounter-class-front-my-core</tt><p>Front end value set for encounter class</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/encounter-class-front-my-core",
+  "name": "ValueSetEncounterClassFrontMyCore",
+  "title": "ValueSetEncounterClassFront (MY Core)",
+  "status": "active",
+  "date": "2023-04-10T23:23:10.8917831+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "description": "Front end value set for encounter class",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/encounter-class-my-core",
+        "concept": [
+          {
+            "code": "AMB",
+            "display": "Outpatient"
+          },
+          {
+            "code": "IMP",
+            "display": "Inpatient"
+          },
+          {
+            "code": "EMER",
+            "display": "Emergency"
+          },
+          {
+            "code": "VR",
+            "display": "Virtual"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+code,display,definition,system_url,system_name
+10,ADVANCE ELECTRHOPHYSIOLOGY COCHLEAR MICROPHONIC TEST,ADVANCE ELECTRHOPHYSIOLOGY COCHLEAR MICROPHONIC TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-electrophysiology-test-my-core,CodeSystemAudiologyElectrophysiologyTestMyCore
+11,ADVANCE ELECTRHOPHYSIOLOGY ABR SITE OF LESION TEST,ADVANCE ELECTRHOPHYSIOLOGY ABR SITE OF LESION TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-electrophysiology-test-my-core,CodeSystemAudiologyElectrophysiologyTestMyCore
+12,ADVANCE ELECTRHOPHYSIOLOGY CERA TEST,ADVANCE ELECTRHOPHYSIOLOGY CERA TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-electrophysiology-test-my-core,CodeSystemAudiologyElectrophysiologyTestMyCore
+13,ADVANCE ELECTRHOPHYSIOLOGY ECOCHG TEST,ADVANCE ELECTRHOPHYSIOLOGY ECOCHG TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-electrophysiology-test-my-core,CodeSystemAudiologyElectrophysiologyTestMyCore
+14,ADVANCE ELECTRHOPHYSIOLOGY MLR TEST,ADVANCE ELECTRHOPHYSIOLOGY MLR TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-electrophysiology-test-my-core,CodeSystemAudiologyElectrophysiologyTestMyCore
+15,ADVANCE ELECTRHOPHYSIOLOGY LLR/P300,ADVANCE ELECTRHOPHYSIOLOGY LLR/P300,http://fhir.hie.moh.gov.my/CodeSystem/audiology-electrophysiology-test-my-core,CodeSystemAudiologyElectrophysiologyTestMyCore
+00,ELECTROPHYSIOLOGY OAE TEST,ELECTROPHYSIOLOGY OAE TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-electrophysiology-test-my-core,CodeSystemAudiologyElectrophysiologyTestMyCore
+01,ELECTROPHYSIOLOGY DPOAE TEST,ELECTROPHYSIOLOGY DPOAE TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-electrophysiology-test-my-core,CodeSystemAudiologyElectrophysiologyTestMyCore
+02,ELECTROPHYSIOLOGY TEOAE TEST,ELECTROPHYSIOLOGY TEOAE TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-electrophysiology-test-my-core,CodeSystemAudiologyElectrophysiologyTestMyCore
+03,ELECTROPHYSIOLOGY ABR CLICK TEST,ELECTROPHYSIOLOGY ABR CLICK TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-electrophysiology-test-my-core,CodeSystemAudiologyElectrophysiologyTestMyCore
+04,ELECTROPHYSIOLOGY ABR AIR CONDUCTION TEST,ELECTROPHYSIOLOGY ABR AIR CONDUCTION TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-electrophysiology-test-my-core,CodeSystemAudiologyElectrophysiologyTestMyCore
+05,ELECTROPHYSIOLOGY ABR BONE CONDUCTION TEST,ELECTROPHYSIOLOGY ABR BONE CONDUCTION TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-electrophysiology-test-my-core,CodeSystemAudiologyElectrophysiologyTestMyCore
+06,ELECTROPHYSIOLOGY ABR TONEBURST/CHIRP TEST,ELECTROPHYSIOLOGY ABR TONEBURST/CHIRP TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-electrophysiology-test-my-core,CodeSystemAudiologyElectrophysiologyTestMyCore
+07,ELECTROPHYSIOLOGY ABR TONEBURST/CHIRP AIR CONDUCTION TEST,ELECTROPHYSIOLOGY ABR TONEBURST/CHIRP AIR CONDUCTION TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-electrophysiology-test-my-core,CodeSystemAudiologyElectrophysiologyTestMyCore
+08,ELECTROPHYSIOLOGY ABR TONEBURST/CHIRP BONE CONDUCTION TEST,ELECTROPHYSIOLOGY ABR TONEBURST/CHIRP BONE CONDUCTION TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-electrophysiology-test-my-core,CodeSystemAudiologyElectrophysiologyTestMyCore
+09,ELECTROPHYSIOLOGY ASSR TEST,ELECTROPHYSIOLOGY ASSR TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-electrophysiology-test-my-core,CodeSystemAudiologyElectrophysiologyTestMyCore

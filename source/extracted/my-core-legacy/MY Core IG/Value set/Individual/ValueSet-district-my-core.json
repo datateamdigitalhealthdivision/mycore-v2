@@ -1,0 +1,34 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-district-my-core",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2022-03-18T00:59:27.228+00:00"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Value Set District My Core</h2><tt>http://fhir.hie.moh.gov.my/ValueSet/district-my-core</tt><p>Malaysia District List Value set</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/district-my-core",
+  "name": "ValueSetDistrictMyCore",
+  "title": "ValueSetDistrict (MY Core)",
+  "status": "active",
+  "date": "2023-01-03T04:47:56.9010407+00:00",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "Malaysia District List Value set",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/district-my-core"
+      }
+    ]
+  }
+}

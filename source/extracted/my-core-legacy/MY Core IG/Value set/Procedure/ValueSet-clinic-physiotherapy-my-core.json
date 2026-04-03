@@ -1,0 +1,296 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-clinic-physiotherapy-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetClinicPhysiotherapy (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core</tt><p>Malaysia Clinic Physiotherapy</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/clinic-physiotherapy-my-core",
+  "name": "ValueSetClinicPhysiotherapyMyCore",
+  "title": "ValueSetClinicPhysiotherapy (MY Core)",
+  "status": "active",
+  "date": "2023-07-25T00:23:50.1094378+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "description": "Malaysia Clinic Physiotherapy",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/clinic-physiotherapy-my-core",
+        "concept": [
+          {
+            "code": "00",
+            "display": "SWD (Shortwave Diarthermy)"
+          },
+          {
+            "code": "01",
+            "display": "ShockWT (Shockwave Therapy)"
+          },
+          {
+            "code": "02",
+            "display": "US (Ultrasound Therapy)"
+          },
+          {
+            "code": "03",
+            "display": "IT (Interferential Therapy)"
+          },
+          {
+            "code": "04",
+            "display": "TENS/EMS"
+          },
+          {
+            "code": "05",
+            "display": "Laser (Laser Therapy)"
+          },
+          {
+            "code": "06",
+            "display": "Myofeedback / Biofeedback (EMG)"
+          },
+          {
+            "code": "07",
+            "display": "Exs-A (Exercise - Active)"
+          },
+          {
+            "code": "08",
+            "display": "Exs-P (Exercise - Passive)"
+          },
+          {
+            "code": "09",
+            "display": "Exs-R (Exercise - Resisted)"
+          },
+          {
+            "code": "10",
+            "display": "GE (Group Exs)"
+          },
+          {
+            "code": "11",
+            "display": "CTE (Circuit Training Exs)"
+          },
+          {
+            "code": "12",
+            "display": "AMB (Ambulation)"
+          },
+          {
+            "code": "13",
+            "display": "FA (Functional Activities)"
+          },
+          {
+            "code": "14",
+            "display": "BAT (Balance Training)"
+          },
+          {
+            "code": "15",
+            "display": "G (Gait Training)"
+          },
+          {
+            "code": "16",
+            "display": "TBE (Therapeutic Ball Exs)"
+          },
+          {
+            "code": "17",
+            "display": "APNE (Ante Post Natal Exs)"
+          },
+          {
+            "code": "18",
+            "display": "PFME (Pelvic Floor Mus. Exs)"
+          },
+          {
+            "code": "19",
+            "display": "Mat Activity"
+          },
+          {
+            "code": "20",
+            "display": "ME (Mechanical Exs)"
+          },
+          {
+            "code": "21",
+            "display": "Bicycle (Ergometer / Recumbent Bike)"
+          },
+          {
+            "code": "22",
+            "display": "T (Treadmill)"
+          },
+          {
+            "code": "23",
+            "display": "Motorised cycle"
+          },
+          {
+            "code": "24",
+            "display": "STH (Suspension Therapy)"
+          },
+          {
+            "code": "25",
+            "display": "Tilt table Activity"
+          },
+          {
+            "code": "26",
+            "display": "Cryotherapy by Air"
+          },
+          {
+            "code": "27",
+            "display": "C (Cryocuff)"
+          },
+          {
+            "code": "28",
+            "display": "IP (Ice Pack)"
+          },
+          {
+            "code": "29",
+            "display": "HP (Hotpack)"
+          },
+          {
+            "code": "30",
+            "display": "WB (Wax Bath)"
+          },
+          {
+            "code": "31",
+            "display": "IRR (Infrared Therapy)"
+          },
+          {
+            "code": "32",
+            "display": "CT (Cervical Traction)"
+          },
+          {
+            "code": "33",
+            "display": "LTR (Lumbar Traction)"
+          },
+          {
+            "code": "34",
+            "display": "CPM (Cont. Pass. Motion)"
+          },
+          {
+            "code": "35",
+            "display": "Supportive"
+          },
+          {
+            "code": "36",
+            "display": "Compression"
+          },
+          {
+            "code": "37",
+            "display": "Taping"
+          },
+          {
+            "code": "38",
+            "display": "BE (Breathing Exs)"
+          },
+          {
+            "code": "39",
+            "display": "ACBT (Act. Cycle Breath. Tech)"
+          },
+          {
+            "code": "40",
+            "display": "PD (Postural Drainage)"
+          },
+          {
+            "code": "41",
+            "display": "PVS (Percus / Vibrat / Shaking)"
+          },
+          {
+            "code": "42",
+            "display": "Mechanical Chest Percussion"
+          },
+          {
+            "code": "43",
+            "display": "SUCTION"
+          },
+          {
+            "code": "44",
+            "display": "IMT (Inspiratory Muscle Training)"
+          },
+          {
+            "code": "45",
+            "display": "IS (Incentive Spirometer)"
+          },
+          {
+            "code": "46",
+            "display": "Use of Adjuncts In Respiratory Care"
+          },
+          {
+            "code": "47",
+            "display": "JM (Joint Mobilization)"
+          },
+          {
+            "code": "48",
+            "display": "MT (McKenzie / Maitland Technique)"
+          },
+          {
+            "code": "49",
+            "display": "NT (Neurodevelopmental Therapy)"
+          },
+          {
+            "code": "50",
+            "display": "A (Acupressure)"
+          },
+          {
+            "code": "51",
+            "display": "Icing and Brushing"
+          },
+          {
+            "code": "52",
+            "display": "STM (Soft Tissue Manipulation)"
+          },
+          {
+            "code": "53",
+            "display": "MFR (Myofascial Release)"
+          },
+          {
+            "code": "54",
+            "display": "SR (Sensory Reeducation)"
+          },
+          {
+            "code": "55",
+            "display": "SHER (Special Hand Exercise Regime)"
+          },
+          {
+            "code": "56",
+            "display": "Bladder / Bowel Training"
+          },
+          {
+            "code": "57",
+            "display": "LCS (Lumbar / Cervical Stabilisation)"
+          },
+          {
+            "code": "58",
+            "display": "MET (Muscle Energy Technique)"
+          },
+          {
+            "code": "59",
+            "display": "PNF (Proprioceptive Neuromuscular Fasilitation)"
+          },
+          {
+            "code": "60",
+            "display": "Mobilization with Movement"
+          },
+          {
+            "code": "61",
+            "display": "ViR (Virtual Reality)"
+          },
+          {
+            "code": "62",
+            "display": "VR (Vestibular Rehabilitation)"
+          },
+          {
+            "code": "63",
+            "display": "PE (Patient Education)"
+          },
+          {
+            "code": "64",
+            "display": "CFE (Carer / Family Education)"
+          },
+          {
+            "code": "65",
+            "display": "HEP (Home Exercise Programme)"
+          },
+          {
+            "code": "66",
+            "display": "Teleconsultation"
+          },
+          {
+            "code": "67",
+            "display": "LAIN-LAIN"
+          }
+        ]
+      }
+    ]
+  }
+}

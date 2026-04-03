@@ -1,0 +1,35 @@
+{
+  "resourceType": "ValueSet",
+  "id": "allergy-environment-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetAllergyEnvironment (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/allergy-environment-my-core</tt><p>Active Ingredient</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/allergy-environment-my-core",
+  "name": "ValueSetAllergyEnvironmentMyCore",
+  "title": "ValueSetAllergyEnvironment (MY Core)",
+  "status": "active",
+  "date": "2023-01-03T04:47:56.9010407+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Active Ingredient",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/allergy-environment-my-core"
+      }
+    ]
+  },
+  "version": "2.0.0",
+  "experimental": false
+}

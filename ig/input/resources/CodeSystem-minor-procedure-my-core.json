@@ -1,0 +1,74 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "minor-procedure-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemMinorProcedure (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/minor-procedure-my-core</tt><p>Minor Procedure</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/minor-procedure-my-core",
+  "name": "CodeSystemMinorProcedureMyCore",
+  "title": "CodeSystemMinorProcedure (MY Core)",
+  "status": "active",
+  "date": "2023-01-10T23:01:36.9771953+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Minor Procedure",
+  "compositional": false,
+  "content": "complete",
+  "count": 10,
+  "concept": [
+    {
+      "code": "00",
+      "display": "Other"
+    },
+    {
+      "code": "01",
+      "display": "Suture To Off (STO)"
+    },
+    {
+      "code": "02",
+      "display": "Toilet & Suture (T&S)"
+    },
+    {
+      "code": "03",
+      "display": "Incision & Drainage (I&D)"
+    },
+    {
+      "code": "04",
+      "display": "Catheter Bladder Drainage (CBD)"
+    },
+    {
+      "code": "05",
+      "display": "Ryle's Tube"
+    },
+    {
+      "code": "06",
+      "display": "Nail Avulsion"
+    },
+    {
+      "code": "07",
+      "display": "Removal Foreign Body"
+    },
+    {
+      "code": "08",
+      "display": "Circumcision"
+    },
+    {
+      "code": "09",
+      "display": "Resuscitation"
+    }
+  ],
+  "version": "2.0.0",
+  "experimental": false,
+  "caseSensitive": true
+}

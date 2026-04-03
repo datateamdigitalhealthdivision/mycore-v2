@@ -1,0 +1,64 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "tdm-recommended-type-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemTdmRecommededType (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/tdm-recommended-type-my-core</tt><p>TDM recommended type</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/tdm-recommended-type-my-core",
+  "version": "2.0.0",
+  "name": "CodeSystemTdmRecommededTypeMyCore",
+  "title": "CodeSystemTdmRecommededType (MY Core)",
+  "status": "active",
+  "date": "2023-03-30T05:43:27.7205555+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "TDM recommended type",
+  "compositional": false,
+  "content": "complete",
+  "count": 6,
+  "concept": [
+    {
+      "code": "ITD",
+      "display": "Increase The Dose",
+      "definition": "Increase The Dose"
+    },
+    {
+      "code": "MTD",
+      "display": "Maintain The Dose",
+      "definition": "Maintain The Dose"
+    },
+    {
+      "code": "RTD",
+      "display": "Reduce The Dose",
+      "definition": "Reduce The Dose"
+    },
+    {
+      "code": "RTP",
+      "display": "Refer to Pharmacist Notes",
+      "definition": "Refer to Pharmacist Notes"
+    },
+    {
+      "code": "STD",
+      "display": "Stop The Dose",
+      "definition": "Stop The Dose"
+    },
+    {
+      "code": "WTD",
+      "display": "Withhold The Dose",
+      "definition": "Withhold The Dose"
+    }
+  ],
+  "experimental": false,
+  "caseSensitive": true
+}

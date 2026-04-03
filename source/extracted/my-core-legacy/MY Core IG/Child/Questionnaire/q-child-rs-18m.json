@@ -1,0 +1,54 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-child-rs-18m",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-child-18m",
+  "version": "1.0.0",
+  "name": "QChildRs18M",
+  "title": "Senarai Semak Rekod Saya Ibu Bapa (Lawatan 18 Bulan)",
+  "status": "active",
+  "date": "2023-08-30T06:43:50.5035753+00:00",
+  "item": [
+    {
+      "linkId": "rs-18m-1",
+      "text": "Berjalan sendiri?",
+      "type": "boolean"
+    },
+    {
+      "linkId": "rs-18m-2",
+      "text": "Boleh menconteng?",
+      "type": "boolean"
+    },
+    {
+      "linkId": "rs-18m-3",
+      "text": "Menyebut 3 perkataan dengan makna?",
+      "type": "boolean"
+    },
+    {
+      "linkId": "rs-18m-4",
+      "text": "Mengikut arahan yang mudah?",
+      "type": "boolean"
+    },
+    {
+      "linkId": "rs-18m-5",
+      "text": "Minum dari cawan?",
+      "type": "boolean"
+    },
+    {
+      "linkId": "rs-18m-6",
+      "text": "Adakah anda mempunyai masalah menjaga bayi anda?",
+      "type": "boolean"
+    },
+    {
+      "linkId": "rs-18m-7",
+      "text": "Adakah anda mempunyai sebarang kebimbangan terhadap bayi?",
+      "type": "boolean",
+      "item": [
+        {
+          "linkId": "rs-18m-7-1",
+          "text": "Sekiranya ada, nyatakan",
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}

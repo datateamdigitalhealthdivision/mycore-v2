@@ -1,0 +1,13 @@
+code,display,definition,system_url,system_name
+0,No Information,No Information,http://fhir.hie.moh.gov.my/CodeSystem/religion-my-core,CodeSystemReligionMyCore
+1,Islam,Islam,http://fhir.hie.moh.gov.my/CodeSystem/religion-my-core,CodeSystemReligionMyCore
+2,Christianity,Christianity,http://fhir.hie.moh.gov.my/CodeSystem/religion-my-core,CodeSystemReligionMyCore
+3,Buddhism,Buddhism,http://fhir.hie.moh.gov.my/CodeSystem/religion-my-core,CodeSystemReligionMyCore
+4,Hinduism,Hinduism,http://fhir.hie.moh.gov.my/CodeSystem/religion-my-core,CodeSystemReligionMyCore
+5,Sikhism,Sikhism,http://fhir.hie.moh.gov.my/CodeSystem/religion-my-core,CodeSystemReligionMyCore
+6,Atheist,Atheist,http://fhir.hie.moh.gov.my/CodeSystem/religion-my-core,CodeSystemReligionMyCore
+7,Taoism,Taoism,http://fhir.hie.moh.gov.my/CodeSystem/religion-my-core,CodeSystemReligionMyCore
+8,Confucianism,Confucianism,http://fhir.hie.moh.gov.my/CodeSystem/religion-my-core,CodeSystemReligionMyCore
+9,Bahaism,Bahaism,http://fhir.hie.moh.gov.my/CodeSystem/religion-my-core,CodeSystemReligionMyCore
+10,Animism,Animism,http://fhir.hie.moh.gov.my/CodeSystem/religion-my-core,CodeSystemReligionMyCore
+99,Others,Others,http://fhir.hie.moh.gov.my/CodeSystem/religion-my-core,CodeSystemReligionMyCore

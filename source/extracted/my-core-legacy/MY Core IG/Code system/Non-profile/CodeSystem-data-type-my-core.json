@@ -1,0 +1,86 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-data-type-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemDataType (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/data-type-my-core</tt><p>Data Type</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/data-type-my-core",
+  "name": "CodeSystemDataTypeMyCore",
+  "title": "CodeSystemDataType (MY Core)",
+  "status": "active",
+  "date": "2023-01-03T04:47:56.9010407+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Data Type",
+  "compositional": false,
+  "content": "complete",
+  "count": 11,
+  "concept": [
+    {
+      "code": "quantity",
+      "display": "Quantity",
+      "definition": "A measured amount."
+    },
+    {
+      "code": "codeableConcept",
+      "display": "CodeableConcept",
+      "definition": "A coded concept from a reference terminology and/or text."
+    },
+    {
+      "code": "string",
+      "display": "string",
+      "definition": "A sequence of Unicode characters."
+    },
+    {
+      "code": "boolean",
+      "display": "boolean",
+      "definition": "true or false."
+    },
+    {
+      "code": "integer",
+      "display": "integer",
+      "definition": "A signed integer."
+    },
+    {
+      "code": "range",
+      "display": "Range",
+      "definition": "A set of values bounded by low and high."
+    },
+    {
+      "code": "ratio",
+      "display": "Ratio",
+      "definition": "A ratio of two Quantity values - a numerator and a denominator."
+    },
+    {
+      "code": "sampledData",
+      "display": "SampledData",
+      "definition": "A series of measurements taken by a device."
+    },
+    {
+      "code": "time",
+      "display": "time",
+      "definition": "A time during the day, in the format hh:mm:ss."
+    },
+    {
+      "code": "dateTime",
+      "display": "dateTime",
+      "definition": "A date, date-time or partial date (e.g. just year or year + month) as used in human communication."
+    },
+    {
+      "code": "period",
+      "display": "Period",
+      "definition": "A time range defined by start and end date/time."
+    }
+  ]
+}

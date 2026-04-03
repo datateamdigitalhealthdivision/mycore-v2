@@ -1,0 +1,40 @@
+{
+  "resourceType": "ValueSet",
+  "id": "composition-type-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetCompositionType (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/composition-type-my-core</tt><p>Composition type</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/composition-type-my-core",
+  "identifier": [
+    {
+      "value": "value-set-composition-type-my-core"
+    }
+  ],
+  "name": "ValueSetCompositionTypeMyCore",
+  "title": "ValueSetCompositionType (MY Core)",
+  "status": "active",
+  "date": "2022-07-22T03:06:30.8634846+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Composition type",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/composition-type-my-core"
+      }
+    ]
+  },
+  "version": "2.0.0",
+  "experimental": false
+}

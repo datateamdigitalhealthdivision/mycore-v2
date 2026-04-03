@@ -1,0 +1,5 @@
+code,display,definition,system_url,system_name
+planned,Planned,Planned,http://fhir.hie.moh.gov.my/CodeSystem/immunization-recommendation-status-my-core,CodeSystemImmunizationRecommendationStatusMyCore
+completed,Completed,Completed,http://fhir.hie.moh.gov.my/CodeSystem/immunization-recommendation-status-my-core,CodeSystemImmunizationRecommendationStatusMyCore
+entered-in-error,Entered In Error,Entered In Error,http://fhir.hie.moh.gov.my/CodeSystem/immunization-recommendation-status-my-core,CodeSystemImmunizationRecommendationStatusMyCore
+defaulted,Defaulted,Defaulted,http://fhir.hie.moh.gov.my/CodeSystem/immunization-recommendation-status-my-core,CodeSystemImmunizationRecommendationStatusMyCore

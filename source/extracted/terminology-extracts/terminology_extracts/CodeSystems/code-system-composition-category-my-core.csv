@@ -1,0 +1,9 @@
+code,display,definition,system_url,system_name
+LP173418-7,Note,Note,http://fhir.hie.moh.gov.my/CodeSystem/composition-category-my-core,CodeSystemCompositionCategoryMyCore
+LP73428-2,Summary Note,Summary Note,http://fhir.hie.moh.gov.my/CodeSystem/composition-category-my-core,CodeSystemCompositionCategoryMyCore
+LP72467-1,Discharge Summary Note,Discharge Summary Note,http://fhir.hie.moh.gov.my/CodeSystem/composition-category-my-core,CodeSystemCompositionCategoryMyCore
+LP97117-3,Referral Note,Referral Note,http://fhir.hie.moh.gov.my/CodeSystem/composition-category-my-core,CodeSystemCompositionCategoryMyCore
+LP74249-1,Procedure note,Procedure note,http://fhir.hie.moh.gov.my/CodeSystem/composition-category-my-core,CodeSystemCompositionCategoryMyCore
+sub-record,Sub-Record,Sub-Record,http://fhir.hie.moh.gov.my/CodeSystem/composition-category-my-core,CodeSystemCompositionCategoryMyCore
+LP199484-9,Form,Form,http://fhir.hie.moh.gov.my/CodeSystem/composition-category-my-core,CodeSystemCompositionCategoryMyCore
+LP416816-9,Check List,Check List,http://fhir.hie.moh.gov.my/CodeSystem/composition-category-my-core,CodeSystemCompositionCategoryMyCore

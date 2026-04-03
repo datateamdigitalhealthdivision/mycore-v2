@@ -1,0 +1,364 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-child-ds-0-9m",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "identifier": {
+        "system": "http://fhir.hie.moh.gov.my/sid/template-section",
+        "value": "qr-child-ds-0-9m"
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-child-ds-0-9m",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/3a1fe467-cad5-4ec9-83f8-fd6dfb46470c"
+    },
+    "authored": "2023-04-27T00:20:14.414Z",
+    "item": [
+        {
+            "linkId": "child-ds-0-9m.1",
+            "text": "Tarikh",
+            "answer": [
+                {
+                    "valueDateTime": "2023-05-01T23:12:30.776Z"
+                }
+            ]
+        },
+        {
+            "linkId": "child-ds-0-9m.2",
+            "text": "Umur semasa lawatan",
+            "answer": [
+                {
+                    "valueQuantity": {
+                        "value": 9,
+                        "unit": "bulan"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "child-ds-0-9m.3",
+            "text": "Soalan-soalan",
+            "item": [
+                {
+                    "linkId": "child-ds-0-9m.3.1",
+                    "text": "Bayi menghisap susu botol",
+                    "answer": [
+                        {
+                            "valueBoolean": true,
+                            "item": [
+                                {
+                                    "linkId": "child-ds-0-9m.3.1.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "insert value here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-0-9m.3.2",
+                    "text": "Bayi menghisap puting tiruan",
+                    "answer": [
+                        {
+                            "valueBoolean": true,
+                            "item": [
+                                {
+                                    "linkId": "child-ds-0-9m.3.2.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "insert value here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-0-9m.3.3",
+                    "text": "Bayi tidur dengan menghisap botol susu atau susu ibu",
+                    "answer": [
+                        {
+                            "valueBoolean": true,
+                            "item": [
+                                {
+                                    "linkId": "child-ds-0-9m.3.3.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "insert value here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-0-9m.3.4",
+                    "text": "Ibubapa/penjaga merasa dahulu makanan sebelum menyuapkan makanan ke dalam mulut bayi",
+                    "answer": [
+                        {
+                            "valueBoolean": true,
+                            "item": [
+                                {
+                                    "linkId": "child-ds-0-9m.3.4.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "insert value here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-0-9m.3.5",
+                    "text": "Bayi minum air lain selain daripada susu",
+                    "answer": [
+                        {
+                            "valueBoolean": true,
+                            "item": [
+                                {
+                                    "linkId": "child-ds-0-9m.3.5.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "insert value here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-0-9m.3.6",
+                    "text": "Memberi makanan ringan kepada bayi",
+                    "answer": [
+                        {
+                            "valueBoolean": true,
+                            "item": [
+                                {
+                                    "linkId": "child-ds-0-9m.3.6.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "insert value here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-0-9m.3.7",
+                    "text": "Membersihkan mulut bayi setiap hari",
+                    "answer": [
+                        {
+                            "valueBoolean": true,
+                            "item": [
+                                {
+                                    "linkId": "child-ds-0-9m.3.7.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "insert value here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "child-ds-0-9m.4",
+            "text": "Bimbingan awal",
+            "item": [
+                {
+                    "linkId": "child-ds-0-9m.4.1",
+                    "text": "Jangan biarkan bayi anda tidur bersama-sama botol susu/ payudara di dalammulut. Ini akan mengakibatkan kerosakan gigi awal/ karies botol susu.",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-0-9m.4.2",
+                    "text": "Jangan masukkan gula/ manisan ke dalam susu bayi.",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-0-9m.4.3",
+                    "text": "Elakkan menyalutkan puting dengan gula atau madu.",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-0-9m.4.4",
+                    "text": "Bersihkan mulut bayi dengan kain lembut yang bersih selepas menyusu.",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-0-9m.4.5",
+                    "text": "Dalam proses pertumbuhan gigi anak anda mungkin mengalami tidak selesa seperti: \na. Suka menggigit benda keras \nb. Air liur meleleh \nc. Demam",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-0-9m.4.6",
+                    "text": "Sekiranya bayi anda mengalami masalah tersebut: \nd. Urut gusi dengan jari atau tuala yang bersih. \ne. Memberi anak anda sesuatu yang selamat dan bersih untuk digigit dan elakkan memberi biskut yang melekit dan bergula.",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-0-9m.4.7",
+                    "text": "Elakkan memberi kanak-kanak makanan berlemak, tinggi garam dan gula serta tidak berkhasiat seperti gula-gula, kek, coklat, ais krim, kentang goreng segeradan minuman berkarbonat.",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-0-9m.4.8",
+                    "text": "Jangkitan kuman boleh dipindahkan jika ibu menyuapkan makanan dari mulutnya ke mulut bayi.",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-0-9m.4.9",
+                    "text": "Sebaik sahaja gigi susu pertama tumbuh, cuci giginya dengan menggunakan kain lembut basah atau berus gigi kecil yang sesuai.",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-0-9m.4.10",
+                    "text": "Sentiasa periksa gigi dengan mengangkat bibir.",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-0-9m.4.11",
+                    "text": "Gigi susu adalah penting untuk pembentukan gigi kekal yang sempurna.",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "child-ds-0-9m.5",
+            "text": "Pemeriksaan",
+            "item": [
+                {
+                    "linkId": "child-ds-0-9m.5.1",
+                    "text": "Penemuan",
+                    "answer": [
+                        {
+                            "valueString": "insert value here"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-0-9m.5.2",
+                    "text": "Catatan",
+                    "answer": [
+                        {
+                            "valueString": "insert value here"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "child-ds-0-9m.6",
+            "text": "Caries Risk Assessment",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://snomed.info/sct",
+                        "code": "25594002",
+                        "display": "Moderate Risk"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "child-ds-0-9m.7",
+            "text": "Rujuk Kepada Pegawai/Jururawat Pergigian",
+            "item": [
+                {
+                    "linkId": "child-ds-0-9m.7.1",
+                    "text": "Tarikh Temujanji",
+                    "answer": [
+                        {
+                            "valueDateTime": "2023-05-01T02:13:10.913Z"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-0-9m.7.2",
+                    "text": "Tarikh Rawatan",
+                    "answer": [
+                        {
+                            "valueDateTime": "2023-05-01T02:13:14.022Z"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-ds-0-9m.7.3",
+                    "text": "Catatan",
+                    "answer": [
+                        {
+                            "valueString": "insert value here"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

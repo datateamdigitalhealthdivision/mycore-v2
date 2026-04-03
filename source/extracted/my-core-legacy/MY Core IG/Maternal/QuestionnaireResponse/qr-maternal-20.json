@@ -1,0 +1,251 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-maternal-20",
+    "meta": {
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-20",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/bfb81ffe-637d-4b3f-befa-f7a1546ed9f8"
+    },
+    "authored": "2023-02-06T03:56:06+08:00",
+    "author": {
+        "reference": "PractitionerRole/cd16e0cb-3e0f-43bb-9197-901f5daff3ba/_history/23"
+    },
+    "item": [
+        {
+            "linkId": "maternal-20.1",
+            "text": "Jenis Lawatan",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "code": "maternal-lk",
+                        "display": "Lawatan Klinik"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-20.2",
+            "text": "Ujian Makmal",
+            "item": [
+                {
+                    "linkId": "maternal-20.2.1",
+                    "text": "Urin Protein",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "167275009",
+                                "display": "1+"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "maternal-20.2.1.1",
+                                    "text": "Urin Protein Remark",
+                                    "answer": [
+                                        {
+                                            "valueString": "Urin Protein remark"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-20.2.2",
+                    "text": "Urin Sugar",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "167265006",
+                                "display": "2+"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "maternal-20.2.2.1",
+                                    "text": "Urin Sugar Remark",
+                                    "answer": [
+                                        {
+                                            "valueString": "Urin Sugar Remark"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-20.2.3",
+                    "text": "Hb",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 12
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-20.3",
+            "text": "Pemeriksaan",
+            "item": [
+                {
+                    "linkId": "maternal-20.3.1",
+                    "text": "Berat",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 55
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-20.3.2",
+                    "text": "Blood Pressure",
+                    "item": [
+                        {
+                            "linkId": "maternal-20.3.2.1",
+                            "text": "Systolic",
+                            "answer": [
+                                {
+                                    "valueQuantity": {
+                                        "value": 120
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "maternal-20.3.2.2",
+                            "text": "Diastolic ",
+                            "answer": [
+                                {
+                                    "valueQuantity": {
+                                        "value": 90
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-20.3.3",
+                    "text": "Nadi",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 90
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-20.3.4",
+                    "text": "Edema",
+                    "answer": [
+                        {
+                            "valueString": "0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-20.4",
+            "text": "Kandungan",
+            "item": [
+                {
+                    "linkId": "maternal-20.4.1",
+                    "text": "Tempoh hamil",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 38
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-20.4.2",
+                    "text": "Tinggi Rahim",
+                    "answer": [
+                        {
+                            "valueString": "12"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-20.5",
+            "text": "Janin",
+            "item": [
+                {
+                    "linkId": "maternal-20.5.1",
+                    "text": "Presentasi",
+                    "answer": [
+                        {
+                            "valueString": "cephalic"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-20.5.2",
+                    "text": "Jantung",
+                    "answer": [
+                        {
+                            "valueString": "normal"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-20.5.3",
+                    "text": "Gerak",
+                    "answer": [
+                        {
+                            "valueString": "normal"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-20.6",
+            "text": "Masalah",
+            "answer": [
+                {
+                    "valueString": "tiada pape\n1\n2\n3"
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-20.7",
+            "text": "Pengendalian dan Rawatan",
+            "answer": [
+                {
+                    "valueString": "tiada pape\n1\n2\n3"
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-20.8",
+            "text": "Tarikh Temujanji",
+            "answer": [
+                {
+                    "valueDateTime": "2023-08-02T01:48:08.524Z"
+                },
+                {
+                    "valueDateTime": "2023-08-18T01:48:13.826Z"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+code,display,definition,system_url,system_name
+GDYEY1NKXO,Assistant Enviroment Health Officer,Assistant Enviroment Health Officer,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+AMO,Assistant Medical Officer,Assistant Medical Officer,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+APHRO,Assistant Pharmacy Officer,Assistant Pharmacy Officer,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+ASDOHD,Assistant Senior Director OHD,Assistant Senior Director OHD,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+CNTRLADMIN,Centraladmin,Centraladmin,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+CASDOHD,Chief Assistant Senior Director OHD,Chief Assistant Senior Director OHD,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+CN,Community Nurse,Community Nurse,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+COMFS,Consultant Oral Maxillo Facial Specialist,Consultant Oral Maxillo Facial Specialist,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+CORTHO,Consultant Orthodontist,Consultant Orthodontist,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+CPAEDO,Consultant Paediatric Dentistry,Consultant Paediatric Dentistry,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+CPERIO,Consultant Periodontist,Consultant Periodontist,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+CRESTO,Consultant Restorative Specialist,Consultant Restorative Specialist,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+CSND,Consultant Special Needs Dentistry,Consultant Special Needs Dentistry,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+OMOAISVS8M,Counsellor,Counsellor,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+ATTd,Dental Attendant,Dental Attendant,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+CRKd,Dental Clerk,Dental Clerk,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+DO,Dental Officer,Dental Officer,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+DOI,Dental Officer Incharge,Dental Officer Incharge,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+DPHS,Dental Public Health Specialist,Dental Public Health Specialist,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+DSA,Dental Surgery Assistant,Dental Surgery Assistant,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+DT,Dental Technologist,Dental Technologist,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+DN,Dental Therapist,Dental Therapist,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+DDOHD,Deputy Director Oral Health Division,Deputy Director Oral Health Division,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+DSHDD,Deputy State Health Director (Dental),Deputy State Health Director (Dental),http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+DTT,Dietitian,Dietitian,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+DOHCP,Director Oral Health Control and Practice,Director Oral Health Control and Practice,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+DOHD,Director Oral Health Development,Director Oral Health Development,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+DSTADMIN,District Admin,District Admin,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+DDO,District Dental Officer,District Dental Officer,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+2XL5EL5R9Y,Enviroment Health Officer,Enviroment Health Officer,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+FAADMIN,Facility Admin,Facility Admin,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+FMS,Family Medicine Specialist,Family Medicine Specialist,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+FYDO,First Year Dental Officer,First Year Dental Officer,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+ATTh,Health Attendant,Health Attendant,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+CRKh,Health Clerk,Health Clerk,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+CRKhA,Health Clerk (Accounts),Health Clerk (Accounts),http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+HEO,Health Education Officer,Health Education Officer,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+HO,House Officer,House Officer,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+ITO,IT Officer,IT Officer,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+ITP,IT Programmer,IT Programmer,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+ITT,IT Technician,IT Technician,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+VW9ER47J1B,Medical Army,Medical Army,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+MLT,Medical Lab Technologist,Medical Lab Technologist,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+MO,Medical Officer,Medical Officer,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+MSW,Medical Social Worker,Medical Social Worker,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+NRS,Nurse,Nurse,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+NTR,Nutritionist,Nutritionist,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+OT,Occupational Therapist,Occupational Therapist,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+MUQUG160J8,Optometrist,Optometrist,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+OMFS,Oral Maxillo Facial Specialist,Oral Maxillo Facial Specialist,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+ORTHO,Orthodontist,Orthodontist,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+PAEDO,Paediatric Dentistry,Paediatric Dentistry,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+WFFAKB4GYV,Part Time Worker (PSH),Part Time Worker (PSH),http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+EX98C1G9RS,Pegawai Khidmat Pelanggan,Pegawai Khidmat Pelanggan,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+PO,Pembantu Operasi,Pembantu Operasi,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+PERIO,Periodontist,Periodontist,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+PHRO,Pharmacy Officer,Pharmacy Officer,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+PSC,Physiotherapist,Physiotherapist,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+PSDT,Post Basic Dental Therapist,Post Basic Dental Therapist,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+FTEQASKWHS,Principal Dental Therapist,Principal Dental Therapist,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+TDT,Trainee Dental Technologist,Trainee Dental Technologist,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+superadmin,Vendor,Vendor,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+VSp,Visiting Specialist,Visiting Specialist,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore
+jknadmin,JKN Admin,JKN Admin,http://fhir.hie.moh.gov.my/CodeSystem/practitioner-role-code-my-core,CodeSystemPractitionerRoleCodeMyCore

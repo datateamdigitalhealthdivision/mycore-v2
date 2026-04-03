@@ -1,0 +1,4 @@
+code,display,system,include_type,valueset_url,valueset_name
+716186003,No Known Allergy,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/allergy-negation-my-core,ValueSetAllergyNegationMyCore
+1631000175102,Require Allergy Assessment,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/allergy-negation-my-core,ValueSetAllergyNegationMyCore
+370860007,To Be Confirmed,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/allergy-negation-my-core,ValueSetAllergyNegationMyCore

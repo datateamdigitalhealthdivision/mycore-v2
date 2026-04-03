@@ -1,0 +1,46 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "sub-record-type-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemSubRecordType (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/sub-record-type-my-core</tt><p>Sub Record Type</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/sub-record-type-my-core",
+  "version": "2.0.0",
+  "name": "CodeSystemSubRecordTypeMyCore",
+  "title": "CodeSystemSubRecordType (MY Core)",
+  "status": "active",
+  "date": "2023-07-25T00:23:50.1094378+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Sub Record Type",
+  "compositional": false,
+  "content": "complete",
+  "count": 3,
+  "concept": [
+    {
+      "code": "sub-001",
+      "display": "Maternal Health Record"
+    },
+    {
+      "code": "sub-002",
+      "display": "Child Health Record"
+    },
+    {
+      "code": "medication-prescription",
+      "display": "Medication Prescription List"
+    }
+  ],
+  "experimental": false,
+  "caseSensitive": true
+}

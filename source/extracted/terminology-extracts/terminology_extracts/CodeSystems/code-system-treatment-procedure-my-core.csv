@@ -1,0 +1,13 @@
+code,display,definition,system_url,system_name
+10,Insertion of Suppository,,http://fhir.hie.moh.gov.my/CodeSystem/treatment-procedure-my-core,CodeSystemTreatmentProcedureMyCore
+11,Assist Delivery,,http://fhir.hie.moh.gov.my/CodeSystem/treatment-procedure-my-core,CodeSystemTreatmentProcedureMyCore
+00,Other,,http://fhir.hie.moh.gov.my/CodeSystem/treatment-procedure-my-core,CodeSystemTreatmentProcedureMyCore
+01,Dressing  / Desloughing,,http://fhir.hie.moh.gov.my/CodeSystem/treatment-procedure-my-core,CodeSystemTreatmentProcedureMyCore
+02,Bandaging,,http://fhir.hie.moh.gov.my/CodeSystem/treatment-procedure-my-core,CodeSystemTreatmentProcedureMyCore
+03,Splinting / Sprinting,,http://fhir.hie.moh.gov.my/CodeSystem/treatment-procedure-my-core,CodeSystemTreatmentProcedureMyCore
+04,Nebulizer Administer,,http://fhir.hie.moh.gov.my/CodeSystem/treatment-procedure-my-core,CodeSystemTreatmentProcedureMyCore
+05,Eye Irrigation,,http://fhir.hie.moh.gov.my/CodeSystem/treatment-procedure-my-core,CodeSystemTreatmentProcedureMyCore
+06,Ear Irrigation,,http://fhir.hie.moh.gov.my/CodeSystem/treatment-procedure-my-core,CodeSystemTreatmentProcedureMyCore
+07,Diabetic Foot Care,,http://fhir.hie.moh.gov.my/CodeSystem/treatment-procedure-my-core,CodeSystemTreatmentProcedureMyCore
+08,Directly Observed Therapy Surveillance (DOTS) Tuberculosis,,http://fhir.hie.moh.gov.my/CodeSystem/treatment-procedure-my-core,CodeSystemTreatmentProcedureMyCore
+09,Tepid Sponging,,http://fhir.hie.moh.gov.my/CodeSystem/treatment-procedure-my-core,CodeSystemTreatmentProcedureMyCore

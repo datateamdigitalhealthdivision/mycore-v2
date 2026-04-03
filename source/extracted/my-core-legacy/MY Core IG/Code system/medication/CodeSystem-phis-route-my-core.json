@@ -1,0 +1,455 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-phis-route-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemPhisRoute (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core</tt><p>Phis Route</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/phis-route-my-core",
+  "version": "1",
+  "name": "CodeSystemPhisRouteMyCore",
+  "title": "CodeSystemPhisRoute (MY Core)",
+  "status": "active",
+  "date": "2023-03-07T04:19:34.7742501+00:00",
+  "description": "Phis Route",
+  "compositional": false,
+  "content": "complete",
+  "count": 87,
+  "concept": [
+    {
+      "code": "BATH",
+      "display": "Bath",
+      "definition": "Guna sebagai sabun mandi"
+    },
+    {
+      "code": "BUCC",
+      "display": "Buccal",
+      "definition": "Buccal"
+    },
+    {
+      "code": "CHEW",
+      "display": "Chew",
+      "definition": "Dikunyah"
+    },
+    {
+      "code": "DABS",
+      "display": "Dabs",
+      "definition": "Disapu"
+    },
+    {
+      "code": "DRES",
+      "display": "for dressing",
+      "definition": "Cuci luka"
+    },
+    {
+      "code": "EARB",
+      "display": "Ear Both",
+      "definition": "Dalam Telinga Kanan dan Kiri"
+    },
+    {
+      "code": "EARL",
+      "display": "Ear Left",
+      "definition": "Titis dalam Telinga KIRI"
+    },
+    {
+      "code": "EARR",
+      "display": "Ear Right",
+      "definition": "Titis dalam Telinga KANAN"
+    },
+    {
+      "code": "EPID",
+      "display": "Epidural",
+      "definition": "Epidural"
+    },
+    {
+      "code": "ETIN",
+      "display": "ET Intubation",
+      "definition": "ET Intubation"
+    },
+    {
+      "code": "EXT",
+      "display": "External",
+      "definition": "Kegunaan luar"
+    },
+    {
+      "code": "EYEB",
+      "display": "Eye Both",
+      "definition": "Dalam Mata Kanan dan Kiri"
+    },
+    {
+      "code": "EYEL",
+      "display": "Eye Left",
+      "definition": "Dalam Mata Kiri"
+    },
+    {
+      "code": "EYER",
+      "display": "Eye Right",
+      "definition": "Dalam Mata Kanan"
+    },
+    {
+      "code": "GARG",
+      "display": "Gargle",
+      "definition": "Kumur"
+    },
+    {
+      "code": "IM",
+      "display": "Intramuscular",
+      "definition": "Intramuscular"
+    },
+    {
+      "code": "IMPL",
+      "display": "Implantation",
+      "definition": "Implant"
+    },
+    {
+      "code": "INAB",
+      "display": "Intraabdominal",
+      "definition": "Intraabdominal"
+    },
+    {
+      "code": "INAM",
+      "display": "Intraamniotic",
+      "definition": "Intraamniotic"
+    },
+    {
+      "code": "INAR",
+      "display": "Intraarterial",
+      "definition": "Intraarterial"
+    },
+    {
+      "code": "INAT",
+      "display": "Intraarticular",
+      "definition": "Intraarticular"
+    },
+    {
+      "code": "INCA",
+      "display": "Intracardiac",
+      "definition": "Intracardiac"
+    },
+    {
+      "code": "INCE",
+      "display": "Intracervical",
+      "definition": "Intracervical"
+    },
+    {
+      "code": "INCMR",
+      "display": "Intracameral",
+      "definition": "Intracameral"
+    },
+    {
+      "code": "INCT",
+      "display": "Intracavity",
+      "definition": "Intracavity"
+    },
+    {
+      "code": "INCV",
+      "display": "Intracavernosal",
+      "definition": "Intracavernosal"
+    },
+    {
+      "code": "INDE",
+      "display": "Intradermal",
+      "definition": "Intradermal"
+    },
+    {
+      "code": "INF",
+      "display": "IV Infusion",
+      "definition": "IV Infusion"
+    },
+    {
+      "code": "INFI",
+      "display": "Infiltration",
+      "definition": "Infiltration"
+    },
+    {
+      "code": "INH",
+      "display": "Inhalation",
+      "definition": "Disedut"
+    },
+    {
+      "code": "INLE",
+      "display": "Intralesion",
+      "definition": "Intralesion"
+    },
+    {
+      "code": "INOC",
+      "display": "Intraocular",
+      "definition": "Intraocular"
+    },
+    {
+      "code": "INOS",
+      "display": "Intraosseous",
+      "definition": "Intraosseous"
+    },
+    {
+      "code": "INPL",
+      "display": "Intrapleural",
+      "definition": "Intrapleural"
+    },
+    {
+      "code": "INSY",
+      "display": "Intrasynovial",
+      "definition": "Intrasynovial"
+    },
+    {
+      "code": "INTC",
+      "display": "Intratracheal",
+      "definition": "Intratracheal"
+    },
+    {
+      "code": "INTE",
+      "display": "Intrathecal",
+      "definition": "Intrathecal"
+    },
+    {
+      "code": "INTM",
+      "display": "Intratumour",
+      "definition": "Intratumour"
+    },
+    {
+      "code": "INTO",
+      "display": "Intrathoracic",
+      "definition": "Intrathoracic"
+    },
+    {
+      "code": "INUR",
+      "display": "Intraurethral",
+      "definition": "Intraurethral"
+    },
+    {
+      "code": "INUT",
+      "display": "Intrauterine",
+      "definition": "Intrauterine"
+    },
+    {
+      "code": "INVC",
+      "display": "Intravesical",
+      "definition": "Intravesical"
+    },
+    {
+      "code": "INVG",
+      "display": "Intravaginal",
+      "definition": "Dalam vagina"
+    },
+    {
+      "code": "INVT",
+      "display": "Intravitreal",
+      "definition": "Intravitreal"
+    },
+    {
+      "code": "INVTR",
+      "display": "Intraventricular",
+      "definition": "Intraventricular"
+    },
+    {
+      "code": "IP",
+      "display": "Intraperitoneal",
+      "definition": "Intraperitoneal"
+    },
+    {
+      "code": "IRRI",
+      "display": "Irrigation",
+      "definition": "Irrigation"
+    },
+    {
+      "code": "IV",
+      "display": "IV",
+      "definition": "Intravenous"
+    },
+    {
+      "code": "IVB",
+      "display": "IV Bolus",
+      "definition": "Intravenous Bolus"
+    },
+    {
+      "code": "IVSB",
+      "display": "IV Slow Bolus",
+      "definition": "IV Slow Bolus"
+    },
+    {
+      "code": "LAA",
+      "display": "LA-Arm",
+      "definition": "Sapu pada lengan"
+    },
+    {
+      "code": "LABN",
+      "display": "LA-baby's navel",
+      "definition": "Sapu pada pusat bayi"
+    },
+    {
+      "code": "LAEB",
+      "display": "LA-Entire body",
+      "definition": "Sapu pada seluruh badan"
+    },
+    {
+      "code": "LAF",
+      "display": "LA-Lips",
+      "definition": "Sapu pada bibir"
+    },
+    {
+      "code": "LAFC",
+      "display": "LA-Face",
+      "definition": "Sapu pada muka"
+    },
+    {
+      "code": "LAH",
+      "display": "LA-Hand",
+      "definition": "Sapu pada tangan"
+    },
+    {
+      "code": "LAL",
+      "display": "LA-Leg",
+      "definition": "Sapu pada kaki"
+    },
+    {
+      "code": "LAN",
+      "display": "LA-Neck",
+      "definition": "Sapu pada leher"
+    },
+    {
+      "code": "LANAIL",
+      "display": "LA-Nail",
+      "definition": "Sapu pada kuku"
+    },
+    {
+      "code": "LASC",
+      "display": "LA-scalp",
+      "definition": "Sapu pada kulit kepala"
+    },
+    {
+      "code": "LASF",
+      "display": "LA-Fold",
+      "definition": "Sapu diantara pelipat"
+    },
+    {
+      "code": "LAWS",
+      "display": "LA-webspace",
+      "definition": "Sapu di celah jari kaki"
+    },
+    {
+      "code": "MOTH",
+      "display": "Mouth/Throat",
+      "definition": "Mouth/Throat"
+    },
+    {
+      "code": "NA",
+      "display": "Not applicable",
+      "definition": "Tidak Berkenaan"
+    },
+    {
+      "code": "NASL",
+      "display": "Intranasal",
+      "definition": "Dalam hidung"
+    },
+    {
+      "code": "NASLL",
+      "display": "Intranasal Left",
+      "definition": "Dalam hidung KIRI"
+    },
+    {
+      "code": "NASLR",
+      "display": "Intranasal Right",
+      "definition": "Dalam hidung KANAN"
+    },
+    {
+      "code": "NEB",
+      "display": "Nebuliser",
+      "definition": "Nebuliser"
+    },
+    {
+      "code": "NG",
+      "display": "Nasogastric",
+      "definition": "Nasogastric"
+    },
+    {
+      "code": "ORAL",
+      "display": "Oral",
+      "definition": "Diambil"
+    },
+    {
+      "code": "ORALL",
+      "display": "Oral",
+      "definition": "Diminum"
+    },
+    {
+      "code": "PERC",
+      "display": "Percutaneous",
+      "definition": "Percutaneous"
+    },
+    {
+      "code": "PERF",
+      "display": "Perfusion",
+      "definition": "Perfusion"
+    },
+    {
+      "code": "PHOT",
+      "display": "Photopheresis",
+      "definition": "Photopheresis"
+    },
+    {
+      "code": "REAP",
+      "display": "Regional Block",
+      "definition": "Regional Block"
+    },
+    {
+      "code": "RECT",
+      "display": "Rectal",
+      "definition": "Dalam dubur"
+    },
+    {
+      "code": "SBCJ",
+      "display": "Subconjunctival",
+      "definition": "Sapu dlm kelopak mata"
+    },
+    {
+      "code": "SC",
+      "display": "Subcutaneous",
+      "definition": "Suntik dibawah kulit"
+    },
+    {
+      "code": "SCI",
+      "display": "Subcutaneous infusion",
+      "definition": "Subcutaneous infusion"
+    },
+    {
+      "code": "SHAM",
+      "display": "Shampoo",
+      "definition": "Syampu"
+    },
+    {
+      "code": "SOBT",
+      "display": "Soak",
+      "definition": "Rendam"
+    },
+    {
+      "code": "SUBL",
+      "display": "Sublingual",
+      "definition": "Letak bawah lidah"
+    },
+    {
+      "code": "SUBM",
+      "display": "Submucosal",
+      "definition": "Disapu dalam mulut"
+    },
+    {
+      "code": "SUCK",
+      "display": "Suck",
+      "definition": "Dihisap"
+    },
+    {
+      "code": "TDER",
+      "display": "Transdermal",
+      "definition": "Tampal pada kulit"
+    },
+    {
+      "code": "TOPI",
+      "display": "LA",
+      "definition": "Sapu pada tempat yg berkenaan"
+    },
+    {
+      "code": "WASH",
+      "display": "Wash",
+      "definition": "Cuci"
+    }
+  ]
+}

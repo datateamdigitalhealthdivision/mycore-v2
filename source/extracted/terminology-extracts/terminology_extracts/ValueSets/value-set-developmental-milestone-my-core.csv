@@ -1,0 +1,3 @@
+code,display,system,include_type,valueset_url,valueset_name
+*,Include all concepts from system,http://fhir.hie.moh.gov.my/CodeSystem/developmental-milestone-my-core,include-all,http://fhir.hie.moh.gov.my/ValueSet/developmental-milestone-my-core,ValueSetDevelopmentalMilestoneMyCore
+397669002,Age,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/developmental-milestone-my-core,ValueSetDevelopmentalMilestoneMyCore

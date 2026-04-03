@@ -1,0 +1,497 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-lab-method-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemLabMethod (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core</tt><p>Malaysia Lab method</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/lab-method-my-core",
+  "version": "1.0.0",
+  "name": "CodeSystemLabMethodMyCore",
+  "title": "CodeSystemLabMethod (MY Core)",
+  "status": "active",
+  "date": "2023-03-30T05:43:27.7205555+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Malaysia Lab method",
+  "compositional": false,
+  "content": "complete",
+  "count": 93,
+  "concept": [
+    {
+      "code": "00",
+      "display": "No Information",
+      "definition": "No Information"
+    },
+    {
+      "code": "01",
+      "display": "Immune Stain",
+      "definition": "Immune Stain"
+    },
+    {
+      "code": "02",
+      "display": "Other stain",
+      "definition": "Other stain"
+    },
+    {
+      "code": "03",
+      "display": "Masson Trichrome",
+      "definition": "Masson Trichrome"
+    },
+    {
+      "code": "04",
+      "display": "Alcian Blue PAS",
+      "definition": "Alcian Blue PAS"
+    },
+    {
+      "code": "05",
+      "display": "PAS",
+      "definition": "PAS"
+    },
+    {
+      "code": "06",
+      "display": "PAS+D",
+      "definition": "PAS+D"
+    },
+    {
+      "code": "07",
+      "display": "Mucincarmine",
+      "definition": "Mucincarmine"
+    },
+    {
+      "code": "08",
+      "display": "AFB",
+      "definition": "AFB"
+    },
+    {
+      "code": "09",
+      "display": "Wade Fite",
+      "definition": "Wade Fite"
+    },
+    {
+      "code": "10",
+      "display": "Giemsa",
+      "definition": "Giemsa"
+    },
+    {
+      "code": "11",
+      "display": "Gram Stain",
+      "definition": "Gram Stain"
+    },
+    {
+      "code": "12",
+      "display": "Luxol Fast Blue",
+      "definition": "Luxol Fast Blue"
+    },
+    {
+      "code": "13",
+      "display": "Methanamine",
+      "definition": "Methanamine"
+    },
+    {
+      "code": "14",
+      "display": "Van Gieson",
+      "definition": "Van Gieson"
+    },
+    {
+      "code": "15",
+      "display": "Verhoeff-Van Gieson",
+      "definition": "Verhoeff-Van Gieson"
+    },
+    {
+      "code": "16",
+      "display": "Reticulin",
+      "definition": "Reticulin"
+    },
+    {
+      "code": "17",
+      "display": "Von Kossa stain",
+      "definition": "Von Kossa stain"
+    },
+    {
+      "code": "18",
+      "display": "Fouchet stain",
+      "definition": "Fouchet stain"
+    },
+    {
+      "code": "19",
+      "display": "Congo red stain",
+      "definition": "Congo red stain"
+    },
+    {
+      "code": "20",
+      "display": "Oil red O stain",
+      "definition": "Oil red O stain"
+    },
+    {
+      "code": "21",
+      "display": "Masson Fontana",
+      "definition": "Masson Fontana"
+    },
+    {
+      "code": "22",
+      "display": "Rhodamine stain",
+      "definition": "Rhodamine stain"
+    },
+    {
+      "code": "23",
+      "display": "Bielschowsky stain",
+      "definition": "Bielschowsky stain"
+    },
+    {
+      "code": "24",
+      "display": "PTAH",
+      "definition": "PTAH"
+    },
+    {
+      "code": "25",
+      "display": "Grimelius",
+      "definition": "Grimelius"
+    },
+    {
+      "code": "26",
+      "display": "Touludine Blue",
+      "definition": "Touludine Blue"
+    },
+    {
+      "code": "27",
+      "display": "Alcian Blue",
+      "definition": "Alcian Blue"
+    },
+    {
+      "code": "28",
+      "display": "Melanin Bleach",
+      "definition": "Melanin Bleach"
+    },
+    {
+      "code": "29",
+      "display": "Sudan IV",
+      "definition": "Sudan IV"
+    },
+    {
+      "code": "30",
+      "display": "Crystal Violet",
+      "definition": "Crystal Violet"
+    },
+    {
+      "code": "31",
+      "display": "Molgen",
+      "definition": "Molgen"
+    },
+    {
+      "code": "32",
+      "display": "FISH",
+      "definition": "FISH"
+    },
+    {
+      "code": "33",
+      "display": "Wet preparation",
+      "definition": "Wet preparation"
+    },
+    {
+      "code": "34",
+      "display": "Gram stain",
+      "definition": "Gram stain"
+    },
+    {
+      "code": "35",
+      "display": "Manual",
+      "definition": "Manual"
+    },
+    {
+      "code": "36",
+      "display": "Latex agglutination",
+      "definition": "Latex agglutination"
+    },
+    {
+      "code": "37",
+      "display": "Rapid ICT",
+      "definition": "Rapid ICT"
+    },
+    {
+      "code": "38",
+      "display": "Culture",
+      "definition": "Culture"
+    },
+    {
+      "code": "39",
+      "display": "Agar diffusion",
+      "definition": "Agar diffusion"
+    },
+    {
+      "code": "40",
+      "display": "Gradient strip",
+      "definition": "Gradient strip"
+    },
+    {
+      "code": "41",
+      "display": "MIC",
+      "definition": "MIC"
+    },
+    {
+      "code": "42",
+      "display": "Gradient strip ARD",
+      "definition": "Gradient strip ARD"
+    },
+    {
+      "code": "43",
+      "display": "PCR",
+      "definition": "PCR"
+    },
+    {
+      "code": "44",
+      "display": "Probe.amp.tar",
+      "definition": "Probe.amp.tar"
+    },
+    {
+      "code": "45",
+      "display": "Molecular",
+      "definition": "Molecular"
+    },
+    {
+      "code": "46",
+      "display": "Latex agglutination",
+      "definition": "Latex agglutination"
+    },
+    {
+      "code": "47",
+      "display": "ZN Stain",
+      "definition": "ZN Stain"
+    },
+    {
+      "code": "48",
+      "display": "IF Stain",
+      "definition": "IF Stain"
+    },
+    {
+      "code": "49",
+      "display": "Modified ZN",
+      "definition": "Modified ZN"
+    },
+    {
+      "code": "50",
+      "display": "IF",
+      "definition": "IF"
+    },
+    {
+      "code": "51",
+      "display": "IA",
+      "definition": "IA"
+    },
+    {
+      "code": "52",
+      "display": "ICT(Immunochromatographic)",
+      "definition": "ICT(Immunochromatographic)"
+    },
+    {
+      "code": "53",
+      "display": "Floculation",
+      "definition": "Floculation"
+    },
+    {
+      "code": "54",
+      "display": "Agglutination",
+      "definition": "Agglutination"
+    },
+    {
+      "code": "55",
+      "display": "Agglutination (titre)",
+      "definition": "Agglutination (titre)"
+    },
+    {
+      "code": "56",
+      "display": "Not Mention",
+      "definition": "Not Mention"
+    },
+    {
+      "code": "57",
+      "display": "Not mention (titre)",
+      "definition": "Not mention (titre)"
+    },
+    {
+      "code": "58",
+      "display": "IIP",
+      "definition": "IIP"
+    },
+    {
+      "code": "59",
+      "display": "KOH preparation",
+      "definition": "KOH preparation"
+    },
+    {
+      "code": "60",
+      "display": "India ink preparation",
+      "definition": "India ink preparation"
+    },
+    {
+      "code": "61",
+      "display": "LPCB stain",
+      "definition": "LPCB stain"
+    },
+    {
+      "code": "62",
+      "display": "wet preparation",
+      "definition": "wet preparation"
+    },
+    {
+      "code": "63",
+      "display": "Environmental culture",
+      "definition": "Environmental culture"
+    },
+    {
+      "code": "64",
+      "display": "Colorzyme",
+      "definition": "Colorzyme"
+    },
+    {
+      "code": "65",
+      "display": "Elisa",
+      "definition": "Elisa"
+    },
+    {
+      "code": "66",
+      "display": "ICT",
+      "definition": "ICT"
+    },
+    {
+      "code": "67",
+      "display": "EIA/ICT",
+      "definition": "EIA/ICT"
+    },
+    {
+      "code": "68",
+      "display": "Immunoblot",
+      "definition": "Immunoblot"
+    },
+    {
+      "code": "69",
+      "display": "FEI",
+      "definition": "FEI"
+    },
+    {
+      "code": "70",
+      "display": "IB",
+      "definition": "IB"
+    },
+    {
+      "code": "71",
+      "display": "Flow cytometry",
+      "definition": "Flow cytometry"
+    },
+    {
+      "code": "72",
+      "display": "RAST",
+      "definition": "RAST"
+    },
+    {
+      "code": "73",
+      "display": "LA",
+      "definition": "LA"
+    },
+    {
+      "code": "74",
+      "display": "Nephelometry",
+      "definition": "Nephelometry"
+    },
+    {
+      "code": "75",
+      "display": "FC",
+      "definition": "FC"
+    },
+    {
+      "code": "76",
+      "display": "EM",
+      "definition": "EM"
+    },
+    {
+      "code": "77",
+      "display": "IA rapid",
+      "definition": "IA rapid"
+    },
+    {
+      "code": "78",
+      "display": "IFAT",
+      "definition": "IFAT"
+    },
+    {
+      "code": "79",
+      "display": "Western blot",
+      "definition": "Western blot"
+    },
+    {
+      "code": "80",
+      "display": "sequencing",
+      "definition": "sequencing"
+    },
+    {
+      "code": "81",
+      "display": "RT-PCR",
+      "definition": "RT-PCR"
+    },
+    {
+      "code": "82",
+      "display": "Probe.amp.tar",
+      "definition": "Probe.amp.tar"
+    },
+    {
+      "code": "83",
+      "display": "Serology",
+      "definition": "Serology"
+    },
+    {
+      "code": "84",
+      "display": "Isolation",
+      "definition": "Isolation"
+    },
+    {
+      "code": "85",
+      "display": "Giemsa stain",
+      "definition": "Giemsa stain"
+    },
+    {
+      "code": "86",
+      "display": "DMSO stain/Gram chromotrope stain",
+      "definition": "DMSO stain/Gram chromotrope stain"
+    },
+    {
+      "code": "87",
+      "display": "Wet Mount",
+      "definition": "Wet Mount"
+    },
+    {
+      "code": "88",
+      "display": "Direct smear",
+      "definition": "Direct smear"
+    },
+    {
+      "code": "89",
+      "display": "Fecal concentration",
+      "definition": "Fecal concentration"
+    },
+    {
+      "code": "90",
+      "display": "Trichrome stain",
+      "definition": "Trichrome stain"
+    },
+    {
+      "code": "91",
+      "display": "Multiplex PCR",
+      "definition": "Multiplex PCR"
+    },
+    {
+      "code": "92",
+      "display": "Seminested PCR",
+      "definition": "Seminested PCR"
+    }
+  ]
+}

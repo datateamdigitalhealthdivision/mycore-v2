@@ -1,0 +1,6 @@
+code,display,definition,system_url,system_name
+s01,Normal,Normal,http://fhir.hie.moh.gov.my/CodeSystem/outcome-stress-dass-21-my-core,CodeSystemOutcomeStressDass21MyCore
+s02,"Mild Stress, please consult your nearest healthcare facility for further information.","Mild Stress, please consult your nearest healthcare facility for further information.",http://fhir.hie.moh.gov.my/CodeSystem/outcome-stress-dass-21-my-core,CodeSystemOutcomeStressDass21MyCore
+s03,"Moderate Stress, please consult your nearest healthcare facility for further information.","Moderate Stress, please consult your nearest healthcare facility for further information.",http://fhir.hie.moh.gov.my/CodeSystem/outcome-stress-dass-21-my-core,CodeSystemOutcomeStressDass21MyCore
+s04,"Severe Stress, please consult your nearest healthcare facility for further information.","Severe Stress, please consult your nearest healthcare facility for further information.",http://fhir.hie.moh.gov.my/CodeSystem/outcome-stress-dass-21-my-core,CodeSystemOutcomeStressDass21MyCore
+s05,"Extremely Severe Stress, please seek medical attention from your nearest healthcare facility.","Extremely Severe Stress, please seek medical attention from your nearest healthcare facility.",http://fhir.hie.moh.gov.my/CodeSystem/outcome-stress-dass-21-my-core,CodeSystemOutcomeStressDass21MyCore

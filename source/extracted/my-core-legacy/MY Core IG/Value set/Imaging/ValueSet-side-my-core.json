@@ -1,0 +1,36 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-side-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetSide (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/ValueSet/side-my-core</tt><p>SnomedCT side</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/side-my-core",
+  "name": "ValueSetSideMyCore",
+  "title": "ValueSetSide (MY Core)",
+  "status": "active",
+  "date": "2023-06-08T03:08:38.5864399+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "description": "SnomedCT side",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "51440002",
+            "display": "Bilateral"
+          },
+          {
+            "code": "7771000",
+            "display": "Left"
+          },
+          {
+            "code": "24028007",
+            "display": "Right"
+          }
+        ]
+      }
+    ]
+  }
+}

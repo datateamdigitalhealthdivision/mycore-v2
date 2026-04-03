@@ -1,0 +1,53 @@
+code,display,definition,system_url,system_name
+ATM,ANGKATAN TENTERA MALAYSIA,ANGKATAN TENTERA MALAYSIA,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+BMU,REGIONAL BMU,REGIONAL BMU,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+CAC,COVID-19 ASSESMENT CENTER,COVID-19 ASSESMENT CENTER,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+CLB,KLINIK BERGERAK,KLINIK BERGERAK,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+CLC,KLINIK KOMUNITI,KLINIK KOMUNITI,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+CLD,KLINIK DESA,KLINIK DESA,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+CLI,KLINIK KESIHATAN,KLINIK KESIHATAN,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+CPR,CRISIS PPREPAREDNESS AND RESPONSE CENTER,CRISIS PPREPAREDNESS AND RESPONSE CENTER,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+CWC,KLINIK KESIHATAN IBU DAN ANAK,KLINIK KESIHATAN IBU DAN ANAK,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+HEX,HOSPITAL EXTENSIONS,HOSPITAL EXTENSIONS,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+IMR,INSTITUTE MEDICAL RESEARCH,INSTITUTE MEDICAL RESEARCH,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+INS,SPECIAL MEDICAL INSTITUTION (KKM),SPECIAL MEDICAL INSTITUTION (KKM),http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+JKN,JABATAN KESIHATAN NEGERI,JABATAN KESIHATAN NEGERI,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+K1M,KLINIK 1MALAYSIA,KLINIK 1MALAYSIA,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+KOL,KOLEJ,KOLEJ,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+KP,KLINIK PERGIGIAN,KLINIK PERGIGIAN,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+KPH,KLINIK PERGIGIAN DI HOSPITAL,KLINIK PERGIGIAN DI HOSPITAL,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+KPI,KLINIK PERGIGIAN DI INSTITUT,KLINIK PERGIGIAN DI INSTITUT,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+KPKK,KLINIK PERGIGIAN DI KLINIK KESIHATAN,KLINIK PERGIGIAN DI KLINIK KESIHATAN,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+KPKKIA,KLINIK PERGIGIAN DI KLINIK KESIHATAN IBU DAN ANAK,KLINIK PERGIGIAN DI KLINIK KESIHATAN IBU DAN ANAK,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+KPKKUTC,KLINIK PERGIGIAN DI KLINIK KESIHATAN UTC,KLINIK PERGIGIAN DI KLINIK KESIHATAN UTC,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+KPRTC,KLINIK PERGIGIAN DI KLINIK KOMUNITI,KLINIK PERGIGIAN DI KLINIK KOMUNITI,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+KPS,KLINIK PERGIGIAN SEKOLAH,KLINIK PERGIGIAN SEKOLAH,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+KPUTC,KLINIK PERGIGIAN UTC,KLINIK PERGIGIAN UTC,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+MJH,MAJOR HOSPITAL,MAJOR HOSPITAL,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+MJS,MAJOR SPECIALIST HOSPITAL (KKM),MAJOR SPECIALIST HOSPITAL (KKM),http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+MKA,MAKMAL KESIHATAN AWAN,MAKMAL KESIHATAN AWAN,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+MNS,MINOR SPECIALIST HOSPITAL (KKM),MINOR SPECIALIST HOSPITAL (KKM),http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+MOH,MINISTRY OF HEALTH,MINISTRY OF HEALTH,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+MOS,MOSTI,MOSTI,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+NOS,NON SPECIALIST HOSPITAL (KKM),NON SPECIALIST HOSPITAL (KKM),http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+NWH,NEW HOSPITAL,NEW HOSPITAL,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+OTH,OTHERS,OTHERS,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+PHP,PRIVATE HOSPITAL,PRIVATE HOSPITAL,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+PK,PEJABAT KESIHATAN,PEJABAT KESIHATAN,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+PKB,PEJABAT KESIHATAN BAHAGIAN,PEJABAT KESIHATAN BAHAGIAN,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+PKD,PEJABAT KESIHATAN DAERAH,PEJABAT KESIHATAN DAERAH,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+PKK,PEJABAT KESIHATAN KAWASAN,PEJABAT KESIHATAN KAWASAN,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+PKP,PEJABAT KESIHATAN PERGIGIAN,PEJABAT KESIHATAN PERGIGIAN,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+PKPD,PEJABAT KESIHATAN PERGIGIAN DAERAH,PEJABAT KESIHATAN PERGIGIAN DAERAH,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+PLB,PRIVATE LAB,PRIVATE LAB,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+PMA,PINTU MASUK ANTARABANGSA,PINTU MASUK ANTARABANGSA,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+PPB,PEJABAT PERGIGIAN BAHAGIAN,PEJABAT PERGIGIAN BAHAGIAN,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+PPH,PEJABAT PERGIGIAN HOSPITAL,PEJABAT PERGIGIAN HOSPITAL,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+PPK,PEJABAT PERGIGIAN KAWASAN,PEJABAT PERGIGIAN KAWASAN,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+PPS,PEJABAT SUB SEKTOR,PEJABAT SUB SEKTOR,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+PTPKNP,PEJABAT TIMBALAN PENGARAH KESIHATAN NEGERI (PERGIGIAN),PEJABAT TIMBALAN PENGARAH KESIHATAN NEGERI (PERGIGIAN),http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+QRC,QUARANTINE CENTER,QUARANTINE CENTER,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+RPH,REPLACEMENT HOSPITAL,REPLACEMENT HOSPITAL,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+SPI,SPECIAL INSTITUTION (KKM),SPECIAL INSTITUTION (KKM),http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+STH,STATE HOSPITAL (KKM),STATE HOSPITAL (KKM),http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore
+UNI,UNIVERSITY LAB,UNIVERSITY LAB,http://fhir.hie.moh.gov.my/CodeSystem/organization-category-my-core,CodeSystemOrganizationCategoryMyCore

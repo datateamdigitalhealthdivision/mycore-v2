@@ -1,0 +1,139 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-maternal-05",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-05",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/bfb81ffe-637d-4b3f-befa-f7a1546ed9f8"
+    },
+    "authored": "2022-11-16T03:56:06.596Z",
+    "item": [
+        {
+          "linkId": "maternal-5.1",
+          "text": "Kumpulan darah & Rhesus",
+          "item": [
+            {
+              "linkId": "maternal-5.1.1",
+              "text": "Tarikh diambil",
+              "answer": [
+                {
+                  "valueDateTime": "2022-11-06T06:21:30.609Z"
+                }
+              ]
+            },
+            {
+              "linkId": "maternal-5.1.2",
+              "text": "Keputusan",
+              "answer": [
+                {
+                  "valueString": "Negatif"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-5.2",
+          "text": "Syphilis",
+          "item": [
+            {
+              "linkId": "maternal-5.2.1",
+              "text": "Tarikh diambil",
+              "answer": [
+                {
+                  "valueDateTime": "2022-11-06T06:21:52.150Z"
+                }
+              ]
+            },
+            {
+              "linkId": "maternal-5.2.2",
+              "text": "Keputusan",
+              "answer": [
+                {
+                  "valueString": "Negatif"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-5.3",
+          "text": "HIV",
+          "item": [
+            {
+              "linkId": "maternal-5.3.1",
+              "text": "Tarikh diambil",
+              "answer": [
+                {
+                  "valueDateTime": "2022-11-06T06:22:19.917Z"
+                }
+              ]
+            },
+            {
+              "linkId": "maternal-5.3.2",
+              "text": "Keputusan",
+              "answer": [
+                {
+                  "valueString": "Negatif"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-5.4",
+          "text": "Hepatitis B",
+          "item": [
+            {
+              "linkId": "maternal-5.4.1",
+              "text": "Tarikh diambil",
+              "answer": [
+                {
+                  "valueDateTime": "2022-11-06T06:22:33.169Z"
+                }
+              ]
+            },
+            {
+              "linkId": "maternal-5.4.2",
+              "text": "Keputusan",
+              "answer": [
+                {
+                  "valueString": "Negatif"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-5.5",
+          "text": "Malaria (BFMP)",
+          "item": [
+            {
+              "linkId": "maternal-5.5.1",
+              "text": "Tarikh diambil",
+              "answer": [
+                {
+                  "valueDateTime": "2022-11-06T06:22:42.997Z"
+                }
+              ]
+            },
+            {
+              "linkId": "maternal-5.5.2",
+              "text": "Keputusan",
+              "answer": [
+                {
+                  "valueString": "Negatif"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+    

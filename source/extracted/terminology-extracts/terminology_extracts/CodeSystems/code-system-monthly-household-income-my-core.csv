@@ -1,0 +1,11 @@
+code,display,definition,system_url,system_name
+00,No Information,No Information,http://fhir.hie.moh.gov.my/CodeSystem/monthly-household-income-my-core,CodeSystemMonthlyHouseholdIncomeMyCore
+01,No Income,No Income,http://fhir.hie.moh.gov.my/CodeSystem/monthly-household-income-my-core,CodeSystemMonthlyHouseholdIncomeMyCore
+02,< RM 500,< RM 500,http://fhir.hie.moh.gov.my/CodeSystem/monthly-household-income-my-core,CodeSystemMonthlyHouseholdIncomeMyCore
+03,RM 500 - RM 1000,RM 500 - RM 1000,http://fhir.hie.moh.gov.my/CodeSystem/monthly-household-income-my-core,CodeSystemMonthlyHouseholdIncomeMyCore
+04,RM 1001 - RM 1500,RM 1001 - RM 1500,http://fhir.hie.moh.gov.my/CodeSystem/monthly-household-income-my-core,CodeSystemMonthlyHouseholdIncomeMyCore
+05,RM 1501 - RM 3000,RM 1501 - RM 3000,http://fhir.hie.moh.gov.my/CodeSystem/monthly-household-income-my-core,CodeSystemMonthlyHouseholdIncomeMyCore
+06,RM 3001 - RM 5000,RM 3001 - RM 5000,http://fhir.hie.moh.gov.my/CodeSystem/monthly-household-income-my-core,CodeSystemMonthlyHouseholdIncomeMyCore
+07,RM 5001 - RM 10000,RM 5001 - RM 10000,http://fhir.hie.moh.gov.my/CodeSystem/monthly-household-income-my-core,CodeSystemMonthlyHouseholdIncomeMyCore
+08,RM 10000 - RM 15000,RM 10000 - RM 15000,http://fhir.hie.moh.gov.my/CodeSystem/monthly-household-income-my-core,CodeSystemMonthlyHouseholdIncomeMyCore
+09,> RM 15000,> RM 15000,http://fhir.hie.moh.gov.my/CodeSystem/monthly-household-income-my-core,CodeSystemMonthlyHouseholdIncomeMyCore

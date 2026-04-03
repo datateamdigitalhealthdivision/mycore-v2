@@ -1,0 +1,171 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "medicationknowledge-setting-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/medicationknowledge-setting-my-core",
+  "name": "ExtensionMedicationKnowledgeSettingMyCore",
+  "title": "ExtensionMedicationKnowledgeSetting (MY Core)",
+  "status": "active",
+  "date": "2023-06-08T03:08:38.5864399+00:00",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "MedicationKnowledge"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 0
+      },
+      {
+        "id": "Extension.extension:splitDose",
+        "path": "Extension.extension",
+        "sliceName": "splitDose",
+        "min": 0
+      },
+      {
+        "id": "Extension.extension:splitDose.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "splitDose"
+      },
+      {
+        "id": "Extension.extension:splitDose.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:taperDown",
+        "path": "Extension.extension",
+        "sliceName": "taperDown",
+        "min": 0
+      },
+      {
+        "id": "Extension.extension:taperDown.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "taperDown"
+      },
+      {
+        "id": "Extension.extension:taperDown.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:taperUp",
+        "path": "Extension.extension",
+        "sliceName": "taperUp",
+        "min": 0
+      },
+      {
+        "id": "Extension.extension:taperUp.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "taperUp"
+      },
+      {
+        "id": "Extension.extension:taperUp.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:fractionDose",
+        "path": "Extension.extension",
+        "sliceName": "fractionDose",
+        "min": 0
+      },
+      {
+        "id": "Extension.extension:fractionDose.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "fractionDose"
+      },
+      {
+        "id": "Extension.extension:fractionDose.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:fractionDoseRoundUp",
+        "path": "Extension.extension",
+        "sliceName": "fractionDoseRoundUp",
+        "min": 0
+      },
+      {
+        "id": "Extension.extension:fractionDoseRoundUp.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "fractionDoseRoundUp"
+      },
+      {
+        "id": "Extension.extension:fractionDoseRoundUp.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:allowDuplicateOrder",
+        "path": "Extension.extension",
+        "sliceName": "allowDuplicateOrder",
+        "min": 0
+      },
+      {
+        "id": "Extension.extension:allowDuplicateOrder.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "allowDuplicateOrder"
+      },
+      {
+        "id": "Extension.extension:allowDuplicateOrder.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/medicationknowledge-setting-my-core"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "max": "0"
+      }
+    ]
+  },
+  "version": "2.0.0",
+  "experimental": false
+}

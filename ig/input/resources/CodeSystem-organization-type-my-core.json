@@ -1,0 +1,57 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "organization-type-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemOrganizationType (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/organization-type-my-core</tt><p>type of Health Care organization Malaysia</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/organization-type-my-core",
+  "version": "2.0.0",
+  "name": "CodeSystemOrganizationTypeMyCore",
+  "title": "CodeSystemOrganizationType (MY Core)",
+  "status": "active",
+  "date": "2023-01-12T21:13:03.0089063+00:00",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "Type of Health Care organization Malaysia",
+  "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/organization-type-my-core",
+  "compositional": false,
+  "content": "complete",
+  "count": 5,
+  "concept": [
+    {
+      "code": "1",
+      "display": "Government",
+      "definition": "Government"
+    },
+    {
+      "code": "2",
+      "display": "Private",
+      "definition": "Private"
+    },
+    {
+      "code": "3",
+      "display": "Non-Governmental Organization",
+      "definition": "Non-Governmental Organization"
+    },
+    {
+      "code": "4",
+      "display": "Government (KKM) under construction",
+      "definition": "Government (KKM) under construction"
+    },
+    {
+      "code": "5",
+      "display": "Source System",
+      "definition": "Source System"
+    }
+  ],
+  "experimental": false,
+  "caseSensitive": true
+}

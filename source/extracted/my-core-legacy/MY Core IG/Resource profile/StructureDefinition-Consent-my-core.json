@@ -1,0 +1,29 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Consent-my-core",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2022-04-24T02:14:12.6110066+00:00"
+  },
+  "url": "http://fhir.hie.moh.gov.my/StructureDefinition/Consent-my-core",
+  "version": "1.0",
+  "name": "ConsentMyCore",
+  "title": "Consent (MY Core)",
+  "status": "active",
+  "date": "2022-04-24T02:15:16.969155+00:00",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Consent",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Consent",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Consent.patient",
+        "path": "Consent.patient",
+        "min": 1
+      }
+    ]
+  }
+}

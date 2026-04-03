@@ -1,0 +1,13 @@
+code,display,system,include_type,valueset_url,valueset_name
+g6w,Up to 6 weeks of age,http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-gross-motor-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-gross-motor-my-core,ValueSetDevMilestoneGrossMotorMyCore
+g3m,Up to 3 months of age,http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-gross-motor-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-gross-motor-my-core,ValueSetDevMilestoneGrossMotorMyCore
+g6m,Up to 6 months of age,http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-gross-motor-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-gross-motor-my-core,ValueSetDevMilestoneGrossMotorMyCore
+g9m,Up to 9 months of age,http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-gross-motor-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-gross-motor-my-core,ValueSetDevMilestoneGrossMotorMyCore
+g12m,Up to 12 months of age,http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-gross-motor-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-gross-motor-my-core,ValueSetDevMilestoneGrossMotorMyCore
+g15m,Up to 15 months of age,http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-gross-motor-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-gross-motor-my-core,ValueSetDevMilestoneGrossMotorMyCore
+g18m,Up to 18 months of age,http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-gross-motor-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-gross-motor-my-core,ValueSetDevMilestoneGrossMotorMyCore
+g2y,Up to 2 years of age,http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-gross-motor-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-gross-motor-my-core,ValueSetDevMilestoneGrossMotorMyCore
+g2.5y,Up to 2.5 years of age,http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-gross-motor-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-gross-motor-my-core,ValueSetDevMilestoneGrossMotorMyCore
+g3y,Up to 3 years of age,http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-gross-motor-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-gross-motor-my-core,ValueSetDevMilestoneGrossMotorMyCore
+g4y,Up to 4 years of age,http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-gross-motor-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-gross-motor-my-core,ValueSetDevMilestoneGrossMotorMyCore
+g5y,Up to 5 years of age,http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-gross-motor-my-core,explicit,http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-gross-motor-my-core,ValueSetDevMilestoneGrossMotorMyCore

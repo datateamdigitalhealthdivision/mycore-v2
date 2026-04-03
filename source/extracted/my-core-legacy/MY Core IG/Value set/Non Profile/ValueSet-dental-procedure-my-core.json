@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-dental-procedure-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetDentalProcedure (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/ValueSet/dental-procedure-my-core</tt><p>Dental Procedure</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/dental-procedure-my-core",
+  "name": "ValueSetDentalProcedureMyCore",
+  "title": "ValueSetDentalProcedure (MY Core)",
+  "status": "active",
+  "date": "2023-01-12T07:17:10.431612+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Dental Procedure",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/dental-procedure-my-core"
+      }
+    ]
+  }
+}

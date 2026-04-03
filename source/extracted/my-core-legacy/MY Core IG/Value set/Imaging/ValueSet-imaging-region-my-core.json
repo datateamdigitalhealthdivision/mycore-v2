@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-imaging-region-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetImagingRegion (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/ValueSet/imaging-region-my-core</tt><p>Malaysia imaging region PIK code</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/imaging-region-my-core",
+  "name": "ValueSetImagingRegionMyCore",
+  "title": "ValueSetImagingRegion (MY Core)",
+  "status": "active",
+  "date": "2023-01-03T04:47:56.9010407+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Malaysia imaging region PIK code",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/imaging-region-my-core"
+      }
+    ]
+  }
+}

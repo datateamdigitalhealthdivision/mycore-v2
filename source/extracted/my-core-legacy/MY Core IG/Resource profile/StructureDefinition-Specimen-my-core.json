@@ -1,0 +1,81 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Specimen-my-core",
+  "url": "http://fhir.hie.moh.gov.my/StructureDefinition/Specimen-my-core",
+  "version": "1.0.0",
+  "name": "SpecimenMyCore",
+  "title": "Specimen (MY Core)",
+  "status": "active",
+  "date": "2022-11-04T04:16:41.1948666+00:00",
+  "publisher": "Health Level Seven International - Patient Care Work Group",
+  "purpose": "Minimal specimen attributes, usable for the laboratory results section and entry of a patient summary.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Specimen",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Specimen",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Specimen.type",
+        "path": "Specimen.type",
+        "binding": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "SpecimenType"
+            }
+          ],
+          "strength": "preferred",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/specimen-type-my-core"
+        }
+      },
+      {
+        "id": "Specimen.container.extension",
+        "path": "Specimen.container.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 0
+      },
+      {
+        "id": "Specimen.container.extension:combineSample",
+        "path": "Specimen.container.extension",
+        "sliceName": "combineSample",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://fhir.hie.moh.gov.my/StructureDefinition/specimen-combine-sample-my-core"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "Specimen.container.type",
+        "path": "Specimen.container.type",
+        "min": 1,
+        "binding": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "SpecimenContainerType"
+            }
+          ],
+          "strength": "required",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/specimen-container-type-my-core"
+        }
+      }
+    ]
+  }
+}

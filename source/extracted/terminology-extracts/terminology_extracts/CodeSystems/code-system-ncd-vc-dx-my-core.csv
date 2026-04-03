@@ -1,0 +1,6 @@
+code,display,definition,system_url,system_name
+01,Hypertension,Hypertension,http://fhir.hie.moh.gov.my/CodeSystem/diagnosis-role-my-core,CodeSystemNcdVcDxMyCore
+02,Diabetes Mellitus,Diabetes Mellitus,http://fhir.hie.moh.gov.my/CodeSystem/diagnosis-role-my-core,CodeSystemNcdVcDxMyCore
+03,Hyperlipidemia,Hyperlipidemia,http://fhir.hie.moh.gov.my/CodeSystem/diagnosis-role-my-core,CodeSystemNcdVcDxMyCore
+04,Ischaemic Heart Disease,Ischaemic Heart Disease,http://fhir.hie.moh.gov.my/CodeSystem/diagnosis-role-my-core,CodeSystemNcdVcDxMyCore
+05,Others,Others,http://fhir.hie.moh.gov.my/CodeSystem/diagnosis-role-my-core,CodeSystemNcdVcDxMyCore

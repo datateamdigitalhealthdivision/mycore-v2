@@ -1,0 +1,17 @@
+code,display,definition,system_url,system_name
+300,EMERGENCY PRESENTATION,EMERGENCY PRESENTATION,http://fhir.hie.moh.gov.my/CodeSystem/reason-code-my-core,CodeSystemReasonCodeMyCore
+310,UNSCHEDULED ED RETURNS POST-TRAUMA,UNSCHEDULED ED RETURNS POST-TRAUMA,http://fhir.hie.moh.gov.my/CodeSystem/reason-code-my-core,CodeSystemReasonCodeMyCore
+320,"RETURN VISIT, PLANNED FOLLOW UP","RETURN VISIT, PLANNED FOLLOW UP",http://fhir.hie.moh.gov.my/CodeSystem/reason-code-my-core,CodeSystemReasonCodeMyCore
+330,PRE-ARRANGED ADMISSION,PRE-ARRANGED ADMISSION,http://fhir.hie.moh.gov.my/CodeSystem/reason-code-my-core,CodeSystemReasonCodeMyCore
+340,DEAD ON ARRIVAL,DEAD ON ARRIVAL,http://fhir.hie.moh.gov.my/CodeSystem/reason-code-my-core,CodeSystemReasonCodeMyCore
+ADM,ADMISSION,ADMISSION,http://fhir.hie.moh.gov.my/CodeSystem/reason-code-my-core,CodeSystemReasonCodeMyCore
+ETD,EMERGENCY,EMERGENCY,http://fhir.hie.moh.gov.my/CodeSystem/reason-code-my-core,CodeSystemReasonCodeMyCore
+DWC,DEATH WITH COVID -19,DEATH WITH COVID -19,http://fhir.hie.moh.gov.my/CodeSystem/reason-code-my-core,CodeSystemReasonCodeMyCore
+DDC,DEATH DUE TO COVID-19,DEATH DUE TO COVID-19,http://fhir.hie.moh.gov.my/CodeSystem/reason-code-my-core,CodeSystemReasonCodeMyCore
+HCW,HEALTHCARE WORKER,HEALTHCARE WORKER,http://fhir.hie.moh.gov.my/CodeSystem/reason-code-my-core,CodeSystemReasonCodeMyCore
+PUS,PERSON UNDER SURVEILLANCE,PERSON UNDER SURVEILLANCE,http://fhir.hie.moh.gov.my/CodeSystem/reason-code-my-core,CodeSystemReasonCodeMyCore
+SP,SPECIALIST,SPECIALIST,http://fhir.hie.moh.gov.my/CodeSystem/reason-code-my-core,CodeSystemReasonCodeMyCore
+CLS,CLOSE CONTACT,CLOSE CONTACT,http://fhir.hie.moh.gov.my/CodeSystem/reason-code-my-core,CodeSystemReasonCodeMyCore
+OTH,OTHERS,OTHERS,http://fhir.hie.moh.gov.my/CodeSystem/reason-code-my-core,CodeSystemReasonCodeMyCore
+PUI,PATIENT UNDER INVESTIGATION,PATIENT UNDER INVESTIGATION,http://fhir.hie.moh.gov.my/CodeSystem/reason-code-my-core,CodeSystemReasonCodeMyCore
+C19,CONFIRMED COVID-19,CONFIRMED COVID-19,http://fhir.hie.moh.gov.my/CodeSystem/reason-code-my-core,CodeSystemReasonCodeMyCore

@@ -1,0 +1,3 @@
+code,display,system,include_type,valueset_url,valueset_name
+271062006,Fasting blood glucose,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-glucose-my-core,ValueSetObservationGlucoseMyCore
+271061004,Random blood glucose,http://snomed.info/sct,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-glucose-my-core,ValueSetObservationGlucoseMyCore

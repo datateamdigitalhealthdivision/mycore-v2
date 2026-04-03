@@ -1,0 +1,14 @@
+code,display,definition,system_url,system_name
+7,For filling,For filling,http://fhir.hie.moh.gov.my/CodeSystem/surface-code-my-core,CodeSystemSurfaceCodeMyCore
+8,Redo filling,Redo filling,http://fhir.hie.moh.gov.my/CodeSystem/surface-code-my-core,CodeSystemSurfaceCodeMyCore
+9,Fissure sealant,Fissure sealant,http://fhir.hie.moh.gov.my/CodeSystem/surface-code-my-core,CodeSystemSurfaceCodeMyCore
+11,Filled with preventive resin restoration type 1,Filled with preventive resin restoration type 1,http://fhir.hie.moh.gov.my/CodeSystem/surface-code-my-core,CodeSystemSurfaceCodeMyCore
+14,Fracture,Fracture,http://fhir.hie.moh.gov.my/CodeSystem/surface-code-my-core,CodeSystemSurfaceCodeMyCore
+8a,Filled (amalgam),Filled (amalgam),http://fhir.hie.moh.gov.my/CodeSystem/surface-code-my-core,CodeSystemSurfaceCodeMyCore
+8b,Filled (tooth-coloured),Filled (tooth-coloured),http://fhir.hie.moh.gov.my/CodeSystem/surface-code-my-core,CodeSystemSurfaceCodeMyCore
+8c,Filled with recurrent caries,Filled with recurrent caries,http://fhir.hie.moh.gov.my/CodeSystem/surface-code-my-core,CodeSystemSurfaceCodeMyCore
+E10,For fissure sealant,For fissure sealant,http://fhir.hie.moh.gov.my/CodeSystem/surface-code-my-core,CodeSystemSurfaceCodeMyCore
+E12,For filling with preventive resin restoration type 1,For filling with preventive resin restoration type 1,http://fhir.hie.moh.gov.my/CodeSystem/surface-code-my-core,CodeSystemSurfaceCodeMyCore
+E13,For Flouride varnish,For Flouride varnish,http://fhir.hie.moh.gov.my/CodeSystem/surface-code-my-core,CodeSystemSurfaceCodeMyCore
+Nil,No Treatment Required,No Treatment Required,http://fhir.hie.moh.gov.my/CodeSystem/surface-code-my-core,CodeSystemSurfaceCodeMyCore
+N/A,Not Applicable,Not Applicable,http://fhir.hie.moh.gov.my/CodeSystem/surface-code-my-core,CodeSystemSurfaceCodeMyCore

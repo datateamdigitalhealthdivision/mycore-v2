@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-sub-record-type-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetSubRecordType (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/ValueSet/sub-record-type-my-core</tt><p>Sub Record Type</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/sub-record-type-my-core",
+  "name": "ValueSetSubRecordTypeMyCore",
+  "title": "ValueSetSubRecordType (MY Core)",
+  "status": "active",
+  "date": "2023-01-03T04:47:56.9010407+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Sub Record Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/sub-record-type-my-core"
+      }
+    ]
+  }
+}

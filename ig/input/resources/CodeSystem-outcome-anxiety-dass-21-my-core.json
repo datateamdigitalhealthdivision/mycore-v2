@@ -1,0 +1,108 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "outcome-anxiety-dass-21-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemOutcomeDass21 (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/outcome-anxiety-dass-21-my-core</tt><p>Depression and Anxiety Stress Scale Scoring Questionnaire</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/outcome-anxiety-dass-21-my-core",
+  "name": "CodeSystemOutcomeAnxietyDass21MyCore",
+  "title": "CodeSystemOutcomeAnxietyDass21 (MY Core)",
+  "status": "active",
+  "date": "2023-06-26T00:55:17.2867281+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "description": "Depression and Anxiety Stress Scale Scoring Questionnaire",
+  "compositional": false,
+  "content": "complete",
+  "count": 5,
+  "property": [
+    {
+      "code": "low",
+      "type": "string"
+    },
+    {
+      "code": "high",
+      "type": "string"
+    }
+  ],
+  "concept": [
+    {
+      "code": "a01",
+      "display": "Normal",
+      "definition": "Normal",
+      "property": [
+        {
+          "code": "low",
+          "valueString": "0"
+        },
+        {
+          "code": "high",
+          "valueString": "6"
+        }
+      ]
+    },
+    {
+      "code": "a02",
+      "display": "Mild Anxiety, please consult your nearest healthcare facility for further information.",
+      "definition": "Mild Anxiety, please consult your nearest healthcare facility for further information.",
+      "property": [
+        {
+          "code": "low",
+          "valueString": "7"
+        },
+        {
+          "code": "high",
+          "valueString": "9"
+        }
+      ]
+    },
+    {
+      "code": "a03",
+      "display": "Moderate Anxiety, please consult your nearest healthcare facility for further information.",
+      "definition": "Moderate Anxiety, please consult your nearest healthcare facility for further information.",
+      "property": [
+        {
+          "code": "low",
+          "valueString": "10"
+        },
+        {
+          "code": "high",
+          "valueString": "14"
+        }
+      ]
+    },
+    {
+      "code": "a04",
+      "display": "Severe Anxiety, please consult your nearest healthcare facility for further information.",
+      "definition": "Severe Anxiety, please consult your nearest healthcare facility for further information.",
+      "property": [
+        {
+          "code": "low",
+          "valueString": "15"
+        },
+        {
+          "code": "high",
+          "valueString": "19"
+        }
+      ]
+    },
+    {
+      "code": "a05",
+      "display": "Extremely Severe Anxiety, please seek medical attention from your nearest healthcare facility.",
+      "definition": "Extremely Severe Anxiety, please seek medical attention from your nearest healthcare facility.",
+      "property": [
+        {
+          "code": "low",
+          "valueString": "20"
+        },
+        {
+          "code": "high",
+          "valueString": "42"
+        }
+      ]
+    }
+  ],
+  "version": "2.0.0",
+  "experimental": false,
+  "caseSensitive": true
+}

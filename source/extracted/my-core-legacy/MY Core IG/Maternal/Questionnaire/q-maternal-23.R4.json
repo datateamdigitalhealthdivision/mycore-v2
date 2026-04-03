@@ -1,0 +1,466 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-maternal-23",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-23",
+  "version": "1.0.0",
+  "name": "QMaternal23",
+  "title": "Perihal Kelahiran (Diisi oleh Penyambut Kelahiran)",
+  "status": "active",
+  "date": "2023-08-30T01:19:04.1804145+00:00",
+  "item": [
+    {
+      "linkId": "maternal-23.1",
+      "text": "Perihal Ibu",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "maternal-23.1.1",
+          "text": "Tempat Kelahiran",
+          "type": "string"
+        },
+        {
+          "linkId": "maternal-23.1.2",
+          "text": "Disambut oleh",
+          "type": "string"
+        },
+        {
+          "linkId": "maternal-23.1.3",
+          "text": "Tarikh lahir dan masa",
+          "type": "dateTime"
+        },
+        {
+          "linkId": "maternal-23.1.4",
+          "text": "Suntikan",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "maternal-23.1.4.1",
+              "text": "Syntometrin",
+              "type": "boolean"
+            },
+            {
+              "linkId": "maternal-23.1.4.2",
+              "text": "Syntocinon",
+              "type": "boolean"
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-23.1.5",
+          "text": "Placenta",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://fhir.hie.moh.gov.my/CodeSystem/maternal-record-my-core",
+                "code": "00",
+                "display": "Lengkap"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://fhir.hie.moh.gov.my/CodeSystem/maternal-record-my-core",
+                "code": "01",
+                "display": "Tidak Lengkap"
+              }
+            }
+          ],
+          "item": [
+            {
+              "linkId": "maternal-23.1.5.1",
+              "text": "Berat",
+              "type": "quantity"
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-23.1.6",
+          "text": "Cara Kelahiran",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "maternal-23.1.6.1",
+              "text": "Spontaneous Vagina Delivery",
+              "type": "choice",
+              "answerOption": [
+                {
+                  "valueCoding": {
+                    "system": "http://fhir.hie.moh.gov.my/CodeSystem/maternal-record-my-core",
+                    "code": "00",
+                    "display": "Cephalic"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://fhir.hie.moh.gov.my/CodeSystem/maternal-record-my-core",
+                    "code": "01",
+                    "display": "Breech"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://fhir.hie.moh.gov.my/CodeSystem/maternal-record-my-core",
+                    "code": "02",
+                    "display": "Assisted Breech"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "maternal-23.1.6.2",
+              "text": "Instrumental Delivery",
+              "type": "choice",
+              "answerOption": [
+                {
+                  "valueCoding": {
+                    "system": "http://fhir.hie.moh.gov.my/CodeSystem/maternal-record-my-core",
+                    "code": "00",
+                    "display": "Forcep"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://fhir.hie.moh.gov.my/CodeSystem/maternal-record-my-core",
+                    "code": "01",
+                    "display": "Vacuum"
+                  }
+                }
+              ],
+              "item": [
+                {
+                  "linkId": "maternal-23.1.6.2.1",
+                  "text": "Indication",
+                  "type": "string"
+                }
+              ]
+            },
+            {
+              "linkId": "maternal-23.1.6.3",
+              "text": "Caesarean",
+              "type": "choice",
+              "answerOption": [
+                {
+                  "valueCoding": {
+                    "system": "http://fhir.hie.moh.gov.my/CodeSystem/maternal-record-my-core",
+                    "code": "00",
+                    "display": "Elective"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://fhir.hie.moh.gov.my/CodeSystem/maternal-record-my-core",
+                    "code": "01",
+                    "display": "LSCS"
+                  }
+                }
+              ],
+              "item": [
+                {
+                  "linkId": "maternal-23.1.6.3.1",
+                  "text": "Types",
+                  "type": "choice",
+                  "answerOption": [
+                    {
+                      "valueCoding": {
+                        "system": "http://fhir.hie.moh.gov.my/CodeSystem/maternal-record-my-core",
+                        "code": "00",
+                        "display": "Emergency"
+                      }
+                    },
+                    {
+                      "valueCoding": {
+                        "system": "http://fhir.hie.moh.gov.my/CodeSystem/maternal-record-my-core",
+                        "code": "01",
+                        "display": "Classical"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "linkId": "maternal-23.1.6.3.2",
+                  "text": "Indications",
+                  "type": "string"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-23.1.7",
+          "text": "Komplikasi Semasa Bersalin",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "maternal-23.1.7.1",
+              "text": "Post Partum Hemorhrhage (PPH)",
+              "type": "boolean"
+            },
+            {
+              "linkId": "maternal-23.1.7.2",
+              "text": "Retained Placenta",
+              "type": "boolean"
+            },
+            {
+              "linkId": "maternal-23.1.7.3",
+              "text": "Parineal Tear",
+              "type": "choice",
+              "answerOption": [
+                {
+                  "valueCoding": {
+                    "system": "http://fhir.hie.moh.gov.my/CodeSystem/maternal-record-my-core",
+                    "code": "00",
+                    "display": "1st Degree"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://fhir.hie.moh.gov.my/CodeSystem/maternal-record-my-core",
+                    "code": "01",
+                    "display": "2nd Degree"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://fhir.hie.moh.gov.my/CodeSystem/maternal-record-my-core",
+                    "code": "02",
+                    "display": "3rd Degree"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "maternal-23.1.7.4",
+              "code": [
+                {
+                  "system": "http://fhir.hie.moh.gov.my/CodeSystem/maternal-record-my-core",
+                  "code": "maternal-23.1.7.4"
+                }
+              ],
+              "text": "Lain-lain",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-23.1.8",
+          "text": "Permulaan Penyusuan Susu Ibu dan Sentuhan Kulit ke Kulit (Diisi oleh Hospital)",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "maternal-23.1.8.1",
+              "text": "Bayi diberikan kepada ibu sejurus selepas bersalin",
+              "type": "boolean",
+              "item": [
+                {
+                  "linkId": "maternal-23.1.8.1.1",
+                  "text": "Sekiranya tidak, nyatakan sebab",
+                  "type": "string"
+                }
+              ]
+            },
+            {
+              "linkId": "23.1.8.2",
+              "text": "Ibu dan bayi menerima sentuhan kulit ke kulit selama 1 jam",
+              "type": "boolean",
+              "item": [
+                {
+                  "linkId": "maternal-23.1.8.2.1",
+                  "text": "Sekiranya tidak, nyatakan sebab",
+                  "type": "string"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "maternal-23.2",
+      "text": "Perihal Bayi",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "maternal-23.2.1",
+          "text": "Berat Lahir",
+          "type": "quantity"
+        },
+        {
+          "linkId": "maternal-23.2.2",
+          "text": "Jantina",
+          "type": "choice",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://fhir.hie.moh.gov.my/CodeSystem/maternal-record-my-core",
+                "code": "00",
+                "display": "Lelaki"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://fhir.hie.moh.gov.my/CodeSystem/maternal-record-my-core",
+                "code": "01",
+                "display": "Perempuan"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "maternal-23.2.3",
+          "text": "Lilitan Kepala",
+          "type": "quantity"
+        },
+        {
+          "linkId": "maternal-23.2.4",
+          "text": "Lilitan Dada",
+          "type": "quantity"
+        },
+        {
+          "linkId": "maternal-23.2.5",
+          "text": "Keadaan Bayi",
+          "type": "group",
+          "item": [
+            {
+              "linkId": "maternal-23.2.5.1",
+              "text": "Keadaan",
+              "type": "choice",
+              "answerOption": [
+                {
+                  "valueCoding": {
+                    "system": "http://fhir.hie.moh.gov.my/CodeSystem/maternal-record-my-core",
+                    "code": "18",
+                    "display": "Lahir hidup"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://fhir.hie.moh.gov.my/CodeSystem/maternal-record-my-core",
+                    "code": "19",
+                    "display": "Lahir mati"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "maternal-23.2.5.2",
+              "text": "Skop Apgar",
+              "type": "choice",
+              "answerOption": [
+                {
+                  "valueCoding": {
+                    "system": "http://fhir.hie.moh.gov.my/CodeSystem/maternal-record-my-core",
+                    "code": "00",
+                    "display": "1 minit"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://fhir.hie.moh.gov.my/CodeSystem/maternal-record-my-core",
+                    "code": "01",
+                    "display": "5 minit"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "maternal-23.2.5.3",
+              "text": "Abnormaliti Kongenital",
+              "type": "boolean",
+              "item": [
+                {
+                  "linkId": "23.2.5.3.1",
+                  "text": "Jika ada, nyatakan",
+                  "type": "string"
+                }
+              ]
+            },
+            {
+              "linkId": "maternal-23.2.5.4",
+              "text": "Suntikan Vit K diberi",
+              "type": "boolean",
+              "item": [
+                {
+                  "linkId": "maternal-23.2.5.4.1",
+                  "text": "Tarikh",
+                  "type": "date"
+                },
+                {
+                  "linkId": "maternal-23.2.5.4.2",
+                  "text": "Masa",
+                  "type": "time"
+                },
+                {
+                  "linkId": "maternal-23.2.5.4.3",
+                  "text": "Diberi oleh",
+                  "type": "string"
+                }
+              ]
+            },
+            {
+              "linkId": "maternal-23.2.5.5",
+              "text": "Suntikan Hepatitis B dos 1 diberi",
+              "type": "boolean",
+              "item": [
+                {
+                  "linkId": "maternal-23.2.5.5.1",
+                  "text": "Tarikh",
+                  "type": "date"
+                },
+                {
+                  "linkId": "maternal-23.2.5.5.2",
+                  "text": "Masa",
+                  "type": "time"
+                },
+                {
+                  "linkId": "maternal-23.2.5.5.3",
+                  "text": "Diberikan oleh",
+                  "type": "string"
+                }
+              ]
+            },
+            {
+              "linkId": "maternal-23.2.5.6",
+              "text": "G6PD",
+              "type": "group",
+              "item": [
+                {
+                  "linkId": "maternal-23.2.5.6.1",
+                  "text": "Tarikh diambil",
+                  "type": "date"
+                }
+              ]
+            },
+            {
+              "linkId": "maternal-23.2.5.7",
+              "text": "Saringan Conginetal Hypothyodism",
+              "type": "choice",
+              "answerOption": [
+                {
+                  "valueCoding": {
+                    "system": "http://fhir.hie.moh.gov.my/CodeSystem/maternal-record-my-core",
+                    "code": "00",
+                    "display": "T4"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://fhir.hie.moh.gov.my/CodeSystem/maternal-record-my-core",
+                    "code": "01",
+                    "display": "TSH"
+                  }
+                }
+              ],
+              "item": [
+                {
+                  "linkId": "maternal-23.2.5.7.1",
+                  "text": "Tarikh diambil",
+                  "type": "date"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

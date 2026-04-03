@@ -1,0 +1,35 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nutritionist-consultation-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetNutritionistConsultation (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/nutritionist-consultation-my-core</tt><p>Nutritionist Consultation</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/nutritionist-consultation-my-core",
+  "name": "ValueSetNutritionistConsultationMyCore",
+  "title": "ValueSetNutritionistConsultation (MY Core)",
+  "status": "active",
+  "date": "2023-03-07T04:19:34.7742501+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Nutritionist Consultation",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/nutritionist-consultation-my-core"
+      }
+    ]
+  },
+  "version": "2.0.0",
+  "experimental": false
+}

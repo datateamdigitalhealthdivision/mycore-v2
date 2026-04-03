@@ -1,0 +1,35 @@
+{
+  "resourceType": "ValueSet",
+  "id": "encounter-class-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetEncounterClass (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/encounter-class-my-core</tt><p>additional class related to PIK code for the base FHIR codesystem encounter class</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/encounter-class-my-core",
+  "name": "ValueSetEncounterClassMyCore",
+  "title": "ValueSetEncounterClass (MY Core)",
+  "status": "active",
+  "date": "2023-01-03T04:47:56.9010407+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "additional class related to PIK code for the base FHIR codesystem encounter class",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/encounter-class-my-core"
+      }
+    ]
+  },
+  "version": "2.0.0",
+  "experimental": false
+}

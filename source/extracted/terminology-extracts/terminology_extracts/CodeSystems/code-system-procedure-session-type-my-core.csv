@@ -1,0 +1,4 @@
+code,display,definition,system_url,system_name
+01,Individual,Individual,http://fhir.hie.moh.gov.my/CodeSystem/procedure-session-type-my-core,CodeSystemProcedureSessionTypeMyCore
+02,Group,Group,http://fhir.hie.moh.gov.my/CodeSystem/procedure-session-type-my-core,CodeSystemProcedureSessionTypeMyCore
+03,Education,Education,http://fhir.hie.moh.gov.my/CodeSystem/procedure-session-type-my-core,CodeSystemProcedureSessionTypeMyCore

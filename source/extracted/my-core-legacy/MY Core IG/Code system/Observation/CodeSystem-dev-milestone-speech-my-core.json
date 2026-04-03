@@ -1,0 +1,85 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-dev-milestone-speech-my-core",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2023-05-25T08:55:29.17+00:00",
+    "source": "#l58HObE5cpUi3tt8"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemDevmilestoneSpeech (mY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-speech-my-core</tt><p>Developmental milestone Speech motor</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-speech-my-core",
+  "name": "CodeSystemDevmilestoneSpeechmyCore",
+  "title": "CodeSystemDevMilestoneSpeech (MY Core)",
+  "status": "active",
+  "date": "2023-09-04T01:26:51.2813+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "description": "Developmental Milestone Speech Motor",
+  "compositional": false,
+  "content": "complete",
+  "count": 12,
+  "concept": [
+    {
+      "code": "s6w",
+      "display": "Up to 6 weeks of age",
+      "definition": "Quietens to sound at 4 weeks. \nVocalises when talked to at 8 weeks."
+    },
+    {
+      "code": "s3m",
+      "display": "Up to 3 months of age",
+      "definition": "Squeals of pleasure. \nSays ‘aah’ or ‘naah’ when spoken to. \nTurns head to sound at the same level."
+    },
+    {
+      "code": "s6m",
+      "display": "Up to 6 months of age",
+      "definition": "Smiles and vocalises at mirror image. \nmonosyllabic babble. \nPolysyllabic sounds formedba,da,ka at 7 mths. \nTurns head towards a sound above the level (7 to 9 months)."
+    },
+    {
+      "code": "s9m",
+      "display": "Up to 9 months of age",
+      "definition": "Babbles loudly in long repetitive syllables. \nResponds to name. \nUnderstands ‘No’ and ‘Bye- bye’ Imitates playful sounds e.g. \ncough, ‘brrr’ Localises sound above and below the ear level."
+    },
+    {
+      "code": "s12m",
+      "display": "Up to 12 months of age",
+      "definition": "Knows and responds to name. \nBabbles in conversational cadences. \nUnderstands simple instructions. \n1 - 3 words with meaning. \nLocates sounds in all directions."
+    },
+    {
+      "code": "s15m",
+      "display": "Up to 15 months of age",
+      "definition": "Jargon. \n2-6 intelligible words. \nObeys simple commands. \nPoints to familiar persons, toys when requested."
+    },
+    {
+      "code": "s18m",
+      "display": "Up to 18 months of age",
+      "definition": "Jargon. \n6-20 intelligible words. \nPoints to 2 - 3 body parts."
+    },
+    {
+      "code": "s2y",
+      "display": "Up to 2 years of age",
+      "definition": "Uses 50 or more words. \nUses 2 - 3 word phrases. \nPoints to 6 body parts. \nNames familiar objects and pictures. \nFollows a series of 2 simple but related commands. \nJoins in nursery rhymes and sings."
+    },
+    {
+      "code": "s2.5y",
+      "display": "Up to 2.5 years of age",
+      "definition": "Speaks in phrases. \nFrequently asks questions (What, Who). \nUses pronouns (I, me, you) correctly. \nKnows full name. \nCan select pictures of action e.g. \nwhich one is eating"
+    },
+    {
+      "code": "s3y",
+      "display": "Up to 3 years of age",
+      "definition": "Gives full name, gender, sometimes age. \nUses personal pronouns and most prepositions correctly. \nAsk many questions (What, where, who) Identify objects by function e.g. \nwhich one we drink from. \nCounts by rote up to 10 or more but does not appreciate quantity beyond 2 or 3. \nNames 2 colours."
+    },
+    {
+      "code": "s4y",
+      "display": "Up to 4 years of age",
+      "definition": "Speech grammatically correct and completely intelligible Names 4 colours. \nGives full name, address and age. \nListens to and tells long stories. \nCounts by rote up to 20 and begins to count by word and touch up to 4 or 5."
+    },
+    {
+      "code": "s5y",
+      "display": "Up to 5 years of age",
+      "definition": "Names birthday and home address. \nDefines nouns by use. \nUses “first, then, last” (time and sequence concepts). \nEnjoys jokes and riddles. \nTells time."
+    }
+  ]
+}

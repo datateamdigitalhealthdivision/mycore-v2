@@ -1,0 +1,34 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "ChargeItem-my-core",
+  "url": "http://fhir.hie.moh.gov.my/StructureDefinition/ChargeItem-my-core",
+  "name": "ChargeItemMyCore",
+  "title": "ChargeItem (MY Core)",
+  "status": "active",
+  "date": "2023-01-10T23:01:36.9771953+00:00",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "ChargeItem",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/ChargeItem",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "ChargeItem.code",
+        "path": "ChargeItem.code",
+        "binding": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "ChargeItemCode"
+            }
+          ],
+          "strength": "required",
+          "description": "Set of codes that can be used for billing purposes.",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/revenue-code-my-core"
+        }
+      }
+    ]
+  }
+}

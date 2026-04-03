@@ -1,0 +1,16 @@
+code,display,definition,system_url,system_name
+10,Rapid Test Human Immunodeficiency Virus (HIV),,http://fhir.hie.moh.gov.my/CodeSystem/diagnostic-procedure-my-core,CodeSystemDiagnosticProcedureMyCore
+11,Hess Test,,http://fhir.hie.moh.gov.my/CodeSystem/diagnostic-procedure-my-core,CodeSystemDiagnosticProcedureMyCore
+12,Daily Blood Pressure (BP),,http://fhir.hie.moh.gov.my/CodeSystem/diagnostic-procedure-my-core,CodeSystemDiagnosticProcedureMyCore
+13,Rectal Swab,,http://fhir.hie.moh.gov.my/CodeSystem/diagnostic-procedure-my-core,CodeSystemDiagnosticProcedureMyCore
+14,Auriscopy / Ophthalmoscopy,,http://fhir.hie.moh.gov.my/CodeSystem/diagnostic-procedure-my-core,CodeSystemDiagnosticProcedureMyCore
+00,Other,,http://fhir.hie.moh.gov.my/CodeSystem/diagnostic-procedure-my-core,CodeSystemDiagnosticProcedureMyCore
+01,Peak Flow Meter,,http://fhir.hie.moh.gov.my/CodeSystem/diagnostic-procedure-my-core,CodeSystemDiagnosticProcedureMyCore
+02,Fundus Camera,,http://fhir.hie.moh.gov.my/CodeSystem/diagnostic-procedure-my-core,CodeSystemDiagnosticProcedureMyCore
+03,Electrocardiogram (ECG),,http://fhir.hie.moh.gov.my/CodeSystem/diagnostic-procedure-my-core,CodeSystemDiagnosticProcedureMyCore
+04,Carbon Monoxide (CO) Analyzer,,http://fhir.hie.moh.gov.my/CodeSystem/diagnostic-procedure-my-core,CodeSystemDiagnosticProcedureMyCore
+05,Glucometer Test,,http://fhir.hie.moh.gov.my/CodeSystem/diagnostic-procedure-my-core,CodeSystemDiagnosticProcedureMyCore
+06,Spirometer,,http://fhir.hie.moh.gov.my/CodeSystem/diagnostic-procedure-my-core,CodeSystemDiagnosticProcedureMyCore
+07,Vision Test,,http://fhir.hie.moh.gov.my/CodeSystem/diagnostic-procedure-my-core,CodeSystemDiagnosticProcedureMyCore
+08,Sputum Smear For Acid-Fast Bacillus (AFB),,http://fhir.hie.moh.gov.my/CodeSystem/diagnostic-procedure-my-core,CodeSystemDiagnosticProcedureMyCore
+09,Skin Smear,,http://fhir.hie.moh.gov.my/CodeSystem/diagnostic-procedure-my-core,CodeSystemDiagnosticProcedureMyCore

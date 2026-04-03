@@ -1,0 +1,401 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-child-3-4m",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "identifier": {
+        "system": "http://fhir.hie.moh.gov.my/sid/template-section",
+        "value": "qr-child-3-4m"
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-child-3-4m",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/3a1fe467-cad5-4ec9-83f8-fd6dfb46470c"
+    },
+    "authored": "2023-04-27T00:20:14.414Z",
+    "item": [
+        {
+            "linkId": "child-3-4m.0",
+            "text": "Lawatan",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "code": "00",
+                        "display": "3 bulan"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "child-3-4m.1",
+            "text": "Tarikh lawatan",
+            "answer": [
+                {
+                    "valueDateTime": "2023-05-01T23:12:30.776Z"
+                }
+            ]
+        },
+        {
+            "linkId": "child-3-4m.2",
+            "text": "Umur semasa lawatan",
+            "answer": [
+                {
+                    "valueQuantity": {
+                        "value": 3,
+                        "unit": "bulan"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "child-3-4m.3",
+            "text": "Aktiviti",
+            "item": [
+                {
+                    "linkId": "child-3-4m.3.1",
+                    "text": "Berat (kg)",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 12,
+                                "unit": "kg"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-3-4m.3.1.1",
+                                    "text": "Catatan (Normal/KBB/KBBT/MP)",
+                                    "answer": [
+                                        {
+                                            "valueString": "insert entry here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-3-4m.3.2",
+                    "text": "Panjang (cm)",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 12,
+                                "unit": "cm"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-3-4m.3.2.1",
+                                    "text": "Catatan (Normal/B/BT/ME)",
+                                    "answer": [
+                                        {
+                                            "valueString": "insert entry here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-3-4m.3.3",
+                    "text": "BMI (kg/m2) \nNota: Ambil BMI pada umur 4 bulan sekiranya ada MP/B/BT)",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 12,
+                                "unit": "kg/m2"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-3-4m.3.3.1",
+                                    "text": "Catatan (Normal/MP/B/BT)",
+                                    "answer": [
+                                        {
+                                            "valueString": "insert entry here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-3-4m.3.4",
+                    "text": "Lilitan kepala (cm)",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 12,
+                                "unit": "cm"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-3-4m.3.4.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "insert entry here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-3-4m.3.5",
+                    "text": "Pemeriksaan fizikal",
+                    "answer": [
+                        {
+                            "valueString": "insert entry here",
+                            "item": [
+                                {
+                                    "linkId": "child-3-4m.3.5.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "insert entry here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-3-4m.3.6",
+                    "text": "Tindakbalas",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "55561003",
+                                "display": "Aktif"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-3-4m.3.6.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "insert entry here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-3-4m.3.7",
+                    "text": "Jaundis",
+                    "answer": [
+                        {
+                            "valueString": "insert entry here",
+                            "item": [
+                                {
+                                    "linkId": "child-3-4m.3.7.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "insert entry here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-3-4m.3.8",
+                    "text": "Penilaian penyusuan",
+                    "answer": [
+                        {
+                            "valueString": "insert entry here",
+                            "item": [
+                                {
+                                    "linkId": "child-3-4m.3.8.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "insert entry here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-3-4m.3.9",
+                    "text": "Imunisasi (Rujuk Jadual dan Rekod Imunisasi) - Parut BCG",
+                    "answer": [
+                        {
+                            "valueString": "insert entry here",
+                            "item": [
+                                {
+                                    "linkId": "child-3-4m.3.9.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "insert entry here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "child-3-4m.4",
+            "text": "Perkara yang membimbangkan ibu bapa/penjaga",
+            "answer": [
+                {
+                    "valueString": "insert entry here"
+                }
+            ]
+        },
+        {
+            "linkId": "child-3-4m.5",
+            "text": "Senarai Semak Perkembangan Umur 3 bulan (sila semak terlebih dahulu apa yang ibubapa/penjaga tulis): Tandakan pada ruangan yang berkenaan",
+            "item": [
+                {
+                    "linkId": "child-3-4m.5.1",
+                    "text": "Leher bayi tegak apabila didukung?",
+                    "answer": [
+                        {
+                            "valueBoolean": false
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-3-4m.5.2",
+                    "text": "Bayi menggerakkan semua anggota dengan baik? (Perhatikan)",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-3-4m.5.3",
+                    "text": "Bayi berkukur atau mengekek? (cooing/ squealing)",
+                    "answer": [
+                        {
+                            "valueBoolean": false
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-3-4m.5.4",
+                    "text": "Bayi terkejut pada bunyi kuat",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-3-4m.5.5",
+                    "text": "Bayi membalas dengan senyuman?",
+                    "answer": [
+                        {
+                            "valueBoolean": false
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-3-4m.5.6",
+                    "text": "Bayi memandang muka anda?",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "child-3-4m.6",
+            "text": "Jika ada 'tidak' pada senarai semak perkembangan umur 3 bulan, rujuk Pegawai Perubatan/FMS/Pakar Pediatrik dan isikan maklumat di bawah.",
+            "item": [
+                {
+                    "linkId": "child-3-4m.6.1",
+                    "text": "Tarikh Temujanji",
+                    "answer": [
+                        {
+                            "valueDateTime": "2023-05-02T06:02:15.073Z"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-3-4m.6.2",
+                    "text": "Tempat Rujukan",
+                    "answer": [
+                        {
+                            "valueString": "insert entry here"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-3-4m.6.3",
+                    "text": "Tujuan Rujukan",
+                    "answer": [
+                        {
+                            "valueString": "insert entry here"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-3-4m.6.4",
+                    "text": "Jika ada 'tidak' pada senarai semak, Jalankan penilaian perkembangan mengguna Carta Denver",
+                    "answer": [
+                        {
+                            "valueBoolean": false
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-3-4m.6.5",
+                    "text": "Jika ada 'tidak' pada senarai semak, Lakukan simulasi awal",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "child-3-4m.7",
+            "text": "Bimbingan Awal Tandakan selepas nasihat diberi. (Rujuk Panduan Ibubapa/ Penjaga)",
+            "item": [
+                {
+                    "linkId": "child-3-4m.7.1",
+                    "text": "Luangkan masa untuk bermain dan bercakap dengan bayi anda.",
+                    "answer": [
+                        {
+                            "valueBoolean": false
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-3-4m.7.2",
+                    "text": "Pilih alat permainan yang selamat dan sesuai untuk bayi anda.",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

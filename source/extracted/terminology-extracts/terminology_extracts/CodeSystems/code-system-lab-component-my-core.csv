@@ -1,0 +1,26 @@
+code,display,definition,system_url,system_name
+0000001,White Blood Cell Count,White Blood Cell Count,http://fhir.hie.moh.gov.my/CodeSystem/lab-component-my-core,CodeSystemLabComponentMyCore
+0000002,Red Blood Cell Count,Red Blood Cell Count,http://fhir.hie.moh.gov.my/CodeSystem/lab-component-my-core,CodeSystemLabComponentMyCore
+0000003,Hemoglobin,Hemoglobin,http://fhir.hie.moh.gov.my/CodeSystem/lab-component-my-core,CodeSystemLabComponentMyCore
+0000004,Hematocrit,Hematocrit,http://fhir.hie.moh.gov.my/CodeSystem/lab-component-my-core,CodeSystemLabComponentMyCore
+0000005,Mean Cell Volume,Mean Cell Volume,http://fhir.hie.moh.gov.my/CodeSystem/lab-component-my-core,CodeSystemLabComponentMyCore
+0000006,Mean Cell Haemoglobin,Mean Cell Haemoglobin,http://fhir.hie.moh.gov.my/CodeSystem/lab-component-my-core,CodeSystemLabComponentMyCore
+0000007,Mean Cell Haemoglobin Concentration,Mean Cell Haemoglobin Concentration,http://fhir.hie.moh.gov.my/CodeSystem/lab-component-my-core,CodeSystemLabComponentMyCore
+0000008,Platelet,Platelet,http://fhir.hie.moh.gov.my/CodeSystem/lab-component-my-core,CodeSystemLabComponentMyCore
+0000009,Red Cell Distribution Width - SD,Red Cell Distribution Width - SD,http://fhir.hie.moh.gov.my/CodeSystem/lab-component-my-core,CodeSystemLabComponentMyCore
+0000010,Red Cell Distribution Width - CV,Red Cell Distribution Width - CV,http://fhir.hie.moh.gov.my/CodeSystem/lab-component-my-core,CodeSystemLabComponentMyCore
+0000011,Platelet Distribution Width,Platelet Distribution Width,http://fhir.hie.moh.gov.my/CodeSystem/lab-component-my-core,CodeSystemLabComponentMyCore
+0000012,Mean Platelet Volume,Mean Platelet Volume,http://fhir.hie.moh.gov.my/CodeSystem/lab-component-my-core,CodeSystemLabComponentMyCore
+0000013,Platelet Large Cell Ratio,Platelet Large Cell Ratio,http://fhir.hie.moh.gov.my/CodeSystem/lab-component-my-core,CodeSystemLabComponentMyCore
+0000014,Plateletcrit,Plateletcrit,http://fhir.hie.moh.gov.my/CodeSystem/lab-component-my-core,CodeSystemLabComponentMyCore
+0000015,Absolute Neutrophil,Absolute Neutrophil,http://fhir.hie.moh.gov.my/CodeSystem/lab-component-my-core,CodeSystemLabComponentMyCore
+0000016,Absolute Lymphocyte,Absolute Lymphocyte,http://fhir.hie.moh.gov.my/CodeSystem/lab-component-my-core,CodeSystemLabComponentMyCore
+0000017,Absolute Monocyte,Absolute Monocyte,http://fhir.hie.moh.gov.my/CodeSystem/lab-component-my-core,CodeSystemLabComponentMyCore
+0000018,Absolute Eosinophil,Absolute Eosinophil,http://fhir.hie.moh.gov.my/CodeSystem/lab-component-my-core,CodeSystemLabComponentMyCore
+0000019,Absolute Basophil,Absolute Basophil,http://fhir.hie.moh.gov.my/CodeSystem/lab-component-my-core,CodeSystemLabComponentMyCore
+0000020,Immature Granulocyte,Immature Granulocyte,http://fhir.hie.moh.gov.my/CodeSystem/lab-component-my-core,CodeSystemLabComponentMyCore
+0000021,Percentage of Neutrophil,Percentage of Neutrophil,http://fhir.hie.moh.gov.my/CodeSystem/lab-component-my-core,CodeSystemLabComponentMyCore
+0000022,Percentage of Lymphocyte,Percentage of Lymphocyte,http://fhir.hie.moh.gov.my/CodeSystem/lab-component-my-core,CodeSystemLabComponentMyCore
+0000023,Percentage of Monocyte,Percentage of Monocyte,http://fhir.hie.moh.gov.my/CodeSystem/lab-component-my-core,CodeSystemLabComponentMyCore
+0000024,Percentage of Eosinophil,Percentage of Eosinophil,http://fhir.hie.moh.gov.my/CodeSystem/lab-component-my-core,CodeSystemLabComponentMyCore
+0000025,Percentage of Basophil,Percentage of Basophil,http://fhir.hie.moh.gov.my/CodeSystem/lab-component-my-core,CodeSystemLabComponentMyCore

@@ -1,0 +1,5 @@
+code,display,definition,system_url,system_name
+N,Narcotic,Narcotic,http://fhir.hie.moh.gov.my/CodeSystem/drug-schedule-my-core,CodeSystemDrugScheduleMyCore
+P,Psychotropic,Psychotropic,http://fhir.hie.moh.gov.my/CodeSystem/drug-schedule-my-core,CodeSystemDrugScheduleMyCore
+NP,Non Poison,Non Poison,http://fhir.hie.moh.gov.my/CodeSystem/drug-schedule-my-core,CodeSystemDrugScheduleMyCore
+SP,Schedule Poison,Schedule Poison,http://fhir.hie.moh.gov.my/CodeSystem/drug-schedule-my-core,CodeSystemDrugScheduleMyCore

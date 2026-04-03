@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-drug-special-instruction-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetDrugSpecialInstruction (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/ValueSet/drug-special-instruction-my-core</tt><p>Special Instruction</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/drug-special-instruction-my-core",
+  "name": "ValueSetDrugSpecialInstructionMyCore",
+  "title": "ValueSetDrugSpecialInstruction (MY Core)",
+  "status": "active",
+  "date": "2023-01-03T04:47:56.9010407+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Special Instruction",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/drug-special-instruction-my-core"
+      }
+    ]
+  }
+}

@@ -1,0 +1,296 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-child-2m",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my#8JokOyotKNuiKCHB",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "identifier": {
+        "system": "http://fhir.hie.moh.gov.my/sid/template-section",
+        "value": "qr-child-2m"
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-child-2m",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/3a1fe467-cad5-4ec9-83f8-fd6dfb46470c"
+    },
+    "authored": "2023-04-27T00:20:14.414Z",
+    "item": [
+        {
+            "linkId": "child-2m.1",
+            "text": "Tarikh",
+            "answer": [
+                {
+                    "valueDateTime": "2023-05-01T23:12:30.776Z"
+                }
+            ]
+        },
+        {
+            "linkId": "child-2m.2",
+            "text": "Umur semasa lawatan",
+            "answer": [
+                {
+                    "valueQuantity": {
+                        "value": 2,
+                        "unit": "bulan"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "child-2m.3",
+            "text": "Aktiviti",
+            "item": [
+                {
+                    "linkId": "child-2m.3.1",
+                    "text": "Berat (kg)",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 4,
+                                "unit": "kg"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-2m.3.1.1",
+                                    "text": "Catatan (Normal/KBB/KBBT/MP)",
+                                    "answer": [
+                                        {
+                                            "valueString": "insert entry here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-2m.3.2",
+                    "text": "Panjang (cm)",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 13,
+                                "unit": "cm"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-2m.3.2.1",
+                                    "text": "Catatan (Normal/B/BT/ME)",
+                                    "answer": [
+                                        {
+                                            "valueString": "insert entry here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-2m.3.3",
+                    "text": "BMI (kg/m2)",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 12,
+                                "unit": "kg/m2"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-2m.3.3.1",
+                                    "text": "Catatan (normal/MP/B/BT)",
+                                    "answer": [
+                                        {
+                                            "valueString": "insert entry here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-2m.3.4",
+                    "text": "Lilitan kepala (cm)",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 12,
+                                "unit": "cm"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-2m.3.4.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "insert entry here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-2m.3.5",
+                    "text": "Pemeriksaan fizikal",
+                    "answer": [
+                        {
+                            "valueString": "insert entry here",
+                            "item": [
+                                {
+                                    "linkId": "child-2m.3.5.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "insert entry here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-2m.3.6",
+                    "text": "Tindakbalas",
+                    "answer": [
+                        {
+                            "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "55561003",
+                                "display": "Aktif"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-2m.3.6.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "insert entry here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-2m.3.7",
+                    "text": "Jaundis",
+                    "answer": [
+                        {
+                            "valueString": "insert entry here",
+                            "item": [
+                                {
+                                    "linkId": "child-2m.3.7.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "insert entry here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-2m.3.8",
+                    "text": "Penilaian penyusuan",
+                    "answer": [
+                        {
+                            "valueString": "insert entry here",
+                            "item": [
+                                {
+                                    "linkId": "child-2m.3.8.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "insert entry here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-2m.3.9",
+                    "text": "Imunisasi",
+                    "answer": [
+                        {
+                            "valueString": "insert entry here",
+                            "item": [
+                                {
+                                    "linkId": "child-2m.3.9.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "insert entry here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "child-2m.4",
+            "text": "Perkara yang membimbangkan ibu bapa/penjaga",
+            "answer": [
+                {
+                    "valueString": "insert entry here"
+                }
+            ]
+        },
+        {
+            "linkId": "child-2m.5",
+            "text": "Bimbingan Awal : Tandakan selepas nasihat diberi. Rujuk Panduan Ibubapa/ Penjaga",
+            "item": [
+                {
+                    "linkId": "child-2m.5.1",
+                    "text": "Jika bayi anda menangis berterusan, lakukan sesuatu bagi menenangkan bayi. Minta nasihat atau bantuan daripada keluarga atau kawan terdekat. Dapatkan nasihat pegawai perubatan bagi memastikan tiada masalah yang serius.",
+                    "answer": [
+                        {
+                            "valueBoolean": false
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-2m.5.2",
+                    "text": "Jangan beri bayi anda sebarang ubatan kecuali diarahkan oleh anggota kesihatan",
+                    "answer": [
+                        {
+                            "valueBoolean": false
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-2m.5.3",
+                    "text": "Jika bayi anda demam berpanjangan selepas mendapat imunisasi, sila dapatkan nasihat dari anggota kesihatan",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-2m.5.4",
+                    "text": "Jika anda menghantar bayi anda ke pusat jagaan kanak-kanak atau rumah pengasuh, pilihlah yang selamat, bersih dan tidak ramai bilangan kanakkanaknya. Sekiranya anda ingin menghantar anak anda ke pusat asuhan, pastikan:  \na. Berdaftar dengan Jabatan Kebajikan Masyarakat.   \nb. Persekitaran yang selamat dan bersih.  \nc. Mempunyai penjaga yang terlatih.   \n d. Anda dibenarkan melawat anak pada bila-bila masa",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

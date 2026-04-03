@@ -1,0 +1,104 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "AllergyIntolerance-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/AllergyIntolerance-my-core",
+  "version": "2.0.0",
+  "name": "AllergyIntoleranceMyCore",
+  "title": "AllergyIntolerance (MY Core)",
+  "status": "active",
+  "date": "2023-09-21T06:03:40.058114+00:00",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "AllergyIntolerance",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "AllergyIntolerance.extension",
+        "path": "AllergyIntolerance.extension",
+        "min": 1
+      },
+      {
+        "id": "AllergyIntolerance.extension:formulary",
+        "path": "AllergyIntolerance.extension",
+        "sliceName": "formulary",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/formulary-boolean-my-core"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "AllergyIntolerance.category",
+        "path": "AllergyIntolerance.category",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "AllergyIntolerance.code",
+        "path": "AllergyIntolerance.code",
+        "min": 1,
+        "binding": {
+          "strength": "example",
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/allergy-code-my-core"
+        }
+      },
+      {
+        "id": "AllergyIntolerance.code.text",
+        "path": "AllergyIntolerance.code.text",
+        "min": 1
+      },
+      {
+        "id": "AllergyIntolerance.recordedDate",
+        "path": "AllergyIntolerance.recordedDate",
+        "min": 1
+      },
+      {
+        "id": "AllergyIntolerance.reaction.extension",
+        "path": "AllergyIntolerance.reaction.extension",
+        "min": 1
+      },
+      {
+        "id": "AllergyIntolerance.reaction.extension:formulary",
+        "path": "AllergyIntolerance.reaction.extension",
+        "sliceName": "formulary",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/formulary-boolean-my-core"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "AllergyIntolerance.reaction.substance",
+        "path": "AllergyIntolerance.reaction.substance",
+        "binding": {
+          "strength": "example",
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/drug-my-core"
+        }
+      },
+      {
+        "id": "AllergyIntolerance.reaction.manifestation",
+        "path": "AllergyIntolerance.reaction.manifestation",
+        "binding": {
+          "strength": "example",
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/allergy-manifestation-my-core"
+        }
+      }
+    ]
+  },
+  "experimental": false
+}

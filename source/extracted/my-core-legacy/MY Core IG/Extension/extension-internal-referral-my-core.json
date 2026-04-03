@@ -1,0 +1,54 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "internal-refferal-my-core",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2023-06-06T06:03:39.6876814+00:00"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode": "pa"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger": 1
+    }
+  ],
+  "url": "http://fhir.hie.moh.gov.my/StructureDefinition/internal-refferal-my-core",
+  "version": "1.0.0",
+  "name": "ExtensionInternalReferralMyCore",
+  "title": "ExtensionInternalReferral (MY Core)",
+  "status": "active",
+  "date": "2023-06-08T03:08:38.5864399+00:00",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Encounter"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://fhir.hie.moh.gov.my/StructureDefinition/internal-refferal-my-core"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      }
+    ]
+  }
+}

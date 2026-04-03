@@ -1,0 +1,35 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-foreigner-type-my-core",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2023-05-30T16:35:34.496+08:00",
+    "source": "#2xQ2o9tEGjPn8CgZ"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemForeignerType (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/foreigner-type-my-core</tt><p>Foreinger Type</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/foreigner-type-my-core",
+  "name": "CodeSystemForeignerTypeMyCore",
+  "title": "CodeSystemForeignerType (MY Core)",
+  "status": "active",
+  "date": "2023-06-08T03:08:38.5864399+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "description": "Foreinger Type",
+  "compositional": false,
+  "content": "complete",
+  "count": 2,
+  "concept": [
+    {
+      "code": "padi",
+      "display": "PADI",
+      "definition": "Pedatang Asing Dengan Izin"
+    },
+    {
+      "code": "pati",
+      "display": "PATI",
+      "definition": "Pedatang Asing Tanpa Izin"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+code,display,system,include_type,valueset_url,valueset_name
+8302-2,Body height,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-anthropometry-my-core,ValueSetObservationAnthropometryMyCore
+8306-3,Body height -lying,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-anthropometry-my-core,ValueSetObservationAnthropometryMyCore
+9843-4,Head Circumference,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-anthropometry-my-core,ValueSetObservationAnthropometryMyCore
+29463-7,Body weight,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-anthropometry-my-core,ValueSetObservationAnthropometryMyCore
+39156-5,Body mass index (BMI) [Ratio],http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-anthropometry-my-core,ValueSetObservationAnthropometryMyCore
+8280-0,Waist Circumference,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-anthropometry-my-core,ValueSetObservationAnthropometryMyCore
+8249-2,Chest Circumference,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/observation-anthropometry-my-core,ValueSetObservationAnthropometryMyCore

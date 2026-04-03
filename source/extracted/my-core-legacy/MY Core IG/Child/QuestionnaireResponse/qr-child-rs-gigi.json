@@ -1,0 +1,226 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "id": "qr-child-rs-gigi",
+  "meta": {
+    "source": "http://provider.hie.moh.gov.my",
+    "profile": [
+        "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+    ]
+},
+  "identifier": {
+      "system": "http://fhir.hie.moh.gov.my/sid/template-section",
+      "value": "qr-child-rs-gigi"
+  },
+  "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-child-rs-gigi",
+  "status": "completed",
+  "subject": {
+      "reference": "Patient/3a1fe467-cad5-4ec9-83f8-fd6dfb46470c"
+  },
+  "authored": "2023-04-27T00:20:14.414Z",
+  "item": [
+      {
+          "linkId": "child-rs-gigi.1",
+          "text": "Kiri Atas",
+          "item": [
+              {
+                  "linkId": "child-rs-gigi.1.1",
+                  "text": "Tarikh Insisor (Kacip) Pertama tumbuh",
+                  "answer": [
+                      {
+                          "valueDate": "2023-05-01"
+                      }
+                  ]
+              },
+              {
+                  "linkId": "child-rs-gigi.1.2",
+                  "text": "Tarikh Insisor (Kacip) Kedua tumbuh",
+                  "answer": [
+                      {
+                          "valueDate": "2023-05-01"
+                      }
+                  ]
+              },
+              {
+                  "linkId": "child-rs-gigi.1.3",
+                  "text": "Tarikh Kanin Taring tumbuh",
+                  "answer": [
+                      {
+                          "valueDate": "2023-05-01"
+                      }
+                  ]
+              },
+              {
+                  "linkId": "child-rs-gigi.1.4",
+                  "text": "Tarikh Geraham Pertama tumbuh",
+                  "answer": [
+                      {
+                          "valueDate": "2023-05-01"
+                      }
+                  ]
+              },
+              {
+                  "linkId": "child-rs-gigi.1.5",
+                  "text": "Tarikh Geraham Kedua tumbuh",
+                  "answer": [
+                      {
+                          "valueDate": "2023-05-01"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "linkId": "child-rs-gigi.2",
+          "text": "Kiri Bawah",
+          "item": [
+              {
+                  "linkId": "child-rs-gigi.2.1",
+                  "text": "Tarikh Insisor (Kacip) Pertama tumbuh",
+                  "answer": [
+                      {
+                          "valueDate": "2023-05-01"
+                      }
+                  ]
+              },
+              {
+                  "linkId": "child-rs-gigi.2.2",
+                  "text": "Tarikh Insisor (Kacip) Kedua tumbuh",
+                  "answer": [
+                      {
+                          "valueDate": "2023-05-01"
+                      }
+                  ]
+              },
+              {
+                  "linkId": "child-rs-gigi.2.3",
+                  "text": "Tarikh Kanin Taring tumbuh",
+                  "answer": [
+                      {
+                          "valueDate": "2023-05-01"
+                      }
+                  ]
+              },
+              {
+                  "linkId": "child-rs-gigi.2.4",
+                  "text": "Tarikh Geraham Pertama tumbuh",
+                  "answer": [
+                      {
+                          "valueDate": "2023-05-01"
+                      }
+                  ]
+              },
+              {
+                  "linkId": "child-rs-gigi.2.5",
+                  "text": "Tarikh Geraham Kedua tumbuh",
+                  "answer": [
+                      {
+                          "valueDate": "2023-05-01"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "linkId": "child-rs-gigi.3",
+          "text": "Kanan Bawah",
+          "item": [
+              {
+                  "linkId": "child-rs-gigi.3.1",
+                  "text": "Tarikh Insisor (Kacip) Pertama tumbuh",
+                  "answer": [
+                      {
+                          "valueDate": "2023-05-02"
+                      }
+                  ]
+              },
+              {
+                  "linkId": "child-rs-gigi.3.2",
+                  "text": "Tarikh Insisor (Kacip) Kedua tumbuh",
+                  "answer": [
+                      {
+                          "valueDate": "2023-05-02"
+                      }
+                  ]
+              },
+              {
+                  "linkId": "child-rs-gigi.3.3",
+                  "text": "Tarikh Kanin Taring tumbuh",
+                  "answer": [
+                      {
+                          "valueDate": "2023-05-02"
+                      }
+                  ]
+              },
+              {
+                  "linkId": "child-rs-gigi.3.4",
+                  "text": "Tarikh Geraham Pertama tumbuh",
+                  "answer": [
+                      {
+                          "valueDate": "2023-05-02"
+                      }
+                  ]
+              },
+              {
+                  "linkId": "child-rs-gigi.3.5",
+                  "text": "Tarikh Geraham Kedua tumbuh",
+                  "answer": [
+                      {
+                          "valueDate": "2023-05-02"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "linkId": "child-rs-gigi.4",
+          "text": "Kanan Atas",
+          "item": [
+              {
+                  "linkId": "child-rs-gigi.4.1",
+                  "text": "Tarikh Insisor (Kacip) Pertama tumbuh",
+                  "answer": [
+                      {
+                          "valueDate": "2023-05-01"
+                      }
+                  ]
+              },
+              {
+                  "linkId": "child-rs-gigi.4.2",
+                  "text": "Tarikh Insisor (Kacip) Kedua tumbuh",
+                  "answer": [
+                      {
+                          "valueDate": "2023-05-01"
+                      }
+                  ]
+              },
+              {
+                  "linkId": "child-rs-gigi.4.3",
+                  "text": "Tarikh Kanin Taring tumbuh",
+                  "answer": [
+                      {
+                          "valueDate": "2023-05-02"
+                      }
+                  ]
+              },
+              {
+                  "linkId": "child-rs-gigi.4.4",
+                  "text": "Tarikh Geraham Pertama tumbuh",
+                  "answer": [
+                      {
+                          "valueDate": "2023-05-01"
+                      }
+                  ]
+              },
+              {
+                  "linkId": "child-rs-gigi.4.5",
+                  "text": "Tarikh Geraham Kedua tumbuh",
+                  "answer": [
+                      {
+                          "valueDate": "2023-05-01"
+                      }
+                  ]
+              }
+          ]
+      }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Schedule-my-core",
+  "url": "http://fhir.hie.moh.gov.my/StructureDefinition/Schedule-my-core",
+  "version": "1.0.0",
+  "name": "ScheduleMyCore",
+  "title": "Schedule (MY Core)",
+  "status": "active",
+  "date": "2023-04-14T00:37:19.1253569+00:00",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Schedule",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Schedule",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Schedule.extension",
+        "path": "Schedule.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 1
+      },
+      {
+        "id": "Schedule.extension:scheduleType",
+        "path": "Schedule.extension",
+        "sliceName": "scheduleType",
+        "min": 1,
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://fhir.hie.moh.gov.my/StructureDefinition/schedule-type-my-core"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "Schedule.extension:addressState",
+        "path": "Schedule.extension",
+        "sliceName": "addressState",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://fhir.hie.moh.gov.my/StructureDefinition/address-state-my-core"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "Schedule.extension:addressDistrict",
+        "path": "Schedule.extension",
+        "sliceName": "addressDistrict",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://fhir.hie.moh.gov.my/StructureDefinition/address-district-my-core"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "Schedule.extension:schedulePosition",
+        "path": "Schedule.extension",
+        "sliceName": "schedulePosition",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://fhir.hie.moh.gov.my/StructureDefinition/schedule-position-my-core"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "Schedule.extension:audit",
+        "path": "Schedule.extension",
+        "sliceName": "audit",
+        "short": "Record audit on individual who recorded and updated the data",
+        "definition": "Record audit on individual who recorded and updated the data",
+        "comment": "Record audit on individual who recorded and updated the data",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://fhir.hie.moh.gov.my/StructureDefinition/audit-my-core"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "Schedule.extension:serviceProvider",
+        "path": "Schedule.extension",
+        "sliceName": "serviceProvider",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://fhir.hie.moh.gov.my/StructureDefinition/service-provider-my-core"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "Schedule.serviceCategory",
+        "path": "Schedule.serviceCategory",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "coding.system"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 1,
+        "binding": {
+          "strength": "example",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/encounter-class-my-core"
+        }
+      },
+      {
+        "id": "Schedule.serviceCategory:encounterClass",
+        "path": "Schedule.serviceCategory",
+        "sliceName": "encounterClass",
+        "binding": {
+          "strength": "example",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/encounter-class-my-core"
+        }
+      },
+      {
+        "id": "Schedule.serviceCategory:encounterClass.coding.system",
+        "path": "Schedule.serviceCategory.coding.system",
+        "fixedUri": "http://fhir.hie.moh.gov.my/ValueSet/encounter-class-my-core"
+      },
+      {
+        "id": "Schedule.serviceCategory:serviceRequestCategory",
+        "path": "Schedule.serviceCategory",
+        "sliceName": "serviceRequestCategory",
+        "binding": {
+          "strength": "example",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/servicerequest-category-my-core"
+        }
+      },
+      {
+        "id": "Schedule.serviceCategory:serviceRequestCategory.coding.system",
+        "path": "Schedule.serviceCategory.coding.system",
+        "fixedUri": "http://fhir.hie.moh.gov.my/ValueSet/servicerequest-category-my-core"
+      },
+      {
+        "id": "Schedule.serviceType",
+        "path": "Schedule.serviceType",
+        "max": "1",
+        "binding": {
+          "strength": "example",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/service-type-my-core"
+        }
+      },
+      {
+        "id": "Schedule.specialty",
+        "path": "Schedule.specialty",
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/specialty-my-core"
+        }
+      },
+      {
+        "id": "Schedule.actor.type",
+        "path": "Schedule.actor.type",
+        "min": 1
+      },
+      {
+        "id": "Schedule.actor.display",
+        "path": "Schedule.actor.display",
+        "min": 1
+      }
+    ]
+  }
+}

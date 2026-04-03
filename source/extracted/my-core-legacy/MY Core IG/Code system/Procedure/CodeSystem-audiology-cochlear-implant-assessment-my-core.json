@@ -1,0 +1,141 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-audiology-cochlear-implant-assessment-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemAudiologyCochlearImplantAssessment(MY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/audiology-cochlear-implant-assessment-my-core</tt><p>Audiology Cochlear Implant Assessment</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/audiology-cochlear-implant-assessment-my-core",
+  "name": "CodeSystemAudiologyCochlearImplantAssessmentMyCore",
+  "title": "CodeSystemAudiologyCochlearImplantAssessment(MY Core)",
+  "status": "active",
+  "date": "2023-07-25T00:23:50.1094378+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "description": "Audiology Cochlear Implant Assessment",
+  "valueSet": "http://fhir.hie.moh.gov.my/ValueSet/audiology-cochlear-implant-assessment-my-core",
+  "compositional": false,
+  "content": "complete",
+  "count": 24,
+  "concept": [
+    {
+      "code": "10",
+      "display": "POST OP FOLLOW UP INSICION SITE CHECK",
+      "definition": "POST OP FOLLOW UP INSICION SITE CHECK"
+    },
+    {
+      "code": "11",
+      "display": "POST OP FOLLOW UP CI DEVICE CHECK",
+      "definition": "POST OP FOLLOW UP CI DEVICE CHECK"
+    },
+    {
+      "code": "12",
+      "display": "POST OP FOLLOW UP IMPEDANCE CHECK",
+      "definition": "POST OP FOLLOW UP IMPEDANCE CHECK"
+    },
+    {
+      "code": "13",
+      "display": "POST OP FOLLOW UP NEURAL RESPONSE TELEMETRY CHECK",
+      "definition": "POST OP FOLLOW UP NEURAL RESPONSE TELEMETRY CHECK"
+    },
+    {
+      "code": "14",
+      "display": "POST OP FOLLOW UP ECAP",
+      "definition": "POST OP FOLLOW UP ECAP"
+    },
+    {
+      "code": "15",
+      "display": "POST OP FOLLOW UP ESRT",
+      "definition": "POST OP FOLLOW UP ESRT"
+    },
+    {
+      "code": "16",
+      "display": "POST OP FOLLOW UP EABR",
+      "definition": "POST OP FOLLOW UP EABR"
+    },
+    {
+      "code": "17",
+      "display": "POST OP FOLLOW UP MAPPING/HEARING PROFILE",
+      "definition": "POST OP FOLLOW UP MAPPING/HEARING PROFILE"
+    },
+    {
+      "code": "18",
+      "display": "POST OP FOLLOW UP BALANCING",
+      "definition": "POST OP FOLLOW UP BALANCING"
+    },
+    {
+      "code": "19",
+      "display": "POST OP FOLLOW UP DATA LOGGING",
+      "definition": "POST OP FOLLOW UP DATA LOGGING"
+    },
+    {
+      "code": "20",
+      "display": "POST OP COUNSELLING",
+      "definition": "POST OP COUNSELLING"
+    },
+    {
+      "code": "21",
+      "display": "CI OUTCOMES CuHI-QoL",
+      "definition": "CI OUTCOMES CuHI-QoL"
+    },
+    {
+      "code": "22",
+      "display": "CI OUTCOMES NCIQ",
+      "definition": "CI OUTCOMES NCIQ"
+    },
+    {
+      "code": "23",
+      "display": "CI OUTCOMES OTHERS",
+      "definition": "CI OUTCOMES OTHERS"
+    },
+    {
+      "code": "00",
+      "display": "PRE OP ASSESSMENT",
+      "definition": "PRE OP ASSESSMENT"
+    },
+    {
+      "code": "01",
+      "display": "INTRA OP IMPENDANCE TESTING",
+      "definition": "INTRA OP IMPENDANCE TESTING"
+    },
+    {
+      "code": "02",
+      "display": "INTRA OP TELEMETRY TESTING",
+      "definition": "INTRA OP TELEMETRY TESTING"
+    },
+    {
+      "code": "03",
+      "display": "INTRA OP ELECTRICAL STAPEDIUS REFLEX THRESHOLD",
+      "definition": "INTRA OP ELECTRICAL STAPEDIUS REFLEX THRESHOLD"
+    },
+    {
+      "code": "04",
+      "display": "INTRA OP ELECTRICA AUDITORY BRAINSTEM RESPONSE",
+      "definition": "INTRA OP ELECTRICA AUDITORY BRAINSTEM RESPONSE"
+    },
+    {
+      "code": "05",
+      "display": "POST OP SWITCH ON/ACTIVATION INCISION SITE CHECK",
+      "definition": "POST OP SWITCH ON/ACTIVATION INCISION SITE CHECK"
+    },
+    {
+      "code": "06",
+      "display": "POST OP SWITCH ON/ACTIVATION CI DEVICE CHECK",
+      "definition": "POST OP SWITCH ON/ACTIVATION CI DEVICE CHECK"
+    },
+    {
+      "code": "07",
+      "display": "POST OP SWITCH ON/ACTIVATION IMPEDANCE CHECK",
+      "definition": "POST OP SWITCH ON/ACTIVATION IMPEDANCE CHECK"
+    },
+    {
+      "code": "08",
+      "display": "POST OP SWITCH ON/ACTIVATION NEURAL RESPONSE TELEMETRY CHECK",
+      "definition": "POST OP SWITCH ON/ACTIVATION NEURAL RESPONSE TELEMETRY CHECK"
+    },
+    {
+      "code": "09",
+      "display": "POST OP SWITCH ON/ACTIVATION PROGRAMMING",
+      "definition": "POST OP SWITCH ON/ACTIVATION PROGRAMMING"
+    }
+  ]
+}

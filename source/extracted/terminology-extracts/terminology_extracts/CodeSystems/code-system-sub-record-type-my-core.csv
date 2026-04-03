@@ -1,0 +1,4 @@
+code,display,definition,system_url,system_name
+sub-001,Maternal Health Record,,http://fhir.hie.moh.gov.my/CodeSystem/sub-record-type-my-core,CodeSystemSubRecordTypeMyCore
+sub-002,Child Health Record,,http://fhir.hie.moh.gov.my/CodeSystem/sub-record-type-my-core,CodeSystemSubRecordTypeMyCore
+medication-prescription,Medication Prescription List,,http://fhir.hie.moh.gov.my/CodeSystem/sub-record-type-my-core,CodeSystemSubRecordTypeMyCore

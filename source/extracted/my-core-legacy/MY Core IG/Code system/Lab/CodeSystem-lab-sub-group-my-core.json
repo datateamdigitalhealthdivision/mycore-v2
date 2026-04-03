@@ -1,0 +1,64 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-lab-sub-group-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemLabSubGroup (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/lab-sub-group-my-core</tt><p>Malaysia Lab Sub Group</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/lab-sub-group-my-core",
+  "version": "1.0.0",
+  "name": "CodeSystemLabSubGroupMyCore",
+  "title": "CodeSystemLabSubGroup (MY Core)",
+  "status": "active",
+  "date": "2023-09-25T00:25:56.9414895+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Malaysia Lab Sub Group",
+  "compositional": false,
+  "content": "complete",
+  "count": 6,
+  "concept": [
+    {
+      "code": "01",
+      "display": "Clinical Chemistry"
+    },
+    {
+      "code": "02",
+      "display": "Pathology"
+    },
+    {
+      "code": "03",
+      "display": "Hematology"
+    },
+    {
+      "code": "04",
+      "display": "Blood Bank"
+    },
+    {
+      "code": "05",
+      "display": "Serology"
+    },
+    {
+      "code": "06",
+      "display": "Molecular"
+    },
+    {
+      "code": "07",
+      "display": "Microbiology"
+    },
+    {
+      "code": "08",
+      "display": "Toxicology"
+    }
+  ]
+}

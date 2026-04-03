@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-death-certificate-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetDeathCertificate (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/ValueSet/death-certificate-my-core</tt><p>Extension from FHIR base DeathCertificate Value Set</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/death-certificate-my-core",
+  "identifier": [
+    {
+      "value": "value-set-death-certificate-my-core"
+    }
+  ],
+  "name": "ValueSetDeathCertificateMyCore",
+  "title": "ValueSetDeathCertificate (MY Core)",
+  "status": "active",
+  "date": "2023-03-30T05:18:54.6783317+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "description": "PIK Death Certificate Diagnosis Code",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/death-certificate-my-core",
+        "concept": [
+          {
+            "code": "02",
+            "display": "Underlying Condition"
+          },
+          {
+            "code": "03",
+            "display": "Underlying Cause of Death"
+          },
+          {
+            "code": "04",
+            "display": "External Causes of Morbidity & Mortality"
+          },
+          {
+            "code": "10",
+            "display": "Terminal Cause of Death"
+          }
+        ]
+      }
+    ]
+  }
+}

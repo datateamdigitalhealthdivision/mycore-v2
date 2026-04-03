@@ -1,0 +1,5 @@
+code,display,definition,system_url,system_name
+0,Other,Other,http://fhir.hie.moh.gov.my/CodeSystem/cancellation-reason-my-core,CodeSystemCancelationReasonMyCore
+1,Customer/Patient request,Customer/Patient request,http://fhir.hie.moh.gov.my/CodeSystem/cancellation-reason-my-core,CodeSystemCancelationReasonMyCore
+2,Reschedule appointment,Reschedule appointment,http://fhir.hie.moh.gov.my/CodeSystem/cancellation-reason-my-core,CodeSystemCancelationReasonMyCore
+3,Organizer request,Organizer request,http://fhir.hie.moh.gov.my/CodeSystem/cancellation-reason-my-core,CodeSystemCancelationReasonMyCore

@@ -1,0 +1,14 @@
+code,display,definition,system_url,system_name
+10,Cytotoxic,Cytotoxic,http://fhir.hie.moh.gov.my/CodeSystem/drug-sub-group-my-core,CodeSystemDrugSubGroupMyCore
+20,External Preparation,External Preparation,http://fhir.hie.moh.gov.my/CodeSystem/drug-sub-group-my-core,CodeSystemDrugSubGroupMyCore
+30,"Inhalers, Eye/Ear/Nose Preparations","Inhalers, Eye/Ear/Nose Preparations",http://fhir.hie.moh.gov.my/CodeSystem/drug-sub-group-my-core,CodeSystemDrugSubGroupMyCore
+40,Injectables,Injectables,http://fhir.hie.moh.gov.my/CodeSystem/drug-sub-group-my-core,CodeSystemDrugSubGroupMyCore
+50,Internal Preparation,Internal Preparation,http://fhir.hie.moh.gov.my/CodeSystem/drug-sub-group-my-core,CodeSystemDrugSubGroupMyCore
+60,IV/IP/IRR Solution,IV/IP/IRR Solution,http://fhir.hie.moh.gov.my/CodeSystem/drug-sub-group-my-core,CodeSystemDrugSubGroupMyCore
+70,Parenteral Nutrition,Parenteral Nutrition,http://fhir.hie.moh.gov.my/CodeSystem/drug-sub-group-my-core,CodeSystemDrugSubGroupMyCore
+80,Psychotropic/Narcotic,Psychotropic/Narcotic,http://fhir.hie.moh.gov.my/CodeSystem/drug-sub-group-my-core,CodeSystemDrugSubGroupMyCore
+90,Raw Material,Raw Material,http://fhir.hie.moh.gov.my/CodeSystem/drug-sub-group-my-core,CodeSystemDrugSubGroupMyCore
+100,Tablet/Capsule,Tablet/Capsule,http://fhir.hie.moh.gov.my/CodeSystem/drug-sub-group-my-core,CodeSystemDrugSubGroupMyCore
+110,Vaccine,Vaccine,http://fhir.hie.moh.gov.my/CodeSystem/drug-sub-group-my-core,CodeSystemDrugSubGroupMyCore
+7880,Others,Others,http://fhir.hie.moh.gov.my/CodeSystem/drug-sub-group-my-core,CodeSystemDrugSubGroupMyCore
+7890,Radiopharmaceuticals,Radiopharmaceuticals,http://fhir.hie.moh.gov.my/CodeSystem/drug-sub-group-my-core,CodeSystemDrugSubGroupMyCore

@@ -1,0 +1,396 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-person-title-my-core",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2022-03-17T23:17:29.24+00:00"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemPersonTitle (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core</tt></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/person-title-my-core",
+  "name": "CodeSystemPersonTitleMyCore",
+  "title": "CodeSystemPersonTitle (MY Core)",
+  "status": "active",
+  "date": "2023-01-12T21:13:03.0089063+00:00",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "compositional": false,
+  "content": "complete",
+  "count": 73,
+  "concept": [
+    {
+      "code": "0",
+      "display": "No Information",
+      "definition": "No Information"
+    },
+    {
+      "code": "C001",
+      "display": "Tun",
+      "definition": "Tun"
+    },
+    {
+      "code": "C002",
+      "display": "Tan Sri",
+      "definition": "Tan Sri"
+    },
+    {
+      "code": "C003",
+      "display": "Tan Sri Dato'",
+      "definition": "Tan Sri Dato'"
+    },
+    {
+      "code": "C004",
+      "display": "Tan Sri Dato' Dr",
+      "definition": "Tan Sri Dato' Dr"
+    },
+    {
+      "code": "C005",
+      "display": "Tan Sri Dato' Ir",
+      "definition": "Tan Sri Dato' Ir"
+    },
+    {
+      "code": "C006",
+      "display": "Tan Sri Dato Seri",
+      "definition": "Tan Sri Dato Seri"
+    },
+    {
+      "code": "C007",
+      "display": "Tan Sri Datuk",
+      "definition": "Tan Sri Datuk"
+    },
+    {
+      "code": "C008",
+      "display": "Tan Sri Datuk Dr",
+      "definition": "Tan Sri Datuk Dr"
+    },
+    {
+      "code": "C009",
+      "display": "Tan Sri Datuk Professor",
+      "definition": "Tan Sri Datuk Professor"
+    },
+    {
+      "code": "C010",
+      "display": "Tan Sri Datuk Professor Dr",
+      "definition": "Tan Sri Datuk Professor Dr"
+    },
+    {
+      "code": "C011",
+      "display": "Tan Sri Dr",
+      "definition": "Tan Sri Dr"
+    },
+    {
+      "code": "C012",
+      "display": "Tan Sri General",
+      "definition": "Tan Sri General"
+    },
+    {
+      "code": "C013",
+      "display": "Tan Sri Professor",
+      "definition": "Tan Sri Professor"
+    },
+    {
+      "code": "C014",
+      "display": "Dato'",
+      "definition": "Dato'"
+    },
+    {
+      "code": "C015",
+      "display": "Dato' Dr",
+      "definition": "Dato' Dr"
+    },
+    {
+      "code": "C016",
+      "display": "Dato' Ir",
+      "definition": "Dato' Ir"
+    },
+    {
+      "code": "C017",
+      "display": "Dato' Ir Dr",
+      "definition": "Dato' Ir Dr"
+    },
+    {
+      "code": "C018",
+      "display": "Dato' Paduka Dr",
+      "definition": "Dato' Paduka Dr"
+    },
+    {
+      "code": "C019",
+      "display": "Dato' Professor Madya Dr",
+      "definition": "Dato' Professor Madya Dr"
+    },
+    {
+      "code": "C020",
+      "display": "Dato' Senara Muda",
+      "definition": "Dato' Senara Muda"
+    },
+    {
+      "code": "C021",
+      "display": "Dato' Seri",
+      "definition": "Dato' Seri"
+    },
+    {
+      "code": "C022",
+      "display": "Dato' Sri",
+      "definition": "Dato' Sri"
+    },
+    {
+      "code": "C024",
+      "display": "Datuk",
+      "definition": "Datuk"
+    },
+    {
+      "code": "C025",
+      "display": "Datuk Amar",
+      "definition": "Datuk Amar"
+    },
+    {
+      "code": "C026",
+      "display": "Datuk Bentara Luar",
+      "definition": "Datuk Bentara Luar"
+    },
+    {
+      "code": "C027",
+      "display": "Datuk Bentara Raja",
+      "definition": "Datuk Bentara Raja"
+    },
+    {
+      "code": "C028",
+      "display": "Datuk Dr",
+      "definition": "Datuk Dr"
+    },
+    {
+      "code": "C029",
+      "display": "Datuk Ir",
+      "definition": "Datuk Ir"
+    },
+    {
+      "code": "C030",
+      "display": "Datuk Patinggi",
+      "definition": "Datuk Patinggi"
+    },
+    {
+      "code": "C031",
+      "display": "Datuk Professor",
+      "definition": "Datuk Professor"
+    },
+    {
+      "code": "C032",
+      "display": "Datuk Professor Dr",
+      "definition": "Datuk Professor Dr"
+    },
+    {
+      "code": "C033",
+      "display": "Datuk Setia",
+      "definition": "Datuk Setia"
+    },
+    {
+      "code": "C034",
+      "display": "Datuk Setia Wangsa",
+      "definition": "Datuk Setia Wangsa"
+    },
+    {
+      "code": "C035",
+      "display": "Datuk Sri",
+      "definition": "Datuk Sri"
+    },
+    {
+      "code": "C036",
+      "display": "Datuk Sri Amar DiRaja",
+      "definition": "Datuk Sri Amar DiRaja"
+    },
+    {
+      "code": "C037",
+      "display": "Datuk Sri Dr",
+      "definition": "Datuk Sri Dr"
+    },
+    {
+      "code": "C038",
+      "display": "Datuk Wira",
+      "definition": "Datuk Wira"
+    },
+    {
+      "code": "C039",
+      "display": "Datuk Wira Jaya",
+      "definition": "Datuk Wira Jaya"
+    },
+    {
+      "code": "C040",
+      "display": "Doktor",
+      "definition": "Doktor"
+    },
+    {
+      "code": "C041",
+      "display": "Ir",
+      "definition": "Ir"
+    },
+    {
+      "code": "C042",
+      "display": "Ir Dr",
+      "definition": "Ir Dr"
+    },
+    {
+      "code": "C047",
+      "display": "Major",
+      "definition": "Major"
+    },
+    {
+      "code": "C048",
+      "display": "Professor",
+      "definition": "Professor"
+    },
+    {
+      "code": "C049",
+      "display": "Professor DiRaja",
+      "definition": "Professor DiRaja"
+    },
+    {
+      "code": "C050",
+      "display": "Professor Dr",
+      "definition": "Professor Dr"
+    },
+    {
+      "code": "C051",
+      "display": "Professor Madya",
+      "definition": "Professor Madya"
+    },
+    {
+      "code": "C052",
+      "display": "Professor Madya Dr",
+      "definition": "Professor Madya Dr"
+    },
+    {
+      "code": "C053",
+      "display": "Datu",
+      "definition": "Datu"
+    },
+    {
+      "code": "L001",
+      "display": "Encik",
+      "definition": "Encik"
+    },
+    {
+      "code": "L002",
+      "display": "Tuan",
+      "definition": "Tuan"
+    },
+    {
+      "code": "L003",
+      "display": "Haji",
+      "definition": "Haji"
+    },
+    {
+      "code": "P001",
+      "display": "To' Puan",
+      "definition": "To' Puan"
+    },
+    {
+      "code": "P002",
+      "display": "Toh Puan",
+      "definition": "Toh Puan"
+    },
+    {
+      "code": "P003",
+      "display": "Puan Sri",
+      "definition": "Puan Sri"
+    },
+    {
+      "code": "P004",
+      "display": "Puan Sri Datin",
+      "definition": "Puan Sri Datin"
+    },
+    {
+      "code": "P005",
+      "display": "Puan Sri Datin Professor",
+      "definition": "Puan Sri Datin Professor"
+    },
+    {
+      "code": "P006",
+      "display": "Puan Sri Dr",
+      "definition": "Puan Sri Dr"
+    },
+    {
+      "code": "P007",
+      "display": "Puan Sri Utama",
+      "definition": "Puan Sri Utama"
+    },
+    {
+      "code": "P008",
+      "display": "Datin",
+      "definition": "Datin"
+    },
+    {
+      "code": "P009",
+      "display": "Datin Amar",
+      "definition": "Datin Amar"
+    },
+    {
+      "code": "P010",
+      "display": "Datin Dr",
+      "definition": "Datin Dr"
+    },
+    {
+      "code": "P011",
+      "display": "Datin Paduka",
+      "definition": "Datin Paduka"
+    },
+    {
+      "code": "P012",
+      "display": "Datin Patinggi",
+      "definition": "Datin Patinggi"
+    },
+    {
+      "code": "P013",
+      "display": "Datin Professor",
+      "definition": "Datin Professor"
+    },
+    {
+      "code": "P014",
+      "display": "Datin Professor Dr",
+      "definition": "Datin Professor Dr"
+    },
+    {
+      "code": "P015",
+      "display": "Datin Setia",
+      "definition": "Datin Setia"
+    },
+    {
+      "code": "P016",
+      "display": "Datin Sri",
+      "definition": "Datin Sri"
+    },
+    {
+      "code": "P017",
+      "display": "Datin Sri Cempaka",
+      "definition": "Datin Sri Cempaka"
+    },
+    {
+      "code": "P018",
+      "display": "Datin Sri Dr",
+      "definition": "Datin Sri Dr"
+    },
+    {
+      "code": "P019",
+      "display": "Cik",
+      "definition": "Cik"
+    },
+    {
+      "code": "P020",
+      "display": "Puan",
+      "definition": "Puan"
+    },
+    {
+      "code": "P021",
+      "display": "Hajjah",
+      "definition": "Hajjah"
+    }
+  ]
+}

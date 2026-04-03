@@ -1,0 +1,73 @@
+code,display,definition,system_url,system_name
+10,QUESTIONNAIRE AUDITORY PERFORMANCE/DEVELOPMENT EVALUATION,QUESTIONNAIRE AUDITORY PERFORMANCE/DEVELOPMENT EVALUATION,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+11,SPEECH 6 LING'S SOUND TEST,SPEECH 6 LING'S SOUND TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+12,SPEECH HINT,SPEECH HINT,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+13,SPEECH QUICK SIN TEST,SPEECH QUICK SIN TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+14,SPEECH DICHOTIC TEST,SPEECH DICHOTIC TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+15,SPEECH RAPID COMPRESSED TEST,SPEECH RAPID COMPRESSED TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+16,SPEECH WORKING MEMORY TEST,SPEECH WORKING MEMORY TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+17,SPEECH GIN TEST,SPEECH GIN TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+18,SPEECH FREQUENCY/PITCH PATTERN SEQUENCE TEST,SPEECH FREQUENCY/PITCH PATTERN SEQUENCE TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+19,SPEECH DIURATION PATTERN SEQUENCE TEST,SPEECH DIURATION PATTERN SEQUENCE TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+20,SPEECH DICHOTIC LISTENING TEST,SPEECH DICHOTIC LISTENING TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+21,SPEECH TEST OF MONAURAL LOW-REDUNDANCY SPEECH PERCEPTION,SPEECH TEST OF MONAURAL LOW-REDUNDANCY SPEECH PERCEPTION,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+22,SPEECH AUDITORY DISCRIMINATION TEST,SPEECH AUDITORY DISCRIMINATION TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+23,SPEECH TEST OF LOCALIZATION AND LATERALIZATION AND OTHER BINAURAL FUNCTIONS,SPEECH TEST OF LOCALIZATION AND LATERALIZATION AND OTHER BINAURAL FUNCTIONS,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+24,QUESTIONNAIRE ABEL,QUESTIONNAIRE ABEL,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+25,QUESTIONNAIRE CHILD,QUESTIONNAIRE CHILD,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+26,QUESTIONNAIRE COW,QUESTIONNAIRE COW,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+27,QUESTIONNAIRE ELF,QUESTIONNAIRE ELF,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+28,QUESTIONNAIRE IT-MAIS,QUESTIONNAIRE IT-MAIS,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+29,QUESTIONNAIRE GASP,QUESTIONNAIRE GASP,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+30,QUESTIONNAIRE MUSS,QUESTIONNAIRE MUSS,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+31,QUESTIONNAIRE LIFE,QUESTIONNAIRE LIFE,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+32,QUESTIONNAIRE LITTLE EARS: AUDIOTORY,QUESTIONNAIRE LITTLE EARS: AUDIOTORY,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+33,QUESTIONNAIRE MAIS,QUESTIONNAIRE MAIS,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+34,QUESTIONNAIRE PEACH,QUESTIONNAIRE PEACH,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+35,QUESTIONNAIRE APHAB,QUESTIONNAIRE APHAB,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+36,QUESTIONNAIRE CAP 2,QUESTIONNAIRE CAP 2,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+37,QUESTIONNAIRE SIR,QUESTIONNAIRE SIR,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+38,QUESTIONNAIRE PTP,QUESTIONNAIRE PTP,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+39,QUESTIONNAIRE LISTENING SKILLS SCREENING,QUESTIONNAIRE LISTENING SKILLS SCREENING,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+40,QUESTIONNAIRE PRESCHOOL SIFTER,QUESTIONNAIRE PRESCHOOL SIFTER,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+41,QUESTIONNAIRE TEACH,QUESTIONNAIRE TEACH,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+42,QUESTTIONNAIRE COSI-C,QUESTTIONNAIRE COSI-C,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+43,QUESTIONNAIRE DIAL,QUESTIONNAIRE DIAL,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+44,QUESTIONNAIRE FEW,QUESTIONNAIRE FEW,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+45,QUESTIONNAIRE FAPI,QUESTIONNAIRE FAPI,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+46,QUESTIONNAIRE HABIT,QUESTIONNAIRE HABIT,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+47,SPEECH CHILD 6 LING'S SOUND TEST,SPEECH CHILD 6 LING'S SOUND TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+48,SPEECH MONOSYLLABIC TROCHEE-POLYSYLLABIC TEST,SPEECH MONOSYLLABIC TROCHEE-POLYSYLLABIC TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+49,SPEECH MONOSYLLABIC CLOSED-SET TEST,SPEECH MONOSYLLABIC CLOSED-SET TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+50,SPEECH CLOSED-SET SENTENCE TEST,SPEECH CLOSED-SET SENTENCE TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+51,SPEECH COT,SPEECH COT,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+52,SPEECH MONOSYLLABIC OPEN-SET TEST,SPEECH MONOSYLLABIC OPEN-SET TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+53,SPEECH CHILD HINT,SPEECH CHILD HINT,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+54,SPEECH CHILD QUICK SIN TEST,SPEECH CHILD QUICK SIN TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+55,SPEECH CHILD DICHOTIC TEST,SPEECH CHILD DICHOTIC TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+56,SPEECH CHILD RAPID COMPRESSED TEST,SPEECH CHILD RAPID COMPRESSED TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+57,SPEECH CHILD WORKING MEMORY TEST,SPEECH CHILD WORKING MEMORY TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+58,SPEECH CHILD GIN TEST,SPEECH CHILD GIN TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+59,SPEECH CHILD FREQUENCY/PITCH PATTERN SEQUENCE TEST,SPEECH CHILD FREQUENCY/PITCH PATTERN SEQUENCE TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+60,SPEECH CHILD DICHOTIC LISTENING TEST,SPEECH CHILD DICHOTIC LISTENING TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+61,SPEECH CHILD TEST OF MONAURAL LOW-REDUNDANCY SPEECH PERCEPTION,SPEECH CHILD TEST OF MONAURAL LOW-REDUNDANCY SPEECH PERCEPTION,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+62,SPEECH CHILD AUDITORY DISCRIMINATION TEST,SPEECH CHILD AUDITORY DISCRIMINATION TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+63,SPEECH CHILD TEST OF LOCALIZATION AND LATERALIZATION AND OTHER BINAURAL FUNCTIONS TEST,SPEECH CHILD TEST OF LOCALIZATION AND LATERALIZATION AND OTHER BINAURAL FUNCTIONS TEST,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+64,AUDIOLOGIC REHABILITATION INDIVIDUAL AUDITORY TRAINING,AUDIOLOGIC REHABILITATION INDIVIDUAL AUDITORY TRAINING,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+65,AUDIOLOGIC REHABILITATION GROUP AUDITORY TRAINING,AUDIOLOGIC REHABILITATION GROUP AUDITORY TRAINING,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+66,AUDIOLOGIC REHABILITATION COMPUTER-BASED AUDITORY TRAINING,AUDIOLOGIC REHABILITATION COMPUTER-BASED AUDITORY TRAINING,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+67,AUDIOLOGIC REHABILITATION INFORMAL TRAINING,AUDIOLOGIC REHABILITATION INFORMAL TRAINING,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+68,AUDIOLOGIC REHABILITATION COGNITIVE TRAINING,AUDIOLOGIC REHABILITATION COGNITIVE TRAINING,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+69,AUDIOLOGIC REHABILITATION INDIVIDUAL COMMUNICATION STRATERGIES TRAINING,AUDIOLOGIC REHABILITATION INDIVIDUAL COMMUNICATION STRATERGIES TRAINING,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+70,AUDIOLOGIC REHABILITATION GROUP COMMUNICATIONS STRATERGIES TRAINING,AUDIOLOGIC REHABILITATION GROUP COMMUNICATIONS STRATERGIES TRAINING,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+71,AUDIOLOGIC REHABILITATION COUNSELLING,AUDIOLOGIC REHABILITATION COUNSELLING,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+00,OTHERS,OTHERS,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+01,QUESTIONNAIRE ECHO,QUESTIONNAIRE ECHO,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+02,QUESTIONNAIRE HHIE,QUESTIONNAIRE HHIE,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+03,QUESTIONNAIRE HHIE-S,QUESTIONNAIRE HHIE-S,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+04,QUESTIONNAIRE IOI-HA-SO,QUESTIONNAIRE IOI-HA-SO,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+05,QUESTIONNAIRE APHAB,QUSTIONNAIRE APHAB,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+06,QUESTIONNAIRE COSI,QUESTIONNAIRE COSI,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+07,QUESTIONNAIRE FAPI,QUESTIONNAIRE FAPI,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+08,QUESTIONNAIRE SSQ,QUESTIONNAIRE SSQ,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore
+09,QUESTIONNAIRE CAP 2,QUESTIONNAIRE CAP 2,http://fhir.hie.moh.gov.my/CodeSystem/audiology-aural-rehabilitation-my-core,CodeSystemAudiologyAuralRehabilitationMyCore

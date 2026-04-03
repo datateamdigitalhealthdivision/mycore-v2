@@ -1,0 +1,382 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-child-18-21m",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my#tsYopLCxQIuV7c8i",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "identifier": {
+        "system": "http://fhir.hie.moh.gov.my/sid/template-section",
+        "value": "qr-child-18-21m"
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-child-18-21mm",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/3a1fe467-cad5-4ec9-83f8-fd6dfb46470c"
+    },
+    "authored": "2023-04-27T00:20:14.414Z",
+    "item": [
+        {
+            "linkId": "child-18-21m.0",
+            "text": "Lawatan",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "code": "00",
+                        "display": "18 bulan"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "child-18-21m.1",
+            "text": "Tarikh lawatan",
+            "answer": [
+                {
+                    "valueDateTime": "2023-06-05T03:42:25.343Z"
+                }
+            ]
+        },
+        {
+            "linkId": "child-18-21m.2",
+            "text": "Umur semasa lawatan",
+            "answer": [
+                {
+                    "valueQuantity": {
+                        "value": 22,
+                        "unit": "bulan"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "child-18-21m.3",
+            "text": "Aktiviti",
+            "item": [
+                {
+                    "linkId": "child-18-21m.3.1",
+                    "text": "Berat (kg)",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 12,
+                                "unit": "kg"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-18-21m.3.1.1",
+                                    "text": "Catatan (Normal/KBB/KBBT/MP)",
+                                    "answer": [
+                                        {
+                                            "valueString": "enter string here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-18-21m.3.2",
+                    "text": "Panjang (cm)",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 12,
+                                "unit": "cm"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-18-21m.3.2.1",
+                                    "text": "Catatan (Normal/B/BT/ME",
+                                    "answer": [
+                                        {
+                                            "valueString": "enter string here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-18-21m.3.3",
+                    "text": "BMI (kg/m2)",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 12,
+                                "unit": "kg/m2"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-18-21m.3.3.1",
+                                    "text": "Catatan (Normal/MP/B/BT)",
+                                    "answer": [
+                                        {
+                                            "valueString": "enter string here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-18-21m.3.4",
+                    "text": "Lilitan kepala (cm)",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 12,
+                                "unit": "cm"
+                            },
+                            "item": [
+                                {
+                                    "linkId": "child-18-21m.3.4.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "enter string here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-18-21m.3.5",
+                    "text": "Pemeriksaan fizikal (termasuk mulut)  Nota: Lakukan ujian saringan M-CHAT pada umur 18 bulan",
+                    "answer": [
+                        {
+                            "valueString": "enter string here",
+                            "item": [
+                                {
+                                    "linkId": "child-18-21m.3.5.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "enter string here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-18-21m.3.6",
+                    "text": "Rujuk Pegawai Perubatan",
+                    "answer": [
+                        {
+                            "valueDateTime": "2023-06-05T03:42:55.230Z",
+                            "item": [
+                                {
+                                    "linkId": "child-18-21m.3.6.1",
+                                    "text": "Catatan",
+                                    "answer": [
+                                        {
+                                            "valueString": "enter string here"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-18-21m.3.7",
+                    "text": "Rujuk Pemeriksaan Pergigian (Tarikh)",
+                    "answer": [
+                        {
+                            "valueDateTime": "2023-05-29T03:42:57.456Z"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-18-21m.3.8",
+                    "text": "Imunisasi (Rujuk Jadual dan Rekod Imunisasi)",
+                    "answer": [
+                        {
+                            "valueString": "enter string here"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-18-21m.3.9",
+                    "text": "Catatan",
+                    "answer": [
+                        {
+                            "valueString": "enter string here"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "child-18-21m.4",
+            "text": "Senarai Semak Perkembangan Umur 18 bulan (sila semak terlebih dahulu apa yang ibubapa/penjaga tulis): Tandakan pada ruangan yang berkenaan",
+            "item": [
+                {
+                    "linkId": "child-18-21m.4.1",
+                    "text": "Bayi berjalan sendiri.",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-18-21m.4.2",
+                    "text": "Bayi menconteng.",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-18-21m.4.3",
+                    "text": "Bayi menyebut sekurang-kurangnya tiga perkataan yang bermakna.",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-18-21m.4.4",
+                    "text": "Bayi mengikut arahan yang mudah.",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-18-21m.4.5",
+                    "text": "Lulus saringan M-CHAT (rujuk Jadual M-CHAT).",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "child-18-21m.5",
+            "text": "Jika ada 'tidak' pada senarai semak perkembangan, rujuk Pegawai Perubatan/FMS/Pakar Pediatrik dan isikan maklumat di bawah.",
+            "item": [
+                {
+                    "linkId": "child-18-21m.5.1",
+                    "text": "Tarikh Temujanji",
+                    "answer": [
+                        {
+                            "valueDateTime": "2023-06-11T03:43:04.101Z"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-18-21m.5.2",
+                    "text": "Tempat Rujukan",
+                    "answer": [
+                        {
+                            "valueString": "enter string here"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-18-21m.5.3",
+                    "text": "Tujuan Rujukan",
+                    "answer": [
+                        {
+                            "valueString": "enter string here"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-18-21m.5.4",
+                    "text": "Jika ada 'tidak' pada senarai semak, Jalankan penilaian perkembangan mengguna Carta Denver",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-18-21m.5.5",
+                    "text": "Jika ada 'tidak' pada senarai semak, Lakukan stimulasi awal",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "child-18-21m.6",
+            "text": "Bimbingan Awal Pada Umur 18 Bulan: Tandakan selepas nasihat diberi. (Rujuk Panduan Ibu bapa/Penjaga)",
+            "item": [
+                {
+                    "linkId": "child-18-21m.6.1",
+                    "text": "Kebersihan diri \na. Cuci tangan anak sebelum makan dan selepas ke tandas. \nb.  Memberus gigi dengan ubat gigi berfluorida sekurang-kurangnya dua kali sehari terutamanya sebelum tidur malam. \nc. Biasakan periksa gigi anak dengan mengangkat bibir. \nd. Pastikan anak dapat pemeriksaan gigi di klinik.",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-18-21m.6.2",
+                    "text": "Pemakananan \na. Berikan anak anda pelbagai jenis makanan untuk sumber tenaga bagi pertumbuhan, perkembangan dan melakukan aktiviti. \nb. Beri makanan kepada anak sedikit-sedikit dan kerap.",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-18-21m.6.3",
+                    "text": "Keselamatan dan Pencegahan Kecederaan \na. Jangan biarkan anak bermain bersendirian di dalam atau berhampiran takungan air (basin, baldi, kolam, kolah) atau di dalam bilik air kerana boleh menyebabkan lemas. \nb. Semua ubatan dan racun (contoh: minyak tanah/ agen peluntur) perlu disimpan di tempat yang selamat dan tidak dapat diambil atau disimpan di dalam bekas yang tidak boleh dibuka oleh kanak-kanak. \nc. Jangan beri anak anda kacang dan bahagian permainan yang kecil kerana boleh menyebabkan tercekik. \nd. Dudukkan anak di dalam ‘child car seat’ semasa berada dalam kenderaan",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-18-21m.6.4",
+                    "text": "Kemahiran Keibubapaan \na. Amalkan kemahiran keibubapaan yang baik (Lampiran 5). \nb. Jangan memukul atau menengking kerana ia tidak boleh membantu dalam mendisiplinkan kanak-kanak.",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-18-21m.6.5",
+                    "text": "Nasihat berkaitan pemilihan pusat penjagaan anak \nSekiranya anda ingin menghantar anak anda ke pusat asuhan, pastikan: \na. Berdaftar dengan Jabatan Kebajikan Masyarakat \nb. Persekitaran yang selamat dan bersih. \nc. Mempunyai penjaga yang terlatih. \nd. Anda dibenarkan melawat anak pada bila-bila masa",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "child-18-21m.6.6",
+                    "text": "Perhatikan masalah perkembangan \na. Awasi tanda-tanda amaran kelewatan perkembangan (Rujuk Carta Perkembangan Si Comel Anda).",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

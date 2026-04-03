@@ -1,0 +1,266 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-child-04",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-child-04",
+  "version": "1.0.0",
+  "name": "QChild04",
+  "title": "Rekod Kelahiran",
+  "status": "active",
+  "date": "2023-08-30T06:43:50.5035753+00:00",
+  "item": [
+    {
+      "linkId": "child-4.1",
+      "text": "Waktu Lahir",
+      "type": "dateTime"
+    },
+    {
+      "linkId": "child-4.2",
+      "text": "Jangkasama Kandungan",
+      "type": "quantity"
+    },
+    {
+      "linkId": "child-4.3",
+      "text": "Tempat Lahir",
+      "type": "choice",
+      "answerOption": [
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "01",
+            "display": "Rumah"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "02",
+            "display": "Klinik"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "03",
+            "display": "Hospital"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "04",
+            "display": "Pusat Bersalin"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "05",
+            "display": "ABC dll"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "child-4.4",
+      "text": "Jenis kelahiran",
+      "type": "choice",
+      "answerOption": [
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "01",
+            "display": "Normal (Vertex)"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "02",
+            "display": "Breech"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "03",
+            "display": "Forceps"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "04",
+            "display": "Vacuum"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "05",
+            "display": "LSCS"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "child-4.5",
+      "text": "Komplikasi (jika ada)",
+      "type": "choice",
+      "answerOption": [
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "01",
+            "display": "Fetal distress"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "02",
+            "display": "Meconium stained liquor"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "03",
+            "display": "Prolonged/ Premature Ruptured of Membrane"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "child-4.6",
+      "text": "Komplikasi lain (jika ada)",
+      "type": "string"
+    },
+    {
+      "linkId": "child-4.7",
+      "text": "Bilangan bayi",
+      "type": "choice",
+      "answerOption": [
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "01",
+            "display": "Singleton"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "02",
+            "display": "Kembar"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "03",
+            "display": "Kembar >2"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "child-4.8",
+      "text": "Skor Apgar",
+      "type": "group",
+      "item": [
+        {
+          "linkId": "child-4.8.1",
+          "text": "1 min",
+          "type": "integer"
+        },
+        {
+          "linkId": "child-4.8.2",
+          "text": "5 min",
+          "type": "integer"
+        },
+        {
+          "linkId": "child-4.8.3",
+          "text": "10 min",
+          "type": "integer"
+        },
+        {
+          "linkId": "child-4.8.4",
+          "text": "20 min",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "linkId": "child-4.9",
+      "text": "Berat lahir",
+      "type": "quantity"
+    },
+    {
+      "linkId": "child-4.10",
+      "text": "Panjang",
+      "type": "quantity"
+    },
+    {
+      "linkId": "child-4.11",
+      "text": "Lilitan kepala",
+      "type": "quantity"
+    },
+    {
+      "linkId": "child-4.12",
+      "text": "IM Vitamin K diberi",
+      "type": "boolean"
+    },
+    {
+      "linkId": "child-4.13",
+      "text": "G6PD",
+      "type": "choice",
+      "answerOption": [
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "01",
+            "display": "Normal"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "02",
+            "display": "Deficient"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "child-4.14",
+      "text": "TSH",
+      "type": "quantity"
+    },
+    {
+      "linkId": "child-4.15",
+      "text": "T4",
+      "type": "quantity"
+    },
+    {
+      "linkId": "child-4.16",
+      "text": "Saringan Pendengaran (jika dilakukan)",
+      "type": "choice",
+      "answerOption": [
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "01",
+            "display": "Normal"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://fhir.hie.moh.gov.my/CodeSystem/child-record-my-core",
+            "code": "02",
+            "display": "Abnormal"
+          }
+        }
+      ]
+    }
+  ]
+}

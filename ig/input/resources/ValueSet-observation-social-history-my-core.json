@@ -1,0 +1,78 @@
+{
+  "resourceType": "ValueSet",
+  "id": "observation-social-history-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetObservationSocialHistory (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/observation-social-history-my-core</tt><p>Social history value set from snomed CT</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/observation-social-history-my-core",
+  "identifier": [
+    {
+      "value": "value-set-social-history-my-core"
+    }
+  ],
+  "name": "ValueSetObservationSocialHistoryMyCore",
+  "title": "ValueSetObservationSocialHistory (MY Core)",
+  "status": "active",
+  "date": "2022-08-01T04:48:03.5159935+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Social history value set from snomed CT",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "219006",
+            "display": "Alcohol use history"
+          },
+          {
+            "code": "361055000",
+            "display": "Misuses drugs history"
+          },
+          {
+            "code": "77176002",
+            "display": "Smoking history"
+          },
+          {
+            "code": "394704008",
+            "display": "Occupation history"
+          },
+          {
+            "code": "285058000",
+            "display": "Sexual activity"
+          },
+          {
+            "code": "266944002",
+            "display": "Prison record"
+          },
+          {
+            "code": "443846001",
+            "display": "Travel history"
+          },
+          {
+            "code": "365993003",
+            "display": "Exercise history"
+          },
+          {
+            "code": "41829006",
+            "display": "Dietary finding"
+          }
+        ]
+      }
+    ]
+  },
+  "version": "2.0.0",
+  "experimental": false
+}

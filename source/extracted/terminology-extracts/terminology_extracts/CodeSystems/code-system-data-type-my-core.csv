@@ -1,0 +1,12 @@
+code,display,definition,system_url,system_name
+quantity,Quantity,A measured amount.,http://fhir.hie.moh.gov.my/CodeSystem/data-type-my-core,CodeSystemDataTypeMyCore
+codeableConcept,CodeableConcept,A coded concept from a reference terminology and/or text.,http://fhir.hie.moh.gov.my/CodeSystem/data-type-my-core,CodeSystemDataTypeMyCore
+string,string,A sequence of Unicode characters.,http://fhir.hie.moh.gov.my/CodeSystem/data-type-my-core,CodeSystemDataTypeMyCore
+boolean,boolean,true or false.,http://fhir.hie.moh.gov.my/CodeSystem/data-type-my-core,CodeSystemDataTypeMyCore
+integer,integer,A signed integer.,http://fhir.hie.moh.gov.my/CodeSystem/data-type-my-core,CodeSystemDataTypeMyCore
+range,Range,A set of values bounded by low and high.,http://fhir.hie.moh.gov.my/CodeSystem/data-type-my-core,CodeSystemDataTypeMyCore
+ratio,Ratio,A ratio of two Quantity values - a numerator and a denominator.,http://fhir.hie.moh.gov.my/CodeSystem/data-type-my-core,CodeSystemDataTypeMyCore
+sampledData,SampledData,A series of measurements taken by a device.,http://fhir.hie.moh.gov.my/CodeSystem/data-type-my-core,CodeSystemDataTypeMyCore
+time,time,"A time during the day, in the format hh:mm:ss.",http://fhir.hie.moh.gov.my/CodeSystem/data-type-my-core,CodeSystemDataTypeMyCore
+dateTime,dateTime,"A date, date-time or partial date (e.g. just year or year + month) as used in human communication.",http://fhir.hie.moh.gov.my/CodeSystem/data-type-my-core,CodeSystemDataTypeMyCore
+period,Period,A time range defined by start and end date/time.,http://fhir.hie.moh.gov.my/CodeSystem/data-type-my-core,CodeSystemDataTypeMyCore

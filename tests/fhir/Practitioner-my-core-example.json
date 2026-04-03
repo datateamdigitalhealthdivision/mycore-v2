@@ -1,0 +1,30 @@
+{
+  "resourceType": "Practitioner",
+  "id": "my-core-practitioner-example",
+  "meta": {
+    "profile": [
+      "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Practitioner-my-core"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://id.kkmhub.moh.gov.my/sid/professional-registration-no",
+      "value": "MMC-123456"
+    },
+    {
+      "system": "https://id.kkmhub.moh.gov.my/sid/my-kad-no",
+      "value": "780101105432"
+    }
+  ],
+  "name": [
+    {
+      "use": "official",
+      "family": "Rahman",
+      "given": [
+        "Farid"
+      ]
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1978-01-01"
+}

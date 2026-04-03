@@ -1,0 +1,231 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "service-type-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemServiceType (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/service-type-my-core</tt></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/service-type-my-core",
+  "name": "CodeSystemServiceTypeMyCore",
+  "title": "CodeSystemServiceType (MY Core)",
+  "status": "active",
+  "date": "2023-06-08T03:08:38.5864399+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "compositional": false,
+  "content": "complete",
+  "count": 15,
+  "property": [
+    {
+      "code": "classCode",
+      "type": "code"
+    }
+  ],
+  "concept": [
+    {
+      "code": "ADM",
+      "display": "Administrative",
+      "definition": "Administrative",
+      "property": [
+        {
+          "code": "classCode",
+          "valueCode": "ADM"
+        }
+      ]
+    },
+    {
+      "code": "10",
+      "display": "Outpatient HC",
+      "definition": "Outpatient HC",
+      "property": [
+        {
+          "code": "classCode",
+          "valueCode": "AMB"
+        }
+      ]
+    },
+    {
+      "code": "11",
+      "display": "Outpatient PAC",
+      "definition": "Outpatient PAC",
+      "property": [
+        {
+          "code": "classCode",
+          "valueCode": "PAC"
+        }
+      ]
+    },
+    {
+      "code": "01",
+      "display": "Inpatient",
+      "definition": "Pesakit Dalam",
+      "property": [
+        {
+          "code": "classCode",
+          "valueCode": "IMP"
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "display": "Day Care",
+      "definition": "Rawatan Harian",
+      "property": [
+        {
+          "code": "classCode",
+          "valueCode": "SS"
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "display": "Outpatient",
+      "definition": "Pesakit Luar",
+      "property": [
+        {
+          "code": "classCode",
+          "valueCode": "AMB"
+        }
+      ]
+    },
+    {
+      "code": "04",
+      "display": "Health Screening (Saringan Kesihatan)",
+      "definition": "Health Screening (Saringan Kesihatan)",
+      "property": [
+        {
+          "code": "classCode",
+          "valueCode": "AMB"
+        },
+        {
+          "code": "classCode",
+          "valueCode": "FLD"
+        }
+      ]
+    },
+    {
+      "code": "05",
+      "display": "Traditional & Complementary Medicine",
+      "definition": "Perubatan Tradisional & Komplementari",
+      "property": [
+        {
+          "code": "classCode",
+          "valueCode": "AMB"
+        }
+      ]
+    },
+    {
+      "code": "06",
+      "display": "Clinical Support",
+      "definition": "Sokongan Klinikal",
+      "property": [
+        {
+          "code": "classCode",
+          "valueCode": "CS"
+        },
+        {
+          "code": "classCode",
+          "valueCode": "AMB"
+        }
+      ]
+    },
+    {
+      "code": "07",
+      "display": "Outpatient General (Hospital)",
+      "definition": "Outpatient General",
+      "property": [
+        {
+          "code": "classCode",
+          "valueCode": "AMB"
+        }
+      ]
+    },
+    {
+      "code": "08",
+      "display": "Outpatient Specialist",
+      "definition": "Outpatient Specialist",
+      "property": [
+        {
+          "code": "classCode",
+          "valueCode": "AMB"
+        }
+      ]
+    },
+    {
+      "code": "09",
+      "display": "Emergency & Trauma",
+      "definition": "Outpatient ETD",
+      "property": [
+        {
+          "code": "classCode",
+          "valueCode": "EMER"
+        },
+        {
+          "code": "classCode",
+          "valueCode": "FLD"
+        },
+        {
+          "code": "classCode",
+          "valueCode": "AMB"
+        }
+      ]
+    },
+    {
+      "code": "VCI",
+      "display": "Individual Virtual Consultation",
+      "definition": "Individual Virtual Consultation",
+      "property": [
+        {
+          "code": "classCode",
+          "valueCode": "VR"
+        }
+      ]
+    },
+    {
+      "code": "VCMDT",
+      "display": "MDT Virtual Consultation",
+      "definition": "MDT Virtual Consultation",
+      "property": [
+        {
+          "code": "classCode",
+          "valueCode": "VR"
+        }
+      ]
+    },
+    {
+      "code": "VCE",
+      "display": "Education Virtual Consultation",
+      "definition": "Education Virtual Consultation",
+      "property": [
+        {
+          "code": "classCode",
+          "valueCode": "VR"
+        }
+      ]
+    },
+    {
+      "code": "VCD",
+      "display": "On-Demand Virtual Consultation",
+      "definition": "On-Demand Virtual Consultation",
+      "property": [
+        {
+          "code": "classCode",
+          "valueCode": "VR"
+        }
+      ]
+    }
+  ],
+  "version": "2.0.0",
+  "experimental": false,
+  "caseSensitive": true
+}

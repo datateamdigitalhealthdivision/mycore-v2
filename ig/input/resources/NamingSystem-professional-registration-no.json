@@ -1,0 +1,17 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "professional-registration-no",
+  "name": "MYProfessionalRegistrationNumberNamingSystem",
+  "status": "active",
+  "kind": "identifier",
+  "date": "2026-04-02",
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Draft naming system for healthcare professional registration numbers used in MY Core examples.",
+  "uniqueId": [
+    {
+      "type": "uri",
+      "value": "https://id.kkmhub.moh.gov.my/sid/professional-registration-no",
+      "preferred": true
+    }
+  ]
+}

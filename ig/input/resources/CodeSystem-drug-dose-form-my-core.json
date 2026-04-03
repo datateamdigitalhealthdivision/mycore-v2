@@ -1,0 +1,624 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "drug-dose-form-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemDrugDoseForm (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/drug-dose-form-my-core</tt><p>Drug Dose Form</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/drug-dose-form-my-core",
+  "version": "2.0.0",
+  "name": "CodeSystemDrugDoseFormMyCore",
+  "title": "CodeSystemDrugDoseForm (MY Core)",
+  "status": "active",
+  "date": "2023-03-07T04:19:34.7742501+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Drug Dose Form",
+  "compositional": false,
+  "content": "complete",
+  "count": 118,
+  "concept": [
+    {
+      "code": "CART",
+      "display": "Cartridge",
+      "definition": "Cartridge"
+    },
+    {
+      "code": "CRYS",
+      "display": "Crystal",
+      "definition": "Crystal"
+    },
+    {
+      "code": "DROP",
+      "display": "Liq Drop",
+      "definition": "Liq Drop"
+    },
+    {
+      "code": "E01",
+      "display": "Otic Drop(s)",
+      "definition": "Otic Drop(s)"
+    },
+    {
+      "code": "E02",
+      "display": "Otic Insert",
+      "definition": "Otic Insert"
+    },
+    {
+      "code": "E03",
+      "display": "Otic Ointment",
+      "definition": "Otic Ointment"
+    },
+    {
+      "code": "E04",
+      "display": "Otic Powder",
+      "definition": "Otic Powder"
+    },
+    {
+      "code": "E05",
+      "display": "Otic Spray",
+      "definition": "Otic Spray"
+    },
+    {
+      "code": "E06",
+      "display": "Otic Washes",
+      "definition": "Otic Washes"
+    },
+    {
+      "code": "J01",
+      "display": "Parenteral Implant",
+      "definition": "Parenteral Implant"
+    },
+    {
+      "code": "J02",
+      "display": "Parenteral Irrig Sol",
+      "definition": "Parenteral Irrig Sol"
+    },
+    {
+      "code": "J03",
+      "display": "Powder for IV Soln",
+      "definition": "Powder for IV Soln"
+    },
+    {
+      "code": "J04",
+      "display": "Parenteral Solution",
+      "definition": "Parenteral Solution"
+    },
+    {
+      "code": "J05",
+      "display": "Parenteral Susp",
+      "definition": "Parenteral Susp"
+    },
+    {
+      "code": "L01",
+      "display": "Oral Drop(s)",
+      "definition": "Oral Drop(s)"
+    },
+    {
+      "code": "L02",
+      "display": "Oral Emulsion",
+      "definition": "Oral Emulsion"
+    },
+    {
+      "code": "L03",
+      "display": "Oral Herbal Tea",
+      "definition": "Oral Herbal Tea"
+    },
+    {
+      "code": "L04",
+      "display": "Oral Medicated Wine",
+      "definition": "Oral Medicated Wine"
+    },
+    {
+      "code": "L05",
+      "display": "Oral Solution",
+      "definition": "Oral Solution"
+    },
+    {
+      "code": "L06",
+      "display": "Oral Suspension",
+      "definition": "Oral Suspension"
+    },
+    {
+      "code": "M01",
+      "display": "SL/BUC/OMC Cap",
+      "definition": "SL/BUC/OMC Cap"
+    },
+    {
+      "code": "M02",
+      "display": "SL/BUC/OMC Drops",
+      "definition": "SL/BUC/OMC Drops"
+    },
+    {
+      "code": "M03",
+      "display": "SL/BUC/OMC Gel",
+      "definition": "SL/BUC/OMC Gel"
+    },
+    {
+      "code": "M04",
+      "display": "SL/BUC/OMC Gum",
+      "definition": "SL/BUC/OMC Gum"
+    },
+    {
+      "code": "M05",
+      "display": "SL/BUC/OMC Lozenges",
+      "definition": "SL/BUC/OMC Lozenges"
+    },
+    {
+      "code": "M06",
+      "display": "SL/BUC/OMC MR Tablet",
+      "definition": "SL/BUC/OMC MR Tablet"
+    },
+    {
+      "code": "M07",
+      "display": "SL/BUC/OMC Mouthwash",
+      "definition": "SL/BUC/OMC Mouthwash"
+    },
+    {
+      "code": "M08",
+      "display": "SL/BUC/OMC Pastille",
+      "definition": "SL/BUC/OMC Pastille"
+    },
+    {
+      "code": "M09",
+      "display": "SL/BUC/OMC Susp Powd",
+      "definition": "SL/BUC/OMC Susp Powd"
+    },
+    {
+      "code": "M10",
+      "display": "SL/BUC/OMC Spray",
+      "definition": "SL/BUC/OMC Spray"
+    },
+    {
+      "code": "M11",
+      "display": "SL/BUC/OMC Tab",
+      "definition": "SL/BUC/OMC Tab"
+    },
+    {
+      "code": "M12",
+      "display": "SL/BUC/OMC Susp",
+      "definition": "SL/BUC/OMC Susp"
+    },
+    {
+      "code": "M13",
+      "display": "SL/BUC/OMC T. Paste",
+      "definition": "SL/BUC/OMC T. Paste"
+    },
+    {
+      "code": "N01",
+      "display": "Nasal Aerosol",
+      "definition": "Nasal Aerosol"
+    },
+    {
+      "code": "N02",
+      "display": "Nasal Drop(s)",
+      "definition": "Nasal Drop(s)"
+    },
+    {
+      "code": "N03",
+      "display": "Nasal Powder",
+      "definition": "Nasal Powder"
+    },
+    {
+      "code": "N04",
+      "display": "Nasal Spray",
+      "definition": "Nasal Spray"
+    },
+    {
+      "code": "N05",
+      "display": "Nasal Stick",
+      "definition": "Nasal Stick"
+    },
+    {
+      "code": "N06",
+      "display": "Nasal Solution",
+      "definition": "Nasal Solution"
+    },
+    {
+      "code": "N07",
+      "display": "Nasal Wash",
+      "definition": "Nasal Wash"
+    },
+    {
+      "code": "NA",
+      "display": "None",
+      "definition": "None"
+    },
+    {
+      "code": "NONE",
+      "display": "Not applicable",
+      "definition": "Not applicable"
+    },
+    {
+      "code": "P01",
+      "display": "Pulmonary Aerosol",
+      "definition": "Pulmonary Aerosol"
+    },
+    {
+      "code": "P02",
+      "display": "Pulmonary Solution",
+      "definition": "Pulmonary Solution"
+    },
+    {
+      "code": "P03",
+      "display": "Pulmonary Powder",
+      "definition": "Pulmonary Powder"
+    },
+    {
+      "code": "PENF",
+      "display": "Penfill",
+      "definition": "Penfill"
+    },
+    {
+      "code": "PFSY",
+      "display": "Prefilled Syringe",
+      "definition": "Prefilled Syringe"
+    },
+    {
+      "code": "POW",
+      "display": "Powder",
+      "definition": "Powder"
+    },
+    {
+      "code": "R01",
+      "display": "Rectal Cream",
+      "definition": "Rectal Cream"
+    },
+    {
+      "code": "R02",
+      "display": "Rectal Enema",
+      "definition": "Rectal Enema"
+    },
+    {
+      "code": "R03",
+      "display": "Rectal Emulsion",
+      "definition": "Rectal Emulsion"
+    },
+    {
+      "code": "R04",
+      "display": "Rectal Foam",
+      "definition": "Rectal Foam"
+    },
+    {
+      "code": "R05",
+      "display": "Rectal Insert",
+      "definition": "Rectal Insert"
+    },
+    {
+      "code": "R06",
+      "display": "Rectal Solution",
+      "definition": "Rectal Solution"
+    },
+    {
+      "code": "R07",
+      "display": "Suppository",
+      "definition": "Suppository"
+    },
+    {
+      "code": "R08",
+      "display": "Rectal Suspension",
+      "definition": "Rectal Suspension"
+    },
+    {
+      "code": "R09",
+      "display": "Rectal Ointment",
+      "definition": "Rectal Ointment"
+    },
+    {
+      "code": "R10",
+      "display": "Rectal Tablet",
+      "definition": "Rectal Tablet"
+    },
+    {
+      "code": "R11",
+      "display": "Rectal Capsule",
+      "definition": "Rectal Capsule"
+    },
+    {
+      "code": "S01",
+      "display": "Oral Solid-Block",
+      "definition": "Oral Solid-Block"
+    },
+    {
+      "code": "S02",
+      "display": "Oral Capsule",
+      "definition": "Oral Capsule"
+    },
+    {
+      "code": "S03",
+      "display": "Oral Sachets",
+      "definition": "Oral Sachets"
+    },
+    {
+      "code": "S04",
+      "display": "Oral G-Resistant Cap",
+      "definition": "Oral G-Resistant Cap"
+    },
+    {
+      "code": "S05",
+      "display": "Oral MR Capsule",
+      "definition": "Oral MR Capsule"
+    },
+    {
+      "code": "S06",
+      "display": "Oral Cap/Tab",
+      "definition": "Oral Cap/Tab"
+    },
+    {
+      "code": "S07",
+      "display": "Oral MR Caplet",
+      "definition": "Oral MR Caplet"
+    },
+    {
+      "code": "S08",
+      "display": "Oral Efferv Powder",
+      "definition": "Oral Efferv Powder"
+    },
+    {
+      "code": "S09",
+      "display": "Oral Granule",
+      "definition": "Oral Granule"
+    },
+    {
+      "code": "S10",
+      "display": "Oral Efferv Granules",
+      "definition": "Oral Efferv Granules"
+    },
+    {
+      "code": "S11",
+      "display": "Oral MR Granules",
+      "definition": "Oral MR Granules"
+    },
+    {
+      "code": "S12",
+      "display": "Oral Tablet",
+      "definition": "Oral Tablet"
+    },
+    {
+      "code": "S13",
+      "display": "Oral Chewable Tablet",
+      "definition": "Oral Chewable Tablet"
+    },
+    {
+      "code": "S14",
+      "display": "Oral Disp/Sol Tab",
+      "definition": "Oral Disp/Sol Tab"
+    },
+    {
+      "code": "S15",
+      "display": "Oral Efferv Tab",
+      "definition": "Oral Efferv Tab"
+    },
+    {
+      "code": "S16",
+      "display": "Oral G-Resistant Tab",
+      "definition": "Oral G-Resistant Tab"
+    },
+    {
+      "code": "S17",
+      "display": "Oral MR Tablet",
+      "definition": "Oral MR Tablet"
+    },
+    {
+      "code": "S18",
+      "display": "Orodispersible Tab",
+      "definition": "Orodispersible Tab"
+    },
+    {
+      "code": "S19",
+      "display": "Oral Pill",
+      "definition": "Oral Pill"
+    },
+    {
+      "code": "S20",
+      "display": "Oral Powder",
+      "definition": "Oral Powder"
+    },
+    {
+      "code": "SOLN",
+      "display": "Liquid/Solution",
+      "definition": "Liquid/Solution"
+    },
+    {
+      "code": "T01",
+      "display": "Topical Aerosol",
+      "definition": "Topical Aerosol"
+    },
+    {
+      "code": "T02",
+      "display": "Topical Cream",
+      "definition": "Topical Cream"
+    },
+    {
+      "code": "T03",
+      "display": "Dressings",
+      "definition": "Dressings"
+    },
+    {
+      "code": "T04",
+      "display": "Topical Foam",
+      "definition": "Topical Foam"
+    },
+    {
+      "code": "T05",
+      "display": "Topical Gel",
+      "definition": "Topical Gel"
+    },
+    {
+      "code": "T06",
+      "display": "Topical Ointment",
+      "definition": "Topical Ointment"
+    },
+    {
+      "code": "T07",
+      "display": "Pill (external use)",
+      "definition": "Pill (external use)"
+    },
+    {
+      "code": "T08",
+      "display": "Topical Paste",
+      "definition": "Topical Paste"
+    },
+    {
+      "code": "T09",
+      "display": "Topical Powder",
+      "definition": "Topical Powder"
+    },
+    {
+      "code": "T10",
+      "display": "Plaster/Patches",
+      "definition": "Plaster/Patches"
+    },
+    {
+      "code": "T11",
+      "display": "Shampoo",
+      "definition": "Shampoo"
+    },
+    {
+      "code": "T12",
+      "display": "Spray",
+      "definition": "Spray"
+    },
+    {
+      "code": "T13",
+      "display": "Soap Bar",
+      "definition": "Soap Bar"
+    },
+    {
+      "code": "T14",
+      "display": "Topical Liquid",
+      "definition": "Topical Liquid"
+    },
+    {
+      "code": "T15",
+      "display": "Topical Liniment",
+      "definition": "Topical Liniment"
+    },
+    {
+      "code": "T16",
+      "display": "Liquid Soap",
+      "definition": "Liquid Soap"
+    },
+    {
+      "code": "T17",
+      "display": "Topical Lotion",
+      "definition": "Topical Lotion"
+    },
+    {
+      "code": "T18",
+      "display": "Topical Paint",
+      "definition": "Topical Paint"
+    },
+    {
+      "code": "T19",
+      "display": "Topical Roll On",
+      "definition": "Topical Roll On"
+    },
+    {
+      "code": "V01",
+      "display": "Vaginal Capsule",
+      "definition": "Vaginal Capsule"
+    },
+    {
+      "code": "V02",
+      "display": "Vaginal Cream",
+      "definition": "Vaginal Cream"
+    },
+    {
+      "code": "V03",
+      "display": "Vaginal Douche",
+      "definition": "Vaginal Douche"
+    },
+    {
+      "code": "V04",
+      "display": "Vaginal Emulsion",
+      "definition": "Vaginal Emulsion"
+    },
+    {
+      "code": "V05",
+      "display": "Vaginal Foam",
+      "definition": "Vaginal Foam"
+    },
+    {
+      "code": "V06",
+      "display": "Vaginal Gel",
+      "definition": "Vaginal Gel"
+    },
+    {
+      "code": "V07",
+      "display": "Vaginal Insert",
+      "definition": "Vaginal Insert"
+    },
+    {
+      "code": "V08",
+      "display": "Vaginal Pessary",
+      "definition": "Vaginal Pessary"
+    },
+    {
+      "code": "V09",
+      "display": "Vaginal Solution",
+      "definition": "Vaginal Solution"
+    },
+    {
+      "code": "V10",
+      "display": "Vaginal Suspension",
+      "definition": "Vaginal Suspension"
+    },
+    {
+      "code": "V11",
+      "display": "Vaginal Tablet",
+      "definition": "Vaginal Tablet"
+    },
+    {
+      "code": "Y01",
+      "display": "Opthalmic Drop(s)",
+      "definition": "Opthalmic Drop(s)"
+    },
+    {
+      "code": "Y02",
+      "display": "Opthalmic Gel",
+      "definition": "Opthalmic Gel"
+    },
+    {
+      "code": "Y03",
+      "display": "Opthalmic Insert",
+      "definition": "Opthalmic Insert"
+    },
+    {
+      "code": "Y04",
+      "display": "Opthalmic Lotion",
+      "definition": "Opthalmic Lotion"
+    },
+    {
+      "code": "Y05",
+      "display": "Opthalmic Powder",
+      "definition": "Opthalmic Powder"
+    },
+    {
+      "code": "Y06",
+      "display": "Opthalmic Ointment",
+      "definition": "Opthalmic Ointment"
+    },
+    {
+      "code": "Y07",
+      "display": "Eye/Ear Drop",
+      "definition": "Eye/Ear Drop"
+    },
+    {
+      "code": "Y08",
+      "display": "Opthalmic Solution",
+      "definition": "Opthalmic Solution"
+    }
+  ],
+  "experimental": false,
+  "caseSensitive": true
+}

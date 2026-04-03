@@ -1,0 +1,105 @@
+{
+  "resourceType": "ValueSet",
+  "id": "allergy-manifestation-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>value-set-allergy-manifestation-my-core</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/allergy-manifestation-my-core</tt><p>Encounter priority value set</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/allergy-manifestation-my-core",
+  "name": "ValueSetAllergyManifestationMyCore",
+  "title": "value-set-allergy-manifestation-my-core",
+  "status": "active",
+  "date": "2023-01-03T04:47:56.9010407+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Encounter priority value set",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "238995004",
+            "display": "Acneiform"
+          },
+          {
+            "code": "56317004",
+            "display": "Alopecia"
+          },
+          {
+            "code": "36715001",
+            "display": "Erythema multiforme"
+          },
+          {
+            "code": "32861005",
+            "display": "Erythema nodosum"
+          },
+          {
+            "code": "73692007",
+            "display": "Fixed drug eruption"
+          },
+          {
+            "code": "247471006",
+            "display": "Maculopapular rash"
+          },
+          {
+            "code": "246622003",
+            "display": "Photo sensitivity"
+          },
+          {
+            "code": "110990003",
+            "display": "Pigmentary changes"
+          },
+          {
+            "code": "418363000",
+            "display": "Pruritus only"
+          },
+          {
+            "code": "423902002",
+            "display": "Purpura"
+          },
+          {
+            "code": "768962006",
+            "display": "Toxic epidermal  necrolysis"
+          },
+          {
+            "code": "73442001",
+            "display": "Stevens-Johnson syndrome"
+          },
+          {
+            "code": "126485001",
+            "display": "Urticaria"
+          },
+          {
+            "code": "41291007",
+            "display": "Angioedema"
+          },
+          {
+            "code": "31996006",
+            "display": "Vasculitis"
+          },
+          {
+            "code": "14912003",
+            "display": "Vesiculobullous reaction"
+          },
+          {
+            "code": "74964007",
+            "display": "Other"
+          }
+        ]
+      }
+    ]
+  },
+  "version": "2.0.0",
+  "experimental": false
+}

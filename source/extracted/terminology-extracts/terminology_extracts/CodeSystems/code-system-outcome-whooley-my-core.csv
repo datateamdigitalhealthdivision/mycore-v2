@@ -1,0 +1,3 @@
+code,display,definition,system_url,system_name
+a1,Positive Test,Please seek medical advice from your nearest healthcare facility,http://fhir.hie.moh.gov.my/CodeSystem/outcome-whooley-my-core,CodeSystemOutcomeWhooleyMyCore
+a2,Negative Test,Not Depressed,http://fhir.hie.moh.gov.my/CodeSystem/outcome-whooley-my-core,CodeSystemOutcomeWhooleyMyCore

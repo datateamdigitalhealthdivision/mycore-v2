@@ -1,0 +1,7 @@
+code,display,definition,system_url,system_name
+00,No Information,No Information,http://fhir.hie.moh.gov.my/CodeSystem/education-level-my-core,CodeSystemEducationLevelMyCore
+1,Nil,Nil,http://fhir.hie.moh.gov.my/CodeSystem/education-level-my-core,CodeSystemEducationLevelMyCore
+2,Primary,Primary,http://fhir.hie.moh.gov.my/CodeSystem/education-level-my-core,CodeSystemEducationLevelMyCore
+3,Secondary,Secondary,http://fhir.hie.moh.gov.my/CodeSystem/education-level-my-core,CodeSystemEducationLevelMyCore
+4,Tertiary,Tertiary,http://fhir.hie.moh.gov.my/CodeSystem/education-level-my-core,CodeSystemEducationLevelMyCore
+5,No Formal Education,No Formal Education,http://fhir.hie.moh.gov.my/CodeSystem/education-level-my-core,CodeSystemEducationLevelMyCore

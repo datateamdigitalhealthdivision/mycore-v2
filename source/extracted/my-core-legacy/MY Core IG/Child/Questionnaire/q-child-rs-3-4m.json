@@ -1,0 +1,69 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "q-child-rs-3-4m",
+  "url": "http://fhir.hie.moh.gov.my/Questionnaire/q-child-rs-3-4m",
+  "version": "1.0.0",
+  "name": "QChildRs3-4M",
+  "title": "Senarai Semak Rekod Saya Ibu Bapa (Lawatan 3 & 4 Bulan)",
+  "status": "active",
+  "date": "2023-09-04T01:01:11.3138702+00:00",
+  "item": [
+    {
+      "linkId": "rs-3-4m-1",
+      "text": "Lawatan",
+      "type": "choice",
+      "repeats": false,
+      "answerOption": [
+        {
+          "valueCoding": {
+            "code": "01",
+            "display": "3 months"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "02",
+            "display": "4 months"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "rs-3-4m-2",
+      "text": "Kepala tegak apabila didukung (tidak lembik)",
+      "type": "boolean"
+    },
+    {
+      "linkId": "rs-3-4m-3",
+      "text": "Bayi menumpukan pandangan dan menggerakkan mata mengikut objek?",
+      "type": "boolean"
+    },
+    {
+      "linkId": "rs-3-4m-4",
+      "text": "Bayi ketawa atau menunjukkan tindakbalas apabila diacah?",
+      "type": "boolean"
+    },
+    {
+      "linkId": "rs-3-4m-5",
+      "text": "Bayi bersuara A-a, A-oo?",
+      "type": "boolean"
+    },
+    {
+      "linkId": "rs-3-4m-6",
+      "text": "Adakah anda mempunyai masalah menjaga bayi anda?",
+      "type": "boolean"
+    },
+    {
+      "linkId": "rs-3-4m-7",
+      "text": "Adakah anda mempunyai sebarang kebimbangan terhadap bayi?",
+      "type": "boolean",
+      "item": [
+        {
+          "linkId": "rs-3-4m-7-1",
+          "text": "Sekiranya ada, nyatakan",
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}

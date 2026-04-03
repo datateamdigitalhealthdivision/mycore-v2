@@ -1,0 +1,142 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-task-input-type-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemTaskInputType (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/task-input-type-my-core</tt><p>Task input type code system</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/task-input-type-my-core",
+  "version": "1.0.0",
+  "name": "CodeSystemTaskInputTypeMyCore",
+  "title": "CodeSystemTaskInputType (MY Core)",
+  "status": "active",
+  "date": "2023-04-10T23:23:10.8917831+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Task input type code system",
+  "compositional": false,
+  "content": "complete",
+  "count": 14,
+  "concept": [
+    {
+      "code": "001",
+      "display": "Service Request Category",
+      "definition": "Service Request Category"
+    },
+    {
+      "code": "002",
+      "display": "Specimen",
+      "definition": "Specimen"
+    },
+    {
+      "code": "003",
+      "display": "Imaging Modality",
+      "definition": "Imaging Modality"
+    },
+    {
+      "code": "004",
+      "display": "Imaging Region",
+      "definition": "Imaging Region"
+    },
+    {
+      "code": "005",
+      "display": "Imaging Orderable",
+      "definition": "Imaging Orderable"
+    },
+    {
+      "code": "006",
+      "display": "Imaging Study",
+      "definition": "Imaging Study"
+    },
+    {
+      "code": "007",
+      "display": "Contrast",
+      "definition": "Contrast"
+    },
+    {
+      "code": "008",
+      "display": "Contrast Strength",
+      "definition": "Contrast Strength"
+    },
+    {
+      "code": "009",
+      "display": "CD/DVD",
+      "definition": "CD/DVD"
+    },
+    {
+      "code": "010",
+      "display": "Lab Sub Group",
+      "definition": "Lab Sub Group"
+    },
+    {
+      "code": "011",
+      "display": "Primary Performer",
+      "definition": "Primary Performer"
+    },
+    {
+      "code": "012",
+      "display": "Secondary Performer",
+      "definition": "Secondary Performer"
+    },
+    {
+      "code": "013",
+      "display": "Barcode Printer",
+      "definition": "Barcode Printer"
+    },
+    {
+      "code": "014",
+      "display": "Referral Summary",
+      "definition": "Referral Summary"
+    },
+    {
+      "code": "015",
+      "display": "Receive/Not Arrived Date Time",
+      "definition": "Receive Date Time"
+    },
+    {
+      "code": "016",
+      "display": "Accepted Date Time",
+      "definition": "Accepted Date Time"
+    },
+    {
+      "code": "017",
+      "display": "Dispatched Date Time",
+      "definition": "Dispatched Date Time"
+    },
+    {
+      "code": "018",
+      "display": "Printed Status",
+      "definition": "Printed Status"
+    },
+    {
+      "code": "019",
+      "display": "Printed Date Time",
+      "definition": "Printed Date Time"
+    },
+    {
+      "code": "020",
+      "display": "Printed By",
+      "definition": "Printed By"
+    },
+    {
+      "code": "021",
+      "display": "Outsource By",
+      "definition": "Outsource By"
+    },
+    {
+      "code": "022",
+      "display": "Sample Taken Time",
+      "definition": "Sample Taken Time"
+    }
+  ]
+}

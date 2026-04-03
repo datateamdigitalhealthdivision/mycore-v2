@@ -1,0 +1,202 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-maternal-12",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-12",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/bfb81ffe-637d-4b3f-befa-f7a1546ed9f8"
+    },
+    "authored": "2022-11-16T03:56:06.596Z",
+    "item": [
+        {
+            "linkId": "maternal-12.1",
+            "text": "Pemantauan Profil Pre-Eclampsia",
+            "item": [
+                {
+                    "linkId": "maternal-12.1.1",
+                    "text": "Tarikh",
+                    "answer": [
+                        {
+                            "valueDate": "2023-02-22"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-12.1.2",
+                    "text": "POA/POG",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 2,
+                                "unit": "week",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "wk"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-12.1.3",
+                    "text": "Tekanan Darah (BP)",
+                    "item": [
+                        {
+                            "linkId": "maternal-12.1.3.1",
+                            "text": "Sistolik",
+                            "answer": [
+                                {
+                                    "valueQuantity": {
+                                        "value": 120,
+                                        "unit": "mmHg",
+                                        "system": "http://unitsofmeasure.org",
+                                        "code": "mm[Hg]"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "maternal-12.1.3.2",
+                            "text": "Diastolik",
+                            "answer": [
+                                {
+                                    "valueQuantity": {
+                                        "value": 80,
+                                        "unit": "mmHg",
+                                        "system": "http://unitsofmeasure.org",
+                                        "code": "mm[Hg]"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-12.1.4",
+                    "text": "Proteinuria",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 150,
+                                "unit": "g/day",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "g/d"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-12.1.5",
+                    "text": "Urea",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 40,
+                                "unit": "g/mmol",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "g/mmol"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-12.1.6",
+                    "text": "Creatinine",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 4,
+                                "unit": "umol/L",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "umol/L"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-12.1.7",
+                    "text": "Uric Acid",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 3,
+                                "unit": "mg/dL",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg/dL"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-12.1.8",
+                    "text": "Hemoglobin",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 12,
+                                "unit": "g/dL",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "g/dL"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-12.1.9",
+                    "text": "Platelet",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 260,
+                                "unit": "10*3/uL",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "10*3/uL"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-12.1.10",
+                    "text": "AST",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 23,
+                                "unit": "U/L",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "U/L"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-12.1.11",
+                    "text": "ALT",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 23,
+                                "unit": "U/L",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "U/L"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-12.1.12",
+                    "text": "Nama Pemeriksa",
+                    "answer": [
+                        {
+                            "valueString": "Jannah"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

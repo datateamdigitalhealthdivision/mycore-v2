@@ -1,0 +1,83 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Observation-panel-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Observation-panel-my-core",
+  "version": "2.0.0",
+  "name": "ObservationPanelMyCore",
+  "title": "ObservationPanel (MY Core)",
+  "status": "active",
+  "date": "2023-05-17T23:52:28.3585233+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "description": "Observation panel for HIE",
+  "purpose": "Observation panel for HIE",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation",
+        "path": "Observation",
+        "constraint": [
+          {
+            "key": "performer-type",
+            "severity": "error",
+            "human": "If no performer.reference exists then performer.type must exists",
+            "expression": "performer.reference.exists().not() implies performer.type.exists()"
+          }
+        ]
+      },
+      {
+        "id": "Observation.code",
+        "path": "Observation.code",
+        "short": "Observation panel codes for HIE",
+        "definition": "Observation panel codes for HIE Observation page",
+        "binding": {
+          "strength": "extensible",
+          "description": "Observation panel codes for HIE",
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/observation-panel-my-core"
+        }
+      },
+      {
+        "id": "Observation.subject",
+        "path": "Observation.subject",
+        "min": 1
+      },
+      {
+        "id": "Observation.performer",
+        "path": "Observation.performer",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Observation.value[x]",
+        "path": "Observation.value[x]",
+        "max": "0"
+      },
+      {
+        "id": "Observation.interpretation",
+        "path": "Observation.interpretation",
+        "max": "0"
+      },
+      {
+        "id": "Observation.referenceRange",
+        "path": "Observation.referenceRange",
+        "max": "0"
+      },
+      {
+        "id": "Observation.hasMember",
+        "path": "Observation.hasMember",
+        "min": 1
+      },
+      {
+        "id": "Observation.component",
+        "path": "Observation.component",
+        "max": "0"
+      }
+    ]
+  },
+  "experimental": false
+}

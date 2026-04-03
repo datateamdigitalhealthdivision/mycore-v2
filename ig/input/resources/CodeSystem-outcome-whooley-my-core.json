@@ -1,0 +1,63 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "outcome-whooley-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemOutcomeWhooley (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/outcome-whooley-my-core</tt><p>Whooley Outcome Questionnaire</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/outcome-whooley-my-core",
+  "name": "CodeSystemOutcomeWhooleyMyCore",
+  "title": "CodeSystemOutcomeWhooley (MY Core)",
+  "status": "active",
+  "date": "2023-06-26T00:55:17.2867281+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "description": "Whooley Outcome Questionnaire",
+  "compositional": false,
+  "content": "complete",
+  "count": 2,
+  "property": [
+    {
+      "code": "low",
+      "type": "string"
+    },
+    {
+      "code": "high",
+      "type": "string"
+    }
+  ],
+  "concept": [
+    {
+      "code": "a1",
+      "display": "Positive Test",
+      "definition": "Please seek medical advice from your nearest healthcare facility",
+      "property": [
+        {
+          "code": "low",
+          "valueString": "1"
+        },
+        {
+          "code": "high",
+          "valueString": "2"
+        }
+      ]
+    },
+    {
+      "code": "a2",
+      "display": "Negative Test",
+      "definition": "Not Depressed",
+      "property": [
+        {
+          "code": "low",
+          "valueString": "0"
+        },
+        {
+          "code": "high",
+          "valueString": "0.9"
+        }
+      ]
+    }
+  ],
+  "version": "2.0.0",
+  "experimental": false,
+  "caseSensitive": true
+}

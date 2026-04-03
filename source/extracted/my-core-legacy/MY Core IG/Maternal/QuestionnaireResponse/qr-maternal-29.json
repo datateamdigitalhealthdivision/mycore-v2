@@ -1,0 +1,268 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-maternal-29",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "identifier": {
+        "system": "http://fhir.hie.moh.gov.my/sid/template-section",
+        "value": "qr-maternal-29"
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/q-maternal-29",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/bfb81ffe-637d-4b3f-befa-f7a1546ed9f8"
+    },
+    "authored": "2022-11-16T03:56:06.596Z",
+    "item": [
+        {
+            "linkId": "29.1",
+            "text": "Tarikh",
+            "answer": [
+                {
+                    "valueDate": "2022-12-13"
+                }
+            ]
+        },
+        {
+            "linkId": "29.2",
+            "text": "Lawatan ke klinik",
+            "answer": [
+                {
+                    "valueQuantity": {
+                        "value": 5,
+                        "unit": "day",
+                        "system": "http://unitsofmeasure.org",
+                        "code": "d"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "29.3",
+            "text": "Pemeriksaan",
+            "item": [
+                {
+                    "linkId": "29.3.1",
+                    "text": "Suhu badan",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 36.5,
+                                "unit": "degree Celsius",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "Cel"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "29.3.2",
+                    "text": "Berat badan",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 60,
+                                "unit": "kilogram",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "kg"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "29.3.3",
+                    "text": "Tekanan darah",
+                    "item": [
+                        {
+                            "linkId": "29.3.3.1",
+                            "text": "Sistolik",
+                            "answer": [
+                                {
+                                    "valueQuantity": {
+                                        "value": 135,
+                                        "unit": "millimeter of mercury",
+                                        "system": "http://unitsofmeasure.org",
+                                        "code": "mm[Hg]"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "29.3.3.2",
+                            "text": "Diastolik",
+                            "answer": [
+                                {
+                                    "valueQuantity": {
+                                        "value": 80,
+                                        "unit": "millimeter of mercury",
+                                        "system": "http://unitsofmeasure.org",
+                                        "code": "mm[Hg]"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "29.3.4",
+                    "text": "Payudara",
+                    "answer": [
+                        {
+                            "valueString": "Bengkak"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "29.3.5",
+                    "text": "Aliran susu",
+                    "answer": [
+                        {
+                            "valueString": "Lancar"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "29.3.6",
+                    "text": "Tinggi rahim",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 18,
+                                "unit": "centimeter",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "cm"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "29.3.7",
+                    "text": "Edema",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "29.3.8",
+                    "text": "Perineum/luka episiotomi",
+                    "answer": [
+                        {
+                            "valueString": "Bersih"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "29.3.9",
+                    "text": "Luka pembedahan",
+                    "answer": [
+                        {
+                            "valueString": "Bersih"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "29.3.10",
+                    "text": "Discaj vagina",
+                    "answer": [
+                        {
+                            "valueString": "Putih"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "29.4",
+            "text": "Ujian makmal",
+            "item": [
+                {
+                    "linkId": "29.4.1",
+                    "text": "Hemoglobin",
+                    "answer": [
+                        {
+                            "valueQuantity": {
+                                "value": 11,
+                                "unit": "gram per deciliter",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "g/dL"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "linkId": "29.4.2",
+                    "text": "Urine sugar",
+                    "answer": [
+                        {
+                            "valueString": "-",
+                            "item": [
+                                {
+                                    "linkId": "29.4.2.1",
+                                    "text": "If Abnormal",
+                                    "answer": [
+                                        {
+                                            "valueBoolean": true
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linkId": "29.4.3",
+                    "text": "Urin Protein",
+                    "answer": [
+                        {
+                            "valueString": "-",
+                            "item": [
+                                {
+                                    "linkId": "29.4.3.1",
+                                    "text": "If Abnormal",
+                                    "answer": [
+                                        {
+                                            "valueBoolean": true
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "29.5",
+            "text": "Menilai simptom kemurungan/psikosis ibu",
+            "answer": [
+                {
+                    "valueString": "Tiada simptom"
+                }
+            ]
+        },
+        {
+            "linkId": "29.6",
+            "text": "Nasihat diberi",
+            "answer": [
+                {
+                    "valueString": "Perbanyakkan mengambil nutrisi"
+                }
+            ]
+        },
+        {
+            "linkId": "29.7",
+            "text": "Pegawai Perubatan",
+            "answer": [
+                {
+                    "valueString": "Nalydia"
+                }
+            ]
+        }
+    ]
+}

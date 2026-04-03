@@ -1,0 +1,27 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-developmental-milestone-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetDevelopmentalMilestone (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/ValueSet/developmental-milestone-my-core</tt><p>Developmental Milestone</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/developmental-milestone-my-core",
+  "identifier": [
+    {
+      "value": "value-set-composition-category-my-core"
+    }
+  ],
+  "version": "1.0.0",
+  "name": "ValueSetDevelopmentalMilestoneMyCore",
+  "title": "ValueSetDevelopmentalMilestone (MY Core)",
+  "status": "active",
+  "date": "2023-05-18T01:52:15.2336313+00:00",
+  "description": "Developmental Milestone",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/developmental-milestone-my-core"
+      }
+    ]
+  }
+}

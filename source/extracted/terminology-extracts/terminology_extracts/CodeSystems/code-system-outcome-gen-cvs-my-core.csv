@@ -1,0 +1,5 @@
+code,display,definition,system_url,system_name
+a1,Low CV risk,Low CV risk,http://fhir.hie.moh.gov.my/CodeSystem/outcome-gen-cvs-my-core,CodeSystemOutcomeGenCvsMyCore
+a2,"Moderate CV risk, please consult your nearest healthcare facility","Moderate CV risk, please consult your nearest healthcare facility",http://fhir.hie.moh.gov.my/CodeSystem/outcome-gen-cvs-my-core,CodeSystemOutcomeGenCvsMyCore
+a3,"High CV ris, please consult your nearest healthcare facility","High CV risk, please consult your nearest healthcare facility",http://fhir.hie.moh.gov.my/CodeSystem/outcome-gen-cvs-my-core,CodeSystemOutcomeGenCvsMyCore
+a4,"Very high CV risk, please consult your nearest healthcare facility","Very high CV risk, please consult your nearest healthcare facility",http://fhir.hie.moh.gov.my/CodeSystem/outcome-gen-cvs-my-core,CodeSystemOutcomeGenCvsMyCore

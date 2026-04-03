@@ -1,0 +1,10 @@
+code,display,definition,system_url,system_name
+00,No Information,No Information,http://fhir.hie.moh.gov.my/CodeSystem/visit-type-my-core,CodeSystemVistTypeMyCore
+01,New,New,http://fhir.hie.moh.gov.my/CodeSystem/visit-type-my-core,CodeSystemVistTypeMyCore
+02,Elective,Elective,http://fhir.hie.moh.gov.my/CodeSystem/visit-type-my-core,CodeSystemVistTypeMyCore
+03,Urgent,Urgent,http://fhir.hie.moh.gov.my/CodeSystem/visit-type-my-core,CodeSystemVistTypeMyCore
+04,Follow-up,Follow-up,http://fhir.hie.moh.gov.my/CodeSystem/visit-type-my-core,CodeSystemVistTypeMyCore
+05,Routine,Routine,http://fhir.hie.moh.gov.my/CodeSystem/visit-type-my-core,CodeSystemVistTypeMyCore
+06,Repeat,Repeat,http://fhir.hie.moh.gov.my/CodeSystem/visit-type-my-core,CodeSystemVistTypeMyCore
+07,Unscheduled,Unscheduled,http://fhir.hie.moh.gov.my/CodeSystem/visit-type-my-core,CodeSystemVistTypeMyCore
+08,Continuum,Continuum,http://fhir.hie.moh.gov.my/CodeSystem/visit-type-my-core,CodeSystemVistTypeMyCore

@@ -1,0 +1,6 @@
+code,display,definition,system_url,system_name
+medical-alert,Medical Alert,Medical Alert,http://fhir.hie.moh.gov.my/CodeSystem/dental-alert-code-my-core,CodeSystemDentalAlertCodeMyCore
+family-medical-alert,Family Medical Alert,Family Medical Alert,http://fhir.hie.moh.gov.my/CodeSystem/dental-alert-code-my-core,CodeSystemDentalAlertCodeMyCore
+drug-alert,Drug Alert,Drug Alert,http://fhir.hie.moh.gov.my/CodeSystem/dental-alert-code-my-core,CodeSystemDentalAlertCodeMyCore
+allergy-alert,Allergy Alert,Allergy Alert,http://fhir.hie.moh.gov.my/CodeSystem/dental-alert-code-my-core,CodeSystemDentalAlertCodeMyCore
+dental-history,Dental History,Dental History,http://fhir.hie.moh.gov.my/CodeSystem/dental-alert-code-my-core,CodeSystemDentalAlertCodeMyCore

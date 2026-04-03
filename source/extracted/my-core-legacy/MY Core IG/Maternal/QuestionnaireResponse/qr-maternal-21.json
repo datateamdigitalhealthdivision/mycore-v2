@@ -1,0 +1,174 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-maternal-21",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/qr-maternal-21",
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/bfb81ffe-637d-4b3f-befa-f7a1546ed9f8"
+    },
+    "authored": "2022-11-16T03:56:06.596Z",
+    "item": [
+        {
+            "linkId": "maternal-21.1",
+            "text": "Kemasukan",
+            "item": [
+                {
+                    "linkId": "maternal-21.1.1",
+                    "text": "Nama hospital",
+                    "answer": [
+                        {
+                            "valueString": "string entry goes here"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-21.1.2",
+                    "text": "R/N",
+                    "answer": [
+                        {
+                            "valueString": "string entry goes here"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-21.1.3",
+                    "text": "Tarikh masuk",
+                    "answer": [
+                        {
+                            "valueDateTime": "2023-02-13T23:22:36.875+00:00"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-21.1.4",
+                    "text": "Tarikh Keluar",
+                    "answer": [
+                        {
+                            "valueDateTime": "2023-02-14T23:22:36.875+00:00"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-21.1.5",
+                    "text": "Diagnosa",
+                    "answer": [
+                        {
+                            "valueString": "string entry goes here"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-21.1.6",
+                    "text": "Rawatan semasa discaj",
+                    "answer": [
+                        {
+                            "valueString": "string entry goes here"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-21.1.7",
+                    "text": "Tarikh temujanji akan datang",
+                    "answer": [
+                        {
+                            "valueDateTime": "2023-03-01T23:22:36.875+00:00"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-21.1.8",
+                    "text": "Pegawai Perubatan",
+                    "answer": [
+                        {
+                            "valueString": "string entry goes here"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "maternal-21.1",
+            "text": "Kemasukan",
+            "item": [
+                {
+                    "linkId": "maternal-21.1.1",
+                    "text": "Nama hospital",
+                    "answer": [
+                        {
+                            "valueString": "string entry goes here"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-21.1.2",
+                    "text": "R/N",
+                    "answer": [
+                        {
+                            "valueString": "string entry goes here"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-21.1.3",
+                    "text": "Tarikh masuk",
+                    "answer": [
+                        {
+                            "valueDateTime": "2023-01-13T23:22:36.875+00:00"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-21.1.4",
+                    "text": "Tarikh Keluar",
+                    "answer": [
+                        {
+                            "valueDateTime": "2023-01-14T23:22:36.875+00:00"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-21.1.5",
+                    "text": "Diagnosa",
+                    "answer": [
+                        {
+                            "valueString": "string entry goes here"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-21.1.6",
+                    "text": "Rawatan semasa discaj",
+                    "answer": [
+                        {
+                            "valueString": "string entry goes here"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-21.1.7",
+                    "text": "Tarikh temujanji akan datang",
+                    "answer": [
+                        {
+                            "valueDateTime": "2023-02-01T23:22:36.875+00:00"
+                        }
+                    ]
+                },
+                {
+                    "linkId": "maternal-21.1.8",
+                    "text": "Pegawai Perubatan",
+                    "answer": [
+                        {
+                            "valueString": "string entry goes here"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

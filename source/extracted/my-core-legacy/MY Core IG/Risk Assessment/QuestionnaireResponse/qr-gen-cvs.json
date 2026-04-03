@@ -1,0 +1,120 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "qr-gen-cvs",
+    "meta": {
+        "source": "http://provider.hie.moh.gov.my",
+        "profile": [
+            "http://fhir.hie.moh.gov.my/StructureDefinition/QuestionnaireResponse-my-core"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://fhir.hie.moh.gov.my/StructureDefinition/questionnaire-reference-my-core",
+            "valueReference": {
+                "reference": "Questionnaire/q-gen-cvs"
+            }
+        }
+    ],
+    "status": "completed",
+    "authored": "2023-01-30T08:00:00+08:00",
+    "questionnaire": "http://fhir.hie.moh.gov.my/Questionnaire/questionnaire-gen-cvs",
+    "subject": {
+        "reference": "Patient/bfb81ffe-637d-4b3f-befa-f7a1546ed9f8"
+    },
+    "author": {
+        "reference": "Patient/bfb81ffe-637d-4b3f-befa-f7a1546ed9f8"
+    },
+    "item": [
+        {
+            "linkId": "01",
+            "text": "Gender",
+            "answer": [
+                {
+                    "valueCoding": {
+                        "system": "http://hl7.org/fhir/administrative-gender",
+                        "code": "male",
+                        "display": "Male"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "02",
+            "text": "Age",
+            "answer": [
+                {
+                    "valueInteger": 31
+                }
+            ]
+        },
+        {
+            "linkId": "03",
+            "text": "Systolic Blood Pressure",
+            "answer": [
+                {
+                    "valueQuantity": {
+                        "value": 120,
+                        "unit": "mm[Hg]",
+                        "system": "http://unitsofmeasure.org",
+                        "code": "mm[Hg]"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "04",
+            "text": "Treated for Hypertension",
+            "answer": [
+                {
+                    "valueBoolean": false
+                }
+            ]
+        },
+        {
+            "linkId": "05",
+            "text": "Smoking Status",
+            "answer": [
+                {
+                    "valueBoolean": false
+                }
+            ]
+        },
+        {
+            "linkId": "06",
+            "text": "Treated for Diabetes",
+            "answer": [
+                {
+                    "valueBoolean": false
+                }
+            ]
+        },
+        {
+            "linkId": "07",
+            "text": "Body Mass Index (BMI)",
+            "answer": [
+                {
+                    "valueQuantity": {
+                        "value": 28,
+                        "unit": "kg/m2",
+                        "system": "http://unitsofmeasure.org",
+                        "code": "kg/m2"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "08",
+            "text": "Your 10-Year Heart Attack Risk score",
+            "answer": [
+                {
+                    "valueQuantity": {
+                        "value": 2.2,
+                        "unit": "%",
+                        "system": "http://unitsofmeasure.org",
+                        "code": "%"
+                    }
+                }
+            ]
+        }
+    ]
+}

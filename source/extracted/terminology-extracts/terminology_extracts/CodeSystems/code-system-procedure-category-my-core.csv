@@ -1,0 +1,10 @@
+code,display,definition,system_url,system_name
+02,Minor Procedure,Minor Procedure,http://fhir.hie.moh.gov.my/CodeSystem/procedure-category-my-core,CodeSystemProcedureCategoryMyCore
+03,Diagnostic Procedure,Diagnostic Procedure,http://fhir.hie.moh.gov.my/CodeSystem/procedure-category-my-core,CodeSystemProcedureCategoryMyCore
+04,Treatment Procedure,Treatment Procedure,http://fhir.hie.moh.gov.my/CodeSystem/procedure-category-my-core,CodeSystemProcedureCategoryMyCore
+05,Phlebotomy,Phlebotomy,http://fhir.hie.moh.gov.my/CodeSystem/procedure-category-my-core,CodeSystemProcedureCategoryMyCore
+06,Dental Procedure,Dental Procedure,http://fhir.hie.moh.gov.my/CodeSystem/procedure-category-my-core,CodeSystemProcedureCategoryMyCore
+07,Dietetic Services,Dietetic Services,http://fhir.hie.moh.gov.my/CodeSystem/procedure-category-my-core,CodeSystemProcedureCategoryMyCore
+09,Nutritionist Services,Nutritionist Services,http://fhir.hie.moh.gov.my/CodeSystem/procedure-category-my-core,CodeSystemProcedureCategoryMyCore
+08,Cooking Demonstration,Cooking Demonstration,http://fhir.hie.moh.gov.my/CodeSystem/procedure-category-my-core,CodeSystemProcedureCategoryMyCore
+10,Ophthalmic Procedure,Ophthalmic Procedure,http://fhir.hie.moh.gov.my/CodeSystem/procedure-category-my-core,CodeSystemProcedureCategoryMyCore

@@ -1,0 +1,54 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-cancellation-reason-my-core",
+  "meta": {
+    "source": "#X5nzWhjZsBdOvWZa"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemCancelationReason (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/cancellation-reason-my-core</tt><p>Appointment cancellation reason</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/cancellation-reason-my-core",
+  "name": "CodeSystemCancelationReasonMyCore",
+  "title": "CodeSystemCancelationReason (MY Core)",
+  "status": "active",
+  "date": "2023-01-12T21:13:03.0089063+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Appointment cancellation reason",
+  "compositional": false,
+  "content": "complete",
+  "count": 4,
+  "concept": [
+    {
+      "code": "0",
+      "display": "Other",
+      "definition": "Other"
+    },
+    {
+      "code": "1",
+      "display": "Customer/Patient request",
+      "definition": "Customer/Patient request"
+    },
+    {
+      "code": "2",
+      "display": "Reschedule appointment",
+      "definition": "Reschedule appointment"
+    },
+    {
+      "code": "3",
+      "display": "Organizer request",
+      "definition": "Organizer request"
+    }
+  ]
+}

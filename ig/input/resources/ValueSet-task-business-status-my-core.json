@@ -1,0 +1,35 @@
+{
+  "resourceType": "ValueSet",
+  "id": "task-business-status-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetTaskBusinessStatusMyCore (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/task-business-status-my-core</tt><p>Codes indicating the type of action that is expected to be performed</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/task-business-status-my-core",
+  "name": "ValueSetTaskBusinessStatusMyCore",
+  "title": "ValueSetTaskBusinessStatus (MY Core)",
+  "status": "active",
+  "date": "2023-07-09T12:22:24.0607395+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Codes indicating the type of action that is expected to be performed",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/task-business-status-my-core"
+      }
+    ]
+  },
+  "version": "2.0.0",
+  "experimental": false
+}

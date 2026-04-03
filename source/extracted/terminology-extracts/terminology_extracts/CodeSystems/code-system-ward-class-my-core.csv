@@ -1,0 +1,7 @@
+code,display,definition,system_url,system_name
+00,No Information,No Information,http://fhir.hie.moh.gov.my/CodeSystem/ward-class-my-core,CodeSystemWardClassMyCore
+01,1st Class,1st Class,http://fhir.hie.moh.gov.my/CodeSystem/ward-class-my-core,CodeSystemWardClassMyCore
+02,2nd Class,2nd Class,http://fhir.hie.moh.gov.my/CodeSystem/ward-class-my-core,CodeSystemWardClassMyCore
+03,3rd Class,3rd Class,http://fhir.hie.moh.gov.my/CodeSystem/ward-class-my-core,CodeSystemWardClassMyCore
+04,VIP/Royal Class,VIP/Royal Class,http://fhir.hie.moh.gov.my/CodeSystem/ward-class-my-core,CodeSystemWardClassMyCore
+97,Others / Not Relevant,Others / Not Relevant,http://fhir.hie.moh.gov.my/CodeSystem/ward-class-my-core,CodeSystemWardClassMyCore

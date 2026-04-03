@@ -1,0 +1,15 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "invalid-practitionerrole-bad-org",
+  "meta": {
+    "profile": [
+      "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/PractitionerRole-my-core"
+    ]
+  },
+  "practitioner": {
+    "reference": "Practitioner/my-core-practitioner-example"
+  },
+  "organization": {
+    "reference": "Organization/non-existent-org"
+  }
+}

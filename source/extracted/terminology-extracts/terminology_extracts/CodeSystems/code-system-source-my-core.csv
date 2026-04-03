@@ -1,0 +1,6 @@
+code,display,definition,system_url,system_name
+HIE,Health Information Exchange (HIE),Health Information Exchange (HIE),http://fhir.hie.moh.gov.my/CodeSystem/source-system-my-core,CodeSourceSystemMyCore
+MPIS,Medical Programme Information System (MPIS),Medical Programme Information System (MPIS),http://fhir.hie.moh.gov.my/CodeSystem/source-system-my-core,CodeSourceSystemMyCore
+PH,PeKa B40 Benefit Management System (BMS),PeKa B40 Benefit Management System (BMS),http://fhir.hie.moh.gov.my/CodeSystem/source-system-my-core,CodeSourceSystemMyCore
+BBIS,Blood Bank Information System (BBIS),Blood Bank Information System (BBIS),http://fhir.hie.moh.gov.my/CodeSystem/source-system-my-core,CodeSourceSystemMyCore
+PHIS,Pharmacy Information System (PhIS),Pharmacy Information System (PhIS),http://fhir.hie.moh.gov.my/CodeSystem/source-system-my-core,CodeSourceSystemMyCore

@@ -1,0 +1,2 @@
+code,display,system,include_type,valueset_url,valueset_name
+34878-9,Emergency Medicine Note,http://loinc.org,explicit,http://fhir.hie.moh.gov.my/ValueSet/composition-form-type-my-core,ValueSetCompositionFormTypeMyCore

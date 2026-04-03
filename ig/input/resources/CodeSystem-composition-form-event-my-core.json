@@ -1,0 +1,47 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "composition-form-event-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemCompositionFormEvent (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/composition-form-event-my-core</tt><p>Composition Form Event</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/composition-form-event-my-core",
+  "version": "2.0.0",
+  "name": "CodeSystemCompositionFormEventMyCore",
+  "title": "CodeSystemCompositionFormEvent (MY Core)",
+  "status": "active",
+  "date": "2023-06-08T03:08:38.5864399+00:00",
+  "description": "Composition Form Event",
+  "compositional": false,
+  "content": "complete",
+  "count": 3,
+  "property": [
+    {
+      "code": "TypeCode",
+      "type": "code"
+    },
+    {
+      "code": "TypeDisplay",
+      "type": "string"
+    }
+  ],
+  "concept": [
+    {
+      "code": "74207-2",
+      "display": "Prehospital Medical Note",
+      "definition": "Prehospital Medical Note"
+    },
+    {
+      "code": "q-dengue-checklist",
+      "display": "Dengue Checklist",
+      "definition": "Dengue Checklist"
+    },
+    {
+      "code": "q-tb-note",
+      "display": "Tuberculosis Clerking Note",
+      "definition": "Tuberculosis Clerking Note"
+    }
+  ],
+  "experimental": false,
+  "caseSensitive": true
+}

@@ -1,0 +1,28 @@
+code,display,definition,system_url,system_name
+Urine,Urine,Urine,http://fhir.hie.moh.gov.my/CodeSystem/specimen-type-my-core,CodeSystemSpecimenTypeMyCore
+Ser/Plas,Serum/Plasma,Serum/Plasma,http://fhir.hie.moh.gov.my/CodeSystem/specimen-type-my-core,CodeSystemSpecimenTypeMyCore
+Wound,Wound,Wound,http://fhir.hie.moh.gov.my/CodeSystem/specimen-type-my-core,CodeSystemSpecimenTypeMyCore
+XXX,Other,Other,http://fhir.hie.moh.gov.my/CodeSystem/specimen-type-my-core,CodeSystemSpecimenTypeMyCore
+Bld,Blood,Blood,http://fhir.hie.moh.gov.my/CodeSystem/specimen-type-my-core,CodeSystemSpecimenTypeMyCore
+BldA,Blood Arterial,Blood Arterial,http://fhir.hie.moh.gov.my/CodeSystem/specimen-type-my-core,CodeSystemSpecimenTypeMyCore
+^Patient,Patient Sample,Patient Sample,http://fhir.hie.moh.gov.my/CodeSystem/specimen-type-my-core,CodeSystemSpecimenTypeMyCore
+PPP,Platelet Poor Plasma,Platelet Poor Plasma,http://fhir.hie.moh.gov.my/CodeSystem/specimen-type-my-core,CodeSystemSpecimenTypeMyCore
+Sputum,Sputum,Sputum,http://fhir.hie.moh.gov.my/CodeSystem/specimen-type-my-core,CodeSystemSpecimenTypeMyCore
+BldC,Blood Capillary,Blood Capillary,http://fhir.hie.moh.gov.my/CodeSystem/specimen-type-my-core,CodeSystemSpecimenTypeMyCore
+Thrt,Throat,Throat,http://fhir.hie.moh.gov.my/CodeSystem/specimen-type-my-core,CodeSystemSpecimenTypeMyCore
+Body fld,Body Fluid,Body Fluid,http://fhir.hie.moh.gov.my/CodeSystem/specimen-type-my-core,CodeSystemSpecimenTypeMyCore
+Stool,Stool,Stool,http://fhir.hie.moh.gov.my/CodeSystem/specimen-type-my-core,CodeSystemSpecimenTypeMyCore
+Cvx,Cervix,Cervix,http://fhir.hie.moh.gov.my/CodeSystem/specimen-type-my-core,CodeSystemSpecimenTypeMyCore
+CSF,CSF,CSF,http://fhir.hie.moh.gov.my/CodeSystem/specimen-type-my-core,CodeSystemSpecimenTypeMyCore
+Genital,Genital,Genital,http://fhir.hie.moh.gov.my/CodeSystem/specimen-type-my-core,CodeSystemSpecimenTypeMyCore
+Ser,Serum,Serum,http://fhir.hie.moh.gov.my/CodeSystem/specimen-type-my-core,CodeSystemSpecimenTypeMyCore
+Tiss,Tissue,Tissue,http://fhir.hie.moh.gov.my/CodeSystem/specimen-type-my-core,CodeSystemSpecimenTypeMyCore
+BldCoA,Blood Cord Arterial,Blood Cord Arterial,http://fhir.hie.moh.gov.my/CodeSystem/specimen-type-my-core,CodeSystemSpecimenTypeMyCore
+Ctp,Catheter Tip,Catheter Tip,http://fhir.hie.moh.gov.my/CodeSystem/specimen-type-my-core,CodeSystemSpecimenTypeMyCore
+Urethra,Urethra,Urethra,http://fhir.hie.moh.gov.my/CodeSystem/specimen-type-my-core,CodeSystemSpecimenTypeMyCore
+Urine+Ser/Plas,Urine + Serum/Plasma,Urine + Serum/Plasma,http://fhir.hie.moh.gov.my/CodeSystem/specimen-type-my-core,CodeSystemSpecimenTypeMyCore
+Plas,Plasma,Plasma,http://fhir.hie.moh.gov.my/CodeSystem/specimen-type-my-core,CodeSystemSpecimenTypeMyCore
+Vag,Vagina,Vagina,http://fhir.hie.moh.gov.my/CodeSystem/specimen-type-my-core,CodeSystemSpecimenTypeMyCore
+Abscess,Abscess,Abscess,http://fhir.hie.moh.gov.my/CodeSystem/specimen-type-my-core,CodeSystemSpecimenTypeMyCore
+Bld/Tiss,Blood/Tissue,Blood/Tissue,http://fhir.hie.moh.gov.my/CodeSystem/specimen-type-my-core,CodeSystemSpecimenTypeMyCore
+Ser+Bld,Serum + Blood,Serum + Blood,http://fhir.hie.moh.gov.my/CodeSystem/specimen-type-my-core,CodeSystemSpecimenTypeMyCore

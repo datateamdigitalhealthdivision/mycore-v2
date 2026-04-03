@@ -1,0 +1,81 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-procedure-category-my-core",
+  "meta": {
+    "versionId": "7",
+    "lastUpdated": "2023-05-24T20:05:51.089+08:00",
+    "source": "#So6y1zCwGsOL42za"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemProcedureCategory (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/procedure-category-my-core</tt><p>Procedure Category</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/procedure-category-my-core",
+  "name": "CodeSystemProcedureCategoryMyCore",
+  "title": "CodeSystemProcedureCategory (MY Core)",
+  "status": "active",
+  "date": "2023-07-25T00:23:50.1094378+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Procedure Category",
+  "compositional": false,
+  "content": "complete",
+  "count": 7,
+  "concept": [
+    {
+      "code": "02",
+      "display": "Minor Procedure",
+      "definition": "Minor Procedure"
+    },
+    {
+      "code": "03",
+      "display": "Diagnostic Procedure",
+      "definition": "Diagnostic Procedure"
+    },
+    {
+      "code": "04",
+      "display": "Treatment Procedure",
+      "definition": "Treatment Procedure"
+    },
+    {
+      "code": "05",
+      "display": "Phlebotomy",
+      "definition": "Phlebotomy"
+    },
+    {
+      "code": "06",
+      "display": "Dental Procedure",
+      "definition": "Dental Procedure"
+    },
+    {
+      "code": "07",
+      "display": "Dietetic Services",
+      "definition": "Dietetic Services"
+    },
+    {
+      "code": "09",
+      "display": "Nutritionist Services",
+      "definition": "Nutritionist Services"
+    },
+    {
+      "code": "08",
+      "display": "Cooking Demonstration",
+      "definition": "Cooking Demonstration"
+    },
+    {
+      "code": "10",
+      "display": "Ophthalmic Procedure",
+      "definition": "Ophthalmic Procedure"
+    }
+  ]
+}

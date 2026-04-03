@@ -1,0 +1,68 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "PaymentReconciliation-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/PaymentReconciliation-my-core",
+  "name": "PaymentReconciliationMyCore",
+  "title": "PaymentReconciliation (MY Core)",
+  "status": "active",
+  "date": "2023-01-10T23:01:36.9771953+00:00",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "PaymentReconciliation",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "PaymentReconciliation.identifier.system",
+        "path": "PaymentReconciliation.identifier.system",
+        "min": 1,
+        "fixedUri": "https://id.kkmhub.moh.gov.my/sid/receipt-no"
+      },
+      {
+        "id": "PaymentReconciliation.identifier.value",
+        "path": "PaymentReconciliation.identifier.value",
+        "min": 1
+      },
+      {
+        "id": "PaymentReconciliation.paymentIdentifier.system",
+        "path": "PaymentReconciliation.paymentIdentifier.system",
+        "min": 1,
+        "fixedUri": "https://id.kkmhub.moh.gov.my/sid/payment-transaction-no"
+      },
+      {
+        "id": "PaymentReconciliation.paymentIdentifier.value",
+        "path": "PaymentReconciliation.paymentIdentifier.value",
+        "min": 1
+      },
+      {
+        "id": "PaymentReconciliation.detail.identifier.system",
+        "path": "PaymentReconciliation.detail.identifier.system",
+        "min": 1,
+        "fixedUri": "https://id.kkmhub.moh.gov.my/sid/bank-code"
+      },
+      {
+        "id": "PaymentReconciliation.detail.identifier.value",
+        "path": "PaymentReconciliation.detail.identifier.value",
+        "min": 1
+      },
+      {
+        "id": "PaymentReconciliation.detail.type",
+        "path": "PaymentReconciliation.detail.type",
+        "binding": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "PaymentType"
+            }
+          ],
+          "strength": "required",
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/payment-type-my-core"
+        }
+      }
+    ]
+  },
+  "version": "2.0.0",
+  "experimental": false
+}

@@ -1,0 +1,111 @@
+code,display,definition,system_url,system_name
+10,-,-,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+20,2 hours prior to exposure of sunlight,2 hours prior to exposure of sunlight,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+30,Avoid alcohol and grapefruit juice,Avoid alcohol and grapefruit juice,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+40,Avoid alcoholic drink,Avoid alcoholic drink,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+50,Avoid antacids,Avoid antacids,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+60,Avoid contact with eyes,Avoid contact with eyes,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+70,"Avoid contact with eyes, mouth or other mucous membrane","Avoid contact with eyes, mouth or other mucous membrane",http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+80,Avoid contact with eyes or face,Avoid contact with eyes or face,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+90,Avoid contact with eyes or mucous membrane,Avoid contact with eyes or mucous membrane,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+100,Avoid exposure to sunlight,Avoid exposure to sunlight,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+110,"Avoid food, milk and milk products","Avoid food, milk and milk products",http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+120,Avoid grapefruit juice,Avoid grapefruit juice,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+130,Avoid light. Discard eight weeks after opening.,Avoid light. Discard eight weeks after opening.,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+140,"Avoid milk, antacid and zinc/iron preparation","Avoid milk, antacid and zinc/iron preparation",http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+150,"Avoid milk, food and antacids","Avoid milk, food and antacids",http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+160,Avoid other medication within 2 hours,Avoid other medication within 2 hours,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+170,Avoid other medication within 2 hrs. Avoid milk ice cream,Avoid other medication within 2 hrs. Avoid milk ice cream,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+180,Avoid pregnancy. Avoid alcohol,Avoid pregnancy. Avoid alcohol,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+184,Avoid pregnancy and lactation,Avoid pregnancy and lactation,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+190,Avoid pregnancy during treatment,Avoid pregnancy during treatment,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+200,Avoid smoking alcohol,Avoid smoking alcohol,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+210,Avoid taking large amount fibre-rich food,Avoid taking large amount fibre-rich food,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+220,Avoid use on the face as it may cause facial skin irritation,Avoid use on the face as it may cause facial skin irritation,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+230,Can be irritant to mucous membrane eyes,Can be irritant to mucous membrane eyes,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+234,Child not recommended,Child not recommended,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+240,Contact doctor if adverse reaction occurs,Contact doctor if adverse reaction occurs,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+250,Contact doctor if allergic reaction occurs,Contact doctor if allergic reaction occurs,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+260,Contact doctor if any sign of bleeding occurs,Contact doctor if any sign of bleeding occurs,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+270,Contraindicated in pregnancy and lactation,Contraindicated in pregnancy and lactation,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+280,Cytotoxic. Handle with care,Cytotoxic. Handle with care,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+290,Day 8-14: Take 1 blue tablet (1mg) 2 times a day,Day 8-14: Take 1 blue tablet (1mg) 2 times a day,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+300,Discard 1 month after opening/ OPENING DATE:_ _ _ _,Discard 1 month after opening/ OPENING DATE:_ _ _ _,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+310,Discard 5 days after dilution,Discard 5 days after dilution,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+320,Discard 7 days after opening. OPENING DATE:_ _ _ _,Discard 7 days after opening. OPENING DATE:_ _ _ _,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+330,Do not apply to open wounds or burnt,Do not apply to open wounds or burnt,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+340,Do not chew/ crush tablet,Do not chew/ crush tablet,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+350,Do not dilute with dextrose solution,Do not dilute with dextrose solution,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+360,Do not dilute with Saline Solution (Sodium Chloride),Do not dilute with Saline Solution (Sodium Chloride),http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+370,Do not stop medicine abruptly. Avoid alcoholic drinks,Do not stop medicine abruptly. Avoid alcoholic drinks,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+380,Do not stop medicine without doctor's advice,Do not stop medicine without doctor's advice,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+390,Do not stop this medicine abruptly.,Do not stop this medicine abruptly.,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+400,Do not stop without doctor's advice. Avoid alcoholic drinks,Do not stop without doctor's advice. Avoid alcoholic drinks,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+410,Do not stop without doctor's advice. Avoid smoking,Do not stop without doctor's advice. Avoid smoking,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+420,Do not swallow solution,Do not swallow solution,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+430,Do not swallow this medicine immediately,Do not swallow this medicine immediately,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+440,Do not swallow whole tablet,Do not swallow whole tablet,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+450,Do not take 2 hours before or after taking antacids,Do not take 2 hours before or after taking antacids,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+460,Do not take more than 2 tablets at a time/ 8 tablets a day.,Do not take more than 2 tablets at a time/ 8 tablets a day.,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+470,Do not take more than 8 tablets a day,Do not take more than 8 tablets a day,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+480,Do not take with an empty stomach,Do not take with an empty stomach,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+490,Do not take with antacids and milk,Do not take with antacids and milk,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+500,Do not use more than 7 days,Do not use more than 7 days,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+510,Food/ drink should not be taken within 2 hours,Food/ drink should not be taken within 2 hours,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+520,For external use only,For external use only,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+524,For topical use,For topical use,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+530,Further dilute with ______ NS. Inf ____ hr,Further dilute with ______ NS. Inf ____ hr,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+540,Keep in Refrigerator (2-8 C). Do not Freeze,Keep in Refrigerator (2-8 C). Do not Freeze,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+550,Limit exposure to sunlight,Limit exposure to sunlight,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+552,May cause constipation or GI disturbances,May cause constipation or GI disturbances,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+554,"May cause dizziness on standing, stand up gradually","May cause dizziness on standing, stand up gradually",http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+560,May cause drowsiness,May cause drowsiness,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+570,May cause drowsiness. Avoid grapefruit juice,May cause drowsiness. Avoid grapefruit juice,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+580,May cause drowsiness. Do not drive or operate machinery,May cause drowsiness. Do not drive or operate machinery,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+590,May cause drowsiness. Do not stop without doctor's advice,May cause drowsiness. Do not stop without doctor's advice,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+600,May cause drowsiness. Do not take with antacids,May cause drowsiness. Do not take with antacids,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+610,May cause gastrointestinal disturbance,May cause gastrointestinal disturbance,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+620,May cause photosensitivity. Avoid sunlight,May cause photosensitivity. Avoid sunlight,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+630,"May cause somnolence, dissiness, dry mouth, constipation","May cause somnolence, dissiness, dry mouth, constipation",http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+634,May cause temporary loss of sensation and motor activity,May cause temporary loss of sensation and motor activity,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+640,May impair ability to drive or operate machinery,May impair ability to drive or operate machinery,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+650,May stain skin and clothing,May stain skin and clothing,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+660,Not recommended in children less than 2 years old,Not recommended in children less than 2 years old,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+670,Not suitable for child below 6yrs.Avoid contact with eyes,Not suitable for child below 6yrs.Avoid contact with eyes,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+680,Not suitable for children,Not suitable for children,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+690,Not to be consumed,Not to be consumed,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+700,Not to be swallowed,Not to be swallowed,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+710,Only for single application,Only for single application,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+712,Protect this medicine from light,Protect this medicine from light,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+714,Protect this medicine from moisture and light,Protect this medicine from moisture and light,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+716,Shake well before use. Keep refrigerated (2-8 C) after reconstitution,Shake well before use. Keep refrigerated (2-8 C) after reconstitution,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+718,"Seek medical advice during first signs of pancreatitis (e.g. abdominal pain, nausea, vomiting and an","Seek medical advice during first signs of pancreatitis (e.g. abdominal pain, nausea, vomiting and an",http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+720,Seek medical advice from your doctor/pharmacist immediately,Seek medical advice from your doctor/pharmacist immediately,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+730,Should take with plenty of water,Should take with plenty of water,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+740,Stop medication. Consult your doctor/pharmacist,Stop medication. Consult your doctor/pharmacist,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+750,Stop treatment if allergic reaction occurs,Stop treatment if allergic reaction occurs,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+760,"Take atleast 1 hr before first food, drink or medication","Take atleast 1 hr before first food, drink or medication",http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+770,Take medicine for 21days. Rest for 7days,Take medicine for 21days. Rest for 7days,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+780,Take on an empty stomach 1 hr before or 2 hr after food,Take on an empty stomach 1 hr before or 2 hr after food,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+790,TERATOGENIC: Handle with care,TERATOGENIC: Handle with care,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+800,This medicine can cause skin irritation,This medicine can cause skin irritation,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+810,This medicine is not for long-term use,This medicine is not for long-term use,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+820,This medicine may alter the colour of stool or urine,This medicine may alter the colour of stool or urine,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+830,This medicine may alter the colour of urine,This medicine may alter the colour of urine,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+840,Use as directed by pharmacist,Use as directed by pharmacist,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+850,Use as directed by pharmacist. Shake well before use,Use as directed by pharmacist. Shake well before use,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+870,Avoid ALCOHOL.,Avoid ALCOHOL.,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+880,"Avoid milk, antacid and iron preparation","Avoid milk, antacid and iron preparation",http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+890,Avoid periorbital area,Avoid periorbital area,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+900,Can be irritant to mucous membrane and eyes,Can be irritant to mucous membrane and eyes,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+910,Day2-3: Take 80mg cap/tab once a day,Day2-3: Take 80mg cap/tab once a day,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+920,Discard 7 days after opening. OPENING DATE:_ _ _ _,Discard 7 days after opening. OPENING DATE:_ _ _ _,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+930,Discard ____ days after opening: OPENING DATE: ________,Discard ____ days after opening: OPENING DATE: ________,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+940,Discard vial/ampoule immediately after use,Discard vial/ampoule immediately after use,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+950,DO NOT SWALLOW,DO NOT SWALLOW,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+960,May cause drowsiness. Avoid alcohol,May cause drowsiness. Avoid alcohol,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+970,May cause drowsiness. Do not drive or operate machine,May cause drowsiness. Do not drive or operate machine,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+980,May impair ability to drive or operate machine,May impair ability to drive or operate machine,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+990,NOT FOR CONSUMPTION,NOT FOR CONSUMPTION,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+1000,Take ____ ML and discard _____ ML,Take ____ ML and discard _____ ML,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore
+1010,Take/Use as directed by doctor/pharmacist,Take/Use as directed by doctor/pharmacist,http://fhir.hie.moh.gov.my/CodeSystem/drug-cautionary-my-core,CodeSystemDrugCautionaryMyCore

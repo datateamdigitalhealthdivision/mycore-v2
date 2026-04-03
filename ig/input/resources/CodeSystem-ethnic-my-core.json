@@ -1,0 +1,106 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ethnic-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemEthnic (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/ethnic-my-core</tt></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/ethnic-my-core",
+  "version": "2.0.0",
+  "name": "CodeSystemEthnicMyCore",
+  "title": "CodeSystemEthnic (MY Core)",
+  "status": "active",
+  "date": "2023-03-08T08:22:01.7613407+00:00",
+  "compositional": false,
+  "content": "complete",
+  "count": 17,
+  "concept": [
+    {
+      "code": "00",
+      "display": "No Information",
+      "definition": "No Information"
+    },
+    {
+      "code": "01",
+      "display": "Melayu",
+      "definition": "Melayu"
+    },
+    {
+      "code": "02",
+      "display": "Cina",
+      "definition": "Cina"
+    },
+    {
+      "code": "03",
+      "display": "India",
+      "definition": "India"
+    },
+    {
+      "code": "04",
+      "display": "Orang Asli Semenanjung",
+      "definition": "Orang Asli Semenanjung"
+    },
+    {
+      "code": "05",
+      "display": "Bajau",
+      "definition": "Bajau"
+    },
+    {
+      "code": "06",
+      "display": "Dusun",
+      "definition": "Dusun"
+    },
+    {
+      "code": "07",
+      "display": "Kadazan",
+      "definition": "Kadazan"
+    },
+    {
+      "code": "08",
+      "display": "Murut",
+      "definition": "Murut"
+    },
+    {
+      "code": "10",
+      "display": "Bumiputera Sabah Lain",
+      "definition": "Bumiputera Sabah Lain"
+    },
+    {
+      "code": "11",
+      "display": "Melanau",
+      "definition": "Melanau"
+    },
+    {
+      "code": "12",
+      "display": "Kedayan",
+      "definition": "Kedayan"
+    },
+    {
+      "code": "13",
+      "display": "Iban",
+      "definition": "Iban"
+    },
+    {
+      "code": "14",
+      "display": "Bidayuh",
+      "definition": "Bidayuh"
+    },
+    {
+      "code": "15",
+      "display": "Bumiputera Sarawak Lain",
+      "definition": "Bumiputera Sarawak Lain"
+    },
+    {
+      "code": "17",
+      "display": "Bukan Warganegara",
+      "definition": "Bukan Warganegara"
+    },
+    {
+      "code": "99",
+      "display": "Lain-lain",
+      "definition": "Lain-lain"
+    }
+  ],
+  "experimental": false,
+  "caseSensitive": true
+}

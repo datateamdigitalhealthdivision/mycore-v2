@@ -1,0 +1,72 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-dev-milestone-fine-motor-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-fine-motor-my-core</h2><tt>http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-fine-motor-my-core</tt><p>Dev Milestone</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-fine-motor-my-core",
+  "name": "ValueSetDevMilestoneFineMotorMyCore",
+  "title": "http://fhir.hie.moh.gov.my/ValueSet/dev-milestone-fine-motor-my-core",
+  "status": "active",
+  "date": "2023-09-04T01:26:51.2813+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "description": "Dev Milestone",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-fine-motor-my-core",
+        "concept": [
+          {
+            "code": "f6w",
+            "display": "Up to 6 weeks of age"
+          },
+          {
+            "code": "f3m",
+            "display": "Up to 3 months of age"
+          },
+          {
+            "code": "f6m",
+            "display": "Up to 6 months of age"
+          },
+          {
+            "code": "f9m",
+            "display": "Up to 9 months of age"
+          },
+          {
+            "code": "f12m",
+            "display": "Up to 12 months of age"
+          },
+          {
+            "code": "f15m",
+            "display": "Up to 15 months of age"
+          },
+          {
+            "code": "f18m",
+            "display": "Up to 18 months of age"
+          },
+          {
+            "code": "f2y",
+            "display": "Up to 2 years of age"
+          },
+          {
+            "code": "f2.5y",
+            "display": "Up to 2.5 years of age"
+          },
+          {
+            "code": "f3y",
+            "display": "Up to 3 years of age"
+          },
+          {
+            "code": "f4y",
+            "display": "Up to 4 years of age"
+          },
+          {
+            "code": "f5y",
+            "display": "Up to 5 years of age"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-drug-schedule-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemDrugSchedule (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/drug-schedule-my-core</tt><p>Drug Schedule</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/drug-schedule-my-core",
+  "version": "1.0.0",
+  "name": "CodeSystemDrugScheduleMyCore",
+  "title": "CodeSystemDrugSchedule (MY Core)",
+  "status": "active",
+  "date": "2023-01-12T21:13:03.0089063+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Drug Schedule",
+  "compositional": false,
+  "content": "complete",
+  "count": 4,
+  "concept": [
+    {
+      "code": "N",
+      "display": "Narcotic",
+      "definition": "Narcotic"
+    },
+    {
+      "code": "P",
+      "display": "Psychotropic",
+      "definition": "Psychotropic"
+    },
+    {
+      "code": "NP",
+      "display": "Non Poison",
+      "definition": "Non Poison"
+    },
+    {
+      "code": "SP",
+      "display": "Schedule Poison",
+      "definition": "Schedule Poison"
+    }
+  ]
+}

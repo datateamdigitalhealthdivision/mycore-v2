@@ -1,0 +1,41 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-task-code-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemTaskCode (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/task-code-my-core</tt><p>Type of Task</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/task-code-my-core",
+  "version": "1.0.0",
+  "name": "CodeSystemTaskMyCore",
+  "title": "CodeSystemTaskCode (MY Core)",
+  "status": "active",
+  "date": "2023-03-30T05:18:54.6783317+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "description": "Type of task",
+  "compositional": false,
+  "content": "complete",
+  "count": 1,
+  "concept": [
+    {
+      "code": "internal",
+      "display": "Internal",
+      "definition": "Internal"
+    },
+    {
+      "code": "affiliate-checkpoint-requester",
+      "display": "Affiliate Checkpoint Requester",
+      "definition": "Affiliate Checkpoint Requester"
+    },
+    {
+      "code": "affiliate-checkpoint-tc",
+      "display": "Affiliate Checkpoint Transit Centre",
+      "definition": "Affiliate Checkpoint Transit Centre"
+    },
+    {
+      "code": "affiliate-checkpoint-performer",
+      "display": "Affiliate Checkpoint Performer",
+      "definition": "Affiliate Checkpoint Performer"
+    }
+  ]
+}

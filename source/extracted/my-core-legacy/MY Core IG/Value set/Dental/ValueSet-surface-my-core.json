@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-surface-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetsurface (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/ValueSet/surface-my-core</tt><p>Surface</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/ValueSet/surface-my-core",
+  "name": "ValueSetSurfaceMyCore",
+  "title": "ValueSetSurface (MY Core)",
+  "status": "active",
+  "date": "2023-01-03T04:47:56.9010407+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Surface",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.hie.moh.gov.my/CodeSystem/surface-my-core"
+      }
+    ]
+  }
+}

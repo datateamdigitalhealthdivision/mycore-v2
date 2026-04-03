@@ -1,0 +1,15 @@
+code,display,definition,system_url,system_name
+00,No Information,,http://fhir.hie.moh.gov.my/CodeSystem/relationship-my-core,CodeSystemRelationshipMyCore
+01,Wife,,http://fhir.hie.moh.gov.my/CodeSystem/relationship-my-core,CodeSystemRelationshipMyCore
+02,Husband,,http://fhir.hie.moh.gov.my/CodeSystem/relationship-my-core,CodeSystemRelationshipMyCore
+03,Mother,,http://fhir.hie.moh.gov.my/CodeSystem/relationship-my-core,CodeSystemRelationshipMyCore
+04,Father,,http://fhir.hie.moh.gov.my/CodeSystem/relationship-my-core,CodeSystemRelationshipMyCore
+05,Biological Child,,http://fhir.hie.moh.gov.my/CodeSystem/relationship-my-core,CodeSystemRelationshipMyCore
+06,Step Child,,http://fhir.hie.moh.gov.my/CodeSystem/relationship-my-core,CodeSystemRelationshipMyCore
+07,Adopted Child,,http://fhir.hie.moh.gov.my/CodeSystem/relationship-my-core,CodeSystemRelationshipMyCore
+09,Grandmother,,http://fhir.hie.moh.gov.my/CodeSystem/relationship-my-core,CodeSystemRelationshipMyCore
+10,Grandfather,,http://fhir.hie.moh.gov.my/CodeSystem/relationship-my-core,CodeSystemRelationshipMyCore
+11,Sibling,,http://fhir.hie.moh.gov.my/CodeSystem/relationship-my-core,CodeSystemRelationshipMyCore
+12,Guardian,,http://fhir.hie.moh.gov.my/CodeSystem/relationship-my-core,CodeSystemRelationshipMyCore
+13,Self,,http://fhir.hie.moh.gov.my/CodeSystem/relationship-my-core,CodeSystemRelationshipMyCore
+99,Others,,http://fhir.hie.moh.gov.my/CodeSystem/relationship-my-core,CodeSystemRelationshipMyCore

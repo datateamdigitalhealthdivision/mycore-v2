@@ -1,0 +1,85 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-system-dev-milestone-fine-motor-my-core",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2023-05-25T08:51:56.979+00:00",
+    "source": "#eeyQwOoDfDB4BLbD"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemDevMilestoneFineMotor (MY Core)</h2><tt>http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-Fine-motor-my-core</tt><p>Developmental MIlestone Fine Motor</p></div>"
+  },
+  "url": "http://fhir.hie.moh.gov.my/CodeSystem/dev-milestone-fine-motor-my-core",
+  "name": "CodeSystemDevMilestoneFineMotorMyCore",
+  "title": "CodeSystemDevMilestoneFineMotor (MY Core)",
+  "status": "active",
+  "date": "2023-09-04T01:26:51.2813+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "description": "Developmental Milestone Fine Motor",
+  "compositional": false,
+  "content": "complete",
+  "count": 12,
+  "concept": [
+    {
+      "code": "f6w",
+      "display": "Up to 6 weeks of age",
+      "definition": "Fixates on objects. \nIn supine, follows object from side to midline (90o) Defensive blink by 6-8 weeks"
+    },
+    {
+      "code": "f3m",
+      "display": "Up to 3 months of age",
+      "definition": "Hand regard. \nFollows dangling toy from side to side (180°) Hands loosely open. \nHolds rattle placed in hand momentarily"
+    },
+    {
+      "code": "f6m",
+      "display": "Up to 6 months of age",
+      "definition": "Palmar grasp of cube. \nDrops one cube when another is given at 6 mths, retains one cube at hand when another is offered at 7 mths. \nTransfers object from one hand to another at 7 mths. \nEyes move together (any squint is abnormal). \nFollows activities across room with alertness."
+    },
+    {
+      "code": "f9m",
+      "display": "Up to 9 months of age",
+      "definition": "Pokes at small object & begins to point at distant object with index finger. \nInferior pincer grasp. \nRelease toy by dropping or pressing against firm surface. \nLooks in correct direction for fallen toys. \nGrasp string to pull toy (causal understanding)."
+    },
+    {
+      "code": "f12m",
+      "display": "Up to 12 months of age",
+      "definition": "Neat pincer grasp. \nBangs 2 cubes. \nPoints with index finger at object of interest."
+    },
+    {
+      "code": "f15m",
+      "display": "Up to 15 months of age",
+      "definition": "Tower of 2 cubes. \nHold 2 cubes in one hand. \nTo and fro scribble with palmar grasp"
+    },
+    {
+      "code": "f18m",
+      "display": "Up to 18 months of age",
+      "definition": "Tower of 3 cubes. \nEnjoys putting small objects in and out of containers. \nScribbles spontaneously. \nEnjoys picture books, turns few pages at a time. \nHand preference."
+    },
+    {
+      "code": "f2y",
+      "display": "Up to 2 years of age",
+      "definition": "Tower of 6 - 7 cubes. \nImitates train of cubes, without adding chimney. \nCircular scribbles. \nImitates vertical line. \nEnjoys picture books and turns pages singly"
+    },
+    {
+      "code": "f2.5y",
+      "display": "Up to 2.5 years of age",
+      "definition": "Tower of 7- 8 cubes. \nImitates train, adding chimney. \nRecognizes minute details in picture books. \nImitates horizontal and vertical line."
+    },
+    {
+      "code": "f3y",
+      "display": "Up to 3 years of age",
+      "definition": "Tower of 9 - 10 cubes. \nImitates bridge with 3 cubes. \nCopies a circle. \nImitates a cross. \nDraw a man on request (3 - 10y). \nCuts with scissors"
+    },
+    {
+      "code": "f4y",
+      "display": "Up to 4 years of age",
+      "definition": "Builds 3 steps with 6 cubes after demonstration. \nHolds pencil with good control. \nCopies cross. \nDraws a person with head, legs and trunks. \nMatches 4 primary colours."
+    },
+    {
+      "code": "f5y",
+      "display": "Up to 5 years of age",
+      "definition": "Copies square at 5 years and a triangle at 5 ½ years. \nColours neatly, staying within outlines. \nDraws a man with head, trunk, legs, arms and features. \nCan cut a strip of paper neatly"
+    }
+  ]
+}
