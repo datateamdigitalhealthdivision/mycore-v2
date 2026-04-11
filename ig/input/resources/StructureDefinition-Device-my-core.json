@@ -1,0 +1,73 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Device-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Device-my-core",
+  "version": "2.0.0",
+  "name": "DeviceMyCore",
+  "title": "Device (MY Core)",
+  "status": "active",
+  "date": "2026-04-11",
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Patient-associated device profile aligned to the IPS device section for implants, prostheses, and clinically relevant assistive devices.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Device",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Device",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Device",
+        "path": "Device",
+        "short": "MY Core patient device",
+        "definition": "Clinically relevant patient-associated device carried in the MY Core baseline and aligned to the IPS device section."
+      },
+      {
+        "id": "Device.udiCarrier",
+        "path": "Device.udiCarrier",
+        "short": "UDI carrier when available",
+        "definition": "Capture UDI content when available from the implanted or dispensed device."
+      },
+      {
+        "id": "Device.status",
+        "path": "Device.status",
+        "min": 1
+      },
+      {
+        "id": "Device.serialNumber",
+        "path": "Device.serialNumber",
+        "short": "Serial number when available",
+        "definition": "Manufacturer serial number when it is available to the exchanging systems."
+      },
+      {
+        "id": "Device.type",
+        "path": "Device.type",
+        "min": 1,
+        "binding": {
+          "strength": "preferred",
+          "description": "Use a globally managed device terminology, consistent with IPS exchanges where available.",
+          "valueSet": "http://hl7.org/fhir/ValueSet/device-type"
+        }
+      },
+      {
+        "id": "Device.patient",
+        "path": "Device.patient",
+        "min": 1,
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Patient-my-core"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "experimental": false,
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Device (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Device-my-core</tt><p>Patient-associated device profile aligned to the IPS device section for implants, prostheses, and clinically relevant assistive devices.</p></div>"
+  }
+}

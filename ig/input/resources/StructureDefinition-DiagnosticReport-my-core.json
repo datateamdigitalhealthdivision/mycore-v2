@@ -2651,7 +2651,7 @@
             "code": "uri"
           }
         ],
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/service-request-category-my-core",
+        "fixedUri": "http://snomed.info/sct",
         "condition": [
           "ele-1"
         ],
@@ -4798,7 +4798,7 @@
             "code": "uri"
           }
         ],
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/lab-my-core",
+        "fixedUri": "http://loinc.org",
         "condition": [
           "ele-1"
         ],
@@ -7354,7 +7354,7 @@
         "id": "DiagnosticReport.category.coding:serviceRequestCategory.system",
         "path": "DiagnosticReport.category.coding.system",
         "min": 1,
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/service-request-category-my-core"
+        "fixedUri": "http://snomed.info/sct"
       },
       {
         "id": "DiagnosticReport.category.coding:imagingModality",
@@ -7437,7 +7437,7 @@
         "id": "DiagnosticReport.code.coding:lab.system",
         "path": "DiagnosticReport.code.coding.system",
         "min": 1,
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/lab-my-core"
+        "fixedUri": "http://loinc.org"
       },
       {
         "id": "DiagnosticReport.code.coding:imaging",

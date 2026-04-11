@@ -12,7 +12,7 @@
     {
       "coding": [
         {
-          "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/service-request-category-my-core",
+          "system": "http://snomed.info/sct",
           "code": "108252007",
           "display": "Laboratory"
         }
@@ -22,7 +22,7 @@
   "code": {
     "coding": [
       {
-        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/lab-my-core",
+        "system": "http://loinc.org",
         "code": "718-7",
         "display": "Hemoglobin"
       }

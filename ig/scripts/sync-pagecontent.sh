@@ -49,11 +49,11 @@ This guide is the computable publication core of a single repository that also p
 
 ## Repository sources
 
-- [Repository root](https://github.com/datateamdigitalhealthdivision/myehr-mycore-v2)
-- [National chapters in `docs/`](https://github.com/datateamdigitalhealthdivision/myehr-mycore-v2/tree/main/docs)
-- [Technical annexes in `annexes/`](https://github.com/datateamdigitalhealthdivision/myehr-mycore-v2/tree/main/annexes)
-- [Tests in `tests/`](https://github.com/datateamdigitalhealthdivision/myehr-mycore-v2/tree/main/tests)
-- [Mappings in `mappings/`](https://github.com/datateamdigitalhealthdivision/myehr-mycore-v2/tree/main/mappings)
+- [Repository root](https://github.com/datateamdigitalhealthdivision/mycore-v2)
+- [National chapters in `docs/`](https://github.com/datateamdigitalhealthdivision/mycore-v2/tree/main/docs)
+- [Technical annexes in `annexes/`](https://github.com/datateamdigitalhealthdivision/mycore-v2/tree/main/annexes)
+- [Tests in `tests/`](https://github.com/datateamdigitalhealthdivision/mycore-v2/tree/main/tests)
+- [Mappings in `mappings/`](https://github.com/datateamdigitalhealthdivision/mycore-v2/tree/main/mappings)
 
 ## Draft notice
 
@@ -95,8 +95,8 @@ Implementation partners should be able to obtain:
 
 ## Publication locations
 
-- [GitHub repository](https://github.com/datateamdigitalhealthdivision/myehr-mycore-v2)
-- [GitHub releases](https://github.com/datateamdigitalhealthdivision/myehr-mycore-v2/releases)
+- [GitHub repository](https://github.com/datateamdigitalhealthdivision/mycore-v2)
+- [GitHub releases](https://github.com/datateamdigitalhealthdivision/mycore-v2/releases)
 - [Artefact Index](artifacts.html)
 
 ## Publication history note

@@ -1,4 +1,4 @@
-﻿# Test Assets
+# Test Assets
 
 This directory contains the starter MY Core v2.0 conformance pack.
 
@@ -11,7 +11,7 @@ This directory contains the starter MY Core v2.0 conformance pack.
 
 ## Current coverage
 
-The current draft covers representative patient, practitioner, organisation, encounter, observation, medication, immunisation, service request, and questionnaire examples, plus starter negative cases for missing required elements, invalid references, invalid terminology, and invalid questionnaire content.
+The current draft covers representative patient, practitioner, organisation, encounter, observation, device, medication, immunisation, service request, and questionnaire examples, plus starter negative cases for missing required elements, invalid references, invalid terminology, and invalid questionnaire content.
 
 ## Error handling expectation
 

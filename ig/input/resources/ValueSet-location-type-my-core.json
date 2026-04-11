@@ -25,7 +25,7 @@
         "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/ward-category-my-core"
       },
       {
-        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/encounter-class-my-core"
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode"
       },
       {
         "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/ward-class-my-core"

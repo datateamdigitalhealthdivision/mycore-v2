@@ -10,6 +10,7 @@ ChargeItemDefinitionMyCore,ChargeItemDefinition-my-core,ChargeItemDefinition,fin
 CompositionMyCore,Composition-my-core,Composition,procedures-and-clinical-records,draft-v2,Migrated legacy profile or constraint.
 ConditionMyCore,Condition-my-core,Condition,observations-and-diagnostics,draft-v2,Migrated legacy profile or constraint.
 ConsentMyCore,Consent-my-core,Consent,procedures-and-clinical-records,draft-v2,Migrated legacy profile or constraint.
+DeviceMyCore,Device-my-core,Device,observations-and-diagnostics,draft-v2,Migrated legacy profile or constraint.
 DiagnosticReportMyCore,DiagnosticReport-my-core,DiagnosticReport,observations-and-diagnostics,draft-v2,Migrated legacy profile or constraint.
 DocumentManifestMyCore,DocumentManifest-my-core,DocumentManifest,procedures-and-clinical-records,draft-v2,Migrated legacy profile or constraint.
 EncounterMyCore,Encounter-my-core,Encounter,scheduling-and-workflow,draft-v2,Migrated legacy profile or constraint.

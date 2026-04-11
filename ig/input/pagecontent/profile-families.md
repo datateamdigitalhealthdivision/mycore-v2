@@ -1,4 +1,4 @@
-﻿# Profile Families
+# Profile Families
 
 ## Identity and demographics
 
@@ -14,7 +14,7 @@ This family covers `Appointment`, `Schedule`, `Slot`, `Encounter`, `Task`, and `
 
 ## Observations and diagnostics
 
-This family covers a large share of the legacy MY Core content, including twenty-four `Observation` profiles plus `Condition`, `DiagnosticReport`, `ImagingStudy`, `Specimen`, `SpecimenDefinition`, `AllergyIntolerance`, `AdverseEvent`, and `FamilyMemberHistory`. These artefacts provide the common clinical exchange layer that downstream guides will extend.
+This family covers a large share of the legacy MY Core content, including twenty-four `Observation` profiles plus `Condition`, `DiagnosticReport`, `ImagingStudy`, `Specimen`, `SpecimenDefinition`, `Device`, `AllergyIntolerance`, `AdverseEvent`, and `FamilyMemberHistory`. These artefacts provide the common clinical exchange layer that downstream guides will extend, including IPS-aligned patient device representation.
 
 ## Medication and formulary content
 

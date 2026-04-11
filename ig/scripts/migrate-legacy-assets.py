@@ -15,6 +15,32 @@ NEW_ROOT = 'https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core'
 ID_ROOT = 'https://id.kkmhub.moh.gov.my'
 DEFAULT_PUBLISHER = 'Data Team, Digital Health Division, Ministry of Health Malaysia'
 CONFORMANCE_TYPES = {'StructureDefinition', 'CodeSystem', 'ValueSet', 'Questionnaire'}
+EXTERNALISED_CODE_SYSTEMS = {
+    'encounter-class-my-core': {
+        'uri': 'http://terminology.hl7.org/CodeSystem/v3-ActCode',
+        'label': 'HL7 v3 ActCode',
+    },
+    'lab-my-core': {
+        'uri': 'http://loinc.org',
+        'label': 'LOINC',
+    },
+    'procedure-code-my-core': {
+        'uri': 'http://hl7.org/fhir/sid/icd-9-cm',
+        'label': 'ICD-9-CM',
+    },
+    'procedure-my-core': {
+        'uri': 'http://hl7.org/fhir/sid/icd-9-cm',
+        'label': 'ICD-9-CM',
+    },
+    'service-request-category-my-core': {
+        'uri': 'http://snomed.info/sct',
+        'label': 'SNOMED CT',
+    },
+}
+STANDARD_SYSTEM_URL_MAP = {
+    f'{NEW_ROOT}/CodeSystem/{resource_id}': metadata['uri']
+    for resource_id, metadata in EXTERNALISED_CODE_SYSTEMS.items()
+}
 
 DEST_ROOT.mkdir(parents=True, exist_ok=True)
 MAPPINGS_ROOT.mkdir(parents=True, exist_ok=True)
@@ -121,6 +147,7 @@ def profile_family(resource_type: str) -> str:
         'ImagingStudy': 'observations-and-diagnostics',
         'Specimen': 'observations-and-diagnostics',
         'SpecimenDefinition': 'observations-and-diagnostics',
+        'Device': 'observations-and-diagnostics',
         'Condition': 'observations-and-diagnostics',
         'AllergyIntolerance': 'observations-and-diagnostics',
         'AdverseEvent': 'observations-and-diagnostics',
@@ -153,6 +180,14 @@ def external_dependencies(text: str):
         deps.append('LOINC')
     if 'unitsofmeasure.org' in text:
         deps.append('UCUM')
+    if 'hl7.org/fhir/sid/icd-9-cm' in text:
+        deps.append('ICD-9-CM')
+    if 'id.who.int/icd/release/11/mms' in text:
+        deps.append('ICD-11 MMS')
+    if 'radlex.org' in text:
+        deps.append('RadLex')
+    if 'terminology.hl7.org/CodeSystem/' in text:
+        deps.append('HL7 Terminology')
     if 'hl7.org/fhir' in text:
         deps.append('HL7 Core')
     return sorted(set(deps))
@@ -173,6 +208,16 @@ def canonical_tail(resource: dict) -> str:
     if url.startswith(prefix):
         return url[len(prefix):].rstrip('/')
     return ''
+
+
+def standardise_terminology_references(node):
+    if isinstance(node, str):
+        return STANDARD_SYSTEM_URL_MAP.get(node, node)
+    if isinstance(node, list):
+        return [standardise_terminology_references(item) for item in node]
+    if isinstance(node, dict):
+        return {key: standardise_terminology_references(val) for key, val in node.items()}
+    return node
 
 
 def sanitise_resource(resource: dict) -> None:
@@ -378,9 +423,85 @@ def helper_address_profile() -> dict:
     return resource
 
 
+def helper_device_profile() -> dict:
+    url = f'{NEW_ROOT}/StructureDefinition/Device-my-core'
+    resource = {
+        'resourceType': 'StructureDefinition',
+        'id': 'Device-my-core',
+        'url': url,
+        'version': '2.0.0',
+        'name': 'DeviceMyCore',
+        'title': 'Device (MY Core)',
+        'status': 'active',
+        'date': '2026-04-11',
+        'publisher': DEFAULT_PUBLISHER,
+        'description': 'Patient-associated device profile aligned to the IPS device section for implants, prostheses, and clinically relevant assistive devices.',
+        'fhirVersion': '4.0.1',
+        'kind': 'resource',
+        'abstract': False,
+        'type': 'Device',
+        'baseDefinition': 'http://hl7.org/fhir/StructureDefinition/Device',
+        'derivation': 'constraint',
+        'differential': {
+            'element': [
+                {
+                    'id': 'Device',
+                    'path': 'Device',
+                    'short': 'MY Core patient device',
+                    'definition': 'Clinically relevant patient-associated device carried in the MY Core baseline and aligned to the IPS device section.',
+                },
+                {
+                    'id': 'Device.udiCarrier',
+                    'path': 'Device.udiCarrier',
+                    'short': 'UDI carrier when available',
+                    'definition': 'Capture UDI content when available from the implanted or dispensed device.',
+                },
+                {
+                    'id': 'Device.status',
+                    'path': 'Device.status',
+                    'min': 1,
+                },
+                {
+                    'id': 'Device.serialNumber',
+                    'path': 'Device.serialNumber',
+                    'short': 'Serial number when available',
+                    'definition': 'Manufacturer serial number when it is available to the exchanging systems.',
+                },
+                {
+                    'id': 'Device.type',
+                    'path': 'Device.type',
+                    'min': 1,
+                    'binding': {
+                        'strength': 'preferred',
+                        'description': 'Use a globally managed device terminology, consistent with IPS exchanges where available.',
+                        'valueSet': 'http://hl7.org/fhir/ValueSet/device-type',
+                    },
+                },
+                {
+                    'id': 'Device.patient',
+                    'path': 'Device.patient',
+                    'min': 1,
+                    'type': [
+                        {
+                            'code': 'Reference',
+                            'targetProfile': [
+                                f'{NEW_ROOT}/StructureDefinition/Patient-my-core',
+                            ],
+                        }
+                    ],
+                },
+            ]
+        },
+        'experimental': False,
+    }
+    resource['text'] = generated_text(resource['title'], url, resource['description'])
+    return resource
+
+
 def helper_resources() -> list[dict]:
     return [
         helper_address_profile(),
+        helper_device_profile(),
         helper_code_system(
             'encounter-rating-my-core',
             'CodeSystemEncounterRatingMyCore',
@@ -441,11 +562,13 @@ def seed_repo_resources(processed_rows: list) -> None:
     for source_path in sorted(EXAMPLES_ROOT.glob('*.json')):
         with source_path.open(encoding='utf-8') as handle:
             resource = json.load(handle)
+        resource = standardise_terminology_references(resource)
         publish_resource(resource, str(source_path.relative_to(ROOT)).replace('/', '\\'), processed_rows)
 
     for source_path in sorted(PAYLOADS_ROOT.glob('*.json')):
         with source_path.open(encoding='utf-8') as handle:
             resource = json.load(handle)
+        resource = standardise_terminology_references(resource)
         publish_resource(resource, str(source_path.relative_to(ROOT)).replace('/', '\\'), processed_rows)
 
     for resource in helper_resources():
@@ -623,7 +746,31 @@ for file_path in sorted(SOURCE_ROOT.rglob('*.json')):
         continue
 
     resource = transform(resource)
+
+    externalised_system = None
+    if publish and resource_type == 'CodeSystem':
+        externalised_system = EXTERNALISED_CODE_SYSTEMS.get(canonical_tail(resource)) or EXTERNALISED_CODE_SYSTEMS.get(resource.get('id', ''))
+
+    if externalised_system is None:
+        resource = standardise_terminology_references(resource)
+
     sanitise_resource(resource)
+
+    if externalised_system is not None:
+        notes = append_note(
+            notes,
+            f"Published bindings and examples now point to the external {externalised_system['label']} system URI {externalised_system['uri']}; the legacy MY Core code system is retained only in source lineage.",
+        )
+        action = update_action(action, 'externalised')
+        mapping_rows.append({
+            'legacy_url': legacy_url,
+            'new_url': externalised_system['uri'],
+            'artefact_type': resource.get('resourceType', ''),
+            'artefact_id': resource.get('id', ''),
+            'action_taken': action,
+            'notes': notes,
+        })
+        continue
 
     if publish and resource_type in {'StructureDefinition', 'CodeSystem', 'ValueSet'}:
         normalised_id = canonical_tail(resource)

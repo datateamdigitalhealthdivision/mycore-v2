@@ -80,7 +80,7 @@
         "id": "ServiceRequest.category.coding:serviceRequestCategory.system",
         "path": "ServiceRequest.category.coding.system",
         "min": 1,
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/service-request-category-my-core"
+        "fixedUri": "http://snomed.info/sct"
       },
       {
         "id": "ServiceRequest.category.coding:labSubGroup",
@@ -163,7 +163,7 @@
         "id": "ServiceRequest.code.coding:lab.system",
         "path": "ServiceRequest.code.coding.system",
         "min": 1,
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/lab-my-core"
+        "fixedUri": "http://loinc.org"
       },
       {
         "id": "ServiceRequest.code.coding:imaging",
@@ -193,7 +193,7 @@
         "id": "ServiceRequest.code.coding:procedure.system",
         "path": "ServiceRequest.code.coding.system",
         "min": 1,
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/procedure-my-core"
+        "fixedUri": "http://hl7.org/fhir/sid/icd-9-cm"
       },
       {
         "id": "ServiceRequest.asNeeded[x]",

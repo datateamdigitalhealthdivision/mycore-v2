@@ -26,7 +26,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/service-request-category-my-core"
+        "system": "http://snomed.info/sct"
       }
     ]
   },

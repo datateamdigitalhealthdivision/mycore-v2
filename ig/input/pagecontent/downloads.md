@@ -17,8 +17,8 @@ Implementation partners should be able to obtain:
 
 ## Publication locations
 
-- [GitHub repository](https://github.com/datateamdigitalhealthdivision/myehr-mycore-v2)
-- [GitHub releases](https://github.com/datateamdigitalhealthdivision/myehr-mycore-v2/releases)
+- [GitHub repository](https://github.com/datateamdigitalhealthdivision/mycore-v2)
+- [GitHub releases](https://github.com/datateamdigitalhealthdivision/mycore-v2/releases)
 - [Artefact Index](artifacts.html)
 
 ## Publication history note

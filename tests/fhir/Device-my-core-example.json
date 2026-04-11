@@ -1,0 +1,24 @@
+{
+  "resourceType": "Device",
+  "id": "my-core-device-example",
+  "meta": {
+    "profile": [
+      "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Device-my-core"
+    ]
+  },
+  "status": "active",
+  "patient": {
+    "reference": "Patient/my-core-patient-example"
+  },
+  "type": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "67270000",
+        "display": "Hip prosthesis, device (physical object)"
+      }
+    ],
+    "text": "Hip prosthesis"
+  },
+  "serialNumber": "MYC-DEVICE-0001"
+}

@@ -26,7 +26,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/procedure-my-core"
+        "system": "http://hl7.org/fhir/sid/icd-9-cm"
       },
       {
         "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/minor-procedure-my-core"

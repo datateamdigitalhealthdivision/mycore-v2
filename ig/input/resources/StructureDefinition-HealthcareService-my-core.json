@@ -3334,7 +3334,7 @@
             "code": "uri"
           }
         ],
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/encounter-class-my-core",
+        "fixedUri": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
         "condition": [
           "ele-1"
         ],
@@ -3786,7 +3786,7 @@
             "code": "uri"
           }
         ],
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/service-request-category-my-core",
+        "fixedUri": "http://snomed.info/sct",
         "condition": [
           "ele-1"
         ],
@@ -4565,7 +4565,7 @@
             "code": "uri"
           }
         ],
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/encounter-class-my-core",
+        "fixedUri": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
         "condition": [
           "ele-1"
         ],
@@ -5017,7 +5017,7 @@
             "code": "uri"
           }
         ],
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/service-request-category-my-core",
+        "fixedUri": "http://snomed.info/sct",
         "condition": [
           "ele-1"
         ],
@@ -6373,7 +6373,7 @@
             "code": "uri"
           }
         ],
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/lab-my-core",
+        "fixedUri": "http://loinc.org",
         "condition": [
           "ele-1"
         ],
@@ -10259,7 +10259,7 @@
         "id": "HealthcareService.category.coding:encounterClass.system",
         "path": "HealthcareService.category.coding.system",
         "min": 1,
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/encounter-class-my-core"
+        "fixedUri": "http://terminology.hl7.org/CodeSystem/v3-ActCode"
       },
       {
         "id": "HealthcareService.category.coding:serviceRequestCategory",
@@ -10274,7 +10274,7 @@
         "id": "HealthcareService.category.coding:serviceRequestCategory.system",
         "path": "HealthcareService.category.coding.system",
         "min": 1,
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/service-request-category-my-core"
+        "fixedUri": "http://snomed.info/sct"
       },
       {
         "id": "HealthcareService.type",
@@ -10311,7 +10311,7 @@
         "id": "HealthcareService.type.coding:encounterClass.system",
         "path": "HealthcareService.type.coding.system",
         "min": 1,
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/encounter-class-my-core"
+        "fixedUri": "http://terminology.hl7.org/CodeSystem/v3-ActCode"
       },
       {
         "id": "HealthcareService.type.coding:serviceRequestCategory",
@@ -10326,7 +10326,7 @@
         "id": "HealthcareService.type.coding:serviceRequestCategory.system",
         "path": "HealthcareService.type.coding.system",
         "min": 1,
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/service-request-category-my-core"
+        "fixedUri": "http://snomed.info/sct"
       },
       {
         "id": "HealthcareService.type.coding:serviceType",
@@ -10371,7 +10371,7 @@
         "id": "HealthcareService.type.coding:lab.system",
         "path": "HealthcareService.type.coding.system",
         "min": 1,
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/lab-my-core"
+        "fixedUri": "http://loinc.org"
       },
       {
         "id": "HealthcareService.type.coding:imagingModality",

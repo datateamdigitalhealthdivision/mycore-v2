@@ -7,7 +7,7 @@
     {
       "version": "current",
       "desc": "Continuous Integration Build",
-      "path": "https://datateamdigitalhealthdivision.github.io/myehr-mycore-v2",
+      "path": "https://datateamdigitalhealthdivision.github.io/mycore-v2",
       "status": "ci-build",
       "current": true
     },
@@ -15,7 +15,7 @@
       "version": "2.0.0",
       "date": "2026-04-02",
       "desc": "Initial MY Core v2 draft release",
-      "path": "https://datateamdigitalhealthdivision.github.io/myehr-mycore-v2/2.0.0",
+      "path": "https://datateamdigitalhealthdivision.github.io/mycore-v2/2.0.0",
       "status": "draft",
       "sequence": "Draft"
     }

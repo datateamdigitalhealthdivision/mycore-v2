@@ -2064,7 +2064,7 @@
             "code": "uri"
           }
         ],
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/lab-my-core",
+        "fixedUri": "http://loinc.org",
         "condition": [
           "ele-1"
         ],
@@ -5436,7 +5436,7 @@
         "id": "Observation.code.coding:lab.system",
         "path": "Observation.code.coding.system",
         "min": 1,
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/lab-my-core"
+        "fixedUri": "http://loinc.org"
       },
       {
         "id": "Observation.code.coding:lab.code",
