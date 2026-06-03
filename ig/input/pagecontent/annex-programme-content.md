@@ -22,4 +22,3 @@ The preserved inventory is recorded in `mappings/programme-content-register.csv`
 ## Normative posture
 
 Questionnaires may be normative where a programme explicitly requires them, but they are not the default front door for generic baseline conformance.
-
