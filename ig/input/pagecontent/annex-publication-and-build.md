@@ -5,7 +5,7 @@ This annex explains how the repository is built and published.
 ## Build flow
 
 1. preserve the legacy zip sources under `source/`
-2. migrate and normalise the legacy artefacts into `ig/input/resources`
+2. migrate and normalise the legacy artefacts into `ig/input/resources-legacy-migrated`
 3. generate the implementation guide with SUSHI and the HL7 IG Publisher
 4. render the draft publication through GitHub Pages
 

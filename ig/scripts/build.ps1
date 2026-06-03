@@ -6,17 +6,24 @@ $env:HOME = $WorkspaceRoot
 $env:USERPROFILE = $WorkspaceRoot
 Set-Location $RootDir
 
-function Invoke-LegacyMigration {
-  $MigrationScript = Join-Path $PSScriptRoot 'migrate-legacy-assets.py'
+function Invoke-PythonScript {
+  param(
+    [Parameter(Mandatory = $true)]
+    [string]$ScriptName,
+    [Parameter(Mandatory = $true)]
+    [string]$MissingPythonMessage
+  )
+
+  $ScriptPath = Join-Path $PSScriptRoot $ScriptName
   $PythonCommand = Get-Command python -ErrorAction SilentlyContinue
   if ($PythonCommand) {
-    & $PythonCommand.Source $MigrationScript
+    & $PythonCommand.Source $ScriptPath
   } else {
     $PyLauncher = Get-Command py -ErrorAction SilentlyContinue
     if (-not $PyLauncher) {
-      throw 'Python is required to refresh migrated legacy artefacts.'
+      throw $MissingPythonMessage
     }
-    & $PyLauncher.Source '-3' $MigrationScript
+    & $PyLauncher.Source '-3' $ScriptPath
   }
   if ($LASTEXITCODE -ne 0) {
     exit $LASTEXITCODE
@@ -24,7 +31,9 @@ function Invoke-LegacyMigration {
 }
 
 Write-Host 'Refreshing migrated legacy artefacts...'
-Invoke-LegacyMigration
+Invoke-PythonScript -ScriptName 'migrate-legacy-assets.py' -MissingPythonMessage 'Python is required to refresh migrated legacy artefacts.'
+Write-Host 'Checking for duplicate artefacts across authoring streams...'
+Invoke-PythonScript -ScriptName 'collision-audit.py' -MissingPythonMessage 'Python is required to audit authoring stream collisions.'
 
 function Reset-BuildDirectory {
   param(

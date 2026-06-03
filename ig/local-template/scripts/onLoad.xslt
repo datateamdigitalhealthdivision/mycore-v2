@@ -169,7 +169,21 @@
     <xsl:call-template name="setParameter">
       <xsl:with-param name="code" select="'path-resource'"/>
       <xsl:with-param name="system" select="$toolsSystem"/>
-      <xsl:with-param name="value" select="'input/resources'"/>
+      <xsl:with-param name="value" select="'input/resources-legacy-migrated'"/>
+      <xsl:with-param name="supplement" select="'Y'"/>
+      <xsl:with-param name="extensionMode" select="$extensionMode"/>
+    </xsl:call-template>
+    <xsl:call-template name="setParameter">
+      <xsl:with-param name="code" select="'path-resource'"/>
+      <xsl:with-param name="system" select="$toolsSystem"/>
+      <xsl:with-param name="value" select="'input/resources-forge'"/>
+      <xsl:with-param name="supplement" select="'Y'"/>
+      <xsl:with-param name="extensionMode" select="$extensionMode"/>
+    </xsl:call-template>
+    <xsl:call-template name="setParameter">
+      <xsl:with-param name="code" select="'path-resource'"/>
+      <xsl:with-param name="system" select="$toolsSystem"/>
+      <xsl:with-param name="value" select="'input/resources-terminology'"/>
       <xsl:with-param name="supplement" select="'Y'"/>
       <xsl:with-param name="extensionMode" select="$extensionMode"/>
     </xsl:call-template>

@@ -6,7 +6,7 @@ from pathlib import Path
 ROOT = Path(r'C:\codex\mycore-v2')
 SOURCE_ROOT = ROOT / 'source' / 'extracted' / 'my-core-legacy' / 'MY Core IG'
 TERM_ROOT = ROOT / 'source' / 'extracted' / 'terminology-extracts' / 'terminology_extracts'
-DEST_ROOT = ROOT / 'ig' / 'input' / 'resources'
+DEST_ROOT = ROOT / 'ig' / 'input' / 'resources-legacy-migrated'
 MAPPINGS_ROOT = ROOT / 'mappings'
 EXAMPLES_ROOT = ROOT / 'tests' / 'fhir'
 PAYLOADS_ROOT = ROOT / 'tests' / 'sample-payloads'
