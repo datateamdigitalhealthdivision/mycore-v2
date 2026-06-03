@@ -49,7 +49,9 @@ npm run build:ps
 - `input/fsh/`: small maintained FSH source for aliases and future local additions
 - `input/examples/`: reserved for direct publisher-managed examples if needed later
 - `input/pagecontent/`: generated site pages derived from the repository chapters and annexes
-- `input/resources/`: migrated JSON resources published by the IG
+- `input/resources-legacy-migrated/`: regenerated legacy-derived resources that the migration script may wipe and rebuild
+- `input/resources-forge/`: human-owned Forge-authored conformance resources that the build never wipes
+- `input/resources-terminology/`: human-owned MY Core terminology resources that the build never wipes
 - `input/vocab/`: reserved for managed terminology source if later needed
 
 ## Reproducibility notes

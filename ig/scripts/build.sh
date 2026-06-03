@@ -18,8 +18,21 @@ run_migration() {
   fi
 }
 
+run_collision_audit() {
+  if command -v python >/dev/null 2>&1; then
+    python "$ROOT_DIR/scripts/collision-audit.py"
+  elif command -v python3 >/dev/null 2>&1; then
+    python3 "$ROOT_DIR/scripts/collision-audit.py"
+  else
+    echo "Python is required to audit authoring stream collisions." >&2
+    exit 1
+  fi
+}
+
 echo 'Refreshing migrated legacy artefacts...'
 run_migration
+echo 'Checking for duplicate artefacts across authoring streams...'
+run_collision_audit
 clean_dir() {
   local dir="$1"
   if [[ ! -e "$dir" ]]; then
