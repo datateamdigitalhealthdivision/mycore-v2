@@ -3,10 +3,13 @@ import csv
 import json
 from pathlib import Path
 
-ROOT = Path(r'C:\codex\mycore-v2')
+IG_ROOT = Path(__file__).resolve().parents[1]
+ROOT = IG_ROOT.parent
 SOURCE_ROOT = ROOT / 'source' / 'extracted' / 'my-core-legacy' / 'MY Core IG'
 TERM_ROOT = ROOT / 'source' / 'extracted' / 'terminology-extracts' / 'terminology_extracts'
-DEST_ROOT = ROOT / 'ig' / 'input' / 'resources'
+DEST_ROOT = IG_ROOT / 'input' / 'resources-legacy-migrated'
+FSH_ROOT = IG_ROOT / 'input' / 'fsh'
+EXCLUSION_FILE = FSH_ROOT / 'migration-exclusions.txt'
 MAPPINGS_ROOT = ROOT / 'mappings'
 EXAMPLES_ROOT = ROOT / 'tests' / 'fhir'
 PAYLOADS_ROOT = ROOT / 'tests' / 'sample-payloads'
@@ -53,6 +56,13 @@ if manifest_path.exists():
     with manifest_path.open(newline='', encoding='utf-8') as handle:
         for row in csv.DictReader(handle):
             manifest_lookup[row['resource_id']] = row
+
+EXCLUDED_RESOURCE_IDS = set()
+if EXCLUSION_FILE.exists():
+    for line in EXCLUSION_FILE.read_text(encoding='utf-8').splitlines():
+        token = line.split('#', 1)[0].strip()
+        if token:
+            EXCLUDED_RESOURCE_IDS.add(token)
 
 
 def convert_string(value: str) -> str:
@@ -201,6 +211,10 @@ def update_action(action: str, marker: str) -> str:
     return marker if action == 'canonicalised' else f'{action}+{marker}'
 
 
+def is_fsh_owned(resource_id: str) -> bool:
+    return bool(resource_id) and resource_id in EXCLUDED_RESOURCE_IDS
+
+
 def canonical_tail(resource: dict) -> str:
     url = resource.get('url', '')
     resource_type = resource.get('resourceType', '')
@@ -237,6 +251,8 @@ def write_json(path: Path, resource: dict) -> None:
 
 
 def publish_resource(resource: dict, source_path: str, processed_rows: list, legacy_id: str | None = None) -> None:
+    if is_fsh_owned(resource.get('id', '')):
+        return
     out_path = DEST_ROOT / f"{resource['resourceType']}-{resource['id']}.json"
     write_json(out_path, resource)
     processed_rows.append({
@@ -779,6 +795,15 @@ for file_path in sorted(SOURCE_ROOT.rglob('*.json')):
             resource['id'] = normalised_id
             action = update_action(action, 'id-normalised')
 
+    excluded = False
+    if publish and is_fsh_owned(resource.get('id', '')):
+        excluded = True
+        action = update_action(action, 'excluded-fsh-owned')
+        notes = append_note(
+            notes,
+            'Excluded from regenerated JSON output because this resource id is listed in ig/input/fsh/migration-exclusions.txt and is treated as FSH-owned.',
+        )
+
     new_url = resource.get('url', '')
 
     mapping_rows.append({
@@ -800,6 +825,9 @@ for file_path in sorted(SOURCE_ROOT.rglob('*.json')):
             'publication_status': 'source-preserved-not-published',
             'notes': notes,
         })
+        continue
+
+    if excluded:
         continue
 
     publish_resource(resource, relative_path, processed_rows, legacy_id=legacy_id)

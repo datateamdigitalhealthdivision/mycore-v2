@@ -1,0 +1,5 @@
+# Resource ids listed here are no longer regenerated into
+# ig/input/resources-legacy-migrated/.
+#
+# Add one resource id per line after converting that resource into FSH and
+# promoting it into ig/input/fsh/.

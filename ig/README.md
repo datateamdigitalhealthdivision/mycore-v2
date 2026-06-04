@@ -46,10 +46,12 @@ npm run build:ps
 
 ## Source layout
 
-- `input/fsh/`: small maintained FSH source for aliases and future local additions
+- `input/fsh/`: authoritative human-authored FSH source, including aliases and
+  promoted legacy artefacts now owned in FSH
 - `input/examples/`: reserved for direct publisher-managed examples if needed later
 - `input/pagecontent/`: generated site pages derived from the repository chapters and annexes
-- `input/resources/`: migrated JSON resources published by the IG
+- `input/resources-legacy-migrated/`: regenerated legacy JSON stream kept
+  separate from the human-authored FSH source
 - `input/vocab/`: reserved for managed terminology source if later needed
 
 ## Reproducibility notes

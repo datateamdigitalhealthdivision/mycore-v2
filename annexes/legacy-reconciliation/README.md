@@ -13,7 +13,8 @@ This annex records how the legacy artefacts were reconciled into the MY Core v2.
 
 - `mappings/legacy-to-v2-canonical-mapping.csv`
 - `mappings/duplicate-resolution-log.csv`
-- the migrated computable resources under `ig/input/resources`
+- the regenerated migration stream under `ig/input/resources-legacy-migrated/`
+- the human-authored FSH source under `ig/input/fsh/`
 
 ## Known classes of issue addressed
 

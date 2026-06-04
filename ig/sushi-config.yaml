@@ -77,7 +77,7 @@ menu:
   Artefact Index: artifacts.html
 parameters:
   path-resource:
-    - input/resources
+    - input/resources-legacy-migrated
   special-url-base:
     - https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core
   show-inherited-invariants: false
