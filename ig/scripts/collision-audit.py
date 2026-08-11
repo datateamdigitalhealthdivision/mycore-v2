@@ -45,10 +45,15 @@ def main():
 
     for stream_name, path, resource in iter_resources():
         resource_id = resource.get('id') or path.stem
-        prior_ids = record_collision(id_index, resource_id, stream_name, path)
+        resource_type = resource.get('resourceType') or ''
+        # Key on (resourceType, id), not id alone. A CodeSystem and its ValueSet
+        # legitimately share an id in MY Core and carry distinct canonical URLs
+        # (.../CodeSystem/x vs .../ValueSet/x), so they are not a collision. A
+        # true collision is the same resourceType AND id present in both streams.
+        prior_ids = record_collision(id_index, (resource_type, resource_id), stream_name, path)
         if prior_ids:
             findings.append(
-                f"Duplicate resource id '{resource_id}' found across streams: "
+                f"Duplicate {resource_type or 'resource'} id '{resource_id}' found across streams: "
                 f"{format_locations(prior_ids + [(stream_name, path)])}"
             )
 

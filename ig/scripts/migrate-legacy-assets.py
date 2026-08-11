@@ -57,11 +57,27 @@ if manifest_path.exists():
         for row in csv.DictReader(handle):
             manifest_lookup[row['resource_id']] = row
 
+# Exclusion entries may be either:
+#   ValueSet/monthly-household-income-my-core   -> type-qualified (preferred)
+#   monthly-household-income-my-core            -> bare id, matches EVERY resource
+#                                                  type sharing that id (legacy form)
+# MY Core routinely gives a CodeSystem and its ValueSet the same id, so the bare
+# form suppresses siblings that were never promoted to FSH. Prefer the qualified
+# form; the bare form is retained for backward compatibility.
 EXCLUDED_RESOURCE_IDS = set()
+EXCLUDED_TYPED_RESOURCES = set()
 if EXCLUSION_FILE.exists():
     for line in EXCLUSION_FILE.read_text(encoding='utf-8').splitlines():
         token = line.split('#', 1)[0].strip()
-        if token:
+        if not token:
+            continue
+        if '/' in token:
+            resource_type, _, resource_id = token.partition('/')
+            resource_type = resource_type.strip()
+            resource_id = resource_id.strip()
+            if resource_type and resource_id:
+                EXCLUDED_TYPED_RESOURCES.add((resource_type, resource_id))
+        else:
             EXCLUDED_RESOURCE_IDS.add(token)
 
 
@@ -211,8 +227,12 @@ def update_action(action: str, marker: str) -> str:
     return marker if action == 'canonicalised' else f'{action}+{marker}'
 
 
-def is_fsh_owned(resource_id: str) -> bool:
-    return bool(resource_id) and resource_id in EXCLUDED_RESOURCE_IDS
+def is_fsh_owned(resource_id: str, resource_type: str = '') -> bool:
+    if not resource_id:
+        return False
+    if resource_id in EXCLUDED_RESOURCE_IDS:
+        return True
+    return bool(resource_type) and (resource_type, resource_id) in EXCLUDED_TYPED_RESOURCES
 
 
 def canonical_tail(resource: dict) -> str:
@@ -251,7 +271,7 @@ def write_json(path: Path, resource: dict) -> None:
 
 
 def publish_resource(resource: dict, source_path: str, processed_rows: list, legacy_id: str | None = None) -> None:
-    if is_fsh_owned(resource.get('id', '')):
+    if is_fsh_owned(resource.get('id', ''), resource.get('resourceType', '')):
         return
     out_path = DEST_ROOT / f"{resource['resourceType']}-{resource['id']}.json"
     write_json(out_path, resource)
@@ -796,12 +816,12 @@ for file_path in sorted(SOURCE_ROOT.rglob('*.json')):
             action = update_action(action, 'id-normalised')
 
     excluded = False
-    if publish and is_fsh_owned(resource.get('id', '')):
+    if publish and is_fsh_owned(resource.get('id', ''), resource.get('resourceType', '')):
         excluded = True
         action = update_action(action, 'excluded-fsh-owned')
         notes = append_note(
             notes,
-            'Excluded from regenerated JSON output because this resource id is listed in ig/input/fsh/migration-exclusions.txt and is treated as FSH-owned.',
+            'Excluded from regenerated JSON output because this resource is listed in ig/input/fsh/migration-exclusions.txt and is treated as FSH-owned.',
         )
 
     new_url = resource.get('url', '')
