@@ -77,4 +77,24 @@ fi
 
 PUBLISHER_HOME="$ROOT_DIR/input-cache/publisher-home-$(date +%s)"
 mkdir -p "$PUBLISHER_HOME"
-java "-Duser.home=$PUBLISHER_HOME" -Xmx4g -jar "$PUBLISHER_JAR" -no-sushi -ig ig.ini
+# Terminology server. Pinned to the R4 endpoint explicitly rather than left to the
+# Publisher's default negotiation.
+#
+# NOTE (2026-08-20): pointing this at our own TermX does NOT work, and the reason is
+# not fixable by configuration. TLS/DNS are fine (truststore below + /etc/hosts entry
+# for termx-api.tx.internal), but the Publisher runs a conformance test suite against
+# any -tx server and rejects TermX:
+#   "The terminology server https://termx-api.tx.internal/fhir is not approved for use
+#    with this software (it does not pass the required tests)."
+# TermX's CapabilityStatement advertises no operations ($expand/$validate-code), so it
+# cannot pass that gate. Override with TX_URL=... to retest if TermX gains support.
+TX_URL="${TX_URL:-https://tx.fhir.org/r4}"
+TRUSTSTORE="$ROOT_DIR/input-cache/truststore.jks"
+
+JAVA_TLS_OPTS=()
+if [[ -f "$TRUSTSTORE" ]]; then
+  JAVA_TLS_OPTS=("-Djavax.net.ssl.trustStore=$TRUSTSTORE" "-Djavax.net.ssl.trustStorePassword=changeit")
+fi
+
+java "-Duser.home=$PUBLISHER_HOME" "${JAVA_TLS_OPTS[@]}" -Xmx4g -jar "$PUBLISHER_JAR" \
+  -no-sushi -ig ig.ini -tx "$TX_URL"
