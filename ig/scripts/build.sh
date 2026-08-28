@@ -80,14 +80,26 @@ mkdir -p "$PUBLISHER_HOME"
 # Terminology server. Pinned to the R4 endpoint explicitly rather than left to the
 # Publisher's default negotiation.
 #
-# NOTE (2026-08-20): pointing this at our own TermX does NOT work, and the reason is
-# not fixable by configuration. TLS/DNS are fine (truststore below + /etc/hosts entry
-# for termx-api.tx.internal), but the Publisher runs a conformance test suite against
-# any -tx server and rejects TermX:
+# NOTE (2026-08-20, corrected 2026-08-28): pointing this at our own TermX does NOT
+# work, and the reason is not fixable by configuration. TLS/DNS are fine (truststore
+# below + /etc/hosts entry for termx-api.tx.internal), but the Publisher rejects it:
 #   "The terminology server https://termx-api.tx.internal/fhir is not approved for use
 #    with this software (it does not pass the required tests)."
-# TermX's CapabilityStatement advertises no operations ($expand/$validate-code), so it
-# cannot pass that gate. Override with TX_URL=... to retest if TermX gains support.
+#
+# The actual cause is a CapabilityStatement FEATURE declaration, not the operation set.
+# TerminologyClientContext.checkFeature looks for
+#   http://hl7.org/fhir/uv/tx-tests/FeatureDefinition/test-version
+# and compares it against MIN_TEST_VERSION -- i.e. the server must declare that it
+# passes the HL7 tx-tests suite at or above a minimum version. TermX declares no such
+# feature (its CapabilityStatement carries only capabilitystatement-supported-system),
+# so the check fails before any terminology operation is ever exercised.
+#
+# An earlier version of this comment claimed TermX "advertises no operations
+# ($expand/$validate-code)". That was wrong. TermX does advertise them -- ValueSet:
+# expand/validate-code/sync; CodeSystem: lookup/subsumes/validate-code/find-matches/
+# compare/sync; ConceptMap: translate/closure/sync; StructureMap: transform.
+#
+# Retest with TX_URL=... if TermX is ever certified against the tx-tests suite.
 TX_URL="${TX_URL:-https://tx.fhir.org/r4}"
 TRUSTSTORE="$ROOT_DIR/input-cache/truststore.jks"
 
