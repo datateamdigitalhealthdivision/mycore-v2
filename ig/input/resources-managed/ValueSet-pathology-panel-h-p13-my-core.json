@@ -1,0 +1,91 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-h-p13-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-h-p13-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelHP13MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Platelet Aggregation Test",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel H-P13 (Platelet Aggregation Test). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "H-T835"
+          },
+          {
+            "code": "H-T836"
+          },
+          {
+            "code": "H-T837"
+          },
+          {
+            "code": "H-T838"
+          },
+          {
+            "code": "H-T839"
+          },
+          {
+            "code": "H-T840"
+          },
+          {
+            "code": "H-T841"
+          },
+          {
+            "code": "H-T842"
+          },
+          {
+            "code": "H-T843"
+          },
+          {
+            "code": "H-T844"
+          },
+          {
+            "code": "H-T846"
+          },
+          {
+            "code": "H-T1058"
+          },
+          {
+            "code": "H-T1055"
+          },
+          {
+            "code": "H-T187"
+          },
+          {
+            "code": "H-T192"
+          },
+          {
+            "code": "H-T195"
+          },
+          {
+            "code": "H-T196"
+          },
+          {
+            "code": "H-T1041"
+          },
+          {
+            "code": "H-T1036"
+          },
+          {
+            "code": "H-T1037"
+          },
+          {
+            "code": "H-T1038"
+          },
+          {
+            "code": "H-T1039"
+          },
+          {
+            "code": "H-T1040"
+          }
+        ]
+      }
+    ]
+  }
+}

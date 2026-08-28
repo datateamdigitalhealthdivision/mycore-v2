@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "ncd-vc-dx-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/ncd-vc-dx-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/ncd-vc-dx-my-core",
   "name": "ValueSetNcdVcDxMyCore",
   "title": "ValueSetNcdVcDx (MY Core)",
   "status": "active",
@@ -11,7 +11,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/ncd-vc-dx-my-core"
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/ncd-vc-dx-my-core"
       }
     ]
   },

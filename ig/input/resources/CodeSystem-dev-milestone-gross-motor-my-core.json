@@ -3,9 +3,9 @@
   "id": "dev-milestone-gross-motor-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemDevMilestoneGrossMotor (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/dev-milestone-gross-motor-my-core</tt><p>Developmental MIlestone Gross Motor</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemDevMilestoneGrossMotor (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/dev-milestone-gross-motor-my-core</tt><p>Developmental MIlestone Gross Motor</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/dev-milestone-gross-motor-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/dev-milestone-gross-motor-my-core",
   "name": "CodeSystemDevMilestoneGrossMotorMyCore",
   "title": "CodeSystemDevMilestoneGrossMotor (MY Core)",
   "status": "active",

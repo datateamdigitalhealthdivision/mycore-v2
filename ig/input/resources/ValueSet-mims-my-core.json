@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "mims-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/mims-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/mims-my-core",
   "version": "2.0.0",
   "name": "ValueSetMimsMyCore",
   "title": "ValueSetMims (MY Core)",
@@ -13,12 +13,12 @@
   "compose": {
     "include": [
       {
-        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/drug-trade-name-my-core"
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/drug-trade-name-my-core"
       }
     ]
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetMims (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/mims-my-core</tt><p>Draft helper medication catalogue value set bound to the retained MY Core trade-name code system for vendor-facing publication continuity.</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetMims (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/mims-my-core</tt><p>Draft helper medication catalogue value set bound to the retained MY Core trade-name code system for vendor-facing publication continuity.</p></div>"
   }
 }

@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "data-type-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/data-type-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/data-type-my-core",
   "version": "2.0.0",
   "name": "ExtensionDataTypeMyCore",
   "title": "DataType (MY Core)",
@@ -209,7 +209,7 @@
             "code": "http://hl7.org/fhirpath/System.String"
           }
         ],
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/data-type-my-core",
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/data-type-my-core",
         "mapping": [
           {
             "identity": "rim",
@@ -410,7 +410,7 @@
         "isSummary": true,
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/data-type-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/data-type-my-core"
         },
         "mapping": [
           {
@@ -508,7 +508,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/data-type-my-core"
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/data-type-my-core"
       },
       {
         "id": "Extension.value[x]",
@@ -524,7 +524,7 @@
         "path": "Extension.value[x].coding",
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/data-type-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/data-type-my-core"
         }
       }
     ]

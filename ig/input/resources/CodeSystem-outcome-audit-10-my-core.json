@@ -3,9 +3,9 @@
   "id": "outcome-audit-10-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemOutcomeAudit10 (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/outcome-audit-10-my-core</tt><p>Audit 10 Outcome Questionnaire</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemOutcomeAudit10 (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/outcome-audit-10-my-core</tt><p>Audit 10 Outcome Questionnaire</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/outcome-audit-10-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/outcome-audit-10-my-core",
   "name": "CodeSystemOutcomeAudit10MyCore",
   "title": "CodeSystemOutcomeAudit10 (MY Core)",
   "status": "active",

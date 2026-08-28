@@ -10,7 +10,7 @@
         "id": "my-core-patient-example",
         "meta": {
           "profile": [
-            "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Patient-my-core"
+            "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Patient-my-core"
           ]
         },
         "identifier": [
@@ -47,7 +47,7 @@
         "id": "my-core-organization-example",
         "meta": {
           "profile": [
-            "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Organization-my-core"
+            "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Organization-my-core"
           ]
         },
         "identifier": [
@@ -67,7 +67,7 @@
         "id": "my-core-practitioner-example",
         "meta": {
           "profile": [
-            "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Practitioner-my-core"
+            "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Practitioner-my-core"
           ]
         },
         "identifier": [
@@ -100,7 +100,7 @@
         "id": "my-core-practitionerrole-example",
         "meta": {
           "profile": [
-            "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/PractitionerRole-my-core"
+            "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/PractitionerRole-my-core"
           ]
         },
         "practitioner": {
@@ -113,7 +113,7 @@
           {
             "coding": [
               {
-                "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/practitioner-role-code-my-core",
+                "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/practitioner-role-code-my-core",
                 "code": "MO",
                 "display": "Medical Officer"
               }
@@ -124,7 +124,7 @@
           {
             "coding": [
               {
-                "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/specialty-my-core",
+                "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/specialty-my-core",
                 "code": "124",
                 "display": "General Radiology"
               }
@@ -140,7 +140,7 @@
         "id": "my-core-encounter-example",
         "meta": {
           "profile": [
-            "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Encounter-my-core"
+            "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Encounter-my-core"
           ]
         },
         "identifier": [
@@ -159,7 +159,7 @@
           {
             "coding": [
               {
-                "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/specialty-my-core",
+                "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/specialty-my-core",
                 "code": "124",
                 "display": "General Radiology"
               }
@@ -170,7 +170,7 @@
         "serviceType": {
           "coding": [
             {
-              "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/service-type-my-core",
+              "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/service-type-my-core",
               "code": "03",
               "display": "Outpatient"
             }
@@ -196,7 +196,7 @@
         "id": "my-core-height-example",
         "meta": {
           "profile": [
-            "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Observation-height-my-core"
+            "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Observation-height-my-core"
           ]
         },
         "status": "final",
@@ -242,7 +242,7 @@
         "id": "my-core-servicerequest-example",
         "meta": {
           "profile": [
-            "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/ServiceRequest-my-core"
+            "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/ServiceRequest-my-core"
           ]
         },
         "status": "active",
@@ -284,13 +284,13 @@
         "id": "my-core-medication-example",
         "meta": {
           "profile": [
-            "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Medication-my-core"
+            "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Medication-my-core"
           ]
         },
         "code": {
           "coding": [
             {
-              "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/drug-my-core",
+              "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/drug-my-core",
               "code": "N02BE01000T1001XX",
               "display": "Paracetamol 500 mg Tablet"
             }
@@ -307,7 +307,7 @@
         "id": "my-core-medicationrequest-example",
         "meta": {
           "profile": [
-            "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/MedicationRequest-my-core"
+            "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/MedicationRequest-my-core"
           ]
         },
         "status": "active",
@@ -322,7 +322,7 @@
         "medicationCodeableConcept": {
           "coding": [
             {
-              "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/drug-my-core",
+              "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/drug-my-core",
               "code": "N02BE01000T1001XX",
               "display": "Paracetamol 500 mg Tablet"
             }
@@ -338,14 +338,14 @@
         "id": "my-core-immunization-example",
         "meta": {
           "profile": [
-            "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Immunization-my-core"
+            "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Immunization-my-core"
           ]
         },
         "status": "completed",
         "vaccineCode": {
           "coding": [
             {
-              "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/vaccine-code-my-core",
+              "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/vaccine-code-my-core",
               "code": "J07BC01000P4001a",
               "display": "Hepatitis B 10mcg Vaccine (Paed)"
             }

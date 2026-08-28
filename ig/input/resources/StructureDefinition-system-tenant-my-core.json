@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "system-tenant-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/system-tenant-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/system-tenant-my-core",
   "name": "ExtensionSystemTenatMyCore",
   "status": "active",
   "date": "2023-03-31T00:47:28.8476721+00:00",
@@ -207,7 +207,7 @@
             "code": "http://hl7.org/fhirpath/System.String"
           }
         ],
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/system-tenant-my-core",
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/system-tenant-my-core",
         "mapping": [
           {
             "identity": "rim",
@@ -263,7 +263,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/system-tenant-my-core"
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/system-tenant-my-core"
       },
       {
         "id": "Extension.value[x]",

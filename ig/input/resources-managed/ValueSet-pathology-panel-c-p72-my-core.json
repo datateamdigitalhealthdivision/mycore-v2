@@ -1,0 +1,88 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-c-p72-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-c-p72-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelCP72MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Venous Blood Gas (Full)",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel C-P72 (Venous Blood Gas (Full)). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "C-T650"
+          },
+          {
+            "code": "C-T677"
+          },
+          {
+            "code": "C-T678"
+          },
+          {
+            "code": "C-T679"
+          },
+          {
+            "code": "C-T680"
+          },
+          {
+            "code": "C-T681"
+          },
+          {
+            "code": "C-T709"
+          },
+          {
+            "code": "C-T712"
+          },
+          {
+            "code": "C-T715"
+          },
+          {
+            "code": "C-T717"
+          },
+          {
+            "code": "C-T719"
+          },
+          {
+            "code": "C-T722"
+          },
+          {
+            "code": "C-T725"
+          },
+          {
+            "code": "C-T727"
+          },
+          {
+            "code": "C-T730"
+          },
+          {
+            "code": "C-T682"
+          },
+          {
+            "code": "C-T683"
+          },
+          {
+            "code": "C-T684"
+          },
+          {
+            "code": "C-T685"
+          },
+          {
+            "code": "C-T686"
+          },
+          {
+            "code": "C-T791"
+          },
+          {
+            "code": "C-T794"
+          }
+        ]
+      }
+    ]
+  }
+}

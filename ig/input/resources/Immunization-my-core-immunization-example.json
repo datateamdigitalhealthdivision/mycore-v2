@@ -3,14 +3,14 @@
   "id": "my-core-immunization-example",
   "meta": {
     "profile": [
-      "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Immunization-my-core"
+      "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Immunization-my-core"
     ]
   },
   "status": "completed",
   "vaccineCode": {
     "coding": [
       {
-        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/vaccine-code-my-core",
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/vaccine-code-my-core",
         "code": "J07BC01000P4001a",
         "display": "Hepatitis B 10mcg Vaccine (Paed)"
       }

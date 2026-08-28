@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "formulary-boolean-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/formulary-boolean-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/formulary-boolean-my-core",
   "version": "2.0.0",
   "name": "ExtensionFormularyBoolean",
   "status": "active",
@@ -216,7 +216,7 @@
             "code": "http://hl7.org/fhirpath/System.String"
           }
         ],
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/formulary-boolean-my-core",
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/formulary-boolean-my-core",
         "mapping": [
           {
             "identity": "rim",
@@ -272,7 +272,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/formulary-boolean-my-core"
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/formulary-boolean-my-core"
       },
       {
         "id": "Extension.value[x]",

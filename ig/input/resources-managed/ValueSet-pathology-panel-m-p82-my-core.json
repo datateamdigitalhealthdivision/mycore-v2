@@ -1,0 +1,64 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-m-p82-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-m-p82-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelMP82MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Meningitis Rapid Multiplex Molecular",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel M-P82 (Meningitis Rapid Multiplex Molecular). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "M-T1328"
+          },
+          {
+            "code": "M-T1327"
+          },
+          {
+            "code": "M-T1326"
+          },
+          {
+            "code": "M-T1325"
+          },
+          {
+            "code": "M-T1470"
+          },
+          {
+            "code": "M-T1324"
+          },
+          {
+            "code": "M-T1329"
+          },
+          {
+            "code": "M-T1330"
+          },
+          {
+            "code": "M-T1320"
+          },
+          {
+            "code": "M-T1322"
+          },
+          {
+            "code": "M-T1319"
+          },
+          {
+            "code": "M-T1321"
+          },
+          {
+            "code": "M-T1323"
+          },
+          {
+            "code": "M-T1331"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id": "ncd-vc-dx-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/ncd-vc-dx-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/ncd-vc-dx-my-core",
   "version": "2.0.0",
   "name": "CodeSystemNcdVcDxMyCore",
   "title": "CodeSystemNcdVcDx (MY Core)",
@@ -40,7 +40,7 @@
   ],
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemNcdVcDx (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/ncd-vc-dx-my-core</tt><p>NCD VC Report Dx</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemNcdVcDx (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/ncd-vc-dx-my-core</tt><p>NCD VC Report Dx</p></div>"
   },
   "experimental": false,
   "caseSensitive": true

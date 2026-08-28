@@ -3,9 +3,9 @@
   "id": "encounter-class-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetEncounterClass (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/encounter-class-my-core</tt><p>additional class related to PIK code for the base FHIR codesystem encounter class</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetEncounterClass (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/encounter-class-my-core</tt><p>additional class related to PIK code for the base FHIR codesystem encounter class</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/encounter-class-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/encounter-class-my-core",
   "name": "ValueSetEncounterClassMyCore",
   "title": "ValueSetEncounterClass (MY Core)",
   "status": "active",

@@ -1,0 +1,67 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-c-p102-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-c-p102-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelCP102MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Steroid Profile",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel C-P102 (Steroid Profile). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "C-T798"
+          },
+          {
+            "code": "C-T799"
+          },
+          {
+            "code": "C-T800"
+          },
+          {
+            "code": "C-T801"
+          },
+          {
+            "code": "C-T802"
+          },
+          {
+            "code": "C-T803"
+          },
+          {
+            "code": "C-T804"
+          },
+          {
+            "code": "C-T805"
+          },
+          {
+            "code": "C-T806"
+          },
+          {
+            "code": "C-T807"
+          },
+          {
+            "code": "C-T808"
+          },
+          {
+            "code": "C-T809"
+          },
+          {
+            "code": "C-T810"
+          },
+          {
+            "code": "C-T811"
+          },
+          {
+            "code": "C-T812"
+          }
+        ]
+      }
+    ]
+  }
+}

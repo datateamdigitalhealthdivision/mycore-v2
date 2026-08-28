@@ -3,9 +3,9 @@
   "id": "encounter-class-front-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetEncounterFrontClass (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/encounter-class-front-my-core</tt><p>Front end value set for encounter class</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetEncounterFrontClass (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/encounter-class-front-my-core</tt><p>Front end value set for encounter class</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/encounter-class-front-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/encounter-class-front-my-core",
   "name": "ValueSetEncounterClassFrontMyCore",
   "title": "ValueSetEncounterClassFront (MY Core)",
   "status": "active",

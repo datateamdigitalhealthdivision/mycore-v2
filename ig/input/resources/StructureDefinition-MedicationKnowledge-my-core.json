@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "MedicationKnowledge-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/MedicationKnowledge-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/MedicationKnowledge-my-core",
   "version": "2.0.0",
   "name": "MedicationKnowledgeMyCore",
   "status": "active",
@@ -38,7 +38,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/audit-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/audit-my-core"
             ]
           }
         ],
@@ -54,7 +54,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/medicationknowledge-setting-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/medicationknowledge-setting-my-core"
             ]
           }
         ],
@@ -70,7 +70,7 @@
         "path": "MedicationKnowledge.doseForm",
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/drug-dose-form-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/drug-dose-form-my-core"
         }
       },
       {
@@ -79,7 +79,7 @@
         "binding": {
           "strength": "preferred",
           "description": "Trade Name",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/drug-trade-name-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/drug-trade-name-my-core"
         }
       },
       {
@@ -88,7 +88,7 @@
         "binding": {
           "strength": "required",
           "description": "Product Type",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/drug-type-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/drug-type-my-core"
         }
       },
       {
@@ -96,7 +96,7 @@
         "path": "MedicationKnowledge.ingredient.strength.numerator",
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/phis-uom-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/phis-uom-my-core"
         }
       },
       {
@@ -104,7 +104,7 @@
         "path": "MedicationKnowledge.ingredient.strength.denominator",
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/phis-uom-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/phis-uom-my-core"
         }
       },
       {
@@ -112,7 +112,7 @@
         "path": "MedicationKnowledge.intendedRoute",
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/phis-route-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/phis-route-my-core"
         }
       },
       {
@@ -139,7 +139,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/drug-cautionary-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/drug-cautionary-my-core"
             ]
           }
         ],
@@ -159,7 +159,7 @@
         },
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/drug-special-instruction-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/drug-special-instruction-my-core"
         }
       },
       {
@@ -168,14 +168,14 @@
         "sliceName": "special-instruction",
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/drug-special-instruction-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/drug-special-instruction-my-core"
         }
       },
       {
         "id": "MedicationKnowledge.administrationGuidelines.dosage.dosage.additionalInstruction:special-instruction.coding.system",
         "path": "MedicationKnowledge.administrationGuidelines.dosage.dosage.additionalInstruction.coding.system",
         "min": 1,
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/drug-special-instruction-my-core"
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/drug-special-instruction-my-core"
       },
       {
         "id": "MedicationKnowledge.administrationGuidelines.dosage.dosage.additionalInstruction:cautionary",
@@ -183,21 +183,21 @@
         "sliceName": "cautionary",
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/drug-cautionary-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/drug-cautionary-my-core"
         }
       },
       {
         "id": "MedicationKnowledge.administrationGuidelines.dosage.dosage.additionalInstruction:cautionary.coding.system",
         "path": "MedicationKnowledge.administrationGuidelines.dosage.dosage.additionalInstruction.coding.system",
         "min": 1,
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/drug-cautionary-my-core"
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/drug-cautionary-my-core"
       },
       {
         "id": "MedicationKnowledge.administrationGuidelines.dosage.dosage.timing.code",
         "path": "MedicationKnowledge.administrationGuidelines.dosage.dosage.timing.code",
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/phis-frequency-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/phis-frequency-my-core"
         }
       },
       {
@@ -205,7 +205,7 @@
         "path": "MedicationKnowledge.administrationGuidelines.dosage.dosage.doseAndRate.dose[x]",
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/phis-uom-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/phis-uom-my-core"
         }
       },
       {
@@ -232,7 +232,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/formulary-boolean-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/formulary-boolean-my-core"
             ]
           }
         ],
@@ -246,7 +246,7 @@
         "binding": {
           "strength": "required",
           "description": "Drug Category",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/drug-category-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/drug-category-my-core"
         }
       },
       {
@@ -255,7 +255,7 @@
         "binding": {
           "strength": "preferred",
           "description": "Drug Schedule",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/drug-schedule-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/drug-schedule-my-core"
         }
       }
     ]

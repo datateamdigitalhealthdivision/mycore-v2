@@ -3,9 +3,9 @@
   "id": "glucose-level-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetGlucoseLevel(MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/glucose-level-my-core</tt><p>Malaysia specimen type</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetGlucoseLevel(MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/glucose-level-my-core</tt><p>Malaysia specimen type</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/glucose-level-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/glucose-level-my-core",
   "name": "ValueSetGlucoseLevelMyCore",
   "title": "ValueSetGlucoseLevel(MY Core)",
   "status": "active",

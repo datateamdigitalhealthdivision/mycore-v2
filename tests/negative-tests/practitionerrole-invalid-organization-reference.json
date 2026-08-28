@@ -3,7 +3,7 @@
   "id": "invalid-practitionerrole-bad-org",
   "meta": {
     "profile": [
-      "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/PractitionerRole-my-core"
+      "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/PractitionerRole-my-core"
     ]
   },
   "practitioner": {

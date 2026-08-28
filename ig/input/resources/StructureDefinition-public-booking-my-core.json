@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "public-booking-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/public-booking-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/public-booking-my-core",
   "version": "2.0.0",
   "name": "ExtensionPublicBookingMyCore",
   "title": "ExtensionPublicBooking (MY Core)",
@@ -211,7 +211,7 @@
             "code": "http://hl7.org/fhirpath/System.String"
           }
         ],
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/public-booking-my-core",
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/public-booking-my-core",
         "mapping": [
           {
             "identity": "rim",
@@ -267,7 +267,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/public-booking-my-core"
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/public-booking-my-core"
       },
       {
         "id": "Extension.value[x]",

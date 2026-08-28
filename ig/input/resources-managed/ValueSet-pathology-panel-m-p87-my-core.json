@@ -1,0 +1,46 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-m-p87-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-m-p87-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelMP87MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Respiratory panel IF",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel M-P87 (Respiratory panel IF). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "M-T687"
+          },
+          {
+            "code": "M-T349"
+          },
+          {
+            "code": "M-T1371"
+          },
+          {
+            "code": "M-T160"
+          },
+          {
+            "code": "M-T162"
+          },
+          {
+            "code": "M-T1372"
+          },
+          {
+            "code": "M-T1373"
+          },
+          {
+            "code": "M-T621"
+          }
+        ]
+      }
+    ]
+  }
+}

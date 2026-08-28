@@ -1,0 +1,70 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-c-p14-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-c-p14-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelCP14MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Lysosomal Storage Disorders (LSD) Enzyme Panel",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel C-P14 (Lysosomal Storage Disorders (LSD) Enzyme Panel). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "C-T326"
+          },
+          {
+            "code": "C-T543"
+          },
+          {
+            "code": "C-T328"
+          },
+          {
+            "code": "C-T329"
+          },
+          {
+            "code": "C-T330"
+          },
+          {
+            "code": "C-T331"
+          },
+          {
+            "code": "C-T332"
+          },
+          {
+            "code": "C-T333"
+          },
+          {
+            "code": "C-T334"
+          },
+          {
+            "code": "C-T335"
+          },
+          {
+            "code": "C-T336"
+          },
+          {
+            "code": "C-T337"
+          },
+          {
+            "code": "C-T338"
+          },
+          {
+            "code": "C-T339"
+          },
+          {
+            "code": "C-T340"
+          },
+          {
+            "code": "C-T341"
+          }
+        ]
+      }
+    ]
+  }
+}

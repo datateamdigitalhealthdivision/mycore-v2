@@ -3,9 +3,9 @@
   "id": "hospital-physiotherapy-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemHospitalPhysiotherapy (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/hospital-physiotherapy-my-core</tt><p>Malaysia Hospital Physiotherapy</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemHospitalPhysiotherapy (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/hospital-physiotherapy-my-core</tt><p>Malaysia Hospital Physiotherapy</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/hospital-physiotherapy-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/hospital-physiotherapy-my-core",
   "name": "CodeSystemHospitalPhysiotherapyMyCore",
   "title": "CodeSystemHospitalPhysiotherapy (MY Core)",
   "status": "active",

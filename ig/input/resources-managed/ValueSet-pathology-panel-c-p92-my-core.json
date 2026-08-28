@@ -1,0 +1,34 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-c-p92-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-c-p92-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelCP92MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Fludrocortisone Suppression Test",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel C-P92 (Fludrocortisone Suppression Test). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "C-T743"
+          },
+          {
+            "code": "C-T768"
+          },
+          {
+            "code": "C-T747"
+          },
+          {
+            "code": "C-T145"
+          }
+        ]
+      }
+    ]
+  }
+}

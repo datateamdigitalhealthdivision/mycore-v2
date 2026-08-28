@@ -3,9 +3,9 @@
   "id": "phis-uom-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemPhisUom (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/phis-uom-my-core</tt><p>Occupational Sector</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemPhisUom (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/phis-uom-my-core</tt><p>Occupational Sector</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/phis-uom-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/phis-uom-my-core",
   "version": "2.0.0",
   "name": "CodeSystemPhisUomMyCore",
   "title": "CodeSystemPhisUom (MY Core)",

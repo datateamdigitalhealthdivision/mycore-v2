@@ -3,9 +3,9 @@
   "id": "lab-sub-group-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemLabSubGroup (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/lab-sub-group-my-core</tt><p>Malaysia Lab Sub Group</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemLabSubGroup (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/lab-sub-group-my-core</tt><p>Malaysia Lab Sub Group</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/lab-sub-group-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/lab-sub-group-my-core",
   "version": "2.0.0",
   "name": "CodeSystemLabSubGroupMyCore",
   "title": "CodeSystemLabSubGroup (MY Core)",

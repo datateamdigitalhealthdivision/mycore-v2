@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "misc-request-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/misc-request-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/misc-request-my-core",
   "name": "ExtensionMiscRequestMyCore",
   "title": "ExtensionMiscRequest (MY Core)",
   "status": "active",
@@ -97,7 +97,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/misc-request-my-core"
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/misc-request-my-core"
       },
       {
         "id": "Extension.value[x]",

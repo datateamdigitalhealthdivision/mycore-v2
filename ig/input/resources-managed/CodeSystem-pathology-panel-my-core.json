@@ -1,0 +1,7888 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "pathology-panel-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-panel-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelMyCore",
+  "title": "Malaysian Pathology Catalogue - Panels",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "National pathology panel codes for Malaysia. Panel membership is published as one grouping ValueSet per panel.",
+  "caseSensitive": true,
+  "content": "complete",
+  "copyright": "Ministry of Health Malaysia.",
+  "property": [
+    {
+      "code": "discipline",
+      "description": "Pathology discipline",
+      "type": "string"
+    },
+    {
+      "code": "clinician-use",
+      "description": "Whether clinician-orderable",
+      "type": "string"
+    },
+    {
+      "code": "ranking-available",
+      "description": "Whether test ranking is available",
+      "type": "string"
+    },
+    {
+      "code": "workload-code",
+      "description": "SMRP workload code",
+      "type": "string"
+    }
+  ],
+  "concept": [
+    {
+      "code": "C-P53",
+      "display": "24-hr Urine Metanephrine",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "UMETA_24H"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "Yes"
+        }
+      ]
+    },
+    {
+      "code": "C-P83",
+      "display": "48-Hour Low Dose Dexamethasone Suppression Test",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "LDDST"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P34",
+      "display": "5-hydroxy-Indol-Acetic Acid (5 HIAA) panel 24Hr Urine",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "5HIAA_24HUR"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "Ot-P1",
+      "display": "ABO Group",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "ABO Group"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Other"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P44",
+      "display": "Acetylcholine Receptor Ab (ACHR)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "ACHR"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P89",
+      "display": "Acidified Glycerol Lysis Test",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Acidified Glycerol Lysis Test"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P112",
+      "display": "Acute Flaccid Paralysis",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Acute Flaccid Paralysis"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P31",
+      "display": "Acute Myeloid Leukemia Mutation by NGS",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "AML Mutation by NGS"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P9",
+      "display": "ADAMTS13 Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "ADAMTS13"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P78",
+      "display": "Adrenal Venous Sampling",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "AVS"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P93",
+      "display": "Aeromonas spp. AST panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Aeromonas spp. AST panel"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P77",
+      "display": "Aldosterone Post SST",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "ALDO_SST_PAN"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P68",
+      "display": "Aldosterone Renin Ratio",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "ARR_PANEL"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P124",
+      "display": "ANCA Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "ANCA Panel"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "Cmb-P3",
+      "display": "Antenatal Screening Test",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Antenatal Screening KK"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Combine"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        }
+      ]
+    },
+    {
+      "code": "M-P25",
+      "display": "Anti - Aquaporin 4 (Anti-Aq4)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "AQ4"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P36",
+      "display": "Anti - Double Stranded DNA (dsDNA)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Anti - dsDNA"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P46",
+      "display": "Anti - Gangliosides Ab",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "GA"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P45",
+      "display": "Anti - Glomerular Basement Membrane (Anti-GBM) Ab",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "GBM"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P51",
+      "display": "Anti - N-Methyl-D-Aspartate Receptor (NMDAR)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "NMDAR"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P127",
+      "display": "Anti-Cardiolipin Antibody (ACL) Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Anti-Cardiolipin Antibody (ACL) Panel"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P39",
+      "display": "Anti-Nuclear Ab (ANA)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "ANA"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P128",
+      "display": "Anti-ß2GP1 Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Anti-ß2GP1 Panel"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P23",
+      "display": "Antiphospholipid Antibody Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "APL"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P18",
+      "display": "APTT Mix",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "APTT Mix"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P69",
+      "display": "Arterial Blood Gas (Basic)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "ABG_Basic"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "Yes"
+        }
+      ]
+    },
+    {
+      "code": "C-P70",
+      "display": "Arterial Blood Gas (Full)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "ABG_Full"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "Yes"
+        }
+      ]
+    },
+    {
+      "code": "C-P75",
+      "display": "Arterial Cord Blood Gas",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "ABG_Cord"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "Yes"
+        }
+      ]
+    },
+    {
+      "code": "C-P85",
+      "display": "Arterial Stimulation and Venous Sampling",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "ASVS"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P57",
+      "display": "ATS (Clinical)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "ATS_CL"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P56",
+      "display": "ATS (Medicolegal)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "ATS_ML"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P59",
+      "display": "Bartonella henselae Serology",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Bartonella henselae Serology"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P33",
+      "display": "BCR::ABL1 Kinase Domain Mutation Analysis",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "BCR::ABL1 Kinase Domain Mutation Analysis"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P186",
+      "display": "BCR::ABL1 Major Quantitative",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "BCR::ABL1 Major Quantitative"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P28",
+      "display": "BCR::ABL1 Qualitative Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "BCR::ABL1 qualitative"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P59",
+      "display": "Benzodiazepines (Clinical)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "BNZ_CL"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P58",
+      "display": "Benzodiazepines (Medicolegal)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "BNZ_ML"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P17",
+      "display": "Biogenic Amines CSF Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "BIOAMINES_CSF"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P20",
+      "display": "Biogenic Amines Urine Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "BIOAMINES_U"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P11",
+      "display": "Bleeding profile (Rare Coagulation Factors)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Rare Coagulation Factors"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P12",
+      "display": "Blood Culture and Sensitivity (C&S)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Blood C&S"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P19",
+      "display": "Body Fluid Culture and Sensitivity (C&S)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Body Fluid C&S"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P40",
+      "display": "Body Fluid Differential Count (Automated)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Body Fluid Differential Count (Automated)"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P41",
+      "display": "Body Fluid Differential Count (Manual)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Body Fluid Differential Count (Manual)"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P188",
+      "display": "Bone Marrow Aspiration",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "BMA - Panel"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P60",
+      "display": "Borrelia burgdorferi Serology",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Borrelia burgdorferi Serology"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P11",
+      "display": "Bronchial/Broncho-alveolar lavage (BAL) Culture and Sensitivity (C&S)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "BAL C&S"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P61",
+      "display": "Brucella abortus Serology",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Brucella abortus Serology"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P62",
+      "display": "Brucella melitensis Serology",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Brucella melitensis Serology"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P63",
+      "display": "Brucella sp Serology",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Brucella sp Serology"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P95",
+      "display": "Burkholderia pseudomallei AST panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Burkholderia pseudomallei AST panel"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P32",
+      "display": "c-KIT D816V Mutation Analysis (Suspected Systemic Mastocytosis)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "c-KIT D816V Mutation Analysis (Suspected Systemic Mastocytosis)"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P73",
+      "display": "Capillary Blood Gas (Basic)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "CBG_Basic"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "Yes"
+        }
+      ]
+    },
+    {
+      "code": "C-P74",
+      "display": "Capillary Blood Gas (Full)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "CBG_Full"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "Yes"
+        }
+      ]
+    },
+    {
+      "code": "C-P21",
+      "display": "Carnitine Profile, 24Hr Urine Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "CARN_U24H"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P13",
+      "display": "Carnitine Profile, Plasma",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "CARN_PLASMA"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P20",
+      "display": "Catheter Tip Culture and Sensitivity (C&S)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Catheter Tip C&S"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P67",
+      "display": "CD20 Quantification for Anti CD20 Treatment Monitoring",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "CD20 Quantification for Anti CD20 Treatment Monitoring"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P43",
+      "display": "CD34 Enumeration for Transplant",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "CD34 Enumeration for Transplant"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P65",
+      "display": "CD4/CD8 Count",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "CD4/CD8 Count"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P13",
+      "display": "Cerebrospinal Fluid Culture and Sensitivity (C&S)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "CSF C&S"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P189",
+      "display": "Chimerism Assays - Follow up",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Chimerism Assays - Follow up"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P47",
+      "display": "Chlamydia trachomatis Serology",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Chlamydia trachomatis Serology"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P48",
+      "display": "Chlamydophila pneumoniae Serology",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Chlamydophila pneumoniae Serology"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P49",
+      "display": "Chlamydophila psittaci Serology",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Chlamydophila psittaci Serology"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P10",
+      "display": "Chromogenic Factor Assays",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Chromogenic"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P24",
+      "display": "Coagulation Factor II Activity",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "FII:C"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P185",
+      "display": "Coagulation Factor IX Activity",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "FIX:C"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P192",
+      "display": "Coagulation Factor IX Inhibitor",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "FIX Inhibitor"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P25",
+      "display": "Coagulation Factor V Activity",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "FV:C"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P26",
+      "display": "Coagulation Factor VII Activity",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "FVII:C"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P184",
+      "display": "Coagulation Factor VIII Activity",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "FVIII:C"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P191",
+      "display": "Coagulation Factor VIII Inhibitor",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "FVIII Inhibitor"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P193",
+      "display": "Coagulation Factor X Activity",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "FX:C"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P194",
+      "display": "Coagulation Factor XI Activity",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "FXI:C"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P195",
+      "display": "Coagulation Factor XII Activity",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "FXII:C"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P196",
+      "display": "Coagulation Factor XIII Antigen",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "FXIII Ag"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P53",
+      "display": "Coeliac Ab Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Coeliac Ab Panel"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P106",
+      "display": "Corynebacterium spp. AST panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Corynebacterium spp. AST panel"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P73",
+      "display": "Coxiella burnetii Serology",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Coxiella burnetii Serology"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P64",
+      "display": "Coxsackie Virus Serology",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Coxsackie Virus Serology"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P26",
+      "display": "Creatine & Guanidinoacetate Blood Spot Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "CRGU_DBS"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P22",
+      "display": "Creatine & Guanidinoacetate Plasma Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "CRGU_PL"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P23",
+      "display": "Creatine & Guanidinoacetate Urine Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "CGGU_U"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P93",
+      "display": "CRH Stimulation Test",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "CRH"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P36",
+      "display": "Cryoglobulin Confirmation Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "CRYO_IF"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P35",
+      "display": "Cryoglobulin Screening Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "CRYO_P"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P44",
+      "display": "Cryopreservation of Stem Cells",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Cryopreservation of Stem Cells"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P10",
+      "display": "CSF Amino Acid Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "CSFAA"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P43",
+      "display": "CSF Oligoclonal Bands Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "CSF_OB"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P42",
+      "display": "CSF VDRL",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "CSF VDRL"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P83",
+      "display": "CTNG Rapid Multiplex Molecular",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "CTNG Rapid Multiplex Molecular"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P24",
+      "display": "Cystine Homocystine Urine Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "CYS_HOMOU"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P25",
+      "display": "Cystine Homocystine Urine Panel Extended",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "CYSTINURIA_U"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P6",
+      "display": "Cytokines Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "CYTOKINES"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P74",
+      "display": "Cytomegalovirus Serology",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "CMV Serology"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P2",
+      "display": "Dengue Combo NS1/IgG/IgM Rapid Test",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Rapid Dengue Combo NS1, IgG, IgM Serum Plasma Blood Rapid IA"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P3",
+      "display": "Dengue Rapid IgG/IgM Rapid Test",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Rapid Dengue IgG, IgM Serum Plasma Blood Rapid IA"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P66",
+      "display": "Dengue Virus Serology",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Dengue Virus Serology"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P77",
+      "display": "Dihydrorhodamine assay (DHR)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Dihydrorhodamine assay (DHR)"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P20",
+      "display": "DIVC Screening",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "DIVC"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P52",
+      "display": "Double Negative TCRab T cells quantification",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Double Negative T"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P55",
+      "display": "Drug of Abuse 10 in 1 Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "DOA_10P"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P54",
+      "display": "Drug of Abuse 4 in 1 Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "DOA_4P"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P4",
+      "display": "Ear Culture and Sensitivity (C&S)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Ear C&S"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P65",
+      "display": "Echinococcus sp Serology",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Echinococcus sp Serology"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "A-P14",
+      "display": "Electron Microscopy",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "EM"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Anatomic Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P113",
+      "display": "Enterococcus spp. AST panel (non-urine)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Enterococcus spp. AST panel (non-urine)"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P114",
+      "display": "Enterococcus spp. AST panel (urine)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Enterococcus spp. AST panel (urine)"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P22",
+      "display": "Environmental Culture and Sentivitity (C&S)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Environmental (C&S)"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P86",
+      "display": "Enzyme Assay Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Enzyme Assay Panel"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P75",
+      "display": "Epstein-Barr Virus Serology",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "EBV Serology"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P100",
+      "display": "Extended Serum Protein Electrophoresis Test Confirmation (IF) Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Ex_SPEP_IF"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P101",
+      "display": "Extended Urine Protein Electrophoresis Test Confirmation (IF) Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Ex_UPEP_IF"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P58",
+      "display": "Extractable Nuclear Ag (ENA)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "ENA"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P5",
+      "display": "Eye Culture and Sensitivity (C&S)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Eye C&S"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "A-P12",
+      "display": "Fine Needle Aspiration Cytology",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Cytology-FNA"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Anatomic Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P100",
+      "display": "Flavobacterium spp. AST panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Flavobacterium spp. AST panel"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P71",
+      "display": "Flow Cytometry for Platelet Surface Glycoproteins",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "IPT for Platelet Surface GP Main Report"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P92",
+      "display": "Fludrocortisone Suppression Test",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "FST"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "G-P2",
+      "display": "Fluorescence in situ hybridization for CLL panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "FISH-CLL"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Genetic Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "G-P1",
+      "display": "Fluorescence in situ hybridization for Multiple Myeloma",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "FISH-Myeloma"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Genetic Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P98",
+      "display": "Free Androgen Index (Panel)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "FAI_PANEL"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "Yes"
+        }
+      ]
+    },
+    {
+      "code": "H-P1",
+      "display": "Full Blood Count - Automated Count",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "FBC"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P187",
+      "display": "Full Blood Picture",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "FBP"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P7",
+      "display": "Galactosemia Screening Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "GALAC"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P85",
+      "display": "Gastrointestinal Helminth Multiplex Molecular",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Gastrointestinal Helminth Multiplex Molecular"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P86",
+      "display": "Gastrointestinal Protozoa Multiplex Molecular",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Gastrointestinal Protozoa Multiplex Molecular"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P84",
+      "display": "Gastrointestinal Rapid Multiplex Molecular",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Gastrointestinal Rapid Multiplex Molecular"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P6",
+      "display": "Genital Culture and Sensitivity (C&S)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Genital C&S"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P89",
+      "display": "GH Suppression Test (for acromegaly)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "GH_SUPP"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P86",
+      "display": "Glucagon Stimulation Test",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "GST"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P85",
+      "display": "Glucose-6-Phosphate dehydrogenase Assay",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Glucose-6-Phosphate dehydrogenase Assay"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P95",
+      "display": "Gonadotropin Releasing hormone Stimulation Test (for Female)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "GnRH_ST_F"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P94",
+      "display": "Gonadotropin Releasing hormone Stimulation Test (for Male)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "GnRH_ST_M"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P105",
+      "display": "Gram-negative Anaerobes AST panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Gram-negative Anaerobes AST panel"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P109",
+      "display": "Gram-positive Anaerobes AST panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Gram-positive Anaerobes AST panel"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "A-P11",
+      "display": "Gynaecology Cytology",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Cytology-Pap Smear"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Anatomic Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P104",
+      "display": "HACEK group AST panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "HACEK group AST panel"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P79",
+      "display": "Haemophilia A Genetic Testing",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Haemophilia A Genetic Testing"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P80",
+      "display": "Haemophilia B Genetic Testing",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Haemophilia B Genetic Testing"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P97",
+      "display": "Haemophilus influenzae & Haemophilus parainfluenzae AST panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Haemophilus influenzae & Haemophilus parainfluenzae AST panel"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P2",
+      "display": "HB Analysis",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "HB Analysis"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P12",
+      "display": "Heparin Induced Thrombocytopenia Test",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "HIT"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P125",
+      "display": "Hepatitis Screening",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Hepatitis Screening"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "G-P4",
+      "display": "Hereditary Breast & Ovarian Cancer Panel (HBOC) NGS",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "NGS HBOC"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Genetic Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P122",
+      "display": "HIV Drug Resistance Test (Integrase)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "HIV Drug Resistance Test (Integrase)"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P129",
+      "display": "HIV Drug Resistance Test (Non-nucleoside Reverse Transcriptase Inhibitors)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "HIV Drug Resistance Test (Non-nucleoside Reverse Transcriptase Inhibitors)"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P123",
+      "display": "HIV Drug Resistance Test (Protease and Reverse Transcriptase)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "HIV Drug Resistance Test (Protease and Reverse Transcriptase)"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P121",
+      "display": "HLA Antibody Test (PRA/DSA)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "HLA Antibody Test (PRA/DSA)"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P120",
+      "display": "HLA Typing for Disease Association",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "HLA Typing for Disease Association"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "A-P1",
+      "display": "HPE for Second Opinion",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "HPE-2nd Opinion"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Anatomic Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P130",
+      "display": "Human Leukocyte Antigen (HLA) Typing Class I and II (Loci A,B and DR) - Medium/high Resolution (SSO-PCR) Test",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Human Leukocyte Antigen (HLA) Typing Class I and II (Loci A,B and DR) - Medium/high Resolution (SSO-PCR) Test"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P88",
+      "display": "IgG subclass",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "IgG subclass"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P53",
+      "display": "Immunophenotyping for Leukemia and Lymphoma",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "IPT Leukemia/Lymphoma"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P56",
+      "display": "Immunophenotyping for Paroxysmal Nortunal Haemoglobinuria",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "IPT PNH"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P126",
+      "display": "Infectious Screening",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Infectious Screening"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P84",
+      "display": "Inferior Petrosal Sinus Sampling",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "IPSS"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P14",
+      "display": "Inherited Thrombophilia Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Inh Throm"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P87",
+      "display": "Insulin Tolerance Test",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "ITT"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "A-P2",
+      "display": "Intraoperative Frozen Section Examination",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "IFS"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Anatomic Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P49",
+      "display": "Iron Study",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "IS"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "Yes"
+        }
+      ]
+    },
+    {
+      "code": "C-P1",
+      "display": "Itraconazole",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "ITRA"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P34",
+      "display": "JAK2V617F Mutation Anaysis",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "JAK2V617F Mutation Anaysis"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P66",
+      "display": "Ketamine (Clinical)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Ketamine_CL"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P67",
+      "display": "Ketamine (Medicolegal)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Ketamine_ML"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P27",
+      "display": "Leukemia Translocation Study",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Leukaemia Translocation Study"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P48",
+      "display": "Lipid Profile",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "LP"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "Yes"
+        }
+      ]
+    },
+    {
+      "code": "M-P108",
+      "display": "Listeria monocytogenes AST panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Listeria monocytogenes AST panel"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "A-P3",
+      "display": "Liver Biopsy for HPE",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "HPE-Liver"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Anatomic Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P47",
+      "display": "Liver Function Test",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "LFT"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "Yes"
+        }
+      ]
+    },
+    {
+      "code": "H-P22",
+      "display": "Lupus Anticoagulant",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "LAC"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P78",
+      "display": "Lymphocyte Subset (TBNK) Enumeration test",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Lymphocyte Subset (TBNK) Enumeration test"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P19",
+      "display": "Lysine Metabolism Panel, Urine",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "LYSINE_U"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P14",
+      "display": "Lysosomal Storage Disorders (LSD) Enzyme Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "LSD_PANEL"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P42",
+      "display": "Manual Differential Count -Blood",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "MDC - Blood"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P197",
+      "display": "Manual Differential Count -Bone Marrow",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "MDC - Bone Marrow"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P82",
+      "display": "Meningitis Rapid Multiplex Molecular",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Meningitis Rapid Multiplex Molecular"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P64",
+      "display": "Mitragynine (Clinical)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Mitragynine_CL"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P65",
+      "display": "Mitragynine (Medicolegal)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Mitragynine_ML"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P88",
+      "display": "Mixed Meal Test",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "MMT"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P76",
+      "display": "Molecular Test for Alpha Globin Gene/Cluster",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Molecular Test for Alpha Globin Gene/Cluster"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P75",
+      "display": "Molecular Test for Beta Globin Gene/Cluster",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Molecular Test for Beta Globin Gene/Cluster"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P74",
+      "display": "Molecular Test for G6PD Genotyping",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Molecular Test for G6PD Genotyping"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P96",
+      "display": "Moraxella catarrhalis AST panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Moraxella catarrhalis AST panel"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P11",
+      "display": "MSUD Amino Acid Monitoring Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "MSUD_AA"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P27",
+      "display": "Mucopolysaccharides (MPS) Screening Urine Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "MPSU"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P15",
+      "display": "Mucopolysaccharidosis (MPS) Enzymes Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "MPS_PANEL"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "A-P4",
+      "display": "Muscle Biopsy for HPE",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "HPE-Muscle Biopsy"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Anatomic Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P91",
+      "display": "Mycobacterium tuberculosis (MTB) Culture & Sensitivity",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Mycobacterium tuberculosis (MTB) Culture & Sensitivity"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P89",
+      "display": "Mycobacterium tuberculosis Line Probe Assay MTB DRPLUS",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Mycobacterium tuberculosis Line Probe Assay MTB DRPLUS"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P76",
+      "display": "Myositis Antibody",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Myositis Antibody"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P7",
+      "display": "Nasal Culture and Sensitivity (C&S)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Nasal C&S"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P102",
+      "display": "Neisseria gonorrhoeae AST panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Neisseria gonorrhoeae AST panel"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P101",
+      "display": "Neisseria meningitidis AST panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Neisseria meningitidis AST panel"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "G-P3",
+      "display": "Neuromuscular Panel (NM) NGS",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "NGS Neuromuscular"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Genetic Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "A-P10",
+      "display": "Non-Gynaecology Cytology",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Cytology-NG"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Anatomic Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P61",
+      "display": "Opiates (Clinical)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "OPIATES_CL"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P60",
+      "display": "Opiates (Medicolegal)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "OPIATES_ML"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P62",
+      "display": "Opiates (Medicolegal) GCMS",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "OPIATES_GCMS_ML"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P63",
+      "display": "Opiates (Medicolegal) TLC",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "OPIATES_TLC_ML"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P50",
+      "display": "Oral Glucose Tolerance Test",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "OGTT"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P88",
+      "display": "Osmotic Fragility Test Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Osmotic Fragility Test Panel"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P82",
+      "display": "Overnight Dexamethasone Suppression Test",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "ODST"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P55",
+      "display": "Paraneoplastic Neurological Syndrome Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "PNS"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P103",
+      "display": "Pasteurella spp. AST panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Pasteurella spp. AST panel"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P16",
+      "display": "Peroxisomal Profile Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "POX_P"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P54",
+      "display": "Phospholipase A2 Receptor Ab (PLA2R)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "PLA2R"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P12",
+      "display": "PKU Amino Acid Monitoring Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "PKU_AA"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P8",
+      "display": "Plasma Amino Acid Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "PAA"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P13",
+      "display": "Platelet Aggregation Test",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "PAT"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P30",
+      "display": "PML-RARA Qualitative Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "PML-RARA qualitative"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P28",
+      "display": "Porphyrins Urine Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "PORP_PROFILE"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P90",
+      "display": "Prolonged Fasting Test",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "PFT"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P19",
+      "display": "PT & APTT Mix",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "PT & APTT Mix"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P17",
+      "display": "PT Mixing",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "PT Mix"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P21",
+      "display": "PT/INR/APTT",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "PT/INR/APTT"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P18",
+      "display": "Pterins CSF panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "PTERINS_CSF"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P29",
+      "display": "Pterins Urine",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "PTERINS_U"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P30",
+      "display": "Purine & Pyrimidine Urine Profile",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "PUPYR"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P21",
+      "display": "Pus/Wound Culture and Sensitivity (C&S)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Pus/Wound C&S"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "A-P16",
+      "display": "Rectal biopsy for Hirschsprung disease",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Rectal biopsy-Hirscsprung"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Anatomic Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "A-P5",
+      "display": "Renal Biopsy for HPE and IF",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "HPE IF-Renal"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Anatomic Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P46",
+      "display": "Renal Profie",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "RP"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "Yes"
+        }
+      ]
+    },
+    {
+      "code": "Cmb-P1",
+      "display": "Report",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Report"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Combine"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P87",
+      "display": "Respiratory panel IF",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Respiratory panel IF"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P80",
+      "display": "Respiratory Rapid Multiplex Molecular",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Respiratory Rapid Multiplex Molecular"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P79",
+      "display": "Respiratory viruses Isolation",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Respiratory viruses Isolation"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "Ot-P2",
+      "display": "Rhesus Group",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Rhesus Group"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Other"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P107",
+      "display": "Rhodococcus hoagii AST panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Rhodococcus hoagii AST panel"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P118",
+      "display": "Rickettsia serology",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Rickettsia serology"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "A-P6",
+      "display": "Routine Surgery for HPE",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "HPE-RS"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Anatomic Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P3",
+      "display": "Salivary Cortisol",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "COR_SLV"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P92",
+      "display": "Salmonella typhi, Salmonella spp. & Shigella spp AST panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Salmonella typhi, Salmonella spp. & Shigella spp AST panel"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "A-P13",
+      "display": "Seminal Fluid Analysis",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Cytology-SFA"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Anatomic Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P78",
+      "display": "Sequencing for Thalassemia &  Haemoglobinopathy",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Sequencing for Thalassemia &  Haemoglobinopathy"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P52",
+      "display": "Serum Bilirubin Venous Adult",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "SBV_A"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "Yes"
+        }
+      ]
+    },
+    {
+      "code": "C-P51",
+      "display": "Serum Bilirubin Venous Nenonate",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "SBV_N"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "Yes"
+        }
+      ]
+    },
+    {
+      "code": "C-P37",
+      "display": "Serum Free Light Chain Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "SFLC"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P41",
+      "display": "Serum Protein Electrophoresis Test Confirmation (IF) Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "SPEP_IF"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P44",
+      "display": "Serum Protein Electrophoresis Test Confirmation (IS) Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "SPEP_IS"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P39",
+      "display": "Serum Protein Electrophoresis Test Screening Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "SPEP_Sc"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P41",
+      "display": "Sexually Transmitted Diseases (STD) Molecular Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Sexually Transmitted Diseases (STD) Molecular Panel"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P81",
+      "display": "Short Synacthen Test (for CAH)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "SST_CAH"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P80",
+      "display": "Short Synacthen Test (Low Dose)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "SST_LD"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P79",
+      "display": "Short Synacthen Test (Standard)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "SST_SD"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P31",
+      "display": "Sialic Acid Urine Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "SA_U"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P56",
+      "display": "Skin Ab Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Skin Ab"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "A-P9",
+      "display": "Skin Biopsy for HPE and IF",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "HPE IF-Skin"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Anatomic Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "A-P15",
+      "display": "Specialized Stain Report",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "SS Report"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Anatomic Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P81",
+      "display": "Specific IgE",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Specific IgE"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P57",
+      "display": "Specific Liver Ab Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "SLA"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "G-P5",
+      "display": "Spinocerebellar Ataxia (SCA Full Panel)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "SCA-FullPanel"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Genetic Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P8",
+      "display": "Sputum Culture and Sensitivity (C&S)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Sputum C&S"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P110",
+      "display": "Staphylococcus spp. AST panel (non-urine)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Staphylococcus spp. AST panel (non-urine)"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P111",
+      "display": "Staphylococcus spp. AST panel (urine)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Staphylococcus spp. AST panel (urine)"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P46",
+      "display": "Stem Cell Processing: Plasma Depletion",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Stem Cell Processing: Plasma Depletion"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P45",
+      "display": "Stem Cell Processing: Red Cell Depletion",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Stem Cell Processing: Red Cell Depletion"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P47",
+      "display": "Stem Cell Processing: T-Cell Depletion",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Stem Cell Processing: T-Cell Depletion"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P94",
+      "display": "Stenotrophomonas maltophilia AST panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Stenotrophomonas maltophilia AST panel"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P23",
+      "display": "Sterility Sample Culture and Sensitivity (C&S)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Sterility Sample (C&S)"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P102",
+      "display": "Steroid Profile",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "SP"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "Yes"
+        }
+      ]
+    },
+    {
+      "code": "M-P14",
+      "display": "Stool and Rectal Swab Culture and Sensitivity (C&S)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Stool and Rectal Swab C&S"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P115",
+      "display": "Streptococcus pneumoniae AST panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Streptococcus pneumoniae AST panel"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P32",
+      "display": "Sugars and Polyols Urine Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "USP_Panel"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P33",
+      "display": "Sulphite and Sulphocysteine Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "SSCTU"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P17",
+      "display": "Swab Culture and Sensitivity (C&S)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Swab C&S"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P9",
+      "display": "Throat Culture and Sensitivity (C&S)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Throat C&S"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P5",
+      "display": "Thyroglobulin Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "THYRO_PNL"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P4",
+      "display": "Thyroid Function Test",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "TFT"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "Yes"
+        }
+      ]
+    },
+    {
+      "code": "C-P96",
+      "display": "Thyroxine absorption test",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "FT4_ABS"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P15",
+      "display": "Tissue, Bone, Foreign Body Culture and Sensitivity (C&S)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Tissue, Bone, Foreign Body C&S"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P43",
+      "display": "Toxoplasma gondii Serology",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Toxoplasma gondii Serology"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P16",
+      "display": "Tracheal Aspirate Culture and Sensitivity (C&S)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Tracheal Aspirate C&S"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P190",
+      "display": "Trephine Biopsy",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Trep Biopsy - Panel"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P1",
+      "display": "Treponema pallidum IgG/IgM Rapid Test",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Rapid Treponema pallidum IgG IgM Serum Plasma Blood Rapid IA"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P97",
+      "display": "TRH stimulation test",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "TRH_ST"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P2",
+      "display": "Urinalysis",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "USTRIP"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "Yes"
+        }
+      ]
+    },
+    {
+      "code": "C-P99",
+      "display": "Urine Albumin Creatinine Ratio_Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "UACR_PANEL"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "Yes"
+        }
+      ]
+    },
+    {
+      "code": "C-P9",
+      "display": "Urine Amino Acid Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "UAA"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P10",
+      "display": "Urine Culture and Sensitivity (C&S)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Urine C&S"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P42",
+      "display": "Urine Protein Electrophoresis Test Confirmation (IF) (Panel)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "UPEP_IF"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P45",
+      "display": "Urine Protein Electrophoresis Test Confirmation (IS) (Panel)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "UPEP_IS"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P40",
+      "display": "Urine Protein Electrophoresis Test Screening Panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "UPEP_Sc"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P71",
+      "display": "Venous Blood Gas (Basic)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "VBG_Basic"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "Yes"
+        }
+      ]
+    },
+    {
+      "code": "C-P72",
+      "display": "Venous Blood Gas (Full)",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "VBG_Full"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "Yes"
+        }
+      ]
+    },
+    {
+      "code": "C-P76",
+      "display": "Venous Cord Blood Gas",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "VBG_Cord"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "Yes"
+        }
+      ]
+    },
+    {
+      "code": "M-P98",
+      "display": "Vibrio cholerae AST panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Vibrio cholerae AST panel"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "M-P99",
+      "display": "Vibrio spp. AST panel",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "Vibrio spp. AST panel"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "No"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "H-P15",
+      "display": "Von Willebrand Factor Profile",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "vWF"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    },
+    {
+      "code": "C-P91",
+      "display": "Water Deprivation Test",
+      "designation": [
+        {
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "short"
+          },
+          "value": "WDT"
+        }
+      ],
+      "property": [
+        {
+          "code": "discipline",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "clinician-use",
+          "valueString": "Yes"
+        },
+        {
+          "code": "ranking-available",
+          "valueString": "No"
+        }
+      ]
+    }
+  ]
+}

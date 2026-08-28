@@ -3,9 +3,9 @@
   "id": "encounter-status-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>value-set-encounter-status-my-core</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/encounter-status-my-core</tt><p>Encounter priority value set</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>value-set-encounter-status-my-core</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/encounter-status-my-core</tt><p>Encounter priority value set</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/encounter-status-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/encounter-status-my-core",
   "name": "ValueSetEncounterStatusMyCore",
   "title": "value-set-encounter-status-my-core",
   "status": "active",

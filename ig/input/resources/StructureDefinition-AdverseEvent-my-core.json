@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "AdverseEvent-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/AdverseEvent-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/AdverseEvent-my-core",
   "version": "2.0.0",
   "name": "AdverseEventMyCore",
   "title": "AdverseEvent (MY Core)",
@@ -21,7 +21,7 @@
         "path": "AdverseEvent.event",
         "binding": {
           "strength": "extensible",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/adverse-event-event-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/adverse-event-event-my-core"
         }
       }
     ]

@@ -3,9 +3,9 @@
   "id": "audiology-hearing-aid-assessment-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetAudiologyHearingAidAssessment(MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/audiology-hearing-aid-assessment-my-core</tt><p>Malaysia Audiology Hearing Aid Assessment</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetAudiologyHearingAidAssessment(MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/audiology-hearing-aid-assessment-my-core</tt><p>Malaysia Audiology Hearing Aid Assessment</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/audiology-hearing-aid-assessment-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/audiology-hearing-aid-assessment-my-core",
   "name": "ValueSetAudiologyHearingAidAssessmentMyCore",
   "title": "ValueSetAudiologyHearingAidAssessment(MY Core)",
   "status": "active",
@@ -15,7 +15,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/audiology-hearing-aid-assessment-my-core",
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/audiology-hearing-aid-assessment-my-core",
         "concept": [
           {
             "code": "00",

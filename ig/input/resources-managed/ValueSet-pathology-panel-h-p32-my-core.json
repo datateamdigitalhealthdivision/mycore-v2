@@ -1,0 +1,28 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-h-p32-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-h-p32-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelHP32MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: c-KIT D816V Mutation Analysis (Suspected Systemic Mastocytosis)",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel H-P32 (c-KIT D816V Mutation Analysis (Suspected Systemic Mastocytosis)). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "H-T336"
+          },
+          {
+            "code": "H-T337"
+          }
+        ]
+      }
+    ]
+  }
+}

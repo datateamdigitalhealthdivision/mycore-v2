@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "Observation-random-glucose-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Observation-random-glucose-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Observation-random-glucose-my-core",
   "version": "2.0.0",
   "name": "ObservationRandomGlucoseMyCore",
   "title": "ObservationRandomGlucose (MY Core)",
@@ -1009,7 +1009,7 @@
           ],
           "strength": "example",
           "description": "Random glucose measurement",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/observation-glucose-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/observation-glucose-my-core"
         },
         "mapping": [
           {
@@ -2163,7 +2163,7 @@
         "binding": {
           "strength": "preferred",
           "description": "Glucose level outside range",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/glucose-level-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/glucose-level-my-core"
         },
         "mapping": [
           {
@@ -4215,7 +4215,7 @@
         "binding": {
           "strength": "example",
           "description": "Random glucose measurement",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/observation-glucose-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/observation-glucose-my-core"
         }
       },
       {
@@ -4240,7 +4240,7 @@
         "binding": {
           "strength": "preferred",
           "description": "Glucose level outside range",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/glucose-level-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/glucose-level-my-core"
         }
       }
     ]

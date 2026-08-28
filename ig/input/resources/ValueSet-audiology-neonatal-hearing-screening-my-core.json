@@ -3,9 +3,9 @@
   "id": "audiology-neonatal-hearing-screening-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetAudiologyNeonatalHearingScreening(MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/audiology-neonatal-hearing-screening-my-core</tt><p>Malaysia Audiology Neonatal Hearing Screening</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetAudiologyNeonatalHearingScreening(MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/audiology-neonatal-hearing-screening-my-core</tt><p>Malaysia Audiology Neonatal Hearing Screening</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/audiology-neonatal-hearing-screening-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/audiology-neonatal-hearing-screening-my-core",
   "name": "ValueSetAudiologyNeonatalHearingScreeningMyCore",
   "title": "ValueSetAudiologyNeonatalHearingScreening(MY Core)",
   "status": "active",
@@ -15,7 +15,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/audiology-neonatal-hearing-screening-my-core",
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/audiology-neonatal-hearing-screening-my-core",
         "concept": [
           {
             "code": "00",

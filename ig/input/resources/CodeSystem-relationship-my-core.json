@@ -3,9 +3,9 @@
   "id": "relationship-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemRelationship (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/relationship-my-core</tt><p>Code System PIK Relationship My Core</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemRelationship (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/relationship-my-core</tt><p>Code System PIK Relationship My Core</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/relationship-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/relationship-my-core",
   "name": "CodeSystemRelationshipMyCore",
   "title": "CodeSystemRelationship (MY Core)",
   "status": "active",

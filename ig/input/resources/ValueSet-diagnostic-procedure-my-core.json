@@ -3,9 +3,9 @@
   "id": "diagnostic-procedure-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetDiagnosticProcedure (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/diagnostic-procedure-my-core</tt><p>Diagnostic Procedure</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetDiagnosticProcedure (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/diagnostic-procedure-my-core</tt><p>Diagnostic Procedure</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/diagnostic-procedure-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/diagnostic-procedure-my-core",
   "name": "ValueSetDiagnosticProcedureMyCore",
   "title": "ValueSetDiagnosticProcedure (MY Core)",
   "status": "active",
@@ -26,7 +26,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/diagnostic-procedure-my-core"
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/diagnostic-procedure-my-core"
       }
     ]
   },

@@ -11,7 +11,7 @@
       "valueInteger": 1
     }
   ],
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/citizenship-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/citizenship-my-core",
   "version": "2.0.0",
   "name": "ExtensionCitizenshipMyCore",
   "title": "ExtensionCitizenship (MY Core)",
@@ -88,7 +88,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/citizenship-my-core"
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/citizenship-my-core"
       },
       {
         "id": "Extension.value[x]",

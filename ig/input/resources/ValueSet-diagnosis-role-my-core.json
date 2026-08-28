@@ -3,9 +3,9 @@
   "id": "diagnosis-role-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetDiagnosisRole (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/diagnosis-role-my-core</tt><p>Extension from FHIR base DiagnosisRole Value Set</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetDiagnosisRole (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/diagnosis-role-my-core</tt><p>Extension from FHIR base DiagnosisRole Value Set</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/diagnosis-role-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/diagnosis-role-my-core",
   "identifier": [
     {
       "value": "value-set-diagnosis-role-my-core"
@@ -64,7 +64,7 @@
         ]
       },
       {
-        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/diagnosis-role-my-core"
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/diagnosis-role-my-core"
       }
     ]
   },

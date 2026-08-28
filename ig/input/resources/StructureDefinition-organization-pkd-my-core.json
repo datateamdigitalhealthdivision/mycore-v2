@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "organization-pkd-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/organization-pkd-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/organization-pkd-my-core",
   "version": "2.0.0",
   "name": "ExtensionOrganizationPkdMyCore",
   "title": "ExtensionOrganizationPkd (MY Core)",
@@ -210,7 +210,7 @@
             "code": "http://hl7.org/fhirpath/System.String"
           }
         ],
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/organization-pkd-my-core",
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/organization-pkd-my-core",
         "mapping": [
           {
             "identity": "rim",
@@ -266,7 +266,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/organization-pkd-my-core"
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/organization-pkd-my-core"
       },
       {
         "id": "Extension.value[x]",

@@ -1,0 +1,40 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-m-p94-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-m-p94-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelMP94MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Stenotrophomonas maltophilia AST panel",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel M-P94 (Stenotrophomonas maltophilia AST panel). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "M-T938"
+          },
+          {
+            "code": "M-T1007"
+          },
+          {
+            "code": "M-T1501"
+          },
+          {
+            "code": "M-T1502"
+          },
+          {
+            "code": "M-T1508"
+          },
+          {
+            "code": "M-T1509"
+          }
+        ]
+      }
+    ]
+  }
+}

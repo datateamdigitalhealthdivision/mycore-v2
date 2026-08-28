@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "procedure-session-type-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/procedure-session-type-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/procedure-session-type-my-core",
   "name": "ExtensionProcedureSessionTypeMyCore",
   "title": "ExtensionProcedureSessionType (MY Core)",
   "status": "draft",
@@ -208,7 +208,7 @@
             "code": "http://hl7.org/fhirpath/System.String"
           }
         ],
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/procedure-session-type-my-core",
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/procedure-session-type-my-core",
         "mapping": [
           {
             "identity": "rim",
@@ -248,7 +248,7 @@
         ],
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/procedure-session-type-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/procedure-session-type-my-core"
         },
         "mapping": [
           {
@@ -268,7 +268,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/procedure-session-type-my-core"
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/procedure-session-type-my-core"
       },
       {
         "id": "Extension.value[x]",
@@ -280,7 +280,7 @@
         ],
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/procedure-session-type-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/procedure-session-type-my-core"
         }
       }
     ]

@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-m-p91-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-m-p91-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelMP91MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Mycobacterium tuberculosis (MTB) Culture & Sensitivity",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel M-P91 (Mycobacterium tuberculosis (MTB) Culture & Sensitivity). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "M-T708"
+          },
+          {
+            "code": "M-T361"
+          },
+          {
+            "code": "M-T706"
+          },
+          {
+            "code": "M-T707"
+          },
+          {
+            "code": "M-T371"
+          }
+        ]
+      }
+    ]
+  }
+}

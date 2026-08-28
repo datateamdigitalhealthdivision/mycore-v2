@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "medicationknowledge-setting-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/medicationknowledge-setting-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/medicationknowledge-setting-my-core",
   "name": "ExtensionMedicationKnowledgeSettingMyCore",
   "title": "ExtensionMedicationKnowledgeSetting (MY Core)",
   "status": "active",
@@ -157,7 +157,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/medicationknowledge-setting-my-core"
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/medicationknowledge-setting-my-core"
       },
       {
         "id": "Extension.value[x]",

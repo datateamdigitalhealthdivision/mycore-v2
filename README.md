@@ -13,7 +13,7 @@ MY Core v2.0 defines the national baseline interoperability layer that future My
 
 ## Canonical and package details
 
-- Canonical root: `https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core`
+- Canonical root: `https://myehr.kkmhub.moh.gov.my/fhir/my-core`
 - Package ID: `my.moh.kkmhub.myehr.core`
 - FHIR version: `4.0.1`
 - Guide version target: `2.0.0`

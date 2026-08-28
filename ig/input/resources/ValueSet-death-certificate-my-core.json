@@ -3,9 +3,9 @@
   "id": "death-certificate-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetDeathCertificate (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/death-certificate-my-core</tt><p>Extension from FHIR base DeathCertificate Value Set</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetDeathCertificate (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/death-certificate-my-core</tt><p>Extension from FHIR base DeathCertificate Value Set</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/death-certificate-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/death-certificate-my-core",
   "identifier": [
     {
       "value": "value-set-death-certificate-my-core"
@@ -20,7 +20,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/death-certificate-my-core",
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/death-certificate-my-core",
         "concept": [
           {
             "code": "02",

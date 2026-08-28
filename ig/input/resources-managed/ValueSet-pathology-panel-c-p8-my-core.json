@@ -1,0 +1,91 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-c-p8-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-c-p8-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelCP8MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Plasma Amino Acid Panel",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel C-P8 (Plasma Amino Acid Panel). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "C-T254"
+          },
+          {
+            "code": "C-T255"
+          },
+          {
+            "code": "C-T256"
+          },
+          {
+            "code": "C-T257"
+          },
+          {
+            "code": "C-T258"
+          },
+          {
+            "code": "C-T260"
+          },
+          {
+            "code": "C-T261"
+          },
+          {
+            "code": "C-T262"
+          },
+          {
+            "code": "C-T263"
+          },
+          {
+            "code": "C-T264"
+          },
+          {
+            "code": "C-T265"
+          },
+          {
+            "code": "C-T266"
+          },
+          {
+            "code": "C-T267"
+          },
+          {
+            "code": "C-T268"
+          },
+          {
+            "code": "C-T269"
+          },
+          {
+            "code": "C-T270"
+          },
+          {
+            "code": "C-T271"
+          },
+          {
+            "code": "C-T272"
+          },
+          {
+            "code": "C-T273"
+          },
+          {
+            "code": "C-T274"
+          },
+          {
+            "code": "C-T275"
+          },
+          {
+            "code": "C-T259"
+          },
+          {
+            "code": "C-T787"
+          }
+        ]
+      }
+    ]
+  }
+}

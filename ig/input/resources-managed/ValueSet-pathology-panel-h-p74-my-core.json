@@ -1,0 +1,64 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-h-p74-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-h-p74-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelHP74MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Molecular Test for G6PD Genotyping",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel H-P74 (Molecular Test for G6PD Genotyping). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "H-T792"
+          },
+          {
+            "code": "H-T791"
+          },
+          {
+            "code": "H-T793"
+          },
+          {
+            "code": "H-T794"
+          },
+          {
+            "code": "H-T795"
+          },
+          {
+            "code": "H-T800"
+          },
+          {
+            "code": "H-T801"
+          },
+          {
+            "code": "H-T802"
+          },
+          {
+            "code": "H-T803"
+          },
+          {
+            "code": "H-T799"
+          },
+          {
+            "code": "H-T688"
+          },
+          {
+            "code": "H-T689"
+          },
+          {
+            "code": "H-T690"
+          },
+          {
+            "code": "H-T691"
+          }
+        ]
+      }
+    ]
+  }
+}

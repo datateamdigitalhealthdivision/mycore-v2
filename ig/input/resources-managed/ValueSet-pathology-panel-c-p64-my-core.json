@@ -1,0 +1,28 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-c-p64-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-c-p64-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelCP64MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Mitragynine (Clinical)",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel C-P64 (Mitragynine (Clinical)). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "C-T645"
+          },
+          {
+            "code": "C-T647"
+          }
+        ]
+      }
+    ]
+  }
+}

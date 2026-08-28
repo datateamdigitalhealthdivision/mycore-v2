@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "Observation-oxygen-sat-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Observation-oxygen-sat-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Observation-oxygen-sat-my-core",
   "version": "2.0.0",
   "name": "ObservationOxygenSatMyCore",
   "title": "ObservationOxygenSat (MY Core)",
@@ -1010,7 +1010,7 @@
           ],
           "strength": "example",
           "description": "Codes identifying names of simple observations.",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/observation-vital-signs-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/observation-vital-signs-my-core"
         },
         "mapping": [
           {
@@ -3906,7 +3906,7 @@
           ],
           "strength": "required",
           "description": "Codes identifying names of simple observations.",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/observation-vsc-so2-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/observation-vsc-so2-my-core"
         },
         "mapping": [
           {
@@ -4236,7 +4236,7 @@
         "path": "Observation.code",
         "binding": {
           "strength": "example",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/observation-vital-signs-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/observation-vital-signs-my-core"
         }
       },
       {
@@ -4256,7 +4256,7 @@
         "path": "Observation.component.code",
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/observation-vsc-so2-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/observation-vsc-so2-my-core"
         }
       }
     ]

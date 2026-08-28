@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "HealthcareService-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/HealthcareService-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/HealthcareService-my-core",
   "version": "2.0.0",
   "name": "HealthcareServiceMyCore",
   "title": "HealthcareService (MY Core)",
@@ -469,7 +469,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/public-booking-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/public-booking-my-core"
             ]
           }
         ],
@@ -640,7 +640,7 @@
             "code": "http://hl7.org/fhirpath/System.String"
           }
         ],
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/public-booking-my-core",
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/public-booking-my-core",
         "mapping": [
           {
             "identity": "rim",
@@ -721,7 +721,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/audit-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/audit-my-core"
             ]
           }
         ],
@@ -1636,7 +1636,7 @@
             "code": "http://hl7.org/fhirpath/System.String"
           }
         ],
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/audit-my-core",
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/audit-my-core",
         "mapping": [
           {
             "identity": "rim",
@@ -1864,7 +1864,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/additional-info-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/additional-info-my-core"
             ]
           }
         ],
@@ -2035,7 +2035,7 @@
             "code": "http://hl7.org/fhirpath/System.String"
           }
         ],
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/additional-info-my-core",
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/additional-info-my-core",
         "mapping": [
           {
             "identity": "rim",
@@ -2121,7 +2121,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/extension-form-required-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/extension-form-required-my-core"
             ]
           }
         ],
@@ -2292,7 +2292,7 @@
             "code": "http://hl7.org/fhirpath/System.String"
           }
         ],
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/extension-form-required-my-core",
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/extension-form-required-my-core",
         "mapping": [
           {
             "identity": "rim",
@@ -2373,7 +2373,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/extension-form-type-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/extension-form-type-my-core"
             ]
           }
         ],
@@ -2544,7 +2544,7 @@
             "code": "http://hl7.org/fhirpath/System.String"
           }
         ],
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/extension-form-type-my-core",
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/extension-form-type-my-core",
         "mapping": [
           {
             "identity": "rim",
@@ -3175,7 +3175,7 @@
         "isSummary": true,
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/encounter-class-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/encounter-class-my-core"
         },
         "mapping": [
           {
@@ -3627,7 +3627,7 @@
         "isSummary": true,
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/service-request-category-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/service-request-category-my-core"
         },
         "mapping": [
           {
@@ -4145,7 +4145,7 @@
           ],
           "strength": "example",
           "description": "Additional details about where the content was created (e.g. clinical specialty).",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/service-type-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/service-type-my-core"
         },
         "mapping": [
           {
@@ -4406,7 +4406,7 @@
         "isSummary": true,
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/encounter-class-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/encounter-class-my-core"
         },
         "mapping": [
           {
@@ -4858,7 +4858,7 @@
         "isSummary": true,
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/service-request-category-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/service-request-category-my-core"
         },
         "mapping": [
           {
@@ -5310,7 +5310,7 @@
         "isSummary": true,
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/service-type-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/service-type-my-core"
         },
         "mapping": [
           {
@@ -5469,7 +5469,7 @@
             "code": "uri"
           }
         ],
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/service-type-my-core",
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/service-type-my-core",
         "condition": [
           "ele-1"
         ],
@@ -5762,7 +5762,7 @@
         "isSummary": true,
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/lab-sub-group-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/lab-sub-group-my-core"
         },
         "mapping": [
           {
@@ -5921,7 +5921,7 @@
             "code": "uri"
           }
         ],
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/lab-sub-group-my-core",
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/lab-sub-group-my-core",
         "condition": [
           "ele-1"
         ],
@@ -6214,7 +6214,7 @@
         "isSummary": true,
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/lab-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/lab-my-core"
         },
         "mapping": [
           {
@@ -6666,7 +6666,7 @@
         "isSummary": true,
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/imaging-modality-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/imaging-modality-my-core"
         },
         "mapping": [
           {
@@ -6825,7 +6825,7 @@
             "code": "uri"
           }
         ],
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/imaging-modality-my-core",
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/imaging-modality-my-core",
         "condition": [
           "ele-1"
         ],
@@ -7118,7 +7118,7 @@
         "isSummary": true,
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/imaging-region-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/imaging-region-my-core"
         },
         "mapping": [
           {
@@ -7277,7 +7277,7 @@
             "code": "uri"
           }
         ],
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/imaging-region-my-core",
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/imaging-region-my-core",
         "condition": [
           "ele-1"
         ],
@@ -7570,7 +7570,7 @@
         "isSummary": true,
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/imaging-region-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/imaging-region-my-core"
         },
         "mapping": [
           {
@@ -7729,7 +7729,7 @@
             "code": "uri"
           }
         ],
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/imaging-my-core",
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/imaging-my-core",
         "condition": [
           "ele-1"
         ],
@@ -8085,7 +8085,7 @@
           ],
           "strength": "preferred",
           "description": "A specialty that a healthcare service may provide.",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/specialty-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/specialty-my-core"
         },
         "mapping": [
           {
@@ -10151,7 +10151,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/public-booking-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/public-booking-my-core"
             ]
           }
         ],
@@ -10170,7 +10170,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/audit-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/audit-my-core"
             ]
           }
         ],
@@ -10185,7 +10185,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/additional-info-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/additional-info-my-core"
             ]
           }
         ],
@@ -10201,7 +10201,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/extension-form-required-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/extension-form-required-my-core"
             ]
           }
         ],
@@ -10217,7 +10217,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/extension-form-type-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/extension-form-type-my-core"
             ]
           }
         ],
@@ -10252,7 +10252,7 @@
         "sliceName": "encounterClass",
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/encounter-class-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/encounter-class-my-core"
         }
       },
       {
@@ -10267,7 +10267,7 @@
         "sliceName": "serviceRequestCategory",
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/service-request-category-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/service-request-category-my-core"
         }
       },
       {
@@ -10282,7 +10282,7 @@
         "min": 1,
         "binding": {
           "strength": "example",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/service-type-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/service-type-my-core"
         }
       },
       {
@@ -10304,7 +10304,7 @@
         "sliceName": "encounterClass",
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/encounter-class-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/encounter-class-my-core"
         }
       },
       {
@@ -10319,7 +10319,7 @@
         "sliceName": "serviceRequestCategory",
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/service-request-category-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/service-request-category-my-core"
         }
       },
       {
@@ -10334,14 +10334,14 @@
         "sliceName": "serviceType",
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/service-type-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/service-type-my-core"
         }
       },
       {
         "id": "HealthcareService.type.coding:serviceType.system",
         "path": "HealthcareService.type.coding.system",
         "min": 1,
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/service-type-my-core"
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/service-type-my-core"
       },
       {
         "id": "HealthcareService.type.coding:labSubGroup",
@@ -10349,14 +10349,14 @@
         "sliceName": "labSubGroup",
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/lab-sub-group-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/lab-sub-group-my-core"
         }
       },
       {
         "id": "HealthcareService.type.coding:labSubGroup.system",
         "path": "HealthcareService.type.coding.system",
         "min": 1,
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/lab-sub-group-my-core"
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/lab-sub-group-my-core"
       },
       {
         "id": "HealthcareService.type.coding:lab",
@@ -10364,7 +10364,7 @@
         "sliceName": "lab",
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/lab-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/lab-my-core"
         }
       },
       {
@@ -10379,14 +10379,14 @@
         "sliceName": "imagingModality",
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/imaging-modality-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/imaging-modality-my-core"
         }
       },
       {
         "id": "HealthcareService.type.coding:imagingModality.system",
         "path": "HealthcareService.type.coding.system",
         "min": 1,
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/imaging-modality-my-core"
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/imaging-modality-my-core"
       },
       {
         "id": "HealthcareService.type.coding:imagingRegion",
@@ -10394,14 +10394,14 @@
         "sliceName": "imagingRegion",
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/imaging-region-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/imaging-region-my-core"
         }
       },
       {
         "id": "HealthcareService.type.coding:imagingRegion.system",
         "path": "HealthcareService.type.coding.system",
         "min": 1,
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/imaging-region-my-core"
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/imaging-region-my-core"
       },
       {
         "id": "HealthcareService.type.coding:imaging",
@@ -10409,14 +10409,14 @@
         "sliceName": "imaging",
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/imaging-region-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/imaging-region-my-core"
         }
       },
       {
         "id": "HealthcareService.type.coding:imaging.system",
         "path": "HealthcareService.type.coding.system",
         "min": 1,
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/imaging-my-core"
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/imaging-my-core"
       },
       {
         "id": "HealthcareService.specialty",
@@ -10424,7 +10424,7 @@
         "max": "1",
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/specialty-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/specialty-my-core"
         }
       },
       {

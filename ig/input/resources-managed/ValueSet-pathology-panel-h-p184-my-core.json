@@ -1,0 +1,40 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-h-p184-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-h-p184-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelHP184MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Coagulation Factor VIII Activity",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel H-P184 (Coagulation Factor VIII Activity). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "H-T76"
+          },
+          {
+            "code": "H-T78"
+          },
+          {
+            "code": "H-T4"
+          },
+          {
+            "code": "H-T150"
+          },
+          {
+            "code": "H-T151"
+          },
+          {
+            "code": "H-T93"
+          }
+        ]
+      }
+    ]
+  }
+}

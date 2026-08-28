@@ -1,0 +1,97 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-c-p9-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-c-p9-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelCP9MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Urine Amino Acid Panel",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel C-P9 (Urine Amino Acid Panel). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "C-T276"
+          },
+          {
+            "code": "C-T277"
+          },
+          {
+            "code": "C-T278"
+          },
+          {
+            "code": "C-T279"
+          },
+          {
+            "code": "C-T280"
+          },
+          {
+            "code": "C-T281"
+          },
+          {
+            "code": "C-T283"
+          },
+          {
+            "code": "C-T284"
+          },
+          {
+            "code": "C-T286"
+          },
+          {
+            "code": "C-T287"
+          },
+          {
+            "code": "C-T288"
+          },
+          {
+            "code": "C-T289"
+          },
+          {
+            "code": "C-T290"
+          },
+          {
+            "code": "C-T291"
+          },
+          {
+            "code": "C-T292"
+          },
+          {
+            "code": "C-T293"
+          },
+          {
+            "code": "C-T294"
+          },
+          {
+            "code": "C-T295"
+          },
+          {
+            "code": "C-T296"
+          },
+          {
+            "code": "C-T297"
+          },
+          {
+            "code": "C-T298"
+          },
+          {
+            "code": "C-T299"
+          },
+          {
+            "code": "C-T300"
+          },
+          {
+            "code": "C-T301"
+          },
+          {
+            "code": "C-T238"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,319 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-m-p81-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-m-p81-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelMP81MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Specific IgE",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel M-P81 (Specific IgE). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "M-T1167"
+          },
+          {
+            "code": "M-T1168"
+          },
+          {
+            "code": "M-T1169"
+          },
+          {
+            "code": "M-T1170"
+          },
+          {
+            "code": "M-T1171"
+          },
+          {
+            "code": "M-T1172"
+          },
+          {
+            "code": "M-T1173"
+          },
+          {
+            "code": "M-T1174"
+          },
+          {
+            "code": "M-T1175"
+          },
+          {
+            "code": "M-T1176"
+          },
+          {
+            "code": "M-T1177"
+          },
+          {
+            "code": "M-T1178"
+          },
+          {
+            "code": "M-T1179"
+          },
+          {
+            "code": "M-T1180"
+          },
+          {
+            "code": "M-T1181"
+          },
+          {
+            "code": "M-T1182"
+          },
+          {
+            "code": "M-T1183"
+          },
+          {
+            "code": "M-T1184"
+          },
+          {
+            "code": "M-T1185"
+          },
+          {
+            "code": "M-T1186"
+          },
+          {
+            "code": "M-T1187"
+          },
+          {
+            "code": "M-T1188"
+          },
+          {
+            "code": "M-T1189"
+          },
+          {
+            "code": "M-T1190"
+          },
+          {
+            "code": "M-T1191"
+          },
+          {
+            "code": "M-T1192"
+          },
+          {
+            "code": "M-T1193"
+          },
+          {
+            "code": "M-T1194"
+          },
+          {
+            "code": "M-T1195"
+          },
+          {
+            "code": "M-T1196"
+          },
+          {
+            "code": "M-T1197"
+          },
+          {
+            "code": "M-T1198"
+          },
+          {
+            "code": "M-T1199"
+          },
+          {
+            "code": "M-T1200"
+          },
+          {
+            "code": "M-T1201"
+          },
+          {
+            "code": "M-T1269"
+          },
+          {
+            "code": "M-T1270"
+          },
+          {
+            "code": "M-T1203"
+          },
+          {
+            "code": "M-T1204"
+          },
+          {
+            "code": "M-T1271"
+          },
+          {
+            "code": "M-T1205"
+          },
+          {
+            "code": "M-T1272"
+          },
+          {
+            "code": "M-T1207"
+          },
+          {
+            "code": "M-T1273"
+          },
+          {
+            "code": "M-T1208"
+          },
+          {
+            "code": "M-T1209"
+          },
+          {
+            "code": "M-T1274"
+          },
+          {
+            "code": "M-T1214"
+          },
+          {
+            "code": "M-T1211"
+          },
+          {
+            "code": "M-T1216"
+          },
+          {
+            "code": "M-T1217"
+          },
+          {
+            "code": "M-T1218"
+          },
+          {
+            "code": "M-T1219"
+          },
+          {
+            "code": "M-T1220"
+          },
+          {
+            "code": "M-T1221"
+          },
+          {
+            "code": "M-T1275"
+          },
+          {
+            "code": "M-T1276"
+          },
+          {
+            "code": "M-T1277"
+          },
+          {
+            "code": "M-T1278"
+          },
+          {
+            "code": "M-T1279"
+          },
+          {
+            "code": "M-T1280"
+          },
+          {
+            "code": "M-T1281"
+          },
+          {
+            "code": "M-T1282"
+          },
+          {
+            "code": "M-T1226"
+          },
+          {
+            "code": "M-T1231"
+          },
+          {
+            "code": "M-T1232"
+          },
+          {
+            "code": "M-T1233"
+          },
+          {
+            "code": "M-T1283"
+          },
+          {
+            "code": "M-T1284"
+          },
+          {
+            "code": "M-T1285"
+          },
+          {
+            "code": "M-T1236"
+          },
+          {
+            "code": "M-T1286"
+          },
+          {
+            "code": "M-T1287"
+          },
+          {
+            "code": "M-T1288"
+          },
+          {
+            "code": "M-T1289"
+          },
+          {
+            "code": "M-T1290"
+          },
+          {
+            "code": "M-T1291"
+          },
+          {
+            "code": "M-T1292"
+          },
+          {
+            "code": "M-T1293"
+          },
+          {
+            "code": "M-T1294"
+          },
+          {
+            "code": "M-T1245"
+          },
+          {
+            "code": "M-T1246"
+          },
+          {
+            "code": "M-T1295"
+          },
+          {
+            "code": "M-T1296"
+          },
+          {
+            "code": "M-T1297"
+          },
+          {
+            "code": "M-T1249"
+          },
+          {
+            "code": "M-T1298"
+          },
+          {
+            "code": "M-T1299"
+          },
+          {
+            "code": "M-T1300"
+          },
+          {
+            "code": "M-T1250"
+          },
+          {
+            "code": "M-T1251"
+          },
+          {
+            "code": "M-T1252"
+          },
+          {
+            "code": "M-T1301"
+          },
+          {
+            "code": "M-T1254"
+          },
+          {
+            "code": "M-T1255"
+          },
+          {
+            "code": "M-T1256"
+          },
+          {
+            "code": "M-T1257"
+          },
+          {
+            "code": "M-T1261"
+          },
+          {
+            "code": "M-T1262"
+          }
+        ]
+      }
+    ]
+  }
+}

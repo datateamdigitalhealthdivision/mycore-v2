@@ -1,0 +1,49 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-h-p188-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-h-p188-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelHP188MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Bone Marrow Aspiration",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel H-P188 (Bone Marrow Aspiration). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "H-T934"
+          },
+          {
+            "code": "H-T935"
+          },
+          {
+            "code": "H-T936"
+          },
+          {
+            "code": "H-T937"
+          },
+          {
+            "code": "H-T938"
+          },
+          {
+            "code": "H-T939"
+          },
+          {
+            "code": "H-T940"
+          },
+          {
+            "code": "H-T941"
+          },
+          {
+            "code": "H-T942"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-a-p5-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-a-p5-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelAP5MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Renal Biopsy for HPE and IF",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel A-P5 (Renal Biopsy for HPE and IF). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "A-T191"
+          },
+          {
+            "code": "A-T17"
+          },
+          {
+            "code": "A-T18"
+          },
+          {
+            "code": "A-T44"
+          },
+          {
+            "code": "A-T45"
+          },
+          {
+            "code": "A-T46"
+          },
+          {
+            "code": "A-T47"
+          },
+          {
+            "code": "A-T48"
+          },
+          {
+            "code": "A-T49"
+          },
+          {
+            "code": "A-T144"
+          },
+          {
+            "code": "A-T145"
+          },
+          {
+            "code": "A-T201"
+          },
+          {
+            "code": "A-T202"
+          },
+          {
+            "code": "A-T205"
+          },
+          {
+            "code": "A-T206"
+          },
+          {
+            "code": "A-T208"
+          },
+          {
+            "code": "A-T210"
+          },
+          {
+            "code": "A-T214"
+          },
+          {
+            "code": "A-T215"
+          },
+          {
+            "code": "A-T221"
+          },
+          {
+            "code": "A-T222"
+          },
+          {
+            "code": "A-T289"
+          },
+          {
+            "code": "A-T274"
+          },
+          {
+            "code": "A-T245"
+          },
+          {
+            "code": "A-T283"
+          },
+          {
+            "code": "A-T123"
+          },
+          {
+            "code": "A-T50"
+          },
+          {
+            "code": "A-T275"
+          },
+          {
+            "code": "A-T366"
+          }
+        ]
+      }
+    ]
+  }
+}

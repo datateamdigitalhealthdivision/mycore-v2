@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "Observation-dental-alert-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Observation-dental-alert-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Observation-dental-alert-my-core",
   "version": "2.0.0",
   "name": "ObservationDentalAlertMyCore",
   "status": "active",
@@ -28,7 +28,7 @@
         "binding": {
           "strength": "example",
           "description": "Dental Alert Type",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/dental-alert-code-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/dental-alert-code-my-core"
         }
       },
       {
@@ -101,13 +101,13 @@
         "binding": {
           "strength": "required",
           "description": "Dental History",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/dental-history-alert-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/dental-history-alert-my-core"
         }
       },
       {
         "id": "Observation.value[x].coding:dentalHistory.system",
         "path": "Observation.value[x].coding.system",
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/dental-history-alert-my-core"
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/dental-history-alert-my-core"
       }
     ]
   },

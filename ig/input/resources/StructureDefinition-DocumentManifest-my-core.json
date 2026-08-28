@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "DocumentManifest-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/DocumentManifest-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/DocumentManifest-my-core",
   "name": "DocumentManifestMyCore",
   "title": "DocumentManifest (MY Core)",
   "status": "active",
@@ -20,7 +20,7 @@
         "min": 1,
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/sub-record-type-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/sub-record-type-my-core"
         }
       }
     ]

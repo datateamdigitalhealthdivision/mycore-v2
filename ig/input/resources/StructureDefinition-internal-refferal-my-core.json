@@ -11,7 +11,7 @@
       "valueInteger": 1
     }
   ],
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/internal-refferal-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/internal-refferal-my-core",
   "version": "2.0.0",
   "name": "ExtensionInternalReferralMyCore",
   "title": "ExtensionInternalReferral (MY Core)",
@@ -34,7 +34,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/internal-refferal-my-core"
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/internal-refferal-my-core"
       },
       {
         "id": "Extension.value[x]",

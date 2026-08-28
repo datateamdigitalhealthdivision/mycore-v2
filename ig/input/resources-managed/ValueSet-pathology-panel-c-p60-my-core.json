@@ -1,0 +1,64 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-c-p60-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-c-p60-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelCP60MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Opiates (Medicolegal)",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel C-P60 (Opiates (Medicolegal)). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "C-T627"
+          },
+          {
+            "code": "C-T628"
+          },
+          {
+            "code": "C-T629"
+          },
+          {
+            "code": "C-T632"
+          },
+          {
+            "code": "C-T633"
+          },
+          {
+            "code": "C-T634"
+          },
+          {
+            "code": "C-T635"
+          },
+          {
+            "code": "C-T636"
+          },
+          {
+            "code": "C-T637"
+          },
+          {
+            "code": "C-T638"
+          },
+          {
+            "code": "C-T641"
+          },
+          {
+            "code": "C-T642"
+          },
+          {
+            "code": "C-T643"
+          },
+          {
+            "code": "C-T644"
+          }
+        ]
+      }
+    ]
+  }
+}

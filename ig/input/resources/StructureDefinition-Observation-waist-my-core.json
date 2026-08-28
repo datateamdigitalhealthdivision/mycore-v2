@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "Observation-waist-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Observation-waist-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Observation-waist-my-core",
   "version": "2.0.0",
   "name": "ObservationWaistMyCore",
   "title": "ObservationWaist (MY Core)",
@@ -1009,7 +1009,7 @@
           ],
           "strength": "example",
           "description": "Codes identifying names of simple observations.",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/observation-anthropometry-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/observation-anthropometry-my-core"
         },
         "mapping": [
           {
@@ -4576,7 +4576,7 @@
         "path": "Observation.code",
         "binding": {
           "strength": "example",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/observation-anthropometry-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/observation-anthropometry-my-core"
         }
       },
       {

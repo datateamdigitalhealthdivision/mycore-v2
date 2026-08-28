@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "List-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/List-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/List-my-core",
   "name": "ListMyCore",
   "title": "List (MY Core)",
   "status": "active",
@@ -496,7 +496,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/list-operation-status-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/list-operation-status-my-core"
             ]
           }
         ],
@@ -565,7 +565,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/list-period-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/list-period-my-core"
             ]
           }
         ],
@@ -969,7 +969,7 @@
           ],
           "strength": "required",
           "description": "What the purpose of a list is.",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/sub-record-type-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/sub-record-type-my-core"
         },
         "mapping": [
           {
@@ -1963,7 +1963,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/list-operation-status-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/list-operation-status-my-core"
             ]
           }
         ],
@@ -1978,7 +1978,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/list-period-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/list-period-my-core"
             ]
           }
         ],
@@ -1989,7 +1989,7 @@
         "path": "List.code",
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/sub-record-type-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/sub-record-type-my-core"
         }
       },
       {

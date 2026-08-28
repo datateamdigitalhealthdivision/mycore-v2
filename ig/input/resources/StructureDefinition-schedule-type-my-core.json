@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "schedule-type-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/schedule-type-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/schedule-type-my-core",
   "name": "ExtensionScheduleTypeMyCore",
   "status": "active",
   "date": "2023-03-31T00:47:28.8476721+00:00",
@@ -208,7 +208,7 @@
             "code": "http://hl7.org/fhirpath/System.String"
           }
         ],
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/schedule-type-my-core",
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/schedule-type-my-core",
         "mapping": [
           {
             "identity": "rim",
@@ -249,7 +249,7 @@
         "binding": {
           "strength": "required",
           "description": "Schedule type for booking",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/schedule-type-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/schedule-type-my-core"
         },
         "mapping": [
           {
@@ -277,7 +277,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/schedule-type-my-core"
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/schedule-type-my-core"
       },
       {
         "id": "Extension.value[x]",
@@ -292,7 +292,7 @@
         "binding": {
           "strength": "required",
           "description": "Schedule type for booking",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/schedule-type-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/schedule-type-my-core"
         }
       }
     ]

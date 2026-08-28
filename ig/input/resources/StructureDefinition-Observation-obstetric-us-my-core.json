@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "Observation-obstetric-us-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Observation-obstetric-us-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Observation-obstetric-us-my-core",
   "version": "2.0.0",
   "name": "ObservationObstetricUsMyCore",
   "title": "ObservationObstetricUs (MY Core)",
@@ -4659,7 +4659,7 @@
           ],
           "strength": "required",
           "description": "Obstetric Ultrasound LOINC codes",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/observation-obstetric-us-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/observation-obstetric-us-my-core"
         },
         "mapping": [
           {
@@ -4990,7 +4990,7 @@
         "binding": {
           "strength": "required",
           "description": "Obstetric Ultrasound LOINC codes",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/observation-obstetric-us-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/observation-obstetric-us-my-core"
         }
       },
       {

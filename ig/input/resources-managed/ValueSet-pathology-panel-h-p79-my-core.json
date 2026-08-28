@@ -1,0 +1,34 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-h-p79-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-h-p79-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelHP79MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Haemophilia A Genetic Testing",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel H-P79 (Haemophilia A Genetic Testing). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "H-T717"
+          },
+          {
+            "code": "H-T718"
+          },
+          {
+            "code": "H-T1059"
+          },
+          {
+            "code": "H-T1060"
+          }
+        ]
+      }
+    ]
+  }
+}

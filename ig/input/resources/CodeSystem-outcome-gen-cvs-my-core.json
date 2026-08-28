@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id": "outcome-gen-cvs-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/outcome-gen-cvs-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/outcome-gen-cvs-my-core",
   "name": "CodeSystemOutcomeGenCvsMyCore",
   "title": "CodeSystemOutcomeGenCvs (MY Core)",
   "status": "active",

@@ -3,9 +3,9 @@
   "id": "composition-event-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemCompositionEvent (MYCore)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/composition-event-my-core</tt><p>The specific clinical service or event being documented</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemCompositionEvent (MYCore)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/composition-event-my-core</tt><p>The specific clinical service or event being documented</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/composition-event-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/composition-event-my-core",
   "identifier": [
     {
       "value": "code-system-composition-event-my-core"

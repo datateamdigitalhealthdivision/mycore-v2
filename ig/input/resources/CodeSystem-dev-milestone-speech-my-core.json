@@ -3,9 +3,9 @@
   "id": "dev-milestone-speech-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemDevmilestoneSpeech (mY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/dev-milestone-speech-my-core</tt><p>Developmental milestone Speech motor</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemDevmilestoneSpeech (mY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/dev-milestone-speech-my-core</tt><p>Developmental milestone Speech motor</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/dev-milestone-speech-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/dev-milestone-speech-my-core",
   "name": "CodeSystemDevmilestoneSpeechmyCore",
   "title": "CodeSystemDevMilestoneSpeech (MY Core)",
   "status": "active",

@@ -1,0 +1,166 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-m-p46-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-m-p46-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelMP46MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Anti - Gangliosides Ab",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel M-P46 (Anti - Gangliosides Ab). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "M-T1118"
+          },
+          {
+            "code": "M-T1119"
+          },
+          {
+            "code": "M-T1120"
+          },
+          {
+            "code": "M-T1121"
+          },
+          {
+            "code": "M-T1122"
+          },
+          {
+            "code": "M-T1123"
+          },
+          {
+            "code": "M-T1124"
+          },
+          {
+            "code": "M-T1125"
+          },
+          {
+            "code": "M-T1126"
+          },
+          {
+            "code": "M-T1127"
+          },
+          {
+            "code": "M-T1128"
+          },
+          {
+            "code": "M-T1129"
+          },
+          {
+            "code": "M-T1130"
+          },
+          {
+            "code": "M-T1131"
+          },
+          {
+            "code": "M-T1132"
+          },
+          {
+            "code": "M-T1133"
+          },
+          {
+            "code": "M-T1134"
+          },
+          {
+            "code": "M-T1135"
+          },
+          {
+            "code": "M-T1136"
+          },
+          {
+            "code": "M-T1137"
+          },
+          {
+            "code": "M-T1138"
+          },
+          {
+            "code": "M-T1139"
+          },
+          {
+            "code": "M-T1140"
+          },
+          {
+            "code": "M-T1141"
+          },
+          {
+            "code": "M-T1142"
+          },
+          {
+            "code": "M-T1143"
+          },
+          {
+            "code": "M-T1144"
+          },
+          {
+            "code": "M-T1145"
+          },
+          {
+            "code": "M-T1146"
+          },
+          {
+            "code": "M-T1147"
+          },
+          {
+            "code": "M-T1148"
+          },
+          {
+            "code": "M-T1149"
+          },
+          {
+            "code": "M-T1150"
+          },
+          {
+            "code": "M-T1151"
+          },
+          {
+            "code": "M-T1152"
+          },
+          {
+            "code": "M-T1153"
+          },
+          {
+            "code": "M-T1154"
+          },
+          {
+            "code": "M-T1155"
+          },
+          {
+            "code": "M-T1156"
+          },
+          {
+            "code": "M-T1157"
+          },
+          {
+            "code": "M-T1158"
+          },
+          {
+            "code": "M-T1159"
+          },
+          {
+            "code": "M-T1160"
+          },
+          {
+            "code": "M-T1161"
+          },
+          {
+            "code": "M-T1162"
+          },
+          {
+            "code": "M-T1163"
+          },
+          {
+            "code": "M-T1165"
+          },
+          {
+            "code": "M-T1166"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "Task-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Task-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Task-my-core",
   "version": "2.0.0",
   "name": "TaskMyCore",
   "title": "Task (MY Core)",
@@ -1101,7 +1101,7 @@
           ],
           "strength": "required",
           "description": "The domain-specific business-contextual sub-state of the task.  For example: \"Blood drawn\", \"IV inserted\", \"Awaiting physician signature\", etc.",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/task-business-status-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/task-business-status-my-core"
         },
         "mapping": [
           {
@@ -1923,7 +1923,7 @@
           ],
           "strength": "required",
           "description": "The type(s) of task performers allowed.",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/schedule-type-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/schedule-type-my-core"
         },
         "mapping": [
           {
@@ -3197,7 +3197,7 @@
           ],
           "strength": "required",
           "description": "Codes to identify types of input parameters.  These will typically be specific to a particular workflow.  E.g. \"Comparison source\", \"Applicable consent\", \"Concomitent Medications\", etc.",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/task-input-type-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/task-input-type-my-core"
         },
         "mapping": [
           {
@@ -3692,7 +3692,7 @@
           ],
           "strength": "required",
           "description": "Codes to identify types of input parameters.  These will typically be specific to a particular workflow.  E.g. \"Identified issues\", \"Preliminary results\", \"Filler order\", \"Final results\", etc.",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/task-output-type-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/task-output-type-my-core"
         },
         "mapping": [
           {
@@ -3921,7 +3921,7 @@
         "min": 1,
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/task-business-status-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/task-business-status-my-core"
         }
       },
       {
@@ -3929,7 +3929,7 @@
         "path": "Task.performerType",
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/schedule-type-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/schedule-type-my-core"
         }
       },
       {
@@ -3937,7 +3937,7 @@
         "path": "Task.input.type",
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/task-input-type-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/task-input-type-my-core"
         }
       },
       {
@@ -3945,7 +3945,7 @@
         "path": "Task.output.type",
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/task-output-type-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/task-output-type-my-core"
         }
       }
     ]

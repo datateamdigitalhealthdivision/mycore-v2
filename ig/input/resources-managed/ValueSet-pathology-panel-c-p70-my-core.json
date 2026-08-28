@@ -1,0 +1,88 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-c-p70-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-c-p70-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelCP70MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Arterial Blood Gas (Full)",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel C-P70 (Arterial Blood Gas (Full)). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "C-T648"
+          },
+          {
+            "code": "C-T667"
+          },
+          {
+            "code": "C-T668"
+          },
+          {
+            "code": "C-T669"
+          },
+          {
+            "code": "C-T670"
+          },
+          {
+            "code": "C-T671"
+          },
+          {
+            "code": "C-T708"
+          },
+          {
+            "code": "C-T711"
+          },
+          {
+            "code": "C-T717"
+          },
+          {
+            "code": "C-T714"
+          },
+          {
+            "code": "C-T718"
+          },
+          {
+            "code": "C-T721"
+          },
+          {
+            "code": "C-T724"
+          },
+          {
+            "code": "C-T733"
+          },
+          {
+            "code": "C-T729"
+          },
+          {
+            "code": "C-T672"
+          },
+          {
+            "code": "C-T673"
+          },
+          {
+            "code": "C-T674"
+          },
+          {
+            "code": "C-T675"
+          },
+          {
+            "code": "C-T676"
+          },
+          {
+            "code": "C-T792"
+          },
+          {
+            "code": "C-T795"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "Immunization-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Immunization-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Immunization-my-core",
   "version": "2.0.0",
   "name": "ImmunizationMyCore",
   "title": "Immunization (MY Core)",
@@ -792,7 +792,7 @@
           ],
           "strength": "preferred",
           "description": "The code for vaccine product administered.",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/vaccine-code-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/vaccine-code-my-core"
         },
         "mapping": [
           {
@@ -3637,7 +3637,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/extension-booster-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/extension-booster-my-core"
             ]
           }
         ],
@@ -4046,7 +4046,7 @@
         "path": "Immunization.vaccineCode",
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/vaccine-code-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/vaccine-code-my-core"
         }
       },
       {
@@ -4058,7 +4058,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/extension-booster-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/extension-booster-my-core"
             ]
           }
         ],

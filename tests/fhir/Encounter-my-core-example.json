@@ -3,7 +3,7 @@
     "id":  "my-core-encounter-example",
     "meta":  {
                  "profile":  [
-                                 "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Encounter-my-core"
+                                 "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Encounter-my-core"
                              ]
              },
     "identifier":  [
@@ -22,7 +22,7 @@
                  {
                      "coding":  [
                                     {
-                                        "system":  "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/specialty-my-core",
+                                        "system":  "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/specialty-my-core",
                                         "code":  "124",
                                         "display":  "General Radiology"
                                     }
@@ -33,7 +33,7 @@
     "serviceType":  {
                         "coding":  [
                                        {
-                                           "system":  "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/service-type-my-core",
+                                           "system":  "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/service-type-my-core",
                                            "code":  "03",
                                            "display":  "Outpatient"
                                        }

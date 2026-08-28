@@ -1,0 +1,40 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-c-p27-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-c-p27-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelCP27MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Mucopolysaccharides (MPS) Screening Urine Panel",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel C-P27 (Mucopolysaccharides (MPS) Screening Urine Panel). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "C-T385"
+          },
+          {
+            "code": "C-T386"
+          },
+          {
+            "code": "C-T387"
+          },
+          {
+            "code": "C-T388"
+          },
+          {
+            "code": "C-T389"
+          },
+          {
+            "code": "C-T390"
+          }
+        ]
+      }
+    ]
+  }
+}

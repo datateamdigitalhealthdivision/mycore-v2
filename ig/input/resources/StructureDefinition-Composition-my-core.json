@@ -5,7 +5,7 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Enter you narrative here</div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Composition-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Composition-my-core",
   "version": "2.0.0",
   "name": "CompositionMyCore",
   "title": "Composition (MY Core)",
@@ -44,7 +44,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/location-recorded-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/location-recorded-my-core"
             ]
           }
         ],
@@ -55,7 +55,7 @@
         "path": "Composition.type",
         "binding": {
           "strength": "extensible",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/composition-type-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/composition-type-my-core"
         }
       },
       {
@@ -79,13 +79,13 @@
         "max": "1",
         "binding": {
           "strength": "example",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/composition-category-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/composition-category-my-core"
         }
       },
       {
         "id": "Composition.category:category.coding.system",
         "path": "Composition.category.coding.system",
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/composition-category-my-core"
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/composition-category-my-core"
       },
       {
         "id": "Composition.category:class",
@@ -94,13 +94,13 @@
         "max": "1",
         "binding": {
           "strength": "example",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/composition-class-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/composition-class-my-core"
         }
       },
       {
         "id": "Composition.category:class.coding.system",
         "path": "Composition.category.coding.system",
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/composition-class-my-core"
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/composition-class-my-core"
       },
       {
         "id": "Composition.subject",
@@ -138,7 +138,7 @@
         "path": "Composition.event.code",
         "binding": {
           "strength": "extensible",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/composition-event-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/composition-event-my-core"
         }
       },
       {
@@ -170,7 +170,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/composition-section-date-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/composition-section-date-my-core"
             ]
           }
         ],
@@ -182,7 +182,7 @@
         "min": 1,
         "binding": {
           "strength": "example",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/composition-section-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/composition-section-my-core"
         }
       }
     ]

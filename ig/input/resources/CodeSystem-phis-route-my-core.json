@@ -3,9 +3,9 @@
   "id": "phis-route-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemPhisRoute (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/phis-route-my-core</tt><p>Phis Route</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemPhisRoute (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/phis-route-my-core</tt><p>Phis Route</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/phis-route-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/phis-route-my-core",
   "version": "2.0.0",
   "name": "CodeSystemPhisRouteMyCore",
   "title": "CodeSystemPhisRoute (MY Core)",

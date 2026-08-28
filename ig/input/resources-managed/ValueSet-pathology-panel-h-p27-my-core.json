@@ -1,0 +1,127 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-h-p27-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-h-p27-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelHP27MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Leukemia Translocation Study",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel H-P27 (Leukemia Translocation Study). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "H-T288"
+          },
+          {
+            "code": "H-T289"
+          },
+          {
+            "code": "H-T290"
+          },
+          {
+            "code": "H-T291"
+          },
+          {
+            "code": "H-T292"
+          },
+          {
+            "code": "H-T293"
+          },
+          {
+            "code": "H-T294"
+          },
+          {
+            "code": "H-T295"
+          },
+          {
+            "code": "H-T296"
+          },
+          {
+            "code": "H-T297"
+          },
+          {
+            "code": "H-T298"
+          },
+          {
+            "code": "H-T299"
+          },
+          {
+            "code": "H-T300"
+          },
+          {
+            "code": "H-T301"
+          },
+          {
+            "code": "H-T302"
+          },
+          {
+            "code": "H-T303"
+          },
+          {
+            "code": "H-T304"
+          },
+          {
+            "code": "H-T305"
+          },
+          {
+            "code": "H-T306"
+          },
+          {
+            "code": "H-T307"
+          },
+          {
+            "code": "H-T308"
+          },
+          {
+            "code": "H-T309"
+          },
+          {
+            "code": "H-T310"
+          },
+          {
+            "code": "H-T311"
+          },
+          {
+            "code": "H-T322"
+          },
+          {
+            "code": "H-T323"
+          },
+          {
+            "code": "H-T324"
+          },
+          {
+            "code": "H-T325"
+          },
+          {
+            "code": "H-T314"
+          },
+          {
+            "code": "H-T315"
+          },
+          {
+            "code": "H-T318"
+          },
+          {
+            "code": "H-T319"
+          },
+          {
+            "code": "H-T320"
+          },
+          {
+            "code": "H-T321"
+          },
+          {
+            "code": "H-T326"
+          }
+        ]
+      }
+    ]
+  }
+}

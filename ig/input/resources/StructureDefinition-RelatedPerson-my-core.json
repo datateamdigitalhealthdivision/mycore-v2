@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "RelatedPerson-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/RelatedPerson-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/RelatedPerson-my-core",
   "version": "2.0.0",
   "name": "RelatedPersonMyCore",
   "title": "RelatedPerson (MY Core)",
@@ -122,7 +122,7 @@
             }
           ],
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/relationship-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/relationship-my-core"
         }
       },
       {
@@ -140,7 +140,7 @@
             }
           ],
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/administrative-gender-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/administrative-gender-my-core"
         }
       }
     ]

@@ -1,0 +1,43 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-h-p26-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-h-p26-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelHP26MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Coagulation Factor VII Activity",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel H-P26 (Coagulation Factor VII Activity). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "H-T150"
+          },
+          {
+            "code": "H-T151"
+          },
+          {
+            "code": "H-T4"
+          },
+          {
+            "code": "H-T93"
+          },
+          {
+            "code": "H-T847"
+          },
+          {
+            "code": "H-T830"
+          },
+          {
+            "code": "H-T414"
+          }
+        ]
+      }
+    ]
+  }
+}

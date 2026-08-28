@@ -1,0 +1,40 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-c-p76-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-c-p76-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelCP76MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Venous Cord Blood Gas",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel C-P76 (Venous Cord Blood Gas). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "C-T651"
+          },
+          {
+            "code": "C-T703"
+          },
+          {
+            "code": "C-T704"
+          },
+          {
+            "code": "C-T705"
+          },
+          {
+            "code": "C-T706"
+          },
+          {
+            "code": "C-T707"
+          }
+        ]
+      }
+    ]
+  }
+}

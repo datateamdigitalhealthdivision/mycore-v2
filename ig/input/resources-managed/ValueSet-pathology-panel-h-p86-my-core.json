@@ -1,0 +1,31 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-h-p86-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-h-p86-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelHP86MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Enzyme Assay Panel",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel H-P86 (Enzyme Assay Panel). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "H-T135"
+          },
+          {
+            "code": "H-T787"
+          },
+          {
+            "code": "H-T788"
+          }
+        ]
+      }
+    ]
+  }
+}

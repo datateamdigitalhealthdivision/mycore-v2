@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "AllergyIntolerance-negation-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/AllergyIntolerance-negation-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/AllergyIntolerance-negation-my-core",
   "version": "2.0.0",
   "name": "AllergyIntoleranceNegationMyCore",
   "title": "AllergyIntoleranceNegation (MY Core)",
@@ -49,7 +49,7 @@
           ],
           "strength": "required",
           "description": "Negation Statement",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/allergy-negation-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/allergy-negation-my-core"
         }
       },
       {
@@ -68,7 +68,7 @@
             }
           ],
           "strength": "example",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/drug-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/drug-my-core"
         }
       }
     ]

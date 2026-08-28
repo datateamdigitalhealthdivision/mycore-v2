@@ -3,9 +3,9 @@
   "id": "allergy-manifestation-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>value-set-allergy-manifestation-my-core</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/allergy-manifestation-my-core</tt><p>Encounter priority value set</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>value-set-allergy-manifestation-my-core</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/allergy-manifestation-my-core</tt><p>Encounter priority value set</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/allergy-manifestation-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/allergy-manifestation-my-core",
   "name": "ValueSetAllergyManifestationMyCore",
   "title": "value-set-allergy-manifestation-my-core",
   "status": "active",

@@ -1,0 +1,52 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-m-p99-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-m-p99-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelMP99MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Vibrio spp. AST panel",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel M-P99 (Vibrio spp. AST panel). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "M-T1011"
+          },
+          {
+            "code": "M-T985"
+          },
+          {
+            "code": "M-T1017"
+          },
+          {
+            "code": "M-T992"
+          },
+          {
+            "code": "M-T938"
+          },
+          {
+            "code": "M-T1007"
+          },
+          {
+            "code": "M-T1053"
+          },
+          {
+            "code": "M-T996"
+          },
+          {
+            "code": "M-T1512"
+          },
+          {
+            "code": "M-T1513"
+          }
+        ]
+      }
+    ]
+  }
+}

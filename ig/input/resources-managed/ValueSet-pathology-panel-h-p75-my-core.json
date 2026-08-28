@@ -1,0 +1,175 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-h-p75-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-h-p75-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelHP75MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Molecular Test for Beta Globin Gene/Cluster",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel H-P75 (Molecular Test for Beta Globin Gene/Cluster). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "H-T720"
+          },
+          {
+            "code": "H-T721"
+          },
+          {
+            "code": "H-T722"
+          },
+          {
+            "code": "H-T723"
+          },
+          {
+            "code": "H-T724"
+          },
+          {
+            "code": "H-T725"
+          },
+          {
+            "code": "H-T726"
+          },
+          {
+            "code": "H-T727"
+          },
+          {
+            "code": "H-T728"
+          },
+          {
+            "code": "H-T759"
+          },
+          {
+            "code": "H-T760"
+          },
+          {
+            "code": "H-T730"
+          },
+          {
+            "code": "H-T761"
+          },
+          {
+            "code": "H-T762"
+          },
+          {
+            "code": "H-T733"
+          },
+          {
+            "code": "H-T765"
+          },
+          {
+            "code": "H-T736"
+          },
+          {
+            "code": "H-T766"
+          },
+          {
+            "code": "H-T738"
+          },
+          {
+            "code": "H-T739"
+          },
+          {
+            "code": "H-T740"
+          },
+          {
+            "code": "H-T741"
+          },
+          {
+            "code": "H-T742"
+          },
+          {
+            "code": "H-T743"
+          },
+          {
+            "code": "H-T744"
+          },
+          {
+            "code": "H-T745"
+          },
+          {
+            "code": "H-T746"
+          },
+          {
+            "code": "H-T747"
+          },
+          {
+            "code": "H-T748"
+          },
+          {
+            "code": "H-T749"
+          },
+          {
+            "code": "H-T750"
+          },
+          {
+            "code": "H-T751"
+          },
+          {
+            "code": "H-T752"
+          },
+          {
+            "code": "H-T753"
+          },
+          {
+            "code": "H-T754"
+          },
+          {
+            "code": "H-T755"
+          },
+          {
+            "code": "H-T756"
+          },
+          {
+            "code": "H-T757"
+          },
+          {
+            "code": "H-T758"
+          },
+          {
+            "code": "H-T812"
+          },
+          {
+            "code": "H-T813"
+          },
+          {
+            "code": "H-T814"
+          },
+          {
+            "code": "H-T815"
+          },
+          {
+            "code": "H-T822"
+          },
+          {
+            "code": "H-T823"
+          },
+          {
+            "code": "H-T824"
+          },
+          {
+            "code": "H-T825"
+          },
+          {
+            "code": "H-T826"
+          },
+          {
+            "code": "H-T827"
+          },
+          {
+            "code": "H-T856"
+          },
+          {
+            "code": "H-T857"
+          }
+        ]
+      }
+    ]
+  }
+}

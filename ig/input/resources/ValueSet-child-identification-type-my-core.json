@@ -3,9 +3,9 @@
   "id": "child-identification-type-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetChildIdentificationType (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/child-identification-type-my-core</tt><p>Child identification type</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetChildIdentificationType (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/child-identification-type-my-core</tt><p>Child identification type</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/child-identification-type-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/child-identification-type-my-core",
   "name": "ValueSetChildIdentificationTypeMyCore",
   "title": "ValueSetChildIdentificationType (MY Core)",
   "status": "active",

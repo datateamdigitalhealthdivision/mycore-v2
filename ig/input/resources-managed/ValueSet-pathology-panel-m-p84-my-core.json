@@ -1,0 +1,94 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-m-p84-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-m-p84-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelMP84MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Gastrointestinal Rapid Multiplex Molecular",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel M-P84 (Gastrointestinal Rapid Multiplex Molecular). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "M-T1451"
+          },
+          {
+            "code": "M-T1452"
+          },
+          {
+            "code": "M-T1453"
+          },
+          {
+            "code": "M-T1471"
+          },
+          {
+            "code": "M-T1472"
+          },
+          {
+            "code": "M-T1473"
+          },
+          {
+            "code": "M-T1474"
+          },
+          {
+            "code": "M-T1475"
+          },
+          {
+            "code": "M-T1476"
+          },
+          {
+            "code": "M-T1477"
+          },
+          {
+            "code": "M-T1478"
+          },
+          {
+            "code": "M-T1479"
+          },
+          {
+            "code": "M-T1480"
+          },
+          {
+            "code": "M-T1481"
+          },
+          {
+            "code": "M-T1482"
+          },
+          {
+            "code": "M-T1483"
+          },
+          {
+            "code": "M-T1487"
+          },
+          {
+            "code": "M-T1491"
+          },
+          {
+            "code": "M-T1492"
+          },
+          {
+            "code": "M-T1489"
+          },
+          {
+            "code": "M-T1490"
+          },
+          {
+            "code": "M-T1493"
+          },
+          {
+            "code": "M-T1494"
+          },
+          {
+            "code": "M-T1495"
+          }
+        ]
+      }
+    ]
+  }
+}

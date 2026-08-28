@@ -3,9 +3,9 @@
   "id": "organization-type-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemOrganizationType (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/organization-type-my-core</tt><p>type of Health Care organization Malaysia</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemOrganizationType (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/organization-type-my-core</tt><p>type of Health Care organization Malaysia</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/organization-type-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/organization-type-my-core",
   "version": "2.0.0",
   "name": "CodeSystemOrganizationTypeMyCore",
   "title": "CodeSystemOrganizationType (MY Core)",
@@ -21,7 +21,7 @@
     }
   ],
   "description": "Type of Health Care organization Malaysia",
-  "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/organization-type-my-core",
+  "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/organization-type-my-core",
   "compositional": false,
   "content": "complete",
   "count": 5,

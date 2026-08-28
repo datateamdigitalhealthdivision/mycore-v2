@@ -3,16 +3,16 @@
   "id": "audiology-cochlear-implant-assessment-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemAudiologyCochlearImplantAssessment(MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/audiology-cochlear-implant-assessment-my-core</tt><p>Audiology Cochlear Implant Assessment</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemAudiologyCochlearImplantAssessment(MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/audiology-cochlear-implant-assessment-my-core</tt><p>Audiology Cochlear Implant Assessment</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/audiology-cochlear-implant-assessment-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/audiology-cochlear-implant-assessment-my-core",
   "name": "CodeSystemAudiologyCochlearImplantAssessmentMyCore",
   "title": "CodeSystemAudiologyCochlearImplantAssessment(MY Core)",
   "status": "active",
   "date": "2023-07-25T00:23:50.1094378+00:00",
   "publisher": "Malaysia MOH - HIE Steering Committee",
   "description": "Audiology Cochlear Implant Assessment",
-  "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/audiology-cochlear-implant-assessment-my-core",
+  "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/audiology-cochlear-implant-assessment-my-core",
   "compositional": false,
   "content": "complete",
   "count": 24,

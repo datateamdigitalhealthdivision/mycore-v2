@@ -1,0 +1,1342 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "smrp-workload-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/smrp-workload-my-core",
+  "version": "1.0.0",
+  "name": "SmrpWorkloadMyCore",
+  "title": "Malaysian Pathology Catalogue - SMRP Workload Categories",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "SMRP workload/costing classification codes used by Malaysian pathology services. A workload classification, not a test identifier.",
+  "caseSensitive": true,
+  "content": "complete",
+  "copyright": "Ministry of Health Malaysia.",
+  "property": [
+    {
+      "code": "category",
+      "description": "Workload category",
+      "type": "string"
+    },
+    {
+      "code": "subcategory-1",
+      "description": "Workload subcategory 1",
+      "type": "string"
+    },
+    {
+      "code": "subcategory-2",
+      "description": "Workload subcategory 2",
+      "type": "string"
+    }
+  ],
+  "concept": [
+    {
+      "code": "WL2",
+      "display": "Anatomic Pathology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Anatomic Pathology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Histopathology"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Specialized Test"
+        }
+      ]
+    },
+    {
+      "code": "WL5",
+      "display": "Anatomic Pathology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Anatomic Pathology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Histopathology"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Intraoperative Frozen Section"
+        }
+      ]
+    },
+    {
+      "code": "WL8",
+      "display": "Anatomic Pathology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Anatomic Pathology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Cytology"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Gynaecology Cytology"
+        }
+      ]
+    },
+    {
+      "code": "WL10",
+      "display": "Anatomic Pathology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Anatomic Pathology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Cytology"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Fine Needle Aspiration Cytology"
+        }
+      ]
+    },
+    {
+      "code": "WL11",
+      "display": "Anatomic Pathology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Anatomic Pathology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Cytology"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Seminal Fluid Analysis"
+        }
+      ]
+    },
+    {
+      "code": "WL13",
+      "display": "Chemical Pathology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "General Biochemistry"
+        }
+      ]
+    },
+    {
+      "code": "WL14",
+      "display": "Chemical Pathology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Endocrine and Metabolic"
+        }
+      ]
+    },
+    {
+      "code": "WL15",
+      "display": "Chemical Pathology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Drug of Abuse (DOA)"
+        }
+      ]
+    },
+    {
+      "code": "WL16",
+      "display": "Chemical Pathology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Protein and Proteomics"
+        }
+      ]
+    },
+    {
+      "code": "WL17",
+      "display": "Chemical Pathology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Tumor Markers"
+        }
+      ]
+    },
+    {
+      "code": "WL18",
+      "display": "Chemical Pathology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Therapeutic Drug Monitoring (TDM)"
+        }
+      ]
+    },
+    {
+      "code": "WL19",
+      "display": "Chemical Pathology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Clinical Toxicology"
+        }
+      ]
+    },
+    {
+      "code": "WL20",
+      "display": "Chemical Pathology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Trace Elements"
+        }
+      ]
+    },
+    {
+      "code": "WL21",
+      "display": "Chemical Pathology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Biochemical Genetic Testing"
+        }
+      ]
+    },
+    {
+      "code": "WL22",
+      "display": "Microbiology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Virology"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Viral Isolation"
+        }
+      ]
+    },
+    {
+      "code": "WL23",
+      "display": "Microbiology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Virology"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Microscopy"
+        }
+      ]
+    },
+    {
+      "code": "WL24",
+      "display": "Microbiology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Virology"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Antigen Detection"
+        }
+      ]
+    },
+    {
+      "code": "WL25",
+      "display": "Microbiology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Virology"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Serology"
+        }
+      ]
+    },
+    {
+      "code": "WL26",
+      "display": "Microbiology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Virology"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Molecular"
+        }
+      ]
+    },
+    {
+      "code": "WL27",
+      "display": "Microbiology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Immunology"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Autoimmunity"
+        }
+      ]
+    },
+    {
+      "code": "WL28",
+      "display": "Microbiology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Immunology"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Allergic"
+        }
+      ]
+    },
+    {
+      "code": "WL29",
+      "display": "Microbiology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Immunology"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Transplantation Immunology"
+        }
+      ]
+    },
+    {
+      "code": "WL30",
+      "display": "Microbiology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Immunology"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Immunodeficiency"
+        }
+      ]
+    },
+    {
+      "code": "WL31",
+      "display": "Microbiology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Mycology"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Culture and Sensitivity"
+        }
+      ]
+    },
+    {
+      "code": "WL32",
+      "display": "Microbiology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Parasitology"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Culture"
+        }
+      ]
+    },
+    {
+      "code": "WL33",
+      "display": "Microbiology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Bacteriology"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Sterility Testing"
+        }
+      ]
+    },
+    {
+      "code": "WL34",
+      "display": "Microbiology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Bacteriology"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Serotyping"
+        }
+      ]
+    },
+    {
+      "code": "WL35",
+      "display": "Microbiology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Bacteriology"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Detection of Resistance Gene"
+        }
+      ]
+    },
+    {
+      "code": "WL36",
+      "display": "Microbiology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Bacteriology"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Cell Count"
+        }
+      ]
+    },
+    {
+      "code": "WL40",
+      "display": "Microbiology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Bacteriology"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Antibiotic Sensitivity Testing"
+        }
+      ]
+    },
+    {
+      "code": "WL41",
+      "display": "Haematology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Haematology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Common Haematology & Coagulations (Routine)"
+        }
+      ]
+    },
+    {
+      "code": "WL42",
+      "display": "Haematology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Haematology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Common Haematology & Coagulations (Special)"
+        }
+      ]
+    },
+    {
+      "code": "WL43",
+      "display": "Haematology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Haematology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Advanced Hemostasis And Thrombosis"
+        }
+      ]
+    },
+    {
+      "code": "WL44",
+      "display": "Haematology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Haematology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Stem Cell Transplant"
+        }
+      ]
+    },
+    {
+      "code": "WL45",
+      "display": "Haematology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Haematology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Red Cell and Hemoglobin Disorder"
+        }
+      ]
+    },
+    {
+      "code": "WL46",
+      "display": "Haematology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Haematology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Molecular Diagnosis for Non Malignant Hematology"
+        }
+      ]
+    },
+    {
+      "code": "WL47",
+      "display": "Haematology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Haematology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Molecular Diagnosis for Malignant Hematology"
+        }
+      ]
+    },
+    {
+      "code": "WL48",
+      "display": "Genetic Pathology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Genetic Pathology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Molecular Genetics"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Genetic Disorders"
+        }
+      ]
+    },
+    {
+      "code": "WL49",
+      "display": "Genetic Pathology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Genetic Pathology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Cancer Genetics"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Germline Mutation"
+        }
+      ]
+    },
+    {
+      "code": "WL50",
+      "display": "Genetic Pathology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Genetic Pathology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Cancer Genetics"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Somatic Mutation"
+        }
+      ]
+    },
+    {
+      "code": "WL51",
+      "display": "Genetic Pathology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Genetic Pathology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Cytogenetics"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Constitutional conventional cytogenetics"
+        }
+      ]
+    },
+    {
+      "code": "WL52",
+      "display": "Genetic Pathology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Genetic Pathology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Cytogenetics"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Hemato-Oncology Conventional Cytogenetics"
+        }
+      ]
+    },
+    {
+      "code": "WL53",
+      "display": "Genetic Pathology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Genetic Pathology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Cytogenetics"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Constitutional Fluorescence in Situ Hybridisation"
+        }
+      ]
+    },
+    {
+      "code": "WL55",
+      "display": "Genetic Pathology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Genetic Pathology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Cytogenetics"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Hemato-Oncology Fluorescence in Situ Hybridisation"
+        }
+      ]
+    },
+    {
+      "code": "WL56",
+      "display": "Genetic Pathology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Genetic Pathology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Cytogenetics"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Solid Tumour Fluorescence in Situ Hybridisation"
+        }
+      ]
+    },
+    {
+      "code": "WL57",
+      "display": "Genetic Pathology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Genetic Pathology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Cytogenetics"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Microarray"
+        }
+      ]
+    },
+    {
+      "code": "WL60",
+      "display": "Genetic Pathology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Genetic Pathology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Molecular Genetics"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Neurogenetic Disorder"
+        }
+      ]
+    },
+    {
+      "code": "WL61",
+      "display": "Genetic Pathology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Genetic Pathology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Molecular Genetics"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Inherited Metabolic Disorder"
+        }
+      ]
+    },
+    {
+      "code": "WL63",
+      "display": "Genetic Pathology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Genetic Pathology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Molecular Genetics"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Other Services"
+        }
+      ]
+    },
+    {
+      "code": "WL64",
+      "display": "Genetic Pathology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Genetic Pathology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Molecular Genetics"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Mitochondria Disorder"
+        }
+      ]
+    },
+    {
+      "code": "WL67",
+      "display": "Anatomic Pathology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Anatomic Pathology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Histopathology"
+        }
+      ]
+    },
+    {
+      "code": "WL69",
+      "display": "Anatomic Pathology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Anatomic Pathology"
+        }
+      ]
+    },
+    {
+      "code": "WL70",
+      "display": "Others",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Others"
+        }
+      ]
+    },
+    {
+      "code": "WL71",
+      "display": "Anatomic Pathology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Anatomic Pathology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Histopathology"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Electron Microscopy"
+        }
+      ]
+    },
+    {
+      "code": "WL72",
+      "display": "Chemical Pathology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Chemical Pathology"
+        }
+      ]
+    },
+    {
+      "code": "WL73",
+      "display": "Report",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Report"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Not Applicable (Non Test Element)"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Not Applicable (Non Test Element)"
+        }
+      ]
+    },
+    {
+      "code": "WL74",
+      "display": "Genetic Pathology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Genetic Pathology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Not Applicable (Non Test Element)"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Not Applicable (Non Test Element)"
+        }
+      ]
+    },
+    {
+      "code": "WL75",
+      "display": "Anatomic Pathology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Anatomic Pathology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Not Applicable (Non Test Element)"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Not Applicable (Non Test Element)"
+        }
+      ]
+    },
+    {
+      "code": "WL76",
+      "display": "Others",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Others"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Not Applicable (Non Test Element)"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Not Applicable (Non Test Element)"
+        }
+      ]
+    },
+    {
+      "code": "WL79",
+      "display": "Microbiology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Parasitology"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Molecular"
+        }
+      ]
+    },
+    {
+      "code": "WL80",
+      "display": "Microbiology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Parasitology"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Microscopy"
+        }
+      ]
+    },
+    {
+      "code": "WL81",
+      "display": "Microbiology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Parasitology"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Serology"
+        }
+      ]
+    },
+    {
+      "code": "WL82",
+      "display": "Microbiology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Bacteriology"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Molecular"
+        }
+      ]
+    },
+    {
+      "code": "WL83",
+      "display": "Microbiology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Mycobacteriology"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Culture"
+        }
+      ]
+    },
+    {
+      "code": "WL84",
+      "display": "Microbiology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Mycobacteriology"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Sensitivity Testing"
+        }
+      ]
+    },
+    {
+      "code": "WL85",
+      "display": "Microbiology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Mycobacteriology"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Serology"
+        }
+      ]
+    },
+    {
+      "code": "WL86",
+      "display": "Microbiology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Mycobacteriology"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Molecular"
+        }
+      ]
+    },
+    {
+      "code": "WL88",
+      "display": "Microbiology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Mycobacteriology"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Microscopy"
+        }
+      ]
+    },
+    {
+      "code": "WL89",
+      "display": "Microbiology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Mycology"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Serology"
+        }
+      ]
+    },
+    {
+      "code": "WL90",
+      "display": "Microbiology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Mycology"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Molecular"
+        }
+      ]
+    },
+    {
+      "code": "WL91",
+      "display": "Microbiology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Bacteriology"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Microscopy"
+        }
+      ]
+    },
+    {
+      "code": "WL92",
+      "display": "Microbiology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Bacteriology"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Serology"
+        }
+      ]
+    },
+    {
+      "code": "WL93",
+      "display": "Microbiology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Bacteriology"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Culture"
+        }
+      ]
+    },
+    {
+      "code": "WL94",
+      "display": "Microbiology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Mycology"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Microscopy"
+        }
+      ]
+    },
+    {
+      "code": "WL95",
+      "display": "Chemical Pathology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Chemical Pathology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Not Applicable (Non Test Element)"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Not Applicable (Non Test Element)"
+        }
+      ]
+    },
+    {
+      "code": "WL96",
+      "display": "Haematology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Haematology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Not Applicable (Non Test Element)"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Not Applicable (Non Test Element)"
+        }
+      ]
+    },
+    {
+      "code": "WL97",
+      "display": "Haematology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Haematology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Immunophenotyping"
+        }
+      ]
+    },
+    {
+      "code": "WL98",
+      "display": "Microbiology",
+      "property": [
+        {
+          "code": "category",
+          "valueString": "Microbiology"
+        },
+        {
+          "code": "subcategory-1",
+          "valueString": "Not Applicable (Non Test Element)"
+        },
+        {
+          "code": "subcategory-2",
+          "valueString": "Not Applicable (Non Test Element)"
+        }
+      ]
+    }
+  ]
+}

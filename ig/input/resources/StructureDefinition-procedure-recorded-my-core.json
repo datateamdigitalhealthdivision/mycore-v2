@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "procedure-recorded-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/procedure-recorded-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/procedure-recorded-my-core",
   "version": "2.0.0",
   "name": "ExtensionRecordedMyCore",
   "title": "ExtensionRecorded (MY Core)",
@@ -210,7 +210,7 @@
             "code": "http://hl7.org/fhirpath/System.String"
           }
         ],
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/procedure-recorded-my-core",
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/procedure-recorded-my-core",
         "mapping": [
           {
             "identity": "rim",
@@ -266,7 +266,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/procedure-recorded-my-core"
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/procedure-recorded-my-core"
       },
       {
         "id": "Extension.value[x]",

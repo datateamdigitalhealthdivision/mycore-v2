@@ -1,0 +1,172 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-g-p3-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-g-p3-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelGP3MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Neuromuscular Panel (NM) NGS",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel G-P3 (Neuromuscular Panel (NM) NGS). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "G-T261"
+          },
+          {
+            "code": "G-T262"
+          },
+          {
+            "code": "G-T263"
+          },
+          {
+            "code": "G-T264"
+          },
+          {
+            "code": "G-T265"
+          },
+          {
+            "code": "G-T266"
+          },
+          {
+            "code": "G-T267"
+          },
+          {
+            "code": "G-T268"
+          },
+          {
+            "code": "G-T269"
+          },
+          {
+            "code": "G-T270"
+          },
+          {
+            "code": "G-T271"
+          },
+          {
+            "code": "G-T272"
+          },
+          {
+            "code": "G-T273"
+          },
+          {
+            "code": "G-T274"
+          },
+          {
+            "code": "G-T275"
+          },
+          {
+            "code": "G-T276"
+          },
+          {
+            "code": "G-T277"
+          },
+          {
+            "code": "G-T278"
+          },
+          {
+            "code": "G-T279"
+          },
+          {
+            "code": "G-T280"
+          },
+          {
+            "code": "G-T281"
+          },
+          {
+            "code": "G-T282"
+          },
+          {
+            "code": "G-T283"
+          },
+          {
+            "code": "G-T284"
+          },
+          {
+            "code": "G-T285"
+          },
+          {
+            "code": "G-T286"
+          },
+          {
+            "code": "G-T287"
+          },
+          {
+            "code": "G-T288"
+          },
+          {
+            "code": "G-T289"
+          },
+          {
+            "code": "G-T290"
+          },
+          {
+            "code": "G-T291"
+          },
+          {
+            "code": "G-T292"
+          },
+          {
+            "code": "G-T293"
+          },
+          {
+            "code": "G-T294"
+          },
+          {
+            "code": "G-T295"
+          },
+          {
+            "code": "G-T296"
+          },
+          {
+            "code": "G-T297"
+          },
+          {
+            "code": "G-T298"
+          },
+          {
+            "code": "G-T299"
+          },
+          {
+            "code": "G-T300"
+          },
+          {
+            "code": "G-T301"
+          },
+          {
+            "code": "G-T302"
+          },
+          {
+            "code": "G-T303"
+          },
+          {
+            "code": "G-T304"
+          },
+          {
+            "code": "G-T305"
+          },
+          {
+            "code": "G-T306"
+          },
+          {
+            "code": "G-T307"
+          },
+          {
+            "code": "G-T308"
+          },
+          {
+            "code": "G-T309"
+          },
+          {
+            "code": "G-T310"
+          }
+        ]
+      }
+    ]
+  }
+}

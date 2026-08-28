@@ -1,0 +1,52 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-c-p55-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-c-p55-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelCP55MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Drug of Abuse 10 in 1 Panel",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel C-P55 (Drug of Abuse 10 in 1 Panel). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "C-T551"
+          },
+          {
+            "code": "C-T548"
+          },
+          {
+            "code": "C-T578"
+          },
+          {
+            "code": "C-T560"
+          },
+          {
+            "code": "C-T559"
+          },
+          {
+            "code": "C-T580"
+          },
+          {
+            "code": "C-T577"
+          },
+          {
+            "code": "C-T579"
+          },
+          {
+            "code": "C-T581"
+          },
+          {
+            "code": "C-T664"
+          }
+        ]
+      }
+    ]
+  }
+}

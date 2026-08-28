@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "encounter-rating-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/encounter-rating-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/encounter-rating-my-core",
   "version": "2.0.0",
   "name": "ValueSetEncounterRatingMyCore",
   "title": "ValueSetEncounterRating (MY Core)",
@@ -13,12 +13,12 @@
   "compose": {
     "include": [
       {
-        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/encounter-rating-my-core"
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/encounter-rating-my-core"
       }
     ]
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetEncounterRating (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/encounter-rating-my-core</tt><p>Draft encounter and system rating value set retained for legacy extension continuity in the vendor-facing MY Core publication.</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetEncounterRating (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/encounter-rating-my-core</tt><p>Draft encounter and system rating value set retained for legacy extension continuity in the vendor-facing MY Core publication.</p></div>"
   }
 }

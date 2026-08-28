@@ -3,9 +3,9 @@
   "id": "phlebotomy-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemPhlebotomy (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/phlebotomy-my-core</tt><p>Phlebotomy</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemPhlebotomy (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/phlebotomy-my-core</tt><p>Phlebotomy</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/phlebotomy-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/phlebotomy-my-core",
   "name": "CodeSystemPhlebotomyMyCore",
   "title": "CodeSystemPhlebotomy (MY Core)",
   "status": "active",

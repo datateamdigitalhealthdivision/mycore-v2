@@ -3,9 +3,9 @@
   "id": "task-output-type-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemTaskOutputType (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/task-output-type-my-core</tt><p>Task output type code system</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemTaskOutputType (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/task-output-type-my-core</tt><p>Task output type code system</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/task-output-type-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/task-output-type-my-core",
   "version": "2.0.0",
   "name": "CodeSystemTaskOutputTypeMyCore",
   "title": "CodeSystemTaskOutputType (MY Core)",

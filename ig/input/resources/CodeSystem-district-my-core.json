@@ -3,9 +3,9 @@
   "id": "district-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemDistrict (My Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/district-my-core</tt><p>Malaysia District List</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemDistrict (My Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/district-my-core</tt><p>Malaysia District List</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/district-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/district-my-core",
   "version": "2.0.0",
   "name": "CodeSystemDistrictMyCore",
   "title": "CodeSystemDistrict (My Core)",
@@ -21,7 +21,7 @@
     }
   ],
   "description": "Malaysia District List",
-  "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/district-my-core",
+  "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/district-my-core",
   "hierarchyMeaning": "grouped-by",
   "compositional": false,
   "content": "complete",

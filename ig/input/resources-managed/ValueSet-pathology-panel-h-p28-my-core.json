@@ -1,0 +1,64 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-h-p28-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-h-p28-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelHP28MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: BCR::ABL1 Qualitative Panel",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel H-P28 (BCR::ABL1 Qualitative Panel). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "H-T327"
+          },
+          {
+            "code": "H-T328"
+          },
+          {
+            "code": "H-T329"
+          },
+          {
+            "code": "H-T330"
+          },
+          {
+            "code": "H-T378"
+          },
+          {
+            "code": "H-T379"
+          },
+          {
+            "code": "H-T380"
+          },
+          {
+            "code": "H-T381"
+          },
+          {
+            "code": "H-T382"
+          },
+          {
+            "code": "H-T383"
+          },
+          {
+            "code": "H-T384"
+          },
+          {
+            "code": "H-T385"
+          },
+          {
+            "code": "H-T386"
+          },
+          {
+            "code": "H-T387"
+          }
+        ]
+      }
+    ]
+  }
+}

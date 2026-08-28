@@ -1,0 +1,88 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-c-p10-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-c-p10-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelCP10MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: CSF Amino Acid Panel",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel C-P10 (CSF Amino Acid Panel). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "C-T302"
+          },
+          {
+            "code": "C-T303"
+          },
+          {
+            "code": "C-T304"
+          },
+          {
+            "code": "C-T305"
+          },
+          {
+            "code": "C-T306"
+          },
+          {
+            "code": "C-T307"
+          },
+          {
+            "code": "C-T308"
+          },
+          {
+            "code": "C-T309"
+          },
+          {
+            "code": "C-T310"
+          },
+          {
+            "code": "C-T311"
+          },
+          {
+            "code": "C-T312"
+          },
+          {
+            "code": "C-T313"
+          },
+          {
+            "code": "C-T314"
+          },
+          {
+            "code": "C-T315"
+          },
+          {
+            "code": "C-T316"
+          },
+          {
+            "code": "C-T317"
+          },
+          {
+            "code": "C-T318"
+          },
+          {
+            "code": "C-T319"
+          },
+          {
+            "code": "C-T320"
+          },
+          {
+            "code": "C-T321"
+          },
+          {
+            "code": "C-T322"
+          },
+          {
+            "code": "C-T323"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -4,7 +4,7 @@
 
 The canonical publication root for MY Core v2.0 is:
 
-- `https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core`
+- `https://myehr.kkmhub.moh.gov.my/fhir/my-core`
 
 That root identifies the implementation guide and its artefacts. It is not the runtime FHIR API endpoint.
 

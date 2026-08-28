@@ -1,0 +1,76 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-c-p59-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-c-p59-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelCP59MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Benzodiazepines (Clinical)",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel C-P59 (Benzodiazepines (Clinical)). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "C-T600"
+          },
+          {
+            "code": "C-T601"
+          },
+          {
+            "code": "C-T602"
+          },
+          {
+            "code": "C-T603"
+          },
+          {
+            "code": "C-T605"
+          },
+          {
+            "code": "C-T606"
+          },
+          {
+            "code": "C-T607"
+          },
+          {
+            "code": "C-T608"
+          },
+          {
+            "code": "C-T609"
+          },
+          {
+            "code": "C-T610"
+          },
+          {
+            "code": "C-T611"
+          },
+          {
+            "code": "C-T613"
+          },
+          {
+            "code": "C-T614"
+          },
+          {
+            "code": "C-T615"
+          },
+          {
+            "code": "C-T617"
+          },
+          {
+            "code": "C-T618"
+          },
+          {
+            "code": "C-T619"
+          },
+          {
+            "code": "C-T620"
+          }
+        ]
+      }
+    ]
+  }
+}

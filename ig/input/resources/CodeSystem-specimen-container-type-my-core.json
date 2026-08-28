@@ -3,9 +3,9 @@
   "id": "specimen-container-type-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemSpecimenContainerType (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/specimen-container-type-my-core</tt><p>Malaysia specimen container type</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemSpecimenContainerType (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/specimen-container-type-my-core</tt><p>Malaysia specimen container type</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/specimen-container-type-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/specimen-container-type-my-core",
   "version": "2.0.0",
   "name": "CodeSystemSpecimenContainerTypeMyCore",
   "title": "CodeSystemSpecimenContainerType (MY Core)",

@@ -3,9 +3,9 @@
   "id": "phis-frequency-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemPhisFrequency (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/phis-frequency-my-core</tt><p>Phis Frequency</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemPhisFrequency (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/phis-frequency-my-core</tt><p>Phis Frequency</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/phis-frequency-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/phis-frequency-my-core",
   "version": "2.0.0",
   "name": "CodeSystemPhisFrequencyMyCore",
   "title": "CodeSystemPhisFrequency (MY Core)",

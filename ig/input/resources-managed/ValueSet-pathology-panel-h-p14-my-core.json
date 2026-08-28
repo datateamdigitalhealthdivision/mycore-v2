@@ -1,0 +1,61 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-h-p14-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-h-p14-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelHP14MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Inherited Thrombophilia Panel",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel H-P14 (Inherited Thrombophilia Panel). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "H-T150"
+          },
+          {
+            "code": "H-T151"
+          },
+          {
+            "code": "H-T93"
+          },
+          {
+            "code": "H-T4"
+          },
+          {
+            "code": "H-T435"
+          },
+          {
+            "code": "H-T436"
+          },
+          {
+            "code": "H-T437"
+          },
+          {
+            "code": "H-T438"
+          },
+          {
+            "code": "H-T439"
+          },
+          {
+            "code": "H-T440"
+          },
+          {
+            "code": "H-T441"
+          },
+          {
+            "code": "H-T442"
+          },
+          {
+            "code": "H-T443"
+          }
+        ]
+      }
+    ]
+  }
+}

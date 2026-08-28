@@ -1,0 +1,46 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-m-p79-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-m-p79-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelMP79MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Respiratory viruses Isolation",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel M-P79 (Respiratory viruses Isolation). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "M-T1426"
+          },
+          {
+            "code": "M-T1417"
+          },
+          {
+            "code": "M-T493"
+          },
+          {
+            "code": "M-T598"
+          },
+          {
+            "code": "M-T1454"
+          },
+          {
+            "code": "M-T1455"
+          },
+          {
+            "code": "M-T1456"
+          },
+          {
+            "code": "M-T1457"
+          }
+        ]
+      }
+    ]
+  }
+}

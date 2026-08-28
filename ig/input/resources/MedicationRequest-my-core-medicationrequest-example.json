@@ -3,7 +3,7 @@
   "id": "my-core-medicationrequest-example",
   "meta": {
     "profile": [
-      "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/MedicationRequest-my-core"
+      "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/MedicationRequest-my-core"
     ]
   },
   "status": "active",
@@ -18,7 +18,7 @@
   "medicationCodeableConcept": {
     "coding": [
       {
-        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/drug-my-core",
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/drug-my-core",
         "code": "N02BE01000T1001XX",
         "display": "Paracetamol 500 mg Tablet"
       }

@@ -1,0 +1,58 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-m-p85-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-m-p85-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelMP85MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Gastrointestinal Helminth Multiplex Molecular",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel M-P85 (Gastrointestinal Helminth Multiplex Molecular). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "M-T1303"
+          },
+          {
+            "code": "M-T1304"
+          },
+          {
+            "code": "M-T1305"
+          },
+          {
+            "code": "M-T1311"
+          },
+          {
+            "code": "M-T1312"
+          },
+          {
+            "code": "M-T1313"
+          },
+          {
+            "code": "M-T1314"
+          },
+          {
+            "code": "M-T1316"
+          },
+          {
+            "code": "M-T1315"
+          },
+          {
+            "code": "M-T1307"
+          },
+          {
+            "code": "M-T1306"
+          },
+          {
+            "code": "M-T1317"
+          }
+        ]
+      }
+    ]
+  }
+}

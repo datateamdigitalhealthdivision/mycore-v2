@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "cluster-facility-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/cluster-facility-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/cluster-facility-my-core",
   "name": "ValueSetClusterFacilityMyCore",
   "title": "ValueSetClusterFacility (MY Core)",
   "status": "active",
@@ -19,7 +19,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/cluster-facility-my-core"
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/cluster-facility-my-core"
       }
     ]
   },

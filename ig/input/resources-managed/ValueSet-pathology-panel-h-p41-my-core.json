@@ -1,0 +1,34 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-h-p41-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-h-p41-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelHP41MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Body Fluid Differential Count (Manual)",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel H-P41 (Body Fluid Differential Count (Manual)). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "H-T1105"
+          },
+          {
+            "code": "H-T1107"
+          },
+          {
+            "code": "H-T1109"
+          },
+          {
+            "code": "H-T1111"
+          }
+        ]
+      }
+    ]
+  }
+}

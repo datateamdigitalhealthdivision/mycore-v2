@@ -1,0 +1,58 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-m-p55-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-m-p55-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelMP55MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Paraneoplastic Neurological Syndrome Panel",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel M-P55 (Paraneoplastic Neurological Syndrome Panel). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "M-T1103"
+          },
+          {
+            "code": "M-T1104"
+          },
+          {
+            "code": "M-T1105"
+          },
+          {
+            "code": "M-T1106"
+          },
+          {
+            "code": "M-T1107"
+          },
+          {
+            "code": "M-T1108"
+          },
+          {
+            "code": "M-T729"
+          },
+          {
+            "code": "M-T1098"
+          },
+          {
+            "code": "M-T1099"
+          },
+          {
+            "code": "M-T1100"
+          },
+          {
+            "code": "M-T1101"
+          },
+          {
+            "code": "M-T1102"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "ImagingStudy-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/ImagingStudy-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/ImagingStudy-my-core",
   "version": "2.0.0",
   "name": "ImagingStudyMyCore",
   "title": "ImagingStudy (MY Core)",
@@ -20,7 +20,7 @@
         "path": "ImagingStudy.modality",
         "binding": {
           "strength": "extensible",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/imaging-modality-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/imaging-modality-my-core"
         }
       },
       {
@@ -28,7 +28,7 @@
         "path": "ImagingStudy.series.modality",
         "binding": {
           "strength": "extensible",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/imaging-modality-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/imaging-modality-my-core"
         }
       }
     ]

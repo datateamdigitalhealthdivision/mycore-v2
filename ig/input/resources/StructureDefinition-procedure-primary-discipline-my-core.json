@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "procedure-primary-discipline-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/procedure-primary-discipline-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/procedure-primary-discipline-my-core",
   "name": "ExtensionProcedurePrimaryDisciplineMyCore",
   "title": "ExtensionProcedurePrimaryDiscipline (MY Core)",
   "status": "active",
@@ -23,7 +23,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/procedure-primary-discipline-my-core"
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/procedure-primary-discipline-my-core"
       },
       {
         "id": "Extension.value[x]",
@@ -35,7 +35,7 @@
         ],
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/specialty-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/specialty-my-core"
         }
       }
     ]

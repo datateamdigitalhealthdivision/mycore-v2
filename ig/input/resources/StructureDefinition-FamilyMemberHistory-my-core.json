@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "FamilyMemberHistory-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/FamilyMemberHistory-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/FamilyMemberHistory-my-core",
   "version": "2.0.0",
   "name": "MyFamilyMemberHistory",
   "title": "FamilyMemberHistory (MY Core)",
@@ -31,7 +31,7 @@
             }
           ],
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/relationship-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/relationship-my-core"
         }
       },
       {
@@ -46,7 +46,7 @@
             }
           ],
           "strength": "extensible",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/administrative-gender-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/administrative-gender-my-core"
         }
       }
     ]

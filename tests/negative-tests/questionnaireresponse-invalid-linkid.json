@@ -1,7 +1,7 @@
 {
   "resourceType": "QuestionnaireResponse",
   "id": "invalid-questionnaireresponse-linkid",
-  "questionnaire": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/Questionnaire/my-core-questionnaire-example",
+  "questionnaire": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/Questionnaire/my-core-questionnaire-example",
   "status": "completed",
   "subject": {
     "reference": "Patient/my-core-patient-example"

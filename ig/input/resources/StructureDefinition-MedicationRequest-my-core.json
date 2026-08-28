@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "MedicationRequest-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/MedicationRequest-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/MedicationRequest-my-core",
   "version": "2.0.0",
   "name": "MedicationRequestMyCore",
   "title": "MedicationRequest (MY Core)",
@@ -40,7 +40,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/drug-form-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/drug-form-my-core"
             ]
           }
         ],
@@ -56,7 +56,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/misc-request-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/misc-request-my-core"
             ]
           }
         ],
@@ -72,7 +72,7 @@
         ],
         "binding": {
           "strength": "example",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/drug-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/drug-my-core"
         }
       },
       {
@@ -80,7 +80,7 @@
         "path": "MedicationRequest.medication[x].coding",
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/mims-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/mims-my-core"
         }
       },
       {
@@ -88,7 +88,7 @@
         "path": "MedicationRequest.medication[x].coding.system",
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/drug-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/drug-my-core"
         }
       },
       {
@@ -115,7 +115,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/drug-cautionary-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/drug-cautionary-my-core"
             ]
           }
         ],
@@ -126,7 +126,7 @@
         "path": "MedicationRequest.dosageInstruction.additionalInstruction",
         "binding": {
           "strength": "example",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/drug-special-instruction-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/drug-special-instruction-my-core"
         }
       },
       {
@@ -134,7 +134,7 @@
         "path": "MedicationRequest.dosageInstruction.timing.code",
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/phis-frequency-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/phis-frequency-my-core"
         }
       },
       {
@@ -142,7 +142,7 @@
         "path": "MedicationRequest.dosageInstruction.route",
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/phis-route-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/phis-route-my-core"
         }
       },
       {
@@ -151,7 +151,7 @@
         "binding": {
           "strength": "required",
           "description": "phis uom",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/phis-uom-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/phis-uom-my-core"
         }
       }
     ]

@@ -1,0 +1,139 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-a-p3-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-a-p3-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelAP3MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Liver Biopsy for HPE",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel A-P3 (Liver Biopsy for HPE). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "A-T191"
+          },
+          {
+            "code": "A-T299"
+          },
+          {
+            "code": "A-T122"
+          },
+          {
+            "code": "A-T289"
+          },
+          {
+            "code": "A-T290"
+          },
+          {
+            "code": "A-T245"
+          },
+          {
+            "code": "A-T101"
+          },
+          {
+            "code": "A-T105"
+          },
+          {
+            "code": "A-T339"
+          },
+          {
+            "code": "A-T1"
+          },
+          {
+            "code": "A-T2"
+          },
+          {
+            "code": "A-T18"
+          },
+          {
+            "code": "A-T24"
+          },
+          {
+            "code": "A-T30"
+          },
+          {
+            "code": "A-T37"
+          },
+          {
+            "code": "A-T57"
+          },
+          {
+            "code": "A-T63"
+          },
+          {
+            "code": "A-T82"
+          },
+          {
+            "code": "A-T89"
+          },
+          {
+            "code": "A-T102"
+          },
+          {
+            "code": "A-T107"
+          },
+          {
+            "code": "A-T123"
+          },
+          {
+            "code": "A-T125"
+          },
+          {
+            "code": "A-T137"
+          },
+          {
+            "code": "A-T150"
+          },
+          {
+            "code": "A-T158"
+          },
+          {
+            "code": "A-T160"
+          },
+          {
+            "code": "A-T171"
+          },
+          {
+            "code": "A-T172"
+          },
+          {
+            "code": "A-T181"
+          },
+          {
+            "code": "A-T182"
+          },
+          {
+            "code": "A-T185"
+          },
+          {
+            "code": "A-T217"
+          },
+          {
+            "code": "A-T244"
+          },
+          {
+            "code": "A-T291"
+          },
+          {
+            "code": "A-T301"
+          },
+          {
+            "code": "A-T302"
+          },
+          {
+            "code": "A-T304"
+          },
+          {
+            "code": "A-T319"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -3,9 +3,9 @@
   "id": "tdm-sample-type-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetTdmSampleType (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/tdm-sample-type-my-core</tt><p>Observation panel for HIE</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetTdmSampleType (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/tdm-sample-type-my-core</tt><p>Observation panel for HIE</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/tdm-sample-type-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/tdm-sample-type-my-core",
   "identifier": [
     {
       "value": "value-set-observation-panel-my-core"
@@ -31,7 +31,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/tdm-sample-type-my-core"
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/tdm-sample-type-my-core"
       }
     ]
   },

@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "Encounter-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Encounter-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Encounter-my-core",
   "version": "2.0.0",
   "name": "EncounterMyCore",
   "title": "Encounter (MY Core)",
@@ -28,7 +28,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/audit-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/audit-my-core"
             ]
           }
         ],
@@ -45,7 +45,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/encounter-outcome-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/encounter-outcome-my-core"
             ]
           }
         ],
@@ -64,7 +64,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/visit-type-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/visit-type-my-core"
             ]
           }
         ],
@@ -79,7 +79,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/internal-refferal-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/internal-refferal-my-core"
             ]
           }
         ],
@@ -94,7 +94,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/encounter-rating-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/encounter-rating-my-core"
             ]
           }
         ],
@@ -108,7 +108,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/ncd-vc-dx-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/ncd-vc-dx-my-core"
             ]
           }
         ],
@@ -158,7 +158,7 @@
         "definition": "arrived | in-progress | finished | unknown",
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/encounter-status-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/encounter-status-my-core"
         }
       },
       {
@@ -166,7 +166,7 @@
         "path": "Encounter.class",
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/encounter-class-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/encounter-class-my-core"
         }
       },
       {
@@ -174,7 +174,7 @@
         "path": "Encounter.classHistory.class",
         "binding": {
           "strength": "extensible",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/encounter-class-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/encounter-class-my-core"
         }
       },
       {
@@ -187,7 +187,7 @@
         "binding": {
           "strength": "example",
           "description": "Primary specialty managing the encounter",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/specialty-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/specialty-my-core"
         }
       },
       {
@@ -209,13 +209,13 @@
         "sliceName": "service",
         "binding": {
           "strength": "example",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/specialty-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/specialty-my-core"
         }
       },
       {
         "id": "Encounter.type.coding:service.system",
         "path": "Encounter.type.coding.system",
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/specialty-my-core"
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/specialty-my-core"
       },
       {
         "id": "Encounter.type.coding:category",
@@ -223,13 +223,13 @@
         "sliceName": "category",
         "binding": {
           "strength": "example",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/encounter-category-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/encounter-category-my-core"
         }
       },
       {
         "id": "Encounter.type.coding:category.system",
         "path": "Encounter.type.coding.system",
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/encounter-category-my-core"
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/encounter-category-my-core"
       },
       {
         "id": "Encounter.serviceType",
@@ -240,7 +240,7 @@
         "binding": {
           "strength": "required",
           "description": "Based on PIK code service type",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/service-type-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/service-type-my-core"
         }
       },
       {
@@ -248,7 +248,7 @@
         "path": "Encounter.priority",
         "binding": {
           "strength": "example",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/encounter-priority-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/encounter-priority-my-core"
         }
       },
       {
@@ -272,7 +272,7 @@
         "min": 1,
         "binding": {
           "strength": "extensible",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/diagnosis-role-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/diagnosis-role-my-core"
         }
       },
       {
@@ -294,14 +294,14 @@
         "sliceName": "internal",
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/internal-referral-source-type-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/internal-referral-source-type-my-core"
         }
       },
       {
         "id": "Encounter.hospitalization.admitSource.coding:internal.system",
         "path": "Encounter.hospitalization.admitSource.coding.system",
         "min": 1,
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/internal-referral-source-type-my-core"
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/internal-referral-source-type-my-core"
       },
       {
         "id": "Encounter.hospitalization.admitSource.coding:external",
@@ -309,14 +309,14 @@
         "sliceName": "external",
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/external-referral-source-type-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/external-referral-source-type-my-core"
         }
       },
       {
         "id": "Encounter.hospitalization.admitSource.coding:external.system",
         "path": "Encounter.hospitalization.admitSource.coding.system",
         "min": 1,
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/external-referral-source-type-my-core"
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/external-referral-source-type-my-core"
       },
       {
         "id": "Encounter.serviceProvider",
