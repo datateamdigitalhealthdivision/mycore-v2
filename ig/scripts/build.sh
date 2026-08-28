@@ -86,13 +86,19 @@ mkdir -p "$PUBLISHER_HOME"
 #   "The terminology server https://termx-api.tx.internal/fhir is not approved for use
 #    with this software (it does not pass the required tests)."
 #
-# The actual cause is a CapabilityStatement FEATURE declaration, not the operation set.
-# TerminologyClientContext.checkFeature looks for
-#   http://hl7.org/fhir/uv/tx-tests/FeatureDefinition/test-version
-# and compares it against MIN_TEST_VERSION -- i.e. the server must declare that it
-# passes the HL7 tx-tests suite at or above a minimum version. TermX declares no such
-# feature (its CapabilityStatement carries only capabilitystatement-supported-system),
-# so the check fails before any terminology operation is ever exercised.
+# The cause is NOT the operation set. Evidence, from inspecting the Publisher jar and
+# TermX's CapabilityStatement directly:
+#   - TerminologyClientContext.checkFeature references
+#       http://hl7.org/fhir/uv/tx-tests/FeatureDefinition/test-version
+#     and a MIN_TEST_VERSION constant; the four rejection strings in that class are all
+#     keyed to that feature (missing / too old / tx-resource parameter).
+#   - TermX's CapabilityStatement declares no such feature. Its only extension is
+#     capabilitystatement-supported-system; "tx-tests" does not appear in it.
+# The most likely reading is that the gate fails on the missing tx-tests feature
+# declaration, before any terminology operation is exercised. NOT independently
+# confirmed -- that would require adding the feature to TermX and re-running the
+# Publisher, which has not been done. Treat the mechanism as strongly evidenced but
+# unproven; treat the rejection itself as fact, since it is reproducible.
 #
 # An earlier version of this comment claimed TermX "advertises no operations
 # ($expand/$validate-code)". That was wrong. TermX does advertise them -- ValueSet:
