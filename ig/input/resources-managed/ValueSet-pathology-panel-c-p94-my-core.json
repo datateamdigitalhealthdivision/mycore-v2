@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-c-p94-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-c-p94-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelCP94MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Gonadotropin Releasing hormone Stimulation Test (for Male)",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel C-P94 (Gonadotropin Releasing hormone Stimulation Test (for Male)). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "C-T770"
+          },
+          {
+            "code": "C-T771"
+          },
+          {
+            "code": "C-T772"
+          },
+          {
+            "code": "C-T773"
+          },
+          {
+            "code": "C-T29"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-h-p42-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-h-p42-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelHP42MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Manual Differential Count -Blood",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel H-P42 (Manual Differential Count -Blood). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "H-T1112"
+          },
+          {
+            "code": "H-T1113"
+          },
+          {
+            "code": "H-T1114"
+          },
+          {
+            "code": "H-T1115"
+          },
+          {
+            "code": "H-T1116"
+          },
+          {
+            "code": "H-T1117"
+          },
+          {
+            "code": "H-T1118"
+          },
+          {
+            "code": "H-T1119"
+          },
+          {
+            "code": "H-T1120"
+          },
+          {
+            "code": "H-T1121"
+          },
+          {
+            "code": "H-T1122"
+          }
+        ]
+      }
+    ]
+  }
+}

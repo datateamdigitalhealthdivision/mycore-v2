@@ -1,0 +1,49 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-c-p15-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-c-p15-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelCP15MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Mucopolysaccharidosis (MPS) Enzymes Panel",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel C-P15 (Mucopolysaccharidosis (MPS) Enzymes Panel). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "C-T343"
+          },
+          {
+            "code": "C-T344"
+          },
+          {
+            "code": "C-T345"
+          },
+          {
+            "code": "C-T346"
+          },
+          {
+            "code": "C-T347"
+          },
+          {
+            "code": "C-T348"
+          },
+          {
+            "code": "C-T349"
+          },
+          {
+            "code": "C-T335"
+          },
+          {
+            "code": "C-T334"
+          }
+        ]
+      }
+    ]
+  }
+}

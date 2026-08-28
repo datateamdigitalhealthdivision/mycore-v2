@@ -1,0 +1,100 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-h-p1-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-h-p1-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelHP1MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Full Blood Count - Automated Count",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel H-P1 (Full Blood Count - Automated Count). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "H-T186"
+          },
+          {
+            "code": "H-T187"
+          },
+          {
+            "code": "H-T188"
+          },
+          {
+            "code": "H-T189"
+          },
+          {
+            "code": "H-T190"
+          },
+          {
+            "code": "H-T191"
+          },
+          {
+            "code": "H-T193"
+          },
+          {
+            "code": "H-T194"
+          },
+          {
+            "code": "H-T197"
+          },
+          {
+            "code": "H-T198"
+          },
+          {
+            "code": "H-T185"
+          },
+          {
+            "code": "H-T199"
+          },
+          {
+            "code": "H-T200"
+          },
+          {
+            "code": "H-T201"
+          },
+          {
+            "code": "H-T202"
+          },
+          {
+            "code": "H-T203"
+          },
+          {
+            "code": "H-T204"
+          },
+          {
+            "code": "H-T205"
+          },
+          {
+            "code": "H-T206"
+          },
+          {
+            "code": "H-T207"
+          },
+          {
+            "code": "H-T208"
+          },
+          {
+            "code": "H-T209"
+          },
+          {
+            "code": "H-T210"
+          },
+          {
+            "code": "H-T192"
+          },
+          {
+            "code": "H-T195"
+          },
+          {
+            "code": "H-T196"
+          }
+        ]
+      }
+    ]
+  }
+}

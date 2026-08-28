@@ -1,0 +1,34 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-m-p77-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-m-p77-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelMP77MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Dihydrorhodamine assay (DHR)",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel M-P77 (Dihydrorhodamine assay (DHR)). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "M-T1435"
+          },
+          {
+            "code": "M-T1436"
+          },
+          {
+            "code": "M-T1437"
+          },
+          {
+            "code": "M-T1438"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-m-p113-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-m-p113-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelMP113MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Enterococcus spp. AST panel (non-urine)",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel M-P113 (Enterococcus spp. AST panel (non-urine)). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "M-T1011"
+          },
+          {
+            "code": "M-T985"
+          },
+          {
+            "code": "M-T545"
+          },
+          {
+            "code": "M-T1046"
+          },
+          {
+            "code": "M-T1050"
+          },
+          {
+            "code": "M-T1008"
+          },
+          {
+            "code": "M-T1527"
+          },
+          {
+            "code": "M-T1528"
+          },
+          {
+            "code": "M-T1019"
+          },
+          {
+            "code": "M-T995"
+          }
+        ]
+      }
+    ]
+  }
+}

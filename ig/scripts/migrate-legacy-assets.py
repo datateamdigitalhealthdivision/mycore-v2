@@ -47,6 +47,9 @@ STANDARD_SYSTEM_URL_MAP = {
     for resource_id, metadata in EXTERNALISED_CODE_SYSTEMS.items()
 }
 
+# NOTE: this script owns ig/input/resources ONLY, and wipes it below. Authored or
+# TermX-published terminology lives in ig/input/resources-managed, which this script
+# must never reference. Do not widen DEST_ROOT.
 DEST_ROOT.mkdir(parents=True, exist_ok=True)
 MAPPINGS_ROOT.mkdir(parents=True, exist_ok=True)
 for path in DEST_ROOT.glob('*.json'):

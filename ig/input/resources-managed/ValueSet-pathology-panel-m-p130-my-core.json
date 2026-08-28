@@ -1,0 +1,31 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-m-p130-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-m-p130-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelMP130MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Human Leukocyte Antigen (HLA) Typing Class I and II (Loci A,B and DR) - Medium/high Resolution (SSO-PCR) Test",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel M-P130 (Human Leukocyte Antigen (HLA) Typing Class I and II (Loci A,B and DR) - Medium/high Resolution (SSO-PCR) Test). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "M-T1569"
+          },
+          {
+            "code": "M-T1570"
+          },
+          {
+            "code": "M-T1571"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-h-p76-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-h-p76-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelHP76MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Molecular Test for Alpha Globin Gene/Cluster",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel H-P76 (Molecular Test for Alpha Globin Gene/Cluster). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "H-T692"
+          },
+          {
+            "code": "H-T693"
+          },
+          {
+            "code": "H-T694"
+          },
+          {
+            "code": "H-T695"
+          },
+          {
+            "code": "H-T696"
+          },
+          {
+            "code": "H-T697"
+          },
+          {
+            "code": "H-T698"
+          },
+          {
+            "code": "H-T699"
+          },
+          {
+            "code": "H-T700"
+          },
+          {
+            "code": "H-T701"
+          },
+          {
+            "code": "H-T702"
+          },
+          {
+            "code": "H-T703"
+          },
+          {
+            "code": "H-T704"
+          },
+          {
+            "code": "H-T705"
+          },
+          {
+            "code": "H-T706"
+          },
+          {
+            "code": "H-T707"
+          }
+        ]
+      }
+    ]
+  }
+}

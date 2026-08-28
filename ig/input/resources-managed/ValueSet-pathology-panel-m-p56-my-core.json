@@ -1,0 +1,34 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-m-p56-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-m-p56-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelMP56MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Skin Ab Panel",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel M-P56 (Skin Ab Panel). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "M-T935"
+          },
+          {
+            "code": "M-T450"
+          },
+          {
+            "code": "M-T164"
+          },
+          {
+            "code": "M-T161"
+          }
+        ]
+      }
+    ]
+  }
+}

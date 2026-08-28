@@ -1,0 +1,79 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-g-p4-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-g-p4-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelGP4MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Hereditary Breast & Ovarian Cancer Panel (HBOC) NGS",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel G-P4 (Hereditary Breast & Ovarian Cancer Panel (HBOC) NGS). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "G-T311"
+          },
+          {
+            "code": "G-T312"
+          },
+          {
+            "code": "G-T313"
+          },
+          {
+            "code": "G-T314"
+          },
+          {
+            "code": "G-T315"
+          },
+          {
+            "code": "G-T316"
+          },
+          {
+            "code": "G-T317"
+          },
+          {
+            "code": "G-T318"
+          },
+          {
+            "code": "G-T319"
+          },
+          {
+            "code": "G-T320"
+          },
+          {
+            "code": "G-T321"
+          },
+          {
+            "code": "G-T322"
+          },
+          {
+            "code": "G-T323"
+          },
+          {
+            "code": "G-T324"
+          },
+          {
+            "code": "G-T325"
+          },
+          {
+            "code": "G-T326"
+          },
+          {
+            "code": "G-T327"
+          },
+          {
+            "code": "G-T328"
+          },
+          {
+            "code": "G-T89"
+          }
+        ]
+      }
+    ]
+  }
+}

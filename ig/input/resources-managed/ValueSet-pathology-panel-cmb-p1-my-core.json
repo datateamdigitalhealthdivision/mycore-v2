@@ -1,0 +1,82 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-cmb-p1-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-cmb-p1-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelCmbP1MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Report",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel Cmb-P1 (Report). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "Cmb-T3"
+          },
+          {
+            "code": "Cmb-T4"
+          },
+          {
+            "code": "Cmb-T5"
+          },
+          {
+            "code": "Cmb-T6"
+          },
+          {
+            "code": "Cmb-T7"
+          },
+          {
+            "code": "Cmb-T8"
+          },
+          {
+            "code": "Cmb-T9"
+          },
+          {
+            "code": "Cmb-T10"
+          },
+          {
+            "code": "Cmb-T11"
+          },
+          {
+            "code": "Cmb-T12"
+          },
+          {
+            "code": "Cmb-T13"
+          },
+          {
+            "code": "Cmb-T14"
+          },
+          {
+            "code": "Cmb-T15"
+          },
+          {
+            "code": "Cmb-T1"
+          },
+          {
+            "code": "Cmb-T2"
+          },
+          {
+            "code": "Cmb-T16"
+          },
+          {
+            "code": "Cmb-T17"
+          },
+          {
+            "code": "Cmb-T18"
+          },
+          {
+            "code": "Cmb-T19"
+          },
+          {
+            "code": "Cmb-T20"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-h-p31-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-h-p31-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelHP31MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Acute Myeloid Leukemia Mutation by NGS",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel H-P31 (Acute Myeloid Leukemia Mutation by NGS). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "H-T338"
+          },
+          {
+            "code": "H-T339"
+          },
+          {
+            "code": "H-T340"
+          },
+          {
+            "code": "H-T341"
+          },
+          {
+            "code": "H-T342"
+          },
+          {
+            "code": "H-T343"
+          },
+          {
+            "code": "H-T344"
+          },
+          {
+            "code": "H-T345"
+          },
+          {
+            "code": "H-T346"
+          },
+          {
+            "code": "H-T347"
+          },
+          {
+            "code": "H-T348"
+          },
+          {
+            "code": "H-T349"
+          },
+          {
+            "code": "H-T350"
+          },
+          {
+            "code": "H-T351"
+          },
+          {
+            "code": "H-T352"
+          },
+          {
+            "code": "H-T353"
+          },
+          {
+            "code": "H-T354"
+          },
+          {
+            "code": "H-T355"
+          },
+          {
+            "code": "H-T356"
+          },
+          {
+            "code": "H-T357"
+          },
+          {
+            "code": "H-T358"
+          },
+          {
+            "code": "H-T359"
+          },
+          {
+            "code": "H-T360"
+          },
+          {
+            "code": "H-T361"
+          },
+          {
+            "code": "H-T362"
+          },
+          {
+            "code": "H-T363"
+          },
+          {
+            "code": "H-T364"
+          },
+          {
+            "code": "H-T365"
+          },
+          {
+            "code": "H-T366"
+          },
+          {
+            "code": "H-T367"
+          },
+          {
+            "code": "H-T368"
+          },
+          {
+            "code": "H-T369"
+          },
+          {
+            "code": "H-T370"
+          },
+          {
+            "code": "H-T371"
+          },
+          {
+            "code": "H-T372"
+          },
+          {
+            "code": "H-T373"
+          },
+          {
+            "code": "H-T374"
+          },
+          {
+            "code": "H-T375"
+          },
+          {
+            "code": "H-T376"
+          },
+          {
+            "code": "H-T377"
+          },
+          {
+            "code": "H-T1063"
+          },
+          {
+            "code": "H-T1064"
+          },
+          {
+            "code": "H-T1065"
+          },
+          {
+            "code": "H-T1066"
+          },
+          {
+            "code": "H-T1067"
+          },
+          {
+            "code": "H-T1068"
+          },
+          {
+            "code": "H-T1069"
+          },
+          {
+            "code": "H-T1070"
+          },
+          {
+            "code": "H-T1071"
+          },
+          {
+            "code": "H-T1072"
+          },
+          {
+            "code": "H-T1073"
+          },
+          {
+            "code": "H-T1074"
+          },
+          {
+            "code": "H-T1075"
+          },
+          {
+            "code": "H-T1076"
+          },
+          {
+            "code": "H-T1077"
+          },
+          {
+            "code": "H-T1078"
+          },
+          {
+            "code": "H-T1079"
+          },
+          {
+            "code": "H-T1080"
+          },
+          {
+            "code": "H-T1081"
+          },
+          {
+            "code": "H-T1082"
+          },
+          {
+            "code": "H-T1083"
+          },
+          {
+            "code": "H-T1084"
+          }
+        ]
+      }
+    ]
+  }
+}

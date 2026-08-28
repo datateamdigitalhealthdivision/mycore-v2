@@ -1,0 +1,97 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-h-p47-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-h-p47-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelHP47MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Stem Cell Processing: T-Cell Depletion",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel H-P47 (Stem Cell Processing: T-Cell Depletion). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "H-T874"
+          },
+          {
+            "code": "H-T634"
+          },
+          {
+            "code": "H-T915"
+          },
+          {
+            "code": "H-T916"
+          },
+          {
+            "code": "H-T917"
+          },
+          {
+            "code": "H-T931"
+          },
+          {
+            "code": "H-T944"
+          },
+          {
+            "code": "H-T945"
+          },
+          {
+            "code": "H-T946"
+          },
+          {
+            "code": "H-T947"
+          },
+          {
+            "code": "H-T948"
+          },
+          {
+            "code": "H-T949"
+          },
+          {
+            "code": "H-T950"
+          },
+          {
+            "code": "H-T951"
+          },
+          {
+            "code": "H-T918"
+          },
+          {
+            "code": "H-T919"
+          },
+          {
+            "code": "H-T920"
+          },
+          {
+            "code": "H-T921"
+          },
+          {
+            "code": "H-T922"
+          },
+          {
+            "code": "H-T923"
+          },
+          {
+            "code": "H-T924"
+          },
+          {
+            "code": "H-T925"
+          },
+          {
+            "code": "H-T1007"
+          },
+          {
+            "code": "H-T929"
+          },
+          {
+            "code": "H-T930"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-m-p76-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-m-p76-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelMP76MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Myositis Antibody",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel M-P76 (Myositis Antibody). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "M-T1358"
+          },
+          {
+            "code": "M-T1359"
+          },
+          {
+            "code": "M-T1360"
+          },
+          {
+            "code": "M-T1361"
+          },
+          {
+            "code": "M-T1362"
+          },
+          {
+            "code": "M-T1363"
+          },
+          {
+            "code": "M-T1364"
+          },
+          {
+            "code": "M-T1365"
+          },
+          {
+            "code": "M-T1366"
+          },
+          {
+            "code": "M-T1367"
+          },
+          {
+            "code": "M-T1368"
+          },
+          {
+            "code": "M-T1369"
+          },
+          {
+            "code": "M-T1370"
+          }
+        ]
+      }
+    ]
+  }
+}

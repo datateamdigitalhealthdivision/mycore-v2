@@ -1,0 +1,91 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-m-p110-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-m-p110-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelMP110MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Staphylococcus spp. AST panel (non-urine)",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel M-P110 (Staphylococcus spp. AST panel (non-urine)). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "M-T1498"
+          },
+          {
+            "code": "M-T1497"
+          },
+          {
+            "code": "M-T533"
+          },
+          {
+            "code": "M-T991"
+          },
+          {
+            "code": "M-T1518"
+          },
+          {
+            "code": "M-T1519"
+          },
+          {
+            "code": "M-T849"
+          },
+          {
+            "code": "M-T1002"
+          },
+          {
+            "code": "M-T851"
+          },
+          {
+            "code": "M-T998"
+          },
+          {
+            "code": "M-T938"
+          },
+          {
+            "code": "M-T1007"
+          },
+          {
+            "code": "M-T545"
+          },
+          {
+            "code": "M-T1005"
+          },
+          {
+            "code": "M-T550"
+          },
+          {
+            "code": "M-T1004"
+          },
+          {
+            "code": "M-T1514"
+          },
+          {
+            "code": "M-T1515"
+          },
+          {
+            "code": "M-T1527"
+          },
+          {
+            "code": "M-T1528"
+          },
+          {
+            "code": "M-T1019"
+          },
+          {
+            "code": "M-T995"
+          },
+          {
+            "code": "M-T1008"
+          }
+        ]
+      }
+    ]
+  }
+}

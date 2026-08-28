@@ -1,0 +1,88 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-c-p74-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-c-p74-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelCP74MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Capillary Blood Gas (Full)",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel C-P74 (Capillary Blood Gas (Full)). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "C-T687"
+          },
+          {
+            "code": "C-T688"
+          },
+          {
+            "code": "C-T689"
+          },
+          {
+            "code": "C-T690"
+          },
+          {
+            "code": "C-T691"
+          },
+          {
+            "code": "C-T692"
+          },
+          {
+            "code": "C-T710"
+          },
+          {
+            "code": "C-T713"
+          },
+          {
+            "code": "C-T716"
+          },
+          {
+            "code": "C-T717"
+          },
+          {
+            "code": "C-T720"
+          },
+          {
+            "code": "C-T9"
+          },
+          {
+            "code": "C-T732"
+          },
+          {
+            "code": "C-T731"
+          },
+          {
+            "code": "C-T693"
+          },
+          {
+            "code": "C-T694"
+          },
+          {
+            "code": "C-T695"
+          },
+          {
+            "code": "C-T696"
+          },
+          {
+            "code": "C-T697"
+          },
+          {
+            "code": "C-T728"
+          },
+          {
+            "code": "C-T793"
+          },
+          {
+            "code": "C-T796"
+          }
+        ]
+      }
+    ]
+  }
+}

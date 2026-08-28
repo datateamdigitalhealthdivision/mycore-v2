@@ -1,0 +1,91 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-m-p80-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-m-p80-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelMP80MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Respiratory Rapid Multiplex Molecular",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel M-P80 (Respiratory Rapid Multiplex Molecular). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "M-T640"
+          },
+          {
+            "code": "M-T1418"
+          },
+          {
+            "code": "M-T1348"
+          },
+          {
+            "code": "M-T1349"
+          },
+          {
+            "code": "M-T1350"
+          },
+          {
+            "code": "M-T1351"
+          },
+          {
+            "code": "M-T1458"
+          },
+          {
+            "code": "M-T1460"
+          },
+          {
+            "code": "M-T748"
+          },
+          {
+            "code": "M-T647"
+          },
+          {
+            "code": "M-T1419"
+          },
+          {
+            "code": "M-T1461"
+          },
+          {
+            "code": "M-T1462"
+          },
+          {
+            "code": "M-T1463"
+          },
+          {
+            "code": "M-T1464"
+          },
+          {
+            "code": "M-T1465"
+          },
+          {
+            "code": "M-T1466"
+          },
+          {
+            "code": "M-T1467"
+          },
+          {
+            "code": "M-T651"
+          },
+          {
+            "code": "M-T268"
+          },
+          {
+            "code": "M-T1468"
+          },
+          {
+            "code": "M-T1469"
+          },
+          {
+            "code": "M-T1459"
+          }
+        ]
+      }
+    ]
+  }
+}

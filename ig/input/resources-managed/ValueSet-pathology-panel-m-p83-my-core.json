@@ -1,0 +1,34 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-m-p83-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-m-p83-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelMP83MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: CTNG Rapid Multiplex Molecular",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel M-P83 (CTNG Rapid Multiplex Molecular). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "M-T190"
+          },
+          {
+            "code": "M-T1333"
+          },
+          {
+            "code": "M-T1334"
+          },
+          {
+            "code": "M-T1335"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-h-p43-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-h-p43-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelHP43MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: CD34 Enumeration for Transplant",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel H-P43 (CD34 Enumeration for Transplant). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "H-T874"
+          },
+          {
+            "code": "H-T634"
+          },
+          {
+            "code": "H-T635"
+          },
+          {
+            "code": "H-T636"
+          },
+          {
+            "code": "H-T637"
+          },
+          {
+            "code": "H-T899"
+          },
+          {
+            "code": "H-T875"
+          },
+          {
+            "code": "H-T876"
+          },
+          {
+            "code": "H-T877"
+          },
+          {
+            "code": "H-T900"
+          },
+          {
+            "code": "H-T901"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-h-p85-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-h-p85-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelHP85MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Glucose-6-Phosphate dehydrogenase Assay",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel H-P85 (Glucose-6-Phosphate dehydrogenase Assay). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "H-T880"
+          },
+          {
+            "code": "H-T1052"
+          },
+          {
+            "code": "H-T1050"
+          },
+          {
+            "code": "H-T1051"
+          }
+        ]
+      }
+    ]
+  }
+}

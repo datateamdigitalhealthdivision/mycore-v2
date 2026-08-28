@@ -1,0 +1,28 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-ot-p2-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-ot-p2-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelOtP2MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Rhesus Group",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel Ot-P2 (Rhesus Group). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "Ot-T3"
+          },
+          {
+            "code": "Ot-T6"
+          }
+        ]
+      }
+    ]
+  }
+}

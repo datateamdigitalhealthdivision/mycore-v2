@@ -1,0 +1,73 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-c-p2-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-c-p2-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelCP2MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Urinalysis",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel C-P2 (Urinalysis). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "C-T215"
+          },
+          {
+            "code": "C-T216"
+          },
+          {
+            "code": "C-T217"
+          },
+          {
+            "code": "C-T218"
+          },
+          {
+            "code": "C-T219"
+          },
+          {
+            "code": "C-T220"
+          },
+          {
+            "code": "C-T221"
+          },
+          {
+            "code": "C-T222"
+          },
+          {
+            "code": "C-T223"
+          },
+          {
+            "code": "C-T224"
+          },
+          {
+            "code": "C-T225"
+          },
+          {
+            "code": "C-T226"
+          },
+          {
+            "code": "C-T666"
+          },
+          {
+            "code": "C-T769"
+          },
+          {
+            "code": "C-T774"
+          },
+          {
+            "code": "C-T789"
+          },
+          {
+            "code": "C-T790"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-h-p52-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-h-p52-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelHP52MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Double Negative TCRab T cells quantification",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel H-P52 (Double Negative TCRab T cells quantification). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "H-T632"
+          },
+          {
+            "code": "H-T633"
+          }
+        ]
+      }
+    ]
+  }
+}

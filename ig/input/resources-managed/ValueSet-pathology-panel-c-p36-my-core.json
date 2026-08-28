@@ -1,0 +1,76 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-c-p36-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-c-p36-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelCP36MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Cryoglobulin Confirmation Panel",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel C-P36 (Cryoglobulin Confirmation Panel). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "C-T484"
+          },
+          {
+            "code": "C-T431"
+          },
+          {
+            "code": "C-T436"
+          },
+          {
+            "code": "C-T432"
+          },
+          {
+            "code": "C-T1"
+          },
+          {
+            "code": "C-T2"
+          },
+          {
+            "code": "C-T147"
+          },
+          {
+            "code": "C-T107"
+          },
+          {
+            "code": "C-T485"
+          },
+          {
+            "code": "C-T486"
+          },
+          {
+            "code": "C-T487"
+          },
+          {
+            "code": "C-T488"
+          },
+          {
+            "code": "C-T489"
+          },
+          {
+            "code": "C-T460"
+          },
+          {
+            "code": "C-T462"
+          },
+          {
+            "code": "C-T464"
+          },
+          {
+            "code": "C-T466"
+          },
+          {
+            "code": "C-T468"
+          }
+        ]
+      }
+    ]
+  }
+}

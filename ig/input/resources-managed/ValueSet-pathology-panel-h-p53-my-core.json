@@ -1,0 +1,31 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-h-p53-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-h-p53-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelHP53MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Immunophenotyping for Leukemia and Lymphoma",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel H-P53 (Immunophenotyping for Leukemia and Lymphoma). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "H-T870"
+          },
+          {
+            "code": "H-T871"
+          },
+          {
+            "code": "H-T1087"
+          }
+        ]
+      }
+    ]
+  }
+}

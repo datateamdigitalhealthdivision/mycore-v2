@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-m-p129-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-m-p129-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelMP129MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: HIV Drug Resistance Test (Non-nucleoside Reverse Transcriptase Inhibitors)",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel M-P129 (HIV Drug Resistance Test (Non-nucleoside Reverse Transcriptase Inhibitors)). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "M-T1405"
+          },
+          {
+            "code": "M-T1406"
+          },
+          {
+            "code": "M-T1407"
+          },
+          {
+            "code": "M-T1408"
+          },
+          {
+            "code": "M-T1409"
+          }
+        ]
+      }
+    ]
+  }
+}

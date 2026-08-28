@@ -1,0 +1,73 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-h-p2-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-h-p2-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelHP2MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: HB Analysis",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel H-P2 (HB Analysis). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "H-T101"
+          },
+          {
+            "code": "H-T671"
+          },
+          {
+            "code": "H-T672"
+          },
+          {
+            "code": "H-T673"
+          },
+          {
+            "code": "H-T674"
+          },
+          {
+            "code": "H-T675"
+          },
+          {
+            "code": "H-T186"
+          },
+          {
+            "code": "H-T187"
+          },
+          {
+            "code": "H-T189"
+          },
+          {
+            "code": "H-T190"
+          },
+          {
+            "code": "H-T193"
+          },
+          {
+            "code": "H-T194"
+          },
+          {
+            "code": "H-T676"
+          },
+          {
+            "code": "H-T681"
+          },
+          {
+            "code": "H-T683"
+          },
+          {
+            "code": "H-T684"
+          },
+          {
+            "code": "H-T101"
+          }
+        ]
+      }
+    ]
+  }
+}

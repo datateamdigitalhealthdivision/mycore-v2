@@ -1,0 +1,82 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-a-p13-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-a-p13-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelAP13MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Seminal Fluid Analysis",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel A-P13 (Seminal Fluid Analysis). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "A-T352"
+          },
+          {
+            "code": "A-T365"
+          },
+          {
+            "code": "A-T362"
+          },
+          {
+            "code": "A-T360"
+          },
+          {
+            "code": "A-T359"
+          },
+          {
+            "code": "A-T318"
+          },
+          {
+            "code": "A-T317"
+          },
+          {
+            "code": "A-T361"
+          },
+          {
+            "code": "A-T358"
+          },
+          {
+            "code": "A-T364"
+          },
+          {
+            "code": "A-T354"
+          },
+          {
+            "code": "A-T357"
+          },
+          {
+            "code": "A-T363"
+          },
+          {
+            "code": "A-T355"
+          },
+          {
+            "code": "A-T356"
+          },
+          {
+            "code": "A-T353"
+          },
+          {
+            "code": "A-T351"
+          },
+          {
+            "code": "A-T316"
+          },
+          {
+            "code": "A-T368"
+          },
+          {
+            "code": "A-T369"
+          }
+        ]
+      }
+    ]
+  }
+}

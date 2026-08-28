@@ -1,0 +1,49 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pathology-panel-c-p47-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-c-p47-my-core",
+  "version": "1.0.0",
+  "name": "PathologyPanelCP47MyCore",
+  "title": "Malaysian Pathology Catalogue - Panel: Liver Function Test",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Member orderable tests of Malaysian pathology panel C-P47 (Liver Function Test). Membership is derived from the catalogue's orderable test code list.",
+  "copyright": "Ministry of Health Malaysia.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "concept": [
+          {
+            "code": "C-T147"
+          },
+          {
+            "code": "C-T2"
+          },
+          {
+            "code": "C-T1"
+          },
+          {
+            "code": "C-T82"
+          },
+          {
+            "code": "C-T107"
+          },
+          {
+            "code": "C-T8"
+          },
+          {
+            "code": "C-T3"
+          },
+          {
+            "code": "C-T4"
+          },
+          {
+            "code": "C-T5"
+          }
+        ]
+      }
+    ]
+  }
+}
