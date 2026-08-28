@@ -1,7 +1,7 @@
 {
   "resourceType": "Questionnaire",
   "id": "my-core-questionnaire-example",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/Questionnaire/my-core-questionnaire-example",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/Questionnaire/my-core-questionnaire-example",
   "version": "2.0.0",
   "name": "MYCoreQuestionnaireExample",
   "title": "MY Core Programme Questionnaire Example",

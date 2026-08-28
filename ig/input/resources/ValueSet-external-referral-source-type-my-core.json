@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "external-referral-source-type-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/external-referral-source-type-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/external-referral-source-type-my-core",
   "version": "2.0.0",
   "name": "ValueSetExternalReferralSourceTypeMyCore",
   "title": "ValueSetExternalReferralSourceType (MY Core)",
@@ -13,12 +13,12 @@
   "compose": {
     "include": [
       {
-        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/source-system-my-core"
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/source-system-my-core"
       }
     ]
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetExternalReferralSourceType (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/external-referral-source-type-my-core</tt><p>Draft helper value set for external referral source typing, bound to the retained MY Core source-system code system pending programme governance refinement.</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetExternalReferralSourceType (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/external-referral-source-type-my-core</tt><p>Draft helper value set for external referral source typing, bound to the retained MY Core source-system code system pending programme governance refinement.</p></div>"
   }
 }

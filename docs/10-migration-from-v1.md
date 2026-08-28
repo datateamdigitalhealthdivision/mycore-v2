@@ -8,7 +8,7 @@ The existing published MY Core line represents the previous generation of the na
 
 Legacy artefacts used `http://fhir.hie.moh.gov.my` publication URLs. MY Core v2.0 moves the active publication identity to:
 
-- `https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core`
+- `https://myehr.kkmhub.moh.gov.my/fhir/my-core`
 
 The package identity is now:
 

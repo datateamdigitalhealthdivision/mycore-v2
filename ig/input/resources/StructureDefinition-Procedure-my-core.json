@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "Procedure-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Procedure-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Procedure-my-core",
   "version": "2.0.0",
   "name": "ProcedureMyCore",
   "title": "Procedure (MY Core)",
@@ -474,7 +474,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/procedure-recorded-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/procedure-recorded-my-core"
             ]
           }
         ],
@@ -645,7 +645,7 @@
             "code": "http://hl7.org/fhirpath/System.String"
           }
         ],
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/procedure-recorded-my-core",
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/procedure-recorded-my-core",
         "mapping": [
           {
             "identity": "rim",
@@ -726,7 +726,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/procedure-primary-discipline-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/procedure-primary-discipline-my-core"
             ]
           }
         ],
@@ -897,7 +897,7 @@
             "code": "http://hl7.org/fhirpath/System.String"
           }
         ],
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/procedure-primary-discipline-my-core",
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/procedure-primary-discipline-my-core",
         "mapping": [
           {
             "identity": "rim",
@@ -937,7 +937,7 @@
         ],
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/specialty-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/specialty-my-core"
         },
         "mapping": [
           {
@@ -982,7 +982,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/procedure-session-type-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/procedure-session-type-my-core"
             ]
           }
         ],
@@ -1153,7 +1153,7 @@
             "code": "http://hl7.org/fhirpath/System.String"
           }
         ],
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/procedure-session-type-my-core",
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/procedure-session-type-my-core",
         "mapping": [
           {
             "identity": "rim",
@@ -1193,7 +1193,7 @@
         ],
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/procedure-session-type-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/procedure-session-type-my-core"
         },
         "mapping": [
           {
@@ -1814,7 +1814,7 @@
           ],
           "strength": "required",
           "description": "A code that classifies a procedure for searching, sorting and display purposes.",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/procedure-category-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/procedure-category-my-core"
         },
         "mapping": [
           {
@@ -1898,7 +1898,7 @@
           ],
           "strength": "example",
           "description": "A code to identify a specific procedure .",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/procedure-code-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/procedure-code-my-core"
         },
         "mapping": [
           {
@@ -2604,7 +2604,7 @@
           ],
           "strength": "preferred",
           "description": "A code that identifies the role of a performer of the procedure.",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/procedure-performer-role-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/procedure-performer-role-my-core"
         },
         "mapping": [
           {
@@ -3169,7 +3169,7 @@
           ],
           "strength": "example",
           "description": "Codes describing anatomical locations. May include laterality.",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/side-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/side-my-core"
         },
         "mapping": [
           {
@@ -3862,7 +3862,7 @@
           ],
           "strength": "example",
           "description": "Codes describing anatomical locations. May include laterality.",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/site-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/site-my-core"
         },
         "mapping": [
           {
@@ -4698,7 +4698,7 @@
           ],
           "strength": "example",
           "description": "Codes describing complications that resulted from a procedure.",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/procedure-complication-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/procedure-complication-my-core"
         },
         "mapping": [
           {
@@ -5476,7 +5476,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/procedure-recorded-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/procedure-recorded-my-core"
             ]
           }
         ],
@@ -5492,7 +5492,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/procedure-primary-discipline-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/procedure-primary-discipline-my-core"
             ]
           }
         ],
@@ -5508,7 +5508,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/procedure-session-type-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/procedure-session-type-my-core"
             ]
           }
         ],
@@ -5520,7 +5520,7 @@
         "min": 1,
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/procedure-category-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/procedure-category-my-core"
         }
       },
       {
@@ -5529,7 +5529,7 @@
         "min": 1,
         "binding": {
           "strength": "example",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/procedure-code-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/procedure-code-my-core"
         }
       },
       {
@@ -5547,7 +5547,7 @@
         "path": "Procedure.performer.function",
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/procedure-performer-role-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/procedure-performer-role-my-core"
         }
       },
       {
@@ -5569,7 +5569,7 @@
         "sliceName": "side",
         "binding": {
           "strength": "example",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/side-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/side-my-core"
         }
       },
       {
@@ -5584,7 +5584,7 @@
         "sliceName": "site",
         "binding": {
           "strength": "example",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/site-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/site-my-core"
         }
       },
       {
@@ -5598,7 +5598,7 @@
         "path": "Procedure.complication",
         "binding": {
           "strength": "example",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/procedure-complication-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/procedure-complication-my-core"
         }
       }
     ]

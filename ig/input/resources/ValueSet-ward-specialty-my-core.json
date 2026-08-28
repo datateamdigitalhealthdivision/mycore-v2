@@ -3,9 +3,9 @@
   "id": "ward-specialty-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetWardSpecialty (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/ward-specialty-my-core</tt><p>Ward Specialty</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetWardSpecialty (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/ward-specialty-my-core</tt><p>Ward Specialty</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/ward-specialty-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/ward-specialty-my-core",
   "identifier": [
     {
       "value": "value-set-observation-panel-my-core"
@@ -31,7 +31,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/ward-specialty-my-core"
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/ward-specialty-my-core"
       }
     ]
   },

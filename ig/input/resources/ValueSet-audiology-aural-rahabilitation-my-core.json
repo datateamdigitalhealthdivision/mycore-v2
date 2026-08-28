@@ -3,9 +3,9 @@
   "id": "audiology-aural-rahabilitation-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetAudiologyAuralRehabilitation(MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/audiology-aural-rahabilitation-my-core</tt><p>Malaysia Audiology Aural Rehabilitation</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetAudiologyAuralRehabilitation(MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/audiology-aural-rahabilitation-my-core</tt><p>Malaysia Audiology Aural Rehabilitation</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/audiology-aural-rahabilitation-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/audiology-aural-rahabilitation-my-core",
   "name": "ValueSetAudiologyAuralRehabilitationMyCore",
   "title": "ValueSetAudiologyAuralRehabilitation(MY Core)",
   "status": "active",
@@ -15,7 +15,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/audiology-aural-rehabilitation-my-core",
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/audiology-aural-rehabilitation-my-core",
         "concept": [
           {
             "code": "00",

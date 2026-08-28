@@ -3,9 +3,9 @@
   "id": "immunization-recommendation-status-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetImmunizationRecommendationStatus (MYCore)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/immunization-recommendation-status-my-core</tt><p>Expansion from base value set 'http://hl7.org/fhir/ValueSet/immunization-recommendation-status'</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetImmunizationRecommendationStatus (MYCore)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/immunization-recommendation-status-my-core</tt><p>Expansion from base value set 'http://hl7.org/fhir/ValueSet/immunization-recommendation-status'</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/immunization-recommendation-status-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/immunization-recommendation-status-my-core",
   "identifier": [
     {
       "value": "value-set-immunization-recommendation-status-my-core"
@@ -30,7 +30,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/immunization-recommendation-status-my-core"
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/immunization-recommendation-status-my-core"
       }
     ]
   },

@@ -4,7 +4,7 @@ This directory contains the computable core of the MY Core v2 national implement
 
 ## Package details
 
-- Canonical root: `https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core`
+- Canonical root: `https://myehr.kkmhub.moh.gov.my/fhir/my-core`
 - Package ID: `my.moh.kkmhub.myehr.core`
 - FHIR version: `4.0.1`
 - Initial version target: `2.0.0`

@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "service-provider-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/service-provider-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/service-provider-my-core",
   "version": "2.0.0",
   "name": "ExtensionServiceProviderMyCore",
   "title": "ExtensionServiceProvider (My Core)",
@@ -32,7 +32,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/service-provider-my-core"
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/service-provider-my-core"
       },
       {
         "id": "Extension.value[x]",

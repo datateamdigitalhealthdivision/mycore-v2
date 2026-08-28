@@ -3,7 +3,7 @@
   "id": "my-core-device-example",
   "meta": {
     "profile": [
-      "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Device-my-core"
+      "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Device-my-core"
     ]
   },
   "status": "active",

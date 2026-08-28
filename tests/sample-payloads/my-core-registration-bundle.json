@@ -10,7 +10,7 @@
                                        "id":  "my-core-patient-example",
                                        "meta":  {
                                                     "profile":  [
-                                                                    "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Patient-my-core"
+                                                                    "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Patient-my-core"
                                                                 ]
                                                 },
                                        "identifier":  [
@@ -47,7 +47,7 @@
                                        "id":  "my-core-organization-example",
                                        "meta":  {
                                                     "profile":  [
-                                                                    "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Organization-my-core"
+                                                                    "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Organization-my-core"
                                                                 ]
                                                 },
                                        "identifier":  [
@@ -67,7 +67,7 @@
                                        "id":  "my-core-practitioner-example",
                                        "meta":  {
                                                     "profile":  [
-                                                                    "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Practitioner-my-core"
+                                                                    "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Practitioner-my-core"
                                                                 ]
                                                 },
                                        "identifier":  [
@@ -100,7 +100,7 @@
                                        "id":  "my-core-practitionerrole-example",
                                        "meta":  {
                                                     "profile":  [
-                                                                    "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/PractitionerRole-my-core"
+                                                                    "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/PractitionerRole-my-core"
                                                                 ]
                                                 },
                                        "practitioner":  {
@@ -113,7 +113,7 @@
                                                     {
                                                         "coding":  [
                                                                        {
-                                                                           "system":  "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/practitioner-role-code-my-core",
+                                                                           "system":  "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/practitioner-role-code-my-core",
                                                                            "code":  "MO",
                                                                            "display":  "Medical Officer"
                                                                        }
@@ -124,7 +124,7 @@
                                                          {
                                                              "coding":  [
                                                                             {
-                                                                                "system":  "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/specialty-my-core",
+                                                                                "system":  "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/specialty-my-core",
                                                                                 "code":  "124",
                                                                                 "display":  "General Radiology"
                                                                             }

@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "Observation-respi-rate-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Observation-respi-rate-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Observation-respi-rate-my-core",
   "version": "2.0.0",
   "name": "ObservationRespiRateMyCore",
   "title": "ObservationRespiRate (MY Core)",
@@ -22,7 +22,7 @@
         "path": "Observation.code",
         "binding": {
           "strength": "example",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/observation-vital-signs-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/observation-vital-signs-my-core"
         }
       },
       {
@@ -42,7 +42,7 @@
         "path": "Observation.component.code",
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/observation-vsc-so2-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/observation-vsc-so2-my-core"
         }
       },
       {

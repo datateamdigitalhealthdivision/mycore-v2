@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "education-level-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/education-level-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/education-level-my-core",
   "version": "2.0.0",
   "name": "ExtensionEducationLevelMyCore",
   "title": "ExtensionEducationLevel (MY Core)",
@@ -210,7 +210,7 @@
             "code": "http://hl7.org/fhirpath/System.String"
           }
         ],
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/education-level-my-core",
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/education-level-my-core",
         "mapping": [
           {
             "identity": "rim",
@@ -250,7 +250,7 @@
         ],
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/education-level-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/education-level-my-core"
         },
         "mapping": [
           {
@@ -270,7 +270,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/education-level-my-core"
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/education-level-my-core"
       },
       {
         "id": "Extension.value[x]",
@@ -282,7 +282,7 @@
         ],
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/education-level-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/education-level-my-core"
         }
       }
     ]

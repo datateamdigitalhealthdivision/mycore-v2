@@ -3,9 +3,9 @@
   "id": "state-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetState (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/state-my-core</tt></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetState (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/state-my-core</tt></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/state-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/state-my-core",
   "name": "ValueSetStateMyCore",
   "title": "ValueSetState (MY Core)",
   "status": "active",
@@ -22,7 +22,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/state-my-core"
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/state-my-core"
       }
     ]
   },

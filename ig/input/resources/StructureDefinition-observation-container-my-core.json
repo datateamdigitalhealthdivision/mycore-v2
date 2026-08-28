@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "observation-container-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/observation-container-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/observation-container-my-core",
   "version": "2.0.0",
   "name": "ExtensionObservationContainerMyCore",
   "title": "ExtensionObservationContainer (MY Core)",
@@ -209,7 +209,7 @@
             "code": "http://hl7.org/fhirpath/System.String"
           }
         ],
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/observation-container-my-core",
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/observation-container-my-core",
         "mapping": [
           {
             "identity": "rim",
@@ -268,7 +268,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/observation-container-my-core"
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/observation-container-my-core"
       },
       {
         "id": "Extension.value[x]",

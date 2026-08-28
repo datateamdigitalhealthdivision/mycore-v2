@@ -3,9 +3,9 @@
   "id": "ward-category-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetWardCategory (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/ward-category-my-core</tt><p>Ward Category</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetWardCategory (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/ward-category-my-core</tt><p>Ward Category</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/ward-category-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/ward-category-my-core",
   "identifier": [
     {
       "value": "value-set-diagnosis-role-my-core"
@@ -31,7 +31,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/ward-category-my-core"
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/ward-category-my-core"
       }
     ]
   },

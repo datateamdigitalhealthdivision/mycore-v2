@@ -3,9 +3,9 @@
   "id": "outcome-stress-dass-21-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemOutcomeDass21 (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/outcome-stress-dass-21-my-core</tt><p>Depression and Anxiety Stress Scale Scoring Questionnaire</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemOutcomeDass21 (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/outcome-stress-dass-21-my-core</tt><p>Depression and Anxiety Stress Scale Scoring Questionnaire</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/outcome-stress-dass-21-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/outcome-stress-dass-21-my-core",
   "name": "CodeSystemOutcomeStressDass21MyCore",
   "title": "CodeSystemOutcomeStressDass21 (MY Core)",
   "status": "active",

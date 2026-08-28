@@ -3,9 +3,9 @@
   "id": "practitioner-role-code-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemPractitionerRoleCode (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/practitioner-role-code-my-core</tt><p>Malaysia list of practitioner role</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemPractitionerRoleCode (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/practitioner-role-code-my-core</tt><p>Malaysia list of practitioner role</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/practitioner-role-code-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/practitioner-role-code-my-core",
   "name": "CodeSystemPractitionerRoleCodeMyCore",
   "title": "CodeSystemPractitionerRoleCode (MY Core)",
   "status": "active",

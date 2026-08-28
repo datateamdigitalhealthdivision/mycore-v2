@@ -3,9 +3,9 @@
   "id": "observation-category-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemObservationCategory (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/observation-category-my-core</tt><p>Extension of observation category in Malaysia</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemObservationCategory (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/observation-category-my-core</tt><p>Extension of observation category in Malaysia</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/observation-category-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/observation-category-my-core",
   "name": "CodeSystemObservationCategoryMyCore",
   "title": "CodeSystemObservationCategory (MY Core)",
   "status": "active",

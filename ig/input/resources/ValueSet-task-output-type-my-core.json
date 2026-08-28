@@ -3,9 +3,9 @@
   "id": "task-output-type-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetTaskOutputType (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/task-output-type-my-core</tt><p>Task Output Type Code System</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetTaskOutputType (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/task-output-type-my-core</tt><p>Task Output Type Code System</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/task-output-type-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/task-output-type-my-core",
   "name": "ValueSetTaskOutputTypeMyCore",
   "title": "ValueSetTaskOutputType (MY Core)",
   "status": "active",
@@ -26,7 +26,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/task-output-type-my-core"
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/task-output-type-my-core"
       }
     ]
   },

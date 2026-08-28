@@ -3,9 +3,9 @@
   "id": "developmental-milestone-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetDevelopmentalMilestone (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/developmental-milestone-my-core</tt><p>Developmental Milestone</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetDevelopmentalMilestone (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/developmental-milestone-my-core</tt><p>Developmental Milestone</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/developmental-milestone-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/developmental-milestone-my-core",
   "version": "2.0.0",
   "name": "ValueSetDevelopmentalMilestoneMyCore",
   "title": "ValueSetDevelopmentalMilestone (MY Core)",
@@ -15,7 +15,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/developmental-milestone-my-core"
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/developmental-milestone-my-core"
       },
       {
         "system": "http://snomed.info/sct",

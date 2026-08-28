@@ -3,9 +3,9 @@
   "id": "hospital-physiotherapy-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetHospitalPhysiotherapy (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/hospital-physiotherapy-my-core</tt><p>Malaysia Hospital Physiotherapy</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetHospitalPhysiotherapy (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/hospital-physiotherapy-my-core</tt><p>Malaysia Hospital Physiotherapy</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/hospital-physiotherapy-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/hospital-physiotherapy-my-core",
   "name": "ValueSetHospitalPhysiotherapyMyCore",
   "title": "ValueSetHospitalPhysiotherapy (MY Core)",
   "status": "active",
@@ -15,7 +15,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/hospital-physiotherapy-my-core",
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/hospital-physiotherapy-my-core",
         "concept": [
           {
             "code": "00",

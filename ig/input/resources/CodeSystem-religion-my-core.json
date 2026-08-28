@@ -3,9 +3,9 @@
   "id": "religion-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemReligion (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/religion-my-core</tt><p>Malaysia Common Religion</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemReligion (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/religion-my-core</tt><p>Malaysia Common Religion</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/religion-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/religion-my-core",
   "name": "CodeSystemReligionMyCore",
   "title": "CodeSystemReligion (MY Core)",
   "status": "active",
@@ -20,7 +20,7 @@
     }
   ],
   "description": "Malaysia Common Religion",
-  "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/religion-my-core",
+  "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/religion-my-core",
   "compositional": false,
   "content": "complete",
   "count": 12,

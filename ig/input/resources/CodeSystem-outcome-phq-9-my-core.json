@@ -3,9 +3,9 @@
   "id": "outcome-phq-9-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemOutcomePhq9 (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/outcome-phq-9-my-core</tt><p>PHQ 9 Outcome Questionnaire</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemOutcomePhq9 (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/outcome-phq-9-my-core</tt><p>PHQ 9 Outcome Questionnaire</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/outcome-phq-9-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/outcome-phq-9-my-core",
   "name": "CodeSystemOutcomePhq9MyCore",
   "title": "CodeSystemOutcomePhq9 (MY Core)",
   "status": "active",

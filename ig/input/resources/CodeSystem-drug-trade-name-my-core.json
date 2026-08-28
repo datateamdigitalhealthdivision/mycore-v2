@@ -3,9 +3,9 @@
   "id": "drug-trade-name-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemDrugTradeName (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/drug-trade-name-my-core</tt><p>Drug Trade Name</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemDrugTradeName (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/drug-trade-name-my-core</tt><p>Drug Trade Name</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/drug-trade-name-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/drug-trade-name-my-core",
   "version": "2.0.0",
   "name": "CodeSystemDrugTradeNameMyCore",
   "title": "CodeSystemDrugTradeName (MY Core)",

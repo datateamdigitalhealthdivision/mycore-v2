@@ -3,9 +3,9 @@
   "id": "cancelation-reason-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetCancelationReason (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/cancelation-reason-my-core</tt><p>Appointment cancellation reason</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetCancelationReason (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/cancelation-reason-my-core</tt><p>Appointment cancellation reason</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/cancelation-reason-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/cancelation-reason-my-core",
   "name": "ValueSetCancelationReasonMyCore",
   "title": "ValueSetCancelationReason (MY Core)",
   "status": "active",
@@ -26,7 +26,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/cancellation-reason-my-core"
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/cancellation-reason-my-core"
       }
     ]
   },

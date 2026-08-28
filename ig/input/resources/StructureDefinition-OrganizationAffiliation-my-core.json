@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "OrganizationAffiliation-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/OrganizationAffiliation-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/OrganizationAffiliation-my-core",
   "version": "2.0.0",
   "name": "OrganizationAffiliationMyCore",
   "title": "OrganizationAffiliation (MY Core)",
@@ -489,7 +489,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/transit-centre-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/transit-centre-my-core"
             ]
           }
         ],
@@ -660,7 +660,7 @@
             "code": "http://hl7.org/fhirpath/System.String"
           }
         ],
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/transit-centre-my-core",
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/transit-centre-my-core",
         "mapping": [
           {
             "identity": "rim",
@@ -1249,7 +1249,7 @@
           ],
           "strength": "required",
           "description": "The role the participating organization providing services to the primary organization.",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/service-request-category-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/service-request-category-my-core"
         },
         "mapping": [
           {
@@ -1653,7 +1653,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/transit-centre-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/transit-centre-my-core"
             ]
           }
         ],
@@ -1676,7 +1676,7 @@
         "max": "1",
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/service-request-category-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/service-request-category-my-core"
         }
       }
     ]

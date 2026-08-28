@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "list-period-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/list-period-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/list-period-my-core",
   "name": "ExtensionListPeriodMyCore",
   "title": "ExtensionListPeriod (MY Core)",
   "status": "active",
@@ -208,7 +208,7 @@
             "code": "http://hl7.org/fhirpath/System.String"
           }
         ],
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/list-period-my-core",
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/list-period-my-core",
         "mapping": [
           {
             "identity": "rim",
@@ -264,7 +264,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/list-period-my-core"
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/list-period-my-core"
       },
       {
         "id": "Extension.value[x]",

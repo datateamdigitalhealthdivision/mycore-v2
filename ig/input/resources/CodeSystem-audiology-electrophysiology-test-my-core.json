@@ -3,16 +3,16 @@
   "id": "audiology-electrophysiology-test-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemAudiologyElectrophysiologyTest(MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/audiology-electrophysiology-test-my-core</tt><p>Audiology Electrophysiology Test</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemAudiologyElectrophysiologyTest(MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/audiology-electrophysiology-test-my-core</tt><p>Audiology Electrophysiology Test</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/audiology-electrophysiology-test-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/audiology-electrophysiology-test-my-core",
   "name": "CodeSystemAudiologyElectrophysiologyTestMyCore",
   "title": "CodeSystemAudiologyElectrophysiologyTest(MY Core)",
   "status": "active",
   "date": "2023-07-25T00:23:50.1094378+00:00",
   "publisher": "Malaysia MOH - HIE Steering Committee",
   "description": "Audiology Electrophysiology Test",
-  "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/audiology-electrophysiology-test-my-core",
+  "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/audiology-electrophysiology-test-my-core",
   "compositional": false,
   "content": "complete",
   "count": 16,

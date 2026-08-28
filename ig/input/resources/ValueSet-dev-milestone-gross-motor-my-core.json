@@ -3,11 +3,11 @@
   "id": "dev-milestone-gross-motor-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/dev-milestone-gross-motor-my-core</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/dev-milestone-gross-motor-my-core</tt><p>Dev Milestone</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/dev-milestone-gross-motor-my-core</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/dev-milestone-gross-motor-my-core</tt><p>Dev Milestone</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/dev-milestone-gross-motor-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/dev-milestone-gross-motor-my-core",
   "name": "ValueSetDevMilestoneGrossMotorMyCore",
-  "title": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/dev-milestone-gross-motor-my-core",
+  "title": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/dev-milestone-gross-motor-my-core",
   "status": "active",
   "date": "2023-09-04T01:26:51.2813+00:00",
   "publisher": "Malaysia MOH - HIE Steering Committee",
@@ -15,7 +15,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/dev-milestone-gross-motor-my-core",
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/dev-milestone-gross-motor-my-core",
         "concept": [
           {
             "code": "g6w",

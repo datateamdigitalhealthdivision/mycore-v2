@@ -5,7 +5,7 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>AdverseEventEventMyCore</h2><tt>https://smilecdr.mhn.asia/ValueSet/adverse-event-event-my-core</tt><p>Adverse-event event codes</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/adverse-event-event-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/adverse-event-event-my-core",
   "version": "2.0.0",
   "name": "ValueSetAdverseEventEventMyCore",
   "title": "ValueSetAdverseEventEvent (MY Core)",

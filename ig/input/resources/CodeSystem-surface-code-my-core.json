@@ -3,9 +3,9 @@
   "id": "surface-code-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemSurfaceCode (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/surface-code-my-core</tt><p>SurfaceCode</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemSurfaceCode (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/surface-code-my-core</tt><p>SurfaceCode</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/surface-code-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/surface-code-my-core",
   "name": "CodeSystemSurfaceCodeMyCore",
   "title": "CodeSystemSurfaceCode (MY Core)",
   "status": "active",

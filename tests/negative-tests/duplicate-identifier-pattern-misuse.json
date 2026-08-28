@@ -3,7 +3,7 @@
   "id": "invalid-patient-duplicate-identifier",
   "meta": {
     "profile": [
-      "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Patient-my-core"
+      "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Patient-my-core"
     ]
   },
   "identifier": [

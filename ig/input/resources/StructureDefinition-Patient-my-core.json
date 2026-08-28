@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "Patient-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Patient-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Patient-my-core",
   "version": "2.0.0",
   "name": "PatientMyCore",
   "title": "Patient (MY Core)",
@@ -26,7 +26,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/ethnic-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/ethnic-my-core"
             ]
           }
         ],
@@ -41,7 +41,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/religion-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/religion-my-core"
             ]
           }
         ],
@@ -56,7 +56,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/nationality-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/nationality-my-core"
             ]
           }
         ],
@@ -71,7 +71,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/education-level-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/education-level-my-core"
             ]
           }
         ],
@@ -86,7 +86,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/child-identification-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/child-identification-my-core"
             ]
           }
         ],
@@ -101,7 +101,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/audit-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/audit-my-core"
             ]
           }
         ],
@@ -116,7 +116,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/monthly-household-income-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/monthly-household-income-my-core"
             ]
           }
         ],
@@ -131,7 +131,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/occupation-sector-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/occupation-sector-my-core"
             ]
           }
         ],
@@ -146,7 +146,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/foreigner-type-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/foreigner-type-my-core"
             ]
           }
         ],
@@ -161,7 +161,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/citizenship-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/citizenship-my-core"
             ]
           }
         ],
@@ -176,7 +176,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/system-rating-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/system-rating-my-core"
             ]
           }
         ],
@@ -344,7 +344,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/person-title-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/person-title-my-core"
             ]
           }
         ],
@@ -385,7 +385,7 @@
           {
             "code": "Address",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Address-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Address-my-core"
             ]
           }
         ]
@@ -399,7 +399,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/patient-contact-identifier-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/patient-contact-identifier-my-core"
             ]
           }
         ],
@@ -414,7 +414,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/occupation-sector-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/occupation-sector-my-core"
             ]
           }
         ],
@@ -425,7 +425,7 @@
         "path": "Patient.contact.relationship",
         "binding": {
           "strength": "extensible",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/relationship-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/relationship-my-core"
         }
       },
       {
@@ -437,7 +437,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/person-title-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/person-title-my-core"
             ]
           }
         ]
@@ -449,7 +449,7 @@
           {
             "code": "Address",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Address-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Address-my-core"
             ]
           }
         ]

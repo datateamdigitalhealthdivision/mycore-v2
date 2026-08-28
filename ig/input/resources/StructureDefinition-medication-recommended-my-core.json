@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "medication-recommended-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/medication-recommended-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/medication-recommended-my-core",
   "name": "ExtensionMedicationRecommendedMyCore",
   "title": "ExtensionMedicationRecommended (MY Core)",
   "status": "active",
@@ -55,7 +55,7 @@
         ],
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/phis-uom-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/phis-uom-my-core"
         }
       },
       {
@@ -79,7 +79,7 @@
         ],
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/phis-route-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/phis-route-my-core"
         }
       },
       {
@@ -103,7 +103,7 @@
         ],
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/phis-frequency-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/phis-frequency-my-core"
         }
       },
       {
@@ -133,7 +133,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/medication-recommended-my-core"
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/medication-recommended-my-core"
       },
       {
         "id": "Extension.value[x]",

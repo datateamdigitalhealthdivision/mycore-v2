@@ -3,9 +3,9 @@
   "id": "non-drug-allergy-code-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemNonDrugAllergyCode (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/non-drug-allergy-code-my-core</tt><p>Non Drug Allergy Code</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemNonDrugAllergyCode (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/non-drug-allergy-code-my-core</tt><p>Non Drug Allergy Code</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/non-drug-allergy-code-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/non-drug-allergy-code-my-core",
   "name": "CodeSystemNonDrugAllergyCodeMyCore",
   "title": "CodeSystemNonDrugAllergyCode (MY Core)",
   "status": "active",

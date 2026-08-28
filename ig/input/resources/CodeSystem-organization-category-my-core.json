@@ -3,9 +3,9 @@
   "id": "organization-category-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemOrganizationCategory (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/organization-category-my-core</tt><p>Category of Health Care organization Malaysia</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemOrganizationCategory (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/organization-category-my-core</tt><p>Category of Health Care organization Malaysia</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/organization-category-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/organization-category-my-core",
   "version": "2.0.0",
   "name": "CodeSystemOrganizationCategoryMyCore",
   "title": "CodeSystemOrganizationCategory (MY Core)",
@@ -21,7 +21,7 @@
     }
   ],
   "description": "Category of Health Care organization Malaysia",
-  "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/organization-category-my-core",
+  "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/organization-category-my-core",
   "compositional": false,
   "content": "complete",
   "count": 52,

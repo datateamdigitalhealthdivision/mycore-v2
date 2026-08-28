@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "foreigner-type-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/foreigner-type-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/foreigner-type-my-core",
   "name": "ExtensionForeignerTypeMyCore",
   "status": "draft",
   "date": "2023-06-08T03:08:38.5864399+00:00",
@@ -22,7 +22,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/foreigner-type-my-core"
+        "fixedUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/foreigner-type-my-core"
       },
       {
         "id": "Extension.value[x]",
@@ -34,7 +34,7 @@
         ],
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/foreigner-type-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/foreigner-type-my-core"
         }
       }
     ]

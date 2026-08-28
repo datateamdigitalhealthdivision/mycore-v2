@@ -3,7 +3,7 @@
   "id": "invalid-servicerequest-terminology",
   "meta": {
     "profile": [
-      "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/ServiceRequest-my-core"
+      "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/ServiceRequest-my-core"
     ]
   },
   "status": "active",

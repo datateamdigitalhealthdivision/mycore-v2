@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "SpecimenDefinition-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/SpecimenDefinition-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/SpecimenDefinition-my-core",
   "version": "2.0.0",
   "name": "SpecimenDefinitionMyCore",
   "title": "SpecimenDefinition (MY Core)",
@@ -39,7 +39,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/specimen-combine-sample-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/specimen-combine-sample-my-core"
             ]
           }
         ],
@@ -51,7 +51,7 @@
         "min": 1,
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/specimen-container-type-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/specimen-container-type-my-core"
         }
       }
     ]

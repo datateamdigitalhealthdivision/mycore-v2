@@ -3,9 +3,9 @@
   "id": "monthly-household-income-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemMonthlyHouseholdIncome (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/monthly-household-income-my-core</tt><p>Monthly Household Income</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemMonthlyHouseholdIncome (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/monthly-household-income-my-core</tt><p>Monthly Household Income</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/monthly-household-income-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/monthly-household-income-my-core",
   "version": "2.0.0",
   "name": "CodeSystemMonthlyHouseholdIncomeMyCore",
   "title": "CodeSystemMonthlyHouseholdIncome (MY Core)",

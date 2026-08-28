@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "Practitioner-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Practitioner-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Practitioner-my-core",
   "version": "2.0.0",
   "name": "PractitionerMyCore",
   "title": "Practitioner (MY Core)",
@@ -55,7 +55,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/audit-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/audit-my-core"
             ]
           }
         ],
@@ -160,7 +160,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/person-title-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/person-title-my-core"
             ]
           }
         ]
@@ -178,7 +178,7 @@
           {
             "code": "Address",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Address-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Address-my-core"
             ]
           }
         ]

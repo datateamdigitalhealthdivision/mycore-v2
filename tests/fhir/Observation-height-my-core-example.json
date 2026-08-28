@@ -3,7 +3,7 @@
     "id":  "my-core-height-example",
     "meta":  {
                  "profile":  [
-                                 "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Observation-height-my-core"
+                                 "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Observation-height-my-core"
                              ]
              },
     "status":  "final",

@@ -1,4 +1,4 @@
-Alias: $MYCore = https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core
+Alias: $MYCore = https://myehr.kkmhub.moh.gov.my/fhir/my-core
 Alias: $SandboxR4 = https://sandbox.myehr.kkmhub.moh.gov.my/fhir/r4
 Alias: $SmartConfig = https://sandbox-auth.myehr.kkmhub.moh.gov.my/.well-known/smart-configuration
 Alias: $Terminology = https://terminology.kkmhub.moh.gov.my/fhir

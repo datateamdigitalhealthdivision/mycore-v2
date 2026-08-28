@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "PaymentReconciliation-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/PaymentReconciliation-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/PaymentReconciliation-my-core",
   "name": "PaymentReconciliationMyCore",
   "title": "PaymentReconciliation (MY Core)",
   "status": "active",
@@ -58,7 +58,7 @@
             }
           ],
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/payment-type-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/payment-type-my-core"
         }
       }
     ]

@@ -1,5 +1,5 @@
 id: my.moh.kkmhub.myehr.core
-canonical: https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core
+canonical: https://myehr.kkmhub.moh.gov.my/fhir/my-core
 name: MYCoreImplementationGuide
 title: Malaysian National MY Core v2 Implementation Guide
 description: Draft national baseline FHIR R4 implementation guide for Malaysia, redeveloped from the legacy MY Core artefacts into the MyEHR publication model.
@@ -79,7 +79,7 @@ parameters:
   path-resource:
     - input/resources
   special-url-base:
-    - https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core
+    - https://myehr.kkmhub.moh.gov.my/fhir/my-core
   show-inherited-invariants: false
   usage-stats-opt-out: true
   excludettl: true

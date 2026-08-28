@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "Observation-developmental-milestone-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Observation-developmental-milestone-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Observation-developmental-milestone-my-core",
   "version": "2.0.0",
   "name": "ObservationDevelopmentalMilestoneMyCore",
   "title": "ObservationDevelopmentalMilestone (MY Core)",
@@ -4669,7 +4669,7 @@
           ],
           "strength": "required",
           "description": "Codes identifying names of simple observations.",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/developmental-milestone-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/developmental-milestone-my-core"
         },
         "mapping": [
           {
@@ -5287,7 +5287,7 @@
           ],
           "strength": "required",
           "description": "Codes identifying names of simple observations.",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/developmental-milestone-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/developmental-milestone-my-core"
         },
         "mapping": [
           {
@@ -5981,7 +5981,7 @@
         "isSummary": true,
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/dev-milestone-gross-motor-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/dev-milestone-gross-motor-my-core"
         },
         "mapping": [
           {
@@ -6491,7 +6491,7 @@
           ],
           "strength": "required",
           "description": "Codes identifying names of simple observations.",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/developmental-milestone-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/developmental-milestone-my-core"
         },
         "mapping": [
           {
@@ -7185,7 +7185,7 @@
         "isSummary": true,
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/dev-milestone-fine-motor-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/dev-milestone-fine-motor-my-core"
         },
         "mapping": [
           {
@@ -7695,7 +7695,7 @@
           ],
           "strength": "required",
           "description": "Codes identifying names of simple observations.",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/developmental-milestone-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/developmental-milestone-my-core"
         },
         "mapping": [
           {
@@ -8389,7 +8389,7 @@
         "isSummary": true,
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/dev-milestone-speech-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/dev-milestone-speech-my-core"
         },
         "mapping": [
           {
@@ -8899,7 +8899,7 @@
           ],
           "strength": "required",
           "description": "Codes identifying names of simple observations.",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/developmental-milestone-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/developmental-milestone-my-core"
         },
         "mapping": [
           {
@@ -9593,7 +9593,7 @@
         "isSummary": true,
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/dev-milestone-social-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/dev-milestone-social-my-core"
         },
         "mapping": [
           {
@@ -11050,7 +11050,7 @@
         "path": "Observation.component.code",
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/developmental-milestone-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/developmental-milestone-my-core"
         }
       },
       {
@@ -11063,7 +11063,7 @@
         "path": "Observation.component.code",
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/developmental-milestone-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/developmental-milestone-my-core"
         }
       },
       {
@@ -11082,7 +11082,7 @@
         ],
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/dev-milestone-gross-motor-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/dev-milestone-gross-motor-my-core"
         }
       },
       {
@@ -11095,7 +11095,7 @@
         "path": "Observation.component.code",
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/developmental-milestone-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/developmental-milestone-my-core"
         }
       },
       {
@@ -11114,7 +11114,7 @@
         ],
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/dev-milestone-fine-motor-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/dev-milestone-fine-motor-my-core"
         }
       },
       {
@@ -11127,7 +11127,7 @@
         "path": "Observation.component.code",
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/developmental-milestone-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/developmental-milestone-my-core"
         }
       },
       {
@@ -11147,7 +11147,7 @@
         ],
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/dev-milestone-speech-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/dev-milestone-speech-my-core"
         }
       },
       {
@@ -11160,7 +11160,7 @@
         "path": "Observation.component.code",
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/developmental-milestone-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/developmental-milestone-my-core"
         }
       },
       {
@@ -11180,7 +11180,7 @@
         ],
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/dev-milestone-social-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/dev-milestone-social-my-core"
         }
       },
       {

@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "ImmunizationRecommendation-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/ImmunizationRecommendation-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/ImmunizationRecommendation-my-core",
   "version": "2.0.0",
   "name": "ImmunizationRecommendation",
   "status": "active",
@@ -997,7 +997,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/extension-booster-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/extension-booster-my-core"
             ]
           }
         ],
@@ -1154,7 +1154,7 @@
           ],
           "strength": "required",
           "description": "The type of vaccine administered.",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/vaccine-code-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/vaccine-code-my-core"
         },
         "mapping": [
           {
@@ -1392,7 +1392,7 @@
           ],
           "strength": "preferred",
           "description": "The patient's status with respect to a vaccination protocol.",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/immunization-recommendation-status-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/immunization-recommendation-status-my-core"
         },
         "mapping": [
           {
@@ -2236,7 +2236,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/extension-booster-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/extension-booster-my-core"
             ]
           }
         ],
@@ -2249,7 +2249,7 @@
         "max": "1",
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/vaccine-code-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/vaccine-code-my-core"
         }
       },
       {
@@ -2257,7 +2257,7 @@
         "path": "ImmunizationRecommendation.recommendation.forecastStatus",
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/immunization-recommendation-status-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/immunization-recommendation-status-my-core"
         }
       }
     ]

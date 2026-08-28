@@ -1,6 +1,6 @@
 {
   "package-id": "my.moh.kkmhub.myehr.core",
-  "canonical": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core",
+  "canonical": "https://myehr.kkmhub.moh.gov.my/fhir/my-core",
   "title": "Malaysian National MY Core v2 Implementation Guide",
   "introduction": "Draft national baseline FHIR R4 implementation guide for Malaysia under the MyEHR publication model.",
   "list": [

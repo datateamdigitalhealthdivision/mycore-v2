@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "observation-panel-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/observation-panel-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/observation-panel-my-core",
   "name": "ValueSetObservationPanelMyCore",
   "title": "ValueSetObservationPanel (MY Core)",
   "status": "active",
@@ -35,7 +35,7 @@
         ]
       },
       {
-        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/observation-panel-my-core",
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/observation-panel-my-core",
         "concept": [
           {
             "code": "0001",

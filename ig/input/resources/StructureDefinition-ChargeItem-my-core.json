@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "ChargeItem-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/ChargeItem-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/ChargeItem-my-core",
   "name": "ChargeItemMyCore",
   "title": "ChargeItem (MY Core)",
   "status": "active",
@@ -26,7 +26,7 @@
           ],
           "strength": "required",
           "description": "Set of codes that can be used for billing purposes.",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/revenue-code-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/revenue-code-my-core"
         }
       }
     ]

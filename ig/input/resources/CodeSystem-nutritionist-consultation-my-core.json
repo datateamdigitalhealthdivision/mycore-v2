@@ -3,9 +3,9 @@
   "id": "nutritionist-consultation-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemNutritionistConsultation (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/nutritionist-consultation-my-core</tt><p>Nutritionist Consultation</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemNutritionistConsultation (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/nutritionist-consultation-my-core</tt><p>Nutritionist Consultation</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/nutritionist-consultation-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/nutritionist-consultation-my-core",
   "name": "CodeSystemNutritionistConsultationMyCore",
   "title": "CodeSystemNutritionistConsultation (MY Core)",
   "status": "active",

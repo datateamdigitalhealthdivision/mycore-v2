@@ -3,9 +3,9 @@
   "id": "imaging-region-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetImagingRegion (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/imaging-region-my-core</tt><p>Malaysia imaging region PIK code</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetImagingRegion (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/imaging-region-my-core</tt><p>Malaysia imaging region PIK code</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/imaging-region-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/imaging-region-my-core",
   "name": "ValueSetImagingRegionMyCore",
   "title": "ValueSetImagingRegion (MY Core)",
   "status": "active",
@@ -26,7 +26,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/imaging-region-my-core"
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/imaging-region-my-core"
       }
     ]
   },

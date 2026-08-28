@@ -3,9 +3,9 @@
   "id": "monthly-household-income-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetMonthlyHouseholdIncome (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/monthly-household-income-my-core</tt><p>Monthly Household Income</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetMonthlyHouseholdIncome (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/monthly-household-income-my-core</tt><p>Monthly Household Income</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/monthly-household-income-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/monthly-household-income-my-core",
   "name": "ValueSetMonthlyHouseholdIncomeMyCore",
   "title": "ValueSetMonthlyHouseholdIncome (MY Core)",
   "status": "active",
@@ -14,7 +14,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/monthly-househole-income-my-core"
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/monthly-househole-income-my-core"
       }
     ]
   },

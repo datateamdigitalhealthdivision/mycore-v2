@@ -3,9 +3,9 @@
   "id": "referral-form-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemReferralForm (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/referral-form-my-core</tt><p>Type of referral form</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemReferralForm (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/referral-form-my-core</tt><p>Type of referral form</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/referral-form-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/referral-form-my-core",
   "version": "2.0.0",
   "name": "CodeSystemReferralFormMyCore",
   "title": "CodeSystemReferralForm (MY Core)",

@@ -3,9 +3,9 @@
   "id": "task-business-status-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetTaskBusinessStatusMyCore (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/task-business-status-my-core</tt><p>Codes indicating the type of action that is expected to be performed</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetTaskBusinessStatusMyCore (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/task-business-status-my-core</tt><p>Codes indicating the type of action that is expected to be performed</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/task-business-status-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/task-business-status-my-core",
   "name": "ValueSetTaskBusinessStatusMyCore",
   "title": "ValueSetTaskBusinessStatus (MY Core)",
   "status": "active",
@@ -26,7 +26,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/task-business-status-my-core"
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/task-business-status-my-core"
       }
     ]
   },

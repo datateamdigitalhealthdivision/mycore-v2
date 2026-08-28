@@ -3,9 +3,9 @@
   "id": "drug-cautionary-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemDrugCautionary (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/drug-cautionary-my-core</tt><p>Drug Cautionary</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemDrugCautionary (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/drug-cautionary-my-core</tt><p>Drug Cautionary</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/drug-cautionary-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/drug-cautionary-my-core",
   "version": "2.0.0",
   "name": "CodeSystemDrugCautionaryMyCore",
   "title": "CodeSystemDrugCautionary (MY Core)",

@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "Invoice-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Invoice-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Invoice-my-core",
   "name": "InvoiceMyCore",
   "title": "Invoice (MY Core)",
   "status": "active",
@@ -30,7 +30,7 @@
         "path": "Invoice.lineItem.priceComponent.code",
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/revenue-code-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/revenue-code-my-core"
         }
       },
       {

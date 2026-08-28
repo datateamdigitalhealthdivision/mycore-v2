@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "Observation-diastolic-bp-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Observation-diastolic-bp-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Observation-diastolic-bp-my-core",
   "version": "2.0.0",
   "name": "ObservationDiastolicBpMyCore",
   "title": "ObservationDiastolicBp (My Core)",
@@ -1010,7 +1010,7 @@
           ],
           "strength": "example",
           "description": "Codes identifying names of simple observations.",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/observation-vital-signs-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/observation-vital-signs-my-core"
         },
         "mapping": [
           {
@@ -3904,7 +3904,7 @@
           ],
           "strength": "required",
           "description": "Codes identifying names of simple observations.",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/observation-vsc-bp-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/observation-vsc-bp-my-core"
         },
         "mapping": [
           {
@@ -4204,7 +4204,7 @@
         "path": "Observation.code",
         "binding": {
           "strength": "example",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/observation-vital-signs-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/observation-vital-signs-my-core"
         }
       },
       {
@@ -4236,7 +4236,7 @@
         "path": "Observation.component.code",
         "binding": {
           "strength": "required",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/observation-vsc-bp-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/observation-vsc-bp-my-core"
         }
       },
       {

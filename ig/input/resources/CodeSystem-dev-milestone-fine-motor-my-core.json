@@ -3,9 +3,9 @@
   "id": "dev-milestone-fine-motor-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemDevMilestoneFineMotor (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/dev-milestone-Fine-motor-my-core</tt><p>Developmental MIlestone Fine Motor</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemDevMilestoneFineMotor (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/dev-milestone-Fine-motor-my-core</tt><p>Developmental MIlestone Fine Motor</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/dev-milestone-fine-motor-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/dev-milestone-fine-motor-my-core",
   "name": "CodeSystemDevMilestoneFineMotorMyCore",
   "title": "CodeSystemDevMilestoneFineMotor (MY Core)",
   "status": "active",

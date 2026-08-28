@@ -3,9 +3,9 @@
   "id": "district-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Value Set District My Core</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/district-my-core</tt><p>Malaysia District List Value set</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Value Set District My Core</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/district-my-core</tt><p>Malaysia District List Value set</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/district-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/district-my-core",
   "name": "ValueSetDistrictMyCore",
   "title": "ValueSetDistrict (MY Core)",
   "status": "active",
@@ -23,7 +23,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/district-my-core"
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/district-my-core"
       }
     ]
   },

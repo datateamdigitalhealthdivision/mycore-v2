@@ -3,7 +3,7 @@
   "id": "my-core-practitionerrole-example",
   "meta": {
     "profile": [
-      "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/PractitionerRole-my-core"
+      "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/PractitionerRole-my-core"
     ]
   },
   "practitioner": {
@@ -16,7 +16,7 @@
     {
       "coding": [
         {
-          "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/practitioner-role-code-my-core",
+          "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/practitioner-role-code-my-core",
           "code": "MO",
           "display": "Medical Officer"
         }
@@ -27,7 +27,7 @@
     {
       "coding": [
         {
-          "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/specialty-my-core",
+          "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/specialty-my-core",
           "code": "124",
           "display": "General Radiology"
         }

@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "AllergyIntolerance-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/AllergyIntolerance-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/AllergyIntolerance-my-core",
   "version": "2.0.0",
   "name": "AllergyIntoleranceMyCore",
   "title": "AllergyIntolerance (MY Core)",
@@ -30,7 +30,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/formulary-boolean-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/formulary-boolean-my-core"
             ]
           }
         ],
@@ -48,7 +48,7 @@
         "min": 1,
         "binding": {
           "strength": "example",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/allergy-code-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/allergy-code-my-core"
         }
       },
       {
@@ -76,7 +76,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/formulary-boolean-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/formulary-boolean-my-core"
             ]
           }
         ],
@@ -87,7 +87,7 @@
         "path": "AllergyIntolerance.reaction.substance",
         "binding": {
           "strength": "example",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/drug-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/drug-my-core"
         }
       },
       {
@@ -95,7 +95,7 @@
         "path": "AllergyIntolerance.reaction.manifestation",
         "binding": {
           "strength": "example",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/allergy-manifestation-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/allergy-manifestation-my-core"
         }
       }
     ]

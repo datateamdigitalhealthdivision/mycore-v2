@@ -3,9 +3,9 @@
   "id": "ward-specialty-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemWardSpecialty (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/ward-specialty-my-core</tt><p>Appointment cancellation reason</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemWardSpecialty (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/ward-specialty-my-core</tt><p>Appointment cancellation reason</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/ward-specialty-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/ward-specialty-my-core",
   "name": "CodeSystemWardSpecialtyMyCore",
   "title": "CodeSystemWardSpecialty (MY Core)",
   "status": "active",

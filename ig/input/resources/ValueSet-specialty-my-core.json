@@ -3,9 +3,9 @@
   "id": "specialty-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetSpecialty (MYCore)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/specialty-my-core</tt><p>Specialty My Core</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetSpecialty (MYCore)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/specialty-my-core</tt><p>Specialty My Core</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/specialty-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/specialty-my-core",
   "name": "ValueSetSpecialtyMyCore",
   "title": "ValueSetSpecialty (MYCore)",
   "status": "active",
@@ -26,7 +26,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/specialty-my-core"
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/specialty-my-core"
       }
     ]
   },

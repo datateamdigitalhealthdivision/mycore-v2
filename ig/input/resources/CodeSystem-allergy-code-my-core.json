@@ -3,9 +3,9 @@
   "id": "allergy-code-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemAllergyCode (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/allergy-code-my-core</tt><p>Allergy Code</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemAllergyCode (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/allergy-code-my-core</tt><p>Allergy Code</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/allergy-code-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/allergy-code-my-core",
   "name": "CodeSystemAllergyCodeMyCore",
   "title": "CodeSystemAllergyCode (MY Core)",
   "status": "active",

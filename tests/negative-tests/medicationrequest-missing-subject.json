@@ -3,7 +3,7 @@
   "id": "invalid-medicationrequest-missing-subject",
   "meta": {
     "profile": [
-      "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/MedicationRequest-my-core"
+      "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/MedicationRequest-my-core"
     ]
   },
   "status": "active",

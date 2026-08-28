@@ -3,7 +3,7 @@
   "id": "my-core-practitioner-example",
   "meta": {
     "profile": [
-      "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Practitioner-my-core"
+      "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Practitioner-my-core"
     ]
   },
   "identifier": [

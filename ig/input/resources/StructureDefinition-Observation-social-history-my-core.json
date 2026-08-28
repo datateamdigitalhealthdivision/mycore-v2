@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "Observation-social-history-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Observation-social-history-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Observation-social-history-my-core",
   "version": "2.0.0",
   "name": "ObservationPregnancyMyCore",
   "title": "ObservationSocialHistory (MY Core)",
@@ -1624,7 +1624,7 @@
           ],
           "strength": "example",
           "description": "Codes identifying names of simple observations.",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/observation-social-history-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/observation-social-history-my-core"
         },
         "mapping": [
           {
@@ -4223,7 +4223,7 @@
         "path": "Observation.code",
         "binding": {
           "strength": "example",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/observation-social-history-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/observation-social-history-my-core"
         }
       },
       {

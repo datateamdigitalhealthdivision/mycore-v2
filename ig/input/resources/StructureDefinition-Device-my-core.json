@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "Device-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Device-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Device-my-core",
   "version": "2.0.0",
   "name": "DeviceMyCore",
   "title": "Device (MY Core)",
@@ -58,7 +58,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Patient-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Patient-my-core"
             ]
           }
         ]
@@ -68,6 +68,6 @@
   "experimental": false,
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Device (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Device-my-core</tt><p>Patient-associated device profile aligned to the IPS device section for implants, prostheses, and clinically relevant assistive devices.</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Device (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Device-my-core</tt><p>Patient-associated device profile aligned to the IPS device section for implants, prostheses, and clinically relevant assistive devices.</p></div>"
   }
 }

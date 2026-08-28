@@ -3,9 +3,9 @@
   "id": "condition-category-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemConditionCategory (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/condition-category-my-core</tt><p>Code System condition category in Malaysia</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemConditionCategory (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/condition-category-my-core</tt><p>Code System condition category in Malaysia</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/condition-category-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/condition-category-my-core",
   "name": "CodeSystemConditionCategoryMyCore",
   "title": "CodeSystemConditionCategory (MY Core)",
   "status": "active",

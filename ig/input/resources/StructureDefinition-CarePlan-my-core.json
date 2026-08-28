@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "CarePlan-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/CarePlan-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/CarePlan-my-core",
   "version": "2.0.0",
   "name": "CarePlanMyCore",
   "title": "CarePlan (MY Core)",

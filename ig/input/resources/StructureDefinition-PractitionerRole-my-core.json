@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "PractitionerRole-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/PractitionerRole-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/PractitionerRole-my-core",
   "version": "2.0.0",
   "name": "PractitionerRoleMyCore",
   "title": "PractitionerRole (MY Core)",
@@ -46,7 +46,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/audit-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/audit-my-core"
             ]
           }
         ],
@@ -62,7 +62,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/pr-drug-classification-my-core"
+              "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/pr-drug-classification-my-core"
             ]
           }
         ],
@@ -88,7 +88,7 @@
         "binding": {
           "strength": "example",
           "description": "The role a person plays representing an organization",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/practitioner-role-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/practitioner-role-my-core"
         }
       },
       {
@@ -98,7 +98,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "extensible",
-          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/specialty-my-core"
+          "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/specialty-my-core"
         }
       }
     ]

@@ -3,9 +3,9 @@
   "id": "observation-vital-signs-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetObservationVitalSigns (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/observation-vital-signs-my-core</tt><p>Value Set for Observation vital sign panel LOINC 85353-1</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSetObservationVitalSigns (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/observation-vital-signs-my-core</tt><p>Value Set for Observation vital sign panel LOINC 85353-1</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/ValueSet/observation-vital-signs-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/observation-vital-signs-my-core",
   "identifier": [
     {
       "value": "value-set-observation-vital-signs-note-my-core"

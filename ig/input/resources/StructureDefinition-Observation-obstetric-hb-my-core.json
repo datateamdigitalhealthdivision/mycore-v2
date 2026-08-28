@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "Observation-obstetric-hb-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Observation-obstetric-hb-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Observation-obstetric-hb-my-core",
   "version": "2.0.0",
   "name": "ObservationObstetricHbMyCore",
   "title": "ObservationObstetricHb (MY Core)",

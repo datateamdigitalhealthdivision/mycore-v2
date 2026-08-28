@@ -3,9 +3,9 @@
   "id": "encounter-outcome-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemEncounterOutcome (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/encounter-outcome-my-core</tt><p>Encounter outcome</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemEncounterOutcome (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/encounter-outcome-my-core</tt><p>Encounter outcome</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/encounter-outcome-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/encounter-outcome-my-core",
   "name": "CodeSystemEncounterOutcomeMyCore",
   "title": "CodeSystemEncounterOutcome (MY Core)",
   "status": "active",

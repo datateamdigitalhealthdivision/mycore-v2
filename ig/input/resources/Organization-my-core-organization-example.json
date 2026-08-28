@@ -3,7 +3,7 @@
   "id": "my-core-organization-example",
   "meta": {
     "profile": [
-      "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/StructureDefinition/Organization-my-core"
+      "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/Organization-my-core"
     ]
   },
   "identifier": [

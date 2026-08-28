@@ -3,9 +3,9 @@
   "id": "diagnosis-role-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemDiagnosisRole (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/diagnosis-role-my-core</tt><p>SMRP Diagnosis Code</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemDiagnosisRole (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/diagnosis-role-my-core</tt><p>SMRP Diagnosis Code</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/diagnosis-role-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/diagnosis-role-my-core",
   "version": "2.0.0",
   "name": "CodeSystemDiagnosisRoleMyCore",
   "title": "CodeSystemDiagnosisRole (MY Core)",

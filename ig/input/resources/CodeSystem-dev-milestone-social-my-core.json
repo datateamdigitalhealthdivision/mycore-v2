@@ -3,9 +3,9 @@
   "id": "dev-milestone-social-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemDevMilestoneSocial (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/dev-milestone-social-my-core</tt><p>Developmental Milestone Social Motor</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemDevMilestoneSocial (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/dev-milestone-social-my-core</tt><p>Developmental Milestone Social Motor</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/ImplementationGuide/my-core/CodeSystem/dev-milestone-social-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/dev-milestone-social-my-core",
   "name": "CodeSystemDevMilestoneSocialMyCore",
   "title": "CodeSystemDevMilestoneSocial (MY Core)",
   "status": "active",
