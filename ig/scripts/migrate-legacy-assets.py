@@ -9,9 +9,12 @@ from pathlib import Path
 # out-of-tree test runs. Was previously hardcoded to a Windows path, which on
 # Linux silently created a literal 'C:\codex\mycore-v2' directory under ig/.
 ROOT = Path(os.environ.get('MYCORE_ROOT') or Path(__file__).resolve().parents[2])
+IG_ROOT = ROOT / 'ig'
 SOURCE_ROOT = ROOT / 'source' / 'extracted' / 'my-core-legacy' / 'MY Core IG'
 TERM_ROOT = ROOT / 'source' / 'extracted' / 'terminology-extracts' / 'terminology_extracts'
-DEST_ROOT = ROOT / 'ig' / 'input' / 'resources'
+DEST_ROOT = IG_ROOT / 'input' / 'resources-legacy-migrated'
+FSH_ROOT = IG_ROOT / 'input' / 'fsh'
+EXCLUSION_FILE = FSH_ROOT / 'migration-exclusions.txt'
 MAPPINGS_ROOT = ROOT / 'mappings'
 EXAMPLES_ROOT = ROOT / 'tests' / 'fhir'
 PAYLOADS_ROOT = ROOT / 'tests' / 'sample-payloads'
@@ -61,6 +64,29 @@ if manifest_path.exists():
     with manifest_path.open(newline='', encoding='utf-8') as handle:
         for row in csv.DictReader(handle):
             manifest_lookup[row['resource_id']] = row
+
+# Exclusion entries may be either:
+#   ValueSet/monthly-household-income-my-core   -> type-qualified (preferred)
+#   monthly-household-income-my-core            -> bare id, matches EVERY resource
+#                                                  type sharing that id (legacy form)
+# MY Core routinely gives a CodeSystem and its ValueSet the same id, so the bare
+# form suppresses siblings that were never promoted to FSH. Prefer the qualified
+# form; the bare form is retained for backward compatibility.
+EXCLUDED_RESOURCE_IDS = set()
+EXCLUDED_TYPED_RESOURCES = set()
+if EXCLUSION_FILE.exists():
+    for line in EXCLUSION_FILE.read_text(encoding='utf-8').splitlines():
+        token = line.split('#', 1)[0].strip()
+        if not token:
+            continue
+        if '/' in token:
+            resource_type, _, resource_id = token.partition('/')
+            resource_type = resource_type.strip()
+            resource_id = resource_id.strip()
+            if resource_type and resource_id:
+                EXCLUDED_TYPED_RESOURCES.add((resource_type, resource_id))
+        else:
+            EXCLUDED_RESOURCE_IDS.add(token)
 
 
 def convert_string(value: str) -> str:
@@ -209,6 +235,14 @@ def update_action(action: str, marker: str) -> str:
     return marker if action == 'canonicalised' else f'{action}+{marker}'
 
 
+def is_fsh_owned(resource_id: str, resource_type: str = '') -> bool:
+    if not resource_id:
+        return False
+    if resource_id in EXCLUDED_RESOURCE_IDS:
+        return True
+    return bool(resource_type) and (resource_type, resource_id) in EXCLUDED_TYPED_RESOURCES
+
+
 def canonical_tail(resource: dict) -> str:
     url = resource.get('url', '')
     resource_type = resource.get('resourceType', '')
@@ -245,6 +279,8 @@ def write_json(path: Path, resource: dict) -> None:
 
 
 def publish_resource(resource: dict, source_path: str, processed_rows: list, legacy_id: str | None = None) -> None:
+    if is_fsh_owned(resource.get('id', ''), resource.get('resourceType', '')):
+        return
     out_path = DEST_ROOT / f"{resource['resourceType']}-{resource['id']}.json"
     write_json(out_path, resource)
     processed_rows.append({
@@ -787,6 +823,15 @@ for file_path in sorted(SOURCE_ROOT.rglob('*.json')):
             resource['id'] = normalised_id
             action = update_action(action, 'id-normalised')
 
+    excluded = False
+    if publish and is_fsh_owned(resource.get('id', ''), resource.get('resourceType', '')):
+        excluded = True
+        action = update_action(action, 'excluded-fsh-owned')
+        notes = append_note(
+            notes,
+            'Excluded from regenerated JSON output because this resource is listed in ig/input/fsh/migration-exclusions.txt and is treated as FSH-owned.',
+        )
+
     new_url = resource.get('url', '')
 
     mapping_rows.append({
@@ -808,6 +853,9 @@ for file_path in sorted(SOURCE_ROOT.rglob('*.json')):
             'publication_status': 'source-preserved-not-published',
             'notes': notes,
         })
+        continue
+
+    if excluded:
         continue
 
     publish_resource(resource, relative_path, processed_rows, legacy_id=legacy_id)

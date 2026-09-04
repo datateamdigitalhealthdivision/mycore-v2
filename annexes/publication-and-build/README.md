@@ -5,9 +5,14 @@ This annex explains how the repository is built and published.
 ## Build flow
 
 1. preserve the legacy zip sources under `source/`
-2. migrate and normalise the legacy artefacts into `ig/input/resources`
-3. generate the implementation guide with SUSHI and the HL7 IG Publisher
-4. render the draft publication through GitHub Pages
+2. migrate and normalise the legacy artefacts into
+   `ig/input/resources-legacy-migrated/`
+3. author and maintain owned conformance content in `ig/input/fsh/`
+4. compile the FSH source into `ig/fsh-generated/resources/` with SUSHI
+5. fail the build if migrated JSON and FSH-generated content collide on id or
+   canonical URL
+6. generate the implementation guide with the HL7 IG Publisher
+7. render the draft publication through GitHub Pages
 
 ## Reproducibility measures
 

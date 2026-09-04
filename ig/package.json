@@ -8,6 +8,7 @@
     "build:ps": "powershell -ExecutionPolicy Bypass -File ./scripts/build.ps1"
   },
   "devDependencies": {
+    "gofsh": "^2.6.1",
     "fsh-sushi": "^3.18.1"
   }
 }

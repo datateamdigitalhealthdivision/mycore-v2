@@ -1,0 +1,17 @@
+# Resources listed here are no longer regenerated into
+# ig/input/resources-legacy-migrated/.
+#
+# Preferred form is type-qualified:
+#     ValueSet/monthly-household-income-my-core
+# A bare resource id is still accepted for backward compatibility, but it
+# suppresses EVERY resource type sharing that id. MY Core routinely gives a
+# CodeSystem and its ValueSet the same id, so the bare form can silently drop a
+# CodeSystem that was never promoted to FSH. Prefer the qualified form.
+#
+# Add one entry per line after converting that resource into FSH and promoting
+# it into ig/input/fsh/.
+ValueSet/task-status-lab-my-core
+ValueSet/quick-scheduling-my-core
+ValueSet/occupational-sector-my-core
+ValueSet/procedure-code-my-core
+ValueSet/monthly-household-income-my-core
