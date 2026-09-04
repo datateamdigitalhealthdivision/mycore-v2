@@ -1,10 +1,13 @@
-# Malaysian National MY Core v2 Implementation Guide
+# Malaysian National MY Core Implementation Guide
 
-This publication is the draft computable FHIR R4 core of the national MY Core v2 repository. It is intended for implementation partners, integrators, testers, and governance stakeholders who need a coherent national baseline rather than a loose artefact dump.
+Version 2.1 narrows this guide to three use cases - ADT notes, laboratory reports including the EMR to LIS integration, and radiology reports including the EMR to RIS/PACS integration - and publishes the national terminology they bind to.
+
+This publication is the draft computable FHIR R4 core of the national MY Core repository. It is intended for implementation partners, integrators, testers, and governance stakeholders who need a coherent national baseline rather than a loose artefact dump.
 
 ## How to use this publication
 
-- start with [National Overview](overview.html), [Governance And Scope](governance-and-scope.html), and [Conformance Model](conformance-model.html)
+- start with [Use Cases (v2.1)](use-cases-v21.html) - what this release covers and what it deliberately leaves out
+- then [National Overview](overview.html), [Governance And Scope](governance-and-scope.html), and [Conformance Model](conformance-model.html)
 - use [Profile Families](profile-families.html) to understand how the baseline is grouped
 - use [Terminology And Identifiers](terminology-and-identifiers.html), [Security And Audit](security-and-audit.html), and [Conformance Testing](conformance-testing.html) to align implementation detail
 - review [Migration From v1](migration-from-v1.html) and [Endpoints And Publication Model](endpoints-and-publication-model.html) before carrying legacy assumptions into a new build

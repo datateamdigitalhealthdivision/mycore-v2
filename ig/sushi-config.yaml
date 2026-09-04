@@ -64,6 +64,7 @@ pages:
 menu:
   Home: index.html
   National Overview: overview.html
+  Use Cases: use-cases-v21.html
   Governance And Scope: governance-and-scope.html
   Conformance Model: conformance-model.html
   Profile Families: profile-families.html
