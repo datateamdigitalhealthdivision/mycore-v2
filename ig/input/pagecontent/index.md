@@ -1,4 +1,4 @@
-﻿# Malaysian National MY Core v2 Implementation Guide
+# Malaysian National MY Core v2 Implementation Guide
 
 This publication is the draft computable FHIR R4 core of the national MY Core v2 repository. It is intended for implementation partners, integrators, testers, and governance stakeholders who need a coherent national baseline rather than a loose artefact dump.
 
@@ -17,11 +17,11 @@ This guide is the computable publication core of a single repository that also p
 ## Repository sources
 
 - [Repository root](https://github.com/datateamdigitalhealthdivision/mycore-v2)
-- [National chapters in docs/](https://github.com/datateamdigitalhealthdivision/mycore-v2/tree/main/docs)
-- [Technical annexes in nnexes/](https://github.com/datateamdigitalhealthdivision/mycore-v2/tree/main/annexes)
-- [Tests in 	ests/](https://github.com/datateamdigitalhealthdivision/mycore-v2/tree/main/tests)
-- [Mappings in mappings/](https://github.com/datateamdigitalhealthdivision/mycore-v2/tree/main/mappings)
+- [National chapters in `docs/`](https://github.com/datateamdigitalhealthdivision/mycore-v2/tree/main/docs)
+- [Technical annexes in `annexes/`](https://github.com/datateamdigitalhealthdivision/mycore-v2/tree/main/annexes)
+- [Tests in `tests/`](https://github.com/datateamdigitalhealthdivision/mycore-v2/tree/main/tests)
+- [Mappings in `mappings/`](https://github.com/datateamdigitalhealthdivision/mycore-v2/tree/main/mappings)
 
 ## Draft notice
 
-Some endpoint assignments, namespace details, and terminology governance decisions remain PROVISIONAL or TO BE CONFIRMED. Those areas are marked explicitly.
+Some endpoint assignments, namespace details, and terminology governance decisions remain `PROVISIONAL` or `TO BE CONFIRMED`. Those areas are marked explicitly.

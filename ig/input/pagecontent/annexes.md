@@ -1,4 +1,4 @@
-﻿# Technical Annexes
+# Technical Annexes
 
 The annexes complement the national chapters by recording the identifier, terminology, publication, programme-content, and reconciliation context required to maintain the guide responsibly.
 
