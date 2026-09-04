@@ -1,0 +1,33 @@
+id,area,profile_or_artefact,element,decision,basis,confidence,needs_review
+D-001,spine,MyCorePatient,identifier,"Slice into mykad / mykid / passport / foreignWorker / mrn under id.kkmhub.moh.gov.my namespaces","MySejahtera API Gateway v7.0 uses myvas.moh.gov.my identifier namespaces; radiology conformance guide already publishes 8 NamingSystems",high,"Confirm the namespace host: id.kkmhub.moh.gov.my (radiology guide) vs myvas.moh.gov.my (API gateway operational)"
+D-002,spine,MyCorePatient,identifier[mykad].type,"Fixed to v2-0203#NI","HL7 v2 table 0203 national identifier; standard practice in AU Core and US Core",high,no
+D-003,spine,MyCorePatient,birthDate,"Must Support, not mandatory","Present in PERDS2015 but not guaranteed for unidentified patients",medium,yes
+D-004,spine,MyCorePatient,extension[religion],"Use the HL7 patient-religion extension bound extensibly to religion-my-core rather than a local extension","Prefer international extension where one exists",medium,yes
+D-005,spine,MyCoreEncounter,class,"Bind to HL7 v3 ActCode; retire encounter-class-my-core","The 9 local codes restate ActEncounterCode; MySejahtera already sends v3-ActCode",high,no
+D-006,spine,MyCoreEncounter,diagnosis.use,"Retain diagnosis-role-my-core, extensible","Local list carries death-cause roles (underlying cause, terminal cause) THO diagnosis-role lacks",high,no
+D-007,spine,MyCoreLocation,type,"Bind to v3 ServiceDeliveryLocationRoleType","Continues the DSDLOC table adopted verbatim by the 2016 MyHIX profile",high,no
+D-008,spine,MyCoreCondition,code,"Slice for ICD-11 MMS and SNOMED CT; neither mandatory individually","ICD-11 chosen as primary diagnosis coding; SNOMED as alternate",medium,yes
+D-009,spine,MyCoreProcedure,code,"ICD-9-CM Vol 3 primary, SNOMED alternate; no slice enforced","ICD-9-CM is operational in MOH and freely redistributable",medium,yes
+D-010,spine,MyCoreOrganization,identifier[facilityCode],"Mandatory 1..1","Facility code is the join key across all three use cases",high,no
+D-011,spine,MyCoreDocumentBundle,type,"Fixed to #document","Standard FHIR document semantics",high,no
+D-012,adt,MyCoreAdtComposition,type,"Extensible binding to LOINC doc-typecodes; 18842-5 for discharge summary","MyHIX 2016 used LOINC section codes; composition-type-my-core republished 13 LOINC codes locally",high,no
+D-013,adt,MyCoreAdtComposition,section.code,"Extensible binding to LOINC doc-section-codes","Section codes listed in the element short text are the MyHIX 2016 set",high,"Confirm the section list is complete against the current PERDS form"
+D-014,adt,MyCoreEncounterAdmission,hospitalization.dischargeDisposition,"Bind extensibly to discharge-disposition-my-core, publish a ConceptMap to THO","Local list is the operational key; 8 concepts map to THO discharge-disposition",medium,yes
+D-015,adt,MyCoreEncounterAdmission,hospitalization.admitSource,"Bind extensibly to THO admit-source","No local equivalent found in v2.0",medium,yes
+D-016,adt,MyCoreMedicationStatement,scope,"Discharge medication section only","Full medication line deferred; keeps v2.1 to three use cases",high,no
+D-017,adt,MyCoreObservationVitals,parent,"Derive from the FHIR vitalsigns profile; single profile with components","Base FHIR models BP as one Observation with two components; v2.0 had separate systolic and diastolic profiles",high,no
+D-018,lab,MyCoreServiceRequestLab,code.coding,"Slice national + loinc; national is the key, LOINC SHOULD accompany where mapped","52% LOINC coverage today (1,536 of 2,934). Score on 'returns LOINC alongside local code', not native LOINC storage",high,no
+D-019,lab,MyCoreObservationLabResult,scope,"One profile for every analyte","Anything differing only by code is a value set entry, not a profile. Replaces 24 v2.0 Observation profiles",high,no
+D-020,lab,MyCoreObservationLabResult,valueQuantity.code,"Mandatory UCUM code","124 free-text unit strings in the source catalogue; 26 unparseable, 17 case-variant clusters. ConceptMap outstanding",medium,yes
+D-021,lab,MyCoreDiagnosticReportLab,category,"Bind to v2-0074; retire lab-sub-group-my-core","The 8 local codes map near 1:1 to CH / HM / MB and the rest",high,no
+D-022,lab,MyCoreSpecimen,type,"Retain specimen-type-my-core as key, extensible, SNOMED preferred alongside","93 distinct free-text specimen strings in the catalogue normalise against the 27 local codes",medium,yes
+D-023,lab,MyCoreTaskLab,businessStatus,"Must Support and testable, bound to task-status-lab-my-core","Carried from the radiology conformance model: computed fields are interoperability requirements",medium,yes
+D-024,lab,scope,"Microbiology and histopathology excluded from v2.1","Strongest conformance discriminator but the largest body of work",high,"Confirm phase 2 timing"
+D-025,radiology,MyCoreServiceRequestImaging,identifier[accession],"Optional 0..1 in v2.1","Accession minting authority is unresolved national policy; making it mandatory would fail every vendor until it is settled",high,yes
+D-026,radiology,MyCoreImagingStudy,modality,"Bind to DICOM CID 29; retire imaging-modality-my-core","16 upper-case local strings restate DICOM acquisition modality",high,no
+D-027,radiology,MyCoreServiceRequestImaging,code.coding[national],"Retain imaging-my-core (762 concepts) as operational key; ConceptMap to LOINC published incomplete","Largest unmapped body of work in the programme. Extensible binding lets vendors review structure before the mapping completes",high,yes
+D-028,radiology,MyCoreDiagnosticReportImaging,presentedForm,"Narrative plus rendered form is sufficient for v2.1","Structured reporting deferred; RSNA templates and RadElement CDEs sit in the annexes",high,no
+D-029,radiology,MyCoreObservationImagingFinding,status,"Published as scaffolding only, annex tier","Named so its incompleteness reads as a decision",high,no
+D-030,cross,SNOMED CT,obligation,"SHALL is defensible","Malaysia is a SNOMED International Member since Dec 2012; no fee in a Member Territory; Affiliate Licence open to commercial organisations",high,"HIC to confirm the vendor and private-provider registration route in writing"
+D-031,cross,canonical,base,"https://myehr.kkmhub.moh.gov.my/fhir/my-core","Locked in sushi-config, package-list, README and AGENTS.md by commit a07828d",high,"TermX still holds 260 artefacts on the /fhir/ImplementationGuide/my-core form and needs a bulk rewrite"
+D-032,cross,Must Support,semantics,"Sending systems SHALL populate when known, clinically relevant and within the actor's responsibility","Carried verbatim from the radiology conformance guide so all three packs read as one instrument",high,no

@@ -12,6 +12,14 @@
       "current": true
     },
     {
+      "version": "2.1.0",
+      "date": "2026-09-04",
+      "desc": "Three use case release: ADT notes, laboratory reports, radiology reports, with the national terminology they bind to.",
+      "path": "https://datateamdigitalhealthdivision.github.io/mycore-v2/2.1.0",
+      "status": "draft",
+      "sequence": "Draft"
+    },
+    {
       "version": "2.0.0",
       "date": "2026-04-02",
       "desc": "Initial MY Core v2 draft release",
