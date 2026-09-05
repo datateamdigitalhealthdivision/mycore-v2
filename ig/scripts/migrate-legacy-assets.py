@@ -15,6 +15,7 @@ TERM_ROOT = ROOT / 'source' / 'extracted' / 'terminology-extracts' / 'terminolog
 DEST_ROOT = IG_ROOT / 'input' / 'resources-legacy-migrated'
 FSH_ROOT = IG_ROOT / 'input' / 'fsh'
 EXCLUSION_FILE = FSH_ROOT / 'migration-exclusions.txt'
+INCLUSION_FILE = FSH_ROOT / 'migration-inclusions.txt'
 MAPPINGS_ROOT = ROOT / 'mappings'
 EXAMPLES_ROOT = ROOT / 'tests' / 'fhir'
 PAYLOADS_ROOT = ROOT / 'tests' / 'sample-payloads'
@@ -87,6 +88,29 @@ if EXCLUSION_FILE.exists():
                 EXCLUDED_TYPED_RESOURCES.add((resource_type, resource_id))
         else:
             EXCLUDED_RESOURCE_IDS.add(token)
+
+
+# Inclusion allowlist. When migration-inclusions.txt exists and lists at least one
+# entry, ONLY those resources are published; everything else in the legacy body stays
+# in source/ and in git history but is kept out of the IG. This is what holds the
+# v2.1 artefact surface to the three use cases. The file is computed by
+# scripts/compute-migration-inclusions.py -- do not hand-edit it.
+INCLUDED_TYPED_RESOURCES = set()
+if INCLUSION_FILE.exists():
+    for line in INCLUSION_FILE.read_text(encoding='utf-8').splitlines():
+        token = line.split('#', 1)[0].strip()
+        if not token or '/' not in token:
+            continue
+        resource_type, _, resource_id = token.partition('/')
+        if resource_type.strip() and resource_id.strip():
+            INCLUDED_TYPED_RESOURCES.add((resource_type.strip(), resource_id.strip()))
+
+
+def is_in_scope(resource_id: str, resource_type: str) -> bool:
+    """True when the resource should be published for this release."""
+    if not INCLUDED_TYPED_RESOURCES:
+        return True
+    return (resource_type, resource_id) in INCLUDED_TYPED_RESOURCES
 
 
 def convert_string(value: str) -> str:
@@ -280,6 +304,8 @@ def write_json(path: Path, resource: dict) -> None:
 
 def publish_resource(resource: dict, source_path: str, processed_rows: list, legacy_id: str | None = None) -> None:
     if is_fsh_owned(resource.get('id', ''), resource.get('resourceType', '')):
+        return
+    if not is_in_scope(resource.get('id', ''), resource.get('resourceType', '')):
         return
     out_path = DEST_ROOT / f"{resource['resourceType']}-{resource['id']}.json"
     write_json(out_path, resource)
