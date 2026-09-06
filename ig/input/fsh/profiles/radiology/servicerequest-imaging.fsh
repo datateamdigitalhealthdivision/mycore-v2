@@ -33,3 +33,4 @@ Description: "An imaging order placed by an EMR on a RIS. The accession number i
 * priority MS
 * reasonCode MS
 * bodySite MS
+* bodySite from https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/imaging-region-my-core (extensible)

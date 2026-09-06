@@ -1,5 +1,4 @@
 profile_name,profile_id,resource_type,family,maturity,notes
 ExtensionAddressDistrictMyCore,address-district-my-core,Extension,cross-cutting-extensions,draft-v2,Migrated extension definition.
-ExtensionAddressStateMyCore,address-state-my-core,Extension,cross-cutting-extensions,draft-v2,Migrated extension definition.
 ExtensionEthnicMyCore,ethnic-my-core,Extension,cross-cutting-extensions,draft-v2,Migrated extension definition.
 ExtensionReligionMyCore,religion-my-core,Extension,cross-cutting-extensions,draft-v2,Migrated extension definition.

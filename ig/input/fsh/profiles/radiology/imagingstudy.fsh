@@ -24,3 +24,4 @@ Description: "DICOM study metadata published by PACS or VNA. Modality comes from
 * series.uid 1..1
 * series.modality 1..1
 * series.bodySite MS
+* series.bodySite from https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/imaging-region-my-core (extensible)

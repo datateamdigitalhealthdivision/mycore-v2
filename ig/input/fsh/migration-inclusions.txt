@@ -8,25 +8,19 @@
 #     python3 scripts/compute-migration-inclusions.py
 # after changing any profile binding, then re-run migrate-legacy-assets.py.
 
-CodeSystem/cluster-facility-my-core
 CodeSystem/cooking-demonstration-my-core
 CodeSystem/dental-procedure-my-core
 CodeSystem/diagnosis-role-my-core
 CodeSystem/diagnostic-procedure-my-core
 CodeSystem/discharge-disposition-my-core
 CodeSystem/district-my-core
-CodeSystem/encounter-outcome-my-core
-CodeSystem/encounter-outcome-reason-my-core
 CodeSystem/ethnic-my-core
-CodeSystem/foreigner-type-my-core
 CodeSystem/imaging-my-core
 CodeSystem/imaging-region-my-core
 CodeSystem/lab-method-my-core
 CodeSystem/location-type-my-core
 CodeSystem/minor-procedure-my-core
-CodeSystem/monthly-household-income-my-core
 CodeSystem/nutritionist-consultation-my-core
-CodeSystem/occupation-sector-my-core
 CodeSystem/organization-category-my-core
 CodeSystem/organization-type-my-core
 CodeSystem/person-title-my-core
@@ -37,10 +31,7 @@ CodeSystem/religion-my-core
 CodeSystem/specialty-my-core
 CodeSystem/specimen-container-type-my-core
 CodeSystem/specimen-type-my-core
-CodeSystem/state-my-core
 CodeSystem/task-business-status-my-core
-CodeSystem/tdm-recommended-type-my-core
-CodeSystem/tdm-sample-type-my-core
 CodeSystem/treatment-procedure-my-core
 CodeSystem/visit-type-my-core
 CodeSystem/ward-category-my-core
@@ -52,22 +43,15 @@ NamingSystem/organization-id
 NamingSystem/patient-mrn
 NamingSystem/professional-registration-no
 StructureDefinition/address-district-my-core
-StructureDefinition/address-state-my-core
 StructureDefinition/ethnic-my-core
 StructureDefinition/religion-my-core
-ValueSet/cluster-facility-my-core
 ValueSet/diagnosis-role-my-core
 ValueSet/discharge-disposition-my-core
 ValueSet/district-my-core
-ValueSet/encounter-outcome-my-core
-ValueSet/encounter-outcome-reason-my-core
 ValueSet/ethnic-my-core
-ValueSet/foreigner-type-my-core
-ValueSet/imaging-my-core
 ValueSet/imaging-region-my-core
 ValueSet/lab-method-my-core
 ValueSet/location-type-my-core
-ValueSet/occupation-sector-my-core
 ValueSet/organization-category-my-core
 ValueSet/organization-type-my-core
 ValueSet/person-title-my-core
@@ -75,11 +59,6 @@ ValueSet/reason-code-my-core
 ValueSet/religion-my-core
 ValueSet/specimen-container-type-my-core
 ValueSet/specimen-type-my-core
-ValueSet/state-my-core
-ValueSet/task-business-status-my-core
-ValueSet/tdm-recommended-type-my-core
-ValueSet/tdm-sample-type-my-core
 ValueSet/visit-type-my-core
-ValueSet/ward-category-my-core
 ValueSet/ward-class-my-core
 ValueSet/ward-specialty-my-core

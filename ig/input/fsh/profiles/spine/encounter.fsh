@@ -18,7 +18,10 @@ Description: "The contact during which care was given. Encounter.class uses HL7 
 * serviceProvider 1..1 MS
 * location MS
 * location.location 1..1
+* type MS
+* type from https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/visit-type-my-core (extensible)
 * reasonCode MS
+* reasonCode from https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/reason-code-my-core (extensible)
 * diagnosis MS
 * diagnosis.condition 1..1
 * diagnosis.use MS

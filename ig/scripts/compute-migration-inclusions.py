@@ -25,14 +25,20 @@ OUT = IG_ROOT / 'input' / 'fsh' / 'migration-inclusions.txt'
 NEW_ROOT = 'https://myehr.kkmhub.moh.gov.my/fhir/my-core'
 
 RETAIN_TERMINOLOGY = """organization-category district ethnic religion person-title
-practitioner-role-code ward-specialty ward-class ward-category occupation-sector
-foreigner-type cluster-facility discharge-disposition diagnosis-role visit-type
-encounter-outcome encounter-outcome-reason reason-code specimen-type
-specimen-container-type lab-method tdm-sample-type tdm-recommended-type
-imaging-my-core imaging-region task-business-status""".split()
+practitioner-role-code ward-specialty ward-class discharge-disposition diagnosis-role
+visit-type reason-code specimen-type specimen-container-type lab-method
+imaging-region""".split()
 RETAIN_TERMINOLOGY = [r if r.endswith('my-core') else r + '-my-core' for r in RETAIN_TERMINOLOGY]
-RETAIN_EXTENSIONS = ['ethnic-my-core', 'religion-my-core',
-                     'address-district-my-core', 'address-state-my-core']
+# Dropped from v2.1 as unbound by any profile: cluster-facility, encounter-outcome,
+# encounter-outcome-reason, foreigner-type, occupation-sector, tdm-sample-type,
+# tdm-recommended-type, ward-category. They remain in source/ and can be promoted
+# back by adding them here when a profile actually binds them.
+RETAIN_EXTENSIONS = ['ethnic-my-core', 'religion-my-core', 'address-district-my-core']
+# Code systems retained WITHOUT their legacy value set: the code system is referenced
+# directly (by a profile slice, or by a value set authored in FSH) but the legacy
+# value set itself binds nowhere and would publish as an orphan.
+RETAIN_CODESYSTEM_ONLY = ['imaging-my-core', 'task-business-status-my-core',
+                          'practitioner-role-code-my-core']
 
 CANONICAL = re.compile(
     re.escape(NEW_ROOT) +
@@ -59,6 +65,9 @@ def main() -> None:
     for rid in RETAIN_TERMINOLOGY:
         seed.update(k for k in (('CodeSystem', rid), ('ValueSet', rid)) if k in resources)
     seed.update(k for k in (('StructureDefinition', r) for r in RETAIN_EXTENSIONS) if k in resources)
+    for rid in RETAIN_CODESYSTEM_ONLY:
+        if ('CodeSystem', rid) in resources:
+            seed.add(('CodeSystem', rid))
     seed.update(k for k in resources if k[0] == 'NamingSystem')
 
     keep, stack = set(), list(seed)
@@ -84,6 +93,7 @@ def main() -> None:
                     stack.append(by_url[bound.split('|')[0]])
         if key[0] == 'ValueSet' and ('CodeSystem', key[1]) in resources:
             stack.append(('CodeSystem', key[1]))
+    keep -= {('ValueSet', rid) for rid in RETAIN_CODESYSTEM_ONLY}
 
     header = [
         '# Migration inclusion allowlist for MY Core v2.1.',
