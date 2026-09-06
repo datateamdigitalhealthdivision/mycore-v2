@@ -109,19 +109,19 @@ The canonical root for this guide is `https://myehr.kkmhub.moh.gov.my/fhir/my-co
 
 ## Terminology published by this guide
 
-All terminology below is published as FHIR R4 JSON from the artefact pages and in the package download.
+Every artefact below links to its own page, where the full content is browsable and downloadable as JSON or XML. All of it is also in the [package download](https://github.com/datateamdigitalhealthdivision/mycore-v2/releases).
 
 | Artefact | Concepts | Terms |
 |---|---|---|
-| `pathology-orderable-my-core` | 2,934 | Open |
-| `pathology-panel-my-core` | 291 | Open |
-| `pathology-local-code-my-core` | 1,398 | Open |
-| `smrp-workload-my-core` | 78 | Open |
-| `ConceptMap/pathology-orderable-to-loinc` | 1,536 mappings | LOINC licence, attribution required |
-| `ConceptMap/pathology-orderable-to-local-code` | 1,398 mappings | Open |
-| `imaging-my-core` | 762 | Open |
-| `imaging-region-my-core` | 110 | Open |
-| Local demographic and administrative code systems | ~440 | Open |
+| [pathology-orderable-my-core](CodeSystem-pathology-orderable-my-core.html) | 2,934 | Open |
+| [pathology-panel-my-core](CodeSystem-pathology-panel-my-core.html) | 291 | Open |
+| [pathology-local-code-my-core](CodeSystem-pathology-local-code-my-core.html) | 1,398 | Open |
+| [smrp-workload-my-core](CodeSystem-smrp-workload-my-core.html) | 78 | Open |
+| [pathology-orderable-to-loinc](ConceptMap-pathology-orderable-to-loinc.html) | 1,536 mappings | LOINC licence, attribution required |
+| [pathology-orderable-to-local-code](ConceptMap-pathology-orderable-to-local-code.html) | 1,398 mappings | Open |
+| [imaging-my-core](CodeSystem-imaging-my-core.html) | 762 | Open |
+| [imaging-region-my-core](CodeSystem-imaging-region-my-core.html) | 110 | Open |
+| Local demographic and administrative code systems - see the [Artefact Index](artifacts.html) | ~440 | Open |
 
 ## Terminology referenced but not redistributed here
 

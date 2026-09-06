@@ -43,5 +43,9 @@ Description: "The subject of care in the ADT, Laboratory and Radiology use cases
 * managingOrganization MS
 
 * extension contains
-    http://hl7.org/fhir/StructureDefinition/patient-religion named religion 0..1 MS
-* extension[religion].valueCodeableConcept from $VS-RELIGION (extensible)
+    $EXT-ETHNIC named ethnicity 0..1 MS and
+    $EXT-RELIGION named religion 0..1 MS
+* extension[ethnicity] ^short = "PERDS2015 ethnicity. Bound to ethnic-my-core."
+* extension[religion] ^short = "PERDS2015 religion. Bound to religion-my-core."
+* address.extension contains $EXT-DISTRICT named district 0..1 MS
+* address.extension[district] ^short = "PERDS2015 district (daerah). Bound to district-my-core." 

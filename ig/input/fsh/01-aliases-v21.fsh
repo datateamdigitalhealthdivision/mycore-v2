@@ -62,3 +62,8 @@ Alias: $CS-PATH-ORDERABLE = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSys
 Alias: $CS-PATH-PANEL     = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-panel-my-core
 Alias: $CS-PATH-LOCAL     = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-local-code-my-core
 Alias: $VS-PATH-CATALOGUE = https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-catalogue-my-core
+
+// Retained MY Core extensions (PERDS2015 requires ethnicity, religion and district)
+Alias: $EXT-ETHNIC   = https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/ethnic-my-core
+Alias: $EXT-RELIGION = https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/religion-my-core
+Alias: $EXT-DISTRICT = https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/address-district-my-core

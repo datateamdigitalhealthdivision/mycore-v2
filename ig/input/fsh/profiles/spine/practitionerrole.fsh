@@ -8,5 +8,6 @@ Description: "Binds a practitioner to the organisation and specialty under which
 * practitioner 1..1 MS
 * organization 1..1 MS
 * code MS
+* code from https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/practitioner-role-code-my-core (extensible)
 * specialty MS
 * specialty from $VS-WARD-SPECIALTY (extensible)

@@ -1,0 +1,64 @@
+# Migration inclusion allowlist for MY Core v2.1.
+#
+# When this file exists and is non-empty, scripts/migrate-legacy-assets.py
+# publishes ONLY the resources listed here. Everything else in the legacy body
+# remains in source/ and in git history, but is not published to the IG.
+#
+# COMPUTED, not hand-curated. Regenerate with:
+#     python3 scripts/compute-migration-inclusions.py
+# after changing any profile binding, then re-run migrate-legacy-assets.py.
+
+CodeSystem/cooking-demonstration-my-core
+CodeSystem/dental-procedure-my-core
+CodeSystem/diagnosis-role-my-core
+CodeSystem/diagnostic-procedure-my-core
+CodeSystem/discharge-disposition-my-core
+CodeSystem/district-my-core
+CodeSystem/ethnic-my-core
+CodeSystem/imaging-my-core
+CodeSystem/imaging-region-my-core
+CodeSystem/lab-method-my-core
+CodeSystem/location-type-my-core
+CodeSystem/minor-procedure-my-core
+CodeSystem/nutritionist-consultation-my-core
+CodeSystem/organization-category-my-core
+CodeSystem/organization-type-my-core
+CodeSystem/person-title-my-core
+CodeSystem/phlebotomy-my-core
+CodeSystem/practitioner-role-code-my-core
+CodeSystem/reason-code-my-core
+CodeSystem/religion-my-core
+CodeSystem/specialty-my-core
+CodeSystem/specimen-container-type-my-core
+CodeSystem/specimen-type-my-core
+CodeSystem/task-business-status-my-core
+CodeSystem/treatment-procedure-my-core
+CodeSystem/visit-type-my-core
+CodeSystem/ward-category-my-core
+CodeSystem/ward-class-my-core
+CodeSystem/ward-specialty-my-core
+NamingSystem/encounter-id
+NamingSystem/my-kad-no
+NamingSystem/organization-id
+NamingSystem/patient-mrn
+NamingSystem/professional-registration-no
+StructureDefinition/address-district-my-core
+StructureDefinition/ethnic-my-core
+StructureDefinition/religion-my-core
+ValueSet/diagnosis-role-my-core
+ValueSet/discharge-disposition-my-core
+ValueSet/district-my-core
+ValueSet/ethnic-my-core
+ValueSet/imaging-region-my-core
+ValueSet/lab-method-my-core
+ValueSet/location-type-my-core
+ValueSet/organization-category-my-core
+ValueSet/organization-type-my-core
+ValueSet/person-title-my-core
+ValueSet/reason-code-my-core
+ValueSet/religion-my-core
+ValueSet/specimen-container-type-my-core
+ValueSet/specimen-type-my-core
+ValueSet/visit-type-my-core
+ValueSet/ward-class-my-core
+ValueSet/ward-specialty-my-core

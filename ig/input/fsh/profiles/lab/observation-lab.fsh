@@ -30,6 +30,8 @@ Description: "A single laboratory result, or a grouping observation whose member
 * interpretation from $VS-OBS-INTERP (extensible)
 * interpretation ^short = "HL7 v3 ObservationInterpretation, which includes S/I/R for antimicrobial susceptibility."
 * note MS
+* method MS
+* method from https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/lab-method-my-core (extensible)
 * specimen MS
 * referenceRange MS
 * referenceRange.low MS
