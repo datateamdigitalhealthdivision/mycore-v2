@@ -7,10 +7,11 @@ This publication is the draft computable FHIR R4 core of the national MY Core re
 ## How to use this publication
 
 - start with [Use Cases (v2.1)](use-cases-v21.html) - what this release covers and what it deliberately leaves out
+- reviewers should start instead with the [Reviewer Guide](reviewer-guide.html) - what to read, in what order, and the decisions we want a view on
 - then [National Overview](overview.html), [Governance And Scope](governance-and-scope.html), and [Conformance Model](conformance-model.html)
 - use [Profile Families](profile-families.html) to understand how the baseline is grouped
 - use [Terminology And Identifiers](terminology-and-identifiers.html), [Security And Audit](security-and-audit.html), and [Conformance Testing](conformance-testing.html) to align implementation detail
-- review [Migration From v1](migration-from-v1.html) and [Endpoints And Publication Model](endpoints-and-publication-model.html) before carrying legacy assumptions into a new build
+- review [Endpoints And Publication Model](endpoints-and-publication-model.html) before carrying legacy assumptions into a new build
 - use [Technical Annexes](annexes.html), [Downloads](downloads.html), and the [Artefact Index](artifacts.html) for deeper operational detail
 
 ## One-repository architecture

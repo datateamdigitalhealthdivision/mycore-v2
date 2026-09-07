@@ -10,7 +10,7 @@ Implementation partners should read the repository in this order:
 4. security and audit
 5. profile families
 6. conformance testing
-7. migration and endpoint model
+7. endpoint and publication model
 
 ## Consuming the package
 

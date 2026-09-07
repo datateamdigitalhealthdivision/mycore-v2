@@ -25,6 +25,8 @@ pages:
     title: National Overview
   use-cases-v21.md:
     title: Use Cases (v2.1)
+  reviewer-guide.md:
+    title: Reviewer Guide
   governance-and-scope.md:
     title: Governance And Scope
   conformance-model.md:
@@ -41,8 +43,6 @@ pages:
     title: Versioning And Change Management
   implementation-partner-guide.md:
     title: Implementation Partner Guide
-  migration-from-v1.md:
-    title: Migration From v1
   endpoints-and-publication-model.md:
     title: Endpoints And Publication Model
   annexes.md:
@@ -65,6 +65,7 @@ menu:
   Home: index.html
   National Overview: overview.html
   Use Cases: use-cases-v21.html
+  Reviewer Guide: reviewer-guide.html
   Governance And Scope: governance-and-scope.html
   Conformance Model: conformance-model.html
   Profile Families: profile-families.html
@@ -73,7 +74,6 @@ menu:
   Conformance Testing: conformance-testing.html
   Versioning And Change Management: versioning-and-change-management.html
   Implementation Partner Guide: implementation-partner-guide.html
-  Migration From v1: migration-from-v1.html
   Endpoints And Publication Model: endpoints-and-publication-model.html
   Technical Annexes: annexes.html
   Downloads: downloads.html

@@ -1,37 +1,96 @@
 # Profile Families
 
-## Identity and demographics
+Version 2.1 publishes **30 profiles** in four groups: one shared spine, and one group for each of the three use cases. Nothing else is profiled. If a resource is not listed here, this guide places no Malaysian constraint on it, and implementers should use base FHIR R4.
 
-This family covers the baseline person-oriented exchange patterns that allow systems to identify patients, related persons, and core demographic attributes consistently. The baseline includes the MY Core `Patient` profile and related extensions for ethnicity, religion, education, occupation, and other Malaysian demographic needs.
+The grouping is deliberate. The spine is what every use case needs in order to say *who* and *where*; the three use-case groups are what each integration adds on top. A vendor building only the laboratory integration reads the spine and the laboratory group, and can ignore the rest.
 
-## Organisation and workforce
+## How to read a profile
 
-This family covers `Organization`, `OrganizationAffiliation`, `HealthcareService`, `Location`, `Practitioner`, and `PractitionerRole`. These profiles define the organisational and workforce context needed by most downstream workflows, including service directories, facility relationships, and workforce role coding.
+Every profile states its constraints as a differential against its parent. Three things carry the weight:
 
-## Scheduling and workflow
+- **cardinality** — what must be present
+- **Must Support** — what a receiver may rely on being there when the sender holds it (see the [Conformance Model](conformance-model.html) for the precise obligation)
+- **bindings** — which value set the code comes from, and how strictly
 
-This family covers `Appointment`, `Schedule`, `Slot`, `Encounter`, `Task`, and `ServiceRequest`. It defines the operational backbone for booking, arrival, care delivery, order fulfilment, and downstream hand-offs.
+Where a binding is `extensible` rather than `required`, that is usually because the national mapping is still being completed. The [Conformance Model](conformance-model.html) explains why v2.1 errs that way, and the decision register in `mappings/v2.1-decision-register.csv` records the reasoning case by case.
 
-## Observations and diagnostics
+## Shared spine — 12 profiles
 
-This family covers a large share of the legacy MY Core content, including twenty-four `Observation` profiles plus `Condition`, `DiagnosticReport`, `ImagingStudy`, `Specimen`, `SpecimenDefinition`, `Device`, `AllergyIntolerance`, `AdverseEvent`, and `FamilyMemberHistory`. These artefacts provide the common clinical exchange layer that downstream guides will extend, including IPS-aligned patient device representation.
+Identity, place, workforce, and the document envelope. Every use case depends on these.
 
-## Medication and formulary content
+| Profile | Base resource | What it constrains |
+|---|---|---|
+| MY Core Patient | `Patient` | MyKad, MyKid, passport, foreign-worker and MRN identifier slices, each typed against HL7 v2 table 0203; PERDS2015 ethnicity, religion and district as extensions |
+| MY Core Practitioner | `Practitioner` | Professional registration number (MMC, MDC or the relevant board) as an identifier slice |
+| MY Core PractitionerRole | `PractitionerRole` | Role code and specialty, bound to the national role and ward-specialty lists |
+| MY Core Organization | `Organization` | National healthcare facility code, mandatory; organisation category bound to the national list |
+| MY Core Location | `Location` | Location type bound to HL7 v3 ServiceDeliveryLocationRoleType; `partOf` carries the bed → ward → facility hierarchy |
+| MY Core Encounter | `Encounter` | Class bound to HL7 v3 ActCode; visit type, reason and diagnosis role bound to the national lists |
+| MY Core Condition | `Condition` | Code sliced for ICD-11 MMS and SNOMED CT, neither individually mandatory |
+| MY Core Procedure | `Procedure` | ICD-9-CM Volume 3 as the primary procedure coding, SNOMED CT as an alternate |
+| MY Core DocumentReference | `DocumentReference` | Document type bound to the FHIR document-type list; attachment carries either inline data or a URL |
+| MY Core Provenance | `Provenance` | Who asserted the content and when — the audit anchor for submitted documents |
+| MY Core Document Bundle | `Bundle` | The `document` Bundle used to carry the ADT note |
+| MY Core Transaction Bundle | `Bundle` | The `transaction` Bundle used for the laboratory and radiology point integrations |
 
-This family covers `Medication`, `MedicationKnowledge`, and `MedicationRequest`, plus the local terminology used for formularies, routes, dose forms, schedules, and cautionary instructions. It supports both reference-data publication and transactional medication exchange.
+## ADT — 5 profiles
 
-## Immunisation
+The ADT use case is a **clinical document**, not an encounter state machine. The discharge note is a `Composition` inside a document `Bundle`, with standard LOINC section codes throughout.
 
-The immunisation family covers `Immunization` and `ImmunizationRecommendation` plus associated vaccine terminology.
+| Profile | Base resource | What it constrains |
+|---|---|---|
+| MY Core ADT Note | `Composition` | Discharge summary as LOINC 18842-5; ten LOINC-coded sections covering admission and discharge diagnosis, hospital course, medications, allergies, past history, procedures, results, instructions and plan |
+| MY Core Admitted Encounter | `MyCoreEncounter` | Admission source bound to HL7 admit-source; discharge disposition bound to the national list with a ConceptMap published to HL7 Terminology |
+| MY Core AllergyIntolerance | `AllergyIntolerance` | The allergies section of the note |
+| MY Core Medication Statement | `MedicationStatement` | The medications section of the note — what the patient is on, not a prescribing workflow |
+| MY Core Vital Sign | FHIR `vitalsigns` | Vital signs, derived from the international vital-signs profile rather than restated locally |
 
-## Procedures and clinical records
+The twenty-one PERDS2015 discharge fields all map into this structure with no local extensions beyond ethnicity, religion and district.
 
-This family covers `Procedure`, `Composition`, `DocumentManifest`, `List`, `Consent`, `CarePlan`, and related exchange patterns used for structured or document-style clinical records.
+## Laboratory — 5 profiles
 
-## Financial resources
+Order to specimen to result to report, plus the task that carries fulfilment state between the EMR and the LIS.
 
-This family covers `ChargeItem`, `ChargeItemDefinition`, `Invoice`, and `PaymentReconciliation`. These artefacts remain part of the national baseline but are expected to evolve further with future finance-oriented implementation guides.
+| Profile | Base resource | What it constrains |
+|---|---|---|
+| MY Core Laboratory Order | `ServiceRequest` | Mandatory placer order identifier; test code sliced into the national orderable code and LOINC |
+| MY Core Specimen | `Specimen` | Specimen and container type bound to the national lists, SNOMED CT alongside |
+| MY Core Laboratory Result | `Observation` | Category fixed to `laboratory`; code sliced national and LOINC; UCUM unit code on the value; interpretation bound to HL7 v3 ObservationInterpretation, which carries S/I/R for susceptibility; `hasMember` used for panels |
+| MY Core Laboratory Report | `DiagnosticReport` | Mandatory filler report identifier; category bound to HL7 v2 table 0074; the rendered report travels alongside the structured results, not instead of them |
+| MY Core Laboratory Task | `Task` | Business status bound to the national laboratory task-status list |
 
-## Programme questionnaires
+The national orderable code is the persistent operational key. LOINC is sent alongside it where the published ConceptMap provides a mapping — 1,536 of 2,934 orderables today. **A missing LOINC mapping is not a conformance failure.**
 
-The legacy archive includes extensive child-health, maternal, risk-assessment, and composition-form questionnaire material. MY Core v2.0 preserves that content, but treats it as programme content rather than the main entry path for vendors implementing the national baseline.
+## Radiology — 8 profiles
+
+Order to study to report, plus the DICOMweb endpoint that makes the images retrievable. Two profiles are annexes and one is staged for a later release; they are published so the direction is visible, not because v2.1 requires them.
+
+| Profile | Base resource | What it constrains |
+|---|---|---|
+| MY Core Imaging Order | `ServiceRequest` | Mandatory placer order identifier; accession number optional in v2.1; procedure code sliced into the national imaging list and the LOINC/RSNA Radiology Playbook; body site bound to the national imaging region list |
+| MY Core Imaging Task | `Task` | Fulfilment state between the EMR and the RIS |
+| MY Core Imaging Study | `ImagingStudy` | Study Instance UID as a `urn:oid` plus the accession number; modality bound to DICOM CID 29; series body site bound to the national imaging region list |
+| MY Core DICOMweb Endpoint | `Endpoint` | The DICOMweb service base URL, with QIDO-RS, WADO-RS and STOW-RS paths relative to it |
+| MY Core Radiology Report | `DiagnosticReport` | Mandatory filler report identifier; category bound to HL7 v2 table 0074 (`RAD`) |
+| MY Core Imaging Finding | `Observation` | Category fixed to `imaging`. **Phase 2** — structured radiology reporting is out of scope for v2.1 |
+| MY Core MHD SubmissionSet | `List` | **Annex.** IHE Mobile access to Health Documents, for document-sharing deployments |
+| MY Core AuditEvent | `AuditEvent` | **Annex.** IHE Basic Audit Log Patterns |
+
+The accession number is the join between the EMR, the RIS and the PACS. Who mints it is a national policy decision that is recorded rather than assumed — see the radiology annex, and decision D-025 in the register.
+
+## Actors
+
+Alongside the profiles, six `CapabilityStatement` resources describe the system roles rather than the data:
+
+- EMR as ADT Document Source
+- EMR as Order Placer
+- LIS as Result Producer
+- RIS as Workflow Manager
+- PACS or VNA as Metadata Publisher
+- MyEHR National Repository
+
+A vendor claiming conformance claims it as one or more of these actors. That is the unit the conformance tests are written against.
+
+## What is not profiled
+
+Medication prescribing and dispensing, immunisation, appointments and scheduling, care plans, consent, financial resources, questionnaires, and the maternal and child health programme content that the v2.0 line carried. These are not deprecated concepts — they are simply outside the three use cases this release commits to. Some will return in a later release, driven by a named integration rather than by completeness.
