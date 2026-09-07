@@ -1,46 +1,57 @@
-﻿# National Overview
+# National Overview
 
 ## Purpose
 
-MY Core v2.0 redevelops the Malaysian national baseline implementation guide as a single vendor-facing publication under the MyEHR publication model. The objective is to give implementation partners one place to find the computable artefacts, the implementation policy, the migration notes, and the starter conformance material needed to implement against the national baseline.
+MY Core is the Malaysian national FHIR R4 baseline. Version 2.1 exists to make that baseline **implementable**.
 
-## National positioning
+Version 2.0 published 64 profiles and 121 code systems spanning the whole of Malaysian healthcare. It was a comprehensive catalogue, but most of it could not be reached by anything a vendor was actually being asked to build, and a vendor opening the guide could not tell where to start. Version 2.1 narrows the guide to three named use cases, publishes the terminology those use cases bind to, and states what it leaves out.
 
-This guide defines the common national FHIR R4 layer on which future Malaysian domain guides should depend. It is not intended to absorb every programme-specific form or every future service-specific workflow. Instead, it establishes the baseline demographic, administrative, clinical, terminology, identifier, and conformance expectations that downstream guides can extend.
+## What version 2.1 covers
+
+| Use case | What is exchanged | Point integration |
+|---|---|---|
+| **ADT** | Admission, transfer and discharge notes, as FHIR documents | EMR to the national repository |
+| **Laboratory** | Reports and their constituent results | EMR to LIS, and results onward |
+| **Radiology** | Reports and imaging study metadata | EMR to RIS and PACS |
+
+Thirty profiles support these: a twelve-profile shared spine covering identity, place, workforce and the document envelope, and five, five and eight profiles for ADT, laboratory and radiology respectively. Six `CapabilityStatement` resources define the system actors that conformance is claimed against. See [Profile Families](profile-families.html).
+
+## Two jobs, one repository
+
+This repository does two things, and it is worth being explicit that they are different:
+
+1. **It is an implementation guide.** Vendors build against it and are tested against it; other providers use it to send data to the national repository.
+2. **It is the source of national terminology.** The Malaysian Pathology Catalogue, the national imaging procedure list, and the demographic and administrative code systems are published here, with their ConceptMaps to LOINC and HL7 Terminology, and are downloadable as FHIR resources.
+
+The narrative chapters, annexes, mappings and tests sit alongside the computable artefacts so that the reasoning behind a constraint remains available to whoever maintains it next.
+
+## Design posture: international first
+
+Where an international answer already exists, v2.1 adopts it rather than restating it locally. This is the single most consequential change from v2.0, and it is why the terminology surface fell from roughly 24,400 concepts to roughly 440.
+
+- `Encounter.class` binds to HL7 v3 ActCode; the local `encounter-class-my-core` is retired.
+- `Location.type` binds to HL7 v3 ServiceDeliveryLocationRoleType — continuing the choice the 2016 MyHIX discharge summary profile already made, not imposing a new one.
+- `DiagnosticReport.category` binds to HL7 v2 table 0074; `lab-sub-group-my-core` restated it almost one for one and is retired.
+- `ImagingStudy.modality` binds to the DICOM code system; `imaging-modality-my-core` is retired.
+- Vital signs derive from the international vital-signs profile.
+- Missing data uses the FHIR `dataAbsentReason` pattern rather than local "unknown" codes.
+
+Local code systems are retained only where the code is a **persistent operational key that Malaysian systems already store**: facility category, district, ethnicity, religion, ward class and specialty, honorifics, the pathology catalogue, and the national imaging procedure list.
 
 ## Intended audience
 
-- vendors implementing FHIR APIs or payload exchange
-- system integrators and deployment teams
+- vendors implementing the ADT, laboratory or radiology integrations
+- system integrators and hospital deployment teams
 - conformance and testing teams
 - governance owners maintaining national interoperability policy
-- authors of downstream domain guides
-
-## One-repository publication model
-
-The repository keeps computable artefacts and narrative guidance together on purpose:
-
-- the IG build in `ig/` is the machine-readable package and rendered publication
-- the chapters in `docs/` explain what implementation partners are expected to do
-- the annexes in `annexes/` preserve the technical and policy context needed to maintain the guide
-- the tests and mappings provide the operational bridge between narrative policy and implementation evidence
+- authors of downstream domain guides that will depend on this baseline
 
 ## Normative stack
 
 - FHIR R4 (`4.0.1`) is the normative computable base
-- the MyEHR publication model is the new national publication identity
-- national terminology, identifier, security, and audit policy is defined in this publication where available and marked provisional where still being settled
+- profiles, value sets and ConceptMaps in this guide are normative; narrative chapters and worked examples are explanatory
+- items that remain unsettled are marked `PROVISIONAL` and recorded in `mappings/v2.1-decision-register.csv` rather than left as silent assumptions
 
-## What changed from legacy MY Core
+## Where to start
 
-The legacy MY Core publication line was useful as a source of profiles, extensions, terminology, and programme content, but it mixed artefacts and publication concerns in ways that were difficult for vendors to consume. MY Core v2.0 changes that by:
-
-- replacing the legacy publication host assumptions with the MyEHR canonical model
-- explicitly separating publication canonicals from operational endpoints
-- resolving duplicate canonicals, duplicate names, and malformed legacy artefacts
-- moving questionnaires into a governed programme-content area instead of letting them dominate the front door of the guide
-- adding governance, implementation, testing, migration, and endpoint chapters that the legacy line lacked
-
-## How to use the publication
-
-Implementation partners should start with the scope, conformance, terminology, security, and testing chapters before consuming the artefact index. The rendered guide is intended to be readable as a national specification first and an artefact catalogue second.
+New readers should read [Use Cases (v2.1)](use-cases-v21.html) first, then the [Conformance Model](conformance-model.html), then the group of [Profile Families](profile-families.html) relevant to what they are building. The [Artefact Index](artifacts.html) is a reference, not an entry point.
