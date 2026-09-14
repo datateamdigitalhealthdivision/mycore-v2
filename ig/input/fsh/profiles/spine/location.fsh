@@ -1,7 +1,7 @@
 Profile: MyCoreLocation
 Parent: Location
-Id: location-v21-my-core
-Title: "MY Core Location (v2.1)"
+Id: location-my-core
+Title: "MY Core Location"
 Description: "A ward, bed, clinic, theatre or imaging room. Location.type is bound to the HL7 v3 service delivery location role type, continuing the DSDLOC table adopted by MyHIX in 2016 rather than introducing a local code system."
 * ^version = "2.1.0"
 * ^status = #draft

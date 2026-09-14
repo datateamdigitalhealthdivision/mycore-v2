@@ -1,7 +1,7 @@
 Profile: MyCoreDocumentBundle
 Parent: Bundle
-Id: bundle-document-v21-my-core
-Title: "MY Core Document Bundle (v2.1)"
+Id: bundle-document-my-core
+Title: "MY Core Document Bundle"
 Description: "A clinical document. Used for the ADT note. The first entry SHALL be the Composition; every resource the Composition references SHALL be present in the same Bundle."
 * ^version = "2.1.0"
 * ^status = #draft
@@ -15,8 +15,8 @@ Description: "A clinical document. Used for the ADT note. The first entry SHALL 
 
 Profile: MyCoreTransactionBundle
 Parent: Bundle
-Id: bundle-transaction-v21-my-core
-Title: "MY Core Transaction Bundle (v2.1)"
+Id: bundle-transaction-my-core
+Title: "MY Core Transaction Bundle"
 Description: "Ingest envelope for point-to-point submission of laboratory and radiology results, following the MySejahtera API Gateway pattern."
 * ^version = "2.1.0"
 * ^status = #draft

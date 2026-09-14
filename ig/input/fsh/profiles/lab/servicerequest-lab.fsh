@@ -1,7 +1,7 @@
 Profile: MyCoreServiceRequestLab
 Parent: ServiceRequest
-Id: servicerequest-lab-v21-my-core
-Title: "MY Core Laboratory Order (v2.1)"
+Id: servicerequest-lab-my-core
+Title: "MY Core Laboratory Order"
 Description: "An order placed by an EMR on a laboratory information system. The order code comes from the national pathology catalogue — the orderable test and panel code systems published in this guide — with LOINC carried alongside where the mapping exists."
 * ^version = "2.1.0"
 * ^status = #draft

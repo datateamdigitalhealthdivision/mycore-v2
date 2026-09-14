@@ -1,7 +1,7 @@
 Profile: MyCoreEncounterAdmission
 Parent: MyCoreEncounter
-Id: encounter-admission-v21-my-core
-Title: "MY Core Admitted Encounter (v2.1)"
+Id: encounter-admission-my-core
+Title: "MY Core Admitted Encounter"
 Description: "An inpatient episode. Adds the admission and discharge detail the ADT note depends on: admit source, discharge disposition, ward class and the ward or bed occupied."
 * ^version = "2.1.0"
 * ^status = #draft

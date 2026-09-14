@@ -1,7 +1,7 @@
 Profile: MyCoreDiagnosticReportImaging
 Parent: DiagnosticReport
-Id: diagnosticreport-imaging-v21-my-core
-Title: "MY Core Radiology Report (v2.1)"
+Id: diagnosticreport-imaging-my-core
+Title: "MY Core Radiology Report"
 Description: "The radiologist's report. Narrative plus a rendered form is sufficient for v2.1; structured reporting against RSNA templates and RadElement CDEs is deferred and sits in the annexes."
 * ^version = "2.1.0"
 * ^status = #draft

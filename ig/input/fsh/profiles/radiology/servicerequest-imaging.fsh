@@ -1,7 +1,7 @@
 Profile: MyCoreServiceRequestImaging
 Parent: ServiceRequest
-Id: servicerequest-imaging-v21-my-core
-Title: "MY Core Imaging Order (v2.1)"
+Id: servicerequest-imaging-my-core
+Title: "MY Core Imaging Order"
 Description: "An imaging order placed by an EMR on a RIS. The accession number is the identifier that correlates order to study; without it, order-to-study linkage cannot be tested."
 * ^version = "2.1.0"
 * ^status = #draft

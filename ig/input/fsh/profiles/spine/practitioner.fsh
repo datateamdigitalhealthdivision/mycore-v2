@@ -1,7 +1,7 @@
 Profile: MyCorePractitioner
 Parent: Practitioner
-Id: practitioner-v21-my-core
-Title: "MY Core Practitioner (v2.1)"
+Id: practitioner-my-core
+Title: "MY Core Practitioner"
 Description: "A healthcare worker who orders, performs, reports or authenticates content in the three use cases. The professional registration number is the identifier that makes attribution testable."
 * ^version = "2.1.0"
 * ^status = #draft

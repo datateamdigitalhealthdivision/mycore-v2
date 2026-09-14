@@ -30,17 +30,31 @@ Alias: $VS-MODALITY        = http://hl7.org/fhir/ValueSet/dicom-cid29-Acquisitio
 Alias: $VS-DIAG-SERVICE    = http://hl7.org/fhir/ValueSet/diagnostic-service-sections
 Alias: $VS-DAR             = http://hl7.org/fhir/ValueSet/data-absent-reason
 
-// Identifier namespaces (NamingSystem roots — identifiers, not IG artefacts)
-Alias: $ID-MYKAD     = https://id.kkmhub.moh.gov.my/patient/mykad
-Alias: $ID-MYKID     = https://id.kkmhub.moh.gov.my/patient/mykid
-Alias: $ID-PASSPORT  = https://id.kkmhub.moh.gov.my/patient/passport
+// Identifier namespaces. Consolidated scheme of 14 Sep 2026:
+//   https://id.kkmhub.moh.gov.my/{domain}/{identifier}
+// MyKad / MyKid / MyTentera / MyPolis are ONE JPN identifier and share ONE
+// namespace. Passport uses the HL7 per-country namespace and has no MOH alias.
+Alias: $ID-NRIC      = https://id.kkmhub.moh.gov.my/patient/nric
+Alias: $ID-NEWBORN   = https://id.kkmhub.moh.gov.my/patient/newborn
 Alias: $ID-FOREIGN   = https://id.kkmhub.moh.gov.my/patient/foreign-worker
 Alias: $ID-MRN       = https://id.kkmhub.moh.gov.my/patient/mrn
 Alias: $ID-FACILITY  = https://id.kkmhub.moh.gov.my/facility
-Alias: $ID-WORKER    = https://id.kkmhub.moh.gov.my/worker
-Alias: $ID-ACCESSION = https://id.kkmhub.moh.gov.my/accession
+Alias: $ID-PRACT-REG = https://id.kkmhub.moh.gov.my/practitioner/registration
 Alias: $ID-ORDER     = https://id.kkmhub.moh.gov.my/order
-Alias: $ID-REPORT    = https://id.kkmhub.moh.gov.my/report
+Alias: $ID-ACCESSION = https://id.kkmhub.moh.gov.my/accession
+Alias: $ID-ENCOUNTER = https://id.kkmhub.moh.gov.my/encounter
+// RETIRED: $ID-REPORT — DiagnosticReport.identifier carries the accession or the
+// filler order number. A third identifier for one clinical event adds
+// reconciliation burden and no information.
+
+// Core FHIR extensions, preferred over local ones
+Alias: $EXT-CITIZENSHIP  = http://hl7.org/fhir/StructureDefinition/patient-citizenship
+Alias: $EXT-RELIGION-HL7 = http://hl7.org/fhir/StructureDefinition/patient-religion
+
+// International terminology
+Alias: $CS-V3-RELIGION = http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation
+Alias: $VS-ISO3166-A2  = http://hl7.org/fhir/ValueSet/iso3166-1-2
+Alias: $CS-RELIGION-MY = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/religion-my-core
 
 // Local MY Core value sets in scope for v2.1
 Alias: $VS-ETHNIC          = https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/ethnic-my-core
@@ -65,5 +79,6 @@ Alias: $VS-PATH-CATALOGUE = https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSe
 
 // Retained MY Core extensions (PERDS2015 requires ethnicity, religion and district)
 Alias: $EXT-ETHNIC   = https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/ethnic-my-core
-Alias: $EXT-RELIGION = https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/religion-my-core
+// RETIRED: $EXT-RELIGION — superseded by the core FHIR patient-religion
+// extension ($EXT-RELIGION-HL7). The religion CODE LIST is unchanged.
 Alias: $EXT-DISTRICT = https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/address-district-my-core

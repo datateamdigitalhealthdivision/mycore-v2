@@ -1,7 +1,7 @@
 Profile: MyCoreSpecimen
 Parent: Specimen
-Id: specimen-v21-my-core
-Title: "MY Core Specimen (v2.1)"
+Id: specimen-my-core
+Title: "MY Core Specimen"
 Description: "The material examined. Specimen type carries the local code as the operational key with SNOMED CT preferred alongside; the free-text specimen strings in the source catalogue normalise against the local code system."
 * ^version = "2.1.0"
 * ^status = #draft

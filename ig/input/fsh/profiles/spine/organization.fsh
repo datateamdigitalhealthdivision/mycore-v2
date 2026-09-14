@@ -1,7 +1,7 @@
 Profile: MyCoreOrganization
 Parent: Organization
-Id: organization-v21-my-core
-Title: "MY Core Organization (v2.1)"
+Id: organization-my-core
+Title: "MY Core Organization"
 Description: "A healthcare facility or organisational unit. The national facility code is the join key across ADT, Laboratory and Radiology payloads."
 * ^version = "2.1.0"
 * ^status = #draft

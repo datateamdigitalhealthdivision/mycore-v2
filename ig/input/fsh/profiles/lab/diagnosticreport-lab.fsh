@@ -1,7 +1,7 @@
 Profile: MyCoreDiagnosticReportLab
 Parent: DiagnosticReport
-Id: diagnosticreport-lab-v21-my-core
-Title: "MY Core Laboratory Report (v2.1)"
+Id: diagnosticreport-lab-my-core
+Title: "MY Core Laboratory Report"
 Description: "The reported outcome of a laboratory order. Category uses HL7 v2 table 0074, which the lab-sub-group-my-core code system restates almost one-for-one and which is therefore retired in v2.1."
 * ^version = "2.1.0"
 * ^status = #draft

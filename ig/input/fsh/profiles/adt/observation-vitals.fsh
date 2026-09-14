@@ -1,7 +1,7 @@
 Profile: MyCoreObservationVitals
 Parent: http://hl7.org/fhir/StructureDefinition/vitalsigns
-Id: observation-vitals-v21-my-core
-Title: "MY Core Vital Sign (v2.1)"
+Id: observation-vitals-my-core
+Title: "MY Core Vital Sign"
 Description: "A vital sign observation. One profile with components, derived from the FHIR vital signs profile. This replaces the separate systolic and diastolic profiles in v2.0 — base FHIR models blood pressure as a single Observation with two components."
 * ^version = "2.1.0"
 * ^status = #draft
