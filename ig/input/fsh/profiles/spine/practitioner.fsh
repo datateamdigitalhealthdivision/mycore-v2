@@ -12,10 +12,14 @@ Description: "A healthcare worker who orders, performs, reports or authenticates
 * identifier ^slicing.discriminator[0].path = "system"
 * identifier ^slicing.rules = #open
 * identifier contains registration 0..1 MS
-* identifier[registration].system = "https://id.kkmhub.moh.gov.my/worker" (exactly)
+* identifier[registration].system = $ID-PRACT-REG (exactly)
 * identifier[registration].value 1..1
 * identifier[registration] ^short = "Professional registration number (MMC, MDC or the relevant board)."
 * name 1..* MS
-* name.family 1..1
+* name.text 1..1 MS
+* name.text ^short = "Full name exactly as printed on the identity document"
+* name.family 0..1 MS
+* name.given 0..* MS
+* name ^comment = "Same rule as MyCorePatient. A Malay practitioner named Nurul Huda binti Ismail has no family name, and Nurul Huda is one compound given name, not given plus family. name.text is the reliable element."
 * telecom MS
 * qualification MS

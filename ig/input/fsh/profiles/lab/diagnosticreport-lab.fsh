@@ -1,3 +1,10 @@
+// Identifier namespaces reconciled 14 Sep 2026 to the agreed scheme:
+//   order     https://id.kkmhub.moh.gov.my/order/{facilityCode}
+//   accession https://id.kkmhub.moh.gov.my/accession/{facilityCode}
+// The /report namespace is RETIRED: DiagnosticReport.identifier carries the
+// accession or the filler order number, not a third identifier for the same
+// clinical event. Because the namespace now varies by facility it cannot be
+// a fixed value, so `type` carries the discrimination (PLAC / FILL / ACSN).
 Profile: MyCoreDiagnosticReportLab
 Parent: DiagnosticReport
 Id: diagnosticreport-lab-my-core
@@ -8,9 +15,14 @@ Description: "The reported outcome of a laboratory order. Category uses HL7 v2 t
 * identifier 1..* MS
 * identifier ^slicing.discriminator[0].type = #value
 * identifier ^slicing.discriminator[0].path = "system"
+* identifier ^slicing.discriminator[1].type = #value
+* identifier ^slicing.discriminator[1].path = "type"
 * identifier ^slicing.rules = #open
+* identifier ^slicing.description = "Sliced by identifier namespace and type. The namespace is per-facility, so `type` is what actually discriminates."
 * identifier contains fillerReport 1..1 MS
-* identifier[fillerReport].system = "https://id.kkmhub.moh.gov.my/report" (exactly)
+* identifier[fillerReport].system 1..1
+* identifier[fillerReport].type = $V2-0203#FILL
+* identifier[fillerReport] ^short = "https://id.kkmhub.moh.gov.my/order/{facilityCode}"
 * basedOn MS
 * status 1..1 MS
 * category 1..* MS

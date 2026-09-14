@@ -44,8 +44,9 @@ InstanceOf: MyCorePractitioner
 Usage: #example
 Title: "Example - Dr Lim Wei Ming"
 Description: "A registered medical practitioner. Synthetic data."
-* identifier[registration].system = "https://id.kkmhub.moh.gov.my/worker"
+* identifier[registration].system = "https://id.kkmhub.moh.gov.my/practitioner/registration"
 * identifier[registration].value = "MMC-88123"
+* name.text = "Lim Wei Ming"
 * name.family = "Lim"
 * name.given = "Wei Ming"
 * name.prefix = "Dr"
@@ -54,9 +55,15 @@ Instance: ExampleRadiologist
 InstanceOf: MyCorePractitioner
 Usage: #example
 Title: "Example - Dr Nurul Huda"
-Description: "The reporting radiologist. Synthetic data."
-* identifier[registration].system = "https://id.kkmhub.moh.gov.my/worker"
+Description: "The reporting radiologist. Synthetic data.
+
+Contrast with ExampleDoctor. `Lim` is a real Chinese Malaysian family name, so
+family and given are both populated there. `Nurul Huda binti Ismail` has no
+family name at all — `Nurul Huda` is ONE compound given name, and `Ismail` is
+her father. Splitting it as given `Nurul` / family `Huda`, as v2.0 did, is
+simply wrong."
+* identifier[registration].system = "https://id.kkmhub.moh.gov.my/practitioner/registration"
 * identifier[registration].value = "MMC-91444"
-* name.family = "Huda"
-* name.given = "Nurul"
+* name.text = "Nurul Huda binti Ismail"
+* name.given = "Nurul Huda"
 * name.prefix = "Dr"
