@@ -1,7 +1,7 @@
 Profile: MyCoreEncounter
 Parent: Encounter
-Id: encounter-v21-my-core
-Title: "MY Core Encounter (v2.1)"
+Id: encounter-my-core
+Title: "MY Core Encounter"
 Description: "The contact during which care was given. Encounter.class uses HL7 v3 ActCode directly; the v2.0 local encounter-class code system is retired in favour of it. Admission and discharge detail lives on the ADT derivation of this profile."
 * ^version = "2.1.0"
 * ^status = #draft

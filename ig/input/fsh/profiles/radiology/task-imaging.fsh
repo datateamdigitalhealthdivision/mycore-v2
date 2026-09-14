@@ -1,7 +1,7 @@
 Profile: MyCoreTaskImaging
 Parent: Task
-Id: task-imaging-v21-my-core
-Title: "MY Core Imaging Task (v2.1)"
+Id: task-imaging-my-core
+Title: "MY Core Imaging Task"
 Description: "Workflow state of an imaging order inside the RIS — scheduled, acquired, reported. Mirrors the laboratory task so both point integrations behave the same way."
 * ^version = "2.1.0"
 * ^status = #draft

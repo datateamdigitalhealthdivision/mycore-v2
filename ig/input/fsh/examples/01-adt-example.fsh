@@ -6,8 +6,9 @@ InstanceOf: MyCoreEncounterAdmission
 Usage: #example
 Title: "Example - Inpatient admission"
 Description: "A four-day medical admission ending in discharge home."
-* identifier.system = "https://id.kkmhub.moh.gov.my/order"
+* identifier.system = "https://id.kkmhub.moh.gov.my/encounter/H-10-001"
 * identifier.value = "ADM-2026-004417"
+* identifier.type = http://terminology.hl7.org/CodeSystem/v2-0203#VN
 * status = #finished
 * class = http://terminology.hl7.org/CodeSystem/v3-ActCode#IMP "inpatient encounter"
 * subject = Reference(ExamplePatient)
@@ -33,7 +34,7 @@ InstanceOf: MyCoreAdtComposition
 Usage: #example
 Title: "Example - Discharge summary"
 Description: "A discharge summary with the PERDS2015 sections, all coded with LOINC."
-* identifier.system = "https://id.kkmhub.moh.gov.my/report"
+* identifier.system = "https://id.kkmhub.moh.gov.my/document/H-10-001"
 * identifier.value = "DS-2026-004417"
 * status = #final
 * type = http://loinc.org#18842-5 "Discharge summary"
@@ -65,7 +66,7 @@ InstanceOf: MyCoreDocumentBundle
 Usage: #example
 Title: "Example - ADT discharge document"
 Description: "The complete discharge note as a FHIR document. The Composition is the first entry and every resource it references is present in the same Bundle."
-* identifier.system = "https://id.kkmhub.moh.gov.my/report"
+* identifier.system = "https://id.kkmhub.moh.gov.my/document/H-10-001"
 * identifier.value = "DS-2026-004417"
 * type = #document
 * timestamp = "2026-08-28T11:30:00+08:00"

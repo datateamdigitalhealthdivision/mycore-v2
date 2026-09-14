@@ -15,3 +15,15 @@ ValueSet/quick-scheduling-my-core
 ValueSet/occupational-sector-my-core
 ValueSet/procedure-code-my-core
 ValueSet/monthly-household-income-my-core
+
+# Promoted to ig/input/resources-managed/ on 14 Sep 2026 as part of the
+# MyCorePatient review. Edited there (ethnic code 17 deleted, district
+# no-information padded to 0000, versions set to 2.1.0, the local religion
+# extension retired, Schedule dropped from the district extension context).
+# They must NOT be regenerated from the v2.0 source or those edits are lost.
+CodeSystem/ethnic-my-core
+CodeSystem/religion-my-core
+CodeSystem/district-my-core
+StructureDefinition/ethnic-my-core
+StructureDefinition/religion-my-core
+StructureDefinition/address-district-my-core

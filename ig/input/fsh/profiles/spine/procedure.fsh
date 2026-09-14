@@ -1,7 +1,7 @@
 Profile: MyCoreProcedure
 Parent: Procedure
-Id: procedure-v21-my-core
-Title: "MY Core Procedure (v2.1)"
+Id: procedure-my-core
+Title: "MY Core Procedure"
 Description: "A procedure performed during the encounter. Coded primarily with ICD-9-CM Volume 3, which MOH already uses operationally and which is freely redistributable; SNOMED CT is an accepted alternate."
 * ^version = "2.1.0"
 * ^status = #draft

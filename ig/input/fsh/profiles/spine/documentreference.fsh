@@ -1,7 +1,7 @@
 Profile: MyCoreDocumentReference
 Parent: DocumentReference
-Id: documentreference-v21-my-core
-Title: "MY Core DocumentReference (v2.1)"
+Id: documentreference-my-core
+Title: "MY Core DocumentReference"
 Description: "Carrier for a rendered report or note — typically a PDF. This is the pattern the MySejahtera API Gateway already uses to move a signed document alongside its structured content."
 * ^version = "2.1.0"
 * ^status = #draft

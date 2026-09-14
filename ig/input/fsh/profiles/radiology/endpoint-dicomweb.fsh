@@ -1,7 +1,7 @@
 Profile: MyCoreEndpointDicomWeb
 Parent: Endpoint
-Id: endpoint-dicomweb-v21-my-core
-Title: "MY Core DICOMweb Endpoint (v2.1)"
+Id: endpoint-dicomweb-my-core
+Title: "MY Core DICOMweb Endpoint"
 Description: "Where images can actually be retrieved. Without this, an ImagingStudy is metadata with no route to pixels."
 * ^version = "2.1.0"
 * ^status = #draft

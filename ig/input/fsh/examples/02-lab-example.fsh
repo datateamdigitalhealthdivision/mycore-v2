@@ -6,7 +6,8 @@ InstanceOf: MyCoreServiceRequestLab
 Usage: #example
 Title: "Example - Full blood count order"
 Description: "An order placed on the LIS, carrying the national orderable code with LOINC alongside."
-* identifier[placerOrder].system = "https://id.kkmhub.moh.gov.my/order"
+* identifier[placerOrder].system = "https://id.kkmhub.moh.gov.my/order/H-10-001"
+* identifier[placerOrder].type = http://terminology.hl7.org/CodeSystem/v2-0203#PLAC
 * identifier[placerOrder].value = "LAB-2026-778812"
 * status = #completed
 * intent = #order
@@ -23,7 +24,7 @@ InstanceOf: MyCoreSpecimen
 Usage: #example
 Title: "Example - EDTA whole blood"
 Description: "The specimen the count was performed on."
-* identifier.system = "https://id.kkmhub.moh.gov.my/order"
+* identifier.system = "https://id.kkmhub.moh.gov.my/order/H-10-001"
 * identifier.value = "SPEC-2026-991200"
 * status = #available
 * type = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/specimen-type-my-core#Bld "Blood"
@@ -56,7 +57,8 @@ InstanceOf: MyCoreDiagnosticReportLab
 Usage: #example
 Title: "Example - Full blood count report"
 Description: "The reported result. Category uses HL7 v2 table 0074, not a local lab discipline code."
-* identifier[fillerReport].system = "https://id.kkmhub.moh.gov.my/report"
+* identifier[fillerReport].system = "https://id.kkmhub.moh.gov.my/order/H-10-001"
+* identifier[fillerReport].type = http://terminology.hl7.org/CodeSystem/v2-0203#FILL
 * identifier[fillerReport].value = "LABRPT-2026-778812"
 * basedOn = Reference(ExampleLabOrder)
 * status = #final

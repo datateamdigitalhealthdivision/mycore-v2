@@ -14,7 +14,7 @@ Description: "An EMR that produces admission, transfer and discharge notes as FH
 * rest.mode = #client
 * rest.documentation = "Submits a document Bundle containing an ADT Composition to the national repository."
 * rest.resource[0].type = #Bundle
-* rest.resource[0].supportedProfile[0] = "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/bundle-document-v21-my-core"
+* rest.resource[0].supportedProfile[0] = "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/bundle-document-my-core"
 * rest.resource[0].interaction[0].code = #create
 
 Instance: MyCoreEmrOrderPlacer
@@ -32,8 +32,8 @@ Description: "An EMR that places laboratory and imaging orders."
 * format[0] = #json
 * rest.mode = #client
 * rest.resource[0].type = #ServiceRequest
-* rest.resource[0].supportedProfile[0] = "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/servicerequest-lab-v21-my-core"
-* rest.resource[0].supportedProfile[1] = "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/servicerequest-imaging-v21-my-core"
+* rest.resource[0].supportedProfile[0] = "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/servicerequest-lab-my-core"
+* rest.resource[0].supportedProfile[1] = "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/servicerequest-imaging-my-core"
 * rest.resource[0].interaction[0].code = #create
 * rest.resource[0].interaction[1].code = #search-type
 
@@ -52,11 +52,11 @@ Description: "A laboratory information system that returns results against a pla
 * format[0] = #json
 * rest.mode = #server
 * rest.resource[0].type = #DiagnosticReport
-* rest.resource[0].supportedProfile[0] = "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/diagnosticreport-lab-v21-my-core"
+* rest.resource[0].supportedProfile[0] = "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/diagnosticreport-lab-my-core"
 * rest.resource[0].interaction[0].code = #read
 * rest.resource[0].interaction[1].code = #search-type
 * rest.resource[1].type = #Observation
-* rest.resource[1].supportedProfile[0] = "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/observation-lab-v21-my-core"
+* rest.resource[1].supportedProfile[0] = "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/observation-lab-my-core"
 * rest.resource[1].interaction[0].code = #read
 
 Instance: MyCoreRisWorkflowManager
@@ -74,11 +74,11 @@ Description: "A radiology information system that manages imaging order state an
 * format[0] = #json
 * rest.mode = #server
 * rest.resource[0].type = #Task
-* rest.resource[0].supportedProfile[0] = "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/task-imaging-v21-my-core"
+* rest.resource[0].supportedProfile[0] = "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/task-imaging-my-core"
 * rest.resource[0].interaction[0].code = #read
 * rest.resource[0].interaction[1].code = #search-type
 * rest.resource[1].type = #DiagnosticReport
-* rest.resource[1].supportedProfile[0] = "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/diagnosticreport-imaging-v21-my-core"
+* rest.resource[1].supportedProfile[0] = "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/diagnosticreport-imaging-my-core"
 * rest.resource[1].interaction[0].code = #read
 
 Instance: MyCorePacsMetadataPublisher
@@ -96,11 +96,11 @@ Description: "Publishes ImagingStudy metadata and the DICOMweb endpoint through 
 * format[0] = #json
 * rest.mode = #server
 * rest.resource[0].type = #ImagingStudy
-* rest.resource[0].supportedProfile[0] = "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/imagingstudy-v21-my-core"
+* rest.resource[0].supportedProfile[0] = "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/imagingstudy-my-core"
 * rest.resource[0].interaction[0].code = #read
 * rest.resource[0].interaction[1].code = #search-type
 * rest.resource[1].type = #Endpoint
-* rest.resource[1].supportedProfile[0] = "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/endpoint-dicomweb-v21-my-core"
+* rest.resource[1].supportedProfile[0] = "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/endpoint-dicomweb-my-core"
 * rest.resource[1].interaction[0].code = #read
 
 Instance: MyCoreNationalRepository
@@ -121,5 +121,5 @@ Description: "Receives and validates content for all three use cases."
 * rest.resource[0].type = #Bundle
 * rest.resource[0].interaction[0].code = #create
 * rest.resource[1].type = #Patient
-* rest.resource[1].supportedProfile[0] = "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/patient-v21-my-core"
+* rest.resource[1].supportedProfile[0] = "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/patient-my-core"
 * rest.resource[1].interaction[0].code = #search-type

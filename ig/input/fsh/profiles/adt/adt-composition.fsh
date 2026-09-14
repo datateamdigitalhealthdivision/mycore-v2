@@ -1,7 +1,7 @@
 Profile: MyCoreAdtComposition
 Parent: Composition
-Id: composition-adt-v21-my-core
-Title: "MY Core ADT Note (v2.1)"
+Id: composition-adt-my-core
+Title: "MY Core ADT Note"
 Description: "Admission, transfer or discharge note, carried as a FHIR document. Section codes are standard LOINC throughout, continuing the choice already made by the 2016 MyHIX discharge summary profile. All twenty-one PERDS2015 fields map without local extensions beyond ethnicity, religion and district."
 * ^version = "2.1.0"
 * ^status = #draft
