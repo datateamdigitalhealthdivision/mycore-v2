@@ -6,12 +6,12 @@ InstanceOf: MyCoreServiceRequestImaging
 Usage: #example
 Title: "Example - Chest radiograph order"
 Description: "An imaging order carrying both the placer order number and the accession number that correlates it to the study."
-* identifier[placerOrder].system = "https://id.kkmhub.moh.gov.my/order/H-10-001"
+* identifier[placerOrder].system = "https://id.kkmhub.moh.gov.my/order/11-10040013"
 * identifier[placerOrder].type = http://terminology.hl7.org/CodeSystem/v2-0203#PLAC
 * identifier[placerOrder].value = "RAD-2026-330091"
-* identifier[accession].system = "https://id.kkmhub.moh.gov.my/accession/H-10-001"
+* identifier[accession].system = "https://id.kkmhub.moh.gov.my/accession/11-10040013"
 * identifier[accession].type = http://terminology.hl7.org/CodeSystem/v2-0203#ACSN
-* identifier[accession].value = "H-10-001-20260824-000731"
+* identifier[accession].value = "11-10040013-20260824-000731"
 * status = #completed
 * intent = #order
 * code.coding[national] = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/imaging-my-core#01
@@ -59,12 +59,12 @@ InstanceOf: MyCoreDiagnosticReportImaging
 Usage: #example
 Title: "Example - Chest radiograph report"
 Description: "The radiologist's report, linked to the study by accession number."
-* identifier[fillerReport].system = "https://id.kkmhub.moh.gov.my/order/H-10-001"
+* identifier[fillerReport].system = "https://id.kkmhub.moh.gov.my/order/11-10040013"
 * identifier[fillerReport].type = http://terminology.hl7.org/CodeSystem/v2-0203#FILL
 * identifier[fillerReport].value = "RADRPT-2026-330091"
-* identifier[accession].system = "https://id.kkmhub.moh.gov.my/accession/H-10-001"
+* identifier[accession].system = "https://id.kkmhub.moh.gov.my/accession/11-10040013"
 * identifier[accession].type = http://terminology.hl7.org/CodeSystem/v2-0203#ACSN
-* identifier[accession].value = "H-10-001-20260824-000731"
+* identifier[accession].value = "11-10040013-20260824-000731"
 * basedOn = Reference(ExampleImagingOrder)
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/v2-0074#RAD "Radiology"

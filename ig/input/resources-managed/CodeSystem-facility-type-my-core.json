@@ -1,0 +1,62 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "facility-type-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/facility-type-my-core",
+  "version": "2.1.0",
+  "name": "FacilityTypeMyCore",
+  "title": "MOH Healthcare Facility Type",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "NATIONAL. MOH-maintained classification of healthcare facility types. No international code system covers the Malaysian facility taxonomy (Klinik Desa, Klinik 1 Malaysia, Klinik Kesihatan Ibu dan Anak and the rest).",
+  "caseSensitive": true,
+  "content": "complete",
+  "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/facility-type-my-core-vs",
+  "count": 11,
+  "concept": [
+    {
+      "code": "hospital-major-specialist",
+      "display": "Major Specialist Hospital"
+    },
+    {
+      "code": "hospital-minor-specialist",
+      "display": "Minor Specialist Hospital"
+    },
+    {
+      "code": "hospital-non-specialist",
+      "display": "Non-Specialist Hospital"
+    },
+    {
+      "code": "klinik-1-malaysia",
+      "display": "Klinik 1 Malaysia"
+    },
+    {
+      "code": "klinik-desa",
+      "display": "Klinik Desa"
+    },
+    {
+      "code": "klinik-kesihatan",
+      "display": "Klinik Kesihatan"
+    },
+    {
+      "code": "klinik-kesihatan-ibu-anak",
+      "display": "Klinik Kesihatan Ibu dan Anak"
+    },
+    {
+      "code": "klinik-komuniti",
+      "display": "Klinik Komuniti"
+    },
+    {
+      "code": "special-medical-institution",
+      "display": "Special Medical Institution"
+    },
+    {
+      "code": "state-hospital",
+      "display": "State Hospital"
+    },
+    {
+      "code": "unknown",
+      "display": "Not Known"
+    }
+  ]
+}

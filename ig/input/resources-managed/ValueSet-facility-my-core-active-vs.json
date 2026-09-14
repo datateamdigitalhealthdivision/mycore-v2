@@ -1,0 +1,26 @@
+{
+  "resourceType": "ValueSet",
+  "id": "facility-my-core-active-vs",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/facility-my-core-active-vs",
+  "version": "2.1.0",
+  "name": "facility_my_core_active_vs",
+  "title": "MOH Healthcare Facility — not retired",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "NATIONAL. Facility codes that are not retired, for pickers and data entry. Provisional PROV- codes ARE included: a facility with a provisional code still admits patients and still issues MRNs. Do NOT use this for validation — retired facilities keep appearing in historical records.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/facility-my-core",
+        "filter": [
+          {
+            "property": "inactive",
+            "op": "=",
+            "value": "false"
+          }
+        ]
+      }
+    ]
+  }
+}

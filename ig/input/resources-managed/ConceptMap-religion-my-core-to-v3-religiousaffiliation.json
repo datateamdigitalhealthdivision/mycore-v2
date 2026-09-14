@@ -1,0 +1,152 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "religion-my-core-to-v3-religiousaffiliation",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ConceptMap/religion-my-core-to-v3-religiousaffiliation",
+  "version": "2.1.0",
+  "name": "MyCoreReligionToV3ReligiousAffiliation",
+  "title": "MY Core Religion to HL7 v3-ReligiousAffiliation",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Maps the twelve MOH religion concepts to HL7 v3-ReligiousAffiliation for international export. MY Core binds Patient.extension[religion] to the MOH list, not to HL7's, because four concepts have no international equivalent — including Buddhism and Christianity, together roughly a quarter of the Malaysian population. Resolved concept by concept against the published THO code list (82 concepts). Seven map exactly, one maps to a broader concept, four have no equivalent.",
+  "sourceCanonical": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/religion-my-core",
+  "targetCanonical": "http://terminology.hl7.org/ValueSet/v3-ReligiousAffiliation",
+  "group": [
+    {
+      "source": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/religion-my-core",
+      "target": "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation",
+      "element": [
+        {
+          "code": "1",
+          "display": "Islam",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "1023",
+              "display": "Islam"
+            }
+          ]
+        },
+        {
+          "code": "4",
+          "display": "Hinduism",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "1020",
+              "display": "Hinduism"
+            }
+          ]
+        },
+        {
+          "code": "5",
+          "display": "Sikhism",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "1047",
+              "display": "Sikism",
+              "comment": "The THO display 'Sikism' is misspelt upstream. The concept is correct."
+            }
+          ]
+        },
+        {
+          "code": "6",
+          "display": "Atheist",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "1007",
+              "display": "Atheism"
+            }
+          ]
+        },
+        {
+          "code": "7",
+          "display": "Taoism",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "1050",
+              "display": "Taoism"
+            }
+          ]
+        },
+        {
+          "code": "8",
+          "display": "Confucianism",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "1014",
+              "display": "Confucianism"
+            }
+          ]
+        },
+        {
+          "code": "10",
+          "display": "Animism",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "1006",
+              "display": "Animism"
+            }
+          ]
+        },
+        {
+          "code": "9",
+          "display": "Bahaism",
+          "target": [
+            {
+              "equivalence": "wider",
+              "code": "1008",
+              "display": "Babi & Baha'I faiths",
+              "comment": "The THO concept covers both the Babi and Baha'i faiths; the MOH concept is Baha'i only."
+            }
+          ]
+        },
+        {
+          "code": "2",
+          "display": "Christianity",
+          "target": [
+            {
+              "equivalence": "unmatched",
+              "comment": "v3-ReligiousAffiliation has no generic Christianity. 1013 is 'Christian (non-Catholic, non-specific)' and would systematically exclude Catholics, a large share of Malaysian Christians."
+            }
+          ]
+        },
+        {
+          "code": "3",
+          "display": "Buddhism",
+          "target": [
+            {
+              "equivalence": "unmatched",
+              "comment": "v3-ReligiousAffiliation carries Mahayana, Theravada, Vajrayana and Zen but no parent concept for Buddhism."
+            }
+          ]
+        },
+        {
+          "code": "99",
+          "display": "Others",
+          "target": [
+            {
+              "equivalence": "unmatched",
+              "comment": "No generic 'other' concept exists in v3-ReligiousAffiliation."
+            }
+          ]
+        },
+        {
+          "code": "0",
+          "display": "No Information",
+          "target": [
+            {
+              "equivalence": "unmatched",
+              "comment": "Not a religion. Use the FHIR dataAbsentReason pattern, or omit the extension."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

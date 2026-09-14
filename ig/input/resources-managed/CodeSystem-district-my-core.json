@@ -25,7 +25,7 @@
   "hierarchyMeaning": "grouped-by",
   "compositional": false,
   "content": "complete",
-  "count": 157,
+  "count": 156,
   "property": [
     {
       "code": "stateCode",
@@ -999,8 +999,8 @@
     },
     {
       "code": "0806",
-      "display": "Larut & Matang",
-      "definition": "Larut & Matang",
+      "display": "Larut Matang dan Selama",
+      "definition": "Larut Matang dan Selama",
       "property": [
         {
           "code": "stateCode",
@@ -1029,8 +1029,8 @@
     },
     {
       "code": "0808",
-      "display": "Ulu Perak",
-      "definition": "Ulu Perak",
+      "display": "Hulu Perak",
+      "definition": "Hulu Perak",
       "property": [
         {
           "code": "stateCode",
@@ -2334,8 +2334,8 @@
     },
     {
       "code": "1401",
-      "display": "W.P. Kuala Lumpur",
-      "definition": "W.P. Kuala Lumpur",
+      "display": "Wilayah Persekutuan Kuala Lumpur",
+      "definition": "Wilayah Persekutuan Kuala Lumpur",
       "property": [
         {
           "code": "stateCode",
@@ -2343,14 +2343,14 @@
         },
         {
           "code": "stateDisplay",
-          "valueString": "W.P. Kuala Lumpur"
+          "valueString": "Wilayah Persekutuan Kuala Lumpur"
         }
       ]
     },
     {
       "code": "1501",
-      "display": "W.P. Labuan",
-      "definition": "W.P. Labuan",
+      "display": "Wilayah Persekutuan Labuan",
+      "definition": "Wilayah Persekutuan Labuan",
       "property": [
         {
           "code": "stateCode",
@@ -2358,14 +2358,14 @@
         },
         {
           "code": "stateDisplay",
-          "valueString": "W.P. Labuan"
+          "valueString": "Wilayah Persekutuan Labuan"
         }
       ]
     },
     {
       "code": "1601",
-      "display": "W.P. Putrajaya",
-      "definition": "W.P. Putrajaya",
+      "display": "Wilayah Persekutuan Putrajaya",
+      "definition": "Wilayah Persekutuan Putrajaya",
       "property": [
         {
           "code": "stateCode",
@@ -2373,22 +2373,7 @@
         },
         {
           "code": "stateDisplay",
-          "valueString": "W.P. Putrajaya"
-        }
-      ]
-    },
-    {
-      "code": "KOD_NEGERI+DAERAH",
-      "display": "NAMA_DAERAH",
-      "definition": "NAMA_DAERAH",
-      "property": [
-        {
-          "code": "stateCode",
-          "valueCode": "KOD_NEGERI"
-        },
-        {
-          "code": "stateDisplay",
-          "valueString": "NAMA_NEGERI"
+          "valueString": "Wilayah Persekutuan Putrajaya"
         }
       ]
     }

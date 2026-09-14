@@ -1,0 +1,19 @@
+{
+  "resourceType": "ValueSet",
+  "id": "facility-type-my-core-vs",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/facility-type-my-core-vs",
+  "version": "2.1.0",
+  "name": "facility_type_my_core_vs",
+  "title": "MOH Healthcare Facility Type",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "NATIONAL. The eleven MOH facility types. Bind Organization.type to this.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/facility-type-my-core"
+      }
+    ]
+  }
+}
