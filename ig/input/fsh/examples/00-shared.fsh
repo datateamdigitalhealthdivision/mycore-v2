@@ -3,12 +3,12 @@
 Instance: ExampleHospital
 InstanceOf: MyCoreOrganization
 Usage: #example
-Title: "Example - Hospital Tuanku Ampuan Rahimah"
+Title: "Example - Hospital Tengku Ampuan Rahimah"
 Description: "A public hospital, identified by its national facility code."
 * identifier[facilityCode].system = "https://id.kkmhub.moh.gov.my/facility"
-* identifier[facilityCode].value = "H-10-001"
-* name = "Hospital Tuanku Ampuan Rahimah"
-* type = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/organization-category-my-core#01
+* identifier[facilityCode].value = "11-10040013"
+* name = "Hospital Tengku Ampuan Rahimah"
+* type = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/facility-type-my-core#state-hospital "State Hospital"
 
 Instance: ExamplePatient
 InstanceOf: MyCorePatient

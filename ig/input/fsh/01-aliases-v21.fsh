@@ -56,6 +56,11 @@ Alias: $CS-V3-RELIGION = http://terminology.hl7.org/CodeSystem/v3-ReligiousAffil
 Alias: $VS-ISO3166-A2  = http://hl7.org/fhir/ValueSet/iso3166-1-2
 Alias: $CS-RELIGION-MY = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/religion-my-core
 
+// Facility register (resources-managed, built from MOH_Facility_Code_Terminology_v5)
+Alias: $VS-FACILITY       = https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/facility-my-core-vs
+Alias: $VS-FACILITY-TYPE  = https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/facility-type-my-core-vs
+Alias: $VS-FACILITY-ACTIVE = https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/facility-my-core-active-vs
+
 // Local MY Core value sets in scope for v2.1
 Alias: $VS-ETHNIC          = https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/ethnic-my-core
 Alias: $VS-RELIGION        = https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/religion-my-core
