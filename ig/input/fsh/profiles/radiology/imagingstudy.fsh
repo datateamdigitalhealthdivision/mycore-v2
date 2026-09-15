@@ -20,8 +20,10 @@ Description: "DICOM study metadata published by PACS or VNA. Modality comes from
 * numberOfSeries MS
 * numberOfInstances MS
 * procedureCode MS
+* procedureCode from $VS-RAD-PROCEDURE (extensible)
+* procedureCode ^short = "LOINC/RSNA Radiology Playbook, the same vocabulary as the Imaging Order. Resolves IS-02: base R4 binds this element to an RSNA web page rather than a value set, and IS-03: the study previously carried no national procedure vocabulary at all."
 * series MS
 * series.uid 1..1
 * series.modality 1..1
 * series.bodySite MS
-* series.bodySite from https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/imaging-region-my-core (extensible)
+* series.bodySite from $VS-BODYSITE (extensible)

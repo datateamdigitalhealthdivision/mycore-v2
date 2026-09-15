@@ -1,0 +1,986 @@
+{
+  "resourceType": "ValueSet",
+  "id": "radiology-procedure-guidance-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/radiology-procedure-guidance-my-core",
+  "version": "2.1.0",
+  "name": "MyCoreRadiologyProcedureImageGuidedProceduresMyCore",
+  "title": "MY Core Radiology Procedure - Image-guided procedures",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "NATIONAL SELECTION. The image-guided procedures subset of the LOINC/RSNA Radiology Playbook. 241 codes. A modality-scoped pick list; the full catalogue is radiology-procedure-my-core.",
+  "copyright": "This value set enumerates LOINC codes. LOINC is copyright Regenstrief Institute, Inc. and the LOINC Committee, and is available at no cost under the LOINC licence. RPID identifiers are from the RSNA Radiology Playbook.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "25027-4",
+            "display": "Guidance for placement of large bore CV catheter in Vein"
+          },
+          {
+            "code": "25072-0",
+            "display": "Guidance for placement of infusion port"
+          },
+          {
+            "code": "26307-9",
+            "display": "Guidance for placement of large bore CV catheter in Vein - bilateral"
+          },
+          {
+            "code": "26308-7",
+            "display": "Guidance for placement of large bore CV catheter in Vein - left"
+          },
+          {
+            "code": "26309-5",
+            "display": "Guidance for placement of large bore CV catheter in Vein - right"
+          },
+          {
+            "code": "86993-3",
+            "display": "Guidance for 1 level kyphoplasty of Spine vertebra"
+          },
+          {
+            "code": "86994-1",
+            "display": "Guidance for 1 or 2 injections of trigger point of Muscle"
+          },
+          {
+            "code": "86995-8",
+            "display": "Guidance for abscess"
+          },
+          {
+            "code": "86996-6",
+            "display": "Guidance for additional augmentation of Spine vertebra"
+          },
+          {
+            "code": "86997-4",
+            "display": "Guidance for additional day infusion of thrombolytic of Vessel-- W thrombolytic via catheter"
+          },
+          {
+            "code": "86998-2",
+            "display": "Guidance for additional percutaneous mechanical thrombectomy of Vein"
+          },
+          {
+            "code": "86999-0",
+            "display": "Guidance for additional percutaneous mechanical thrombectomy of Artery"
+          },
+          {
+            "code": "87000-6",
+            "display": "Guidance for additional placement of endovascular device of Vein"
+          },
+          {
+            "code": "87001-4",
+            "display": "Guidance for additional placement of stent of Artery"
+          },
+          {
+            "code": "87002-2",
+            "display": "Guidance for additional placement of wire"
+          },
+          {
+            "code": "87003-0",
+            "display": "Guidance for additional vertebroplasty of Spine vertebra"
+          },
+          {
+            "code": "87004-8",
+            "display": "Guidance for arthrocentesis of Joint.intermediate"
+          },
+          {
+            "code": "87005-5",
+            "display": "Guidance for arthrocentesis of Joint.major"
+          },
+          {
+            "code": "87006-3",
+            "display": "Guidance for arthrocentesis of Joint.small"
+          },
+          {
+            "code": "87007-1",
+            "display": "Guidance for arthrocentesis of Joint"
+          },
+          {
+            "code": "87008-9",
+            "display": "Guidance for fluid aspiration of Bone marrow"
+          },
+          {
+            "code": "87009-7",
+            "display": "Guidance for aspiration of cyst"
+          },
+          {
+            "code": "87010-5",
+            "display": "Guidance for aspiration of cyst of Bone"
+          },
+          {
+            "code": "87011-3",
+            "display": "Guidance for aspiration of ganglion cyst"
+          },
+          {
+            "code": "87012-1",
+            "display": "Guidance for fluid aspiration of Lymph node"
+          },
+          {
+            "code": "87013-9",
+            "display": "Guidance for percutaneous biopsy of Bone"
+          },
+          {
+            "code": "87014-7",
+            "display": "Guidance for biopsy of Bone marrow"
+          },
+          {
+            "code": "87015-4",
+            "display": "Guidance for biopsy of Lymph node"
+          },
+          {
+            "code": "87016-2",
+            "display": "Guidance for biopsy of Soft tissue"
+          },
+          {
+            "code": "87017-0",
+            "display": "Guidance for check of drainage catheter for abscess"
+          },
+          {
+            "code": "87018-8",
+            "display": "Guidance for deep biopsy of Bone"
+          },
+          {
+            "code": "87019-6",
+            "display": "Guidance for drainage"
+          },
+          {
+            "code": "87020-4",
+            "display": "Guidance for embolization of Artery"
+          },
+          {
+            "code": "87021-2",
+            "display": "Guidance for embolization of Vein"
+          },
+          {
+            "code": "87022-0",
+            "display": "Guidance for embolization of Vessels"
+          },
+          {
+            "code": "87023-8",
+            "display": "Guidance for exchange of drainage catheter for abscess"
+          },
+          {
+            "code": "87024-6",
+            "display": "Guidance for additional day infusion of thrombolytic of Chest-- W thrombolytic via chest tube"
+          },
+          {
+            "code": "87025-3",
+            "display": "Guidance for additional level kyphoplasty of Thoracic spine"
+          },
+          {
+            "code": "87026-1",
+            "display": "Guidance for additional vertebroplasty of Thoracic spine"
+          },
+          {
+            "code": "87027-9",
+            "display": "Guidance for biopsy of Chest Pleura"
+          },
+          {
+            "code": "87028-7",
+            "display": "Guidance for biopsy of Lung"
+          },
+          {
+            "code": "87029-5",
+            "display": "Guidance for biopsy of Mediastinum"
+          },
+          {
+            "code": "87030-3",
+            "display": "Guidance for biopsy of Neck or Chest Soft tissue"
+          },
+          {
+            "code": "87031-1",
+            "display": "Guidance for check of peritoneovenous shunt of Chest and Abdomen"
+          },
+          {
+            "code": "87032-9",
+            "display": "Guidance for cryoablation of Lung"
+          },
+          {
+            "code": "87033-7",
+            "display": "Guidance for drainage of Chest Pleura"
+          },
+          {
+            "code": "87034-5",
+            "display": "Guidance for exchange of catheter portion only of CV catheter with port of Chest"
+          },
+          {
+            "code": "87035-2",
+            "display": "Guidance for exchange of CV catheter with port of Chest"
+          },
+          {
+            "code": "87036-0",
+            "display": "Guidance for additional level kyphoplasty of Lumbar spine"
+          },
+          {
+            "code": "87037-8",
+            "display": "Guidance for additional placement of stent of Iliac artery"
+          },
+          {
+            "code": "87038-6",
+            "display": "Guidance for additional transluminal angioplasty of Iliac artery"
+          },
+          {
+            "code": "87039-4",
+            "display": "Guidance for additional vertebroplasty of Lumbar spine"
+          },
+          {
+            "code": "87040-2",
+            "display": "Guidance for aspiration of cyst of Kidney"
+          },
+          {
+            "code": "87041-0",
+            "display": "Guidance for percutaneous biopsy of Kidney"
+          },
+          {
+            "code": "87042-8",
+            "display": "Guidance for percutaneous biopsy of Liver"
+          },
+          {
+            "code": "87043-6",
+            "display": "Guidance for biopsy of Ureter"
+          },
+          {
+            "code": "87044-4",
+            "display": "Guidance for check of tube of Biliary ducts"
+          },
+          {
+            "code": "87045-1",
+            "display": "Guidance for cholangioscopy and removal of calculus of Gallbladder"
+          },
+          {
+            "code": "87046-9",
+            "display": "Guidance for cholangioscopy of Gallbladder"
+          },
+          {
+            "code": "87047-7",
+            "display": "Guidance for cholecystostomy of Gallbladder"
+          },
+          {
+            "code": "87048-5",
+            "display": "Guidance for conversion of G-tube to GJ-tube of Gastrointestinal tract upper"
+          },
+          {
+            "code": "87049-3",
+            "display": "Guidance for cryoablation of Kidney"
+          },
+          {
+            "code": "87050-1",
+            "display": "Guidance for cryoablation of Liver"
+          },
+          {
+            "code": "87051-9",
+            "display": "Guidance for dilation of stricture of Biliary ducts"
+          },
+          {
+            "code": "87052-7",
+            "display": "Guidance for exchange of G-tube of Stomach"
+          },
+          {
+            "code": "87053-5",
+            "display": "Guidance for exchange of J-tube of Gastrointestinal tract upper"
+          },
+          {
+            "code": "87054-3",
+            "display": "Guidance for exchange of nephrostomy tube of Kidney"
+          },
+          {
+            "code": "87055-0",
+            "display": "Guidance for biopsy of Pancreas"
+          },
+          {
+            "code": "87056-8",
+            "display": "Guidance for biopsy of Abdomen"
+          },
+          {
+            "code": "87057-6",
+            "display": "Guidance for placement of fiducial marker in Abdomen"
+          },
+          {
+            "code": "87058-4",
+            "display": "Guidance for radiofrequency ablation of Kidney"
+          },
+          {
+            "code": "87059-2",
+            "display": "Guidance for biopsy of Biliary ducts"
+          },
+          {
+            "code": "87060-0",
+            "display": "Guidance for removal of calculus from Biliary ducts"
+          },
+          {
+            "code": "87061-8",
+            "display": "Guidance for injection of contrast of Biliary ducts"
+          },
+          {
+            "code": "87062-6",
+            "display": "Guidance for nerve block of Celiac plexus"
+          },
+          {
+            "code": "87063-4",
+            "display": "Guidance for removal of GJ-tube from Gastrointestinal tract upper"
+          },
+          {
+            "code": "87064-2",
+            "display": "Guidance for placement of GJ-tube in Gastrointestinal tract upper"
+          },
+          {
+            "code": "87065-9",
+            "display": "Guidance for placement of G-tube in Gastrointestinal tract upper"
+          },
+          {
+            "code": "87066-7",
+            "display": "Guidance for percutaneous placement of nephrostomy tube of Kidney"
+          },
+          {
+            "code": "87067-5",
+            "display": "Guidance for transjugular biopsy of Kidney"
+          },
+          {
+            "code": "87068-3",
+            "display": "Guidance for transjugular biopsy and venography of Kidney"
+          },
+          {
+            "code": "87069-1",
+            "display": "Guidance for hemodynamic evaluation of Liver"
+          },
+          {
+            "code": "87070-9",
+            "display": "Guidance for microwave ablation of Liver"
+          },
+          {
+            "code": "87071-7",
+            "display": "Guidance for radiofrequency ablation of Liver"
+          },
+          {
+            "code": "87072-5",
+            "display": "Guidance for placement of TIPS of Liver"
+          },
+          {
+            "code": "87073-3",
+            "display": "Guidance for revision of TIPS of Liver"
+          },
+          {
+            "code": "87074-1",
+            "display": "Guidance for transhepatic revision of tube of Liver"
+          },
+          {
+            "code": "87075-8",
+            "display": "Guidance for transjugular biopsy of Liver"
+          },
+          {
+            "code": "87076-6",
+            "display": "Guidance for transjugular biopsy and hemodynamic evaluation of Liver"
+          },
+          {
+            "code": "87077-4",
+            "display": "Guidance for transjugular biopsy and venography of Liver"
+          },
+          {
+            "code": "87078-2",
+            "display": "Guidance for percutaneous drainage of Abdomen"
+          },
+          {
+            "code": "87079-0",
+            "display": "Guidance for paracentesis and insertion of tube of Peritoneum"
+          },
+          {
+            "code": "87080-8",
+            "display": "Guidance for paracentesis of Peritoneum"
+          },
+          {
+            "code": "87081-6",
+            "display": "Guidance for placement of catheter in Peritoneum"
+          },
+          {
+            "code": "87082-4",
+            "display": "Guidance for removal of catheter from Peritoneum"
+          },
+          {
+            "code": "87083-2",
+            "display": "Guidance for reposition of catheter in Peritoneum"
+          },
+          {
+            "code": "87084-0",
+            "display": "Guidance for removal of foreign body from Peritoneum"
+          },
+          {
+            "code": "87085-7",
+            "display": "Guidance for placement of port in Peritoneum"
+          },
+          {
+            "code": "87086-5",
+            "display": "Guidance for removal of port from Peritoneum"
+          },
+          {
+            "code": "87087-3",
+            "display": "Guidance for percutaneous transluminal angioplasty of Renal artery"
+          },
+          {
+            "code": "87088-1",
+            "display": "Guidance for puncture of Lumbar spine"
+          },
+          {
+            "code": "87089-9",
+            "display": "Guidance for kyphoplasty of Lumbar spine"
+          },
+          {
+            "code": "87090-7",
+            "display": "Guidance for myelography of Lumbar spine"
+          },
+          {
+            "code": "87091-5",
+            "display": "Guidance for vertebroplasty of Lumbar spine"
+          },
+          {
+            "code": "87092-3",
+            "display": "Guidance for placement of venous filter in Inferior vena cava"
+          },
+          {
+            "code": "87093-1",
+            "display": "Guidance for removal of venous filter from Inferior vena cava"
+          },
+          {
+            "code": "87094-9",
+            "display": "Guidance for reposition of venous filter in Inferior vena cava"
+          },
+          {
+            "code": "87095-6",
+            "display": "Guidance for percutaneous transluminal angioplasty of Visceral artery"
+          },
+          {
+            "code": "87096-4",
+            "display": "Guidance for placement of stent in Visceral artery"
+          },
+          {
+            "code": "87097-2",
+            "display": "Guidance for placement of peritoneovenous shunt in Chest and Abdomen"
+          },
+          {
+            "code": "87098-0",
+            "display": "Guidance for removal of peritoneovenous shunt from Chest and Abdomen"
+          },
+          {
+            "code": "87099-8",
+            "display": "Guidance for revision of peritoneovenous shunt of Chest and Abdomen"
+          },
+          {
+            "code": "87100-4",
+            "display": "Guidance for percutaneous transluminal angioplasty of Thoracic and abdominal aorta"
+          },
+          {
+            "code": "87101-2",
+            "display": "Guidance for percutaneous transluminal angioplasty of Brachiocephalic artery"
+          },
+          {
+            "code": "87102-0",
+            "display": "Guidance for initial day infusion of thrombolytic of Chest-- W thrombolytic via chest tube"
+          },
+          {
+            "code": "87103-8",
+            "display": "Guidance for infusion of thrombolytic of Chest-- W thrombolytic via CVC"
+          },
+          {
+            "code": "87104-6",
+            "display": "Guidance for injection of CV catheter of Chest"
+          },
+          {
+            "code": "87105-3",
+            "display": "Guidance for reposition of CV catheter in Chest"
+          },
+          {
+            "code": "87106-1",
+            "display": "Guidance for placement of CV catheter with port in Chest"
+          },
+          {
+            "code": "87107-9",
+            "display": "Guidance for removal of CV catheter with port from Chest"
+          },
+          {
+            "code": "87108-7",
+            "display": "Guidance for repair of CV catheter with port of Chest"
+          },
+          {
+            "code": "87109-5",
+            "display": "Guidance for placement of Swan-Ganz catheter in Chest"
+          },
+          {
+            "code": "87110-3",
+            "display": "Guidance for thoracentesis and insertion of tube of Chest"
+          },
+          {
+            "code": "87111-1",
+            "display": "Guidance for thoracentesis of Chest"
+          },
+          {
+            "code": "87112-9",
+            "display": "Guidance for exchange of tunneled CV catheter without port of Chest"
+          },
+          {
+            "code": "87113-7",
+            "display": "Guidance for placement of tunneled CV catheter without port in Chest"
+          },
+          {
+            "code": "87114-5",
+            "display": "Guidance for removal of tunneled CV catheter without port from Chest"
+          },
+          {
+            "code": "87115-2",
+            "display": "Guidance for repair of non-tunneled CV catheter without port of Chest"
+          },
+          {
+            "code": "87116-0",
+            "display": "Guidance for placement of chest tube in Chest"
+          },
+          {
+            "code": "87117-8",
+            "display": "Guidance for pericardiocentesis of Heart"
+          },
+          {
+            "code": "87118-6",
+            "display": "Guidance for placement of fiducial marker in Lung"
+          },
+          {
+            "code": "87119-4",
+            "display": "Guidance for microwave ablation of Lung"
+          },
+          {
+            "code": "87120-2",
+            "display": "Guidance for radiofrequency ablation of Lung"
+          },
+          {
+            "code": "87121-0",
+            "display": "Guidance for placement of tunneled catheter in Chest Pleura"
+          },
+          {
+            "code": "87122-8",
+            "display": "Guidance for kyphoplasty of Thoracic spine"
+          },
+          {
+            "code": "87123-6",
+            "display": "Guidance for myelography of Thoracic spine"
+          },
+          {
+            "code": "87124-4",
+            "display": "Guidance for vertebroplasty of Thoracic spine"
+          },
+          {
+            "code": "87125-1",
+            "display": "Guidance for nerve block of Thoracic spine intercostal nerve"
+          },
+          {
+            "code": "87126-9",
+            "display": "Guidance for removal of venous filter from Superior vena cava"
+          },
+          {
+            "code": "87127-7",
+            "display": "Guidance for reposition of venous filter in Superior vena cava"
+          },
+          {
+            "code": "87128-5",
+            "display": "Guidance for placement of venous filter in Superior vena cava"
+          },
+          {
+            "code": "87129-3",
+            "display": "Guidance for percutaneous transluminal angioplasty of Lower leg"
+          },
+          {
+            "code": "87130-1",
+            "display": "Guidance for laser ablation of Extremity vein"
+          },
+          {
+            "code": "87131-9",
+            "display": "Guidance for greater than 20 stab phlebectomy of Extremity vein"
+          },
+          {
+            "code": "87132-7",
+            "display": "Guidance for injection of Ankle"
+          },
+          {
+            "code": "87133-5",
+            "display": "Guidance for percutaneous transluminal angioplasty of Femoral artery and Popliteal artery"
+          },
+          {
+            "code": "87134-3",
+            "display": "Guidance for placement of stent in Femoral artery and Popliteal artery"
+          },
+          {
+            "code": "87135-0",
+            "display": "Guidance for injection of Hip"
+          },
+          {
+            "code": "87136-8",
+            "display": "Guidance for fluid aspiration of Knee"
+          },
+          {
+            "code": "87137-6",
+            "display": "Guidance for injection of Knee"
+          },
+          {
+            "code": "87138-4",
+            "display": "Guidance for additional laser ablation of Extremity vein"
+          },
+          {
+            "code": "87139-2",
+            "display": "Guidance for additional transluminal angioplasty of Lower leg"
+          },
+          {
+            "code": "87140-0",
+            "display": "Guidance for additional placement of stent of Lower leg vessel"
+          },
+          {
+            "code": "87141-8",
+            "display": "Guidance for placement of CV catheter with port in Upper extremity"
+          },
+          {
+            "code": "87142-6",
+            "display": "Guidance for exchange of CV catheter with port of Upper extremity"
+          },
+          {
+            "code": "87143-4",
+            "display": "Guidance for exchange of peripherally inserted central catheter of Upper extremity"
+          },
+          {
+            "code": "87144-2",
+            "display": "Guidance for placement of peripherally-inserted central venous catheter in Upper extremity"
+          },
+          {
+            "code": "87145-9",
+            "display": "Guidance for embolization of Brachial artery"
+          },
+          {
+            "code": "87146-7",
+            "display": "Guidance for injection of Shoulder"
+          },
+          {
+            "code": "87147-5",
+            "display": "Guidance for injection of Wrist"
+          },
+          {
+            "code": "87148-3",
+            "display": "Guidance for injection of thrombin for pseudoaneurysm"
+          },
+          {
+            "code": "87149-1",
+            "display": "Guidance for exchange of chest tube of Chest"
+          },
+          {
+            "code": "87150-9",
+            "display": "Guidance for percutaneous transluminal angioplasty of Iliac artery"
+          },
+          {
+            "code": "87151-7",
+            "display": "Guidance for placement of stent in Iliac artery"
+          },
+          {
+            "code": "87152-5",
+            "display": "Guidance for exchange of ureterostomy through ileal conduit of Ureter"
+          },
+          {
+            "code": "87153-3",
+            "display": "Guidance for for therapeutic puncture and drainage of Cervical spine"
+          },
+          {
+            "code": "87154-1",
+            "display": "Guidance for diagnostic puncture of Cervical spine"
+          },
+          {
+            "code": "87155-8",
+            "display": "Guidance for fine needle aspiration of Thyroid gland"
+          },
+          {
+            "code": "87156-6",
+            "display": "Guidance for percutaneous biopsy.core needle of Thyroid gland"
+          },
+          {
+            "code": "87157-4",
+            "display": "Guidance for injection of platelet rich plasma"
+          },
+          {
+            "code": "87158-2",
+            "display": "Guidance for injection of Tendon"
+          },
+          {
+            "code": "87159-0",
+            "display": "Guidance for injection of Temporomandibular joint"
+          },
+          {
+            "code": "87160-8",
+            "display": "Guidance for injection of Spine facet joint"
+          },
+          {
+            "code": "87161-6",
+            "display": "Guidance for injection of Spine epidural space"
+          },
+          {
+            "code": "87162-4",
+            "display": "Guidance for placement of needle"
+          },
+          {
+            "code": "87163-2",
+            "display": "Guidance for placement of endovascular device in Vein"
+          },
+          {
+            "code": "87164-0",
+            "display": "Guidance for secondary mechanical thrombectomy of Artery"
+          },
+          {
+            "code": "87165-7",
+            "display": "Guidance for placement of endograft in Iliac artery"
+          },
+          {
+            "code": "87166-5",
+            "display": "Guidance for percutaneous transluminal angioplasty of Vein"
+          },
+          {
+            "code": "87167-3",
+            "display": "Guidance for transcatheter biopsy"
+          },
+          {
+            "code": "87168-1",
+            "display": "Guidance for transcatheter placement of stent"
+          },
+          {
+            "code": "87169-9",
+            "display": "Guidance for initial mechanical thrombectomy of Artery"
+          },
+          {
+            "code": "87170-7",
+            "display": "Guidance for ligation of Lymphatic vessel"
+          },
+          {
+            "code": "87171-5",
+            "display": "Guidance for placement of clip"
+          },
+          {
+            "code": "87172-3",
+            "display": "Guidance for placement of clip-- preoperative"
+          },
+          {
+            "code": "87173-1",
+            "display": "Guidance for biopsy of Prostate"
+          },
+          {
+            "code": "87174-9",
+            "display": "Guidance for biopsy of Muscle"
+          },
+          {
+            "code": "87175-6",
+            "display": "Guidance for deep drainage of Pelvis"
+          },
+          {
+            "code": "87176-4",
+            "display": "Guidance for radiofrequency ablation of Bone"
+          },
+          {
+            "code": "87177-2",
+            "display": "Guidance for radiofrequency ablation of Chest Pleura"
+          },
+          {
+            "code": "87178-0",
+            "display": "Guidance for final day of infusion of thrombolytic of Vessel-- W thrombolytic via catheter"
+          },
+          {
+            "code": "87179-8",
+            "display": "Guidance for fine needle aspiration"
+          },
+          {
+            "code": "87180-6",
+            "display": "Guidance for dilation of Fallopian tube"
+          },
+          {
+            "code": "87181-4",
+            "display": "Guidance for embolization of Uterine artery"
+          },
+          {
+            "code": "87182-2",
+            "display": "Guidance for placement of wire"
+          },
+          {
+            "code": "87183-0",
+            "display": "Guidance for greater than 2 injections of trigger point of Muscle"
+          },
+          {
+            "code": "87184-8",
+            "display": "Guidance for percutaneous transluminal angioplasty of arterial anastomosis of Artery"
+          },
+          {
+            "code": "87185-5",
+            "display": "Guidance for sympathectomy of Nerve"
+          },
+          {
+            "code": "87186-3",
+            "display": "Guidance for mechanical thrombectomy of central venous catheter lumen obstruction"
+          },
+          {
+            "code": "87187-1",
+            "display": "Guidance for nerve block of Nerve root"
+          },
+          {
+            "code": "87188-9",
+            "display": "Guidance for exchange of nephroureteral stent of Kidney and Ureter and Urinary bladder"
+          },
+          {
+            "code": "87189-7",
+            "display": "Guidance for transurethral removal of nephroureteral stent of Kidney and Ureter and Urinary bladder"
+          },
+          {
+            "code": "87190-5",
+            "display": "Guidance for percutaneous placement of nephroureteral stent of Kidney and Ureter and Urinary bladder"
+          },
+          {
+            "code": "87191-3",
+            "display": "Guidance for removal of nephroureteral stent of Kidney and Ureter and Urinary bladder"
+          },
+          {
+            "code": "87192-1",
+            "display": "Guidance for thrombectomy"
+          },
+          {
+            "code": "87193-9",
+            "display": "Guidance for initial day infusion of thrombolytic of Artery-- W thrombolytic via catheter"
+          },
+          {
+            "code": "87194-7",
+            "display": "Guidance for initial mechanical thrombectomy of Vein"
+          },
+          {
+            "code": "87195-4",
+            "display": "Guidance for initial day infusion of thrombolytic of Vein-- W thrombolytic via catheter"
+          },
+          {
+            "code": "87196-2",
+            "display": "Guidance for infusion of non-thrombolytic of Vessel"
+          },
+          {
+            "code": "87197-0",
+            "display": "Guidance for retrieval of foreign body of Vessel"
+          },
+          {
+            "code": "87198-8",
+            "display": "Guidance for placement of drainage catheter for abscess"
+          },
+          {
+            "code": "87199-6",
+            "display": "Guidance for substance removal of central venous catheter pericatheter obstruction"
+          },
+          {
+            "code": "87200-2",
+            "display": "Guidance for placement of stent in Artery"
+          },
+          {
+            "code": "87201-0",
+            "display": "Guidance for treatment of AV fistula"
+          },
+          {
+            "code": "87202-8",
+            "display": "Guidance for venous sampling of Vein"
+          },
+          {
+            "code": "87203-6",
+            "display": "Guidance for transurethral exchange of nephroureteral stent of Kidney and Ureter and Urinary bladder"
+          },
+          {
+            "code": "87205-1",
+            "display": "Guidance for exchange of non-tunneled CV catheter of Chest"
+          },
+          {
+            "code": "87206-9",
+            "display": "Guidance for injection of Nerve"
+          },
+          {
+            "code": "87308-3",
+            "display": "Guidance for transhepatic removal of catheter of Biliary ducts"
+          },
+          {
+            "code": "87309-1",
+            "display": "Guidance for transhepatic placement of catheter of Biliary ducts"
+          },
+          {
+            "code": "87310-9",
+            "display": "Guidance for transhepatic exchange of catheter of Biliary ducts"
+          },
+          {
+            "code": "87311-7",
+            "display": "Guidance for embolization for tumor, ischemia or infarction of Vessel"
+          },
+          {
+            "code": "87312-5",
+            "display": "Guidance for percutaneous transluminal angioplasty for dialysis of Vein"
+          },
+          {
+            "code": "88242-3",
+            "display": "Guidance for infusion of non-thrombolytic of Head Arteries"
+          },
+          {
+            "code": "88243-1",
+            "display": "Guidance for removal of tunneled catheter from Chest Pleura"
+          },
+          {
+            "code": "88349-6",
+            "display": "Guidance-- during surgery"
+          },
+          {
+            "code": "88929-5",
+            "display": "Guidance for additional transluminal angioplasty of Vein"
+          },
+          {
+            "code": "88930-3",
+            "display": "Guidance for dilation of stricture and placement of stent of Biliary ducts-- W contrast IV"
+          },
+          {
+            "code": "88931-1",
+            "display": "Guidance for embolization for tumor of Hepatic artery-- W embolic agent IA"
+          },
+          {
+            "code": "88932-9",
+            "display": "Guidance for embolization for tumor of Spinal artery-- W embolic agent IA"
+          },
+          {
+            "code": "88933-7",
+            "display": "Guidance for embolization of Portal vein-- W embolic agent IV"
+          },
+          {
+            "code": "88934-5",
+            "display": "Guidance for embolization of Splenic artery-- W embolic agent IA"
+          },
+          {
+            "code": "88935-2",
+            "display": "Guidance for chemoembolization of Hepatic artery-- W chemotherapy IA+W embolic agent IA"
+          },
+          {
+            "code": "88936-0",
+            "display": "Guidance for injection of Hepatic artery-- W Tc-99m MAA IA"
+          },
+          {
+            "code": "88937-8",
+            "display": "Guidance for placement of stent in Biliary ducts"
+          },
+          {
+            "code": "88938-6",
+            "display": "Guidance for placement of stent in Ureter"
+          },
+          {
+            "code": "88939-4",
+            "display": "Guidance for radioembolization for tumor of Hepatic artery-- W Yttrium-90 IA"
+          },
+          {
+            "code": "88940-2",
+            "display": "Guidance for repair of aneurysm of Abdominal Aorta"
+          },
+          {
+            "code": "88941-0",
+            "display": "Guidance for repair of aneurysm of Thoracic Aorta"
+          },
+          {
+            "code": "88942-8",
+            "display": "Guidance for repair of endoleak of Artery"
+          },
+          {
+            "code": "88943-6",
+            "display": "Guidance for venous sampling of Adrenal vein"
+          }
+        ]
+      }
+    ]
+  }
+}

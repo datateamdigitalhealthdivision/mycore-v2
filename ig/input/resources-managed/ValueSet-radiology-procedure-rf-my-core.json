@@ -1,0 +1,2786 @@
+{
+  "resourceType": "ValueSet",
+  "id": "radiology-procedure-rf-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/radiology-procedure-rf-my-core",
+  "version": "2.1.0",
+  "name": "MyCoreRadiologyProcedureFluoroscopyAndAngiographyMyCore",
+  "title": "MY Core Radiology Procedure - Fluoroscopy and angiography",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "NATIONAL SELECTION. The fluoroscopy and angiography subset of the LOINC/RSNA Radiology Playbook. 691 codes. A modality-scoped pick list; the full catalogue is radiology-procedure-my-core.",
+  "copyright": "This value set enumerates LOINC codes. LOINC is copyright Regenstrief Institute, Inc. and the LOINC Committee, and is available at no cost under the LOINC licence. RPID identifiers are from the RSNA Radiology Playbook.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "24543-1",
+            "display": "RFA Guidance for angioplasty of Thoracic and abdominal aorta-- W contrast IA"
+          },
+          {
+            "code": "24550-6",
+            "display": "RFA Upper extremity veins Views W contrast IV"
+          },
+          {
+            "code": "24551-4",
+            "display": "RFA AV fistula Views W contrast IA"
+          },
+          {
+            "code": "24552-2",
+            "display": "RF Stent Views W contrast intra stent"
+          },
+          {
+            "code": "24553-0",
+            "display": "RFA Guidance for embolectomy of Vessel intracranial-- W contrast IV"
+          },
+          {
+            "code": "24554-8",
+            "display": "RFA Guidance for embolization of Artery-- W contrast IA"
+          },
+          {
+            "code": "24555-5",
+            "display": "RFA Guidance for placement of stent in Artery"
+          },
+          {
+            "code": "24568-8",
+            "display": "RFA Guidance for atherectomy of AV fistula-- W contrast IV"
+          },
+          {
+            "code": "24569-6",
+            "display": "RFA AV shunt Views W contrast IV"
+          },
+          {
+            "code": "24570-4",
+            "display": "RF Guidance for removal of calculus from Biliary duct common-- W contrast retrograde intra biliary"
+          },
+          {
+            "code": "24574-6",
+            "display": "RF Biliary ducts and Gallbladder Views during surgery W contrast biliary duct"
+          },
+          {
+            "code": "24575-3",
+            "display": "RF Biliary ducts and Gallbladder Views W contrast percutaneous transhepatic"
+          },
+          {
+            "code": "24576-1",
+            "display": "RFA Urinary bladder arteries Views W contrast IA"
+          },
+          {
+            "code": "24580-3",
+            "display": "RFA Guidance for angioplasty of Brachiocephalic artery-- W contrast IA"
+          },
+          {
+            "code": "24581-1",
+            "display": "RFA Subclavian artery and Brachial artery Views W contrast IA"
+          },
+          {
+            "code": "24614-0",
+            "display": "RFA Guidance for angioplasty of Carotid artery extracranial-- W contrast IA"
+          },
+          {
+            "code": "24615-7",
+            "display": "RFA Guidance for angioplasty of Carotid artery.intracranial-- W contrast IA"
+          },
+          {
+            "code": "24617-3",
+            "display": "RFA Carotid arteries Views W contrast IA"
+          },
+          {
+            "code": "24620-7",
+            "display": "RF Catheter Views for patency check W contrast via catheter"
+          },
+          {
+            "code": "24621-5",
+            "display": "RF Guidance for percutaneous drainage of Unspecified body region"
+          },
+          {
+            "code": "24622-3",
+            "display": "RFA Celiac artery Views W contrast IA"
+          },
+          {
+            "code": "24624-9",
+            "display": "RFA Guidance for change of CV catheter in Vein-- W contrast IV"
+          },
+          {
+            "code": "24625-6",
+            "display": "RFA Guidance for placement of CV catheter in Vein-- W contrast IV"
+          },
+          {
+            "code": "24626-4",
+            "display": "RFA Guidance for reposition of CV catheter in Vein-- W contrast IV"
+          },
+          {
+            "code": "24631-4",
+            "display": "RF Unspecified body region Views for central venous catheter placement check"
+          },
+          {
+            "code": "24655-3",
+            "display": "RF Chest Image intensifier during surgery"
+          },
+          {
+            "code": "24656-1",
+            "display": "RF Chest Single view during surgery"
+          },
+          {
+            "code": "24658-7",
+            "display": "RFA Thoracic and abdominal aorta Views W contrast IA"
+          },
+          {
+            "code": "24661-1",
+            "display": "RF Pleural space Views W contrast intra pleural space"
+          },
+          {
+            "code": "24666-0",
+            "display": "RF Colon Views W air and barium contrast PR"
+          },
+          {
+            "code": "24667-8",
+            "display": "RF Colon Views W contrast PR"
+          },
+          {
+            "code": "24668-6",
+            "display": "RF Colon Single view for transit Post solid contrast"
+          },
+          {
+            "code": "24669-4",
+            "display": "RF Colon Views W water soluble contrast PR"
+          },
+          {
+            "code": "24671-0",
+            "display": "RF Guidance for aspiration of cyst of Unspecified body region"
+          },
+          {
+            "code": "24678-5",
+            "display": "RF Esophagus Views W contrast PO"
+          },
+          {
+            "code": "24679-3",
+            "display": "RF Esophagus Views W gastrografin PO"
+          },
+          {
+            "code": "24680-1",
+            "display": "RF Guidance for dilation of Esophagus"
+          },
+          {
+            "code": "24681-9",
+            "display": "RF videography Hypopharynx and Esophagus Views"
+          },
+          {
+            "code": "24682-7",
+            "display": "RF videography Hypopharynx and Esophagus Views W liquid and paste contrast PO during swallowing"
+          },
+          {
+            "code": "24684-3",
+            "display": "RFA Guidance for embolectomy of Extracranial vessels-- W contrast IA"
+          },
+          {
+            "code": "24685-0",
+            "display": "RFA Peripheral veins Views W contrast IV"
+          },
+          {
+            "code": "24698-3",
+            "display": "RFA Guidance for angioplasty of Femoral artery-- W contrast IA"
+          },
+          {
+            "code": "24699-1",
+            "display": "RFA Femoral artery Runoff W contrast IA"
+          },
+          {
+            "code": "24715-5",
+            "display": "RF Gastrointestinal tract upper Single view W contrast PO"
+          },
+          {
+            "code": "24716-3",
+            "display": "RF Guidance for placement of decompression tube in Gastrointestinal tract"
+          },
+          {
+            "code": "24718-9",
+            "display": "RF Guidance for transjugular biopsy of Liver-- W contrast IV"
+          },
+          {
+            "code": "24752-8",
+            "display": "RF videography Heart Views"
+          },
+          {
+            "code": "24755-1",
+            "display": "RFA Guidance for atherectomy of Vein-- W contrast IV"
+          },
+          {
+            "code": "24756-9",
+            "display": "RFA Guidance for placement of stent in Vein"
+          },
+          {
+            "code": "24764-3",
+            "display": "RF Hip Arthrogram"
+          },
+          {
+            "code": "24766-8",
+            "display": "RFA Guidance for angioplasty of Iliac artery-- W contrast IA"
+          },
+          {
+            "code": "24771-8",
+            "display": "RF Guidance for fluid aspiration of Joint space"
+          },
+          {
+            "code": "24779-1",
+            "display": "RF Guidance for percutaneous placement of nephrostomy tube of Kidney - bilateral-- W contrast via tube"
+          },
+          {
+            "code": "24780-9",
+            "display": "RF Kidney - bilateral Views W contrast via nephrostomy tube"
+          },
+          {
+            "code": "24781-7",
+            "display": "RF Guidance for exchange of nephrostomy tube of Kidney - bilateral-- W contrast"
+          },
+          {
+            "code": "24782-5",
+            "display": "RF Guidance for percutaneous placement of nephroureteral stent of Kidney - bilateral-- W contrast via stent"
+          },
+          {
+            "code": "24783-3",
+            "display": "RF Kidney - bilateral Views for urodynamics"
+          },
+          {
+            "code": "24800-5",
+            "display": "RF Knee Arthrogram"
+          },
+          {
+            "code": "24827-8",
+            "display": "RFA Lymphatic vessels Views W contrast intra lymphatic"
+          },
+          {
+            "code": "24832-8",
+            "display": "RFA Guidance for angioplasty of Mesenteric artery-- W contrast IA"
+          },
+          {
+            "code": "24833-6",
+            "display": "RFA Mesenteric artery Views W contrast IA"
+          },
+          {
+            "code": "24845-0",
+            "display": "RF Neck Views W contrast intra larynx"
+          },
+          {
+            "code": "24855-9",
+            "display": "RF videography Oropharynx Views"
+          },
+          {
+            "code": "24860-9",
+            "display": "RFA Pancreatic artery Views W contrast IA"
+          },
+          {
+            "code": "24862-5",
+            "display": "RFA Iliac artery Internal Views W contrast IA"
+          },
+          {
+            "code": "24874-0",
+            "display": "RFA Peripheral arteries Views W contrast IA"
+          },
+          {
+            "code": "24882-3",
+            "display": "RFA Guidance for percutaneous transluminal angioplasty of Popliteal artery-- W contrast IA"
+          },
+          {
+            "code": "24887-2",
+            "display": "RFA Guidance for embolectomy of Pulmonary arteries-- W contrast IA"
+          },
+          {
+            "code": "24893-0",
+            "display": "RF Rectum Single view post contrast PR during defecation"
+          },
+          {
+            "code": "24894-8",
+            "display": "RF Rectum and Urinary bladder Views W contrast PR and intra bladder during defecation and voiding"
+          },
+          {
+            "code": "24902-9",
+            "display": "RF Salivary gland Views W contrast intra salivary duct"
+          },
+          {
+            "code": "24910-2",
+            "display": "RF Shoulder Arthrogram"
+          },
+          {
+            "code": "24911-0",
+            "display": "RF Shunt Views"
+          },
+          {
+            "code": "24912-8",
+            "display": "RF Sinus tract Views W contrast intra sinus tract"
+          },
+          {
+            "code": "24923-5",
+            "display": "RF Small bowel Views W positive contrast via enteroclysis tube"
+          },
+          {
+            "code": "24924-3",
+            "display": "RF Small bowel Views W contrast PO"
+          },
+          {
+            "code": "24925-0",
+            "display": "RFA Spinal artery Views W contrast IA"
+          },
+          {
+            "code": "24927-6",
+            "display": "RF Spine Views W contrast intradisc"
+          },
+          {
+            "code": "24931-8",
+            "display": "RF Guidance for injection of Spine facet joint"
+          },
+          {
+            "code": "24947-4",
+            "display": "RF Cervical spine Views W contrast IT"
+          },
+          {
+            "code": "24973-0",
+            "display": "RF Guidance for fluid aspiration of Spine.lumbar space"
+          },
+          {
+            "code": "24974-8",
+            "display": "RF Lumbar spine Views W contrast IT"
+          },
+          {
+            "code": "24985-4",
+            "display": "RF Thoracic spine Views W contrast IT"
+          },
+          {
+            "code": "24991-2",
+            "display": "RFA Splenic vein and Portal vein Views W contrast IA"
+          },
+          {
+            "code": "24992-0",
+            "display": "RFA Splenic artery Views W contrast IA"
+          },
+          {
+            "code": "24995-3",
+            "display": "RF Guidance for placement of tube in Stomach"
+          },
+          {
+            "code": "24996-1",
+            "display": "RF Guidance for percutaneous replacement of gastrostomy of Stomach"
+          },
+          {
+            "code": "24998-7",
+            "display": "RF Placement check of gastrostomy tube W contrast via GI tube"
+          },
+          {
+            "code": "25005-0",
+            "display": "RFA Three vessels Views W contrast"
+          },
+          {
+            "code": "25014-2",
+            "display": "RFA Two vessels Views W contrast"
+          },
+          {
+            "code": "25016-7",
+            "display": "RF Urethra Views W contrast intra urethra"
+          },
+          {
+            "code": "25017-5",
+            "display": "RF Urinary bladder and Urethra Views W contrast intra bladder"
+          },
+          {
+            "code": "25020-9",
+            "display": "RF Urinary bladder and Urethra Views W contrast retrograde via urethra"
+          },
+          {
+            "code": "25022-5",
+            "display": "RF Uterus and Fallopian tubes Views W contrast IU"
+          },
+          {
+            "code": "25023-3",
+            "display": "RFA Vein Views W contrast IV"
+          },
+          {
+            "code": "25024-1",
+            "display": "RFA Guidance for placement of peripherally-inserted central venous catheter in Vein"
+          },
+          {
+            "code": "25025-8",
+            "display": "RFA Vena cava Views W contrast IV"
+          },
+          {
+            "code": "25026-6",
+            "display": "RFA Guidance for placement of venous filter in Inferior vena cava-- W contrast IV"
+          },
+          {
+            "code": "25028-2",
+            "display": "RFA Guidance for placement of catheter for infusion of thrombolytic in Vessel-- W contrast intravascular"
+          },
+          {
+            "code": "25029-0",
+            "display": "RFA Guidance for placement of catheter for vasoconstrictor infusion in Vessels"
+          },
+          {
+            "code": "25030-8",
+            "display": "RFA Abdominal arteries Views W contrast IA"
+          },
+          {
+            "code": "25034-0",
+            "display": "RF Wrist Arthrogram"
+          },
+          {
+            "code": "25063-9",
+            "display": "RFA Vessel Single view W contrast IA"
+          },
+          {
+            "code": "25064-7",
+            "display": "RFA Vessel Views for angioplasty W contrast IA"
+          },
+          {
+            "code": "25065-4",
+            "display": "RF 15 minutes"
+          },
+          {
+            "code": "25066-2",
+            "display": "RF 30 minutes"
+          },
+          {
+            "code": "25067-0",
+            "display": "RF 45 minutes"
+          },
+          {
+            "code": "25068-8",
+            "display": "RF 1 hour"
+          },
+          {
+            "code": "25069-6",
+            "display": "RF Guidance for biopsy of Unspecified body region"
+          },
+          {
+            "code": "25070-4",
+            "display": "RF Unspecified body region Views during surgery"
+          },
+          {
+            "code": "25073-8",
+            "display": "RFA Guidance for removal of foreign body from Vessel"
+          },
+          {
+            "code": "25076-1",
+            "display": "RFA Hepatic artery Views W contrast IA"
+          },
+          {
+            "code": "25077-9",
+            "display": "RFA Guidance for placement of catheter in Hepatic artery-- W contrast IA"
+          },
+          {
+            "code": "25078-7",
+            "display": "RF Guidance for placement of stent in Intrahepatic portal system"
+          },
+          {
+            "code": "25079-5",
+            "display": "RFA Renal arteries Views W contrast IA"
+          },
+          {
+            "code": "25080-3",
+            "display": "RFA Renal vein - bilateral Views for renin sampling W contrast IV"
+          },
+          {
+            "code": "25081-1",
+            "display": "RFA Guidance for angioplasty of Renal vessel-- W contrast IA"
+          },
+          {
+            "code": "26064-6",
+            "display": "RFA Vein - bilateral Views W contrast IV"
+          },
+          {
+            "code": "26065-3",
+            "display": "RFA Vein - left Views W contrast IV"
+          },
+          {
+            "code": "26066-1",
+            "display": "RFA Vein - right Views W contrast IV"
+          },
+          {
+            "code": "26067-9",
+            "display": "RF Salivary gland - bilateral Views W contrast intra salivary duct"
+          },
+          {
+            "code": "26068-7",
+            "display": "RF Salivary gland - left Views W contrast intra salivary duct"
+          },
+          {
+            "code": "26069-5",
+            "display": "RF Salivary gland - right Views W contrast intra salivary duct"
+          },
+          {
+            "code": "26070-3",
+            "display": "RF Hip - bilateral Arthrogram"
+          },
+          {
+            "code": "26071-1",
+            "display": "RF Hip - left Arthrogram"
+          },
+          {
+            "code": "26072-9",
+            "display": "RF Hip - right Arthrogram"
+          },
+          {
+            "code": "26073-7",
+            "display": "RF Knee - bilateral Arthrogram"
+          },
+          {
+            "code": "26074-5",
+            "display": "RF Knee - left Arthrogram"
+          },
+          {
+            "code": "26075-2",
+            "display": "RF Knee - right Arthrogram"
+          },
+          {
+            "code": "26076-0",
+            "display": "RF Shoulder - bilateral Arthrogram"
+          },
+          {
+            "code": "26077-8",
+            "display": "RF Shoulder - left Arthrogram"
+          },
+          {
+            "code": "26078-6",
+            "display": "RF Shoulder - right Arthrogram"
+          },
+          {
+            "code": "26079-4",
+            "display": "RFA Carotid arteries - bilateral Views W contrast IA"
+          },
+          {
+            "code": "26080-2",
+            "display": "RFA Carotid arteries - left Views W contrast IA"
+          },
+          {
+            "code": "26081-0",
+            "display": "RFA Carotid arteries -right Views W contrast IA"
+          },
+          {
+            "code": "26082-8",
+            "display": "RFA Spinal artery - bilateral Views W contrast IA"
+          },
+          {
+            "code": "26083-6",
+            "display": "RFA Spinal artery - left Views W contrast IA"
+          },
+          {
+            "code": "26084-4",
+            "display": "RFA Spinal artery - right Views W contrast IA"
+          },
+          {
+            "code": "26178-4",
+            "display": "RFA Femoral artery - bilateral Runoff W contrast IA"
+          },
+          {
+            "code": "26179-2",
+            "display": "RFA Femoral artery - left Runoff W contrast IA"
+          },
+          {
+            "code": "26180-0",
+            "display": "RFA Femoral artery - right Runoff W contrast IA"
+          },
+          {
+            "code": "26295-6",
+            "display": "RFA Guidance for reposition of CV catheter in Vein - bilateral-- W contrast IV"
+          },
+          {
+            "code": "26296-4",
+            "display": "RFA Guidance for reposition of CV catheter in Vein - left-- W contrast IV"
+          },
+          {
+            "code": "26297-2",
+            "display": "RFA Guidance for reposition of CV catheter in Vein - right-- W contrast IV"
+          },
+          {
+            "code": "26298-0",
+            "display": "RFA Guidance for atherectomy of Vein - bilateral-- W contrast IV"
+          },
+          {
+            "code": "26299-8",
+            "display": "RFA Guidance for atherectomy of Vein - left-- W contrast IV"
+          },
+          {
+            "code": "26300-4",
+            "display": "RFA Guidance for atherectomy of Vein - right-- W contrast IV"
+          },
+          {
+            "code": "26301-2",
+            "display": "RFA Guidance for placement of stent in Vein - bilateral"
+          },
+          {
+            "code": "26302-0",
+            "display": "RFA Guidance for placement of stent in Vein - left"
+          },
+          {
+            "code": "26303-8",
+            "display": "RFA Guidance for placement of stent in Vein - right"
+          },
+          {
+            "code": "26304-6",
+            "display": "RFA Guidance for placement of peripherally-inserted central venous catheter in Vein - bilateral"
+          },
+          {
+            "code": "26305-3",
+            "display": "RFA Guidance for placement of peripherally-inserted central venous catheter in Vein - left"
+          },
+          {
+            "code": "26306-1",
+            "display": "RFA Guidance for placement of peripherally-inserted central venous catheter in Vein - right"
+          },
+          {
+            "code": "26310-3",
+            "display": "RFA Guidance for placement of CV catheter in Vein - bilateral-- W contrast IV"
+          },
+          {
+            "code": "26311-1",
+            "display": "RFA Guidance for placement of CV catheter in Vein - left-- W contrast IV"
+          },
+          {
+            "code": "26312-9",
+            "display": "RFA Guidance for placement of CV catheter in Vein - right-- W contrast IV"
+          },
+          {
+            "code": "26322-8",
+            "display": "RF Guidance for injection of Spine facet joint - bilateral"
+          },
+          {
+            "code": "26323-6",
+            "display": "RF Guidance for injection of Spine facet joint - left"
+          },
+          {
+            "code": "26324-4",
+            "display": "RF Guidance for injection of Spine facet joint - right"
+          },
+          {
+            "code": "26331-9",
+            "display": "RFA Guidance for change of CV catheter in Vein - bilateral-- W contrast IV"
+          },
+          {
+            "code": "26332-7",
+            "display": "RFA Guidance for change of CV catheter in Vein - left-- W contrast IV"
+          },
+          {
+            "code": "26333-5",
+            "display": "RFA Guidance for change of CV catheter in Vein - right-- W contrast IV"
+          },
+          {
+            "code": "26370-7",
+            "display": "RFA Guidance for angioplasty of Iliac artery - bilateral-- W contrast IA"
+          },
+          {
+            "code": "26371-5",
+            "display": "RFA Guidance for angioplasty of Iliac artery - left-- W contrast IA"
+          },
+          {
+            "code": "26372-3",
+            "display": "RFA Guidance for angioplasty of Iliac artery - right-- W contrast IA"
+          },
+          {
+            "code": "30628-2",
+            "display": "RF Guidance for removal of foreign body of Unspecified body region"
+          },
+          {
+            "code": "30629-0",
+            "display": "RF Guidance for procedure of Unspecified body region"
+          },
+          {
+            "code": "30630-8",
+            "display": "RF videography Cerebral cisterns Views W contrast"
+          },
+          {
+            "code": "30631-6",
+            "display": "RF Chest Views"
+          },
+          {
+            "code": "30632-4",
+            "display": "RF Diaphragm for motion"
+          },
+          {
+            "code": "30633-2",
+            "display": "RF Esophagus Views W barium contrast PO"
+          },
+          {
+            "code": "30634-0",
+            "display": "RF Guidance for biopsy of Lung"
+          },
+          {
+            "code": "30636-5",
+            "display": "RF Colon Views for reduction W contrast PR"
+          },
+          {
+            "code": "30637-3",
+            "display": "RF Guidance for placement of tube in Gastrointestinal tract"
+          },
+          {
+            "code": "30638-1",
+            "display": "RF Guidance for injection of Hip"
+          },
+          {
+            "code": "30639-9",
+            "display": "RFA Vessel Single view W contrast"
+          },
+          {
+            "code": "30640-7",
+            "display": "RFA Guidance for angioplasty of Vein-- W contrast IV"
+          },
+          {
+            "code": "30641-5",
+            "display": "RFA Guidance for Additional angioplasty of Vein-- W contrast IV"
+          },
+          {
+            "code": "30642-3",
+            "display": "RF Unspecified body region Single view"
+          },
+          {
+            "code": "30645-6",
+            "display": "RFA Superior vena cava Views W contrast IV"
+          },
+          {
+            "code": "30646-4",
+            "display": "RF Guidance for change of tube in Sinus tract-- W contrast"
+          },
+          {
+            "code": "30647-2",
+            "display": "RF Biliary ducts and Gallbladder Views W contrast via T-tube"
+          },
+          {
+            "code": "30648-0",
+            "display": "RFA Peripheral artery Views for angioplasty W contrast IA"
+          },
+          {
+            "code": "30649-8",
+            "display": "RFA Guidance for Additional angioplasty of Peripheral artery-- W contrast IA"
+          },
+          {
+            "code": "30650-6",
+            "display": "RF Unspecified body region Views for shunt"
+          },
+          {
+            "code": "30808-0",
+            "display": "RF Cervical and thoracic and lumbar spine Views W contrast IT"
+          },
+          {
+            "code": "30809-8",
+            "display": "RF Upper gastrointestinal tract and Small bowel Single view W contrast PO"
+          },
+          {
+            "code": "30810-6",
+            "display": "RF Lacrimal duct Views W contrast intra lacrimal duct"
+          },
+          {
+            "code": "30811-4",
+            "display": "RF Posterior fossa Views W contrast IT"
+          },
+          {
+            "code": "30812-2",
+            "display": "RF Guidance for injection of Spine Cervical Facet Joint"
+          },
+          {
+            "code": "30814-8",
+            "display": "RF Guidance for injection of Spine Thoracic Facet Joint"
+          },
+          {
+            "code": "30815-5",
+            "display": "RF Guidance for endoscopy of Biliary ducts and Pancreatic duct-- W contrast retrograde"
+          },
+          {
+            "code": "30816-3",
+            "display": "RFA Peritoneum Views W contrast percutaneous intraperitoneal"
+          },
+          {
+            "code": "30817-1",
+            "display": "RF Guidance for injection of Spine Lumbar Facet Joint"
+          },
+          {
+            "code": "30818-9",
+            "display": "RF Guidance for placement of catheter in Fallopian tubes-- transcervical"
+          },
+          {
+            "code": "30819-7",
+            "display": "RFA Epidural veins Views W contrast IV"
+          },
+          {
+            "code": "30820-5",
+            "display": "RFA Carotid artery.external - bilateral Views W contrast IA"
+          },
+          {
+            "code": "30821-3",
+            "display": "RFA Carotid artery.external Views W contrast IA"
+          },
+          {
+            "code": "30822-1",
+            "display": "RFA Head artery - bilateral and Neck artery - bilateral Views W contrast IA"
+          },
+          {
+            "code": "30823-9",
+            "display": "RFA Head artery and Neck artery Views W contrast IA"
+          },
+          {
+            "code": "30824-7",
+            "display": "RFA Intercranial vessel and Neck Vessel Views W contrast"
+          },
+          {
+            "code": "30825-4",
+            "display": "RFA Orbit veins Views W contrast IV"
+          },
+          {
+            "code": "30828-8",
+            "display": "RFA Brachial artery Views W contrast IA"
+          },
+          {
+            "code": "30829-6",
+            "display": "RFA Internal thoracic artery Views W contrast IA"
+          },
+          {
+            "code": "30830-4",
+            "display": "RFA Pulmonary artery - bilateral Views W contrast IA"
+          },
+          {
+            "code": "30831-2",
+            "display": "RFA Adrenal artery - bilateral Views W contrast IA"
+          },
+          {
+            "code": "30832-0",
+            "display": "RFA Adrenal artery Views W contrast IA"
+          },
+          {
+            "code": "30833-8",
+            "display": "RFA Pelvis arteries Views W contrast IA"
+          },
+          {
+            "code": "30834-6",
+            "display": "RFA Renal artery - bilateral Views W contrast IA"
+          },
+          {
+            "code": "30836-1",
+            "display": "RFA Guidance for angioplasty of Visceral artery-- W contrast IA"
+          },
+          {
+            "code": "30837-9",
+            "display": "RFA Abdominal Aorta Views W contrast IA"
+          },
+          {
+            "code": "30838-7",
+            "display": "RFA Aorta and Femoral artery - bilateral Runoff W contrast IA"
+          },
+          {
+            "code": "30839-5",
+            "display": "RFA Abdominal lymphatic vessels Views W contrast intra lymphatic"
+          },
+          {
+            "code": "30840-3",
+            "display": "RFA Abdominal lymphatic vessels - bilateral Views W contrast intra lymphatic"
+          },
+          {
+            "code": "30841-1",
+            "display": "RFA Portal vein Views W contrast transhepatic"
+          },
+          {
+            "code": "30842-9",
+            "display": "RFA Portal vein Views for hemodynamics W contrast transhepatic"
+          },
+          {
+            "code": "30843-7",
+            "display": "RFA Adrenal vein Views W contrast IV"
+          },
+          {
+            "code": "30844-5",
+            "display": "RFA Adrenal vein - bilateral Views W contrast IV"
+          },
+          {
+            "code": "30845-2",
+            "display": "RFA Inferior vena cava Views W contrast IV"
+          },
+          {
+            "code": "30846-0",
+            "display": "RFA Renal vein - bilateral Views W contrast IV"
+          },
+          {
+            "code": "30847-8",
+            "display": "RFA Renal vein Views W contrast IV"
+          },
+          {
+            "code": "30848-6",
+            "display": "RFA Extremity arteries Views W contrast IA"
+          },
+          {
+            "code": "30849-4",
+            "display": "RFA Extremity arteries - bilateral Views W contrast IA"
+          },
+          {
+            "code": "30850-2",
+            "display": "RFA Extremity lymphatic vessels Views W contrast intra lymphatic"
+          },
+          {
+            "code": "30851-0",
+            "display": "RFA Extremity lymphatic vessels - bilateral Views W contrast intra lymphatic"
+          },
+          {
+            "code": "30852-8",
+            "display": "RFA XXX>Peripheral veins - bilateral Views W contrast IV"
+          },
+          {
+            "code": "30892-4",
+            "display": "RF Guidance for placement of catheter in Biliary ducts and Pancreatic duct-- W contrast retrograde"
+          },
+          {
+            "code": "35881-2",
+            "display": "RFA Guidance for angioplasty of Extremity artery-- W contrast IA"
+          },
+          {
+            "code": "35882-0",
+            "display": "RFA Guidance for angioplasty of Inferior vena cava-- W contrast IV"
+          },
+          {
+            "code": "35883-8",
+            "display": "RFA Guidance for atherectomy of Thoracic and abdominal aorta-- W contrast IA"
+          },
+          {
+            "code": "35885-3",
+            "display": "RF Guidance for drainage of abscess of Unspecified body region"
+          },
+          {
+            "code": "35888-7",
+            "display": "RF Guidance for fluid aspiration of Hip"
+          },
+          {
+            "code": "35889-5",
+            "display": "RF Guidance for bronchoscopy of Chest"
+          },
+          {
+            "code": "35890-3",
+            "display": "RF Guidance for biopsy of Abdomen"
+          },
+          {
+            "code": "35894-5",
+            "display": "RF Guidance for biopsy of Chest"
+          },
+          {
+            "code": "35899-4",
+            "display": "RF Guidance for biopsy of Kidney"
+          },
+          {
+            "code": "35900-0",
+            "display": "RF Guidance for percutaneous biopsy of Liver"
+          },
+          {
+            "code": "35902-6",
+            "display": "RF Guidance for biopsy of Pancreas"
+          },
+          {
+            "code": "35907-5",
+            "display": "RF Guidance for biopsy of Spleen"
+          },
+          {
+            "code": "35912-5",
+            "display": "RF Guidance for placement of catheter in Unspecified body region"
+          },
+          {
+            "code": "35925-7",
+            "display": "RF Guidance for endoscopy of Stomach"
+          },
+          {
+            "code": "35926-5",
+            "display": "RF Guidance for gastrostomy of Stomach"
+          },
+          {
+            "code": "35927-3",
+            "display": "RF Guidance for injection of Sacroiliac Joint"
+          },
+          {
+            "code": "35936-4",
+            "display": "RF Guidance for percutaneous vertebroplasty of Spine"
+          },
+          {
+            "code": "36640-1",
+            "display": "RF Cervical spine Views"
+          },
+          {
+            "code": "36760-7",
+            "display": "RFA Guidance for angioplasty of AV shunt-- W contrast"
+          },
+          {
+            "code": "36761-5",
+            "display": "RF Guidance for balloon dilatation of Biliary ducts-- W contrast"
+          },
+          {
+            "code": "36762-3",
+            "display": "RFA Guidance for angioplasty of Extremity vessel-- W contrast"
+          },
+          {
+            "code": "36763-1",
+            "display": "RFA Guidance for angioplasty of Femoral artery and Popliteal artery-- W contrast IA"
+          },
+          {
+            "code": "36764-9",
+            "display": "RFA Guidance for atherectomy of Femoral vessel and Popliteal artery-- W contrast"
+          },
+          {
+            "code": "36765-6",
+            "display": "RFA Guidance for atherectomy of Vessel-- W contrast"
+          },
+          {
+            "code": "36766-4",
+            "display": "RFA Guidance for atherectomy of Coronary arteries-- W contrast IA"
+          },
+          {
+            "code": "36771-4",
+            "display": "RF Guidance for injection of Joint"
+          },
+          {
+            "code": "37063-5",
+            "display": "RF Unspecified body region Views for foreign body"
+          },
+          {
+            "code": "37173-2",
+            "display": "RFA Cerebral artery Views W contrast IA"
+          },
+          {
+            "code": "37174-0",
+            "display": "RFA Coronary arteries Views W contrast IA"
+          },
+          {
+            "code": "37175-7",
+            "display": "RFA Femoral artery Views W contrast IA"
+          },
+          {
+            "code": "37176-5",
+            "display": "RFA Femoral artery and Popliteal artery Views W contrast IA"
+          },
+          {
+            "code": "37177-3",
+            "display": "RFA Iliac artery - bilateral Views W contrast IA"
+          },
+          {
+            "code": "37178-1",
+            "display": "RFA Iliac artery - left Views W contrast IA"
+          },
+          {
+            "code": "37179-9",
+            "display": "RFA Inferior mesenteric artery Views W contrast IA"
+          },
+          {
+            "code": "37180-7",
+            "display": "RFA Superior mesenteric artery Views W contrast IA"
+          },
+          {
+            "code": "37181-5",
+            "display": "RFA Popliteal artery - left Views W contrast IA"
+          },
+          {
+            "code": "37182-3",
+            "display": "RFA Pulmonary arteries - left Views W contrast IA"
+          },
+          {
+            "code": "37183-1",
+            "display": "RF Ankle Arthrogram"
+          },
+          {
+            "code": "37184-9",
+            "display": "RF Ankle - bilateral Arthrogram"
+          },
+          {
+            "code": "37185-6",
+            "display": "RF Ankle - left Arthrogram"
+          },
+          {
+            "code": "37186-4",
+            "display": "RF Elbow Arthrogram"
+          },
+          {
+            "code": "37187-2",
+            "display": "RF Elbow - bilateral Arthrogram"
+          },
+          {
+            "code": "37188-0",
+            "display": "RF Elbow - left Arthrogram"
+          },
+          {
+            "code": "37189-8",
+            "display": "RF Sacroiliac joint - bilateral Arthrogram"
+          },
+          {
+            "code": "37190-6",
+            "display": "RF Sacroiliac joint - left Arthrogram"
+          },
+          {
+            "code": "37191-4",
+            "display": "RF Joint Arthrogram"
+          },
+          {
+            "code": "37192-2",
+            "display": "RF Cervical spine Views W contrast intradisc"
+          },
+          {
+            "code": "37193-0",
+            "display": "RF Lumbar spine Views W contrast intradisc"
+          },
+          {
+            "code": "37195-5",
+            "display": "RFA Cerebral vein Views W contrast IV"
+          },
+          {
+            "code": "37196-3",
+            "display": "RFA Lower extremity veins - left Views W contrast IV"
+          },
+          {
+            "code": "37199-7",
+            "display": "RF Chest Views W contrast PO"
+          },
+          {
+            "code": "37364-7",
+            "display": "RFA Aorta and Femoral artery - left Runoff W contrast IA"
+          },
+          {
+            "code": "37379-5",
+            "display": "RFA Aortic arch and Upper Extremity artery Views W contrast IA"
+          },
+          {
+            "code": "37380-3",
+            "display": "RFA Aortic arch and Brachial artery Views W contrast IA"
+          },
+          {
+            "code": "37381-1",
+            "display": "RFA Carotid artery Views W contrast IA"
+          },
+          {
+            "code": "37382-9",
+            "display": "RFA Aortic arch and Subclavian artery Views W contrast IA"
+          },
+          {
+            "code": "37383-7",
+            "display": "RFA Aortic arch and Subclavian artery - left Views W contrast IA"
+          },
+          {
+            "code": "37384-5",
+            "display": "RFA Vertebral artery Views W contrast IA"
+          },
+          {
+            "code": "37385-2",
+            "display": "RFA Aortic arch and Vertebral artery - left Views W contrast IA"
+          },
+          {
+            "code": "37386-0",
+            "display": "RFA Aortic arch and Vertebral artery - right Views W contrast IA"
+          },
+          {
+            "code": "37387-8",
+            "display": "RFA Adrenal artery - left Views W contrast IA"
+          },
+          {
+            "code": "37388-6",
+            "display": "RFA Brachial artery - bilateral Views W contrast IA"
+          },
+          {
+            "code": "37389-4",
+            "display": "RFA Bronchial artery Views W contrast IA"
+          },
+          {
+            "code": "37390-2",
+            "display": "RFA Carotid artery.external - left Views W contrast IA"
+          },
+          {
+            "code": "37391-0",
+            "display": "RFA Carotid arteries and Vertebral artery Views W contrast IA"
+          },
+          {
+            "code": "37392-8",
+            "display": "RFA Carotid arteries and Vertebral artery - bilateral Views W contrast IA"
+          },
+          {
+            "code": "37393-6",
+            "display": "RFA Carotid arteries and Vertebral artery - left Views W contrast IA"
+          },
+          {
+            "code": "37394-4",
+            "display": "RFA Celiac artery and Superior mesenteric artery and Inferior mesenteric artery Views W contrast IA"
+          },
+          {
+            "code": "37395-1",
+            "display": "RFA Extremity arteries - left Views W contrast IA"
+          },
+          {
+            "code": "37396-9",
+            "display": "RFA Upper extremity arteries - bilateral Views W contrast IA"
+          },
+          {
+            "code": "37397-7",
+            "display": "RFA Gastric artery Views W contrast IA"
+          },
+          {
+            "code": "37398-5",
+            "display": "RFA Gastric artery - left Views W contrast IA"
+          },
+          {
+            "code": "37399-3",
+            "display": "RFA Gastroduodenal artery Views W contrast IA"
+          },
+          {
+            "code": "37401-7",
+            "display": "RFA Internal maxillary artery Views W contrast IA"
+          },
+          {
+            "code": "37402-5",
+            "display": "RFA Superior mesenteric artery and Inferior mesenteric artery Views W contrast IA"
+          },
+          {
+            "code": "37403-3",
+            "display": "RFA Celiac artery and Gastric artery - left and Superior mesenteric artery Views W contrast IA"
+          },
+          {
+            "code": "37404-1",
+            "display": "RFA Internal pudendal artery Views W contrast IA"
+          },
+          {
+            "code": "37405-8",
+            "display": "RFA Subclavian artery - bilateral Views W contrast IA"
+          },
+          {
+            "code": "37406-6",
+            "display": "RFA Subclavian artery - left Views W contrast IA"
+          },
+          {
+            "code": "37407-4",
+            "display": "RFA Vertebral artery - bilateral Views W contrast IA"
+          },
+          {
+            "code": "37409-0",
+            "display": "RF Temporomandibular joint - bilateral Arthrogram"
+          },
+          {
+            "code": "37410-8",
+            "display": "RF Temporomandibular joint - left Arthrogram"
+          },
+          {
+            "code": "37411-6",
+            "display": "RFA Azygos vein Views W contrast IV"
+          },
+          {
+            "code": "37412-4",
+            "display": "RFA Extremity veins - bilateral Views W contrast IV"
+          },
+          {
+            "code": "37413-2",
+            "display": "RFA Extremity veins - left Views W contrast IV"
+          },
+          {
+            "code": "37414-0",
+            "display": "RFA Lower extremity veins - bilateral Views W contrast IV"
+          },
+          {
+            "code": "37415-7",
+            "display": "RFA Upper extremity veins - bilateral Views W contrast IV"
+          },
+          {
+            "code": "37416-5",
+            "display": "RFA Femoral vein Views W contrast IV"
+          },
+          {
+            "code": "37419-9",
+            "display": "RFA Intraosseous veins Views W contrast IV"
+          },
+          {
+            "code": "37421-5",
+            "display": "RFA Inferior mesenteric vein Views W contrast IV"
+          },
+          {
+            "code": "37422-3",
+            "display": "RFA Orbit veins - left Views W contrast IV"
+          },
+          {
+            "code": "37423-1",
+            "display": "RFA Renal vein - left Views W contrast IV"
+          },
+          {
+            "code": "37426-4",
+            "display": "RFA Guidance for angioplasty of Lower extremity vein-- W contrast IV"
+          },
+          {
+            "code": "37427-2",
+            "display": "RF Guidance for injection of Spine"
+          },
+          {
+            "code": "37487-6",
+            "display": "RFA Lower extremity arteries Views W contrast IA"
+          },
+          {
+            "code": "37488-4",
+            "display": "RFA Upper extremity arteries - left Views W contrast IA"
+          },
+          {
+            "code": "37489-2",
+            "display": "RFA Tibioperoneal arteries Views W contrast IA"
+          },
+          {
+            "code": "37490-0",
+            "display": "RFA Vertebral artery - left Views W contrast IA"
+          },
+          {
+            "code": "37494-2",
+            "display": "RF Guidance for injection of Tendon"
+          },
+          {
+            "code": "37565-9",
+            "display": "RF Unspecified body region Views W barium contrast via fistula"
+          },
+          {
+            "code": "37566-7",
+            "display": "RF Unspecified body region Views W contrast via catheter"
+          },
+          {
+            "code": "37567-5",
+            "display": "RF Colon Views W contrast via colostomy"
+          },
+          {
+            "code": "37568-3",
+            "display": "RF Unspecified body region Views W contrast via fistula"
+          },
+          {
+            "code": "37569-1",
+            "display": "RF Urinary bladder Views W contrast via suprapubic tube"
+          },
+          {
+            "code": "37570-9",
+            "display": "RF Wrist - bilateral Arthrogram"
+          },
+          {
+            "code": "37571-7",
+            "display": "RF Wrist - left Arthrogram"
+          },
+          {
+            "code": "37572-5",
+            "display": "RF Spine Views W contrast IT"
+          },
+          {
+            "code": "37574-1",
+            "display": "RFA Lower extremity vessels Views W contrast IV"
+          },
+          {
+            "code": "37576-6",
+            "display": "RF Unspecified body region Views W gastrografin via fistula"
+          },
+          {
+            "code": "37585-7",
+            "display": "RF Jejunum Views W contrast"
+          },
+          {
+            "code": "37586-5",
+            "display": "RF Penis Views W contrast intra corpus cavernosum"
+          },
+          {
+            "code": "37587-3",
+            "display": "RFA Aortic arch and Carotid artery - bilateral and Vertebral artery - bilateral Views W contrast IA"
+          },
+          {
+            "code": "37588-1",
+            "display": "RFA Common carotid artery - bilateral Views W contrast IA"
+          },
+          {
+            "code": "37589-9",
+            "display": "RFA Common carotid artery - left Views W contrast IA"
+          },
+          {
+            "code": "37590-7",
+            "display": "RFA Common carotid artery - right Views W contrast IA"
+          },
+          {
+            "code": "37591-5",
+            "display": "RFA Aortic arch and External carotid artery - bilateral Views W contrast IA"
+          },
+          {
+            "code": "37592-3",
+            "display": "RFA Aortic arch and External carotid artery - left Views W contrast IA"
+          },
+          {
+            "code": "37593-1",
+            "display": "RFA Aortic arch and External carotid artery - right Views W contrast IA"
+          },
+          {
+            "code": "37594-9",
+            "display": "RFA Carotid artery and Vertebral artery Views W contrast IA"
+          },
+          {
+            "code": "37595-6",
+            "display": "RFA Coronary arteries Views for graft W contrast IA"
+          },
+          {
+            "code": "37596-4",
+            "display": "RFA Abdominal and pelvic lymphatic vessels - left Views W contrast intra lymphatic"
+          },
+          {
+            "code": "37597-2",
+            "display": "RFA Abdominal and pelvic lymphatic vessels Views W contrast intra lymphatic"
+          },
+          {
+            "code": "37598-0",
+            "display": "RFA Abdominal and pelvic lymphatic vessels - bilateral Views W contrast intra lymphatic"
+          },
+          {
+            "code": "37599-8",
+            "display": "RFA Extremity lymphatic vessels - left Views W contrast intra lymphatic"
+          },
+          {
+            "code": "37600-4",
+            "display": "RFA Lymphatic vessels - left Views W contrast intra lymphatic"
+          },
+          {
+            "code": "37601-2",
+            "display": "RFA Pelvic lymphatic vessels - bilateral Views W contrast intra lymphatic"
+          },
+          {
+            "code": "37602-0",
+            "display": "RFA Adrenal vein - left Views W contrast IV"
+          },
+          {
+            "code": "37615-2",
+            "display": "RFA Pelvis vessels Views W contrast"
+          },
+          {
+            "code": "37640-0",
+            "display": "RFA Renal vessels Views W contrast"
+          },
+          {
+            "code": "37641-8",
+            "display": "RF Wrist - right Arthrogram"
+          },
+          {
+            "code": "37647-5",
+            "display": "RF Sacroiliac Joint Arthrogram"
+          },
+          {
+            "code": "37739-0",
+            "display": "RFA Iliac artery - right Views W contrast IA"
+          },
+          {
+            "code": "37765-5",
+            "display": "RFA Lower extremity vessels - right Views W contrast"
+          },
+          {
+            "code": "37767-1",
+            "display": "RFA Lower extremity veins - right Views W contrast IV"
+          },
+          {
+            "code": "37778-8",
+            "display": "RFA Popliteal artery - right Views W contrast IA"
+          },
+          {
+            "code": "37779-6",
+            "display": "RFA Right pulmonary arteries Views W contrast IA"
+          },
+          {
+            "code": "37785-3",
+            "display": "RF Sacroiliac joint - right Arthrogram"
+          },
+          {
+            "code": "37818-2",
+            "display": "RF Temporomandibular joint - right Arthrogram"
+          },
+          {
+            "code": "37824-0",
+            "display": "RFA Upper extremity veins - right Views W contrast IV"
+          },
+          {
+            "code": "37886-9",
+            "display": "RFA Subclavian artery Views W contrast IA"
+          },
+          {
+            "code": "37887-7",
+            "display": "RF Guidance for fluid aspiration of Pleural space"
+          },
+          {
+            "code": "37901-6",
+            "display": "RF Temporomandibular joint Arthrogram"
+          },
+          {
+            "code": "37935-4",
+            "display": "RFA Pelvis arteries and Lower extremity arteries - bilateral Views W contrast IA"
+          },
+          {
+            "code": "37936-2",
+            "display": "RFA Peripheral vessels Views W contrast"
+          },
+          {
+            "code": "37939-6",
+            "display": "RFA Adrenal artery - right Views W contrast IA"
+          },
+          {
+            "code": "37940-4",
+            "display": "RFA Adrenal vein - right Views W contrast IV"
+          },
+          {
+            "code": "37941-2",
+            "display": "RFA Ankle arteries - right Views W contrast IA"
+          },
+          {
+            "code": "37942-0",
+            "display": "RF Ankle - right Arthrogram"
+          },
+          {
+            "code": "37943-8",
+            "display": "RFA Carotid arteries and Vertebral artery - right Views W contrast IA"
+          },
+          {
+            "code": "37944-6",
+            "display": "RFA Carotid artery and Cerebral artery - right Views W contrast IA"
+          },
+          {
+            "code": "37945-3",
+            "display": "RFA Carotid artery.cervical - right Views W contrast IA"
+          },
+          {
+            "code": "37947-9",
+            "display": "RF Elbow - right Arthrogram"
+          },
+          {
+            "code": "37948-7",
+            "display": "RFA Carotid artery.external - right Views W contrast IA"
+          },
+          {
+            "code": "37949-5",
+            "display": "RFA Extremity arteries - right Views W contrast IA"
+          },
+          {
+            "code": "37950-3",
+            "display": "RFA Extremity veins - right Views W contrast IV"
+          },
+          {
+            "code": "37952-9",
+            "display": "RFA Carotid artery.internal - right Views W contrast IA"
+          },
+          {
+            "code": "37953-7",
+            "display": "RFA Carotid artery and Cerebral artery internal - right Views W contrast IA"
+          },
+          {
+            "code": "37958-6",
+            "display": "RFA Orbit veins - right Views W contrast IV"
+          },
+          {
+            "code": "37959-4",
+            "display": "RFA Renal vein - right Views W contrast IV"
+          },
+          {
+            "code": "37966-9",
+            "display": "RFA Subclavian artery - right Views W contrast IA"
+          },
+          {
+            "code": "37967-7",
+            "display": "RFA Upper extremity arteries - right Views W contrast IA"
+          },
+          {
+            "code": "37968-5",
+            "display": "RFA Vertebral artery - right Views W contrast IA"
+          },
+          {
+            "code": "37969-3",
+            "display": "RFA Sinus vein Views W contrast IV"
+          },
+          {
+            "code": "37970-1",
+            "display": "RFA Splenic vein Views W contrast IV"
+          },
+          {
+            "code": "37971-9",
+            "display": "RFA Subclavian vein Views W contrast IV"
+          },
+          {
+            "code": "37972-7",
+            "display": "RFA Superior mesenteric vein Views W contrast IV"
+          },
+          {
+            "code": "37973-5",
+            "display": "RF Testicular vessels Views W contrast"
+          },
+          {
+            "code": "37976-8",
+            "display": "RFA Upper extremity vessels Views W contrast"
+          },
+          {
+            "code": "37977-6",
+            "display": "RFA Upper extremity arteries Views W contrast IA"
+          },
+          {
+            "code": "37979-2",
+            "display": "RFA Uterine artery Views W contrast IA"
+          },
+          {
+            "code": "37980-0",
+            "display": "RFA Vertebral vessels Views W contrast"
+          },
+          {
+            "code": "37981-8",
+            "display": "RFA Visceral vessels Views W contrast"
+          },
+          {
+            "code": "38092-3",
+            "display": "RF Urinary bladder Views W chain and contrast intra bladder"
+          },
+          {
+            "code": "38094-9",
+            "display": "RF Spinal cavity Views W contrast"
+          },
+          {
+            "code": "38097-2",
+            "display": "RF Parotid gland - left Views W contrast intra salivary duct"
+          },
+          {
+            "code": "38098-0",
+            "display": "RF Lacrimal duct - bilateral Views W contrast intra lacrimal duct"
+          },
+          {
+            "code": "38099-8",
+            "display": "RF Lacrimal duct - left Views W contrast intra lacrimal duct"
+          },
+          {
+            "code": "38100-4",
+            "display": "RF Urinary bladder and Urethra Views W contrast antegrade"
+          },
+          {
+            "code": "38103-8",
+            "display": "RF Spine Cervical and Spine Lumbar Views W contrast IT"
+          },
+          {
+            "code": "38104-6",
+            "display": "RF Spine epidural space Views W contrast IT"
+          },
+          {
+            "code": "38112-9",
+            "display": "RF Kidney - right Views W contrast via nephrostomy tube"
+          },
+          {
+            "code": "38116-0",
+            "display": "RF Parotid gland Views W contrast intra salivary duct"
+          },
+          {
+            "code": "38119-4",
+            "display": "RFA Thoracic artery Views W contrast IA"
+          },
+          {
+            "code": "38120-2",
+            "display": "RF Thoracic spine Limited Views W contrast IT"
+          },
+          {
+            "code": "38125-1",
+            "display": "RF Cervical and thoracic and lumbar spine Limited Views W contrast IT"
+          },
+          {
+            "code": "38153-3",
+            "display": "RF Submandibular gland Views W contrast intra salivary duct"
+          },
+          {
+            "code": "38154-1",
+            "display": "RF Guidance for superficial biopsy of Bone"
+          },
+          {
+            "code": "38799-3",
+            "display": "RFA Aorta and Femoral artery - right Runoff W contrast IA"
+          },
+          {
+            "code": "38800-9",
+            "display": "RFA Aortic arch and Subclavian artery - right Views W contrast IA"
+          },
+          {
+            "code": "38801-7",
+            "display": "RFA Gastric artery right Views W contrast IA"
+          },
+          {
+            "code": "38811-6",
+            "display": "RFA Abdominal and pelvic lymphatic vessels - right Views W contrast intra lymphatic"
+          },
+          {
+            "code": "38812-4",
+            "display": "RFA Extremity lymphatic vessels - right Views W contrast intra lymphatic"
+          },
+          {
+            "code": "38813-2",
+            "display": "RFA Lymphatic vessels - right Views W contrast intra lymphatic"
+          },
+          {
+            "code": "38826-4",
+            "display": "RF Parotid gland - right Views W contrast intra salivary duct"
+          },
+          {
+            "code": "38827-2",
+            "display": "RF Lacrimal duct - right Views W contrast intra lacrimal duct"
+          },
+          {
+            "code": "38853-8",
+            "display": "RFA Lower extremity vessels - left Views W contrast"
+          },
+          {
+            "code": "38859-5",
+            "display": "RFA Upper extremity veins - left Views W contrast IV"
+          },
+          {
+            "code": "38861-1",
+            "display": "RFA Ankle arteries - left Views W contrast IA"
+          },
+          {
+            "code": "38862-9",
+            "display": "RFA Carotid artery and Cerebral artery - left Views W contrast IA"
+          },
+          {
+            "code": "38863-7",
+            "display": "RFA Carotid artery.cervical - left Views W contrast IA"
+          },
+          {
+            "code": "38864-5",
+            "display": "RFA Carotid artery.internal - left Views W contrast IA"
+          },
+          {
+            "code": "38865-2",
+            "display": "RFA Carotid artery and Cerebral artery internal - left Views W contrast IA"
+          },
+          {
+            "code": "38872-8",
+            "display": "RF Kidney - left Views W contrast via nephrostomy tube"
+          },
+          {
+            "code": "39027-8",
+            "display": "RF Guidance for needle localization of Unspecified body region"
+          },
+          {
+            "code": "39047-6",
+            "display": "RF Hip Single view during surgery"
+          },
+          {
+            "code": "39055-9",
+            "display": "RFA Extremity veins Views W contrast IV"
+          },
+          {
+            "code": "39057-5",
+            "display": "RFA Pulmonary arteries Views W contrast IA"
+          },
+          {
+            "code": "39093-0",
+            "display": "RFA Hepatic veins Views W contrast IV"
+          },
+          {
+            "code": "39094-8",
+            "display": "RFA Carotid artery.cervical Views W contrast IA"
+          },
+          {
+            "code": "39095-5",
+            "display": "RFA Carotid artery and Cerebral artery Views W contrast IA"
+          },
+          {
+            "code": "39096-3",
+            "display": "RFA Hepatic veins Views for hemodynamics W contrast IV"
+          },
+          {
+            "code": "39097-1",
+            "display": "RFA Carotid artery - bilateral and Cerebral artery - bilateral Views W contrast IA"
+          },
+          {
+            "code": "39098-9",
+            "display": "RFA Carotid artery.cervical.bilateral Views W contrast IA"
+          },
+          {
+            "code": "39138-3",
+            "display": "RFA Guidance for vascular access of Vessel"
+          },
+          {
+            "code": "39144-1",
+            "display": "RF Gastrointestinal tract upper Single view W air contrast PO"
+          },
+          {
+            "code": "39151-6",
+            "display": "RF Vas deferens Views W contrast intra vas deferens"
+          },
+          {
+            "code": "39349-6",
+            "display": "RF Kidney - bilateral Views W contrast retrograde"
+          },
+          {
+            "code": "39361-1",
+            "display": "RF Guidance for drainage of abscess of Liver"
+          },
+          {
+            "code": "39362-9",
+            "display": "RF Guidance for placement of tube in Chest"
+          },
+          {
+            "code": "39363-7",
+            "display": "RFA AV fistula Views W contrast retrograde"
+          },
+          {
+            "code": "39510-3",
+            "display": "RFA Pelvic lymphatic vessels Views W contrast intra lymphatic"
+          },
+          {
+            "code": "41795-6",
+            "display": "RF Upper gastrointestinal tract and Small bowel Single view W air contrast PO"
+          },
+          {
+            "code": "41797-2",
+            "display": "RF Colon Limited Views W air and barium contrast PR"
+          },
+          {
+            "code": "41799-8",
+            "display": "RF Guidance for placement of tube in Liver"
+          },
+          {
+            "code": "41800-4",
+            "display": "RF Guidance for drainage of Pharynx"
+          },
+          {
+            "code": "41801-2",
+            "display": "RFA Guidance for placement of catheter in Portal vein-- W contrast IV"
+          },
+          {
+            "code": "41802-0",
+            "display": "RF Guidance for biopsy of Prostate"
+          },
+          {
+            "code": "41803-8",
+            "display": "RF Guidance for biopsy of Breast"
+          },
+          {
+            "code": "42012-5",
+            "display": "RF Gastrointestinal tract upper Views W water soluble contrast PO"
+          },
+          {
+            "code": "42014-1",
+            "display": "RF Urinary bladder and Urethra Views W contrast"
+          },
+          {
+            "code": "42017-4",
+            "display": "RF Guidance for percutaneous replacement of cholecystostomy of Abdomen"
+          },
+          {
+            "code": "42018-2",
+            "display": "RFA Guidance for percutaneous transluminal angioplasty of Vein-- W contrast IA"
+          },
+          {
+            "code": "42156-0",
+            "display": "RFA Vessels Views W contrast IA"
+          },
+          {
+            "code": "42157-8",
+            "display": "RFA Extremity vessels Views W contrast IV"
+          },
+          {
+            "code": "42334-3",
+            "display": "RFA Guidance for injection of Internal thoracic artery - left"
+          },
+          {
+            "code": "42335-0",
+            "display": "RF Cervical spine Limited Views W contrast IT"
+          },
+          {
+            "code": "42421-8",
+            "display": "RF Guidance for percutaneous drainage of abscess of Unspecified body region"
+          },
+          {
+            "code": "42422-6",
+            "display": "RF Guidance for percutaneous drainage of abscess of Breast"
+          },
+          {
+            "code": "42423-4",
+            "display": "RF Guidance for percutaneous drainage of abscess of Chest"
+          },
+          {
+            "code": "42459-8",
+            "display": "RF Gastrointestinal tract upper Views W contrast PO"
+          },
+          {
+            "code": "42460-6",
+            "display": "RF Submandibular gland - left Views W contrast intra salivary duct"
+          },
+          {
+            "code": "42469-7",
+            "display": "RF Gastrointestinal tract upper and Small bowel and Gallbladder Single view W contrast PO"
+          },
+          {
+            "code": "42470-5",
+            "display": "RF Gastrointestinal tract upper and Gallbladder Single view W contrast PO"
+          },
+          {
+            "code": "42681-7",
+            "display": "RF Colon Views W gastrografin PR"
+          },
+          {
+            "code": "42684-1",
+            "display": "RF Gastrointestinal tract upper Views W gastrografin PO"
+          },
+          {
+            "code": "42702-1",
+            "display": "RF Greater than 1 hour"
+          },
+          {
+            "code": "42703-9",
+            "display": "RF Less than 1 hour"
+          },
+          {
+            "code": "43471-2",
+            "display": "RF 2 hour"
+          },
+          {
+            "code": "43472-0",
+            "display": "RF 90 minutes"
+          },
+          {
+            "code": "43473-8",
+            "display": "RF Guidance for endoscopy of Biliary ducts and Pancreatic duct-- 2H post contrast retrograde intrabiliary"
+          },
+          {
+            "code": "43474-6",
+            "display": "RF Guidance for endoscopy of Biliary ducts and Pancreatic duct-- 15m post contrast retrograde intrabiliary"
+          },
+          {
+            "code": "43475-3",
+            "display": "RF Guidance for endoscopy of Biliary ducts and Pancreatic duct-- 30M post contrast retrograde intrabiliary"
+          },
+          {
+            "code": "43476-1",
+            "display": "RF Guidance for endoscopy of Biliary ducts and Pancreatic duct-- 45M post contrast retrograde intrabiliary"
+          },
+          {
+            "code": "43477-9",
+            "display": "RF Guidance for endoscopy of Biliary ducts and Pancreatic duct-- 1H post contrast retrograde intrabiliary"
+          },
+          {
+            "code": "43478-7",
+            "display": "RF Guidance for endoscopy of Biliary ducts and Pancreatic duct-- 1.5 hours post contrast retrograde intrabiliary"
+          },
+          {
+            "code": "43479-5",
+            "display": "RFA Abdominal Aorta Runoff W contrast IA"
+          },
+          {
+            "code": "43536-2",
+            "display": "RF videography Lumbar spine Views"
+          },
+          {
+            "code": "43537-0",
+            "display": "RF Guidance for drainage of Unspecified body region"
+          },
+          {
+            "code": "43538-8",
+            "display": "RF videography Cervical spine Views"
+          },
+          {
+            "code": "43554-5",
+            "display": "RFA Vessels - left Views W contrast IV"
+          },
+          {
+            "code": "43558-6",
+            "display": "RF Guidance for change of dialysis catheter in Unspecified body region-- W contrast IV"
+          },
+          {
+            "code": "43559-4",
+            "display": "RF Urinary bladder and Urethra Views W contrast intra bladder during voiding"
+          },
+          {
+            "code": "43574-3",
+            "display": "RF Upper gastrointestinal tract and Small bowel Views W barium contrast PO"
+          },
+          {
+            "code": "43761-6",
+            "display": "RFA Guidance for thrombectomy of Vein - bilateral-- W contrast IV"
+          },
+          {
+            "code": "43762-4",
+            "display": "RFA Guidance for thrombectomy of Vein - left-- W contrast IV"
+          },
+          {
+            "code": "43763-2",
+            "display": "RFA Guidance for thrombectomy of Vein-- W contrast IV"
+          },
+          {
+            "code": "43764-0",
+            "display": "RFA Guidance for thrombectomy of Vein - right-- W contrast IV"
+          },
+          {
+            "code": "43782-2",
+            "display": "RFA Iliac artery Views W contrast IA"
+          },
+          {
+            "code": "43783-0",
+            "display": "RFA Renal vein Views for renin sampling W contrast IV"
+          },
+          {
+            "code": "43788-9",
+            "display": "RF Tube Views for patency W contrast via tube"
+          },
+          {
+            "code": "43792-1",
+            "display": "RFA Guidance for angioplasty of Tibioperoneal arteries - right-- W contrast IA"
+          },
+          {
+            "code": "43793-9",
+            "display": "RFA Guidance for angioplasty of Tibioperoneal arteries-- W contrast IA"
+          },
+          {
+            "code": "43794-7",
+            "display": "RFA Guidance for angioplasty of Tibioperoneal arteries - bilateral-- W contrast IA"
+          },
+          {
+            "code": "43795-4",
+            "display": "RFA Guidance for angioplasty of Tibioperoneal arteries - left-- W contrast IA"
+          },
+          {
+            "code": "44213-7",
+            "display": "RF Guidance for endoscopy of Pancreatic duct-- W contrast retrograde"
+          },
+          {
+            "code": "44214-5",
+            "display": "RF Guidance for endoscopy of Biliary ducts-- W contrast retrograde"
+          },
+          {
+            "code": "44215-2",
+            "display": "RF Guidance for fine needle aspiration of Unspecified body region"
+          },
+          {
+            "code": "44216-0",
+            "display": "RF Guidance for fine needle aspiration of Thyroid gland"
+          },
+          {
+            "code": "44217-8",
+            "display": "RF Guidance for fine needle aspiration of Kidney"
+          },
+          {
+            "code": "44218-6",
+            "display": "RF Guidance for fine needle aspiration of Pancreas"
+          },
+          {
+            "code": "44219-4",
+            "display": "RFA Guidance for fine needle aspiration of Lymph node"
+          },
+          {
+            "code": "44220-2",
+            "display": "RF Guidance for fine needle aspiration of Liver"
+          },
+          {
+            "code": "44221-0",
+            "display": "RF Guidance for deep aspiration.fine needle of Tissue"
+          },
+          {
+            "code": "44222-8",
+            "display": "RF Guidance for procedure of Joint space"
+          },
+          {
+            "code": "44223-6",
+            "display": "RF Guidance for percutaneous drainage of abscess of Ovary"
+          },
+          {
+            "code": "44224-4",
+            "display": "RF Guidance for placement of tube in Unspecified body region"
+          },
+          {
+            "code": "44225-1",
+            "display": "RF Guidance for biopsy of Liver-- W contrast IV"
+          },
+          {
+            "code": "44226-9",
+            "display": "RF Colon Views for reduction W barium contrast PR"
+          },
+          {
+            "code": "44227-7",
+            "display": "RF Colon Views W barium contrast PR"
+          },
+          {
+            "code": "44240-0",
+            "display": "RFA Peripheral arteries - bilateral Views W contrast IA"
+          },
+          {
+            "code": "46294-5",
+            "display": "RF Guidance for percutaneous replacement of drainage tube of Stomach"
+          },
+          {
+            "code": "46341-4",
+            "display": "RF Abdomen Views"
+          },
+          {
+            "code": "46357-0",
+            "display": "RF Colon Views W air contrast PR"
+          },
+          {
+            "code": "46372-9",
+            "display": "RF Guidance for percutaneous drainage of Biliary ducts"
+          },
+          {
+            "code": "46376-0",
+            "display": "RF Kidney - bilateral Views W contrast antegrade"
+          },
+          {
+            "code": "46392-7",
+            "display": "RF Guidance for injection of Sinuses"
+          },
+          {
+            "code": "47986-5",
+            "display": "RFA Lower extremity arteries - left Views W contrast IA"
+          },
+          {
+            "code": "47987-3",
+            "display": "RFA Lower extremity arteries - right Views W contrast IA"
+          },
+          {
+            "code": "48435-2",
+            "display": "RF Guidance for injection of Salivary gland - bilateral"
+          },
+          {
+            "code": "48464-2",
+            "display": "RF Trachea Views"
+          },
+          {
+            "code": "48465-9",
+            "display": "RF Larynx Views"
+          },
+          {
+            "code": "48696-9",
+            "display": "RF Submandibular gland - right Views W contrast intra salivary duct"
+          },
+          {
+            "code": "48698-5",
+            "display": "RF Submandibular gland - bilateral Views W contrast intra salivary duct"
+          },
+          {
+            "code": "49511-9",
+            "display": "RFA Femoral artery Runoff WO and W contrast IA"
+          },
+          {
+            "code": "49512-7",
+            "display": "RF Unspecified body region Views"
+          },
+          {
+            "code": "51391-1",
+            "display": "RFA Guidance for placement of TIPS of Portal vein and Hepatic vein"
+          },
+          {
+            "code": "58746-9",
+            "display": "RFA AV fistula Views W contrast IV"
+          },
+          {
+            "code": "62446-0",
+            "display": "RFA Renal artery - left Views W contrast IA"
+          },
+          {
+            "code": "62447-8",
+            "display": "RFA Renal artery - right Views W contrast IA"
+          },
+          {
+            "code": "62448-6",
+            "display": "RFA Head artery - left and Neck artery - left Views W contrast IA"
+          },
+          {
+            "code": "62449-4",
+            "display": "RFA Head artery - right and Neck artery - right Views W contrast IA"
+          },
+          {
+            "code": "62450-2",
+            "display": "RF Guidance for placement of catheter in Peritoneum"
+          },
+          {
+            "code": "62491-6",
+            "display": "RFA Guidance for placement of prosthesis in Iliac artery - left-- W contrast IA"
+          },
+          {
+            "code": "62492-4",
+            "display": "RFA Guidance for placement of prosthesis in Iliac artery - right-- W contrast IA"
+          },
+          {
+            "code": "64140-7",
+            "display": "RFA Renal vessels - left Views W contrast"
+          },
+          {
+            "code": "64141-5",
+            "display": "RFA Renal vessels - right Views W contrast"
+          },
+          {
+            "code": "64995-4",
+            "display": "RFA Internal thoracic artery - left Views W contrast IA"
+          },
+          {
+            "code": "64998-8",
+            "display": "RF Guidance for placement of catheter in Fallopian tube - left-- transcervical"
+          },
+          {
+            "code": "64999-6",
+            "display": "RF Guidance for placement of catheter in Fallopian tube - right-- transcervical"
+          },
+          {
+            "code": "65000-2",
+            "display": "RFA Internal thoracic artery - right Views W contrast IA"
+          },
+          {
+            "code": "65797-3",
+            "display": "RFA Guidance for placement of stent in Artery - left"
+          },
+          {
+            "code": "65798-1",
+            "display": "RFA Guidance for placement of stent in Artery - right"
+          },
+          {
+            "code": "65799-9",
+            "display": "RF Kidney - bilateral Single view for cyst"
+          },
+          {
+            "code": "65800-5",
+            "display": "RF Kidney - left Single view for cyst"
+          },
+          {
+            "code": "65801-3",
+            "display": "RF Kidney - right Single view for cyst"
+          },
+          {
+            "code": "69054-5",
+            "display": "RFA Aortic arch Views W contrast IA"
+          },
+          {
+            "code": "69066-9",
+            "display": "RFA Abdominal vessels Views W contrast IV"
+          },
+          {
+            "code": "69067-7",
+            "display": "RFA Guidance for angioplasty of Unspecified body region-- W contrast"
+          },
+          {
+            "code": "69073-5",
+            "display": "RF Guidance for core needle biopsy of Unspecified body region"
+          },
+          {
+            "code": "69074-3",
+            "display": "RF Guidance for biopsy of Pelvis"
+          },
+          {
+            "code": "69075-0",
+            "display": "RF Guidance for biopsy of Salivary gland"
+          },
+          {
+            "code": "69076-8",
+            "display": "RF guidance for percutaneous biopsy of Bone"
+          },
+          {
+            "code": "69077-6",
+            "display": "RFA Brachiocephalic artery Views W contrast IA"
+          },
+          {
+            "code": "69078-4",
+            "display": "RF Guidance for drainage of Chest"
+          },
+          {
+            "code": "69120-4",
+            "display": "RF Guidance for drainage of abscess of Neck"
+          },
+          {
+            "code": "69121-2",
+            "display": "RF Guidance for aspiration of cyst of Ovary"
+          },
+          {
+            "code": "69122-0",
+            "display": "RF Guidance for drainage of abscess of Pancreas"
+          },
+          {
+            "code": "69123-8",
+            "display": "RF Guidance for drainage of abscess of Pleural space"
+          },
+          {
+            "code": "69124-6",
+            "display": "RF Guidance for superficial aspiration.fine needle of Tissue"
+          },
+          {
+            "code": "69127-9",
+            "display": "RF Guidance for biopsy of Chest Pleura"
+          },
+          {
+            "code": "69129-5",
+            "display": "RF Guidance for biopsy of Thyroid gland"
+          },
+          {
+            "code": "69133-7",
+            "display": "RF Guidance for drainage of Hip"
+          },
+          {
+            "code": "69134-5",
+            "display": "RFA Guidance for placement of stent in Iliac artery"
+          },
+          {
+            "code": "69135-2",
+            "display": "RFA Guidance for atherectomy of Iliac artery-- W contrast"
+          },
+          {
+            "code": "69226-9",
+            "display": "RF Guidance for biopsy of Muscle"
+          },
+          {
+            "code": "69241-8",
+            "display": "RF Guidance for percutaneous drainage of abscess of Abdomen"
+          },
+          {
+            "code": "69242-6",
+            "display": "RF Guidance for percutaneous drainage of abscess of Appendix"
+          },
+          {
+            "code": "69243-4",
+            "display": "RF Guidance for percutaneous drainage of abscess of Lung"
+          },
+          {
+            "code": "69244-2",
+            "display": "RF Guidance for percutaneous drainage of abscess of Pelvis"
+          },
+          {
+            "code": "69248-3",
+            "display": "RFA Guidance for percutaneous transluminal angioplasty of Renal artery-- W contrast IA"
+          },
+          {
+            "code": "69249-1",
+            "display": "RFA Popliteal artery Views W contrast IA"
+          },
+          {
+            "code": "69250-9",
+            "display": "RFA Portal vein Views W contrast IV"
+          },
+          {
+            "code": "69252-5",
+            "display": "RFA Guidance for percutaneous transluminal angioplasty of Pulmonary arteries-- W contrast IA"
+          },
+          {
+            "code": "69253-3",
+            "display": "RFA Guidance for atherectomy of Renal vessels-- W contrast"
+          },
+          {
+            "code": "69272-3",
+            "display": "RF Small bowel Views W contrast via ileostomy"
+          },
+          {
+            "code": "69301-0",
+            "display": "RFA Guidance for percutaneous transluminal angioplasty of Upper extremity vein-- W contrast IV"
+          },
+          {
+            "code": "69306-9",
+            "display": "RF Guidance for aspiration of cyst of Bone"
+          },
+          {
+            "code": "70918-8",
+            "display": "RF Guidance for injection of Cervical spine"
+          },
+          {
+            "code": "70919-6",
+            "display": "RF Guidance for injection of Lumbar spine"
+          },
+          {
+            "code": "70920-4",
+            "display": "RF Guidance for injection of Thoracic spine"
+          },
+          {
+            "code": "70923-8",
+            "display": "RF Guidance for percutaneous vertebroplasty of Cervical spine"
+          },
+          {
+            "code": "70924-6",
+            "display": "RF Guidance for percutaneous vertebroplasty of Lumbar spine"
+          },
+          {
+            "code": "70925-3",
+            "display": "RF Guidance for percutaneous vertebroplasty of Thoracic spine"
+          },
+          {
+            "code": "70933-7",
+            "display": "RF Thoracic spine Views W contrast intradisc"
+          },
+          {
+            "code": "72538-2",
+            "display": "RFA Guidance for removal of peripherally-inserted central venous catheter of Vein"
+          },
+          {
+            "code": "72539-0",
+            "display": "RF Guidance for denervation of Peripheral nerve"
+          },
+          {
+            "code": "72540-8",
+            "display": "RF Guidance for denervation of Spine facet joint"
+          },
+          {
+            "code": "72541-6",
+            "display": "RF Guidance for denervation of Spine Cervical Facet Joint"
+          },
+          {
+            "code": "72542-4",
+            "display": "RF Guidance for denervation of Spine Lumbar Facet Joint"
+          },
+          {
+            "code": "72543-2",
+            "display": "RF Guidance for denervation of Thoracic spine intercostal nerve"
+          },
+          {
+            "code": "72544-0",
+            "display": "RF Guidance for percutaneous device removal of nephrostomy tube of Kidney - bilateral-- W contrast"
+          },
+          {
+            "code": "72545-7",
+            "display": "RF Guidance for percutaneous replacement of drainage tube of Biliary ducts and Gallbladder"
+          },
+          {
+            "code": "72546-5",
+            "display": "RFA Guidance for removal of CV catheter lumen obstruction of Vein"
+          },
+          {
+            "code": "72547-3",
+            "display": "RFA Guidance for removal of CV catheter pericatheter obstruction of Vein"
+          },
+          {
+            "code": "72548-1",
+            "display": "RFA Guidance for removal of CV catheter of Vein-- W contrast IV"
+          },
+          {
+            "code": "72549-9",
+            "display": "RF Guidance for removal of tunneled CV catheter from Vein"
+          },
+          {
+            "code": "72550-7",
+            "display": "RFA Guidance for repair of CV catheter with port or pump of Vein"
+          },
+          {
+            "code": "72551-5",
+            "display": "RFA Guidance for repair of CV catheter without port or pump of Vein"
+          },
+          {
+            "code": "72552-3",
+            "display": "RF Guidance for kyphoplasty of Lumbar spine"
+          },
+          {
+            "code": "72553-1",
+            "display": "RF Guidance for kyphoplasty of Thoracic spine"
+          },
+          {
+            "code": "72554-9",
+            "display": "RF Guidance for trigger point injection of Muscle"
+          },
+          {
+            "code": "75669-2",
+            "display": "RF Guidance for biopsy of Bone marrow"
+          },
+          {
+            "code": "75670-0",
+            "display": "RF Spine.lumbar epidural space Views W contrast epidural"
+          },
+          {
+            "code": "75747-6",
+            "display": "RF Guidance for drainage of abscess of Pleural space - bilateral"
+          },
+          {
+            "code": "75749-2",
+            "display": "RF Guidance for fluid aspiration of Intervertebral disc"
+          },
+          {
+            "code": "75750-0",
+            "display": "RF Guidance for biopsy of Intervertebral disc"
+          },
+          {
+            "code": "75751-8",
+            "display": "RF Guidance for drainage of abscess of Pleural space - left"
+          },
+          {
+            "code": "75816-9",
+            "display": "RF Spine.thoracic epidural space Views W contrast epidural"
+          },
+          {
+            "code": "75817-7",
+            "display": "RF Guidance for drainage of abscess of Pleural space - right"
+          },
+          {
+            "code": "75853-2",
+            "display": "RF Vagina Views W contrast VG"
+          },
+          {
+            "code": "86372-0",
+            "display": "RF Kidney and Ureter and Urinary bladder Views W contrast IV"
+          },
+          {
+            "code": "86373-8",
+            "display": "RF AV fistula Views W contrast via additional puncture"
+          },
+          {
+            "code": "86374-6",
+            "display": "RFA Pedal lymphatic vessels - bilateral Views W contrast intra lymphatic"
+          },
+          {
+            "code": "86375-3",
+            "display": "RFA Pedal lymphatic vessels - unilateral Views W contrast intra lymphatic"
+          },
+          {
+            "code": "86376-1",
+            "display": "RF Biliary ducts Views W contrast via existing catheter"
+          },
+          {
+            "code": "86377-9",
+            "display": "RF Guidance for advancement of feeding tube of Gastrointestinal tract"
+          },
+          {
+            "code": "86378-7",
+            "display": "RF Gastrointestinal tract Views for fistula"
+          },
+          {
+            "code": "86379-5",
+            "display": "RF Small bowel Views for loop diversion"
+          },
+          {
+            "code": "86380-3",
+            "display": "RF Kidney and Ureter and Urinary bladder Views for fistula"
+          },
+          {
+            "code": "86381-1",
+            "display": "RF Colon Screening W air and barium contrast PR"
+          },
+          {
+            "code": "86382-9",
+            "display": "RF Biliary ducts Limited Views during surgery"
+          },
+          {
+            "code": "86383-7",
+            "display": "RF Biliary ducts Views W contrast IV"
+          },
+          {
+            "code": "86384-5",
+            "display": "RF Gallbladder Views W contrast and fatty meal PO"
+          },
+          {
+            "code": "86385-2",
+            "display": "RF Gallbladder Views W contrast PO"
+          },
+          {
+            "code": "86386-0",
+            "display": "RF Gastrointestinal tract upper Views W barium contrast PO"
+          },
+          {
+            "code": "86387-8",
+            "display": "RF Kidney and Ureter and Urinary bladder Views W contrast antegrade"
+          },
+          {
+            "code": "86388-6",
+            "display": "RF Kidney and Ureter and Urinary bladder Views W contrast retrograde"
+          },
+          {
+            "code": "86389-4",
+            "display": "RF Kidney and Ureter and Urinary bladder Views during surgery W contrast retrograde"
+          },
+          {
+            "code": "86390-2",
+            "display": "RF Kidney and Ureter and Urinary bladder Views W contrast via nephrostomy tube"
+          },
+          {
+            "code": "86391-0",
+            "display": "RF AV fistula Views W contrast via existing catheter"
+          },
+          {
+            "code": "86392-8",
+            "display": "RF Kidney and Ureter and Urinary bladder Limited Views W contrast IV"
+          },
+          {
+            "code": "86393-6",
+            "display": "RF Kidney - bilateral and Ureter - bilateral and Urinary bladder Views W contrast retrograde"
+          },
+          {
+            "code": "86394-4",
+            "display": "RFA Thoracic Aorta Views W contrast IA"
+          },
+          {
+            "code": "86395-1",
+            "display": "RF videography Hypopharynx and Esophagus Views for swallowing function W speech and W barium contrast PO"
+          },
+          {
+            "code": "86396-9",
+            "display": "RFA Extremity veins - unilateral Views W contrast IV"
+          },
+          {
+            "code": "86397-7",
+            "display": "RF Guidance for aspiration and placement of suprapubic catheter of Urinary bladder"
+          },
+          {
+            "code": "86398-5",
+            "display": "RF Cerebral cisterns Views W contrast IT"
+          },
+          {
+            "code": "86399-3",
+            "display": "RF Guidance for Views and Guidance for injection of non-vascular shunt of Unspecified body region"
+          },
+          {
+            "code": "86400-9",
+            "display": "RF Guidance for placement of needle in Unspecified body region"
+          },
+          {
+            "code": "86401-7",
+            "display": "RF Urinary bladder Views W contrast intra bladder"
+          },
+          {
+            "code": "86402-5",
+            "display": "RF Shoulder Arthrogram limited"
+          },
+          {
+            "code": "86403-3",
+            "display": "RF Guidance for placement of catheter in Fallopian tube"
+          },
+          {
+            "code": "86404-1",
+            "display": "RF Guidance for fluid aspiration of Urinary bladder"
+          },
+          {
+            "code": "86405-8",
+            "display": "RF Guidance for exchange of tube of Unspecified body region"
+          },
+          {
+            "code": "86406-6",
+            "display": "RF Unspecified body region Less than 1 hour Views during surgery"
+          },
+          {
+            "code": "86407-4",
+            "display": "RF Guidance of Unspecified body region"
+          },
+          {
+            "code": "86408-2",
+            "display": "RF Pelvis Views for urinary pouch"
+          },
+          {
+            "code": "86409-0",
+            "display": "RF Rectum Views for rectal dysfunction W barium contrast PR"
+          },
+          {
+            "code": "86410-8",
+            "display": "RF Pharynx and Cervical esophagus Views W barium contrast PO"
+          },
+          {
+            "code": "86411-6",
+            "display": "RF Posterior fossa - bilateral Views W contrast IT"
+          },
+          {
+            "code": "86412-4",
+            "display": "RFA Pedal lymphatic vessels Views W contrast intra lymphatic"
+          },
+          {
+            "code": "86413-2",
+            "display": "RF Guidance for placement of long feeding tube in Gastrointestinal tract"
+          },
+          {
+            "code": "86414-0",
+            "display": "RFA Renal arteries - unilateral Views W contrast IA"
+          },
+          {
+            "code": "86415-7",
+            "display": "RFA Renal vein - unilateral Views W contrast IV"
+          },
+          {
+            "code": "86417-3",
+            "display": "RFA Cerebral arteries Bilateral Views W contrast IA"
+          },
+          {
+            "code": "86418-1",
+            "display": "RFA Pulmonary arteries - unilateral Views W contrast IA"
+          },
+          {
+            "code": "86419-9",
+            "display": "RFA Visceral arteries Views W contrast IA"
+          },
+          {
+            "code": "86420-7",
+            "display": "RF Gastrointestinal tract upper Views W air contrast PO and W barium contrast PO"
+          },
+          {
+            "code": "86425-6",
+            "display": "RF Guidance for manometry of Kidney"
+          },
+          {
+            "code": "86426-4",
+            "display": "RFA Jugular vein - unilateral Views W contrast IV"
+          },
+          {
+            "code": "86427-2",
+            "display": "RF Upper gastrointestinal tract and Small bowel Views W air contrast PO and W barium contrast PO"
+          },
+          {
+            "code": "86428-0",
+            "display": "RFA Extremity arteries - unilateral Views W contrast IA"
+          },
+          {
+            "code": "86429-8",
+            "display": "RFA Cerebral arteries - unilateral Views W contrast IA"
+          },
+          {
+            "code": "86430-6",
+            "display": "RF Posterior fossa - unilateral Views W contrast IT"
+          },
+          {
+            "code": "86431-4",
+            "display": "RFA Cerebral arteries - bilateral and Cervical arteries - bilateral Views W contrast IA"
+          },
+          {
+            "code": "86432-2",
+            "display": "RFA Cerebral arteries - unilateral and Cervical arteries - unilateral Views W contrast IA"
+          },
+          {
+            "code": "86433-0",
+            "display": "RFA Lumbar spine intercostal arteries Views W contrast IA"
+          },
+          {
+            "code": "86434-8",
+            "display": "RFA Carotid arteries - unilateral Views W contrast IA"
+          },
+          {
+            "code": "86435-5",
+            "display": "RFA Jugular vein - bilateral Views W contrast IV"
+          },
+          {
+            "code": "86436-3",
+            "display": "RF Guidance for treatment of Fistula-- W contrast intra fistula"
+          },
+          {
+            "code": "86437-1",
+            "display": "RF Fistula Diagnostic W contrast intra fistula"
+          },
+          {
+            "code": "86438-9",
+            "display": "RF Guidance for check of feeding tube of Gastrointestinal tract upper"
+          },
+          {
+            "code": "86439-7",
+            "display": "RF Cerebral sinuses Views W contrast IV"
+          },
+          {
+            "code": "86440-5",
+            "display": "RF Seminal vesicle Views W contrast intra seminal vesicle"
+          },
+          {
+            "code": "86441-3",
+            "display": "RF Guidance for manometry of Kidney and Ureter and Urinary bladder"
+          },
+          {
+            "code": "86442-1",
+            "display": "RFA Vertebral artery - unilateral Views W contrast IA"
+          },
+          {
+            "code": "86443-9",
+            "display": "RF Ureter Views W contrast intra ureter"
+          },
+          {
+            "code": "86460-3",
+            "display": "RFA Spine vessel Views"
+          },
+          {
+            "code": "86461-1",
+            "display": "RFA Adrenal vessel Views"
+          },
+          {
+            "code": "86464-5",
+            "display": "RFA Guidance for repair of aneurysm or dissection of Infrarenal aorta"
+          },
+          {
+            "code": "88831-3",
+            "display": "RF Kidney - right and Ureter Views W contrast retrograde intra ureter"
+          },
+          {
+            "code": "88832-1",
+            "display": "RF Kidney - left and Ureter Views W contrast retrograde intra ureter"
+          },
+          {
+            "code": "88833-9",
+            "display": "RF Kidney - bilateral and Ureter Views W contrast retrograde intra ureter"
+          },
+          {
+            "code": "88834-7",
+            "display": "RF Guidance for dilation of nephrostomy tract, ureter, or urethra"
+          }
+        ]
+      }
+    ]
+  }
+}

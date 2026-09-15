@@ -1,0 +1,426 @@
+{
+  "resourceType": "ValueSet",
+  "id": "radiology-procedure-portable-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/radiology-procedure-portable-my-core",
+  "version": "2.1.0",
+  "name": "MyCoreRadiologyProcedurePortableAndMobileMyCore",
+  "title": "MY Core Radiology Procedure - Portable and mobile",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "NATIONAL SELECTION. The portable and mobile subset of the LOINC/RSNA Radiology Playbook. 101 codes. A modality-scoped pick list; the full catalogue is radiology-procedure-my-core.",
+  "copyright": "This value set enumerates LOINC codes. LOINC is copyright Regenstrief Institute, Inc. and the LOINC Committee, and is available at no cost under the LOINC licence. RPID identifiers are from the RSNA Radiology Playbook.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "24560-5",
+            "display": "Portable XR Abdomen AP left lateral-decubitus"
+          },
+          {
+            "code": "24564-7",
+            "display": "Portable XR Abdomen AP upright"
+          },
+          {
+            "code": "24632-2",
+            "display": "Portable XR Chest Views AP"
+          },
+          {
+            "code": "24634-8",
+            "display": "Portable XR Chest Views W inspiration and expiration"
+          },
+          {
+            "code": "24636-3",
+            "display": "Portable XR Chest AP left lateral-decubitus"
+          },
+          {
+            "code": "24638-9",
+            "display": "Portable XR Chest Left lateral upright"
+          },
+          {
+            "code": "24641-3",
+            "display": "Portable XR Chest Left oblique"
+          },
+          {
+            "code": "24644-7",
+            "display": "Portable XR Chest PA and Lateral upright"
+          },
+          {
+            "code": "24645-4",
+            "display": "Portable XR Chest PA and Right lateral and Right oblique and Left oblique upright"
+          },
+          {
+            "code": "24649-6",
+            "display": "Portable XR Chest Right lateral-decubitus and Left lateral-decubitus"
+          },
+          {
+            "code": "24652-0",
+            "display": "Portable XR Chest AP right lateral-decubitus"
+          },
+          {
+            "code": "24654-6",
+            "display": "Portable XR Chest AP and AP right lateral-decubitus"
+          },
+          {
+            "code": "24792-4",
+            "display": "Portable XR Abdomen AP and AP left lateral-decubitus"
+          },
+          {
+            "code": "24793-2",
+            "display": "Portable XR Abdomen AP and Lateral"
+          },
+          {
+            "code": "24795-7",
+            "display": "Portable XR Abdomen Supine and Upright"
+          },
+          {
+            "code": "30722-3",
+            "display": "Portable XR Skull Single view"
+          },
+          {
+            "code": "30723-1",
+            "display": "Portable XR Skull Views"
+          },
+          {
+            "code": "30724-9",
+            "display": "Portable XR Cervical spine Single view"
+          },
+          {
+            "code": "30726-4",
+            "display": "Portable XR Cervical spine AP and Lateral"
+          },
+          {
+            "code": "30727-2",
+            "display": "Portable XR Cervical spine AP"
+          },
+          {
+            "code": "30729-8",
+            "display": "Portable XR Spine Cervical Odontoid and Cervical axis AP"
+          },
+          {
+            "code": "30730-6",
+            "display": "Portable XR Zygomatic arch - bilateral Views"
+          },
+          {
+            "code": "30731-4",
+            "display": "Portable XR Zygomatic arch Views"
+          },
+          {
+            "code": "30733-0",
+            "display": "Portable XR Chest Right oblique and Left oblique"
+          },
+          {
+            "code": "30735-5",
+            "display": "Portable XR Chest AP lateral-decubitus"
+          },
+          {
+            "code": "30738-9",
+            "display": "Portable XR Chest Left lateral"
+          },
+          {
+            "code": "30739-7",
+            "display": "Portable XR Chest Oblique"
+          },
+          {
+            "code": "30743-9",
+            "display": "Portable XR Chest PA and Lateral and Right oblique and Left oblique"
+          },
+          {
+            "code": "30746-2",
+            "display": "Portable XR Chest Views"
+          },
+          {
+            "code": "30747-0",
+            "display": "Portable XR Ribs Views"
+          },
+          {
+            "code": "30749-6",
+            "display": "Portable XR Shoulder Single view"
+          },
+          {
+            "code": "30754-6",
+            "display": "Portable XR Thoracic spine AP and Lateral"
+          },
+          {
+            "code": "30755-3",
+            "display": "Portable XR Thoracic spine AP"
+          },
+          {
+            "code": "30757-9",
+            "display": "Portable XR Thoracic spine Lateral"
+          },
+          {
+            "code": "30759-5",
+            "display": "Portable XR Thoracic spine Oblique"
+          },
+          {
+            "code": "30763-7",
+            "display": "Portable XR Abdomen AP and Lateral crosstable"
+          },
+          {
+            "code": "30764-5",
+            "display": "Portable XR Acetabulum - bilateral Views"
+          },
+          {
+            "code": "30765-2",
+            "display": "Portable XR Acetabulum Views"
+          },
+          {
+            "code": "30772-8",
+            "display": "Portable XR Pelvis Views"
+          },
+          {
+            "code": "30774-4",
+            "display": "Portable XR Lumbar spine Single view"
+          },
+          {
+            "code": "30776-9",
+            "display": "Portable XR Lumbar spine 3 Views"
+          },
+          {
+            "code": "30792-6",
+            "display": "Portable XR Patella Views"
+          },
+          {
+            "code": "36588-2",
+            "display": "Portable XR Abdomen AP"
+          },
+          {
+            "code": "36589-0",
+            "display": "Portable XR Chest AP single view"
+          },
+          {
+            "code": "36674-0",
+            "display": "Portable XR Lumbar spine 2 Views"
+          },
+          {
+            "code": "36960-3",
+            "display": "Portable XR Chest AP upright"
+          },
+          {
+            "code": "36991-8",
+            "display": "Portable XR Cervical spine Lateral crosstable"
+          },
+          {
+            "code": "36992-6",
+            "display": "Portable XR Lumbar spine Lateral crosstable"
+          },
+          {
+            "code": "37075-9",
+            "display": "Portable XR Hip Views AP"
+          },
+          {
+            "code": "37076-7",
+            "display": "Portable XR Abdomen Supine and Lateral-decubitus"
+          },
+          {
+            "code": "37077-5",
+            "display": "Portable XR Hip AP and Lateral crosstable"
+          },
+          {
+            "code": "37078-3",
+            "display": "Portable XR Lumbar spine AP and Lateral"
+          },
+          {
+            "code": "37079-1",
+            "display": "Portable XR Cervical spine AP and Lateral and Odontoid"
+          },
+          {
+            "code": "37151-8",
+            "display": "Portable RF Unspecified body region Views"
+          },
+          {
+            "code": "37168-2",
+            "display": "Portable XR Hip Views"
+          },
+          {
+            "code": "37169-0",
+            "display": "Portable XR Hip - left Views"
+          },
+          {
+            "code": "37170-8",
+            "display": "Portable XR Humerus Views"
+          },
+          {
+            "code": "37171-6",
+            "display": "Portable XR Cervical spine Views"
+          },
+          {
+            "code": "37172-4",
+            "display": "Portable XR Lumbar spine Views"
+          },
+          {
+            "code": "38796-9",
+            "display": "Portable XR Hip - right Views"
+          },
+          {
+            "code": "41773-3",
+            "display": "Portable XR Facial bones Views"
+          },
+          {
+            "code": "41774-1",
+            "display": "Portable XR Neck Lateral"
+          },
+          {
+            "code": "41775-8",
+            "display": "Portable XR Pelvis Single view"
+          },
+          {
+            "code": "41776-6",
+            "display": "Portable XR Pelvis and Hip - right AP and Lateral frog"
+          },
+          {
+            "code": "41777-4",
+            "display": "Portable XR Hip - right AP and Lateral"
+          },
+          {
+            "code": "41778-2",
+            "display": "Portable XR Femur - right Views"
+          },
+          {
+            "code": "41779-0",
+            "display": "Portable XR Knee - right Views"
+          },
+          {
+            "code": "41782-4",
+            "display": "Portable XR Ankle - right Views"
+          },
+          {
+            "code": "41783-2",
+            "display": "Portable XR Shoulder - right Views"
+          },
+          {
+            "code": "41784-0",
+            "display": "Portable XR Humerus - right Views"
+          },
+          {
+            "code": "41786-5",
+            "display": "Portable XR Elbow - right Views"
+          },
+          {
+            "code": "41787-3",
+            "display": "Portable XR Wrist - right Views"
+          },
+          {
+            "code": "41788-1",
+            "display": "Portable XR Hand - right Views"
+          },
+          {
+            "code": "41791-5",
+            "display": "Portable XR Ribs - right Views"
+          },
+          {
+            "code": "41817-8",
+            "display": "Portable XR Hip - left AP and Lateral"
+          },
+          {
+            "code": "41818-6",
+            "display": "Portable XR Femur - left Views"
+          },
+          {
+            "code": "41820-2",
+            "display": "Portable XR Knee - left Views"
+          },
+          {
+            "code": "41823-6",
+            "display": "Portable XR Ankle - left Views"
+          },
+          {
+            "code": "41824-4",
+            "display": "Portable XR Shoulder - left Views"
+          },
+          {
+            "code": "41825-1",
+            "display": "Portable XR Humerus - left Views"
+          },
+          {
+            "code": "41827-7",
+            "display": "Portable XR Elbow - left Views"
+          },
+          {
+            "code": "41828-5",
+            "display": "Portable XR Wrist - left Views"
+          },
+          {
+            "code": "41829-3",
+            "display": "Portable XR Hand - left Views"
+          },
+          {
+            "code": "41831-9",
+            "display": "Portable XR Ribs - left Views"
+          },
+          {
+            "code": "43570-1",
+            "display": "Portable XR Hand Views"
+          },
+          {
+            "code": "43778-0",
+            "display": "Portable XR Chest AP supine"
+          },
+          {
+            "code": "44176-6",
+            "display": "Portable XR Hip Single view"
+          },
+          {
+            "code": "44182-4",
+            "display": "Portable XR Hand 2 Views"
+          },
+          {
+            "code": "44183-2",
+            "display": "Portable XR Radius and Ulna 2 Views"
+          },
+          {
+            "code": "44184-0",
+            "display": "Portable XR Elbow 2 Views"
+          },
+          {
+            "code": "44185-7",
+            "display": "Portable XR Femur AP and Lateral"
+          },
+          {
+            "code": "44186-5",
+            "display": "Portable XR Foot AP and Lateral"
+          },
+          {
+            "code": "44187-3",
+            "display": "Portable XR Cervical spine AP and Oblique and Odontoid and (Lateral W flexion and W extension)"
+          },
+          {
+            "code": "44192-3",
+            "display": "Portable XR Pelvis GE 3 Views"
+          },
+          {
+            "code": "44193-1",
+            "display": "Portable XR Hand GE 3 Views"
+          },
+          {
+            "code": "44201-2",
+            "display": "Portable XR Pelvis 1 or 2 Views"
+          },
+          {
+            "code": "44202-0",
+            "display": "Portable XR Knee 1 or 2 Views"
+          },
+          {
+            "code": "44203-8",
+            "display": "Portable XR Cervical and thoracic and lumbar spine Views"
+          },
+          {
+            "code": "44239-2",
+            "display": "Portable XR Ribs - unilateral GE 3 Views and Chest PA"
+          },
+          {
+            "code": "46391-9",
+            "display": "Portable XR Shoulder Views"
+          },
+          {
+            "code": "70932-9",
+            "display": "Portable XR Thoracic spine Single view"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -26,6 +26,9 @@ Alias: $DIAG-ROLE    = http://terminology.hl7.org/CodeSystem/diagnosis-role
 // http://terminology.hl7.org/ValueSet/admit-source does not exist and resolves to nothing.
 Alias: $VS-ADMIT-SOURCE = http://hl7.org/fhir/ValueSet/encounter-admit-source
 
+// National imaging region list, and the body-site subset bound on bodySite.
+Alias: $CS-IMAGING-REGION = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/imaging-region-my-core
+
 // THO / FHIR value sets used by binding
 Alias: $VS-ENCOUNTER-CLASS = http://terminology.hl7.org/ValueSet/v3-ActEncounterCode
 Alias: $VS-OBS-INTERP      = http://hl7.org/fhir/ValueSet/observation-interpretation
@@ -102,3 +105,12 @@ Alias: $EXT-ETHNIC   = https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDef
 // RETIRED: $EXT-RELIGION — superseded by the core FHIR patient-religion
 // extension ($EXT-RELIGION-HL7). The religion CODE LIST is unchanged.
 Alias: $EXT-DISTRICT = https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/address-district-my-core
+
+// Radiology, v2.1: global standards replace the v2.0 national lists.
+// Body site  -> RadLex anatomy (38,178 concepts, RSNA)
+// Procedure  -> LOINC/RSNA Radiology Playbook (5,954 codes)
+// Modality   -> DICOM CID 29
+// imaging-my-core (762) and imaging-region-my-core (110) are retired as binding
+// targets and retained only as ConceptMap sources for legacy RIS extracts.
+Alias: $VS-BODYSITE      = https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/radlex-anatomy-my-core
+Alias: $VS-RAD-PROCEDURE = https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/radiology-procedure-my-core

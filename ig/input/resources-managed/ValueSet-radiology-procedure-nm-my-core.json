@@ -1,0 +1,2106 @@
+{
+  "resourceType": "ValueSet",
+  "id": "radiology-procedure-nm-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/radiology-procedure-nm-my-core",
+  "version": "2.1.0",
+  "name": "MyCoreRadiologyProcedureNuclearMedicineAndPetMyCore",
+  "title": "MY Core Radiology Procedure - Nuclear medicine and PET",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "NATIONAL SELECTION. The nuclear medicine and pet subset of the LOINC/RSNA Radiology Playbook. 521 codes. A modality-scoped pick list; the full catalogue is radiology-procedure-my-core.",
+  "copyright": "This value set enumerates LOINC codes. LOINC is copyright Regenstrief Institute, Inc. and the LOINC Committee, and is available at no cost under the LOINC licence. RPID identifiers are from the RSNA Radiology Playbook.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "24571-2",
+            "display": "NM Biliary ducts and Gallbladder Views for patency of biliary structures and ejection fraction W sincalide and W radionuclide IV"
+          },
+          {
+            "code": "24572-0",
+            "display": "NM Biliary ducts and Gallbladder Views for patency of biliary structures W Tc-99m IV"
+          },
+          {
+            "code": "24578-7",
+            "display": "SPECT Bones"
+          },
+          {
+            "code": "24591-0",
+            "display": "NM Brain Brain death protocol Views W Tc-99m HMPAO IV"
+          },
+          {
+            "code": "24663-7",
+            "display": "NM Cerebral cisterns Views W radionuclide IT"
+          },
+          {
+            "code": "24683-5",
+            "display": "NM Esophagus+Stomach Views W Tc-99m SC PO"
+          },
+          {
+            "code": "24714-8",
+            "display": "NM Gastrointestinal tract Views for gastrointestinal bleeding W Tc-99m tagged RBC IV"
+          },
+          {
+            "code": "24730-4",
+            "display": "NM Brain Views"
+          },
+          {
+            "code": "24750-2",
+            "display": "NM Heart Views at rest and W Tl-201 IV"
+          },
+          {
+            "code": "24751-0",
+            "display": "NM Parathyroid gland Views W TI-201 subtraction Tc-99m IV"
+          },
+          {
+            "code": "24770-0",
+            "display": "NM Joint Views W In-111 intrajoint"
+          },
+          {
+            "code": "24773-4",
+            "display": "NM Kidney Views W radionuclide transplant scan"
+          },
+          {
+            "code": "24776-7",
+            "display": "NM Kidney Views"
+          },
+          {
+            "code": "24804-7",
+            "display": "NM Knee Views"
+          },
+          {
+            "code": "24817-9",
+            "display": "SPECT Liver W Tc-99m IV"
+          },
+          {
+            "code": "24824-5",
+            "display": "NM Lung Portable Views"
+          },
+          {
+            "code": "24826-0",
+            "display": "NM Lymphatic vessels Views W radionuclide intra lymphatic"
+          },
+          {
+            "code": "24831-0",
+            "display": "NM Small bowel Views for Meckel's diverticulum W Tc-99m M04 IV"
+          },
+          {
+            "code": "24876-5",
+            "display": "NM Head to Pelvis Views for shunt patency W Tc-99m DTPA IT"
+          },
+          {
+            "code": "24888-0",
+            "display": "NM Pulmonary system Ventilation and Perfusion W Xe-133 IH and W Tc-99m MAA IV"
+          },
+          {
+            "code": "24997-9",
+            "display": "NM Stomach Views for gastric emptying solid phase W Tc-99m SC PO"
+          },
+          {
+            "code": "25001-9",
+            "display": "NM Scrotum and testicle Views W Tc-99m pertechnetate IV"
+          },
+          {
+            "code": "25007-6",
+            "display": "NM Thyroid gland Views W I-131 IV"
+          },
+          {
+            "code": "25008-4",
+            "display": "NM Thyroid gland Views and Views uptake W I-131 IV"
+          },
+          {
+            "code": "25018-3",
+            "display": "NM Urinary bladder Views"
+          },
+          {
+            "code": "25031-6",
+            "display": "NM Bone Views"
+          },
+          {
+            "code": "25032-4",
+            "display": "NM Bone Views W In-111 tagged WBC IV"
+          },
+          {
+            "code": "26088-5",
+            "display": "NM Knee - bilateral Views"
+          },
+          {
+            "code": "26089-3",
+            "display": "NM Knee - left Views"
+          },
+          {
+            "code": "26090-1",
+            "display": "NM Knee - right Views"
+          },
+          {
+            "code": "26091-9",
+            "display": "NM Scrotum and Testicle - bilateral Views W Tc-99m pertechnetate IV"
+          },
+          {
+            "code": "26092-7",
+            "display": "NM Scrotum and Testicle - left Views W Tc-99m pertechnetate IV"
+          },
+          {
+            "code": "26093-5",
+            "display": "NM Scrotum and Testicle - right Views W Tc-99m pertechnetate IV"
+          },
+          {
+            "code": "30694-4",
+            "display": "NM Thyroid gland and uptake single view"
+          },
+          {
+            "code": "30695-1",
+            "display": "NM Thyroid gland Views"
+          },
+          {
+            "code": "30696-9",
+            "display": "NM Scrotum and testicle Views"
+          },
+          {
+            "code": "30697-7",
+            "display": "NM Pulmonary system Ventilation and Perfusion"
+          },
+          {
+            "code": "30877-5",
+            "display": "NM Kidney+Renal vessels Views"
+          },
+          {
+            "code": "39619-2",
+            "display": "NM Pulmonary system Views"
+          },
+          {
+            "code": "39620-0",
+            "display": "NM Guidance for abscess localization limited of Unspecified body region"
+          },
+          {
+            "code": "39621-8",
+            "display": "SPECT Guidance for abscess localization of Unspecified body region"
+          },
+          {
+            "code": "39622-6",
+            "display": "SPECT Guidance for abscess localization of Whole body"
+          },
+          {
+            "code": "39623-4",
+            "display": "NM Guidance for abscess localization of Whole body"
+          },
+          {
+            "code": "39624-2",
+            "display": "NM Adrenal gland Views W I-131 NP59 IV"
+          },
+          {
+            "code": "39625-9",
+            "display": "NM Artery Views W Tc-99m DTPA IA"
+          },
+          {
+            "code": "39626-7",
+            "display": "NM Vein - bilateral Views"
+          },
+          {
+            "code": "39627-5",
+            "display": "NM Bone Limited Views"
+          },
+          {
+            "code": "39628-3",
+            "display": "SPECT Small bowel for Meckel's diverticulum"
+          },
+          {
+            "code": "39629-1",
+            "display": "NM Small bowel Views for Meckel's diverticulum"
+          },
+          {
+            "code": "39630-9",
+            "display": "NM Brain Views W Tc-99m HMPAO IV"
+          },
+          {
+            "code": "39631-7",
+            "display": "SPECT Brain W Tc-99m HMPAO IV"
+          },
+          {
+            "code": "39632-5",
+            "display": "SPECT Brain"
+          },
+          {
+            "code": "39634-1",
+            "display": "NM Brain Limited Views"
+          },
+          {
+            "code": "39635-8",
+            "display": "NM Brain Views W Tl-201 IV"
+          },
+          {
+            "code": "39636-6",
+            "display": "NM Brain Views for blood flow"
+          },
+          {
+            "code": "39637-4",
+            "display": "SPECT Brain for blood flow"
+          },
+          {
+            "code": "39638-2",
+            "display": "SPECT Brain W I-123 IV"
+          },
+          {
+            "code": "39639-0",
+            "display": "SPECT Brain W Tl-201 IV"
+          },
+          {
+            "code": "39640-8",
+            "display": "SPECT Brain W Tc-99m DTPA IV"
+          },
+          {
+            "code": "39641-6",
+            "display": "SPECT Brain W Tc-99m glucoheptonate IV"
+          },
+          {
+            "code": "39642-4",
+            "display": "NM Brain Views W Tc-99m glucoheptonate IV"
+          },
+          {
+            "code": "39643-2",
+            "display": "NM Brain veins Views"
+          },
+          {
+            "code": "39644-0",
+            "display": "SPECT Breast"
+          },
+          {
+            "code": "39645-7",
+            "display": "NM Breast Limited Views"
+          },
+          {
+            "code": "39646-5",
+            "display": "NM Breast Views"
+          },
+          {
+            "code": "39647-3",
+            "display": "SPECT Heart W Tc-99m Tetrofosmin IV"
+          },
+          {
+            "code": "39648-1",
+            "display": "SPECT Heart W dipyridamole IV"
+          },
+          {
+            "code": "39649-9",
+            "display": "SPECT Heart"
+          },
+          {
+            "code": "39650-7",
+            "display": "NM Heart Views"
+          },
+          {
+            "code": "39651-5",
+            "display": "NM Heart Views W adenosine and W Tl-201 IV"
+          },
+          {
+            "code": "39652-3",
+            "display": "NM Heart Views W dobutamine and W Tl-201 IV"
+          },
+          {
+            "code": "39653-1",
+            "display": "NM Heart Views for infarct"
+          },
+          {
+            "code": "39654-9",
+            "display": "SPECT Heart for infarct W Tc-99m PYP IV"
+          },
+          {
+            "code": "39655-6",
+            "display": "SPECT Heart for infarct W Tc-99m Sestamibi IV"
+          },
+          {
+            "code": "39656-4",
+            "display": "SPECT Heart for infarct"
+          },
+          {
+            "code": "39657-2",
+            "display": "NM Heart Views for infarct W Tc-99m PYP IV"
+          },
+          {
+            "code": "39658-0",
+            "display": "SPECT Heart at rest and W radionuclide IV"
+          },
+          {
+            "code": "39660-6",
+            "display": "NM Heart Views at rest and W dipyridamole and W radionuclide IV"
+          },
+          {
+            "code": "39661-4",
+            "display": "NM Heart Views at rest and W dobutamine and W radionuclide IV"
+          },
+          {
+            "code": "39662-2",
+            "display": "SPECT Heart at rest and W stress and W Tc-99m Sestamibi IV"
+          },
+          {
+            "code": "39663-0",
+            "display": "NM Heart Views at rest and W stress and W radionuclide IV"
+          },
+          {
+            "code": "39664-8",
+            "display": "NM Heart Views for shunt detection W Tc-99m MAA IV"
+          },
+          {
+            "code": "39665-5",
+            "display": "NM Heart Views for shunt detection"
+          },
+          {
+            "code": "39666-3",
+            "display": "NM Heart Views W stress and W 201 Th IV"
+          },
+          {
+            "code": "39667-1",
+            "display": "NM Heart Views W stress and W radionuclide IV"
+          },
+          {
+            "code": "39668-9",
+            "display": "SPECT Heart W stress and W radionuclide IV"
+          },
+          {
+            "code": "39669-7",
+            "display": "NM Whole body Views W Tc-99m Arcitumomab IV"
+          },
+          {
+            "code": "39670-5",
+            "display": "NM Lacrimal duct Views W radionuclide intra lacrimal duct"
+          },
+          {
+            "code": "39671-3",
+            "display": "NM Rectum Views W radionuclide PO"
+          },
+          {
+            "code": "39672-1",
+            "display": "NM Esophagus Views for motility W radionuclide PO"
+          },
+          {
+            "code": "39673-9",
+            "display": "NM Esophagus Views for reflux W radionuclide PO"
+          },
+          {
+            "code": "39674-7",
+            "display": "NM Gallbladder Views W Tc-99m DISIDA IV"
+          },
+          {
+            "code": "39675-4",
+            "display": "SPECT Whole body for infection W Ga-67 IV"
+          },
+          {
+            "code": "39677-0",
+            "display": "NM Unspecified body region Views for infection W Ga-67 IV"
+          },
+          {
+            "code": "39678-8",
+            "display": "SPECT Whole body for tumor W Ga-67 IV"
+          },
+          {
+            "code": "39679-6",
+            "display": "NM Unspecified body region Views for tumor W Ga-67 IV"
+          },
+          {
+            "code": "39680-4",
+            "display": "SPECT Whole body W Ga-67 IV"
+          },
+          {
+            "code": "39681-2",
+            "display": "SPECT Unspecified body region limited W Ga-67 IV"
+          },
+          {
+            "code": "39682-0",
+            "display": "SPECT Unspecified body region W Ga-67 IV"
+          },
+          {
+            "code": "39683-8",
+            "display": "NM Whole body Views W Ga-67 IV"
+          },
+          {
+            "code": "39684-6",
+            "display": "SPECT Unspecified body region for abscess W Ga-67 IV"
+          },
+          {
+            "code": "39685-3",
+            "display": "NM Unspecified body region Views for abscess W Ga-67 IV"
+          },
+          {
+            "code": "39686-1",
+            "display": "NM Whole body Views for lymphoma W Ga-67 IV"
+          },
+          {
+            "code": "39687-9",
+            "display": "NM Unspecified body region Limited Views W Ga-67 IV"
+          },
+          {
+            "code": "39688-7",
+            "display": "NM Unspecified body region Views W Ga-67 IV"
+          },
+          {
+            "code": "39689-5",
+            "display": "NM Gastrointestinal tract Views W Tc-99m SC IV"
+          },
+          {
+            "code": "39690-3",
+            "display": "NM Liver Views W Tc-99m tagged RBC IV"
+          },
+          {
+            "code": "39691-1",
+            "display": "SPECT Liver W Tc-99m tagged RBC IV"
+          },
+          {
+            "code": "39692-9",
+            "display": "SPECT Liver"
+          },
+          {
+            "code": "39693-7",
+            "display": "NM Liver Views"
+          },
+          {
+            "code": "39694-5",
+            "display": "NM Views for transplanted liver"
+          },
+          {
+            "code": "39695-2",
+            "display": "NM Lung Limited Views"
+          },
+          {
+            "code": "39696-0",
+            "display": "NM Lung Views W depreotide IV"
+          },
+          {
+            "code": "39697-8",
+            "display": "NM Lung Perfusion"
+          },
+          {
+            "code": "39698-6",
+            "display": "NM Whole body Views W I-131 MIBG IV"
+          },
+          {
+            "code": "39699-4",
+            "display": "NM Heart Perfusion at rest and W Tc-99m Sestamibi IV"
+          },
+          {
+            "code": "39700-0",
+            "display": "SPECT Heart perfusion W adenosine and W radionuclide IV"
+          },
+          {
+            "code": "39701-8",
+            "display": "NM Heart Perfusion W adenosine and W radionuclide IV"
+          },
+          {
+            "code": "39702-6",
+            "display": "NM Heart Perfusion W dobutamine and W Tc-99m Sestamibi IV"
+          },
+          {
+            "code": "39703-4",
+            "display": "NM Heart Perfusion W dobutamine IV"
+          },
+          {
+            "code": "39704-2",
+            "display": "NM Heart Perfusion W Tc-99m Sestamibi IV"
+          },
+          {
+            "code": "39705-9",
+            "display": "NM Heart Perfusion W dipyridamole and W Tc-99m Sestamibi IV"
+          },
+          {
+            "code": "39707-5",
+            "display": "NM Heart Perfusion W dipyridamole and W Tl-201 IV"
+          },
+          {
+            "code": "39708-3",
+            "display": "NM Heart Perfusion W dipyridamole IV"
+          },
+          {
+            "code": "39709-1",
+            "display": "NM Heart Perfusion W dipyridamole and W Tc-99m IV"
+          },
+          {
+            "code": "39710-9",
+            "display": "SPECT Heart perfusion W Tc-99m Sestamibi IV"
+          },
+          {
+            "code": "39711-7",
+            "display": "SPECT Heart perfusion W Tl-201 IV"
+          },
+          {
+            "code": "39712-5",
+            "display": "SPECT Heart perfusion"
+          },
+          {
+            "code": "39713-3",
+            "display": "NM Heart Perfusion W Tl-201 IV and W Tc-99m Tetrofosmin IV"
+          },
+          {
+            "code": "39714-1",
+            "display": "NM Heart Perfusion W Tl-201 IV"
+          },
+          {
+            "code": "39715-8",
+            "display": "NM Heart Perfusion W stress and W Tl-201 IV"
+          },
+          {
+            "code": "39716-6",
+            "display": "NM Heart Perfusion"
+          },
+          {
+            "code": "39718-2",
+            "display": "SPECT Heart perfusion at rest and W radionuclide IV"
+          },
+          {
+            "code": "39719-0",
+            "display": "NM Heart Perfusion at rest and W adenosine and W radionuclide IV"
+          },
+          {
+            "code": "39720-8",
+            "display": "NM Heart Perfusion at rest and W dipyridamole and W Tc-99m Sestamibi IV"
+          },
+          {
+            "code": "39722-4",
+            "display": "NM Heart Perfusion at rest and W dipyridamole and W radionuclide IV"
+          },
+          {
+            "code": "39723-2",
+            "display": "SPECT Heart perfusion at rest and W stress and W Tl-201 IV"
+          },
+          {
+            "code": "39724-0",
+            "display": "SPECT Heart perfusion at rest and W stress and W radionuclide IV"
+          },
+          {
+            "code": "39725-7",
+            "display": "SPECT Heart perfusion at rest and W adenosine and W Tl-201 IV"
+          },
+          {
+            "code": "39726-5",
+            "display": "NM Heart Perfusion at rest and W stress and W radionuclide IV"
+          },
+          {
+            "code": "39727-3",
+            "display": "NM Heart Perfusion at rest and W stress and W Tc-99m Sestamibi IV"
+          },
+          {
+            "code": "39728-1",
+            "display": "NM Heart Perfusion at rest and W radionuclide IV"
+          },
+          {
+            "code": "39729-9",
+            "display": "SPECT Heart perfusion at rest and W Tl-201 IV"
+          },
+          {
+            "code": "39730-7",
+            "display": "NM Heart Perfusion W stress and W radionuclide IV"
+          },
+          {
+            "code": "39731-5",
+            "display": "NM Heart Perfusion W adenosine and W Tc-99m Sestamibi IV"
+          },
+          {
+            "code": "39732-3",
+            "display": "NM Heart Perfusion W stress and W Tc-99m Sestamibi IV"
+          },
+          {
+            "code": "39733-1",
+            "display": "NM Heart Perfusion W dobutamine and W Tl-201 IV"
+          },
+          {
+            "code": "39734-9",
+            "display": "SPECT Heart perfusion W stress and W radionuclide IV"
+          },
+          {
+            "code": "39735-6",
+            "display": "NM Heart Perfusion W adenosine and W Tl-201 IV"
+          },
+          {
+            "code": "39736-4",
+            "display": "SPECT Heart perfusion W stress and W Tc-99m Sestamibi IV"
+          },
+          {
+            "code": "39737-2",
+            "display": "NM Neck Views"
+          },
+          {
+            "code": "39738-0",
+            "display": "NM Abdomen Views W In-111 Satumomab IV"
+          },
+          {
+            "code": "39739-8",
+            "display": "NM Pancreas Views"
+          },
+          {
+            "code": "39740-6",
+            "display": "SPECT Parathyroid gland"
+          },
+          {
+            "code": "39741-4",
+            "display": "NM Parathyroid gland Delayed Views"
+          },
+          {
+            "code": "39742-2",
+            "display": "NM Parathyroid gland Views"
+          },
+          {
+            "code": "39743-0",
+            "display": "SPECT Prostate W Tc-99m capromab pendatide IV"
+          },
+          {
+            "code": "39744-8",
+            "display": "NM Prostate Views W Tc-99m capromab pendatide IV"
+          },
+          {
+            "code": "39745-5",
+            "display": "NM Kidney Views W Tc-99m DTPA IV"
+          },
+          {
+            "code": "39746-3",
+            "display": "NM Kidney Views W Tc-99m Mertiatide IV"
+          },
+          {
+            "code": "39747-1",
+            "display": "NM Salivary gland Views"
+          },
+          {
+            "code": "39748-9",
+            "display": "SPECT Whole body for tumor W Tc-99m Sestamibi IV"
+          },
+          {
+            "code": "39749-7",
+            "display": "NM Whole body Views for tumor W Tc-99m Sestamibi IV"
+          },
+          {
+            "code": "39750-5",
+            "display": "NM Unspecified body region Views for tumor W Tc-99m Sestamibi IV"
+          },
+          {
+            "code": "39751-3",
+            "display": "NM Spleen Views"
+          },
+          {
+            "code": "39752-1",
+            "display": "NM Spleen Views W radionuclide tagged heat damaged RBC IV"
+          },
+          {
+            "code": "39753-9",
+            "display": "NM Scrotum and testicle Views W Tc-99m DTPA IV"
+          },
+          {
+            "code": "39754-7",
+            "display": "NM Thyroid gland Limited Views W I-131 IV"
+          },
+          {
+            "code": "39755-4",
+            "display": "SPECT Thyroid gland W I-131 IV"
+          },
+          {
+            "code": "39756-2",
+            "display": "NM Thyroid gland Views W Tc-99m Sestamibi IV"
+          },
+          {
+            "code": "39757-0",
+            "display": "NM Thyroid gland Views W Tc-99m IV"
+          },
+          {
+            "code": "39758-8",
+            "display": "NM Guidance for localization of tumor of Breast"
+          },
+          {
+            "code": "39759-6",
+            "display": "SPECT Guidance limited for localization of tumor"
+          },
+          {
+            "code": "39760-4",
+            "display": "NM Guidance limited for localization of tumor"
+          },
+          {
+            "code": "39761-2",
+            "display": "NM Guidance limited for localization of tumor-- W Tc-99m Sestamibi IV"
+          },
+          {
+            "code": "39762-0",
+            "display": "SPECT Guidance for localization of tumor of Whole body"
+          },
+          {
+            "code": "39763-8",
+            "display": "NM Guidance for localization of tumor of Whole body"
+          },
+          {
+            "code": "39764-6",
+            "display": "NM Vein Views W Tc-99m SC IV"
+          },
+          {
+            "code": "39765-3",
+            "display": "NM Vein Views W Tc-99m DTPA IV"
+          },
+          {
+            "code": "39766-1",
+            "display": "NM Vein Views W Tc-99m HDP IV"
+          },
+          {
+            "code": "39767-9",
+            "display": "NM Stomach Views for gastric emptying liquid phase W radionuclide PO"
+          },
+          {
+            "code": "39768-7",
+            "display": "NM Stomach Views for gastric emptying W Tc-99m SC PO"
+          },
+          {
+            "code": "39769-5",
+            "display": "NM Stomach Views for gastric emptying W radionuclide PO"
+          },
+          {
+            "code": "39770-3",
+            "display": "SPECT Gastrointestinal tract"
+          },
+          {
+            "code": "39811-5",
+            "display": "SPECT Unspecified body region for abscess"
+          },
+          {
+            "code": "39812-3",
+            "display": "NM Bone Views W Tc-99m HMPAO IV"
+          },
+          {
+            "code": "39813-1",
+            "display": "SPECT Bone limited"
+          },
+          {
+            "code": "39816-4",
+            "display": "SPECT Whole body Bone"
+          },
+          {
+            "code": "39818-0",
+            "display": "NM Whole body Bone Views"
+          },
+          {
+            "code": "39819-8",
+            "display": "NM Bone Delayed Views"
+          },
+          {
+            "code": "39820-6",
+            "display": "NM Bone Views W Sm-153 IV"
+          },
+          {
+            "code": "39821-4",
+            "display": "SPECT Bone marrow limited"
+          },
+          {
+            "code": "39822-2",
+            "display": "NM Bone marrow Limited Views"
+          },
+          {
+            "code": "39823-0",
+            "display": "SPECT Bone marrow"
+          },
+          {
+            "code": "39824-8",
+            "display": "NM Bone marrow Views"
+          },
+          {
+            "code": "39825-5",
+            "display": "SPECT Whole body Bone marrow"
+          },
+          {
+            "code": "39826-3",
+            "display": "NM Whole body Bone marrow Views"
+          },
+          {
+            "code": "39827-1",
+            "display": "NM Whole body Views for endocrine tumor W I-131 MIBG IV"
+          },
+          {
+            "code": "39828-9",
+            "display": "NM Whole body Views for endocrine tumor W In-111 pentetreotide IV"
+          },
+          {
+            "code": "39829-7",
+            "display": "NM Whole body Views for tumor W Ga-67 IV"
+          },
+          {
+            "code": "39830-5",
+            "display": "NM Whole body Views for infection W Ga-67 IV"
+          },
+          {
+            "code": "39831-3",
+            "display": "NM Unspecified body region Limited Views for tumor W Ga-67 IV"
+          },
+          {
+            "code": "39834-7",
+            "display": "NM Lung Ventilation W Tc-99m DTPA aerosol IH"
+          },
+          {
+            "code": "39837-0",
+            "display": "NM Lung Ventilation"
+          },
+          {
+            "code": "39838-8",
+            "display": "SPECT Lung ventilation and perfusion"
+          },
+          {
+            "code": "39839-6",
+            "display": "SPECT Whole body W I-131 MIBG IV"
+          },
+          {
+            "code": "39840-4",
+            "display": "NM Whole body Delayed Views W I-131 MIBG IV"
+          },
+          {
+            "code": "39841-2",
+            "display": "NM Unspecified body region Views W I-131 MIBG IV"
+          },
+          {
+            "code": "39842-0",
+            "display": "NM Whole body Delayed Views W In-111 Satumomab IV"
+          },
+          {
+            "code": "39843-8",
+            "display": "NM Unspecified body region Limited Views W In-111 Satumomab IV"
+          },
+          {
+            "code": "39844-6",
+            "display": "SPECT Whole body W In-111 Satumomab IV"
+          },
+          {
+            "code": "39845-3",
+            "display": "NM Whole body Views W In-111 Satumomab IV"
+          },
+          {
+            "code": "39846-1",
+            "display": "NM Unspecified body region Views W In-111 Satumomab IV"
+          },
+          {
+            "code": "39847-9",
+            "display": "NM Parotid gland Views for blood flow"
+          },
+          {
+            "code": "39848-7",
+            "display": "NM Head to Pelvis Views for shunt patency W In-111 IT"
+          },
+          {
+            "code": "39849-5",
+            "display": "NM Head to Pelvis Views for shunt patency W radionuclide IT"
+          },
+          {
+            "code": "39850-3",
+            "display": "NM Kidney - bilateral Views W I-131 IV"
+          },
+          {
+            "code": "39851-1",
+            "display": "SPECT Kidney - bilateral W Tc-99m Mertiatide IV"
+          },
+          {
+            "code": "39852-9",
+            "display": "SPECT Kidney - bilateral"
+          },
+          {
+            "code": "39856-0",
+            "display": "NM Thyroid gland Views for blood flow"
+          },
+          {
+            "code": "39857-8",
+            "display": "NM Adrenal gland Views W I-131 MIBG IV"
+          },
+          {
+            "code": "39858-6",
+            "display": "NM Bone Views for blood flow"
+          },
+          {
+            "code": "39859-4",
+            "display": "NM Brain Delayed Views"
+          },
+          {
+            "code": "39860-2",
+            "display": "NM Heart Blood pool W stress and W radionuclide IV"
+          },
+          {
+            "code": "39861-0",
+            "display": "NM Heart Blood pool"
+          },
+          {
+            "code": "39862-8",
+            "display": "SPECT Heart blood pool at rest and W radionuclide IV"
+          },
+          {
+            "code": "39863-6",
+            "display": "NM Heart First pass at rest and W stress and W radionuclide IV"
+          },
+          {
+            "code": "39864-4",
+            "display": "NM Heart First pass"
+          },
+          {
+            "code": "39865-1",
+            "display": "NM Left ventricle First pass"
+          },
+          {
+            "code": "39866-9",
+            "display": "NM Heart First pass at rest and W Tc-99m Sestamibi IV"
+          },
+          {
+            "code": "39867-7",
+            "display": "NM Heart First pass at rest and W radionuclide IV"
+          },
+          {
+            "code": "39868-5",
+            "display": "NM Heart First pass W stress and W Tc-99m Sestamibi IV"
+          },
+          {
+            "code": "39869-3",
+            "display": "NM Heart First pass W stress and W radionuclide IV"
+          },
+          {
+            "code": "39870-1",
+            "display": "NM Heart Views for blood flow W Tc-99m pertechnetate IV"
+          },
+          {
+            "code": "39871-9",
+            "display": "NM Heart Views for blood flow"
+          },
+          {
+            "code": "39872-7",
+            "display": "SPECT Heart wall motion"
+          },
+          {
+            "code": "39873-5",
+            "display": "NM Heart Wall motion"
+          },
+          {
+            "code": "39874-3",
+            "display": "NM Cerebral cisterns Delayed Views W radionuclide IT"
+          },
+          {
+            "code": "39875-0",
+            "display": "NM Whole body Delayed Views W Ga-67 IV"
+          },
+          {
+            "code": "39876-8",
+            "display": "SPECT Liver and Spleen"
+          },
+          {
+            "code": "39877-6",
+            "display": "NM Liver and Spleen Views"
+          },
+          {
+            "code": "39879-2",
+            "display": "SPECT Bone"
+          },
+          {
+            "code": "39880-0",
+            "display": "NM Bone 2 Phase Views"
+          },
+          {
+            "code": "39881-8",
+            "display": "SPECT Whole body Bone 3 phase"
+          },
+          {
+            "code": "39882-6",
+            "display": "NM Whole body Bone 3 Phase Views"
+          },
+          {
+            "code": "39883-4",
+            "display": "NM Bone 3 Phase Views"
+          },
+          {
+            "code": "39884-2",
+            "display": "NM Bone Blood pool"
+          },
+          {
+            "code": "39885-9",
+            "display": "NM Heart First pass and Ventricular volume"
+          },
+          {
+            "code": "39886-7",
+            "display": "NM Heart First pass and Wall motion at rest and W radionuclide IV"
+          },
+          {
+            "code": "39887-5",
+            "display": "NM Heart First pass and Ejection fraction at rest and W radionuclide IV"
+          },
+          {
+            "code": "39888-3",
+            "display": "NM Heart First pass and Wall motion W stress and W radionuclide IV"
+          },
+          {
+            "code": "39889-1",
+            "display": "NM Heart First pass and Ejection fraction"
+          },
+          {
+            "code": "39890-9",
+            "display": "NM Heart First pass and Wall motion"
+          },
+          {
+            "code": "39891-7",
+            "display": "NM Heart Views for infarct and first pass W Tc-99m PYP IV"
+          },
+          {
+            "code": "39892-5",
+            "display": "NM Heart Views for infarct and first pass"
+          },
+          {
+            "code": "39893-3",
+            "display": "NM Heart Views for blood flow and shunt detection"
+          },
+          {
+            "code": "39895-8",
+            "display": "NM Gallbladder Views for ejection fraction W Tc-99m DISIDA IV"
+          },
+          {
+            "code": "39897-4",
+            "display": "NM Lung and Liver Views"
+          },
+          {
+            "code": "39898-2",
+            "display": "SPECT Lung ventilation"
+          },
+          {
+            "code": "39899-0",
+            "display": "NM Salivary gland Views for blood flow"
+          },
+          {
+            "code": "39901-4",
+            "display": "NM Bone 3 Phase Views multiple areas"
+          },
+          {
+            "code": "39902-2",
+            "display": "NM Bone 3 Phase Views single area"
+          },
+          {
+            "code": "39904-8",
+            "display": "NM Bone Multiple area Views"
+          },
+          {
+            "code": "39905-5",
+            "display": "SPECT Bone multiple areas"
+          },
+          {
+            "code": "39906-3",
+            "display": "SPECT Bone marrow multiple areas"
+          },
+          {
+            "code": "39907-1",
+            "display": "NM Bone marrow Multiple area Views"
+          },
+          {
+            "code": "39908-9",
+            "display": "NM Heart First pass and Wall motion and Ventricular volume W stress and W radionuclide IV"
+          },
+          {
+            "code": "39909-7",
+            "display": "NM Heart First pass and Wall motion and Ventricular volume and Ejection fraction W stress and W radionuclide IV"
+          },
+          {
+            "code": "39910-5",
+            "display": "NM Heart First pass and Wall motion and Ejection fraction"
+          },
+          {
+            "code": "39912-1",
+            "display": "NM Heart First pass and Wall motion and Ventricular volume and Ejection fraction"
+          },
+          {
+            "code": "39913-9",
+            "display": "SPECT Heart gated and ejection fraction"
+          },
+          {
+            "code": "39914-7",
+            "display": "NM Heart Gated W Tc-99m Sestamibi IV"
+          },
+          {
+            "code": "39915-4",
+            "display": "NM Heart Gated"
+          },
+          {
+            "code": "39916-2",
+            "display": "SPECT Heart gated"
+          },
+          {
+            "code": "39917-0",
+            "display": "NM Heart Gated and Ejection fraction"
+          },
+          {
+            "code": "39918-8",
+            "display": "SPECT Heart gated and wall motion"
+          },
+          {
+            "code": "39919-6",
+            "display": "NM Heart Gated and First pass"
+          },
+          {
+            "code": "39920-4",
+            "display": "NM Heart Gated at rest and W Tc-99m Sestamibi IV"
+          },
+          {
+            "code": "39921-2",
+            "display": "NM Heart Gated at rest and W radionuclide IV"
+          },
+          {
+            "code": "39922-0",
+            "display": "NM Heart Gated at rest and W Tc-99m pertechnetate IV"
+          },
+          {
+            "code": "39923-8",
+            "display": "NM Heart Gated and Ejection fraction at rest and W radionuclide IV"
+          },
+          {
+            "code": "39924-6",
+            "display": "NM Heart Gated at rest and W stress and W radionuclide IV"
+          },
+          {
+            "code": "39925-3",
+            "display": "NM Heart Gated and Wall motion and Ejection fraction at rest and W radionuclide IV"
+          },
+          {
+            "code": "39927-9",
+            "display": "NM Heart Gated W stress and W Tc-99m pertechnetate IV"
+          },
+          {
+            "code": "39928-7",
+            "display": "NM Heart Gated W stress and W radionuclide IV"
+          },
+          {
+            "code": "39929-5",
+            "display": "NM Heart Gated and Wall motion W stress and W radionuclide IV"
+          },
+          {
+            "code": "39930-3",
+            "display": "SPECT Heart gated W stress and W radionuclide IV"
+          },
+          {
+            "code": "39931-1",
+            "display": "NM Heart Gated and Wall motion and Ejection fraction"
+          },
+          {
+            "code": "39932-9",
+            "display": "NM Heart Wall motion and Ejection fraction"
+          },
+          {
+            "code": "39933-7",
+            "display": "NM Unspecified body region Views for infection multiple areas W Ga-67 IV"
+          },
+          {
+            "code": "39934-5",
+            "display": "NM Unspecified body region Views for tumor multiple areas W Ga-67 IV"
+          },
+          {
+            "code": "39935-2",
+            "display": "NM Unspecified body region Multiple area Views W Ga-67 IV"
+          },
+          {
+            "code": "39936-0",
+            "display": "NM Joint Limited Views"
+          },
+          {
+            "code": "39937-8",
+            "display": "NM Joint Multiple area Views W radionuclide XXX"
+          },
+          {
+            "code": "39938-6",
+            "display": "SPECT Joint"
+          },
+          {
+            "code": "39939-4",
+            "display": "NM Joint Views"
+          },
+          {
+            "code": "39940-2",
+            "display": "NM Lung Clearance W Tc-99m DTPA aerosol IH"
+          },
+          {
+            "code": "39942-8",
+            "display": "NM Lung Ventilation and Perfusion"
+          },
+          {
+            "code": "39944-4",
+            "display": "NM Lung Ventilation and Equilibrium and Washout"
+          },
+          {
+            "code": "39946-9",
+            "display": "NM Lung Ventilation and Perfusion and Differential"
+          },
+          {
+            "code": "39947-7",
+            "display": "NM Lung Ventilation and Equilibrium"
+          },
+          {
+            "code": "39949-3",
+            "display": "NM Unspecified body region Multiple area Views W In-111 Satumomab IV"
+          },
+          {
+            "code": "39950-1",
+            "display": "NM Prostate Multiple area Views W Tc-99m capromab pendatide IV"
+          },
+          {
+            "code": "39951-9",
+            "display": "NM Unspecified body region Views for tumor multiple areas W Tc-99m Sestamibi IV"
+          },
+          {
+            "code": "39952-7",
+            "display": "NM Scrotum and testicle Views for blood flow and function"
+          },
+          {
+            "code": "39953-5",
+            "display": "NM Guidance for localization of tumor multiple areas of Unspecified body region"
+          },
+          {
+            "code": "39954-3",
+            "display": "NM Vein Views for thrombosis"
+          },
+          {
+            "code": "41770-9",
+            "display": "NM Gallbladder Views W cholecystokinin and W radionuclide IV"
+          },
+          {
+            "code": "41771-7",
+            "display": "NM Kidney Views W Tc-99m DMSA IV"
+          },
+          {
+            "code": "41772-5",
+            "display": "SPECT Bone W In-111 tagged WBC IV"
+          },
+          {
+            "code": "41836-8",
+            "display": "NM Bone Limited Views W In-111 tagged WBC IV"
+          },
+          {
+            "code": "41837-6",
+            "display": "SPECT Whole body W Tc-99m Arcitumomab IV"
+          },
+          {
+            "code": "41838-4",
+            "display": "SPECT Prostate W In-111 Satumomab IV"
+          },
+          {
+            "code": "42158-6",
+            "display": "NM Adrenal gland Views"
+          },
+          {
+            "code": "42161-0",
+            "display": "NM Heart Views W dobutamine IV"
+          },
+          {
+            "code": "42166-9",
+            "display": "NM Heart 2 Views at rest and W Tl-201 IV"
+          },
+          {
+            "code": "42170-1",
+            "display": "NM Whole body Views for lymphoma"
+          },
+          {
+            "code": "42171-9",
+            "display": "NM Whole body Views for tumor"
+          },
+          {
+            "code": "42175-0",
+            "display": "NM Whole body Views"
+          },
+          {
+            "code": "42261-8",
+            "display": "NM Kidney Views for blood flow"
+          },
+          {
+            "code": "42262-6",
+            "display": "NM Liver Views for blood flow"
+          },
+          {
+            "code": "42263-4",
+            "display": "NM Spleen Views for blood flow"
+          },
+          {
+            "code": "42271-7",
+            "display": "NM Thyroid gland Views and Views uptake W I-123 IV"
+          },
+          {
+            "code": "42292-3",
+            "display": "SPECT Whole body for tumor W Tl-201 IV"
+          },
+          {
+            "code": "42305-3",
+            "display": "NM Whole body Views for tumor W Tl-201 IV"
+          },
+          {
+            "code": "42306-1",
+            "display": "NM Heart Gated and Wall motion"
+          },
+          {
+            "code": "42308-7",
+            "display": "NM Scrotum and testicle Views for blood flow"
+          },
+          {
+            "code": "42309-5",
+            "display": "NM Heart Views at rest and W stress and W Tl-201 IV"
+          },
+          {
+            "code": "42310-3",
+            "display": "SPECT Kidney"
+          },
+          {
+            "code": "42700-5",
+            "display": "NM Bone Views W Tc-99m tagged WBC IV"
+          },
+          {
+            "code": "42708-8",
+            "display": "NM Whole body Views W In-111 tiuxetan IV"
+          },
+          {
+            "code": "42709-6",
+            "display": "NM Liver Blood pool"
+          },
+          {
+            "code": "42711-2",
+            "display": "NM Whole body Views W In-111 tagged WBC IV"
+          },
+          {
+            "code": "42776-5",
+            "display": "NM Unspecified body region Views for AV shunt"
+          },
+          {
+            "code": "43459-7",
+            "display": "NM Brain Views during electroconvulsive shock treatment"
+          },
+          {
+            "code": "43461-3",
+            "display": "NM Kidney Views W furosemide IV"
+          },
+          {
+            "code": "43500-8",
+            "display": "NM Vessel Views for blood flow"
+          },
+          {
+            "code": "43501-6",
+            "display": "NM Vessel Views"
+          },
+          {
+            "code": "43526-3",
+            "display": "SPECT Unspecified body region"
+          },
+          {
+            "code": "43550-3",
+            "display": "NM Brain Views for blood flow and function"
+          },
+          {
+            "code": "43557-8",
+            "display": "NM Liver and Biliary ducts and Gallbladder Views"
+          },
+          {
+            "code": "43562-8",
+            "display": "NM Skeletal system.axial Views for bone density"
+          },
+          {
+            "code": "43563-6",
+            "display": "NM Skeletal system.peripheral Views for bone density"
+          },
+          {
+            "code": "43642-8",
+            "display": "NM Brain Views for blood flow W Tc-99m DTPA IV"
+          },
+          {
+            "code": "43643-6",
+            "display": "NM Brain Views for blood flow W Tc-99m glucoheptonate IV"
+          },
+          {
+            "code": "43644-4",
+            "display": "NM Brain Limited Views for blood flow"
+          },
+          {
+            "code": "43645-1",
+            "display": "NM Heart Qualitative Views for infarct"
+          },
+          {
+            "code": "43646-9",
+            "display": "NM Heart Qualitative and Quantitative Views for infarct"
+          },
+          {
+            "code": "43647-7",
+            "display": "NM Heart Quantitative Views for infarct"
+          },
+          {
+            "code": "43648-5",
+            "display": "NM Unspecified body region Views for endocrine tumor multiple areas W I-131 MIBG IV"
+          },
+          {
+            "code": "43649-3",
+            "display": "NM Unspecified body region Views for endocrine tumor multiple areas W In-111 pentetreotide IV"
+          },
+          {
+            "code": "43650-1",
+            "display": "NM Liver and Biliary ducts and Gallbladder Views W cholecystokinin and W radionuclide IV"
+          },
+          {
+            "code": "43651-9",
+            "display": "NM Liver and Biliary ducts and Gallbladder Views W sincalide and W radionuclide IV"
+          },
+          {
+            "code": "43652-7",
+            "display": "SPECT Liver and Spleen for blood flow"
+          },
+          {
+            "code": "43653-5",
+            "display": "NM Liver and Spleen Views for blood flow"
+          },
+          {
+            "code": "43654-3",
+            "display": "NM Liver Views for blood flow W Tc-99m tagged RBC IV"
+          },
+          {
+            "code": "43655-0",
+            "display": "SPECT Liver for blood flow"
+          },
+          {
+            "code": "43656-8",
+            "display": "NM Lung Perfusion quantitative"
+          },
+          {
+            "code": "43657-6",
+            "display": "NM Lung Quantitative Views"
+          },
+          {
+            "code": "43658-4",
+            "display": "NM Heart Perfusion quantitative"
+          },
+          {
+            "code": "43659-2",
+            "display": "SPECT Heart perfusion qualitative at rest and W radionuclide IV"
+          },
+          {
+            "code": "43660-0",
+            "display": "NM Heart Perfusion qualitative at rest and W radionuclide IV"
+          },
+          {
+            "code": "43661-8",
+            "display": "NM Heart Perfusion quantitative at rest and W radionuclide IV"
+          },
+          {
+            "code": "43662-6",
+            "display": "SPECT Renal vessels for blood flow W Tc-99m glucoheptonate IV"
+          },
+          {
+            "code": "43663-4",
+            "display": "NM Renal vessels Views for blood flow W Tc-99m glucoheptonate IV"
+          },
+          {
+            "code": "43664-2",
+            "display": "NM Renal vessels Views for blood flow W Tc-99m DTPA IV"
+          },
+          {
+            "code": "43665-9",
+            "display": "NM Renal vessels Views for blood flow W Tc-99m Mertiatide IV"
+          },
+          {
+            "code": "43666-7",
+            "display": "NM Kidney+Renal vessels Views for blood flow W Tc-99m glucoheptonate IV"
+          },
+          {
+            "code": "43667-5",
+            "display": "NM Kidney+Renal vessels Views W Tc-99m DTPA IV"
+          },
+          {
+            "code": "43669-1",
+            "display": "NM Renal vessels Views"
+          },
+          {
+            "code": "43670-9",
+            "display": "SPECT Spleen for blood flow"
+          },
+          {
+            "code": "43671-7",
+            "display": "NM Thyroid gland Spot"
+          },
+          {
+            "code": "43672-5",
+            "display": "NM Thyroid gland Views and Views uptake"
+          },
+          {
+            "code": "43673-3",
+            "display": "SPECT Thyroid gland for blood flow"
+          },
+          {
+            "code": "43777-2",
+            "display": "NM Heart Perfusion at rest and W adenosine and W Tl-201 IV"
+          },
+          {
+            "code": "43789-7",
+            "display": "NM Liver and Biliary ducts and Gallbladder Views for patency W Tc-99m IV"
+          },
+          {
+            "code": "44136-0",
+            "display": "PT Unspecified body region"
+          },
+          {
+            "code": "44137-8",
+            "display": "PT Heart"
+          },
+          {
+            "code": "44138-6",
+            "display": "PT Brain"
+          },
+          {
+            "code": "44139-4",
+            "display": "PT Whole body"
+          },
+          {
+            "code": "44140-2",
+            "display": "NM Abdomen and Pelvis Views for tumor"
+          },
+          {
+            "code": "44141-0",
+            "display": "NM Liver and Spleen Views W Tc-99m MAA IV"
+          },
+          {
+            "code": "44142-8",
+            "display": "NM Bone Views W Tc-99m medronate IV"
+          },
+          {
+            "code": "44143-6",
+            "display": "NM Heart Views W Tc-99m tagged RBC IV"
+          },
+          {
+            "code": "44144-4",
+            "display": "NM Liver Views W Xe-133 IH"
+          },
+          {
+            "code": "44145-1",
+            "display": "NM Parathyroid gland Views W Tc-99m Sestamibi IV"
+          },
+          {
+            "code": "44146-9",
+            "display": "NM Bone marrow Views W Tc-99m SC IV"
+          },
+          {
+            "code": "44147-7",
+            "display": "NM Thyroid gland Views and Views uptake W Tc-99m pertechnetate IV"
+          },
+          {
+            "code": "44148-5",
+            "display": "NM Brain Views for blood flow W Tc-99m bicisate IV"
+          },
+          {
+            "code": "44149-3",
+            "display": "NM Abdomen and Pelvis Views for shunt patency W Tc-99m MAA inj"
+          },
+          {
+            "code": "44150-1",
+            "display": "NM Brain Views W Tc-99m bicisate IV"
+          },
+          {
+            "code": "44151-9",
+            "display": "SPECT Heart W Tc-99m Sestamibi IV"
+          },
+          {
+            "code": "44152-7",
+            "display": "SPECT Brain W Tc-99m bicisate IV"
+          },
+          {
+            "code": "44153-5",
+            "display": "SPECT Kidney W Tc-99m glucoheptonate IV"
+          },
+          {
+            "code": "44154-3",
+            "display": "SPECT Heart W dipyridamole and W Tc-99m Sestamibi IV"
+          },
+          {
+            "code": "44232-7",
+            "display": "NM Kidney Views WO and W Tc-99m Mertiatide IV"
+          },
+          {
+            "code": "44233-5",
+            "display": "NM Kidney Views WO and W Tc-99m DTPA IV"
+          },
+          {
+            "code": "44234-3",
+            "display": "NM Kidney Views W Tc-99m glucoheptonate IV"
+          },
+          {
+            "code": "46297-8",
+            "display": "SPECT Whole body"
+          },
+          {
+            "code": "46361-2",
+            "display": "NM Lung Ventilation W Xe-133 IH"
+          },
+          {
+            "code": "46366-1",
+            "display": "SPECT guidance for percutaneous biopsy of Bone"
+          },
+          {
+            "code": "46373-7",
+            "display": "SPECT Guidance for placement of tube in Chest"
+          },
+          {
+            "code": "46384-4",
+            "display": "SPECT Guidance for superficial biopsy of Bone"
+          },
+          {
+            "code": "46395-0",
+            "display": "SPECT Heart gated and ejection fraction at rest and W stress and W radionuclide IV"
+          },
+          {
+            "code": "46396-8",
+            "display": "SPECT Heart gated at rest and W Tc-99m Sestamibi IV"
+          },
+          {
+            "code": "47378-5",
+            "display": "SPECT Liver blood pool"
+          },
+          {
+            "code": "49118-3",
+            "display": "NM Unspecified body region Views"
+          },
+          {
+            "code": "49566-3",
+            "display": "SPECT Heart at rest and W Tc-99m Sestamibi IV"
+          },
+          {
+            "code": "49567-1",
+            "display": "SPECT Heart perfusion W adenosine and W Tc-99m Sestamibi IV"
+          },
+          {
+            "code": "49568-9",
+            "display": "SPECT Heart perfusion at rest and W stress and W Tl-201 IV and W Tc-99m Sestamibi IV"
+          },
+          {
+            "code": "49569-7",
+            "display": "SPECT Heart perfusion and wall motion at rest and W stress and W Tl-201 IV and W Tc-99m Sestamibi IV"
+          },
+          {
+            "code": "49571-3",
+            "display": "NM Unspecified body region Limited Views W I-131 MIBG IV"
+          },
+          {
+            "code": "51389-5",
+            "display": "NM Breast Views W Tl-201 IV"
+          },
+          {
+            "code": "57822-9",
+            "display": "PT Lung"
+          },
+          {
+            "code": "57823-7",
+            "display": "PT Esophagus"
+          },
+          {
+            "code": "58741-0",
+            "display": "PT Skull base to mid-thigh"
+          },
+          {
+            "code": "58742-8",
+            "display": "PT Head and Neck"
+          },
+          {
+            "code": "60527-9",
+            "display": "NM Thyroid gland Views and Views uptake W I-123 PO"
+          },
+          {
+            "code": "64051-6",
+            "display": "NM Breast lymphatic vessels - left Views W radionuclide intra lymphatic"
+          },
+          {
+            "code": "64052-4",
+            "display": "NM Breast lymphatic vessels - right Views W radionuclide intra lymphatic"
+          },
+          {
+            "code": "69229-3",
+            "display": "SPECT Liver W Tc-99m SC IV"
+          },
+          {
+            "code": "69230-1",
+            "display": "NM Liver Views W Tc-99m SC IV"
+          },
+          {
+            "code": "69231-9",
+            "display": "NM Heart Views W stress and W Tc-99m IV"
+          },
+          {
+            "code": "69232-7",
+            "display": "NM Heart Views W stress and W Tc-99m Sestamibi IV"
+          },
+          {
+            "code": "69233-5",
+            "display": "NM Parotid gland Views W Tc-99m pertechnetate IV"
+          },
+          {
+            "code": "69234-3",
+            "display": "SPECT Spleen W Tc-99m tagged RBC IV"
+          },
+          {
+            "code": "69235-0",
+            "display": "SPECT Scrotum and testicle for blood flow"
+          },
+          {
+            "code": "69236-8",
+            "display": "NM Thyroid gland Views and Views uptake W I-131 PO"
+          },
+          {
+            "code": "69237-6",
+            "display": "SPECT Whole body for tumor"
+          },
+          {
+            "code": "69238-4",
+            "display": "SPECT Urinary bladder and Urethra W contrast intra bladder during voiding"
+          },
+          {
+            "code": "81206-5",
+            "display": "NM Liver and Spleen Views W Tc-99m SC IV"
+          },
+          {
+            "code": "81542-3",
+            "display": "NM Lumbar spine Views for CSF leak post lumbar puncture W radionuclide IT"
+          },
+          {
+            "code": "81543-1",
+            "display": "NM Head Views for CSF leak with rhinorrhea or otorrhea W radionuclide IT"
+          },
+          {
+            "code": "81544-9",
+            "display": "NM Gastrointestinal tract Views for gastrointestinal bleeding"
+          },
+          {
+            "code": "81545-6",
+            "display": "NM Abdomen and Pelvis Views for shunt patency"
+          },
+          {
+            "code": "81546-4",
+            "display": "NM Views for blood flow and kidney function"
+          },
+          {
+            "code": "81547-2",
+            "display": "SPECT Whole body W In-111 pentetreotide IV"
+          },
+          {
+            "code": "81548-0",
+            "display": "SPECT Unspecified body region W tagged WBC IV"
+          },
+          {
+            "code": "81549-8",
+            "display": "SPECT+CT Lymph node"
+          },
+          {
+            "code": "81550-6",
+            "display": "SPECT+CT Parathyroid gland"
+          },
+          {
+            "code": "81551-4",
+            "display": "PET+CT Bone from skull base to mid-thigh W 18F-NaF IV"
+          },
+          {
+            "code": "81552-2",
+            "display": "PET+CT Whole body Bone W 18F-NaF IV"
+          },
+          {
+            "code": "81553-0",
+            "display": "PET+CT Guidance limited for localization of tumor of Unspecified body region-- W 18F-FDG IV"
+          },
+          {
+            "code": "81554-8",
+            "display": "PET+CT Guidance for localization of tumor of Skull base to mid-thigh-- W 18F-FDG IV"
+          },
+          {
+            "code": "81555-5",
+            "display": "PET+CT Guidance for localization of tumor of Whole body-- W 18F-FDG IV"
+          },
+          {
+            "code": "81556-3",
+            "display": "SPECT Unspecified body region for infection or inflammation"
+          },
+          {
+            "code": "81557-1",
+            "display": "SPECT Brain W florbetapir IV"
+          },
+          {
+            "code": "81558-9",
+            "display": "SPECT Brain W Tc-99m IV"
+          },
+          {
+            "code": "81559-7",
+            "display": "PET+CT Unspecified body region for simulation limited"
+          },
+          {
+            "code": "81560-5",
+            "display": "SPECT Whole body W In-111 capromab pendetide IV"
+          },
+          {
+            "code": "81561-3",
+            "display": "SPECT Heart W multiple states of exercise"
+          },
+          {
+            "code": "81562-1",
+            "display": "SPECT Heart W single state of exercise"
+          },
+          {
+            "code": "81563-9",
+            "display": "NM Heart First pass and Blood pool"
+          },
+          {
+            "code": "81564-7",
+            "display": "PT Heart for sarcoidosis"
+          },
+          {
+            "code": "81565-4",
+            "display": "PT Heart for tissue viability"
+          },
+          {
+            "code": "81566-2",
+            "display": "NM Heart Gated and Blood pool and Ejection fraction and Wall motion W multiple states of exercise"
+          },
+          {
+            "code": "81567-0",
+            "display": "NM Heart Gated and Blood pool and Ejection fraction and Wall motion W single state of exercise"
+          },
+          {
+            "code": "81568-8",
+            "display": "PT perfusion Heart W multiple states of exercise"
+          },
+          {
+            "code": "81569-6",
+            "display": "PT perfusion Heart W single state of exercise"
+          },
+          {
+            "code": "81570-4",
+            "display": "NM Heart Perfusion W single state of exercise"
+          },
+          {
+            "code": "81571-2",
+            "display": "NM Heart Perfusion W multiple states of exercise"
+          },
+          {
+            "code": "81572-0",
+            "display": "NM Salivary gland Views for function"
+          },
+          {
+            "code": "81573-8",
+            "display": "NM Brain Brain death protocol Views"
+          },
+          {
+            "code": "81574-6",
+            "display": "NM Brain GE 4 Views"
+          },
+          {
+            "code": "81575-3",
+            "display": "NM Brain GE 4 Views for blood flow"
+          },
+          {
+            "code": "81576-1",
+            "display": "NM Brain LT 4 Views for blood flow"
+          },
+          {
+            "code": "81577-9",
+            "display": "PT Brain for amyloidosis"
+          },
+          {
+            "code": "81578-7",
+            "display": "PT Brain metabolic"
+          },
+          {
+            "code": "81579-5",
+            "display": "PT perfusion Brain"
+          },
+          {
+            "code": "81580-3",
+            "display": "NM Thyroid gland Views for therapy W I-131 PO"
+          },
+          {
+            "code": "81581-1",
+            "display": "NM Thyroid gland Views for dosimetry W radionuclide PO"
+          },
+          {
+            "code": "81582-9",
+            "display": "NM Thyroid gland Uptake"
+          },
+          {
+            "code": "81583-7",
+            "display": "NM Whole body Views W Sm-153 IV"
+          },
+          {
+            "code": "81584-5",
+            "display": "NM Whole body Views W tagged WBC IV"
+          },
+          {
+            "code": "81585-2",
+            "display": "NM Unspecified body region Views W tagged WBC IV"
+          },
+          {
+            "code": "81586-0",
+            "display": "NM Whole body Views W Y-90 ibritumomab tiuxetan IV"
+          },
+          {
+            "code": "81587-8",
+            "display": "NM Unspecified body region Limited Views for infection or inflammation"
+          },
+          {
+            "code": "81588-6",
+            "display": "NM Whole body Views for thyroid tumor"
+          },
+          {
+            "code": "81589-4",
+            "display": "NM Whole body Views for infection or inflammation"
+          },
+          {
+            "code": "81590-2",
+            "display": "NM Extremity veins - bilateral Views for thrombosis"
+          },
+          {
+            "code": "81591-0",
+            "display": "NM Extremity veins - unilateral Views for thrombosis"
+          },
+          {
+            "code": "81592-8",
+            "display": "NM Views for transplanted kidney"
+          },
+          {
+            "code": "81593-6",
+            "display": "NM Lymph node Views"
+          },
+          {
+            "code": "81594-4",
+            "display": "NM Lymph node - bilateral Views"
+          },
+          {
+            "code": "81595-1",
+            "display": "NM Lymph node Views for lymphedema"
+          },
+          {
+            "code": "81596-9",
+            "display": "NM Lung Quantitative Views Ventilation and Perfusion"
+          },
+          {
+            "code": "81597-7",
+            "display": "NM Bones Views for metastasis W Ra-223 IV"
+          },
+          {
+            "code": "81598-5",
+            "display": "NM Whole body Views for thyroid tumor metastasis post therapy"
+          },
+          {
+            "code": "81599-3",
+            "display": "NM Guidance for multiple days for localization of tumor of Whole body"
+          },
+          {
+            "code": "81600-9",
+            "display": "NM Unspecified body region Limited Views for infection or inflammation W Tc-99m tagged WBC IV"
+          },
+          {
+            "code": "81601-7",
+            "display": "NM Unspecified body region Limited Views for thyroid tumor metastasis"
+          },
+          {
+            "code": "81602-5",
+            "display": "NM Stomach Views for gastric emptying solid phase W radionuclide PO"
+          },
+          {
+            "code": "81603-3",
+            "display": "NM Views for blood flow and kidney function W diuretic IV"
+          },
+          {
+            "code": "81604-1",
+            "display": "NM Kidney Views for glomerular filtration rate"
+          },
+          {
+            "code": "81605-8",
+            "display": "NM Ureter and Urinary bladder Views"
+          },
+          {
+            "code": "81606-6",
+            "display": "NM Liver and Biliary ducts and Gallbladder Views W cholecystokinetic IV"
+          },
+          {
+            "code": "81607-4",
+            "display": "NM Kidney cortex Views"
+          },
+          {
+            "code": "81608-2",
+            "display": "NM Views for blood flow and kidney function W ACE inhibitor PO"
+          },
+          {
+            "code": "81609-0",
+            "display": "NM Liver Views W SIR-spheres intraarterial hepatic injection"
+          },
+          {
+            "code": "81610-8",
+            "display": "NM Liver Views W Theraspheres intraarterial hepatic injection"
+          },
+          {
+            "code": "81611-6",
+            "display": "NM Head to Pelvis Views for shunt patency"
+          },
+          {
+            "code": "81612-4",
+            "display": "NM Heart Blood pool and Ejection fraction and First pass"
+          },
+          {
+            "code": "81613-2",
+            "display": "SPECT Liver for hemangioma"
+          },
+          {
+            "code": "82126-4",
+            "display": "PT Guidance for radiation treatment of Unspecified body region"
+          },
+          {
+            "code": "82136-3",
+            "display": "NM Whole body Views for tumor W I-123 MIBG IV"
+          },
+          {
+            "code": "82800-4",
+            "display": "PET+CT Heart W contrast IV"
+          },
+          {
+            "code": "82801-2",
+            "display": "PET+CT Heart WO contrast"
+          },
+          {
+            "code": "82805-3",
+            "display": "PET+CT Guidance for localization of tumor of Whole body-- W 18F-FDG IV and WO contrast"
+          },
+          {
+            "code": "82806-1",
+            "display": "PET+CT Guidance for localization of tumor of Whole body-- W 18F-FDG IV and W contrast IV"
+          },
+          {
+            "code": "82807-9",
+            "display": "PET+CT Guidance for localization of tumor of Skull vertex to mid-thigh-- W 18F-FDG IV and WO contrast"
+          },
+          {
+            "code": "82808-7",
+            "display": "PET+CT Guidance for localization of tumor of Skull base to mid-thigh-- W 18F-FDG IV and WO contrast"
+          },
+          {
+            "code": "82809-5",
+            "display": "PET+CT Guidance for localization of tumor of Skull base to mid-thigh-- W 18F-FDG IV and W contrast IV"
+          },
+          {
+            "code": "86976-8",
+            "display": "PET+CT Brain metabolic"
+          },
+          {
+            "code": "87905-6",
+            "display": "PET+CT Guidance for localization of tumor of Head and Neck-- W 18F-FDG IV"
+          },
+          {
+            "code": "87907-2",
+            "display": "PET+CT Brain for amyloidosis"
+          },
+          {
+            "code": "87915-5",
+            "display": "PET+CT Guidance for localization of tumor of Skull vertex to mid-thigh-- W 18F-FDG IV and W contrast IV"
+          },
+          {
+            "code": "88944-4",
+            "display": "NM Lung and Liver Views for AV shunt W Tc-99m MAA+W intraarterial hepatic injection"
+          },
+          {
+            "code": "89631-6",
+            "display": "SPECT+CT Guidance for localization of tumor of Whole body"
+          },
+          {
+            "code": "89712-4",
+            "display": "PET+CT Guidance for limited for localization of tumor of Unspecified body region-- W 18F-FDG IV and W contrast IV"
+          },
+          {
+            "code": "89842-9",
+            "display": "SPECT+CT Whole body"
+          },
+          {
+            "code": "90312-0",
+            "display": "SPECT+CT Skeletal system"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,4254 @@
+{
+  "resourceType": "ValueSet",
+  "id": "radiology-procedure-ct-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/radiology-procedure-ct-my-core",
+  "version": "2.1.0",
+  "name": "MyCoreRadiologyProcedureComputedTomographyMyCore",
+  "title": "MY Core Radiology Procedure - Computed tomography",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "NATIONAL SELECTION. The computed tomography subset of the LOINC/RSNA Radiology Playbook. 1058 codes. A modality-scoped pick list; the full catalogue is radiology-procedure-my-core.",
+  "copyright": "This value set enumerates LOINC codes. LOINC is copyright Regenstrief Institute, Inc. and the LOINC Committee, and is available at no cost under the LOINC licence. RPID identifiers are from the RSNA Radiology Playbook.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "24544-9",
+            "display": "CT Thoracic Aorta"
+          },
+          {
+            "code": "24545-6",
+            "display": "CT Thoracic Aorta W contrast IV"
+          },
+          {
+            "code": "24566-2",
+            "display": "CT Retroperitoneum"
+          },
+          {
+            "code": "24585-2",
+            "display": "CT Guidance for stereotactic biopsy of Head-- W contrast IV"
+          },
+          {
+            "code": "24623-1",
+            "display": "CT Guidance for nerve block of Celiac plexus"
+          },
+          {
+            "code": "24627-2",
+            "display": "CT Chest"
+          },
+          {
+            "code": "24628-0",
+            "display": "CT Chest W contrast IV"
+          },
+          {
+            "code": "24690-0",
+            "display": "CT Extremity"
+          },
+          {
+            "code": "24691-8",
+            "display": "CT Extremity W contrast IV"
+          },
+          {
+            "code": "24696-7",
+            "display": "CT Facial bones"
+          },
+          {
+            "code": "24697-5",
+            "display": "CT Facial bones W contrast IV"
+          },
+          {
+            "code": "24725-4",
+            "display": "CT Head"
+          },
+          {
+            "code": "24726-2",
+            "display": "CT Head WO and W contrast IV"
+          },
+          {
+            "code": "24727-0",
+            "display": "CT Head W contrast IV"
+          },
+          {
+            "code": "24728-8",
+            "display": "CT perfusion Head"
+          },
+          {
+            "code": "24729-6",
+            "display": "CT perfusion Head WO and W contrast IV"
+          },
+          {
+            "code": "24734-6",
+            "display": "CT Cerebral cisterns W contrast IT"
+          },
+          {
+            "code": "24753-6",
+            "display": "CT Unspecified body region W contrast IV"
+          },
+          {
+            "code": "24769-2",
+            "display": "CT Guidance for injection of Joint space"
+          },
+          {
+            "code": "24811-2",
+            "display": "CT Guidance for fluid aspiration of Liver"
+          },
+          {
+            "code": "24812-0",
+            "display": "CT Guidance for biopsy of Liver"
+          },
+          {
+            "code": "24813-8",
+            "display": "CT Guidance for core needle biopsy of Liver"
+          },
+          {
+            "code": "24814-6",
+            "display": "CT Liver"
+          },
+          {
+            "code": "24815-3",
+            "display": "CT Liver W contrast IV"
+          },
+          {
+            "code": "24822-9",
+            "display": "CT Guidance for fluid aspiration of Lung"
+          },
+          {
+            "code": "24823-7",
+            "display": "CT Guidance for biopsy of Lung"
+          },
+          {
+            "code": "24835-1",
+            "display": "CT Nasopharynx and Neck"
+          },
+          {
+            "code": "24836-9",
+            "display": "CT Nasopharynx and Neck W contrast IV"
+          },
+          {
+            "code": "24837-7",
+            "display": "CT Guidance for fluid aspiration of Neck"
+          },
+          {
+            "code": "24838-5",
+            "display": "CT Guidance for biopsy of Neck"
+          },
+          {
+            "code": "24848-4",
+            "display": "CT Orbit - bilateral"
+          },
+          {
+            "code": "24849-2",
+            "display": "CT Orbit - bilateral WO and W contrast IV"
+          },
+          {
+            "code": "24850-0",
+            "display": "CT Orbit - bilateral W contrast IV"
+          },
+          {
+            "code": "24856-7",
+            "display": "CT Guidance for fluid aspiration of Pancreas"
+          },
+          {
+            "code": "24857-5",
+            "display": "CT Pancreas"
+          },
+          {
+            "code": "24858-3",
+            "display": "CT Pancreas W contrast IV"
+          },
+          {
+            "code": "24863-3",
+            "display": "CT Guidance for fluid aspiration of Pelvis"
+          },
+          {
+            "code": "24864-1",
+            "display": "CT Guidance for biopsy of Pelvis"
+          },
+          {
+            "code": "24865-8",
+            "display": "CT Pelvis"
+          },
+          {
+            "code": "24866-6",
+            "display": "CT Pelvis W contrast IV"
+          },
+          {
+            "code": "24877-3",
+            "display": "CT Petrous part of temporal bone"
+          },
+          {
+            "code": "24878-1",
+            "display": "CT Petrous part of temporal bone W contrast IV"
+          },
+          {
+            "code": "24901-1",
+            "display": "CT Guidance for injection of Sacroiliac Joint"
+          },
+          {
+            "code": "24904-5",
+            "display": "CT Pituitary and Sella turcica WO and W contrast IV"
+          },
+          {
+            "code": "24913-6",
+            "display": "CT Sinuses limited"
+          },
+          {
+            "code": "24932-6",
+            "display": "CT Cervical spine"
+          },
+          {
+            "code": "24933-4",
+            "display": "CT Cervical spine W contrast IV"
+          },
+          {
+            "code": "24934-2",
+            "display": "CT Cervical spine W contrast IT"
+          },
+          {
+            "code": "24963-1",
+            "display": "CT Lumbar spine"
+          },
+          {
+            "code": "24964-9",
+            "display": "CT Lumbar spine W contrast IV"
+          },
+          {
+            "code": "24965-6",
+            "display": "CT Lumbar spine W contrast IT"
+          },
+          {
+            "code": "24978-9",
+            "display": "CT Thoracic spine"
+          },
+          {
+            "code": "24979-7",
+            "display": "CT Thoracic spine W contrast IV"
+          },
+          {
+            "code": "24986-2",
+            "display": "CT Guidance for biopsy of Spine"
+          },
+          {
+            "code": "24987-0",
+            "display": "CT Spine W contrast IV"
+          },
+          {
+            "code": "24988-8",
+            "display": "CT Spleen"
+          },
+          {
+            "code": "24989-6",
+            "display": "CT Spleen WO and W contrast IV"
+          },
+          {
+            "code": "25039-9",
+            "display": "CT Unspecified body region limited"
+          },
+          {
+            "code": "25041-5",
+            "display": "CT Guidance for aspiration or biopsy of Unspecified body region-- W contrast IV"
+          },
+          {
+            "code": "25042-3",
+            "display": "CT Guidance for aspiration or biopsy of Unspecified body region"
+          },
+          {
+            "code": "25043-1",
+            "display": "CT Guidance for fluid aspiration of Unspecified body region"
+          },
+          {
+            "code": "25044-9",
+            "display": "CT Guidance for biopsy of Unspecified body region"
+          },
+          {
+            "code": "25045-6",
+            "display": "CT Unspecified body region"
+          },
+          {
+            "code": "25046-4",
+            "display": "CT Unspecified body region W anesthesia"
+          },
+          {
+            "code": "25047-2",
+            "display": "CT Unspecified body region W conscious sedation"
+          },
+          {
+            "code": "25053-0",
+            "display": "CT Guidance for radiosurgery of Unspecified body region"
+          },
+          {
+            "code": "25054-8",
+            "display": "CT Guidance for radiosurgery of Unspecified body region-- W contrast IV"
+          },
+          {
+            "code": "26184-2",
+            "display": "CT Extremity - bilateral W contrast IV"
+          },
+          {
+            "code": "26185-9",
+            "display": "CT Extremity - left W contrast IV"
+          },
+          {
+            "code": "26186-7",
+            "display": "CT Extremity - right W contrast IV"
+          },
+          {
+            "code": "26224-6",
+            "display": "CT Extremity - bilateral"
+          },
+          {
+            "code": "26226-1",
+            "display": "CT Extremity - left"
+          },
+          {
+            "code": "26231-1",
+            "display": "CT Extremity - right"
+          },
+          {
+            "code": "26319-4",
+            "display": "CT Guidance for injection of Sacroiliac joint - bilateral"
+          },
+          {
+            "code": "26320-2",
+            "display": "CT Guidance for injection of Sacroiliac joint - left"
+          },
+          {
+            "code": "26321-0",
+            "display": "CT Guidance for injection of Sacroiliac joint - right"
+          },
+          {
+            "code": "28566-8",
+            "display": "CT Spine"
+          },
+          {
+            "code": "29252-4",
+            "display": "CT Chest WO contrast"
+          },
+          {
+            "code": "30578-9",
+            "display": "CT Guidance for drainage of abscess of Unspecified body region"
+          },
+          {
+            "code": "30579-7",
+            "display": "CT Guidance for injection of Spine facet joint"
+          },
+          {
+            "code": "30580-5",
+            "display": "CT Guidance for fine needle aspiration of Unspecified body region"
+          },
+          {
+            "code": "30581-3",
+            "display": "CT Guidance for radiation treatment of Unspecified body region-- W contrast IV"
+          },
+          {
+            "code": "30582-1",
+            "display": "CT Guidance for radiation treatment of Unspecified body region-- WO contrast"
+          },
+          {
+            "code": "30583-9",
+            "display": "CT Internal auditory canal W contrast IV"
+          },
+          {
+            "code": "30584-7",
+            "display": "CT Internal auditory canal WO contrast"
+          },
+          {
+            "code": "30585-4",
+            "display": "CT Nasopharynx and Neck WO contrast"
+          },
+          {
+            "code": "30586-2",
+            "display": "CT Neck WO and W contrast IV"
+          },
+          {
+            "code": "30587-0",
+            "display": "CT Orbit - bilateral WO contrast"
+          },
+          {
+            "code": "30588-8",
+            "display": "CT Sinuses"
+          },
+          {
+            "code": "30589-6",
+            "display": "CT Petrous part of temporal bone WO contrast"
+          },
+          {
+            "code": "30590-4",
+            "display": "CT Pituitary and Sella turcica W contrast IV"
+          },
+          {
+            "code": "30591-2",
+            "display": "CT Pituitary and Sella turcica WO contrast"
+          },
+          {
+            "code": "30592-0",
+            "display": "CT Cervical spine WO contrast"
+          },
+          {
+            "code": "30593-8",
+            "display": "CTA Head vessels WO and W contrast IV"
+          },
+          {
+            "code": "30594-6",
+            "display": "CTA Neck vessels WO and W contrast IV"
+          },
+          {
+            "code": "30595-3",
+            "display": "CT Guidance for fine needle aspiration of Lung"
+          },
+          {
+            "code": "30596-1",
+            "display": "CT Thoracic spine W contrast IT"
+          },
+          {
+            "code": "30597-9",
+            "display": "CT Thoracic spine WO contrast"
+          },
+          {
+            "code": "30598-7",
+            "display": "CT Chest WO and W contrast IV"
+          },
+          {
+            "code": "30600-1",
+            "display": "CT Small bowel W positive contrast via enteroclysis tube"
+          },
+          {
+            "code": "30601-9",
+            "display": "CT Guidance for biopsy of Abdomen"
+          },
+          {
+            "code": "30602-7",
+            "display": "CT Guidance for fine needle aspiration of Abdomen"
+          },
+          {
+            "code": "30603-5",
+            "display": "CT Guidance for fine needle aspiration of Liver"
+          },
+          {
+            "code": "30604-3",
+            "display": "CT Guidance for biopsy of Pancreas"
+          },
+          {
+            "code": "30605-0",
+            "display": "CT Guidance for fine needle aspiration of Pancreas"
+          },
+          {
+            "code": "30606-8",
+            "display": "CT Guidance for fine needle aspiration of Pelvis"
+          },
+          {
+            "code": "30607-6",
+            "display": "CT Guidance for biopsy of Kidney - bilateral"
+          },
+          {
+            "code": "30608-4",
+            "display": "CT Guidance for fine needle aspiration of Kidney - bilateral"
+          },
+          {
+            "code": "30609-2",
+            "display": "CT Guidance for biopsy of Spleen"
+          },
+          {
+            "code": "30610-0",
+            "display": "CT Guidance for fine needle aspiration of Spleen"
+          },
+          {
+            "code": "30611-8",
+            "display": "CT Liver WO contrast"
+          },
+          {
+            "code": "30612-6",
+            "display": "CT Liver WO and W contrast IV"
+          },
+          {
+            "code": "30613-4",
+            "display": "CT Pancreas WO contrast"
+          },
+          {
+            "code": "30614-2",
+            "display": "CT Pancreas WO and W contrast IV"
+          },
+          {
+            "code": "30615-9",
+            "display": "CT Pelvis WO contrast"
+          },
+          {
+            "code": "30616-7",
+            "display": "CT Pelvis WO and W contrast IV"
+          },
+          {
+            "code": "30619-1",
+            "display": "CT Sacroiliac Joint"
+          },
+          {
+            "code": "30620-9",
+            "display": "CT Lumbar spine WO contrast"
+          },
+          {
+            "code": "30621-7",
+            "display": "CT Spleen WO contrast"
+          },
+          {
+            "code": "30622-5",
+            "display": "CT Spleen W contrast IV"
+          },
+          {
+            "code": "30623-3",
+            "display": "CTA Pelvis vessels WO and W contrast IV"
+          },
+          {
+            "code": "30624-1",
+            "display": "CT Lower extremity W contrast IV"
+          },
+          {
+            "code": "30625-8",
+            "display": "CT Lower extremity WO contrast"
+          },
+          {
+            "code": "30626-6",
+            "display": "CT Upper extremity W contrast IV"
+          },
+          {
+            "code": "30627-4",
+            "display": "CT Upper extremity WO contrast"
+          },
+          {
+            "code": "30799-1",
+            "display": "CT Head WO contrast"
+          },
+          {
+            "code": "30801-5",
+            "display": "CT Maxillofacial region W contrast IV"
+          },
+          {
+            "code": "30802-3",
+            "display": "CT Maxillofacial region WO contrast"
+          },
+          {
+            "code": "30803-1",
+            "display": "CT Maxillofacial region WO and W contrast IV"
+          },
+          {
+            "code": "30804-9",
+            "display": "CTA Chest vessels WO and W contrast IV"
+          },
+          {
+            "code": "30805-6",
+            "display": "CTA Abdominal vessels WO and W contrast IV"
+          },
+          {
+            "code": "30807-2",
+            "display": "CTA Lower extremity vessels WO and W contrast IV"
+          },
+          {
+            "code": "35884-6",
+            "display": "CT Guidance for drainage of abscess of Abdomen"
+          },
+          {
+            "code": "35886-1",
+            "display": "CT Guidance for fluid aspiration of Breast"
+          },
+          {
+            "code": "35887-9",
+            "display": "CT Guidance for aspiration of cyst of Unspecified body region"
+          },
+          {
+            "code": "35891-1",
+            "display": "CT guidance for percutaneous biopsy of Bone"
+          },
+          {
+            "code": "35892-9",
+            "display": "CT Guidance for biopsy of Head"
+          },
+          {
+            "code": "35893-7",
+            "display": "CT Guidance for biopsy of Breast"
+          },
+          {
+            "code": "35895-2",
+            "display": "CT Guidance for biopsy of Chest"
+          },
+          {
+            "code": "35896-0",
+            "display": "CT Guidance for biopsy of Lower extremity"
+          },
+          {
+            "code": "35897-8",
+            "display": "CT Guidance for biopsy of Upper extremity"
+          },
+          {
+            "code": "35898-6",
+            "display": "CT Guidance for biopsy of Salivary gland"
+          },
+          {
+            "code": "35901-8",
+            "display": "CT Guidance for biopsy of Lymph node"
+          },
+          {
+            "code": "35903-4",
+            "display": "CT Guidance for biopsy of Prostate"
+          },
+          {
+            "code": "35904-2",
+            "display": "CT Guidance for biopsy of Cervical spine"
+          },
+          {
+            "code": "35905-9",
+            "display": "CT Guidance for biopsy of Lumbar spine"
+          },
+          {
+            "code": "35906-7",
+            "display": "CT Guidance for biopsy of Thoracic spine"
+          },
+          {
+            "code": "35908-3",
+            "display": "CT Guidance for biopsy of Thyroid gland"
+          },
+          {
+            "code": "35909-1",
+            "display": "CT Guidance for biopsy of Chest-- W contrast IV"
+          },
+          {
+            "code": "35910-9",
+            "display": "CT Guidance for biopsy of Chest-- WO and W contrast IV"
+          },
+          {
+            "code": "35911-7",
+            "display": "CT Guidance for biopsy of Chest-- WO contrast"
+          },
+          {
+            "code": "35913-3",
+            "display": "CT Guidance for drainage of Abdomen"
+          },
+          {
+            "code": "35914-1",
+            "display": "CT Guidance for drainage of Anus"
+          },
+          {
+            "code": "35915-8",
+            "display": "CT Guidance for drainage of Appendix"
+          },
+          {
+            "code": "35916-6",
+            "display": "CT Guidance for drainage of Chest"
+          },
+          {
+            "code": "35917-4",
+            "display": "CT Guidance for drainage of Gallbladder"
+          },
+          {
+            "code": "35918-2",
+            "display": "CT Guidance for drainage of Kidney"
+          },
+          {
+            "code": "35919-0",
+            "display": "CT Guidance for drainage of Liver"
+          },
+          {
+            "code": "35920-8",
+            "display": "CT Guidance for drainage of Lymph node"
+          },
+          {
+            "code": "35921-6",
+            "display": "CT Guidance for drainage of Pelvis"
+          },
+          {
+            "code": "35922-4",
+            "display": "CT Guidance for drainage of Unspecified body region"
+          },
+          {
+            "code": "35923-2",
+            "display": "CT Guidance for drainage of Chest-- W contrast IV"
+          },
+          {
+            "code": "35924-0",
+            "display": "CT Guidance for drainage of Chest-- WO contrast"
+          },
+          {
+            "code": "35928-1",
+            "display": "CT Guidance for localization of Breast - left"
+          },
+          {
+            "code": "35929-9",
+            "display": "CT Guidance for localization of Breast - right"
+          },
+          {
+            "code": "35930-7",
+            "display": "CT Guidance for nerve block of Abdomen"
+          },
+          {
+            "code": "35931-5",
+            "display": "CT Guidance for nerve block of Pelvis"
+          },
+          {
+            "code": "35932-3",
+            "display": "CT Guidance for nerve block of Lumbar spine"
+          },
+          {
+            "code": "35933-1",
+            "display": "CT Guidance for percutaneous vertebroplasty of Spine"
+          },
+          {
+            "code": "35934-9",
+            "display": "CT Guidance for percutaneous vertebroplasty of Lumbar spine"
+          },
+          {
+            "code": "35935-6",
+            "display": "CT Guidance for percutaneous vertebroplasty of Thoracic spine"
+          },
+          {
+            "code": "35937-2",
+            "display": "CT Guidance for placement of radiation therapy fields in Unspecified body region"
+          },
+          {
+            "code": "35938-0",
+            "display": "CT Guidance for placement of tube in Chest"
+          },
+          {
+            "code": "35940-6",
+            "display": "CT Ankle"
+          },
+          {
+            "code": "35941-4",
+            "display": "CT Ankle - bilateral"
+          },
+          {
+            "code": "35942-2",
+            "display": "CT Ankle - left"
+          },
+          {
+            "code": "35944-8",
+            "display": "CT Ankle - right"
+          },
+          {
+            "code": "35945-5",
+            "display": "CT Thoracic and abdominal aorta"
+          },
+          {
+            "code": "35948-9",
+            "display": "CT Abdominal Aorta"
+          },
+          {
+            "code": "35952-1",
+            "display": "CT Appendix"
+          },
+          {
+            "code": "35957-0",
+            "display": "CT Internal auditory canal - left"
+          },
+          {
+            "code": "35958-8",
+            "display": "CT Internal auditory canal"
+          },
+          {
+            "code": "35960-4",
+            "display": "CT Clavicle"
+          },
+          {
+            "code": "35962-0",
+            "display": "CT Elbow"
+          },
+          {
+            "code": "35965-3",
+            "display": "CT Elbow - bilateral"
+          },
+          {
+            "code": "35966-1",
+            "display": "CT Elbow - left"
+          },
+          {
+            "code": "35968-7",
+            "display": "CT Elbow - right"
+          },
+          {
+            "code": "35969-5",
+            "display": "CT Esophagus"
+          },
+          {
+            "code": "35971-1",
+            "display": "CT Lower extremity"
+          },
+          {
+            "code": "35973-7",
+            "display": "CT Lower extremity - bilateral"
+          },
+          {
+            "code": "35976-0",
+            "display": "CT Lower extremity - left"
+          },
+          {
+            "code": "35979-4",
+            "display": "CT Lower extremity - right"
+          },
+          {
+            "code": "35981-0",
+            "display": "CT Upper extremity"
+          },
+          {
+            "code": "35982-8",
+            "display": "CT Upper extremity - left"
+          },
+          {
+            "code": "35983-6",
+            "display": "CT Upper extremity - right"
+          },
+          {
+            "code": "35984-4",
+            "display": "CT Thigh"
+          },
+          {
+            "code": "35987-7",
+            "display": "CT Thigh - left"
+          },
+          {
+            "code": "35989-3",
+            "display": "CT Thigh - right"
+          },
+          {
+            "code": "35991-9",
+            "display": "CT Foot"
+          },
+          {
+            "code": "35993-5",
+            "display": "CT Foot - bilateral"
+          },
+          {
+            "code": "35994-3",
+            "display": "CT Foot - left"
+          },
+          {
+            "code": "35996-8",
+            "display": "CT Foot - right"
+          },
+          {
+            "code": "35997-6",
+            "display": "CT Forearm"
+          },
+          {
+            "code": "35998-4",
+            "display": "CT Forearm - bilateral"
+          },
+          {
+            "code": "35999-2",
+            "display": "CT Forearm - left"
+          },
+          {
+            "code": "36000-8",
+            "display": "CT Forearm - right"
+          },
+          {
+            "code": "36002-4",
+            "display": "CT Hand"
+          },
+          {
+            "code": "36004-0",
+            "display": "CT Hand - bilateral"
+          },
+          {
+            "code": "36005-7",
+            "display": "CT Hand - left"
+          },
+          {
+            "code": "36007-3",
+            "display": "CT Hand - right"
+          },
+          {
+            "code": "36014-9",
+            "display": "CT Hip"
+          },
+          {
+            "code": "36016-4",
+            "display": "CT Hip - bilateral"
+          },
+          {
+            "code": "36018-0",
+            "display": "CT Hip - left"
+          },
+          {
+            "code": "36021-4",
+            "display": "CT Hip - right"
+          },
+          {
+            "code": "36023-0",
+            "display": "CT Upper arm"
+          },
+          {
+            "code": "36026-3",
+            "display": "CT Upper arm - bilateral"
+          },
+          {
+            "code": "36027-1",
+            "display": "CT Upper arm - left"
+          },
+          {
+            "code": "36029-7",
+            "display": "CT Upper arm - right"
+          },
+          {
+            "code": "36037-0",
+            "display": "CT Knee"
+          },
+          {
+            "code": "36040-4",
+            "display": "CT Knee - bilateral"
+          },
+          {
+            "code": "36041-2",
+            "display": "CT Knee - left"
+          },
+          {
+            "code": "36043-8",
+            "display": "CT Knee - right"
+          },
+          {
+            "code": "36047-9",
+            "display": "CT Mandible"
+          },
+          {
+            "code": "36049-5",
+            "display": "CT Maxilla and Mandible"
+          },
+          {
+            "code": "36050-3",
+            "display": "CT Maxilla"
+          },
+          {
+            "code": "36051-1",
+            "display": "CT Neck"
+          },
+          {
+            "code": "36054-5",
+            "display": "CT Brachial plexus"
+          },
+          {
+            "code": "36055-2",
+            "display": "CT Posterior fossa"
+          },
+          {
+            "code": "36057-8",
+            "display": "CT Prostate"
+          },
+          {
+            "code": "36058-6",
+            "display": "CT Sacrum"
+          },
+          {
+            "code": "36062-8",
+            "display": "CT Shoulder"
+          },
+          {
+            "code": "36063-6",
+            "display": "CT Shoulder - bilateral"
+          },
+          {
+            "code": "36064-4",
+            "display": "CT Shoulder - left"
+          },
+          {
+            "code": "36066-9",
+            "display": "CT Shoulder - right"
+          },
+          {
+            "code": "36071-9",
+            "display": "CT Sternum"
+          },
+          {
+            "code": "36074-3",
+            "display": "CT Lower leg"
+          },
+          {
+            "code": "36086-7",
+            "display": "CT Abdomen limited"
+          },
+          {
+            "code": "36087-5",
+            "display": "CT Head limited"
+          },
+          {
+            "code": "36089-1",
+            "display": "CT Chest limited"
+          },
+          {
+            "code": "36090-9",
+            "display": "CT Extremity limited"
+          },
+          {
+            "code": "36092-5",
+            "display": "CT Hip limited"
+          },
+          {
+            "code": "36095-8",
+            "display": "CT Abdomen limited W contrast IV"
+          },
+          {
+            "code": "36097-4",
+            "display": "CT Upper extremity limited W contrast IV"
+          },
+          {
+            "code": "36098-2",
+            "display": "CT Pelvis limited W contrast IV"
+          },
+          {
+            "code": "36099-0",
+            "display": "CT Cervical spine limited W contrast IV"
+          },
+          {
+            "code": "36102-2",
+            "display": "CT Abdomen limited WO and W contrast IV"
+          },
+          {
+            "code": "36103-0",
+            "display": "CT Abdomen limited WO contrast"
+          },
+          {
+            "code": "36104-8",
+            "display": "CT Head limited WO contrast"
+          },
+          {
+            "code": "36106-3",
+            "display": "CT Lower extremity limited WO contrast"
+          },
+          {
+            "code": "36108-9",
+            "display": "CT Pelvis limited WO contrast"
+          },
+          {
+            "code": "36109-7",
+            "display": "CT Cervical spine limited WO contrast"
+          },
+          {
+            "code": "36110-5",
+            "display": "CT Lumbar spine limited WO contrast"
+          },
+          {
+            "code": "36123-8",
+            "display": "CT Sacroiliac Joint Arthrogram"
+          },
+          {
+            "code": "36124-6",
+            "display": "CT Knee Arthrogram"
+          },
+          {
+            "code": "36128-7",
+            "display": "CT Shoulder Arthrogram"
+          },
+          {
+            "code": "36131-1",
+            "display": "CT Shoulder - right Arthrogram"
+          },
+          {
+            "code": "36135-2",
+            "display": "CT Ankle W contrast IV"
+          },
+          {
+            "code": "36137-8",
+            "display": "CT Ankle - left W contrast IV"
+          },
+          {
+            "code": "36139-4",
+            "display": "CT Ankle - right W contrast IV"
+          },
+          {
+            "code": "36141-0",
+            "display": "CTA Thoracic and abdominal aorta W contrast IV"
+          },
+          {
+            "code": "36142-8",
+            "display": "CT Thoracic and abdominal aorta W contrast IV"
+          },
+          {
+            "code": "36143-6",
+            "display": "CT Abdominal Aorta W contrast IV"
+          },
+          {
+            "code": "36144-4",
+            "display": "CTA Aortic arch W contrast IV"
+          },
+          {
+            "code": "36145-1",
+            "display": "CT Appendix W contrast IV"
+          },
+          {
+            "code": "36146-9",
+            "display": "CTA Carotid artery W contrast IV"
+          },
+          {
+            "code": "36147-7",
+            "display": "CTA Pulmonary arteries W contrast IV"
+          },
+          {
+            "code": "36157-6",
+            "display": "CT Elbow W contrast IV"
+          },
+          {
+            "code": "36159-2",
+            "display": "CT Elbow - left W contrast IV"
+          },
+          {
+            "code": "36161-8",
+            "display": "CT Elbow - right W contrast IV"
+          },
+          {
+            "code": "36164-2",
+            "display": "CT Lower extremity - left W contrast IV"
+          },
+          {
+            "code": "36166-7",
+            "display": "CT Lower extremity - right W contrast IV"
+          },
+          {
+            "code": "36168-3",
+            "display": "CT Upper extremity - bilateral W contrast IV"
+          },
+          {
+            "code": "36169-1",
+            "display": "CT Upper extremity - left W contrast IV"
+          },
+          {
+            "code": "36170-9",
+            "display": "CT Upper extremity - right W contrast IV"
+          },
+          {
+            "code": "36172-5",
+            "display": "CT Thigh W contrast IV"
+          },
+          {
+            "code": "36174-1",
+            "display": "CT Thigh - left W contrast IV"
+          },
+          {
+            "code": "36176-6",
+            "display": "CT Thigh - right W contrast IV"
+          },
+          {
+            "code": "36178-2",
+            "display": "CT Foot W contrast IV"
+          },
+          {
+            "code": "36181-6",
+            "display": "CT Foot - left W contrast IV"
+          },
+          {
+            "code": "36183-2",
+            "display": "CT Foot - right W contrast IV"
+          },
+          {
+            "code": "36185-7",
+            "display": "CT Forearm W contrast IV"
+          },
+          {
+            "code": "36187-3",
+            "display": "CT Forearm - left W contrast IV"
+          },
+          {
+            "code": "36189-9",
+            "display": "CT Forearm - right W contrast IV"
+          },
+          {
+            "code": "36191-5",
+            "display": "CT Hand W contrast IV"
+          },
+          {
+            "code": "36193-1",
+            "display": "CT Hand - left W contrast IV"
+          },
+          {
+            "code": "36195-6",
+            "display": "CT Hand - right W contrast IV"
+          },
+          {
+            "code": "36200-4",
+            "display": "CT Hip W contrast IV"
+          },
+          {
+            "code": "36201-2",
+            "display": "CT Hip - bilateral W contrast IV"
+          },
+          {
+            "code": "36203-8",
+            "display": "CT Hip - left W contrast IV"
+          },
+          {
+            "code": "36205-3",
+            "display": "CT Hip - right W contrast IV"
+          },
+          {
+            "code": "36207-9",
+            "display": "CT Upper arm W contrast IV"
+          },
+          {
+            "code": "36209-5",
+            "display": "CT Upper arm - left W contrast IV"
+          },
+          {
+            "code": "36211-1",
+            "display": "CT Upper arm - right W contrast IV"
+          },
+          {
+            "code": "36217-8",
+            "display": "CT Sacroiliac Joint W contrast IV"
+          },
+          {
+            "code": "36222-8",
+            "display": "CT Knee W contrast IV"
+          },
+          {
+            "code": "36225-1",
+            "display": "CT Knee - left W contrast IV"
+          },
+          {
+            "code": "36227-7",
+            "display": "CT Knee - right W contrast IV"
+          },
+          {
+            "code": "36229-3",
+            "display": "CT Larynx W contrast IV"
+          },
+          {
+            "code": "36232-7",
+            "display": "CT Mandible W contrast IV"
+          },
+          {
+            "code": "36234-3",
+            "display": "CTA Neck vessels W contrast IV"
+          },
+          {
+            "code": "36235-0",
+            "display": "CT Neck W contrast IV"
+          },
+          {
+            "code": "36242-6",
+            "display": "CT Posterior fossa W contrast IV"
+          },
+          {
+            "code": "36245-9",
+            "display": "CT Sacrum W contrast IV"
+          },
+          {
+            "code": "36250-9",
+            "display": "CT Shoulder W contrast IV"
+          },
+          {
+            "code": "36252-5",
+            "display": "CT Shoulder - left W contrast IV"
+          },
+          {
+            "code": "36253-3",
+            "display": "CT Shoulder - right W contrast IV"
+          },
+          {
+            "code": "36255-8",
+            "display": "CT Sinuses W contrast IV"
+          },
+          {
+            "code": "36257-4",
+            "display": "CT Sternum W contrast IV"
+          },
+          {
+            "code": "36258-2",
+            "display": "CT Lower leg W contrast IV"
+          },
+          {
+            "code": "36260-8",
+            "display": "CT Lower leg - left W contrast IV"
+          },
+          {
+            "code": "36262-4",
+            "display": "CT Lower leg - right W contrast IV"
+          },
+          {
+            "code": "36264-0",
+            "display": "CT Uterus W contrast IV"
+          },
+          {
+            "code": "36266-5",
+            "display": "CTA Chest vessels W contrast IV"
+          },
+          {
+            "code": "36267-3",
+            "display": "CT Abdomen WO and W contrast IV"
+          },
+          {
+            "code": "36268-1",
+            "display": "CT Ankle WO and W contrast IV"
+          },
+          {
+            "code": "36269-9",
+            "display": "CT Ankle - left WO and W contrast IV"
+          },
+          {
+            "code": "36270-7",
+            "display": "CT Ankle - right WO and W contrast IV"
+          },
+          {
+            "code": "36271-5",
+            "display": "CT Abdominal Aorta WO and W contrast IV"
+          },
+          {
+            "code": "36282-2",
+            "display": "CT Internal auditory canal WO and W contrast IV"
+          },
+          {
+            "code": "36285-5",
+            "display": "CT Elbow WO and W contrast IV"
+          },
+          {
+            "code": "36286-3",
+            "display": "CT Elbow - left WO and W contrast IV"
+          },
+          {
+            "code": "36287-1",
+            "display": "CT Elbow - right WO and W contrast IV"
+          },
+          {
+            "code": "36288-9",
+            "display": "CT Lower extremity WO and W contrast IV"
+          },
+          {
+            "code": "36290-5",
+            "display": "CT Lower extremity - left WO and W contrast IV"
+          },
+          {
+            "code": "36292-1",
+            "display": "CT Lower extremity - right WO and W contrast IV"
+          },
+          {
+            "code": "36334-1",
+            "display": "CT Upper extremity WO and W contrast IV"
+          },
+          {
+            "code": "36335-8",
+            "display": "CT Upper extremity - left WO and W contrast IV"
+          },
+          {
+            "code": "36336-6",
+            "display": "CT Upper extremity - right WO and W contrast IV"
+          },
+          {
+            "code": "36338-2",
+            "display": "CT Thigh WO and W contrast IV"
+          },
+          {
+            "code": "36339-0",
+            "display": "CT Thigh - left WO and W contrast IV"
+          },
+          {
+            "code": "36340-8",
+            "display": "CT Thigh - right WO and W contrast IV"
+          },
+          {
+            "code": "36341-6",
+            "display": "CT Foot WO and W contrast IV"
+          },
+          {
+            "code": "36343-2",
+            "display": "CT Foot - left WO and W contrast IV"
+          },
+          {
+            "code": "36345-7",
+            "display": "CT Foot - right WO and W contrast IV"
+          },
+          {
+            "code": "36347-3",
+            "display": "CT Forearm WO and W contrast IV"
+          },
+          {
+            "code": "36348-1",
+            "display": "CT Forearm - left WO and W contrast IV"
+          },
+          {
+            "code": "36350-7",
+            "display": "CT Forearm - right WO and W contrast IV"
+          },
+          {
+            "code": "36352-3",
+            "display": "CT Hand WO and W contrast IV"
+          },
+          {
+            "code": "36353-1",
+            "display": "CT Hand - left WO and W contrast IV"
+          },
+          {
+            "code": "36355-6",
+            "display": "CT Hand - right WO and W contrast IV"
+          },
+          {
+            "code": "36359-8",
+            "display": "CT Hip WO and W contrast IV"
+          },
+          {
+            "code": "36360-6",
+            "display": "CT Hip - bilateral WO and W contrast IV"
+          },
+          {
+            "code": "36362-2",
+            "display": "CT Hip - left WO and W contrast IV"
+          },
+          {
+            "code": "36364-8",
+            "display": "CT Hip - right WO and W contrast IV"
+          },
+          {
+            "code": "36366-3",
+            "display": "CT Upper arm WO and W contrast IV"
+          },
+          {
+            "code": "36367-1",
+            "display": "CT Upper arm - left WO and W contrast IV"
+          },
+          {
+            "code": "36369-7",
+            "display": "CT Upper arm - right WO and W contrast IV"
+          },
+          {
+            "code": "36375-4",
+            "display": "CT Sacroiliac Joint WO and W contrast IV"
+          },
+          {
+            "code": "36377-0",
+            "display": "CT Kidney - bilateral WO and W contrast IV"
+          },
+          {
+            "code": "36379-6",
+            "display": "CT Knee WO and W contrast IV"
+          },
+          {
+            "code": "36380-4",
+            "display": "CT Knee - left WO and W contrast IV"
+          },
+          {
+            "code": "36381-2",
+            "display": "CT Knee - right WO and W contrast IV"
+          },
+          {
+            "code": "36383-8",
+            "display": "CT Mandible WO and W contrast IV"
+          },
+          {
+            "code": "36387-9",
+            "display": "CT Posterior fossa WO and W contrast IV"
+          },
+          {
+            "code": "36390-3",
+            "display": "CT Sacrum WO and W contrast IV"
+          },
+          {
+            "code": "36395-2",
+            "display": "CT Shoulder WO and W contrast IV"
+          },
+          {
+            "code": "36396-0",
+            "display": "CT Shoulder - left WO and W contrast IV"
+          },
+          {
+            "code": "36397-8",
+            "display": "CT Shoulder - right WO and W contrast IV"
+          },
+          {
+            "code": "36398-6",
+            "display": "CT Sinuses WO and W contrast IV"
+          },
+          {
+            "code": "36399-4",
+            "display": "CT Spine WO and W contrast IV"
+          },
+          {
+            "code": "36401-8",
+            "display": "CT Cervical spine WO and W contrast IV"
+          },
+          {
+            "code": "36402-6",
+            "display": "CT Lumbar spine WO and W contrast IV"
+          },
+          {
+            "code": "36403-4",
+            "display": "CT Thoracic spine WO and W contrast IV"
+          },
+          {
+            "code": "36405-9",
+            "display": "CT Sternum WO and W contrast IV"
+          },
+          {
+            "code": "36408-3",
+            "display": "CT Lower leg WO and W contrast IV"
+          },
+          {
+            "code": "36409-1",
+            "display": "CT Lower leg - left WO and W contrast IV"
+          },
+          {
+            "code": "36411-7",
+            "display": "CT Lower leg - right WO and W contrast IV"
+          },
+          {
+            "code": "36421-6",
+            "display": "CTA Upper extremity vessels WO and W contrast IV"
+          },
+          {
+            "code": "36424-0",
+            "display": "CT Abdomen WO contrast"
+          },
+          {
+            "code": "36425-7",
+            "display": "CT Ankle WO contrast"
+          },
+          {
+            "code": "36426-5",
+            "display": "CT Ankle - left WO contrast"
+          },
+          {
+            "code": "36428-1",
+            "display": "CT Ankle - right WO contrast"
+          },
+          {
+            "code": "36430-7",
+            "display": "CT Thoracic and abdominal aorta WO contrast"
+          },
+          {
+            "code": "36431-5",
+            "display": "CT Abdominal Aorta WO contrast"
+          },
+          {
+            "code": "36434-9",
+            "display": "CT Appendix WO contrast"
+          },
+          {
+            "code": "36443-0",
+            "display": "CT Elbow WO contrast"
+          },
+          {
+            "code": "36444-8",
+            "display": "CT Elbow - bilateral WO contrast"
+          },
+          {
+            "code": "36445-5",
+            "display": "CT Elbow - left WO contrast"
+          },
+          {
+            "code": "36447-1",
+            "display": "CT Elbow - right WO contrast"
+          },
+          {
+            "code": "36449-7",
+            "display": "CT Lower extremity - bilateral WO contrast"
+          },
+          {
+            "code": "36452-1",
+            "display": "CT Lower extremity - left WO contrast"
+          },
+          {
+            "code": "36454-7",
+            "display": "CT Lower extremity - right WO contrast"
+          },
+          {
+            "code": "36456-2",
+            "display": "CT Upper extremity - bilateral WO contrast"
+          },
+          {
+            "code": "36457-0",
+            "display": "CT Upper extremity - left WO contrast"
+          },
+          {
+            "code": "36458-8",
+            "display": "CT Upper extremity - right WO contrast"
+          },
+          {
+            "code": "36460-4",
+            "display": "CT Thigh WO contrast"
+          },
+          {
+            "code": "36462-0",
+            "display": "CT Thigh - left WO contrast"
+          },
+          {
+            "code": "36464-6",
+            "display": "CT Thigh - right WO contrast"
+          },
+          {
+            "code": "36466-1",
+            "display": "CT Foot WO contrast"
+          },
+          {
+            "code": "36468-7",
+            "display": "CT Foot - left WO contrast"
+          },
+          {
+            "code": "36470-3",
+            "display": "CT Foot - right WO contrast"
+          },
+          {
+            "code": "36472-9",
+            "display": "CT Forearm WO contrast"
+          },
+          {
+            "code": "36473-7",
+            "display": "CT Forearm - left WO contrast"
+          },
+          {
+            "code": "36475-2",
+            "display": "CT Forearm - right WO contrast"
+          },
+          {
+            "code": "36477-8",
+            "display": "CT Hand WO contrast"
+          },
+          {
+            "code": "36478-6",
+            "display": "CT Hand - left WO contrast"
+          },
+          {
+            "code": "36480-2",
+            "display": "CT Hand - right WO contrast"
+          },
+          {
+            "code": "36484-4",
+            "display": "CT Hip WO contrast"
+          },
+          {
+            "code": "36485-1",
+            "display": "CT Hip - bilateral WO contrast"
+          },
+          {
+            "code": "36487-7",
+            "display": "CT Hip - left WO contrast"
+          },
+          {
+            "code": "36489-3",
+            "display": "CT Hip - right WO contrast"
+          },
+          {
+            "code": "36491-9",
+            "display": "CT Upper arm WO contrast"
+          },
+          {
+            "code": "36492-7",
+            "display": "CT Upper arm - left WO contrast"
+          },
+          {
+            "code": "36494-3",
+            "display": "CT Upper arm - right WO contrast"
+          },
+          {
+            "code": "36501-5",
+            "display": "CT Sacroiliac Joint WO contrast"
+          },
+          {
+            "code": "36503-1",
+            "display": "CT Kidney - bilateral WO contrast"
+          },
+          {
+            "code": "36505-6",
+            "display": "CT Knee WO contrast"
+          },
+          {
+            "code": "36507-2",
+            "display": "CT Knee - left WO contrast"
+          },
+          {
+            "code": "36509-8",
+            "display": "CT Knee - right WO contrast"
+          },
+          {
+            "code": "36511-4",
+            "display": "CT Larynx WO contrast"
+          },
+          {
+            "code": "36512-2",
+            "display": "CT Mandible WO contrast"
+          },
+          {
+            "code": "36514-8",
+            "display": "CT Neck WO contrast"
+          },
+          {
+            "code": "36517-1",
+            "display": "CT Posterior fossa WO contrast"
+          },
+          {
+            "code": "36520-5",
+            "display": "CT Sacrum WO contrast"
+          },
+          {
+            "code": "36524-7",
+            "display": "CT Shoulder WO contrast"
+          },
+          {
+            "code": "36526-2",
+            "display": "CT Shoulder - left WO contrast"
+          },
+          {
+            "code": "36527-0",
+            "display": "CT Shoulder - right WO contrast"
+          },
+          {
+            "code": "36529-6",
+            "display": "CT Sinuses WO contrast"
+          },
+          {
+            "code": "36530-4",
+            "display": "CT Spine WO contrast"
+          },
+          {
+            "code": "36534-6",
+            "display": "CT Sternum WO contrast"
+          },
+          {
+            "code": "36537-9",
+            "display": "CT Lower leg WO contrast"
+          },
+          {
+            "code": "36538-7",
+            "display": "CT Lower leg - left WO contrast"
+          },
+          {
+            "code": "36540-3",
+            "display": "CT Lower leg - right WO contrast"
+          },
+          {
+            "code": "36767-2",
+            "display": "CT Guidance for biopsy of Adrenal gland"
+          },
+          {
+            "code": "36768-0",
+            "display": "CT Guidance for percutaneous biopsy of Muscle"
+          },
+          {
+            "code": "36769-8",
+            "display": "CT Guidance for exchange of nephrostomy tube of Kidney"
+          },
+          {
+            "code": "36770-6",
+            "display": "CT Guidance for drainage of Biliary ducts and Gallbladder"
+          },
+          {
+            "code": "36772-2",
+            "display": "CT Guidance for placement of nephrostomy tube in Kidney"
+          },
+          {
+            "code": "36773-0",
+            "display": "CT Temporal bone"
+          },
+          {
+            "code": "36809-2",
+            "display": "CTA Hepatic artery W contrast IA"
+          },
+          {
+            "code": "36811-8",
+            "display": "CT Joint Arthrogram"
+          },
+          {
+            "code": "36813-4",
+            "display": "CT Abdomen and Pelvis W contrast IV"
+          },
+          {
+            "code": "36814-2",
+            "display": "CTA Head Arteries W contrast IV"
+          },
+          {
+            "code": "36815-9",
+            "display": "CT Temporal bone W contrast IV"
+          },
+          {
+            "code": "36816-7",
+            "display": "CT Temporal bone - right W contrast IV"
+          },
+          {
+            "code": "36824-1",
+            "display": "CTA Lower extremity veins - left W contrast IV"
+          },
+          {
+            "code": "36825-8",
+            "display": "CTA Lower extremity veins - right W contrast IV"
+          },
+          {
+            "code": "36828-2",
+            "display": "CTA Abdominal vessels W contrast IV"
+          },
+          {
+            "code": "36830-8",
+            "display": "CTA Head vessels W contrast IV"
+          },
+          {
+            "code": "36831-6",
+            "display": "CTA Lower extremity vessels W contrast IV"
+          },
+          {
+            "code": "36833-2",
+            "display": "CTA Renal vessels W contrast IV"
+          },
+          {
+            "code": "36834-0",
+            "display": "CTA Vessel W contrast IV"
+          },
+          {
+            "code": "36835-7",
+            "display": "CT Petrous part of temporal bone WO and W contrast IV"
+          },
+          {
+            "code": "36837-3",
+            "display": "CT Temporal bone WO and W contrast IV"
+          },
+          {
+            "code": "36866-2",
+            "display": "CT Temporal bone WO contrast"
+          },
+          {
+            "code": "36867-0",
+            "display": "CT Temporal bone - left WO contrast"
+          },
+          {
+            "code": "36868-8",
+            "display": "CT Temporal bone - right WO contrast"
+          },
+          {
+            "code": "36926-4",
+            "display": "CT Guidance for aspiration and placement of drainage tube of Abdomen"
+          },
+          {
+            "code": "36927-2",
+            "display": "CT Guidance for biopsy of Maxillofacial region"
+          },
+          {
+            "code": "36928-0",
+            "display": "CT Guidance for stereotactic biopsy of Head"
+          },
+          {
+            "code": "36929-8",
+            "display": "CT Guidance for stereotactic biopsy of Head-- WO contrast"
+          },
+          {
+            "code": "36930-6",
+            "display": "CT Adrenal gland"
+          },
+          {
+            "code": "36932-2",
+            "display": "CT Pituitary and Sella turcica"
+          },
+          {
+            "code": "36934-8",
+            "display": "CT Heart for calcium scoring"
+          },
+          {
+            "code": "36935-5",
+            "display": "CT Heart for calcium scoring W contrast IV"
+          },
+          {
+            "code": "36937-1",
+            "display": "CT Maxillofacial region limited"
+          },
+          {
+            "code": "36938-9",
+            "display": "CT Maxillofacial region limited WO contrast"
+          },
+          {
+            "code": "36941-3",
+            "display": "CT Salivary gland W contrast intra salivary duct"
+          },
+          {
+            "code": "36943-9",
+            "display": "CT Adrenal gland W contrast IV"
+          },
+          {
+            "code": "36950-4",
+            "display": "CT Adrenal gland WO and W contrast IV"
+          },
+          {
+            "code": "36952-0",
+            "display": "CT Abdomen and Pelvis WO contrast"
+          },
+          {
+            "code": "36953-8",
+            "display": "CT Adrenal gland WO contrast"
+          },
+          {
+            "code": "36955-3",
+            "display": "CT Thyroid gland WO contrast"
+          },
+          {
+            "code": "37210-2",
+            "display": "CT Guidance for aspiration of cyst of Abdomen"
+          },
+          {
+            "code": "37211-0",
+            "display": "CT Guidance for biopsy of Bone marrow"
+          },
+          {
+            "code": "37212-8",
+            "display": "CT Guidance for biopsy of Epididymis"
+          },
+          {
+            "code": "37213-6",
+            "display": "CT Guidance for biopsy of Mediastinum"
+          },
+          {
+            "code": "37214-4",
+            "display": "CT Guidance for superficial biopsy of Tissue"
+          },
+          {
+            "code": "37221-9",
+            "display": "CT Unspecified body region for fistula"
+          },
+          {
+            "code": "37223-5",
+            "display": "CT Parotid gland"
+          },
+          {
+            "code": "37225-0",
+            "display": "CT Sternoclavicular Joint"
+          },
+          {
+            "code": "37226-8",
+            "display": "CT Temporomandibular joint"
+          },
+          {
+            "code": "37232-6",
+            "display": "CT Spine lumbosacral junction"
+          },
+          {
+            "code": "37237-5",
+            "display": "CT Sinus tract W contrast intra sinus tract"
+          },
+          {
+            "code": "37238-3",
+            "display": "CT Lower Extremity Joint Arthrogram"
+          },
+          {
+            "code": "37240-9",
+            "display": "CT Parotid gland W contrast IV"
+          },
+          {
+            "code": "37242-5",
+            "display": "CT Sternoclavicular Joint W contrast IV"
+          },
+          {
+            "code": "37243-3",
+            "display": "CT Temporomandibular joint W contrast IV"
+          },
+          {
+            "code": "37246-6",
+            "display": "CT Temporomandibular joint - left W contrast IV"
+          },
+          {
+            "code": "37248-2",
+            "display": "CT Temporomandibular joint - right W contrast IV"
+          },
+          {
+            "code": "37266-4",
+            "display": "CT Sternoclavicular Joint WO and W contrast IV"
+          },
+          {
+            "code": "37267-2",
+            "display": "CT Temporomandibular joint WO and W contrast IV"
+          },
+          {
+            "code": "37280-5",
+            "display": "CT Parotid gland WO contrast"
+          },
+          {
+            "code": "37282-1",
+            "display": "CT Sternoclavicular Joint WO contrast"
+          },
+          {
+            "code": "37283-9",
+            "display": "CT Temporomandibular joint WO contrast"
+          },
+          {
+            "code": "37288-8",
+            "display": "CT Spine lumbosacral junction WO contrast"
+          },
+          {
+            "code": "37428-0",
+            "display": "CT Wrist"
+          },
+          {
+            "code": "37430-6",
+            "display": "CT Wrist - bilateral"
+          },
+          {
+            "code": "37431-4",
+            "display": "CT Wrist - left"
+          },
+          {
+            "code": "37433-0",
+            "display": "CT Wrist - right"
+          },
+          {
+            "code": "37439-7",
+            "display": "CT Lung parenchyma"
+          },
+          {
+            "code": "37440-5",
+            "display": "CT Lung parenchyma W contrast IV"
+          },
+          {
+            "code": "37441-3",
+            "display": "CT Lung parenchyma WO contrast"
+          },
+          {
+            "code": "37447-0",
+            "display": "CT Wrist W contrast IV"
+          },
+          {
+            "code": "37450-4",
+            "display": "CT Wrist - left W contrast IV"
+          },
+          {
+            "code": "37452-0",
+            "display": "CT Wrist - right W contrast IV"
+          },
+          {
+            "code": "37457-9",
+            "display": "CT Wrist WO and W contrast IV"
+          },
+          {
+            "code": "37458-7",
+            "display": "CT Wrist - left WO and W contrast IV"
+          },
+          {
+            "code": "37459-5",
+            "display": "CT Wrist WO contrast"
+          },
+          {
+            "code": "37461-1",
+            "display": "CT Wrist - bilateral WO contrast"
+          },
+          {
+            "code": "37463-7",
+            "display": "CT Wrist - left WO contrast"
+          },
+          {
+            "code": "37465-2",
+            "display": "CT Wrist - right WO contrast"
+          },
+          {
+            "code": "37491-8",
+            "display": "CT Guidance for fluid aspiration of Pleural space"
+          },
+          {
+            "code": "37492-6",
+            "display": "CT Guidance for biopsy of Chest Pleura"
+          },
+          {
+            "code": "37493-4",
+            "display": "CT Guidance for injection of Cervical spine Intervertebral disc"
+          },
+          {
+            "code": "37495-9",
+            "display": "CT Skull base"
+          },
+          {
+            "code": "37496-7",
+            "display": "CT Cervical spine W contrast intradisc"
+          },
+          {
+            "code": "37498-3",
+            "display": "CTA Head vessels and Neck vessels W contrast IV"
+          },
+          {
+            "code": "37509-7",
+            "display": "CT Lumbar spine W contrast intradisc"
+          },
+          {
+            "code": "38767-0",
+            "display": "CT Internal auditory canal - right"
+          },
+          {
+            "code": "38802-5",
+            "display": "CT Wrist - right WO and W contrast IV"
+          },
+          {
+            "code": "38828-0",
+            "display": "CT Shoulder - left Arthrogram"
+          },
+          {
+            "code": "38835-5",
+            "display": "CT Temporal bone - left W contrast IV"
+          },
+          {
+            "code": "39026-0",
+            "display": "CT Guidance for needle localization of Unspecified body region"
+          },
+          {
+            "code": "39046-8",
+            "display": "CT Pelvis limited for pelvimetry WO contrast"
+          },
+          {
+            "code": "39142-5",
+            "display": "CT perfusion Head W contrast IV"
+          },
+          {
+            "code": "39322-3",
+            "display": "CT Spine W contrast intradisc"
+          },
+          {
+            "code": "41806-1",
+            "display": "CT Abdomen"
+          },
+          {
+            "code": "41807-9",
+            "display": "CT Orbit"
+          },
+          {
+            "code": "41808-7",
+            "display": "CT Maxillofacial region"
+          },
+          {
+            "code": "42020-8",
+            "display": "CT Guidance for needle localization of Lumbar spine"
+          },
+          {
+            "code": "42021-6",
+            "display": "CT Guidance for needle localization of Cervical spine"
+          },
+          {
+            "code": "42136-2",
+            "display": "CT Guidance for biopsy of Heart"
+          },
+          {
+            "code": "42260-0",
+            "display": "CT Guidance for biopsy of Unspecified body region-- W contrast IV"
+          },
+          {
+            "code": "42265-9",
+            "display": "CT Guidance for superficial biopsy of Bone"
+          },
+          {
+            "code": "42268-3",
+            "display": "CT Extremity WO and W contrast IV"
+          },
+          {
+            "code": "42274-1",
+            "display": "CT Abdomen and Pelvis WO and W contrast IV"
+          },
+          {
+            "code": "42275-8",
+            "display": "CT Chest and Abdomen W contrast IV"
+          },
+          {
+            "code": "42276-6",
+            "display": "CT Chest and Abdomen WO contrast"
+          },
+          {
+            "code": "42277-4",
+            "display": "CT Chest and Abdomen WO and W contrast IV"
+          },
+          {
+            "code": "42278-2",
+            "display": "CT Extremity WO contrast"
+          },
+          {
+            "code": "42279-0",
+            "display": "CT Guidance for biopsy of Kidney"
+          },
+          {
+            "code": "42280-8",
+            "display": "CT Guidance for drainage of abscess of Appendix"
+          },
+          {
+            "code": "42281-6",
+            "display": "CT Guidance for drainage of abscess of Chest"
+          },
+          {
+            "code": "42282-4",
+            "display": "CT Guidance for drainage of abscess of Liver"
+          },
+          {
+            "code": "42283-2",
+            "display": "CT Guidance for drainage of Pancreas"
+          },
+          {
+            "code": "42284-0",
+            "display": "CT Guidance for drainage of abscess of Pleural space"
+          },
+          {
+            "code": "42285-7",
+            "display": "CT Guidance for drainage of abscess of Kidney"
+          },
+          {
+            "code": "42286-5",
+            "display": "CT Guidance for drainage of abscess of Pelvis"
+          },
+          {
+            "code": "42287-3",
+            "display": "CT Guidance for drainage of Retroperitoneum"
+          },
+          {
+            "code": "42291-5",
+            "display": "CT Retroperitoneum WO contrast"
+          },
+          {
+            "code": "42293-1",
+            "display": "CTA Head vessels WO contrast"
+          },
+          {
+            "code": "42294-9",
+            "display": "CTA Pelvis vessels W contrast IV"
+          },
+          {
+            "code": "42295-6",
+            "display": "CTA Upper extremity vessels W contrast IV"
+          },
+          {
+            "code": "42377-2",
+            "display": "CT perfusion Head W Xe-133 IH+WO and W contrast IV"
+          },
+          {
+            "code": "42394-7",
+            "display": "CT Pulmonary system W Xe-133 IH"
+          },
+          {
+            "code": "42688-2",
+            "display": "CT Guidance for nerve block of Spine"
+          },
+          {
+            "code": "42701-3",
+            "display": "CT Guidance for localization of placenta of Uterus"
+          },
+          {
+            "code": "43444-9",
+            "display": "CT Guidance for percutaneous drainage of abscess of Unspecified body region"
+          },
+          {
+            "code": "43445-6",
+            "display": "CT Pulmonary system"
+          },
+          {
+            "code": "43502-4",
+            "display": "CT Guidance for drainage of abscess of Subphrenic space"
+          },
+          {
+            "code": "43525-5",
+            "display": "CT Unspecified body region WO contrast"
+          },
+          {
+            "code": "43567-7",
+            "display": "CT Guidance for deep biopsy of Bone"
+          },
+          {
+            "code": "43757-4",
+            "display": "CT Guidance for fine needle aspiration of Kidney"
+          },
+          {
+            "code": "43766-5",
+            "display": "CT Kidney - bilateral W contrast IV"
+          },
+          {
+            "code": "43767-3",
+            "display": "CT Kidney - bilateral"
+          },
+          {
+            "code": "43768-1",
+            "display": "CT Kidney WO and W contrast IV"
+          },
+          {
+            "code": "43770-7",
+            "display": "CT Kidney WO contrast"
+          },
+          {
+            "code": "44101-4",
+            "display": "CT Guidance for ablation of tissue of Liver"
+          },
+          {
+            "code": "44102-2",
+            "display": "CT Guidance for procedure of Joint space"
+          },
+          {
+            "code": "44103-0",
+            "display": "CT Guidance for fine needle aspiration of Lymph node"
+          },
+          {
+            "code": "44104-8",
+            "display": "CT Guidance for fine needle aspiration of Mediastinum"
+          },
+          {
+            "code": "44105-5",
+            "display": "CT Guidance for fine needle aspiration of Muscle"
+          },
+          {
+            "code": "44106-3",
+            "display": "CT Guidance for FNA of Prostate"
+          },
+          {
+            "code": "44107-1",
+            "display": "CT Guidance for fine needle aspiration of Retroperitoneum"
+          },
+          {
+            "code": "44108-9",
+            "display": "CT Guidance for fine needle aspiration of Adrenal gland"
+          },
+          {
+            "code": "44109-7",
+            "display": "CT Guidance for deep biopsy of Muscle"
+          },
+          {
+            "code": "44110-5",
+            "display": "CT Guidance for needle localization of Breast"
+          },
+          {
+            "code": "44111-3",
+            "display": "CT Skull base WO and W contrast IV"
+          },
+          {
+            "code": "44112-1",
+            "display": "CT Skull base WO contrast"
+          },
+          {
+            "code": "44113-9",
+            "display": "CT Thoracic spine WO and W contrast IT"
+          },
+          {
+            "code": "44114-7",
+            "display": "CT Lumbar spine WO and W contrast IT"
+          },
+          {
+            "code": "44115-4",
+            "display": "CT Abdomen and Pelvis"
+          },
+          {
+            "code": "44116-2",
+            "display": "CT Mandible limited"
+          },
+          {
+            "code": "44117-0",
+            "display": "CT Guidance for biopsy of Retroperitoneum"
+          },
+          {
+            "code": "44118-8",
+            "display": "CT Guidance for needle localization of Breast-- WO and W contrast IV"
+          },
+          {
+            "code": "44119-6",
+            "display": "CT Breast - bilateral WO contrast"
+          },
+          {
+            "code": "44228-5",
+            "display": "CT Guidance for ablation of tissue of Kidney"
+          },
+          {
+            "code": "44229-3",
+            "display": "CT Bone"
+          },
+          {
+            "code": "46281-2",
+            "display": "CT Guidance for aspiration or injection of cyst of Unspecified body region"
+          },
+          {
+            "code": "46289-5",
+            "display": "CT Guidance for biopsy of Unspecified body region-- WO and W contrast IV"
+          },
+          {
+            "code": "46290-3",
+            "display": "CT Guidance for biopsy of Unspecified body region-- WO contrast"
+          },
+          {
+            "code": "46291-1",
+            "display": "CT Guidance for drainage of Unspecified body region-- WO and W contrast IV"
+          },
+          {
+            "code": "46292-9",
+            "display": "CT Guidance for drainage of Unspecified body region-- W contrast IV"
+          },
+          {
+            "code": "46293-7",
+            "display": "CT Guidance for drainage of Unspecified body region-- WO contrast"
+          },
+          {
+            "code": "46298-6",
+            "display": "CT Mastoid - bilateral"
+          },
+          {
+            "code": "46304-2",
+            "display": "CT Sinuses limited WO contrast"
+          },
+          {
+            "code": "46305-9",
+            "display": "CT Whole body"
+          },
+          {
+            "code": "46306-7",
+            "display": "CT Whole body W contrast IV"
+          },
+          {
+            "code": "46307-5",
+            "display": "CTA Lower extremity vessels - right WO and W contrast IV"
+          },
+          {
+            "code": "46308-3",
+            "display": "CTA Lower extremity vessels - left WO and W contrast IV"
+          },
+          {
+            "code": "46309-1",
+            "display": "CTA Upper extremity vessels - right WO and W contrast IV"
+          },
+          {
+            "code": "46311-7",
+            "display": "CT Parotid gland WO and W contrast IV"
+          },
+          {
+            "code": "46312-5",
+            "display": "CTA Upper extremity vessels - left WO and W contrast IV"
+          },
+          {
+            "code": "46313-3",
+            "display": "CT Pelvis WO and W reduced contrast volume IV"
+          },
+          {
+            "code": "46314-1",
+            "display": "CT Internal auditory canal WO and W reduced contrast volume IV"
+          },
+          {
+            "code": "46315-8",
+            "display": "CT Maxillofacial region WO and W reduced contrast volume IV"
+          },
+          {
+            "code": "46316-6",
+            "display": "CT Head WO and W reduced contrast volume IV"
+          },
+          {
+            "code": "46317-4",
+            "display": "CT Chest WO and W reduced contrast volume IV"
+          },
+          {
+            "code": "46318-2",
+            "display": "CT Abdomen WO and W reduced contrast volume IV"
+          },
+          {
+            "code": "46320-8",
+            "display": "CT Orbit and Face W contrast IV"
+          },
+          {
+            "code": "46322-4",
+            "display": "CT Kidney W contrast IV"
+          },
+          {
+            "code": "46325-7",
+            "display": "CT Internal auditory canal W reduced contrast volume IV"
+          },
+          {
+            "code": "46326-5",
+            "display": "CT Maxillofacial region W reduced contrast volume IV"
+          },
+          {
+            "code": "46327-3",
+            "display": "CT Chest W reduced contrast volume IV"
+          },
+          {
+            "code": "46328-1",
+            "display": "CT Head W reduced contrast volume IV"
+          },
+          {
+            "code": "46329-9",
+            "display": "CT Pelvis W reduced contrast volume IV"
+          },
+          {
+            "code": "46330-7",
+            "display": "CT Abdomen W reduced contrast volume IV"
+          },
+          {
+            "code": "46331-5",
+            "display": "CT Orbit WO contrast"
+          },
+          {
+            "code": "46365-3",
+            "display": "CT Guidance for ablation of tissue of Celiac plexus"
+          },
+          {
+            "code": "46393-5",
+            "display": "CT Liver W Xe-133 IH"
+          },
+          {
+            "code": "47366-0",
+            "display": "CT Chest limited WO contrast"
+          },
+          {
+            "code": "47985-7",
+            "display": "CT Spine W contrast IT"
+          },
+          {
+            "code": "48442-8",
+            "display": "CT Spine WO and W contrast IT"
+          },
+          {
+            "code": "48443-6",
+            "display": "CT Nasopharynx WO and W contrast IV"
+          },
+          {
+            "code": "48446-9",
+            "display": "CT Nasopharynx W contrast IV"
+          },
+          {
+            "code": "48449-3",
+            "display": "CT Orbit W contrast IV"
+          },
+          {
+            "code": "48451-9",
+            "display": "CT Orbit WO and W contrast IV"
+          },
+          {
+            "code": "48743-9",
+            "display": "CT Retroperitoneum WO and W contrast IV"
+          },
+          {
+            "code": "50755-8",
+            "display": "CT Lower extremity - bilateral W contrast IV"
+          },
+          {
+            "code": "52790-3",
+            "display": "CT Guidance for percutaneous replacement of drainage tube of Abdomen"
+          },
+          {
+            "code": "52791-1",
+            "display": "CT Guidance for percutaneous replacement of drainage tube of Pelvis"
+          },
+          {
+            "code": "58744-4",
+            "display": "CT Heart"
+          },
+          {
+            "code": "58747-7",
+            "display": "CT Guidance for ablation of tissue of Unspecified body region"
+          },
+          {
+            "code": "60515-4",
+            "display": "CT Colon and Rectum W air contrast PR"
+          },
+          {
+            "code": "69083-4",
+            "display": "CT Guidance for biopsy of Abdomen-- WO contrast"
+          },
+          {
+            "code": "69084-2",
+            "display": "CTA Chest vessels WO contrast"
+          },
+          {
+            "code": "69087-5",
+            "display": "CT Ankle - bilateral WO contrast"
+          },
+          {
+            "code": "69088-3",
+            "display": "CT Knee - bilateral W contrast IV"
+          },
+          {
+            "code": "69089-1",
+            "display": "CT Knee - bilateral WO contrast"
+          },
+          {
+            "code": "69090-9",
+            "display": "CT Shoulder - bilateral WO contrast"
+          },
+          {
+            "code": "69091-7",
+            "display": "CT Wrist - bilateral W contrast IV"
+          },
+          {
+            "code": "69092-5",
+            "display": "CT Guidance for biopsy of Liver-- WO contrast"
+          },
+          {
+            "code": "69093-3",
+            "display": "CT Guidance for biopsy of Pelvis-- W contrast IV"
+          },
+          {
+            "code": "69094-1",
+            "display": "CT Guidance for biopsy of Pelvis-- WO contrast"
+          },
+          {
+            "code": "69095-8",
+            "display": "CT Urinary bladder W contrast IV"
+          },
+          {
+            "code": "69096-6",
+            "display": "CT Chest limited W contrast IV"
+          },
+          {
+            "code": "69102-2",
+            "display": "CT Ankle - left Arthrogram"
+          },
+          {
+            "code": "69103-0",
+            "display": "CT Elbow - left Arthrogram"
+          },
+          {
+            "code": "69104-8",
+            "display": "CT Extremity - left WO contrast"
+          },
+          {
+            "code": "69105-5",
+            "display": "CT Hip - left Arthrogram"
+          },
+          {
+            "code": "69106-3",
+            "display": "CT Knee - left Arthrogram"
+          },
+          {
+            "code": "69107-1",
+            "display": "CT Wrist - left Arthrogram"
+          },
+          {
+            "code": "69109-7",
+            "display": "CT Ankle - right Arthrogram"
+          },
+          {
+            "code": "69110-5",
+            "display": "CT Elbow - right Arthrogram"
+          },
+          {
+            "code": "69111-3",
+            "display": "CT Extremity - right WO contrast"
+          },
+          {
+            "code": "69112-1",
+            "display": "CT Hip - right Arthrogram"
+          },
+          {
+            "code": "69113-9",
+            "display": "CT Kidney - right"
+          },
+          {
+            "code": "69114-7",
+            "display": "CT Knee - right Arthrogram"
+          },
+          {
+            "code": "69115-4",
+            "display": "CT Wrist - right Arthrogram"
+          },
+          {
+            "code": "69116-2",
+            "display": "CT Sacrum and Coccyx"
+          },
+          {
+            "code": "69117-0",
+            "display": "CT Scapula"
+          },
+          {
+            "code": "69118-8",
+            "display": "CT Scapula WO contrast"
+          },
+          {
+            "code": "69119-6",
+            "display": "CTA Thoracic Aorta WO contrast"
+          },
+          {
+            "code": "69908-2",
+            "display": "CTA Abdominal and Pelvic vessels W contrast IV"
+          },
+          {
+            "code": "70921-2",
+            "display": "CT Guidance for nerve block of Cervical spine"
+          },
+          {
+            "code": "70922-0",
+            "display": "CT Guidance for nerve block of Thoracic spine"
+          },
+          {
+            "code": "70931-1",
+            "display": "CT Thoracic spine W contrast intradisc"
+          },
+          {
+            "code": "72249-6",
+            "display": "CT Facial bones WO contrast"
+          },
+          {
+            "code": "72250-4",
+            "display": "CT Small bowel W contrast PO and W contrast IV"
+          },
+          {
+            "code": "72251-2",
+            "display": "CT Pulmonary arteries for pulmonary embolus"
+          },
+          {
+            "code": "72252-0",
+            "display": "CT Chest and Abdomen and Pelvis WO and W contrast IV"
+          },
+          {
+            "code": "72253-8",
+            "display": "CT Chest and Abdomen and Pelvis WO contrast"
+          },
+          {
+            "code": "72254-6",
+            "display": "CT Chest and Abdomen and Pelvis W contrast IV"
+          },
+          {
+            "code": "72531-7",
+            "display": "CT Colon and Rectum W contrast IV and W air contrast PR"
+          },
+          {
+            "code": "75671-8",
+            "display": "CTA Circle of Willis WO and W contrast IV"
+          },
+          {
+            "code": "75746-8",
+            "display": "CT Guidance for drainage of abscess of Pleural space - bilateral"
+          },
+          {
+            "code": "75748-4",
+            "display": "CT Guidance for fluid aspiration of Cervical spine Intervertebral disc"
+          },
+          {
+            "code": "75752-6",
+            "display": "CT Guidance for drainage of abscess of Pleural space - left"
+          },
+          {
+            "code": "75818-5",
+            "display": "CT Guidance for drainage of abscess of Pleural space - right"
+          },
+          {
+            "code": "77311-9",
+            "display": "CTA Abdominal aorta and Bilateral vessels for endograft"
+          },
+          {
+            "code": "77448-9",
+            "display": "CT Hindfoot and Midfoot"
+          },
+          {
+            "code": "77451-3",
+            "display": "CTA Thoracic and Abdominal Aorta and Bilateral Vessels for endograft"
+          },
+          {
+            "code": "77456-2",
+            "display": "CT Hindfoot and Midfoot W contrast IV"
+          },
+          {
+            "code": "77457-0",
+            "display": "CT Hindfoot and Midfoot WO and W contrast IV"
+          },
+          {
+            "code": "77458-8",
+            "display": "CT Hindfoot and Midfoot WO contrast"
+          },
+          {
+            "code": "77466-1",
+            "display": "CT Hindfoot - left and Midfoot - left W contrast IV"
+          },
+          {
+            "code": "77467-9",
+            "display": "CT Hindfoot - right and Midfoot - right W contrast IV"
+          },
+          {
+            "code": "77468-7",
+            "display": "CT Hindfoot - left and Midfoot - left WO and W contrast IV"
+          },
+          {
+            "code": "77469-5",
+            "display": "CT Hindfoot - right and Midfoot - right WO and W contrast IV"
+          },
+          {
+            "code": "77470-3",
+            "display": "CT Hindfoot - left and Midfoot - left WO contrast"
+          },
+          {
+            "code": "77471-1",
+            "display": "CT Hindfoot - right and Midfoot - right WO contrast"
+          },
+          {
+            "code": "78031-2",
+            "display": "CTA Abdominal Aorta and Bilateral Runoff Vessels WO and W contrast IV"
+          },
+          {
+            "code": "78032-0",
+            "display": "CTA Thoracic and Abdominal Aorta and Bilateral Runoff Vessels WO and W contrast IV"
+          },
+          {
+            "code": "78037-9",
+            "display": "CTA Abdominal Aorta and Bilateral Runoff Vessels W contrast IV"
+          },
+          {
+            "code": "78038-7",
+            "display": "CTA Thoracic and Abdominal Aorta and Bilateral Runoff Vessels W contrast IV"
+          },
+          {
+            "code": "78973-5",
+            "display": "CT scanogram Lower extremity - bilateral for leg measurement WO contrast"
+          },
+          {
+            "code": "79065-9",
+            "display": "CT Abdomen and Pelvis 3D post processing WO contrast"
+          },
+          {
+            "code": "79066-7",
+            "display": "CT Abdomen 3D post processing WO contrast"
+          },
+          {
+            "code": "79067-5",
+            "display": "CT Airway WO contrast"
+          },
+          {
+            "code": "79068-3",
+            "display": "CT Chest for screening W contrast IV"
+          },
+          {
+            "code": "79069-1",
+            "display": "CT Colon and Rectum for screening WO contrast IV and W air contrast PR"
+          },
+          {
+            "code": "79071-7",
+            "display": "CT Colon and Rectum WO contrast IV and W air contrast PR"
+          },
+          {
+            "code": "79072-5",
+            "display": "CT Guidance for radiation treatment of Unspecified body region"
+          },
+          {
+            "code": "79073-3",
+            "display": "CTA Heart and Coronary arteries W contrast IV"
+          },
+          {
+            "code": "79074-1",
+            "display": "CT Kidney and Ureter and Urinary bladder 3D post processing WO and W contrast IV"
+          },
+          {
+            "code": "79075-8",
+            "display": "CT Pelvis by reconstruction W contrast IV"
+          },
+          {
+            "code": "79076-6",
+            "display": "CT Pelvis by reconstruction WO contrast"
+          },
+          {
+            "code": "79077-4",
+            "display": "CTA Pulmonary arteries for pulmonary embolus W contrast IV"
+          },
+          {
+            "code": "79078-2",
+            "display": "CT Cervical spine by reconstruction W contrast IV"
+          },
+          {
+            "code": "79079-0",
+            "display": "CT Cervical spine by reconstruction WO contrast"
+          },
+          {
+            "code": "79080-8",
+            "display": "CT Lumbar spine by reconstruction W contrast IV"
+          },
+          {
+            "code": "79081-6",
+            "display": "CT Lumbar spine by reconstruction WO contrast"
+          },
+          {
+            "code": "79082-4",
+            "display": "CT Thoracic spine by reconstruction W contrast IV"
+          },
+          {
+            "code": "79083-2",
+            "display": "CT Temporal bone by reconstruction W contrast IV"
+          },
+          {
+            "code": "79084-0",
+            "display": "CT Temporal bone by reconstruction WO contrast"
+          },
+          {
+            "code": "79085-7",
+            "display": "CT Biliary ducts WO and W contrast IV"
+          },
+          {
+            "code": "79086-5",
+            "display": "CT Chest for screening WO contrast"
+          },
+          {
+            "code": "79087-3",
+            "display": "CT Heart and Coronary arteries for calcium scoring WO contrast"
+          },
+          {
+            "code": "79088-1",
+            "display": "CT Heart for congenital disease W contrast IV"
+          },
+          {
+            "code": "79089-9",
+            "display": "CT Heart W contrast IV"
+          },
+          {
+            "code": "79090-7",
+            "display": "CT densitometry Lumbar spine WO contrast"
+          },
+          {
+            "code": "79091-5",
+            "display": "CT Thoracic spine by reconstruction WO contrast"
+          },
+          {
+            "code": "79092-3",
+            "display": "CT densitometry Thoracic spine WO contrast"
+          },
+          {
+            "code": "79093-1",
+            "display": "CT Unspecified body region 3D post processing"
+          },
+          {
+            "code": "79094-9",
+            "display": "CT Urinary bladder W contrast intra bladder"
+          },
+          {
+            "code": "79095-6",
+            "display": "CT Teeth"
+          },
+          {
+            "code": "79096-4",
+            "display": "CT Chest 3D post processing WO contrast"
+          },
+          {
+            "code": "79097-2",
+            "display": "CT Chest and Abdomen 3D post processing WO contrast"
+          },
+          {
+            "code": "79098-0",
+            "display": "CT Chest and Abdomen and Pelvis 3D post processing WO contrast"
+          },
+          {
+            "code": "79099-8",
+            "display": "CT Pelvis 3D post processing WO contrast"
+          },
+          {
+            "code": "79101-2",
+            "display": "CT Colon and Rectum for screening W air contrast PR"
+          },
+          {
+            "code": "79103-8",
+            "display": "CT Abdomen W contrast IV"
+          },
+          {
+            "code": "82132-2",
+            "display": "CT Face and Neck WO and W contrast IV"
+          },
+          {
+            "code": "82133-0",
+            "display": "CT Face and Neck WO contrast"
+          },
+          {
+            "code": "82676-8",
+            "display": "CT Guidance for fluid aspiration of Knee - left"
+          },
+          {
+            "code": "82677-6",
+            "display": "CTA Abdominal Aorta W contrast IV"
+          },
+          {
+            "code": "82678-4",
+            "display": "CTA Abdominal Aorta WO and W contrast IV"
+          },
+          {
+            "code": "82679-2",
+            "display": "CTA Abdominal vessels and Pelvis vessels WO and W contrast IV"
+          },
+          {
+            "code": "82680-0",
+            "display": "CTA Head vessels and Neck vessels WO and W contrast IV"
+          },
+          {
+            "code": "82681-8",
+            "display": "CT Guidance for biopsy of Oral tissue"
+          },
+          {
+            "code": "82682-6",
+            "display": "CT Clavicle - left WO contrast"
+          },
+          {
+            "code": "82683-4",
+            "display": "CT Clavicle - right WO contrast"
+          },
+          {
+            "code": "82684-2",
+            "display": "CT Clavicle WO and W contrast IV"
+          },
+          {
+            "code": "82685-9",
+            "display": "CT Clavicle W contrast IV"
+          },
+          {
+            "code": "82686-7",
+            "display": "CT Clavicle - right W contrast IV"
+          },
+          {
+            "code": "82687-5",
+            "display": "CT Clavicle WO contrast"
+          },
+          {
+            "code": "82688-3",
+            "display": "CT Colon and Rectum WO and W contrast IV and W air contrast PR"
+          },
+          {
+            "code": "82689-1",
+            "display": "CT Small bowel W contrast PO and WO and W contrast IV"
+          },
+          {
+            "code": "82690-9",
+            "display": "CT Head and Cervical spine WO contrast"
+          },
+          {
+            "code": "82691-7",
+            "display": "CT Head and Neck W contrast IV"
+          },
+          {
+            "code": "82692-5",
+            "display": "CT Head and Neck WO contrast"
+          },
+          {
+            "code": "82693-3",
+            "display": "CT Pelvis and Lower extremity W contrast IV"
+          },
+          {
+            "code": "82694-1",
+            "display": "CT Lower extremity - bilateral WO and W contrast IV"
+          },
+          {
+            "code": "82695-8",
+            "display": "CT Pelvis and Lower extremity - bilateral W contrast IV"
+          },
+          {
+            "code": "82696-6",
+            "display": "CT Spine Lumbar and Sacrum W contrast IV"
+          },
+          {
+            "code": "82697-4",
+            "display": "CT Spine Lumbar and Sacrum WO contrast"
+          },
+          {
+            "code": "82698-2",
+            "display": "CT Ribs - left W contrast IV"
+          },
+          {
+            "code": "82699-0",
+            "display": "CT Ribs - left WO contrast"
+          },
+          {
+            "code": "82700-6",
+            "display": "CT Ribs - right W contrast IV"
+          },
+          {
+            "code": "82701-4",
+            "display": "CT Ribs - right WO contrast"
+          },
+          {
+            "code": "82702-2",
+            "display": "CT Ribs - right WO and W contrast IV"
+          },
+          {
+            "code": "82703-0",
+            "display": "CT Sacrum and Coccyx WO and W contrast IV"
+          },
+          {
+            "code": "82704-8",
+            "display": "CT Sacrum and Coccyx W contrast IV"
+          },
+          {
+            "code": "82705-5",
+            "display": "CT Scapula - left WO contrast"
+          },
+          {
+            "code": "82706-3",
+            "display": "CT Scapula - right WO contrast"
+          },
+          {
+            "code": "82707-1",
+            "display": "CT Scapula - left WO and W contrast IV"
+          },
+          {
+            "code": "82708-9",
+            "display": "CTA Lower extremity vessels - bilateral WO and W contrast IV"
+          },
+          {
+            "code": "82709-7",
+            "display": "CTA Thoracic Aorta"
+          },
+          {
+            "code": "82710-5",
+            "display": "CTA Lower extremity vessels - right"
+          },
+          {
+            "code": "82711-3",
+            "display": "CTA Lower extremity vessels - bilateral"
+          },
+          {
+            "code": "82712-1",
+            "display": "CTA Lower extremity vessels - left"
+          },
+          {
+            "code": "82713-9",
+            "display": "CTA Upper extremity vessels - left"
+          },
+          {
+            "code": "82714-7",
+            "display": "CTA Upper extremity vessels - right"
+          },
+          {
+            "code": "82715-4",
+            "display": "CT Guidance for fluid aspiration of Knee - right"
+          },
+          {
+            "code": "82716-2",
+            "display": "CT Clavicle - left W contrast IV"
+          },
+          {
+            "code": "82717-0",
+            "display": "CT Ribs - left WO and W contrast IV"
+          },
+          {
+            "code": "82718-8",
+            "display": "CT Scapula - right WO and W contrast IV"
+          },
+          {
+            "code": "82742-8",
+            "display": "CT Head WO and W contrast IV and CT Orbit - bilateral W contrast IV"
+          },
+          {
+            "code": "82802-0",
+            "display": "CT Head WO and W contrast IV and CT Sinuses W contrast IV"
+          },
+          {
+            "code": "82803-8",
+            "display": "CT Head WO and W contrast IV and CT Temporal bone W contrast IV"
+          },
+          {
+            "code": "82804-6",
+            "display": "CT Head WO and W contrast IV and CT Neck W contrast IV"
+          },
+          {
+            "code": "83289-9",
+            "display": "CT for calcium scoring WO contrast and CTA W contrast IV Heart and coronary arteries"
+          },
+          {
+            "code": "83290-7",
+            "display": "CTA Pulmonary arteries - bilateral and Pelvis veins and Lower extremity veins - bilateral for pulmonary embolus and deep vein thrombosis W contrast IV"
+          },
+          {
+            "code": "83291-5",
+            "display": "CT Thumb WO contrast"
+          },
+          {
+            "code": "83292-3",
+            "display": "CT Scapula W contrast"
+          },
+          {
+            "code": "83293-1",
+            "display": "CT Spine Cervical and Spine Lumbar W contrast IV"
+          },
+          {
+            "code": "83294-9",
+            "display": "CT Thoracic and lumbar spine W contrast IV"
+          },
+          {
+            "code": "83295-6",
+            "display": "CT Neck and Superior mediastinum W contrast IV"
+          },
+          {
+            "code": "83296-4",
+            "display": "CT Head W contrast IV and CT Orbit - bilateral WO and W contrast IV"
+          },
+          {
+            "code": "83297-2",
+            "display": "CT Spine Cervical and Spine Lumbar WO and W contrast IV"
+          },
+          {
+            "code": "83298-0",
+            "display": "CTA Chest vessels and Abdominal vessels and Pelvis vessels WO and W contrast IV"
+          },
+          {
+            "code": "83299-8",
+            "display": "CT Chest and Abdomen and Pelvis WO and W contrast IV and CTA Thoracic and abdominal aorta WO and W contrast IV"
+          },
+          {
+            "code": "83300-4",
+            "display": "CT Scapula - bilateral WO and W contrast IV"
+          },
+          {
+            "code": "83301-2",
+            "display": "CT Neck and Superior mediastinum WO and W contrast IV"
+          },
+          {
+            "code": "83302-0",
+            "display": "CT Head and Temporal bone WO contrast"
+          },
+          {
+            "code": "83303-8",
+            "display": "CT Toe WO contrast"
+          },
+          {
+            "code": "83304-6",
+            "display": "CT Cervical and thoracic spine WO contrast"
+          },
+          {
+            "code": "83305-3",
+            "display": "CT Spine Cervical and Spine Lumbar WO contrast"
+          },
+          {
+            "code": "83306-1",
+            "display": "CT Head and Maxillofacial region WO contrast"
+          },
+          {
+            "code": "83307-9",
+            "display": "CT Head and Mandible WO contrast"
+          },
+          {
+            "code": "83308-7",
+            "display": "CT Neck and Superior mediastinum WO contrast"
+          },
+          {
+            "code": "83309-5",
+            "display": "CT Sinuses and Mandible WO contrast"
+          },
+          {
+            "code": "83310-3",
+            "display": "CT Thoracic and lumbar spine WO contrast"
+          },
+          {
+            "code": "85040-4",
+            "display": "CT Unspecified body region 3D printed model"
+          },
+          {
+            "code": "86956-0",
+            "display": "CT Heart WO contrast IV and CT Heart for left ventricular function W contrast IV"
+          },
+          {
+            "code": "86957-8",
+            "display": "CT Salivary gland WO and W contrast IV"
+          },
+          {
+            "code": "86958-6",
+            "display": "CT Neck and Chest WO and W contrast IV"
+          },
+          {
+            "code": "86959-4",
+            "display": "CT Cervical and thoracic spine WO and W contrast IV"
+          },
+          {
+            "code": "86960-2",
+            "display": "CTA Upper extremity vessels - right W contrast IV"
+          },
+          {
+            "code": "86961-0",
+            "display": "CTA Upper extremity vessels - left W contrast IV"
+          },
+          {
+            "code": "86962-8",
+            "display": "CTA Upper extremity vessels - bilateral W contrast IV"
+          },
+          {
+            "code": "86963-6",
+            "display": "CTA Lower extremity vessels - right W contrast IV"
+          },
+          {
+            "code": "86964-4",
+            "display": "CTA Lower extremity vessels - left W contrast IV"
+          },
+          {
+            "code": "86965-1",
+            "display": "CTA Lower extremity vessels - bilateral W contrast IV"
+          },
+          {
+            "code": "86966-9",
+            "display": "CT Salivary gland WO contrast"
+          },
+          {
+            "code": "86967-7",
+            "display": "CT Foot - bilateral WO contrast"
+          },
+          {
+            "code": "86968-5",
+            "display": "CT Hand - bilateral W contrast IV"
+          },
+          {
+            "code": "86969-3",
+            "display": "CT Shoulder - bilateral W contrast IV"
+          },
+          {
+            "code": "86970-1",
+            "display": "CT Sacrum and Coccyx WO contrast"
+          },
+          {
+            "code": "86971-9",
+            "display": "CTA Chest and abdominal vessels WO and W contrast IV"
+          },
+          {
+            "code": "86972-7",
+            "display": "CT Head and Neck WO and W contrast IV"
+          },
+          {
+            "code": "86973-5",
+            "display": "CT Foot - bilateral W contrast IV"
+          },
+          {
+            "code": "86974-3",
+            "display": "CT Thoracic and lumbar spine WO and W contrast IV"
+          },
+          {
+            "code": "86975-0",
+            "display": "CT Heart for left ventricular function W contrast IV"
+          },
+          {
+            "code": "86977-6",
+            "display": "CT Head and Temporal bone W contrast IV"
+          },
+          {
+            "code": "86978-4",
+            "display": "CT Head and Sinuses W contrast IV"
+          },
+          {
+            "code": "86979-2",
+            "display": "CT Pelvis and Hip - bilateral WO contrast"
+          },
+          {
+            "code": "86980-0",
+            "display": "CTA Heart and Coronary arteries WO and W contrast IV"
+          },
+          {
+            "code": "86981-8",
+            "display": "CTA Chest vessels"
+          },
+          {
+            "code": "86982-6",
+            "display": "CTA Chest and abdominal vessels W contrast IV"
+          },
+          {
+            "code": "86983-4",
+            "display": "CTA Chest vessels and Abdominal vessels and Pelvis vessels W contrast IV"
+          },
+          {
+            "code": "86984-2",
+            "display": "CT Cervical and thoracic and lumbar spine W contrast IV"
+          },
+          {
+            "code": "86985-9",
+            "display": "CT Cervical and thoracic spine W contrast IV"
+          },
+          {
+            "code": "86986-7",
+            "display": "CT Neck and Chest W contrast IV"
+          },
+          {
+            "code": "86987-5",
+            "display": "CT Cervical and thoracic and lumbar spine WO contrast"
+          },
+          {
+            "code": "86988-3",
+            "display": "CT Orbit and Face WO contrast"
+          },
+          {
+            "code": "86989-1",
+            "display": "CT Head and Orbit - bilateral W contrast IV"
+          },
+          {
+            "code": "86990-9",
+            "display": "CT Head and Orbit - bilateral WO contrast"
+          },
+          {
+            "code": "86991-7",
+            "display": "CT Head and Maxillofacial region and Cervical spine WO contrast"
+          },
+          {
+            "code": "86992-5",
+            "display": "CT Head and Sinuses WO contrast"
+          },
+          {
+            "code": "87279-6",
+            "display": "CT Chest for screening"
+          },
+          {
+            "code": "87280-4",
+            "display": "CTA Abdominal veins and Pelvis veins and Lower extremity veins - bilateral W contrast IV"
+          },
+          {
+            "code": "87281-2",
+            "display": "CTA Lower extremity veins - bilateral W contrast IV"
+          },
+          {
+            "code": "87836-3",
+            "display": "CTA Hepatic vessels WO and W contrast IV"
+          },
+          {
+            "code": "87837-1",
+            "display": "CTA Aortic valve W contrast IV"
+          },
+          {
+            "code": "87838-9",
+            "display": "CTA Abdominal veins and Pelvis veins W contrast IV"
+          },
+          {
+            "code": "87839-7",
+            "display": "CTA Pulmonary veins W contrast IV"
+          },
+          {
+            "code": "87840-5",
+            "display": "CTA Coronary arteries and Pulmonary arteries W contrast IV"
+          },
+          {
+            "code": "87841-3",
+            "display": "CTA Coronary arteries and Thoracic aorta W contrast IV"
+          },
+          {
+            "code": "87842-1",
+            "display": "CTA Coronary arteries and Pulmonary arteries and Thoracic aorta W contrast IV"
+          },
+          {
+            "code": "87843-9",
+            "display": "CTA Pelvis veins and Lower extremity veins - bilateral"
+          },
+          {
+            "code": "87844-7",
+            "display": "CTA Pelvis veins"
+          },
+          {
+            "code": "87845-4",
+            "display": "CTA Lower extremity vessels"
+          },
+          {
+            "code": "87846-2",
+            "display": "CTA Renal vessels WO and W contrast IV"
+          },
+          {
+            "code": "87847-0",
+            "display": "CT Chest WO and CT angiogram Coronary arteries W contrast IV"
+          },
+          {
+            "code": "87848-8",
+            "display": "CTA Pulmonary arteries - bilateral and Lower extremity veins - bilateral for pulmonary embolus and deep vein thrombosis W contrast IV"
+          },
+          {
+            "code": "87849-6",
+            "display": "CTA Pulmonary arteries - bilateral and Lower extremity veins - bilateral for pulmonary embolus and deep vein thrombosis"
+          },
+          {
+            "code": "87850-4",
+            "display": "CTA Deep inferior epigastric artery WO and W contrast IV"
+          },
+          {
+            "code": "87851-2",
+            "display": "CTA Mesenteric vessels W contrast IV"
+          },
+          {
+            "code": "87852-0",
+            "display": "CTA Mesenteric vessels WO and W contrast IV"
+          },
+          {
+            "code": "87853-8",
+            "display": "CT Abdomen and Pelvis and CT angiogram Abdominal aorta WO and W contrast IV"
+          },
+          {
+            "code": "87854-6",
+            "display": "CT Abdomen and Pelvis and CT angiogram Abdominal aorta W contrast IV"
+          },
+          {
+            "code": "87855-3",
+            "display": "CTA Circle of Willis and Carotid arteries WO and W contrast IV"
+          },
+          {
+            "code": "87856-1",
+            "display": "CTA Circle of Willis and Carotid arteries W contrast IV"
+          },
+          {
+            "code": "87857-9",
+            "display": "CTA Thoracic and abdominal aorta WO and W contrast IV"
+          },
+          {
+            "code": "87858-7",
+            "display": "CTA Deep inferior epigastric artery W contrast IV"
+          },
+          {
+            "code": "87859-5",
+            "display": "CT Thoracic Aorta WO and W contrast IV"
+          },
+          {
+            "code": "87860-3",
+            "display": "CT Thoracic Aorta WO contrast"
+          },
+          {
+            "code": "87861-1",
+            "display": "CT Thoracic and abdominal aorta WO and W contrast IV"
+          },
+          {
+            "code": "87862-9",
+            "display": "CT Abdomen WO and CT Abdomen and Pelvis W contrast IV"
+          },
+          {
+            "code": "87863-7",
+            "display": "CT Abdomen WO and CT Chest and Abdomen W contrast IV"
+          },
+          {
+            "code": "87864-5",
+            "display": "CT Abdomen WO and CT Chest and Abdomen and Pelvis W contrast IV"
+          },
+          {
+            "code": "87865-2",
+            "display": "CT Abdomen and Pelvis WO and CT Chest and Abdomen and Pelvis W contrast IV"
+          },
+          {
+            "code": "87866-0",
+            "display": "CT Kidney and Ureter and Urinary bladder WO and W contrast IV"
+          },
+          {
+            "code": "87867-8",
+            "display": "CT Lumbar spine by reconstruction"
+          },
+          {
+            "code": "87868-6",
+            "display": "CT Lumbar spine by reconstruction WO and W contrast IV"
+          },
+          {
+            "code": "87869-4",
+            "display": "CT Chest and Abdomen and Pelvis"
+          },
+          {
+            "code": "87870-2",
+            "display": "CT Spine Cervical and Thoracic and Lumbar and Sacrum and Coccyx WO and W contrast IV"
+          },
+          {
+            "code": "87871-0",
+            "display": "CT Clavicle - left"
+          },
+          {
+            "code": "87872-8",
+            "display": "CT Clavicle - right"
+          },
+          {
+            "code": "87873-6",
+            "display": "CT Lung parenchyma WO and W contrast IV"
+          },
+          {
+            "code": "87874-4",
+            "display": "CT Mediastinum W contrast IV"
+          },
+          {
+            "code": "87875-1",
+            "display": "CT Thoracic spine by reconstruction"
+          },
+          {
+            "code": "87876-9",
+            "display": "CT Thymus gland"
+          },
+          {
+            "code": "87877-7",
+            "display": "CT Neck and Chest WO contrast"
+          },
+          {
+            "code": "87878-5",
+            "display": "CT Knee - bilateral Arthrogram"
+          },
+          {
+            "code": "87879-3",
+            "display": "CT Lower leg - bilateral WO contrast"
+          },
+          {
+            "code": "87880-1",
+            "display": "CT Thigh - bilateral W contrast IV"
+          },
+          {
+            "code": "87881-9",
+            "display": "CT Thigh - bilateral WO contrast"
+          },
+          {
+            "code": "87882-7",
+            "display": "CT Lower leg - left"
+          },
+          {
+            "code": "87883-5",
+            "display": "CT Upper extremity - bilateral WO and W contrast IV"
+          },
+          {
+            "code": "87884-3",
+            "display": "CT Shoulder - bilateral Arthrogram"
+          },
+          {
+            "code": "87885-0",
+            "display": "CT Upper arm - bilateral WO contrast"
+          },
+          {
+            "code": "87886-8",
+            "display": "CT Finger fifth - left WO contrast"
+          },
+          {
+            "code": "87887-6",
+            "display": "CT Finger fourth - left W contrast IV"
+          },
+          {
+            "code": "87888-4",
+            "display": "CT Finger second - left WO contrast"
+          },
+          {
+            "code": "87889-2",
+            "display": "CT Thumb - left WO contrast"
+          },
+          {
+            "code": "87890-0",
+            "display": "CT Finger fifth - right WO contrast"
+          },
+          {
+            "code": "87891-8",
+            "display": "CT Finger fourth - right WO contrast"
+          },
+          {
+            "code": "87892-6",
+            "display": "CT Finger second - right WO contrast"
+          },
+          {
+            "code": "87893-4",
+            "display": "CT Finger third - right WO contrast"
+          },
+          {
+            "code": "87894-2",
+            "display": "CT Thumb - right WO contrast"
+          },
+          {
+            "code": "87895-9",
+            "display": "CT Finger WO contrast"
+          },
+          {
+            "code": "87896-7",
+            "display": "CT Teeth W contrast IV"
+          },
+          {
+            "code": "87897-5",
+            "display": "CT Head and Pituitary and Sella turcica W contrast IV"
+          },
+          {
+            "code": "87898-3",
+            "display": "CT Teeth.maxilla WO contrast"
+          },
+          {
+            "code": "87899-1",
+            "display": "CT Teeth.mandible WO contrast"
+          },
+          {
+            "code": "87900-7",
+            "display": "CT Mastoid W contrast IV"
+          },
+          {
+            "code": "87901-5",
+            "display": "CT Temporal bone - bilateral WO and W contrast IV"
+          },
+          {
+            "code": "87902-3",
+            "display": "CT Temporal bone - bilateral W contrast IV"
+          },
+          {
+            "code": "87903-1",
+            "display": "CT Temporal bone - bilateral WO contrast"
+          },
+          {
+            "code": "87904-9",
+            "display": "CT Temporomandibular joint - bilateral WO contrast"
+          },
+          {
+            "code": "87906-4",
+            "display": "CT Maxillofacial region - right W contrast IV"
+          },
+          {
+            "code": "87908-0",
+            "display": "CT Head and Maxillofacial region W contrast IV"
+          },
+          {
+            "code": "87909-8",
+            "display": "CT Temporomandibular joint Arthrogram"
+          },
+          {
+            "code": "87910-6",
+            "display": "CT Head and Sinuses WO and W contrast IV"
+          },
+          {
+            "code": "87911-4",
+            "display": "CT Head and Maxillofacial region WO and W contrast IV"
+          },
+          {
+            "code": "87912-2",
+            "display": "CT Sinuses and Orbit WO contrast"
+          },
+          {
+            "code": "87913-0",
+            "display": "CT Pelvis by reconstruction"
+          },
+          {
+            "code": "87914-8",
+            "display": "CT Pelvis bones WO and W contrast IV"
+          },
+          {
+            "code": "87916-3",
+            "display": "CT Guidance for injection of cyst of Unspecified body region"
+          },
+          {
+            "code": "87917-1",
+            "display": "CT Pelvis bones WO contrast"
+          },
+          {
+            "code": "87918-9",
+            "display": "CT Parathyroid gland WO and W contrast IV"
+          },
+          {
+            "code": "87919-7",
+            "display": "CT Pelvis bones"
+          },
+          {
+            "code": "87920-5",
+            "display": "CT Pelvis bones W contrast IV"
+          },
+          {
+            "code": "87921-3",
+            "display": "CT Trachea WO contrast"
+          },
+          {
+            "code": "87922-1",
+            "display": "CT Cervical and thoracic spine W contrast IT"
+          },
+          {
+            "code": "88315-7",
+            "display": "CT Head WO contrast and CT Brain for perfusion W contrast IV and CT angiogram Head and neck vessels W contrast IV"
+          },
+          {
+            "code": "88316-5",
+            "display": "CT Guidance for biopsy of Spinal cord"
+          },
+          {
+            "code": "88317-3",
+            "display": "CT Guidance for fluid aspiration of Chest"
+          },
+          {
+            "code": "88318-1",
+            "display": "CTA Coronary arteries and Pulmonary veins W contrast IV"
+          },
+          {
+            "code": "88319-9",
+            "display": "CT Abdomen and Pelvis and Lower extremity - bilateral W contrast IV"
+          },
+          {
+            "code": "88320-7",
+            "display": "CT Neck W contrast IV and CT angiogram Head and neck vessels W contrast IV"
+          },
+          {
+            "code": "88321-5",
+            "display": "CT Guidance for stereotactic localization of Unspecified body region"
+          },
+          {
+            "code": "88322-3",
+            "display": "CT Chest W contrast IV and CT angiogram Pulmonary arteries for pulmonary embolus W contrast IV"
+          },
+          {
+            "code": "88323-1",
+            "display": "CT Guidance for biopsy of Kidney - right"
+          },
+          {
+            "code": "88324-9",
+            "display": "CT Guidance for biopsy of Lung - left"
+          },
+          {
+            "code": "88325-6",
+            "display": "CT Guidance for biopsy of Kidney - left"
+          },
+          {
+            "code": "88326-4",
+            "display": "CT Head WO contrast and CT Brain for perfusion W contrast IV and CT angiogram Head vessels W contrast IV"
+          },
+          {
+            "code": "88327-2",
+            "display": "CT Head W contrast IV and CT angiogram Head and neck vessels W contrast IV"
+          },
+          {
+            "code": "88526-9",
+            "display": "CT Guidance for biopsy of Lung - right"
+          },
+          {
+            "code": "89283-6",
+            "display": "CT Neck+Chest+Abdomen+Pelvis W contrast IV"
+          },
+          {
+            "code": "89602-7",
+            "display": "CT Guidance for aspiration of cyst of Kidney - left"
+          },
+          {
+            "code": "89603-5",
+            "display": "CT Guidance for aspiration of cyst of Kidney - right"
+          },
+          {
+            "code": "89604-3",
+            "display": "CT Guidance for aspiration of cyst of Kidney - bilateral"
+          },
+          {
+            "code": "89605-0",
+            "display": "CT Guidance for ablation of tissue of Kidney - right"
+          },
+          {
+            "code": "89606-8",
+            "display": "CT Guidance for ablation of tissue of Kidney - left"
+          },
+          {
+            "code": "89607-6",
+            "display": "CT Guidance for fluid aspiration of Lung - right"
+          },
+          {
+            "code": "89608-4",
+            "display": "CT Guidance for fluid aspiration of Lung - left"
+          },
+          {
+            "code": "89609-2",
+            "display": "CT Guidance for fluid aspiration of Pericardial space"
+          },
+          {
+            "code": "89610-0",
+            "display": "CT Guidance for placement of catheter in Peritoneal space"
+          },
+          {
+            "code": "89611-8",
+            "display": "CT Guidance for fluid aspiration of Pleural space - right"
+          },
+          {
+            "code": "89612-6",
+            "display": "CT Guidance for fluid aspiration of Pleural space - left"
+          },
+          {
+            "code": "89613-4",
+            "display": "CT Guidance for drainage of Abdomen-- WO contrast"
+          },
+          {
+            "code": "89614-2",
+            "display": "CT Guidance for biopsy of Kidney-- WO contrast"
+          },
+          {
+            "code": "89615-9",
+            "display": "CT Guidance for drainage of Abdomen-- W contrast IV"
+          },
+          {
+            "code": "89616-7",
+            "display": "CT Guidance for aspiration of cyst of Pancreas-- WO contrast"
+          },
+          {
+            "code": "89617-5",
+            "display": "CT Guidance for aspiration of cyst of Kidney-- W contrast IV"
+          },
+          {
+            "code": "89618-3",
+            "display": "CT Guidance for aspiration of cyst of Kidney-- WO contrast"
+          },
+          {
+            "code": "89619-1",
+            "display": "CT Guidance for biopsy of Pancreas-- W contrast IV"
+          },
+          {
+            "code": "89620-9",
+            "display": "CT Guidance for biopsy of Abdomen-- W contrast IV"
+          },
+          {
+            "code": "89621-7",
+            "display": "CT Guidance for biopsy of Kidney-- W contrast IV"
+          },
+          {
+            "code": "89622-5",
+            "display": "CT Guidance for fluid aspiration of Peritoneal space"
+          },
+          {
+            "code": "89623-3",
+            "display": "CT Guidance for drainage of Peritoneal space"
+          },
+          {
+            "code": "89624-1",
+            "display": "CT Guidance for drainage of abscess of Peritoneal space"
+          },
+          {
+            "code": "89625-8",
+            "display": "CT Guidance for aspiration of cyst of Kidney"
+          },
+          {
+            "code": "89626-6",
+            "display": "CTA Abdominal, Pelvis and Lower extremity vessels W contrast IV"
+          },
+          {
+            "code": "89627-4",
+            "display": "CT Guidance for aspiration of cyst of Ileum - right"
+          },
+          {
+            "code": "89628-2",
+            "display": "CT Guidance for aspiration of cyst of Ileum - left"
+          },
+          {
+            "code": "89629-0",
+            "display": "CT Guidance for aspiration of cyst of Lung - left"
+          },
+          {
+            "code": "89630-8",
+            "display": "CT Guidance for aspiration of cyst of Lung - right"
+          },
+          {
+            "code": "89695-1",
+            "display": "CT Guidance for drainage of Pelvis-- WO contrast"
+          },
+          {
+            "code": "89696-9",
+            "display": "CT Guidance for drainage of Pelvis-- W contrast IV"
+          },
+          {
+            "code": "89697-7",
+            "display": "CT Guidance for drainage of pseudocyst of Pancreas"
+          },
+          {
+            "code": "89698-5",
+            "display": "CT Guidance for injection of Ankle - right"
+          },
+          {
+            "code": "89699-3",
+            "display": "CT Guidance for injection of Ankle - left"
+          },
+          {
+            "code": "89700-9",
+            "display": "CT Guidance for injection of Hip - right"
+          },
+          {
+            "code": "89701-7",
+            "display": "CT Guidance for injection of Hip - left"
+          },
+          {
+            "code": "89702-5",
+            "display": "CT Guidance for injection of Shoulder - bilateral"
+          },
+          {
+            "code": "89703-3",
+            "display": "CT Guidance for injection of Shoulder - left"
+          },
+          {
+            "code": "89704-1",
+            "display": "CT Guidance for injection of Shoulder - right"
+          },
+          {
+            "code": "89705-8",
+            "display": "CT Guidance for injection of Wrist - left"
+          },
+          {
+            "code": "89706-6",
+            "display": "CT Guidance for injection of Knee - bilateral"
+          },
+          {
+            "code": "89707-4",
+            "display": "CT Guidance for injection of Knee - right"
+          },
+          {
+            "code": "89708-2",
+            "display": "CT Guidance for injection of Knee - left"
+          },
+          {
+            "code": "89709-0",
+            "display": "CT Guidance for greater than 2 levels for injection of Spine facet joint"
+          },
+          {
+            "code": "89710-8",
+            "display": "CT Guidance for 2 levels injection of Spine facet joint"
+          },
+          {
+            "code": "89711-6",
+            "display": "CT Guidance for 1 level injection of Spine facet joint"
+          },
+          {
+            "code": "89713-2",
+            "display": "CT Upper extremity joint - right Arthrogram"
+          },
+          {
+            "code": "89714-0",
+            "display": "CT Upper extremity joint - left Arthrogram"
+          },
+          {
+            "code": "89715-7",
+            "display": "CT Lower extremity joint - right Arthrogram"
+          },
+          {
+            "code": "89716-5",
+            "display": "CT Lower extremity joint - left Arthrogram"
+          },
+          {
+            "code": "89717-3",
+            "display": "CT Guidance for stereotactic localization of Unspecified body region-- WO and W contrast IV"
+          },
+          {
+            "code": "89718-1",
+            "display": "CT Guidance for stereotactic localization of Unspecified body region-- W contrast IV"
+          },
+          {
+            "code": "89719-9",
+            "display": "CT Guidance for drainage of abscess of Lung - right"
+          },
+          {
+            "code": "89720-7",
+            "display": "CT Guidance for drainage of abscess of Lung - left"
+          },
+          {
+            "code": "89721-5",
+            "display": "CT Guidance for drainage of abscess of Retroperitoneum"
+          },
+          {
+            "code": "89722-3",
+            "display": "CTA Upper extremity veins - left W contrast IV"
+          },
+          {
+            "code": "89723-1",
+            "display": "CTA Upper extremity veins - right W contrast IV"
+          },
+          {
+            "code": "89827-0",
+            "display": "CT Spine Lumbar and Sacrum WO and W contrast IV"
+          },
+          {
+            "code": "89828-8",
+            "display": "CT Guidance for superficial biopsy of Muscle"
+          },
+          {
+            "code": "89829-6",
+            "display": "CT Guidance for biopsy of Retroperitoneum-- WO contrast"
+          },
+          {
+            "code": "89830-4",
+            "display": "CT Guidance for biopsy of Retroperitoneum-- W contrast IV"
+          },
+          {
+            "code": "89831-2",
+            "display": "CT Guidance for drainage of Subphrenic space"
+          },
+          {
+            "code": "89832-0",
+            "display": "CT Guidance for deep biopsy of Tissue"
+          },
+          {
+            "code": "89833-8",
+            "display": "CT Unspecified body region by reconstruction"
+          },
+          {
+            "code": "89834-6",
+            "display": "CT Clavicle - bilateral WO contrast"
+          },
+          {
+            "code": "89835-3",
+            "display": "CT Brachial plexus W contrast IV"
+          },
+          {
+            "code": "89836-1",
+            "display": "CT Brachial plexus WO contrast"
+          },
+          {
+            "code": "89837-9",
+            "display": "CT Temporal bone - left WO and W contrast IV"
+          },
+          {
+            "code": "89838-7",
+            "display": "CT Temporal bone - right WO and W contrast IV"
+          },
+          {
+            "code": "89839-5",
+            "display": "CT Guidance for biopsy of Sternum"
+          },
+          {
+            "code": "89840-3",
+            "display": "CT Lumbosacral plexus WO contrast"
+          },
+          {
+            "code": "89841-1",
+            "display": "CTA Upper extremity vessels - bilateral WO and W contrast IV"
+          },
+          {
+            "code": "89844-5",
+            "display": "CT Head and Temporal bone WO and W contrast IV"
+          },
+          {
+            "code": "89845-2",
+            "display": "CT Head and Orbit - bilateral WO and W contrast IV"
+          },
+          {
+            "code": "89846-0",
+            "display": "CT Midfoot - left and Forefoot - left WO and W contrast IV"
+          },
+          {
+            "code": "89847-8",
+            "display": "CT Midfoot - right and Forefoot - right"
+          },
+          {
+            "code": "89848-6",
+            "display": "CT Midfoot - right WO and W contrast IV"
+          },
+          {
+            "code": "89849-4",
+            "display": "CT Finger - right WO contrast"
+          },
+          {
+            "code": "89850-2",
+            "display": "CT Finger - left WO contrast"
+          },
+          {
+            "code": "89851-0",
+            "display": "CTA Unspecified body region limited"
+          },
+          {
+            "code": "89852-8",
+            "display": "CT Unspecified body region limited W contrast IV"
+          },
+          {
+            "code": "89853-6",
+            "display": "CT Unspecified body region limited WO contrast"
+          },
+          {
+            "code": "89854-4",
+            "display": "CT Guidance for drainage of abscess of Perirenal space - left"
+          },
+          {
+            "code": "89855-1",
+            "display": "CT Guidance for drainage of abscess of Perirenal space - right"
+          },
+          {
+            "code": "89856-9",
+            "display": "CT Guidance for stereotactic localization of Unspecified body region-- WO contrast"
+          },
+          {
+            "code": "89857-7",
+            "display": "CT Guidance for biopsy of Pleura - right"
+          },
+          {
+            "code": "89858-5",
+            "display": "CT Guidance for biopsy of Pleura - left"
+          },
+          {
+            "code": "89859-3",
+            "display": "CT Guidance for transrectal drainage of abscess of Pelvis"
+          },
+          {
+            "code": "89860-1",
+            "display": "CT Chest W inspiration and expiration"
+          },
+          {
+            "code": "89925-2",
+            "display": "CT Pelvis and Lower extremity - bilateral WO and W contrast IV"
+          },
+          {
+            "code": "89927-8",
+            "display": "CT Heart and aortic root WO contrast for calcium scoring + CTA W contrast IV"
+          },
+          {
+            "code": "89928-6",
+            "display": "CT Guidance for fluid aspiration of Lumbar spine Intervertebral disc"
+          },
+          {
+            "code": "89929-4",
+            "display": "CT Guidance for fluid aspiration of Intervertebral disc"
+          },
+          {
+            "code": "89930-2",
+            "display": "CT Guidance for radiofrequency ablation of Bone"
+          },
+          {
+            "code": "89931-0",
+            "display": "CT Guidance for drainage of Perirectal region"
+          },
+          {
+            "code": "89932-8",
+            "display": "CT Guidance for deep placement of needle of Unspecified body region"
+          },
+          {
+            "code": "89952-6",
+            "display": "CT Guidance for fluid aspiration of Sacroiliac joint - right"
+          },
+          {
+            "code": "89953-4",
+            "display": "CT Guidance for fluid aspiration of Shoulder - right"
+          },
+          {
+            "code": "89954-2",
+            "display": "CT Guidance for fluid aspiration of Shoulder - left"
+          },
+          {
+            "code": "89955-9",
+            "display": "CT Guidance for fluid aspiration of Hip - bilateral"
+          },
+          {
+            "code": "89956-7",
+            "display": "CT Guidance for fluid aspiration of Hip - left"
+          },
+          {
+            "code": "89957-5",
+            "display": "CT Guidance for fluid aspiration of Hip - right"
+          },
+          {
+            "code": "89958-3",
+            "display": "CT Guidance for cryoablation of Pelvis"
+          },
+          {
+            "code": "89959-1",
+            "display": "CT Guidance for biopsy of Soft tissue"
+          },
+          {
+            "code": "89960-9",
+            "display": "CT Guidance for drainage of abscess of Kidney - right"
+          },
+          {
+            "code": "89961-7",
+            "display": "CT Guidance for drainage of abscess of Kidney - left"
+          },
+          {
+            "code": "89962-5",
+            "display": "CT Guidance for radiofrequency ablation of Lung"
+          },
+          {
+            "code": "90307-0",
+            "display": "CT Guidance for injection of Foot joint - right"
+          },
+          {
+            "code": "90308-8",
+            "display": "CT Guidance for needle localization of Thoracic spine"
+          },
+          {
+            "code": "90309-6",
+            "display": "CT Guidance for drainage of Lung - right"
+          },
+          {
+            "code": "90310-4",
+            "display": "CT Guidance for drainage of Retroperitoneum-- WO contrast"
+          },
+          {
+            "code": "90311-2",
+            "display": "CT Guidance for percutaneous replacement of drainage tube of Unspecified body region"
+          },
+          {
+            "code": "90313-8",
+            "display": "CT Guidance for drainage of Pleural space - left"
+          },
+          {
+            "code": "90314-6",
+            "display": "CT Guidance for drainage of Retroperitoneum-- W contrast IV"
+          },
+          {
+            "code": "90315-3",
+            "display": "CT Guidance for deep biopsy of Soft tissue"
+          },
+          {
+            "code": "90316-1",
+            "display": "CT Guidance for superficial biopsy of Soft tissue"
+          },
+          {
+            "code": "90317-9",
+            "display": "CT Guidance for drainage of Lower extremity - left"
+          },
+          {
+            "code": "90318-7",
+            "display": "CT Guidance for drainage of Lower extremity - right"
+          },
+          {
+            "code": "90319-5",
+            "display": "CT Guidance for drainage of Lung - left"
+          },
+          {
+            "code": "90334-4",
+            "display": "CT Guidance for injection of Spine Thoracic Facet Joint"
+          },
+          {
+            "code": "90335-1",
+            "display": "CT Guidance for injection of Spine Lumbar Facet Joint"
+          },
+          {
+            "code": "90336-9",
+            "display": "CT Guidance for injection of Muscle"
+          },
+          {
+            "code": "90352-6",
+            "display": "CT Head and CT Brain for perfusion and CT angiogram Head vessels WO and W contrast IV"
+          },
+          {
+            "code": "90372-4",
+            "display": "CT Guidance for injection of Tendon"
+          },
+          {
+            "code": "90373-2",
+            "display": "CT Guidance for injection of Tendon or ligament"
+          }
+        ]
+      }
+    ]
+  }
+}
