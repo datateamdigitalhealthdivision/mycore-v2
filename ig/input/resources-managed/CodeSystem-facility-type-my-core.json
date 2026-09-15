@@ -16,47 +16,58 @@
   "concept": [
     {
       "code": "hospital-major-specialist",
-      "display": "Major Specialist Hospital"
+      "display": "Major Specialist Hospital",
+      "definition": "MOH hospital providing a broad range of specialist clinical services."
     },
     {
       "code": "hospital-minor-specialist",
-      "display": "Minor Specialist Hospital"
+      "display": "Minor Specialist Hospital",
+      "definition": "MOH hospital providing a limited range of specialist clinical services."
     },
     {
       "code": "hospital-non-specialist",
-      "display": "Non-Specialist Hospital"
+      "display": "Non-Specialist Hospital",
+      "definition": "MOH hospital providing inpatient care without resident specialist services."
     },
     {
       "code": "klinik-1-malaysia",
-      "display": "Klinik 1 Malaysia"
+      "display": "Klinik 1 Malaysia",
+      "definition": "Community clinic established under the Klinik 1Malaysia programme, providing basic outpatient care in urban areas."
     },
     {
       "code": "klinik-desa",
-      "display": "Klinik Desa"
+      "display": "Klinik Desa",
+      "definition": "Rural health clinic staffed by a community nurse, providing maternal, child and basic outpatient care."
     },
     {
       "code": "klinik-kesihatan",
-      "display": "Klinik Kesihatan"
+      "display": "Klinik Kesihatan",
+      "definition": "Government health clinic providing primary care, public health and maternal and child health services."
     },
     {
       "code": "klinik-kesihatan-ibu-anak",
-      "display": "Klinik Kesihatan Ibu dan Anak"
+      "display": "Klinik Kesihatan Ibu dan Anak",
+      "definition": "Health clinic providing maternal and child health services."
     },
     {
       "code": "klinik-komuniti",
-      "display": "Klinik Komuniti"
+      "display": "Klinik Komuniti",
+      "definition": "Community clinic providing outpatient primary care services."
     },
     {
       "code": "special-medical-institution",
-      "display": "Special Medical Institution"
+      "display": "Special Medical Institution",
+      "definition": "MOH institution providing a defined specialist service outside the general hospital network."
     },
     {
       "code": "state-hospital",
-      "display": "State Hospital"
+      "display": "State Hospital",
+      "definition": "MOH hospital designated as the principal referral hospital for a state."
     },
     {
       "code": "unknown",
-      "display": "Not Known"
+      "display": "Not Known",
+      "definition": "Facility type not recorded in the source register."
     }
   ]
 }

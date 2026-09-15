@@ -1,0 +1,79 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "visit-type-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemVisitType (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/visit-type-my-core</tt><p>Encounter Visit Type PIK code</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/visit-type-my-core",
+  "name": "CodeSystemVistTypeMyCore",
+  "title": "CodeSystemVisitType (MY Core)",
+  "status": "active",
+  "date": "2023-01-12T21:27:35.705533+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Encounter Visit Type PIK code",
+  "compositional": false,
+  "content": "complete",
+  "count": 9,
+  "concept": [
+    {
+      "code": "00",
+      "display": "No Information",
+      "definition": "Placeholder used where the visit type was not recorded."
+    },
+    {
+      "code": "01",
+      "display": "New",
+      "definition": "First presentation of this patient to this service for this problem."
+    },
+    {
+      "code": "02",
+      "display": "Elective",
+      "definition": "Encounter planned in advance for a non-urgent condition."
+    },
+    {
+      "code": "03",
+      "display": "Urgent",
+      "definition": "Encounter requiring attention sooner than routine scheduling allows."
+    },
+    {
+      "code": "04",
+      "display": "Follow-up",
+      "definition": "Scheduled return to the same service for continuing care of a previously assessed problem."
+    },
+    {
+      "code": "05",
+      "display": "Routine",
+      "definition": "Encounter conducted under ordinary scheduling with no elevated urgency."
+    },
+    {
+      "code": "06",
+      "display": "Repeat",
+      "definition": "Repeat of a previous encounter for the same purpose."
+    },
+    {
+      "code": "07",
+      "display": "Unscheduled",
+      "definition": "Encounter occurring without prior appointment or scheduling."
+    },
+    {
+      "code": "08",
+      "display": "Continuum",
+      "definition": "Encounter forming part of an ongoing programme of care."
+    }
+  ],
+  "version": "2.1.0",
+  "experimental": false,
+  "caseSensitive": true
+}

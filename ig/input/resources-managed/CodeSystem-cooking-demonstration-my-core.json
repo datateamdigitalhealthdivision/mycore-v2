@@ -1,0 +1,79 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "cooking-demonstration-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemCookingDemonstration (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/cooking-demonstration-my-core</tt><p>Cooking Demonstration</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/cooking-demonstration-my-core",
+  "name": "CodeSystemCookingDemonstrationMyCore",
+  "title": "CodeSystemCookingDemonstration (MY Core)",
+  "status": "active",
+  "date": "2023-03-30T05:43:27.7205555+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Cooking Demonstration",
+  "compositional": false,
+  "content": "complete",
+  "count": 9,
+  "concept": [
+    {
+      "code": "00",
+      "display": "Other",
+      "definition": "Cooking demonstration target group not represented by another code in this code system."
+    },
+    {
+      "code": "01",
+      "display": "Antenatal Mother",
+      "definition": "Demonstration directed at pregnant women."
+    },
+    {
+      "code": "02",
+      "display": "Anaemic Antenatal Mother",
+      "definition": "Demonstration directed at pregnant women with anaemia."
+    },
+    {
+      "code": "03",
+      "display": "Postnatal Mother",
+      "definition": "Demonstration directed at women in the postnatal period."
+    },
+    {
+      "code": "04",
+      "display": "Lactating Mother",
+      "definition": "Demonstration directed at breastfeeding mothers."
+    },
+    {
+      "code": "05",
+      "display": "Infant 6-8 Months",
+      "definition": "Demonstration concerning feeding of infants aged 6 to 8 months."
+    },
+    {
+      "code": "06",
+      "display": "Infant 9-11 Months",
+      "definition": "Demonstration concerning feeding of infants aged 9 to 11 months."
+    },
+    {
+      "code": "07",
+      "display": "Young Child 1-3 Years",
+      "definition": "Demonstration concerning feeding of children aged 1 to 3 years."
+    },
+    {
+      "code": "08",
+      "display": "Child 4-5 Years",
+      "definition": "Demonstration concerning feeding of children aged 4 to 5 years."
+    }
+  ],
+  "version": "2.1.0",
+  "experimental": false,
+  "caseSensitive": true
+}

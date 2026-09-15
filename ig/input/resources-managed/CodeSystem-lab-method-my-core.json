@@ -1,0 +1,499 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "lab-method-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemLabMethod (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/lab-method-my-core</tt><p>Malaysia Lab method</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/lab-method-my-core",
+  "version": "2.1.0",
+  "name": "CodeSystemLabMethodMyCore",
+  "title": "CodeSystemLabMethod (MY Core)",
+  "status": "active",
+  "date": "2023-03-30T05:43:27.7205555+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Malaysia Lab method",
+  "compositional": false,
+  "content": "complete",
+  "count": 93,
+  "concept": [
+    {
+      "code": "00",
+      "display": "No Information",
+      "definition": "Placeholder used when the examination method was not recorded at the source system. Not a method."
+    },
+    {
+      "code": "01",
+      "display": "Immune Stain",
+      "definition": "Immunohistochemical stain using labelled antibodies to demonstrate a specific antigen in tissue."
+    },
+    {
+      "code": "02",
+      "display": "Other stain",
+      "definition": "Any special stain not separately enumerated in this code system."
+    },
+    {
+      "code": "03",
+      "display": "Masson Trichrome",
+      "definition": "Trichrome stain differentiating collagen from muscle and cytoplasm; used to assess fibrosis."
+    },
+    {
+      "code": "04",
+      "display": "Alcian Blue PAS",
+      "definition": "Combined Alcian blue and periodic acid-Schiff stain distinguishing acidic from neutral mucins."
+    },
+    {
+      "code": "05",
+      "display": "PAS",
+      "definition": "Periodic acid-Schiff stain demonstrating glycogen, neutral mucins, basement membrane and fungal cell walls."
+    },
+    {
+      "code": "06",
+      "display": "PAS+D",
+      "definition": "Periodic acid-Schiff stain with diastase digestion, distinguishing glycogen from other PAS-positive material."
+    },
+    {
+      "code": "07",
+      "display": "Mucincarmine",
+      "definition": "Mucicarmine stain demonstrating epithelial mucin; also stains the capsule of Cryptococcus."
+    },
+    {
+      "code": "08",
+      "display": "AFB",
+      "definition": "Acid-fast bacilli stain demonstrating mycobacteria, which retain carbol fuchsin after acid-alcohol decolourisation."
+    },
+    {
+      "code": "09",
+      "display": "Wade Fite",
+      "definition": "Modified acid-fast stain for weakly acid-fast organisms, principally Mycobacterium leprae."
+    },
+    {
+      "code": "10",
+      "display": "Giemsa",
+      "definition": "Romanowsky stain used for blood films, bone marrow and haemoparasites."
+    },
+    {
+      "code": "11",
+      "display": "Gram Stain",
+      "definition": "Differential stain separating Gram-positive from Gram-negative bacteria by cell wall retention of crystal violet."
+    },
+    {
+      "code": "12",
+      "display": "Luxol Fast Blue",
+      "definition": "Stain demonstrating myelin in central nervous system tissue."
+    },
+    {
+      "code": "13",
+      "display": "Methanamine",
+      "definition": "Methenamine silver stain demonstrating fungal cell walls and basement membrane."
+    },
+    {
+      "code": "14",
+      "display": "Van Gieson",
+      "definition": "Stain differentiating collagen from muscle and fibrin."
+    },
+    {
+      "code": "15",
+      "display": "Verhoeff-Van Gieson",
+      "definition": "Elastic stain combining Verhoeff elastin with Van Gieson counterstain; used to assess vessel wall elastic laminae."
+    },
+    {
+      "code": "16",
+      "display": "Reticulin",
+      "definition": "Silver impregnation stain demonstrating reticulin fibres; used to assess marrow fibrosis and tissue architecture."
+    },
+    {
+      "code": "17",
+      "display": "Von Kossa stain",
+      "definition": "Silver stain demonstrating calcium deposits in tissue."
+    },
+    {
+      "code": "18",
+      "display": "Fouchet stain",
+      "definition": "Stain demonstrating bile pigment in tissue."
+    },
+    {
+      "code": "19",
+      "display": "Congo red stain",
+      "definition": "Stain demonstrating amyloid, which shows apple-green birefringence under polarised light."
+    },
+    {
+      "code": "20",
+      "display": "Oil red O stain",
+      "definition": "Lipid stain performed on frozen sections; demonstrates neutral fat."
+    },
+    {
+      "code": "21",
+      "display": "Masson Fontana",
+      "definition": "Silver stain demonstrating melanin and argentaffin granules."
+    },
+    {
+      "code": "22",
+      "display": "Rhodamine stain",
+      "definition": "Fluorescent acid-fast stain for mycobacteria, read under fluorescence microscopy."
+    },
+    {
+      "code": "23",
+      "display": "Bielschowsky stain",
+      "definition": "Silver impregnation stain demonstrating axons and neurofibrillary structures."
+    },
+    {
+      "code": "24",
+      "display": "PTAH",
+      "definition": "Phosphotungstic acid haematoxylin stain demonstrating glial fibres, muscle striations and fibrin."
+    },
+    {
+      "code": "25",
+      "display": "Grimelius",
+      "definition": "Silver stain demonstrating argyrophilic neuroendocrine granules."
+    },
+    {
+      "code": "26",
+      "display": "Touludine Blue",
+      "definition": "Metachromatic stain demonstrating mast cell granules, cartilage matrix and mucins."
+    },
+    {
+      "code": "27",
+      "display": "Alcian Blue",
+      "definition": "Stain demonstrating acidic mucins and mucosubstances."
+    },
+    {
+      "code": "28",
+      "display": "Melanin Bleach",
+      "definition": "Bleaching procedure removing melanin pigment so underlying tissue detail can be assessed."
+    },
+    {
+      "code": "29",
+      "display": "Sudan IV",
+      "definition": "Lipid stain performed on frozen sections."
+    },
+    {
+      "code": "30",
+      "display": "Crystal Violet",
+      "definition": "Stain used to demonstrate amyloid and certain bacteria."
+    },
+    {
+      "code": "31",
+      "display": "Molgen",
+      "definition": "Molecular genetics technique, not otherwise specified."
+    },
+    {
+      "code": "32",
+      "display": "FISH",
+      "definition": "Fluorescence in situ hybridisation using labelled probes to detect specific nucleic acid sequences in situ."
+    },
+    {
+      "code": "33",
+      "display": "Wet preparation",
+      "definition": "Unstained microscopic examination of a specimen suspended in fluid."
+    },
+    {
+      "code": "34",
+      "display": "Gram stain",
+      "definition": "Differential stain separating Gram-positive from Gram-negative bacteria."
+    },
+    {
+      "code": "35",
+      "display": "Manual",
+      "definition": "Manual technique performed without automated instrumentation."
+    },
+    {
+      "code": "36",
+      "display": "Latex agglutination",
+      "definition": "Agglutination of antibody-coated latex particles by a target antigen."
+    },
+    {
+      "code": "37",
+      "display": "Rapid ICT",
+      "definition": "Rapid immunochromatographic lateral flow test giving a qualitative result at the point of testing."
+    },
+    {
+      "code": "38",
+      "display": "Culture",
+      "definition": "Growth of organisms on or in a culture medium for isolation and identification."
+    },
+    {
+      "code": "39",
+      "display": "Agar diffusion",
+      "definition": "Antimicrobial susceptibility testing by diffusion of antibiotic from a disc into inoculated agar."
+    },
+    {
+      "code": "40",
+      "display": "Gradient strip",
+      "definition": "Antimicrobial susceptibility testing using a strip carrying a predefined antibiotic concentration gradient."
+    },
+    {
+      "code": "41",
+      "display": "MIC",
+      "definition": "Determination of the minimum inhibitory concentration of an antimicrobial agent."
+    },
+    {
+      "code": "42",
+      "display": "Gradient strip ARD",
+      "definition": "Gradient strip method used to detect antimicrobial resistance determinants."
+    },
+    {
+      "code": "43",
+      "display": "PCR",
+      "definition": "Polymerase chain reaction amplifying a target nucleic acid sequence."
+    },
+    {
+      "code": "44",
+      "display": "Probe.amp.tar",
+      "definition": "Target amplification by nucleic acid probe."
+    },
+    {
+      "code": "45",
+      "display": "Molecular",
+      "definition": "Molecular technique, not otherwise specified."
+    },
+    {
+      "code": "46",
+      "display": "Latex agglutination",
+      "definition": "Agglutination of antibody-coated latex particles by a target antigen."
+    },
+    {
+      "code": "47",
+      "display": "ZN Stain",
+      "definition": "Ziehl-Neelsen acid-fast stain for mycobacteria."
+    },
+    {
+      "code": "48",
+      "display": "IF Stain",
+      "definition": "Immunofluorescence stain using fluorochrome-labelled antibody."
+    },
+    {
+      "code": "49",
+      "display": "Modified ZN",
+      "definition": "Modified Ziehl-Neelsen stain for weakly acid-fast organisms including Nocardia and coccidian parasites."
+    },
+    {
+      "code": "50",
+      "display": "IF",
+      "definition": "Immunofluorescence technique."
+    },
+    {
+      "code": "51",
+      "display": "IA",
+      "definition": "Immunoassay, not otherwise specified."
+    },
+    {
+      "code": "52",
+      "display": "ICT(Immunochromatographic)",
+      "definition": "Immunochromatographic lateral flow assay."
+    },
+    {
+      "code": "53",
+      "display": "Floculation",
+      "definition": "Antigen-antibody reaction producing visible flocculation."
+    },
+    {
+      "code": "54",
+      "display": "Agglutination",
+      "definition": "Antigen-antibody reaction producing visible clumping, reported qualitatively."
+    },
+    {
+      "code": "55",
+      "display": "Agglutination (titre)",
+      "definition": "Agglutination reaction reported as an endpoint titre."
+    },
+    {
+      "code": "56",
+      "display": "Not Mention",
+      "definition": "Placeholder used when the source system did not state the method."
+    },
+    {
+      "code": "57",
+      "display": "Not mention (titre)",
+      "definition": "Placeholder used when the method was not stated but a titre was reported."
+    },
+    {
+      "code": "58",
+      "display": "IIP",
+      "definition": "Indirect immunoperoxidase technique."
+    },
+    {
+      "code": "59",
+      "display": "KOH preparation",
+      "definition": "Potassium hydroxide preparation clearing keratin to reveal fungal elements."
+    },
+    {
+      "code": "60",
+      "display": "India ink preparation",
+      "definition": "Negative staining preparation demonstrating the capsule of Cryptococcus in cerebrospinal fluid."
+    },
+    {
+      "code": "61",
+      "display": "LPCB stain",
+      "definition": "Lactophenol cotton blue stain demonstrating fungal morphology."
+    },
+    {
+      "code": "62",
+      "display": "wet preparation",
+      "definition": "Unstained microscopic examination of a specimen suspended in fluid."
+    },
+    {
+      "code": "63",
+      "display": "Environmental culture",
+      "definition": "Culture of a specimen taken from the care environment rather than from a patient."
+    },
+    {
+      "code": "64",
+      "display": "Colorzyme",
+      "definition": "Colorimetric enzyme-based detection method."
+    },
+    {
+      "code": "65",
+      "display": "Elisa",
+      "definition": "Enzyme-linked immunosorbent assay."
+    },
+    {
+      "code": "66",
+      "display": "ICT",
+      "definition": "Immunochromatographic test."
+    },
+    {
+      "code": "67",
+      "display": "EIA/ICT",
+      "definition": "Enzyme immunoassay or immunochromatographic test, method not further specified."
+    },
+    {
+      "code": "68",
+      "display": "Immunoblot",
+      "definition": "Detection of antigen or antibody by transfer to a membrane followed by immunological detection."
+    },
+    {
+      "code": "69",
+      "display": "FEI",
+      "definition": "Fluorescent enzyme immunoassay."
+    },
+    {
+      "code": "70",
+      "display": "IB",
+      "definition": "Immunoblot technique."
+    },
+    {
+      "code": "71",
+      "display": "Flow cytometry",
+      "definition": "Analysis of cell populations by laser interrogation of individually suspended labelled cells."
+    },
+    {
+      "code": "72",
+      "display": "RAST",
+      "definition": "Radioallergosorbent test measuring allergen-specific IgE."
+    },
+    {
+      "code": "73",
+      "display": "LA",
+      "definition": "Latex agglutination."
+    },
+    {
+      "code": "74",
+      "display": "Nephelometry",
+      "definition": "Measurement of analyte concentration by light scattered from an antigen-antibody complex."
+    },
+    {
+      "code": "75",
+      "display": "FC",
+      "definition": "Flow cytometry."
+    },
+    {
+      "code": "76",
+      "display": "EM",
+      "definition": "Electron microscopy."
+    },
+    {
+      "code": "77",
+      "display": "IA rapid",
+      "definition": "Rapid immunoassay giving a result at the point of testing."
+    },
+    {
+      "code": "78",
+      "display": "IFAT",
+      "definition": "Indirect fluorescent antibody test."
+    },
+    {
+      "code": "79",
+      "display": "Western blot",
+      "definition": "Immunoblot separating proteins by electrophoresis before membrane transfer and immunological detection."
+    },
+    {
+      "code": "80",
+      "display": "sequencing",
+      "definition": "Determination of the nucleotide order of a nucleic acid target."
+    },
+    {
+      "code": "81",
+      "display": "RT-PCR",
+      "definition": "Reverse transcription polymerase chain reaction amplifying an RNA target via complementary DNA."
+    },
+    {
+      "code": "82",
+      "display": "Probe.amp.tar",
+      "definition": "Target amplification by nucleic acid probe."
+    },
+    {
+      "code": "83",
+      "display": "Serology",
+      "definition": "Detection of antibody or antigen in serum."
+    },
+    {
+      "code": "84",
+      "display": "Isolation",
+      "definition": "Recovery of an organism in pure culture from a clinical specimen."
+    },
+    {
+      "code": "85",
+      "display": "Giemsa stain",
+      "definition": "Romanowsky stain used for blood films, bone marrow and haemoparasites."
+    },
+    {
+      "code": "86",
+      "display": "DMSO stain/Gram chromotrope stain",
+      "definition": "Modified trichrome stain demonstrating microsporidial spores in faecal and tissue specimens."
+    },
+    {
+      "code": "87",
+      "display": "Wet Mount",
+      "definition": "Unstained microscopic examination of a specimen under a coverslip."
+    },
+    {
+      "code": "88",
+      "display": "Direct smear",
+      "definition": "Microscopic examination of material applied directly to a slide without culture or concentration."
+    },
+    {
+      "code": "89",
+      "display": "Fecal concentration",
+      "definition": "Concentration of a faecal specimen to increase recovery of ova, cysts and parasites."
+    },
+    {
+      "code": "90",
+      "display": "Trichrome stain",
+      "definition": "Trichrome stain demonstrating intestinal protozoa in faecal specimens."
+    },
+    {
+      "code": "91",
+      "display": "Multiplex PCR",
+      "definition": "Polymerase chain reaction amplifying several targets in a single reaction."
+    },
+    {
+      "code": "92",
+      "display": "Seminested PCR",
+      "definition": "Two-stage polymerase chain reaction in which the second reaction shares one primer with the first."
+    }
+  ],
+  "experimental": false,
+  "caseSensitive": true
+}

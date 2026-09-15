@@ -1,0 +1,114 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "reason-code-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemReasonCode (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/reason-code-my-core</tt><p>Reason for encounter codes in Malaysia</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/reason-code-my-core",
+  "version": "2.1.0",
+  "name": "CodeSystemReasonCodeMyCore",
+  "title": "CodeSystemReasonCode (MY Core)",
+  "status": "active",
+  "date": "2023-01-12T21:13:03.0089063+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Reason for encounter codes in Malaysia",
+  "compositional": false,
+  "content": "complete",
+  "count": 16,
+  "concept": [
+    {
+      "code": "300",
+      "display": "EMERGENCY PRESENTATION",
+      "definition": "Presentation to an emergency department requiring immediate assessment."
+    },
+    {
+      "code": "310",
+      "display": "UNSCHEDULED ED RETURNS POST-TRAUMA",
+      "definition": "Unplanned return to an emergency department following an earlier trauma presentation."
+    },
+    {
+      "code": "320",
+      "display": "RETURN VISIT, PLANNED FOLLOW UP",
+      "definition": "Return attendance arranged at a previous encounter for continuing care."
+    },
+    {
+      "code": "330",
+      "display": "PRE-ARRANGED ADMISSION",
+      "definition": "Admission arranged in advance of the patient's arrival."
+    },
+    {
+      "code": "340",
+      "display": "DEAD ON ARRIVAL",
+      "definition": "Patient found to have died before arrival at the facility."
+    },
+    {
+      "code": "ADM",
+      "display": "ADMISSION",
+      "definition": "Encounter resulting in admission to an inpatient bed."
+    },
+    {
+      "code": "ETD",
+      "display": "EMERGENCY",
+      "definition": "Presentation to the emergency and trauma department."
+    },
+    {
+      "code": "DWC",
+      "display": "DEATH WITH COVID -19",
+      "definition": "Death occurring in a person with confirmed COVID-19 where COVID-19 was not the underlying cause."
+    },
+    {
+      "code": "DDC",
+      "display": "DEATH DUE TO COVID-19",
+      "definition": "Death for which COVID-19 was the underlying cause."
+    },
+    {
+      "code": "HCW",
+      "display": "HEALTHCARE WORKER",
+      "definition": "Person employed in a healthcare setting."
+    },
+    {
+      "code": "PUS",
+      "display": "PERSON UNDER SURVEILLANCE",
+      "definition": "Person under surveillance for a communicable disease following possible exposure."
+    },
+    {
+      "code": "SP",
+      "display": "SPECIALIST",
+      "definition": "Encounter with a specialist service."
+    },
+    {
+      "code": "CLS",
+      "display": "CLOSE CONTACT",
+      "definition": "Person identified as having had close contact with a confirmed case."
+    },
+    {
+      "code": "OTH",
+      "display": "OTHERS",
+      "definition": "Reason recorded but not represented by another code in this code system."
+    },
+    {
+      "code": "PUI",
+      "display": "PATIENT UNDER INVESTIGATION",
+      "definition": "Person under investigation for a suspected communicable disease."
+    },
+    {
+      "code": "C19",
+      "display": "CONFIRMED COVID-19",
+      "definition": "Person with laboratory-confirmed COVID-19."
+    }
+  ],
+  "experimental": false,
+  "caseSensitive": true
+}

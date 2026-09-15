@@ -28,62 +28,62 @@
     {
       "code": "0",
       "display": "No Information",
-      "definition": "No Information"
+      "definition": "Placeholder used where religion was not recorded."
     },
     {
       "code": "1",
       "display": "Islam",
-      "definition": "Islam"
+      "definition": "Adherent of Islam."
     },
     {
       "code": "2",
       "display": "Christianity",
-      "definition": "Christianity"
+      "definition": "Adherent of Christianity, denomination not distinguished."
     },
     {
       "code": "3",
       "display": "Buddhism",
-      "definition": "Buddhism"
+      "definition": "Adherent of Buddhism."
     },
     {
       "code": "4",
       "display": "Hinduism",
-      "definition": "Hinduism"
+      "definition": "Adherent of Hinduism."
     },
     {
       "code": "5",
       "display": "Sikhism",
-      "definition": "Sikhism"
+      "definition": "Adherent of Sikhism."
     },
     {
       "code": "6",
       "display": "Atheist",
-      "definition": "Atheist"
+      "definition": "Person who does not hold a belief in the existence of a deity."
     },
     {
       "code": "7",
       "display": "Taoism",
-      "definition": "Taoism"
+      "definition": "Adherent of Taoism."
     },
     {
       "code": "8",
       "display": "Confucianism",
-      "definition": "Confucianism"
+      "definition": "Adherent of Confucianism."
     },
     {
       "code": "9",
       "display": "Bahaism",
-      "definition": "Bahaism"
+      "definition": "Adherent of the Bahai Faith."
     },
     {
       "code": "10",
       "display": "Animism",
-      "definition": "Animism"
+      "definition": "Adherent of an animist or traditional indigenous belief system."
     },
     {
       "code": "99",
       "display": "Others",
-      "definition": "Others"
+      "definition": "Religious affiliation recorded but not represented by another code in this code system."
     }
   ],
   "version": "2.1.0",

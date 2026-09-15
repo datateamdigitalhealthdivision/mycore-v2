@@ -1,0 +1,109 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "diagnostic-procedure-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemDiagnosticProcedure (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/diagnostic-procedure-my-core</tt><p>Diagnostic Procedure</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/diagnostic-procedure-my-core",
+  "name": "CodeSystemDiagnosticProcedureMyCore",
+  "title": "CodeSystemDiagnosticProcedure (MY Core)",
+  "status": "active",
+  "date": "2023-03-30T05:43:27.7205555+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Diagnostic Procedure",
+  "compositional": false,
+  "content": "complete",
+  "count": 15,
+  "concept": [
+    {
+      "code": "10",
+      "display": "Rapid Test Human Immunodeficiency Virus (HIV)",
+      "definition": "Point-of-care rapid antibody test for human immunodeficiency virus."
+    },
+    {
+      "code": "11",
+      "display": "Hess Test",
+      "definition": "Capillary fragility test using a sphygmomanometer cuff, used in dengue assessment."
+    },
+    {
+      "code": "12",
+      "display": "Daily Blood Pressure (BP)",
+      "definition": "Serial blood pressure measurement recorded daily."
+    },
+    {
+      "code": "13",
+      "display": "Rectal Swab",
+      "definition": "Collection of a swab from the rectum for laboratory examination."
+    },
+    {
+      "code": "14",
+      "display": "Auriscopy / Ophthalmoscopy",
+      "definition": "Examination of the ear canal and tympanic membrane, or of the ocular fundus, using a handheld instrument."
+    },
+    {
+      "code": "00",
+      "display": "Other",
+      "definition": "Diagnostic procedure not represented by another code in this code system."
+    },
+    {
+      "code": "01",
+      "display": "Peak Flow Meter",
+      "definition": "Measurement of peak expiratory flow rate using a handheld meter."
+    },
+    {
+      "code": "02",
+      "display": "Fundus Camera",
+      "definition": "Photographic imaging of the retina and optic disc."
+    },
+    {
+      "code": "03",
+      "display": "Electrocardiogram (ECG)",
+      "definition": "Recording of the electrical activity of the heart."
+    },
+    {
+      "code": "04",
+      "display": "Carbon Monoxide (CO) Analyzer",
+      "definition": "Measurement of exhaled carbon monoxide, used in smoking cessation assessment."
+    },
+    {
+      "code": "05",
+      "display": "Glucometer Test",
+      "definition": "Capillary blood glucose measurement using a handheld meter."
+    },
+    {
+      "code": "06",
+      "display": "Spirometer",
+      "definition": "Measurement of lung volumes and airflow."
+    },
+    {
+      "code": "07",
+      "display": "Vision Test",
+      "definition": "Assessment of visual acuity."
+    },
+    {
+      "code": "08",
+      "display": "Sputum Smear For Acid-Fast Bacillus (AFB)",
+      "definition": "Microscopic examination of sputum for acid-fast bacilli."
+    },
+    {
+      "code": "09",
+      "display": "Skin Smear",
+      "definition": "Microscopic examination of a skin smear, principally for Mycobacterium leprae."
+    }
+  ],
+  "version": "2.1.0",
+  "experimental": false,
+  "caseSensitive": true
+}
