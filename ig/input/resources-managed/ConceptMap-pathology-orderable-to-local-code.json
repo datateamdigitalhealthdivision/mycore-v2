@@ -10,7 +10,6 @@
   "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
   "description": "Maps Malaysian national orderable pathology test codes to Malaysian interim codes, for tests awaiting a permanent LOINC assignment.",
   "sourceUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-orderable-my-core",
-  "targetUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-local-code-my-core",
   "group": [
     {
       "source": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
@@ -15397,5 +15396,6 @@
       ],
       "targetVersion": "1.0.0"
     }
-  ]
+  ],
+  "targetCanonical": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-local-code-my-core"
 }

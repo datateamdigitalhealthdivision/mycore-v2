@@ -10,7 +10,6 @@
   "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
   "description": "Maps Malaysian national orderable pathology test codes to international LOINC codes. LOINC is referenced, never redistributed or modified.",
   "sourceUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-orderable-my-core",
-  "targetUri": "http://loinc.org",
   "group": [
     {
       "source": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
@@ -15379,5 +15378,6 @@
       ],
       "targetVersion": "2.82"
     }
-  ]
+  ],
+  "targetCanonical": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-loinc-my-core"
 }
