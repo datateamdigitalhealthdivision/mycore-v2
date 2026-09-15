@@ -302,11 +302,36 @@ def write_json(path: Path, resource: dict) -> None:
         handle.write('\n')
 
 
+IG_VERSION = '2.1.0'
+
+
+def stamp_publication_metadata(resource: dict) -> None:
+    """Normalise publication metadata on every regenerated artefact (CHG-42).
+
+    This lane is wiped and rebuilt on every build, so the stamp lives here
+    rather than in the emitted files — editing those by hand is silently lost.
+
+    Only metadata is touched. Concept content is never altered: definitions and
+    designations that are missing upstream stay missing and are reported, because
+    inventing terminology content to clear a warning hides the gap from vendors.
+    """
+    rt = resource.get('resourceType', '')
+    resource['version'] = IG_VERSION
+    resource.setdefault('status', 'active')
+    resource['experimental'] = False
+    if rt == 'CodeSystem':
+        resource.setdefault('caseSensitive', True)
+        resource.setdefault('content', 'complete')
+        if isinstance(resource.get('concept'), list):
+            resource['count'] = len(resource['concept'])
+
+
 def publish_resource(resource: dict, source_path: str, processed_rows: list, legacy_id: str | None = None) -> None:
     if is_fsh_owned(resource.get('id', ''), resource.get('resourceType', '')):
         return
     if not is_in_scope(resource.get('id', ''), resource.get('resourceType', '')):
         return
+    stamp_publication_metadata(resource)
     out_path = DEST_ROOT / f"{resource['resourceType']}-{resource['id']}.json"
     write_json(out_path, resource)
     processed_rows.append({

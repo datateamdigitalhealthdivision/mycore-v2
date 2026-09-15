@@ -2,10 +2,10 @@
   "resourceType": "CodeSystem",
   "id": "pathology-orderable-my-core",
   "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
-  "version": "1.0.0",
+  "version": "2.1.0",
   "name": "PathologyOrderableMyCore",
   "title": "Malaysian Pathology Catalogue - Orderable Tests",
-  "status": "draft",
+  "status": "active",
   "experimental": false,
   "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
   "description": "National orderable pathology test codes for Malaysia. Each concept is a test that may be ordered. Mappings to LOINC and to Malaysian interim codes are published as separate ConceptMaps.",
@@ -116605,5 +116605,6 @@
         }
       ]
     }
-  ]
+  ],
+  "count": 2934
 }

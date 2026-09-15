@@ -20,7 +20,7 @@ Description: "Admission, transfer or discharge note, carried as a FHIR document.
 * section MS
 * section.title MS
 * section.code 1..1 MS
-* section.code from http://hl7.org/fhir/ValueSet/doc-section-codes (extensible)
-* section.code ^short = "LOINC section codes: 46241-6 admission diagnosis, 11535-2 discharge diagnosis, 8648-8 hospital course, 10160-0 medications, 48765-2 allergies, 11348-0 past medical history, 47519-4 procedures, 30954-2 results, 42344-2 discharge instructions, 18776-5 plan of care."
+* section.code from $VS-ADT-SECTION (required)
+* section.code ^short = "LOINC. The eleven section codes of the HL7 Europe Hospital Discharge Report structure, which are also the codes the 2016 MyHIX CDA profile used."
 * section.text MS
 * section.entry MS
