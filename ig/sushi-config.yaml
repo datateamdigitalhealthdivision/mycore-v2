@@ -37,6 +37,14 @@ pages:
     title: Terminology And Identifiers
   terminology-index.md:
     title: Terminology Index
+  examples.md:
+    title: Examples
+  capability-statements.md:
+    title: Capability Statements
+  licence-and-legal.md:
+    title: Licence And Legal
+  change-log.md:
+    title: Change Log
   security-and-audit.md:
     title: Security And Audit
   conformance-testing.md:
@@ -65,22 +73,31 @@ pages:
     title: Downloads
 menu:
   Home: index.html
-  National Overview: overview.html
   Use Cases: use-cases-v21.html
-  Reviewer Guide: reviewer-guide.html
-  Governance And Scope: governance-and-scope.html
-  Conformance Model: conformance-model.html
-  Profile Families: profile-families.html
-  Terminology And Identifiers: terminology-and-identifiers.html
-  Terminology Index: terminology-index.html
-  Security And Audit: security-and-audit.html
-  Conformance Testing: conformance-testing.html
-  Versioning And Change Management: versioning-and-change-management.html
-  Implementation Partner Guide: implementation-partner-guide.html
-  Endpoints And Publication Model: endpoints-and-publication-model.html
-  Technical Annexes: annexes.html
-  Downloads: downloads.html
-  Artefact Index: artifacts.html
+  Conformance:
+    Conformance Model: conformance-model.html
+    Conformance Testing: conformance-testing.html
+    Security And Audit: security-and-audit.html
+    Versioning And Change Management: versioning-and-change-management.html
+  Guidance:
+    National Overview: overview.html
+    Governance And Scope: governance-and-scope.html
+    Implementation Partner Guide: implementation-partner-guide.html
+    Endpoints And Publication Model: endpoints-and-publication-model.html
+    Reviewer Guide: reviewer-guide.html
+  FHIR Artefacts:
+    Artefact Index: artifacts.html
+    Profiles And Extensions: profile-families.html
+    Terminology And Identifiers: terminology-and-identifiers.html
+    Terminology Index: terminology-index.html
+    Capability Statements: capability-statements.html
+  Examples: examples.html
+  Support:
+    Downloads: downloads.html
+    Technical Annexes: annexes.html
+    Glossary: glossary.html
+    Licence And Legal: licence-and-legal.html
+  Change Log: change-log.html
 dependencies:
   # Pinned to the versions in the local package cache. Without explicit pins SUSHI
   # asks the package registry for '#latest' on every run, which hangs when egress to
