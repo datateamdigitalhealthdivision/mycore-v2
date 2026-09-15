@@ -35,6 +35,8 @@ pages:
     title: Profile Families
   terminology-and-identifiers.md:
     title: Terminology And Identifiers
+  terminology-index.md:
+    title: Terminology Index
   security-and-audit.md:
     title: Security And Audit
   conformance-testing.md:
@@ -70,6 +72,7 @@ menu:
   Conformance Model: conformance-model.html
   Profile Families: profile-families.html
   Terminology And Identifiers: terminology-and-identifiers.html
+  Terminology Index: terminology-index.html
   Security And Audit: security-and-audit.html
   Conformance Testing: conformance-testing.html
   Versioning And Change Management: versioning-and-change-management.html

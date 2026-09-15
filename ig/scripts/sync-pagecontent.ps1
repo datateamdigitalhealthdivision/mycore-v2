@@ -11,6 +11,7 @@ $PageMap = @{
   'docs/03-conformance-model.md' = 'conformance-model.md'
   'docs/04-profile-families.md' = 'profile-families.md'
   'docs/05-terminology-and-identifiers.md' = 'terminology-and-identifiers.md'
+  'docs/14-terminology-index.md' = 'terminology-index.md'
   'docs/06-security-and-audit.md' = 'security-and-audit.md'
   'docs/07-conformance-testing.md' = 'conformance-testing.md'
   'docs/08-versioning-and-change-management.md' = 'versioning-and-change-management.md'
