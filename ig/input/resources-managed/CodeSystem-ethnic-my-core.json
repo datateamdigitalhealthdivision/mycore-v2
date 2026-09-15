@@ -18,82 +18,82 @@
     {
       "code": "00",
       "display": "No Information",
-      "definition": "No Information"
+      "definition": "Placeholder used where ethnicity was not recorded at registration."
     },
     {
       "code": "01",
       "display": "Melayu",
-      "definition": "Melayu"
+      "definition": "Person of Malay ethnicity as recorded in MOH administrative systems."
     },
     {
       "code": "02",
       "display": "Cina",
-      "definition": "Cina"
+      "definition": "Person of Chinese ethnicity as recorded in MOH administrative systems."
     },
     {
       "code": "03",
       "display": "India",
-      "definition": "India"
+      "definition": "Person of Indian ethnicity as recorded in MOH administrative systems."
     },
     {
       "code": "04",
       "display": "Orang Asli Semenanjung",
-      "definition": "Orang Asli Semenanjung"
+      "definition": "Indigenous person of Peninsular Malaysia, collectively termed Orang Asli."
     },
     {
       "code": "05",
       "display": "Bajau",
-      "definition": "Bajau"
+      "definition": "Person of Bajau ethnicity, an indigenous group of Sabah."
     },
     {
       "code": "06",
       "display": "Dusun",
-      "definition": "Dusun"
+      "definition": "Person of Dusun ethnicity, an indigenous group of Sabah."
     },
     {
       "code": "07",
       "display": "Kadazan",
-      "definition": "Kadazan"
+      "definition": "Person of Kadazan ethnicity, an indigenous group of Sabah."
     },
     {
       "code": "08",
       "display": "Murut",
-      "definition": "Murut"
+      "definition": "Person of Murut ethnicity, an indigenous group of Sabah."
     },
     {
       "code": "10",
       "display": "Bumiputera Sabah Lain",
-      "definition": "Bumiputera Sabah Lain"
+      "definition": "Indigenous person of Sabah whose ethnic group is not separately enumerated."
     },
     {
       "code": "11",
       "display": "Melanau",
-      "definition": "Melanau"
+      "definition": "Person of Melanau ethnicity, an indigenous group of Sarawak."
     },
     {
       "code": "12",
       "display": "Kedayan",
-      "definition": "Kedayan"
+      "definition": "Person of Kedayan ethnicity, an indigenous group of Sarawak and Sabah."
     },
     {
       "code": "13",
       "display": "Iban",
-      "definition": "Iban"
+      "definition": "Person of Iban ethnicity, an indigenous group of Sarawak."
     },
     {
       "code": "14",
       "display": "Bidayuh",
-      "definition": "Bidayuh"
+      "definition": "Person of Bidayuh ethnicity, an indigenous group of Sarawak."
     },
     {
       "code": "15",
       "display": "Bumiputera Sarawak Lain",
-      "definition": "Bumiputera Sarawak Lain"
+      "definition": "Indigenous person of Sarawak whose ethnic group is not separately enumerated."
     },
     {
       "code": "99",
       "display": "Lain-lain",
-      "definition": "Lain-lain"
+      "definition": "Ethnicity recorded but not represented by another code in this code system."
     }
   ],
   "experimental": false,

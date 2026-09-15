@@ -1,0 +1,314 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "specimen-container-type-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemSpecimenContainerType (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/specimen-container-type-my-core</tt><p>Malaysia specimen container type</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/specimen-container-type-my-core",
+  "version": "2.1.0",
+  "name": "CodeSystemSpecimenContainerTypeMyCore",
+  "title": "CodeSystemSpecimenContainerType (MY Core)",
+  "status": "active",
+  "date": "2023-09-14T07:09:15.9516088+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Malaysia specimen container type",
+  "compositional": false,
+  "content": "complete",
+  "count": 56,
+  "concept": [
+    {
+      "code": "001",
+      "display": "Plain tube",
+      "definition": "Tube containing no additive; blood clots and serum is separated after centrifugation."
+    },
+    {
+      "code": "002",
+      "display": "Urine container",
+      "definition": "Container for a single voided urine specimen."
+    },
+    {
+      "code": "003",
+      "display": "24hr urine bottle with 10mL 25% HCl",
+      "definition": "Bottle for a 24-hour urine collection, pre-charged with 10 mL of 25% hydrochloric acid as preservative."
+    },
+    {
+      "code": "004",
+      "display": "Whatmann 903 Filter Paper",
+      "definition": "Whatman 903 protein saver filter paper for dried blood spot collection."
+    },
+    {
+      "code": "005",
+      "display": "EDTA tube",
+      "definition": "Tube containing EDTA anticoagulant, which chelates calcium to prevent clotting."
+    },
+    {
+      "code": "006",
+      "display": "Pre-chilled EDTA",
+      "definition": "EDTA tube chilled before collection, for analytes that degrade at ambient temperature."
+    },
+    {
+      "code": "007",
+      "display": "Falcon tube",
+      "definition": "Conical centrifuge tube used for larger-volume fluid and tissue specimens."
+    },
+    {
+      "code": "008",
+      "display": "Sodium Fluoride tube",
+      "definition": "Tube containing sodium fluoride, which inhibits glycolysis and preserves glucose concentration."
+    },
+    {
+      "code": "009",
+      "display": "Lithium Heparin tube",
+      "definition": "Tube containing lithium heparin anticoagulant, for plasma and whole blood chemistry."
+    },
+    {
+      "code": "010",
+      "display": "K2 EDTA tube",
+      "definition": "Tube containing dipotassium EDTA anticoagulant."
+    },
+    {
+      "code": "011",
+      "display": "Clean tube",
+      "definition": "Container that is clean but not sterile, for specimens where sterility is not required."
+    },
+    {
+      "code": "012",
+      "display": "Heparinised syringe",
+      "definition": "Syringe pre-coated with heparin, used for arterial blood gas collection."
+    },
+    {
+      "code": "013",
+      "display": "24hr urine bottle",
+      "definition": "Bottle for a 24-hour urine collection with no preservative."
+    },
+    {
+      "code": "014",
+      "display": "EDTA tube / Heparin tube",
+      "definition": "Either an EDTA tube or a heparin tube is acceptable for this test."
+    },
+    {
+      "code": "015",
+      "display": "Plain tube & Urine container",
+      "definition": "Requires both a plain tube and a urine container."
+    },
+    {
+      "code": "016",
+      "display": "Potassium Oxalate + Sodium Fluoride tube",
+      "definition": "Tube containing potassium oxalate with sodium fluoride; oxalate anticoagulates and fluoride preserves glucose."
+    },
+    {
+      "code": "017",
+      "display": "Plain tube / EDTA tube",
+      "definition": "Either a plain tube or an EDTA tube is acceptable for this test."
+    },
+    {
+      "code": "018",
+      "display": "Sodium Fluoride tube tube",
+      "definition": "Tube containing sodium fluoride."
+    },
+    {
+      "code": "019",
+      "display": "Urine container & EDTA tube",
+      "definition": "Requires both a urine container and an EDTA tube."
+    },
+    {
+      "code": "020",
+      "display": "24hr urine bottle 0.2g Sodium Bicarbonate",
+      "definition": "Bottle for a 24-hour urine collection, pre-charged with 0.2 g sodium bicarbonate as preservative."
+    },
+    {
+      "code": "021",
+      "display": "Heparin tube",
+      "definition": "Tube containing heparin anticoagulant."
+    },
+    {
+      "code": "022",
+      "display": "Special microtube with EDTA & DTE",
+      "definition": "Microtube containing EDTA and dithioerythritol, for analytes requiring a reducing agent."
+    },
+    {
+      "code": "023",
+      "display": "Tissue cassette",
+      "definition": "Cassette holding tissue through processing, embedding and sectioning."
+    },
+    {
+      "code": "024",
+      "display": "Fixed thin smear prepared on glass slide or sterile container",
+      "definition": "Fixed thin smear on a glass slide, or a sterile container."
+    },
+    {
+      "code": "025",
+      "display": "Sterile container",
+      "definition": "Container sterilised before use, for specimens intended for culture."
+    },
+    {
+      "code": "26",
+      "display": "Smear",
+      "definition": "Material spread onto a slide for microscopic examination."
+    },
+    {
+      "code": "027",
+      "display": "Fixed thin smear prepared on glass slide",
+      "definition": "Thin smear fixed on a glass slide before transport."
+    },
+    {
+      "code": "028",
+      "display": "Capped container",
+      "definition": "Container with a secure cap, not necessarily sterile."
+    },
+    {
+      "code": "030",
+      "display": "Supplied vial with fixative",
+      "definition": "Vial supplied pre-charged with fixative appropriate to the specimen."
+    },
+    {
+      "code": "031",
+      "display": "3.2% trisodium citrate",
+      "definition": "Tube containing 3.2% trisodium citrate anticoagulant, used for coagulation testing."
+    },
+    {
+      "code": "032",
+      "display": "Lithium Heparin tube",
+      "definition": "Tube containing lithium heparin anticoagulant."
+    },
+    {
+      "code": "033",
+      "display": "Direct Smear",
+      "definition": "Specimen applied directly to a slide without fixation or staining before transport."
+    },
+    {
+      "code": "034",
+      "display": "Sodium Heparin tube",
+      "definition": "Tube containing sodium heparin anticoagulant."
+    },
+    {
+      "code": "035",
+      "display": "Microtainer K2EDTA tube",
+      "definition": "Paediatric microtainer containing dipotassium EDTA, for small-volume capillary collection."
+    },
+    {
+      "code": "036",
+      "display": "EDTA tube MAP (pediatric infectious sample)",
+      "definition": "EDTA tube with molecular transport medium, for paediatric infectious disease specimens."
+    },
+    {
+      "code": "037",
+      "display": "Filter paper",
+      "definition": "Absorbent paper onto which blood or fluid is applied and dried."
+    },
+    {
+      "code": "038",
+      "display": "Fresh finger prick",
+      "definition": "Capillary blood obtained by finger prick and tested without transfer to a container."
+    },
+    {
+      "code": "039",
+      "display": "NA Slant/ Culture plate",
+      "definition": "Nutrient agar slant or culture plate inoculated at the point of collection."
+    },
+    {
+      "code": "040",
+      "display": "Sterile container / Falcon tube",
+      "definition": "Either a sterile container or a Falcon tube is acceptable."
+    },
+    {
+      "code": "041",
+      "display": "Myco F Lytic blood bottle",
+      "definition": "BACTEC Myco/F Lytic bottle for culture of mycobacteria and fungi from blood."
+    },
+    {
+      "code": "042",
+      "display": "Aerobic blood bottle",
+      "definition": "Blood culture bottle supporting growth of aerobic organisms."
+    },
+    {
+      "code": "043",
+      "display": "Anaerobic blood bottle",
+      "definition": "Blood culture bottle supporting growth of anaerobic organisms."
+    },
+    {
+      "code": "044",
+      "display": "Pediatric blood bottle",
+      "definition": "Blood culture bottle with reduced fill volume, for paediatric collection."
+    },
+    {
+      "code": "045",
+      "display": "Thick film",
+      "definition": "Thick blood film for detection of blood-borne parasites."
+    },
+    {
+      "code": "046",
+      "display": "Thin film",
+      "definition": "Thin blood film for species identification of blood-borne parasites."
+    },
+    {
+      "code": "047",
+      "display": "Charcoal/ Stuart transport medium",
+      "definition": "Charcoal or Stuart medium maintaining organism viability without multiplication during transport."
+    },
+    {
+      "code": "048",
+      "display": "Attest",
+      "definition": "Biological indicator used to verify sterilisation cycle efficacy."
+    },
+    {
+      "code": "049",
+      "display": "Plain sterile swab",
+      "definition": "Sterile swab without transport medium."
+    },
+    {
+      "code": "050",
+      "display": "Myco F Lytic BACTEC bottle",
+      "definition": "BACTEC Myco/F Lytic bottle."
+    },
+    {
+      "code": "051",
+      "display": "Instrument in wrapping/ actual pack",
+      "definition": "Instrument submitted in its sterilisation wrapping or pack for sterility monitoring."
+    },
+    {
+      "code": "052",
+      "display": "Stuart transport medium",
+      "definition": "Stuart transport medium maintaining organism viability during transport."
+    },
+    {
+      "code": "053",
+      "display": "Thioglycolate transport medium",
+      "definition": "Thioglycolate medium supporting recovery of anaerobic organisms during transport."
+    },
+    {
+      "code": "054",
+      "display": "Sterile container / boric acid",
+      "definition": "Sterile container containing boric acid, which preserves urine for culture by inhibiting bacterial multiplication."
+    },
+    {
+      "code": "055",
+      "display": "Sterile container contains VTM",
+      "definition": "Sterile container pre-charged with viral transport medium."
+    },
+    {
+      "code": "056",
+      "display": "Viral Transport Medium",
+      "definition": "Medium maintaining viral viability during transport to the laboratory."
+    },
+    {
+      "code": "057",
+      "display": "Plain tube / EDTA tube / Lithium Heparin tube",
+      "definition": "Any of a plain tube, an EDTA tube or a lithium heparin tube is acceptable."
+    }
+  ],
+  "experimental": false,
+  "caseSensitive": true
+}

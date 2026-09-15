@@ -31,37 +31,37 @@
     {
       "code": "00",
       "display": "No Information",
-      "definition": "No Information"
+      "definition": "Placeholder used where discharge disposition was not recorded."
     },
     {
       "code": "01",
       "display": "Home",
-      "definition": "Home"
+      "definition": "Patient discharged to their usual place of residence."
     },
     {
       "code": "02",
       "display": "Left Against Advice / At Own Risk (AOR)",
-      "definition": "Left Against Advice / At Own Risk (AOR)"
+      "definition": "Patient left the facility against medical advice, having informed staff and accepted responsibility for the decision."
     },
     {
       "code": "03",
       "display": "Absconded",
-      "definition": "Absconded"
+      "definition": "Patient left the facility without informing staff and without a documented discharge decision."
     },
     {
       "code": "04",
       "display": "Transfer To Another Facility",
-      "definition": "Transfer To Another Facility"
+      "definition": "Patient transferred to another healthcare facility for continuing care."
     },
     {
       "code": "05",
       "display": "Deceased",
-      "definition": "Expired"
+      "definition": "Patient died during the episode of care."
     },
     {
       "code": "06",
       "display": "Admitted",
-      "definition": "Admitted"
+      "definition": "Patient admitted to an inpatient bed from this encounter."
     },
     {
       "code": "07",

@@ -1,0 +1,32 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "location-type-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemLocationType (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/location-type-my-core</tt><p>Location Type</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/location-type-my-core",
+  "version": "2.1.0",
+  "name": "CodeSystemLocationTypeMyCore",
+  "title": "CodeSystemLocationType (MY Core)",
+  "status": "active",
+  "date": "2023-04-10T23:23:10.8917831+00:00",
+  "description": "Location Type",
+  "compositional": false,
+  "content": "complete",
+  "count": 2,
+  "concept": [
+    {
+      "code": "OT",
+      "display": "Operation Theatre",
+      "definition": "Room equipped and staffed for the performance of surgical procedures."
+    },
+    {
+      "code": "SCS",
+      "display": "Specimen Collecting Site",
+      "definition": "Location at which specimens are collected from patients for laboratory examination."
+    }
+  ],
+  "experimental": false,
+  "caseSensitive": true
+}

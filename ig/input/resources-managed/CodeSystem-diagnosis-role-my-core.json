@@ -1,0 +1,84 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "diagnosis-role-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemDiagnosisRole (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/diagnosis-role-my-core</tt><p>SMRP Diagnosis Code</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/diagnosis-role-my-core",
+  "version": "2.1.0",
+  "name": "CodeSystemDiagnosisRoleMyCore",
+  "title": "CodeSystemDiagnosisRole (MY Core)",
+  "status": "active",
+  "date": "2023-09-11T01:01:27.4910197+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "SMRP Diagnosis Code",
+  "compositional": false,
+  "content": "complete",
+  "count": 10,
+  "concept": [
+    {
+      "code": "00",
+      "display": "Tiada Maklumat",
+      "definition": "Placeholder used where the diagnosis role was not recorded."
+    },
+    {
+      "code": "01",
+      "display": "Main Diagnosis",
+      "definition": "Condition established after study to be chiefly responsible for the episode of care."
+    },
+    {
+      "code": "02",
+      "display": "Underlying Condition",
+      "definition": "Condition that gave rise to or contributed to the main diagnosis."
+    },
+    {
+      "code": "03",
+      "display": "Underlying Cause of Death",
+      "definition": "Disease or injury that initiated the sequence of events leading directly to death."
+    },
+    {
+      "code": "04",
+      "display": "External Causes of Morbidity & Mortality",
+      "definition": "Circumstance or event that caused an injury, poisoning or other adverse effect."
+    },
+    {
+      "code": "05",
+      "display": "Complication Diagnosis",
+      "definition": "Condition arising during the episode of care that was not present on admission."
+    },
+    {
+      "code": "08",
+      "display": "Other Diagnosis",
+      "definition": "Condition recorded for the episode that is not the main diagnosis and is not a complication."
+    },
+    {
+      "code": "10",
+      "display": "Terminal Cause of Death",
+      "definition": "Disease or condition directly leading to death."
+    },
+    {
+      "code": "11",
+      "display": "Traditional Medicine Disorder",
+      "definition": "Disorder recognised within a traditional medicine system of classification."
+    },
+    {
+      "code": "12",
+      "display": "Traditional Medicine Pattern",
+      "definition": "Pattern recognised within a traditional medicine system of classification."
+    }
+  ],
+  "experimental": false,
+  "caseSensitive": true
+}

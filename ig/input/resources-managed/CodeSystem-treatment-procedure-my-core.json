@@ -1,0 +1,94 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "treatment-procedure-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemTreatmentProcedure (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/treatment-procedure-my-core</tt><p>Treatment Procedure</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/treatment-procedure-my-core",
+  "name": "CodeSystemTreatmentProcedureMyCore",
+  "title": "CodeSystemTreatmentProcedure (MY Core)",
+  "status": "active",
+  "date": "2023-01-10T23:01:36.9771953+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Treatment Procedure",
+  "compositional": false,
+  "content": "complete",
+  "count": 12,
+  "concept": [
+    {
+      "code": "10",
+      "display": "Insertion of Suppository",
+      "definition": "Administration of medication by the rectal route in suppository form."
+    },
+    {
+      "code": "11",
+      "display": "Assist Delivery",
+      "definition": "Assistance provided during childbirth."
+    },
+    {
+      "code": "00",
+      "display": "Other",
+      "definition": "Treatment procedure not represented by another code in this code system."
+    },
+    {
+      "code": "01",
+      "display": "Dressing  / Desloughing",
+      "definition": "Application of a wound dressing, with removal of devitalised tissue where required."
+    },
+    {
+      "code": "02",
+      "display": "Bandaging",
+      "definition": "Application of a bandage to support, compress or protect a body part."
+    },
+    {
+      "code": "03",
+      "display": "Splinting / Sprinting",
+      "definition": "Application of a splint to immobilise a limb or joint."
+    },
+    {
+      "code": "04",
+      "display": "Nebulizer Administer",
+      "definition": "Administration of medication as an aerosol by nebuliser."
+    },
+    {
+      "code": "05",
+      "display": "Eye Irrigation",
+      "definition": "Irrigation of the eye to remove a foreign body or chemical contaminant."
+    },
+    {
+      "code": "06",
+      "display": "Ear Irrigation",
+      "definition": "Irrigation of the external ear canal, usually to remove impacted cerumen."
+    },
+    {
+      "code": "07",
+      "display": "Diabetic Foot Care",
+      "definition": "Foot care for a person with diabetes, including inspection, nail care and callus management."
+    },
+    {
+      "code": "08",
+      "display": "Directly Observed Therapy Surveillance (DOTS) Tuberculosis",
+      "definition": "Administration of tuberculosis treatment observed directly by a healthcare worker."
+    },
+    {
+      "code": "09",
+      "display": "Tepid Sponging",
+      "definition": "Application of tepid water to the skin to reduce body temperature."
+    }
+  ],
+  "version": "2.1.0",
+  "experimental": false,
+  "caseSensitive": true
+}

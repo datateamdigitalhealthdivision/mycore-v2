@@ -1,0 +1,169 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "specimen-type-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemSpecimenType (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/specimen-type-my-core</tt><p>Malaysia specimen type</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/specimen-type-my-core",
+  "version": "2.1.0",
+  "name": "CodeSystemSpecimenTypeMyCore",
+  "title": "CodeSystemSpecimenType (MY Core)",
+  "status": "active",
+  "date": "2023-10-02T05:48:48.613112+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "name": "Saifuldaulah Bin Mohd Hafiz Ngoo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "saifuldaulah@mhn.asia"
+        }
+      ]
+    }
+  ],
+  "description": "Malaysia specimen type",
+  "compositional": false,
+  "content": "complete",
+  "count": 27,
+  "concept": [
+    {
+      "code": "Urine",
+      "display": "Urine",
+      "definition": "Urine voided or collected by catheter."
+    },
+    {
+      "code": "Ser/Plas",
+      "display": "Serum/Plasma",
+      "definition": "Serum or plasma, where either is acceptable for the test."
+    },
+    {
+      "code": "Wound",
+      "display": "Wound",
+      "definition": "Material collected from a wound site."
+    },
+    {
+      "code": "XXX",
+      "display": "Other",
+      "definition": "Specimen type not otherwise represented in this code system."
+    },
+    {
+      "code": "Bld",
+      "display": "Blood",
+      "definition": "Whole blood, source not further specified."
+    },
+    {
+      "code": "BldA",
+      "display": "Blood Arterial",
+      "definition": "Blood drawn from an artery."
+    },
+    {
+      "code": "^Patient",
+      "display": "Patient Sample",
+      "definition": "Not a specimen type. Artefact of the LOINC System axis denoting the patient as the subject of observation."
+    },
+    {
+      "code": "PPP",
+      "display": "Platelet Poor Plasma",
+      "definition": "Plasma depleted of platelets by centrifugation, used in coagulation testing."
+    },
+    {
+      "code": "Sputum",
+      "display": "Sputum",
+      "definition": "Material expectorated from the lower respiratory tract."
+    },
+    {
+      "code": "BldC",
+      "display": "Blood Capillary",
+      "definition": "Blood obtained by skin puncture."
+    },
+    {
+      "code": "Thrt",
+      "display": "Throat",
+      "definition": "Material collected from the pharynx."
+    },
+    {
+      "code": "Body fld",
+      "display": "Body Fluid",
+      "definition": "Body fluid other than blood, urine or cerebrospinal fluid."
+    },
+    {
+      "code": "Stool",
+      "display": "Stool",
+      "definition": "Faeces."
+    },
+    {
+      "code": "Cvx",
+      "display": "Cervix",
+      "definition": "Material collected from the uterine cervix."
+    },
+    {
+      "code": "CSF",
+      "display": "CSF",
+      "definition": "Fluid from the subarachnoid space, usually by lumbar puncture."
+    },
+    {
+      "code": "Genital",
+      "display": "Genital",
+      "definition": "Material collected from the genital tract, site not further specified."
+    },
+    {
+      "code": "Ser",
+      "display": "Serum",
+      "definition": "Fluid remaining after blood has clotted and been centrifuged."
+    },
+    {
+      "code": "Tiss",
+      "display": "Tissue",
+      "definition": "Solid tissue obtained by biopsy or resection."
+    },
+    {
+      "code": "BldCoA",
+      "display": "Blood Cord Arterial",
+      "definition": "Blood drawn from the umbilical artery at delivery."
+    },
+    {
+      "code": "Ctp",
+      "display": "Catheter Tip",
+      "definition": "Distal segment of an indwelling catheter submitted for culture."
+    },
+    {
+      "code": "Urethra",
+      "display": "Urethra",
+      "definition": "Material collected from the urethra."
+    },
+    {
+      "code": "Urine+Ser/Plas",
+      "display": "Urine + Serum/Plasma",
+      "definition": "Paired urine and serum or plasma specimens collected for the same test."
+    },
+    {
+      "code": "Plas",
+      "display": "Plasma",
+      "definition": "Fluid fraction of anticoagulated blood after centrifugation."
+    },
+    {
+      "code": "Vag",
+      "display": "Vagina",
+      "definition": "Material collected from the vagina."
+    },
+    {
+      "code": "Abscess",
+      "display": "Abscess",
+      "definition": "Material aspirated or drained from an abscess cavity."
+    },
+    {
+      "code": "Bld/Tiss",
+      "display": "Blood/Tissue",
+      "definition": "Either blood or tissue is acceptable for the test."
+    },
+    {
+      "code": "Ser+Bld",
+      "display": "Serum + Blood",
+      "definition": "Paired serum and whole blood specimens collected for the same test."
+    }
+  ],
+  "experimental": false,
+  "caseSensitive": true
+}
