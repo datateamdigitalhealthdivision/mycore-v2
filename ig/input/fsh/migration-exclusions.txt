@@ -32,3 +32,37 @@ StructureDefinition/address-district-my-core
 # Leave of Absence retired. Must not be regenerated from v2.0 source.
 CodeSystem/discharge-disposition-my-core
 ValueSet/discharge-disposition-my-core
+
+# Promoted to resources-managed on 15 Sep 2026: real concept definitions
+# supplied by MOH replaced the display-echo placeholders (350 concepts across
+# these 16 lists plus ethnic, religion, facility-type and discharge-disposition,
+# which were already managed). Only the CodeSystems are excluded; their
+# ValueSets still regenerate from the v2.0 source.
+CodeSystem/cooking-demonstration-my-core
+CodeSystem/diagnosis-role-my-core
+CodeSystem/diagnostic-procedure-my-core
+CodeSystem/lab-method-my-core
+CodeSystem/location-type-my-core
+CodeSystem/minor-procedure-my-core
+CodeSystem/nutritionist-consultation-my-core
+CodeSystem/organization-type-my-core
+CodeSystem/phlebotomy-my-core
+CodeSystem/reason-code-my-core
+CodeSystem/specimen-container-type-my-core
+CodeSystem/specimen-type-my-core
+CodeSystem/treatment-procedure-my-core
+CodeSystem/visit-type-my-core
+CodeSystem/ward-category-my-core
+CodeSystem/ward-class-my-core
+
+# Promoted to resources-managed on 15 Sep 2026 for the radiology review.
+# Every concept is now tagged with a conceptClass property (region / procedure /
+# modality-technique / administrative) and body regions carry a RadLex RID.
+# Must NOT be regenerated from the v2.0 source or the classification is lost.
+CodeSystem/imaging-region-my-core
+
+# Promoted to resources-managed on 15 Sep 2026: 122 corrupted display strings
+# repaired (UTF-8 en-dash mojibake, HEPATOBILLIARY misspelling, truncated bone
+# names, trailing dashes, an unbalanced bracket, and a malformed regionCode).
+# Must NOT be regenerated from the v2.0 source or the repairs are lost.
+CodeSystem/imaging-my-core

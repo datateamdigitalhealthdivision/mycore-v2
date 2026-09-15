@@ -1,0 +1,42 @@
+{
+  "resourceType": "ValueSet",
+  "id": "radiology-procedure-dxa-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/radiology-procedure-dxa-my-core",
+  "version": "2.1.0",
+  "name": "MyCoreRadiologyProcedureBoneDensitometryMyCore",
+  "title": "MY Core Radiology Procedure - Bone densitometry",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "NATIONAL SELECTION. The bone densitometry subset of the LOINC/RSNA Radiology Playbook. 5 codes. A modality-scoped pick list; the full catalogue is radiology-procedure-my-core.",
+  "copyright": "This value set enumerates LOINC codes. LOINC is copyright Regenstrief Institute, Inc. and the LOINC Committee, and is available at no cost under the LOINC licence. RPID identifiers are from the RSNA Radiology Playbook.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "38268-9",
+            "display": "DXA Skeletal system Views for bone density"
+          },
+          {
+            "code": "83012-5",
+            "display": "DXA Skeletal system.axial Views for bone density"
+          },
+          {
+            "code": "83013-3",
+            "display": "DXA Skeletal system.peripheral Views for bone density"
+          },
+          {
+            "code": "83014-1",
+            "display": "DXA Skeletal system.axial Views for bone density and vertebral fracture"
+          },
+          {
+            "code": "83051-3",
+            "display": "DXA Cervical and thoracic and lumbar spine Views for vertebral fracture"
+          }
+        ]
+      }
+    ]
+  }
+}

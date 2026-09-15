@@ -34,11 +34,12 @@ Description: "An imaging order placed by an EMR on a RIS. The accession number i
 * code.coding ^slicing.discriminator[0].type = #value
 * code.coding ^slicing.discriminator[0].path = "system"
 * code.coding ^slicing.rules = #open
-* code.coding contains national 0..1 MS and loinc 0..1
+* code from $VS-RAD-PROCEDURE (extensible)
+* code.coding contains loinc 1..1 MS and national 0..1
 * code.coding[national].system = "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/imaging-my-core" (exactly)
-* code.coding[national] ^short = "National imaging procedure code — the operational key. 762 concepts."
+* code.coding[national] ^short = "LEGACY. imaging-my-core, the 762-concept list exported from the national RIS. Retired as a binding target in v2.1; send it only where a receiving system still requires it."
 * code.coding[loinc].system = "http://loinc.org" (exactly)
-* code.coding[loinc] ^short = "LOINC/RSNA Radiology Playbook. The ConceptMap from the national list is published incomplete; the binding is extensible so structure can be reviewed before the mapping finishes."
+* code.coding[loinc] ^short = "LOINC/RSNA Radiology Playbook — the procedure vocabulary for v2.1. 5,954 codes covering every modality. RPID identifiers translate through ConceptMap/rpid-to-loinc-my-core."
 * subject 1..1 MS
 * encounter MS
 * requester 1..1 MS
@@ -46,4 +47,5 @@ Description: "An imaging order placed by an EMR on a RIS. The accession number i
 * priority MS
 * reasonCode MS
 * bodySite MS
-* bodySite from https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/imaging-region-my-core (extensible)
+* bodySite from $VS-BODYSITE (extensible)
+* bodySite ^short = "RadLex anatomy, any level of granularity — abdomen (RID56) or a named muscle. Replaces imaging-region-my-core, which mixed body regions with procedures and modalities."

@@ -1,0 +1,1970 @@
+{
+  "resourceType": "ValueSet",
+  "id": "radiology-procedure-us-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/radiology-procedure-us-my-core",
+  "version": "2.1.0",
+  "name": "MyCoreRadiologyProcedureUltrasoundMyCore",
+  "title": "MY Core Radiology Procedure - Ultrasound",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "NATIONAL SELECTION. The ultrasound subset of the LOINC/RSNA Radiology Playbook. 487 codes. A modality-scoped pick list; the full catalogue is radiology-procedure-my-core.",
+  "copyright": "This value set enumerates LOINC codes. LOINC is copyright Regenstrief Institute, Inc. and the LOINC Committee, and is available at no cost under the LOINC licence. RPID identifiers are from the RSNA Radiology Playbook.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "24531-6",
+            "display": "US Retroperitoneum"
+          },
+          {
+            "code": "24532-4",
+            "display": "US Abdomen RUQ"
+          },
+          {
+            "code": "24534-0",
+            "display": "US.doppler Abdominal vessels"
+          },
+          {
+            "code": "24537-3",
+            "display": "US Guidance for aspiration of amniotic fluid of Uterus"
+          },
+          {
+            "code": "24542-3",
+            "display": "US Anus"
+          },
+          {
+            "code": "24547-2",
+            "display": "US Thoracic and abdominal aorta"
+          },
+          {
+            "code": "24548-0",
+            "display": "US Appendix"
+          },
+          {
+            "code": "24558-9",
+            "display": "US Abdomen"
+          },
+          {
+            "code": "24559-7",
+            "display": "US Guidance for drainage of Abdomen"
+          },
+          {
+            "code": "24596-9",
+            "display": "US Breast specimen"
+          },
+          {
+            "code": "24599-3",
+            "display": "US Breast limited"
+          },
+          {
+            "code": "24600-9",
+            "display": "US Guidance for needle localization of Breast"
+          },
+          {
+            "code": "24601-7",
+            "display": "US Breast"
+          },
+          {
+            "code": "24616-5",
+            "display": "US Carotid arteries"
+          },
+          {
+            "code": "24630-6",
+            "display": "US Chest"
+          },
+          {
+            "code": "24662-9",
+            "display": "US Guidance for fluid aspiration of Pleural space"
+          },
+          {
+            "code": "24670-2",
+            "display": "US Guidance for biopsy of cyst of Unspecified body region"
+          },
+          {
+            "code": "24672-8",
+            "display": "US Diaphragm for motion"
+          },
+          {
+            "code": "24677-7",
+            "display": "US Pelvis transvaginal"
+          },
+          {
+            "code": "24692-6",
+            "display": "US Guidance for drainage of Extremity"
+          },
+          {
+            "code": "24693-4",
+            "display": "US Extremity"
+          },
+          {
+            "code": "24711-4",
+            "display": "US Gallbladder"
+          },
+          {
+            "code": "24719-7",
+            "display": "US Groin"
+          },
+          {
+            "code": "24731-2",
+            "display": "US Head"
+          },
+          {
+            "code": "24732-0",
+            "display": "US Head during surgery"
+          },
+          {
+            "code": "24733-8",
+            "display": "US.doppler Head vessels"
+          },
+          {
+            "code": "24760-1",
+            "display": "US Hip"
+          },
+          {
+            "code": "24772-6",
+            "display": "US Guidance for biopsy of Kidney"
+          },
+          {
+            "code": "24816-1",
+            "display": "US Guidance for biopsy of Liver"
+          },
+          {
+            "code": "24818-7",
+            "display": "US Diaphragm and Liver"
+          },
+          {
+            "code": "24842-7",
+            "display": "US Neck"
+          },
+          {
+            "code": "24859-1",
+            "display": "US Pancreas"
+          },
+          {
+            "code": "24868-2",
+            "display": "US Guidance for drainage of Pelvis"
+          },
+          {
+            "code": "24869-0",
+            "display": "US Pelvis"
+          },
+          {
+            "code": "24870-8",
+            "display": "US.doppler Pelvis vessels"
+          },
+          {
+            "code": "24881-5",
+            "display": "US Popliteal space"
+          },
+          {
+            "code": "24883-1",
+            "display": "US Guidance for percutaneous biopsy of Prostate"
+          },
+          {
+            "code": "24884-9",
+            "display": "US Prostate transrectal"
+          },
+          {
+            "code": "24889-8",
+            "display": "US Pylorus for pyloric stenosis"
+          },
+          {
+            "code": "24892-2",
+            "display": "US Rectum"
+          },
+          {
+            "code": "24896-3",
+            "display": "US Guidance for drainage of Kidney"
+          },
+          {
+            "code": "24907-8",
+            "display": "US Shoulder"
+          },
+          {
+            "code": "24926-8",
+            "display": "US Spine"
+          },
+          {
+            "code": "24990-4",
+            "display": "US Spleen"
+          },
+          {
+            "code": "25002-7",
+            "display": "US Scrotum and testicle"
+          },
+          {
+            "code": "25009-2",
+            "display": "US Guidance for biopsy of Thyroid gland"
+          },
+          {
+            "code": "25010-0",
+            "display": "US Thyroid gland"
+          },
+          {
+            "code": "25019-1",
+            "display": "US Urinary bladder"
+          },
+          {
+            "code": "25036-5",
+            "display": "US Wrist"
+          },
+          {
+            "code": "25059-7",
+            "display": "US Guidance for biopsy of Unspecified body region"
+          },
+          {
+            "code": "25060-5",
+            "display": "US Unspecified body region No charge"
+          },
+          {
+            "code": "25061-3",
+            "display": "US Unspecified body region"
+          },
+          {
+            "code": "26214-7",
+            "display": "US Breast - bilateral"
+          },
+          {
+            "code": "26215-4",
+            "display": "US Breast - left"
+          },
+          {
+            "code": "26216-2",
+            "display": "US Breast - right"
+          },
+          {
+            "code": "26217-0",
+            "display": "US Carotid arteries - bilateral"
+          },
+          {
+            "code": "26218-8",
+            "display": "US Carotid arteries - left"
+          },
+          {
+            "code": "26219-6",
+            "display": "US Carotid arteries -right"
+          },
+          {
+            "code": "26223-8",
+            "display": "US Extremity - bilateral"
+          },
+          {
+            "code": "26225-3",
+            "display": "US Extremity - left"
+          },
+          {
+            "code": "26230-3",
+            "display": "US Extremity - right"
+          },
+          {
+            "code": "26250-1",
+            "display": "US Hip - bilateral"
+          },
+          {
+            "code": "26251-9",
+            "display": "US Hip - left"
+          },
+          {
+            "code": "26252-7",
+            "display": "US Hip - right"
+          },
+          {
+            "code": "26262-6",
+            "display": "US Popliteal space - bilateral"
+          },
+          {
+            "code": "26263-4",
+            "display": "US Popliteal space - left"
+          },
+          {
+            "code": "26264-2",
+            "display": "US Popliteal space - right"
+          },
+          {
+            "code": "26265-9",
+            "display": "US Shoulder - bilateral"
+          },
+          {
+            "code": "26267-5",
+            "display": "US Shoulder - left"
+          },
+          {
+            "code": "26269-1",
+            "display": "US Shoulder - right"
+          },
+          {
+            "code": "26271-7",
+            "display": "US Scrotum and Testicle - bilateral"
+          },
+          {
+            "code": "26272-5",
+            "display": "US Scrotum and Testicle - left"
+          },
+          {
+            "code": "26273-3",
+            "display": "US Scrotum and Testicle - right"
+          },
+          {
+            "code": "26278-2",
+            "display": "US Wrist - bilateral"
+          },
+          {
+            "code": "26280-8",
+            "display": "US Wrist - left"
+          },
+          {
+            "code": "26282-4",
+            "display": "US Wrist - right"
+          },
+          {
+            "code": "26286-5",
+            "display": "US Breast - bilateral limited"
+          },
+          {
+            "code": "26288-1",
+            "display": "US Breast - left limited"
+          },
+          {
+            "code": "26290-7",
+            "display": "US Breast - right limited"
+          },
+          {
+            "code": "26313-7",
+            "display": "US Guidance for needle localization of Breast - bilateral"
+          },
+          {
+            "code": "26314-5",
+            "display": "US Guidance for needle localization of Breast - left"
+          },
+          {
+            "code": "26318-6",
+            "display": "US Guidance for needle localization of Breast - right"
+          },
+          {
+            "code": "26325-1",
+            "display": "US Guidance for drainage of Extremity - bilateral"
+          },
+          {
+            "code": "26326-9",
+            "display": "US Guidance for drainage of Extremity - left"
+          },
+          {
+            "code": "26327-7",
+            "display": "US Guidance for drainage of Extremity - right"
+          },
+          {
+            "code": "26328-5",
+            "display": "US Guidance for drainage of Kidney - bilateral"
+          },
+          {
+            "code": "26329-3",
+            "display": "US Guidance for drainage of Kidney - left"
+          },
+          {
+            "code": "26330-1",
+            "display": "US Guidance for drainage of Kidney - right"
+          },
+          {
+            "code": "26340-0",
+            "display": "US Guidance for biopsy of Kidney - bilateral"
+          },
+          {
+            "code": "26341-8",
+            "display": "US Guidance for biopsy of Kidney - left"
+          },
+          {
+            "code": "26342-6",
+            "display": "US Guidance for biopsy of Kidney - right"
+          },
+          {
+            "code": "28614-6",
+            "display": "US Liver"
+          },
+          {
+            "code": "30643-1",
+            "display": "US Guidance for placement of CV catheter in Vein"
+          },
+          {
+            "code": "30644-9",
+            "display": "US Guidance for placement of CV catheter in Vein-- Tunneled"
+          },
+          {
+            "code": "30651-4",
+            "display": "US Guidance for percutaneous biopsy.core needle of Breast"
+          },
+          {
+            "code": "30652-2",
+            "display": "US Guidance for fine needle biopsy of Breast"
+          },
+          {
+            "code": "30653-0",
+            "display": "US Guidance for aspiration of cyst of Breast"
+          },
+          {
+            "code": "30698-5",
+            "display": "US Guidance for aspiration of cyst of Unspecified body region"
+          },
+          {
+            "code": "30699-3",
+            "display": "US Guidance for drainage of Unspecified body region"
+          },
+          {
+            "code": "30701-7",
+            "display": "US Unspecified body region during surgery"
+          },
+          {
+            "code": "30702-5",
+            "display": "US Guidance for injection of Thyroid gland"
+          },
+          {
+            "code": "30703-3",
+            "display": "US Guidance for fluid aspiration of Pericardial space"
+          },
+          {
+            "code": "30704-1",
+            "display": "US Abdomen limited"
+          },
+          {
+            "code": "30705-8",
+            "display": "US Uterus and Fallopian tubes"
+          },
+          {
+            "code": "30706-6",
+            "display": "US Liver during surgery"
+          },
+          {
+            "code": "30709-0",
+            "display": "US Lower extremity"
+          },
+          {
+            "code": "30710-8",
+            "display": "US Upper extremity"
+          },
+          {
+            "code": "30711-6",
+            "display": "US Hip developmental joint assessment"
+          },
+          {
+            "code": "30712-4",
+            "display": "US Hip WO developmental joint assessment"
+          },
+          {
+            "code": "30853-6",
+            "display": "US Breast duct W contrast intra duct"
+          },
+          {
+            "code": "30878-3",
+            "display": "US Guidance for fluid aspiration of Unspecified body region"
+          },
+          {
+            "code": "30880-9",
+            "display": "US.doppler Head vessels and Neck vessels"
+          },
+          {
+            "code": "30881-7",
+            "display": "US.doppler Lower extremity vein"
+          },
+          {
+            "code": "30882-5",
+            "display": "US.doppler Upper extremity vein"
+          },
+          {
+            "code": "37608-7",
+            "display": "US Guidance for localization of foreign body of Eye"
+          },
+          {
+            "code": "37912-3",
+            "display": "US Guidance for biopsy of Breast - bilateral"
+          },
+          {
+            "code": "37913-1",
+            "display": "US Guidance for biopsy of Abdomen"
+          },
+          {
+            "code": "37914-9",
+            "display": "US Guidance for biopsy of Breast"
+          },
+          {
+            "code": "37915-6",
+            "display": "US Guidance for biopsy of Chest"
+          },
+          {
+            "code": "37917-2",
+            "display": "US Guidance for percutaneous biopsy of Muscle"
+          },
+          {
+            "code": "37918-0",
+            "display": "US Guidance for biopsy of Neck"
+          },
+          {
+            "code": "37919-8",
+            "display": "US Guidance for biopsy of Pancreas"
+          },
+          {
+            "code": "37920-6",
+            "display": "US Guidance for biopsy of Salivary gland"
+          },
+          {
+            "code": "37921-4",
+            "display": "US Guidance for needle localization of Chest"
+          },
+          {
+            "code": "38011-3",
+            "display": "US Thoracic and abdominal aorta limited"
+          },
+          {
+            "code": "38012-1",
+            "display": "US Guidance for aspiration of cyst of Breast - bilateral"
+          },
+          {
+            "code": "38013-9",
+            "display": "US Lower extremity - bilateral"
+          },
+          {
+            "code": "38014-7",
+            "display": "US Upper extremity artery - bilateral"
+          },
+          {
+            "code": "38015-4",
+            "display": "US Carotid arteries limited"
+          },
+          {
+            "code": "38017-0",
+            "display": "US Guidance for FNA of Prostate"
+          },
+          {
+            "code": "38018-8",
+            "display": "US Guidance for fine needle aspiration of Unspecified body region"
+          },
+          {
+            "code": "38019-6",
+            "display": "US Guidance for fine needle aspiration of Thyroid gland"
+          },
+          {
+            "code": "38020-4",
+            "display": "US Gallbladder limited"
+          },
+          {
+            "code": "38021-2",
+            "display": "US Biliary ducts and Gallbladder"
+          },
+          {
+            "code": "38022-0",
+            "display": "US Gallbladder W cholecystokinin"
+          },
+          {
+            "code": "38023-8",
+            "display": "US Guidance for percutaneous biopsy.core needle of Breast - left"
+          },
+          {
+            "code": "38024-6",
+            "display": "US Guidance for core needle biopsy of Unspecified body region"
+          },
+          {
+            "code": "38025-3",
+            "display": "US Guidance for percutaneous biopsy.core needle of Breast - right"
+          },
+          {
+            "code": "38026-1",
+            "display": "US Guidance for fine needle aspiration of Breast - left"
+          },
+          {
+            "code": "38030-3",
+            "display": "US Guidance for biopsy of Spleen"
+          },
+          {
+            "code": "38032-9",
+            "display": "US Guidance for needle localization of Unspecified body region"
+          },
+          {
+            "code": "38033-7",
+            "display": "US Guidance for fine needle aspiration of Breast - right"
+          },
+          {
+            "code": "38034-5",
+            "display": "US Head limited"
+          },
+          {
+            "code": "38035-2",
+            "display": "US Kidney limited"
+          },
+          {
+            "code": "38036-0",
+            "display": "US Kidney"
+          },
+          {
+            "code": "38037-8",
+            "display": "US Femur - left"
+          },
+          {
+            "code": "38038-6",
+            "display": "US Kidney - left"
+          },
+          {
+            "code": "38039-4",
+            "display": "US Lower extremity - left limited"
+          },
+          {
+            "code": "38040-2",
+            "display": "US Lower extremity - left"
+          },
+          {
+            "code": "38041-0",
+            "display": "US Upper extremity - left"
+          },
+          {
+            "code": "38042-8",
+            "display": "US.doppler Lower extremity artery limited"
+          },
+          {
+            "code": "38043-6",
+            "display": "US Mastoid"
+          },
+          {
+            "code": "38044-4",
+            "display": "US Mediastinum"
+          },
+          {
+            "code": "38045-1",
+            "display": "US Parathyroid gland"
+          },
+          {
+            "code": "38046-9",
+            "display": "US Pelvis limited"
+          },
+          {
+            "code": "38047-7",
+            "display": "US Retroperitoneum limited"
+          },
+          {
+            "code": "38048-5",
+            "display": "US Femur - right"
+          },
+          {
+            "code": "38049-3",
+            "display": "US Kidney - right"
+          },
+          {
+            "code": "38050-1",
+            "display": "US Lower extremity - right limited"
+          },
+          {
+            "code": "38051-9",
+            "display": "US Lower extremity - right"
+          },
+          {
+            "code": "38052-7",
+            "display": "US Upper extremity - right"
+          },
+          {
+            "code": "38053-5",
+            "display": "US Sacrum"
+          },
+          {
+            "code": "38054-3",
+            "display": "US Visceral artery"
+          },
+          {
+            "code": "38126-9",
+            "display": "US Guidance for aspiration of cyst of Kidney"
+          },
+          {
+            "code": "38127-7",
+            "display": "US Guidance for aspiration of CSF of Spine"
+          },
+          {
+            "code": "38128-5",
+            "display": "US Femoral vessels - bilateral"
+          },
+          {
+            "code": "38129-3",
+            "display": "US Iliac vessels - bilateral"
+          },
+          {
+            "code": "38130-1",
+            "display": "US Lower extremity artery - bilateral"
+          },
+          {
+            "code": "38131-9",
+            "display": "US Subclavian vessels - bilateral"
+          },
+          {
+            "code": "38132-7",
+            "display": "US Guidance for biopsy of Scrotum and testicle"
+          },
+          {
+            "code": "38133-5",
+            "display": "US Guidance for aspiration of cyst of Pancreas"
+          },
+          {
+            "code": "38134-3",
+            "display": "US Femoral vessels"
+          },
+          {
+            "code": "38135-0",
+            "display": "US Guidance for deep aspiration.fine needle of Tissue"
+          },
+          {
+            "code": "38136-8",
+            "display": "US Guidance for superficial aspiration.fine needle of Tissue"
+          },
+          {
+            "code": "38137-6",
+            "display": "US Iliac vessels - left"
+          },
+          {
+            "code": "38138-4",
+            "display": "US Parotid gland"
+          },
+          {
+            "code": "38139-2",
+            "display": "US Penis vessels"
+          },
+          {
+            "code": "38140-0",
+            "display": "US Penis"
+          },
+          {
+            "code": "38141-8",
+            "display": "US Iliac vessels - right"
+          },
+          {
+            "code": "38142-6",
+            "display": "US Guidance for drainage of Chest"
+          },
+          {
+            "code": "38143-4",
+            "display": "US.doppler Upper extremity artery limited"
+          },
+          {
+            "code": "38765-4",
+            "display": "US Guidance for biopsy of transplanted liver"
+          },
+          {
+            "code": "38766-2",
+            "display": "US Guidance for biopsy of transplanted kidney"
+          },
+          {
+            "code": "39030-2",
+            "display": "US Vein - bilateral"
+          },
+          {
+            "code": "39031-0",
+            "display": "US.doppler Extremity artery - bilateral"
+          },
+          {
+            "code": "39032-8",
+            "display": "US for transplanted kidney"
+          },
+          {
+            "code": "39036-9",
+            "display": "US Vein"
+          },
+          {
+            "code": "39039-3",
+            "display": "US.doppler Brachiocephalic artery"
+          },
+          {
+            "code": "39040-1",
+            "display": "US AV fistula"
+          },
+          {
+            "code": "39042-7",
+            "display": "US.doppler Extremity artery"
+          },
+          {
+            "code": "39044-3",
+            "display": "US.doppler Head vessels limited"
+          },
+          {
+            "code": "39045-0",
+            "display": "US Vein limited"
+          },
+          {
+            "code": "39139-1",
+            "display": "US Guidance for vascular access of Unspecified body region"
+          },
+          {
+            "code": "39415-5",
+            "display": "US Gastrointestinal tract"
+          },
+          {
+            "code": "39416-3",
+            "display": "US Genitourinary tract"
+          },
+          {
+            "code": "39418-9",
+            "display": "US.doppler Extremity vein - bilateral"
+          },
+          {
+            "code": "39419-7",
+            "display": "US.doppler Renal vessels - bilateral"
+          },
+          {
+            "code": "39420-5",
+            "display": "US.doppler Lower extremity vein - bilateral"
+          },
+          {
+            "code": "39421-3",
+            "display": "US.doppler Lower extremity artery - bilateral"
+          },
+          {
+            "code": "39422-1",
+            "display": "US.doppler Lower extremity vessels - bilateral"
+          },
+          {
+            "code": "39423-9",
+            "display": "US.doppler Upper extremity artery - bilateral"
+          },
+          {
+            "code": "39424-7",
+            "display": "US.doppler Extremity vessels limited"
+          },
+          {
+            "code": "39425-4",
+            "display": "US.doppler Iliac artery"
+          },
+          {
+            "code": "39426-2",
+            "display": "US.doppler Renal vessels"
+          },
+          {
+            "code": "39427-0",
+            "display": "US.doppler Carotid arteries - left"
+          },
+          {
+            "code": "39428-8",
+            "display": "US.doppler Extremity artery - left"
+          },
+          {
+            "code": "39429-6",
+            "display": "US.doppler Extremity vein - left"
+          },
+          {
+            "code": "39430-4",
+            "display": "US.doppler Lower extremity vessels - left limited"
+          },
+          {
+            "code": "39431-2",
+            "display": "US.doppler Lower extremity vessels - left"
+          },
+          {
+            "code": "39432-0",
+            "display": "US.doppler Lower extremity vein - left"
+          },
+          {
+            "code": "39433-8",
+            "display": "US.doppler Upper extremity vessels - left"
+          },
+          {
+            "code": "39434-6",
+            "display": "US.doppler Lower extremity artery"
+          },
+          {
+            "code": "39435-3",
+            "display": "US.doppler Renal artery"
+          },
+          {
+            "code": "39436-1",
+            "display": "US.doppler Renal vessels limited"
+          },
+          {
+            "code": "39437-9",
+            "display": "US.doppler Carotid arteries -right"
+          },
+          {
+            "code": "39439-5",
+            "display": "US.doppler Extremity artery - right"
+          },
+          {
+            "code": "39440-3",
+            "display": "US.doppler Extremity vein - right"
+          },
+          {
+            "code": "39441-1",
+            "display": "US.doppler Lower extremity vessels - right limited"
+          },
+          {
+            "code": "39442-9",
+            "display": "US.doppler Lower extremity vessels - right"
+          },
+          {
+            "code": "39443-7",
+            "display": "US.doppler Lower extremity vein - right"
+          },
+          {
+            "code": "39444-5",
+            "display": "US.doppler Upper extremity vessels - right"
+          },
+          {
+            "code": "39445-2",
+            "display": "US.doppler Vessels"
+          },
+          {
+            "code": "39446-0",
+            "display": "US.doppler Testicular vessels"
+          },
+          {
+            "code": "39447-8",
+            "display": "US.doppler Upper extremity artery"
+          },
+          {
+            "code": "39448-6",
+            "display": "US.doppler Upper extremity vessels"
+          },
+          {
+            "code": "39449-4",
+            "display": "US.doppler Extremity vein"
+          },
+          {
+            "code": "39450-2",
+            "display": "US Gastrointestinal tract W contrast PO"
+          },
+          {
+            "code": "39451-0",
+            "display": "US Guidance for drainage of abscess of Unspecified body region"
+          },
+          {
+            "code": "39452-8",
+            "display": "US Guidance for fluid aspiration of Ovary"
+          },
+          {
+            "code": "39453-6",
+            "display": "US Tendon"
+          },
+          {
+            "code": "39454-4",
+            "display": "US for transplanted liver"
+          },
+          {
+            "code": "39494-0",
+            "display": "US Abdominal wall"
+          },
+          {
+            "code": "39495-7",
+            "display": "US.doppler Extremity vessels - bilateral"
+          },
+          {
+            "code": "39496-5",
+            "display": "US.doppler Upper extremity vein - bilateral"
+          },
+          {
+            "code": "39497-3",
+            "display": "US.doppler Iliac vessels"
+          },
+          {
+            "code": "39498-1",
+            "display": "US.doppler Femoral vessels - left"
+          },
+          {
+            "code": "39499-9",
+            "display": "US.doppler Lower extremity artery - left"
+          },
+          {
+            "code": "39500-4",
+            "display": "US.doppler Upper extremity artery - left"
+          },
+          {
+            "code": "39501-2",
+            "display": "US.doppler Upper extremity vein - left"
+          },
+          {
+            "code": "39502-0",
+            "display": "US.doppler Ovarian vessels"
+          },
+          {
+            "code": "39503-8",
+            "display": "US.doppler Extremity vessels - right"
+          },
+          {
+            "code": "39504-6",
+            "display": "US.doppler Femoral vessels - right"
+          },
+          {
+            "code": "39505-3",
+            "display": "US.doppler Lower extremity artery - right"
+          },
+          {
+            "code": "39506-1",
+            "display": "US.doppler Upper extremity artery - right"
+          },
+          {
+            "code": "39507-9",
+            "display": "US.doppler Upper extremity vein - right"
+          },
+          {
+            "code": "39508-7",
+            "display": "US.doppler Umbilical vessels Fetal"
+          },
+          {
+            "code": "39509-5",
+            "display": "US for transplanted pancreas"
+          },
+          {
+            "code": "39522-8",
+            "display": "US guidance for percutaneous biopsy of Lymph node"
+          },
+          {
+            "code": "39523-6",
+            "display": "US.doppler Artery"
+          },
+          {
+            "code": "39524-4",
+            "display": "US.doppler Vein limited"
+          },
+          {
+            "code": "39525-1",
+            "display": "US.doppler Vein"
+          },
+          {
+            "code": "39526-9",
+            "display": "US Extremity limited"
+          },
+          {
+            "code": "39527-7",
+            "display": "US Unspecified body region for foreign body"
+          },
+          {
+            "code": "41798-0",
+            "display": "US Guidance for drainage of Prostate"
+          },
+          {
+            "code": "41809-5",
+            "display": "US Guidance for drainage of Retroperitoneum"
+          },
+          {
+            "code": "41812-9",
+            "display": "US Lower extremity artery limited"
+          },
+          {
+            "code": "41813-7",
+            "display": "US Upper extremity artery limited"
+          },
+          {
+            "code": "41814-5",
+            "display": "US Upper extremity artery - right"
+          },
+          {
+            "code": "41815-2",
+            "display": "US Lower extremity artery - right"
+          },
+          {
+            "code": "41816-0",
+            "display": "US Extremity veins - right"
+          },
+          {
+            "code": "41833-5",
+            "display": "US Upper extremity artery - left"
+          },
+          {
+            "code": "41834-3",
+            "display": "US Lower extremity artery - left"
+          },
+          {
+            "code": "41835-0",
+            "display": "US Extremity veins - left"
+          },
+          {
+            "code": "42132-1",
+            "display": "US Breast screening"
+          },
+          {
+            "code": "42133-9",
+            "display": "US Guidance for drainage of abscess of Liver"
+          },
+          {
+            "code": "42134-7",
+            "display": "US Guidance for fluid aspiration of Thyroid gland"
+          },
+          {
+            "code": "42135-4",
+            "display": "US Guidance for superficial biopsy of Bone"
+          },
+          {
+            "code": "42137-0",
+            "display": "US Guidance for biopsy of Mediastinum"
+          },
+          {
+            "code": "42140-4",
+            "display": "US Guidance for placement of tube in Chest"
+          },
+          {
+            "code": "42141-2",
+            "display": "US Guidance for removal of CV catheter of Vein-- Tunneled"
+          },
+          {
+            "code": "42143-8",
+            "display": "US Uterus and Fallopian tubes W saline IU"
+          },
+          {
+            "code": "42144-6",
+            "display": "US Extremity vein - right"
+          },
+          {
+            "code": "42145-3",
+            "display": "US Extremity vein - left"
+          },
+          {
+            "code": "42146-1",
+            "display": "US.doppler Carotid arteries"
+          },
+          {
+            "code": "42147-9",
+            "display": "US.doppler Iliac graft"
+          },
+          {
+            "code": "42148-7",
+            "display": "US Heart"
+          },
+          {
+            "code": "42149-5",
+            "display": "US Carotid arteries - left limited"
+          },
+          {
+            "code": "42150-3",
+            "display": "US.doppler Iliac graft limited"
+          },
+          {
+            "code": "42151-1",
+            "display": "US Carotid arteries -right limited"
+          },
+          {
+            "code": "42152-9",
+            "display": "US.doppler Pelvis vessels limited"
+          },
+          {
+            "code": "42333-5",
+            "display": "US Guidance for biopsy of Chest Pleura"
+          },
+          {
+            "code": "42447-3",
+            "display": "US Guidance for aspiration of cyst of Thyroid gland"
+          },
+          {
+            "code": "42448-1",
+            "display": "US Guidance for excisional biopsy of Breast"
+          },
+          {
+            "code": "42449-9",
+            "display": "US Guidance for biopsy of Breast - left"
+          },
+          {
+            "code": "42450-7",
+            "display": "US Guidance for aspiration of cyst of Breast - left"
+          },
+          {
+            "code": "42455-6",
+            "display": "US Pelvis transabdominal and transvaginal"
+          },
+          {
+            "code": "42456-4",
+            "display": "US Guidance for placement of needle wire in Breast"
+          },
+          {
+            "code": "42457-2",
+            "display": "US Guidance for biopsy of Breast - right"
+          },
+          {
+            "code": "42458-0",
+            "display": "US Guidance for aspiration of cyst of Breast - right"
+          },
+          {
+            "code": "42461-4",
+            "display": "US.doppler Lower extremity vessel - left for graft"
+          },
+          {
+            "code": "42462-2",
+            "display": "US.doppler Lower extremity vessel - right for graft"
+          },
+          {
+            "code": "42463-0",
+            "display": "US Guidance for biopsy of Endomyocardium"
+          },
+          {
+            "code": "42468-9",
+            "display": "US Surgical specimen"
+          },
+          {
+            "code": "42475-4",
+            "display": "US.doppler Upper extremity vessel - left for graft"
+          },
+          {
+            "code": "42476-2",
+            "display": "US.doppler Upper extremity vessel - right for graft"
+          },
+          {
+            "code": "42477-0",
+            "display": "US.doppler for transplanted kidney vessels"
+          },
+          {
+            "code": "42478-8",
+            "display": "US Guidance for drainage of cyst of Kidney"
+          },
+          {
+            "code": "42705-4",
+            "display": "US Guidance for drainage of abscess of Appendix"
+          },
+          {
+            "code": "42706-2",
+            "display": "US Guidance for injection of Pleural space"
+          },
+          {
+            "code": "42707-0",
+            "display": "US Heart limited"
+          },
+          {
+            "code": "43487-8",
+            "display": "US Guidance for placement of radiation therapy fields in Unspecified body region"
+          },
+          {
+            "code": "43552-9",
+            "display": "US Carotid arteries - unilateral"
+          },
+          {
+            "code": "43564-4",
+            "display": "US Guidance for superficial biopsy of Muscle"
+          },
+          {
+            "code": "43565-1",
+            "display": "US Guidance for deep biopsy of Bone"
+          },
+          {
+            "code": "43566-9",
+            "display": "US Hip and Thigh"
+          },
+          {
+            "code": "43572-7",
+            "display": "US.doppler Abdominal vessels limited"
+          },
+          {
+            "code": "43756-6",
+            "display": "US Guidance for fluid aspiration of Breast"
+          },
+          {
+            "code": "43758-2",
+            "display": "US Guidance for localization of Breast - left"
+          },
+          {
+            "code": "43759-0",
+            "display": "US Guidance for localization of Breast - bilateral"
+          },
+          {
+            "code": "43760-8",
+            "display": "US Guidance for localization of Breast - right"
+          },
+          {
+            "code": "43765-7",
+            "display": "US.doppler Carotid arteries - bilateral"
+          },
+          {
+            "code": "43771-5",
+            "display": "US.doppler Extremity vessels"
+          },
+          {
+            "code": "43774-9",
+            "display": "US Kidney - bilateral"
+          },
+          {
+            "code": "43776-4",
+            "display": "US.doppler Iliac artery limited"
+          },
+          {
+            "code": "43797-0",
+            "display": "US Guidance for superficial biopsy of Lymph node"
+          },
+          {
+            "code": "44155-0",
+            "display": "US Guidance for ablation of tissue of Liver"
+          },
+          {
+            "code": "44156-8",
+            "display": "US Guidance for ablation of tissue of Kidney"
+          },
+          {
+            "code": "44157-6",
+            "display": "US Guidance for fine needle aspiration of Pancreas"
+          },
+          {
+            "code": "44158-4",
+            "display": "US Guidance for fine needle aspiration of Liver"
+          },
+          {
+            "code": "44159-2",
+            "display": "US Guidance for fine needle aspiration of Kidney"
+          },
+          {
+            "code": "44160-0",
+            "display": "US Guidance for fine needle aspiration of Breast"
+          },
+          {
+            "code": "44161-8",
+            "display": "US Guidance for biopsy of Lung"
+          },
+          {
+            "code": "44162-6",
+            "display": "US Guidance for biopsy of Retroperitoneum"
+          },
+          {
+            "code": "44163-4",
+            "display": "US Brachial plexus"
+          },
+          {
+            "code": "44164-2",
+            "display": "US Head and Neck"
+          },
+          {
+            "code": "44166-7",
+            "display": "US Guidance for drainage of abscess of Subphrenic space"
+          },
+          {
+            "code": "44167-5",
+            "display": "US Guidance for drainage of abscess of Kidney"
+          },
+          {
+            "code": "44168-3",
+            "display": "US Guidance for drainage of abscess of Pelvis"
+          },
+          {
+            "code": "44169-1",
+            "display": "US Guidance for drainage of abscess of Peritoneal space"
+          },
+          {
+            "code": "44172-5",
+            "display": "US Guidance for drainage of Pancreas"
+          },
+          {
+            "code": "44173-3",
+            "display": "US Extremity artery limited"
+          },
+          {
+            "code": "44174-1",
+            "display": "US.doppler Lower extremity vessels"
+          },
+          {
+            "code": "44175-8",
+            "display": "US.doppler Neck vessels"
+          },
+          {
+            "code": "44235-0",
+            "display": "US.doppler Superior mesenteric vessels"
+          },
+          {
+            "code": "44236-8",
+            "display": "US.doppler Upper extremity vessel - bilateral for graft"
+          },
+          {
+            "code": "44237-6",
+            "display": "US.doppler Upper extremity vessel - bilateral for graft limited"
+          },
+          {
+            "code": "46282-0",
+            "display": "US Guidance for aspiration or injection of cyst of Unspecified body region"
+          },
+          {
+            "code": "46285-3",
+            "display": "US Guidance for core needle biopsy of Thyroid gland"
+          },
+          {
+            "code": "46288-7",
+            "display": "US Guidance for biopsy of Prostate"
+          },
+          {
+            "code": "46301-8",
+            "display": "US.doppler Extremity vein - bilateral limited"
+          },
+          {
+            "code": "46302-6",
+            "display": "US.doppler Upper extremity artery - bilateral limited"
+          },
+          {
+            "code": "46303-4",
+            "display": "US.doppler Upper extremity vessels limited"
+          },
+          {
+            "code": "46362-0",
+            "display": "US.doppler Foot vessels"
+          },
+          {
+            "code": "46363-8",
+            "display": "US Lower extremity vein"
+          },
+          {
+            "code": "46364-6",
+            "display": "US Lower extremity vein - bilateral"
+          },
+          {
+            "code": "46369-5",
+            "display": "US Guidance for biopsy of Ovary"
+          },
+          {
+            "code": "46370-3",
+            "display": "US Guidance for biopsy of Pelvis"
+          },
+          {
+            "code": "46374-5",
+            "display": "US Cerebral arteries"
+          },
+          {
+            "code": "46375-2",
+            "display": "US Artery"
+          },
+          {
+            "code": "46379-4",
+            "display": "US.doppler Upper extremity vessels - bilateral"
+          },
+          {
+            "code": "46382-8",
+            "display": "US.doppler Hand vessels"
+          },
+          {
+            "code": "46385-1",
+            "display": "US.doppler Upper extremity vessel for graft"
+          },
+          {
+            "code": "46388-5",
+            "display": "US.doppler Thoracic and abdominal aorta"
+          },
+          {
+            "code": "48434-5",
+            "display": "US Guidance for fluid aspiration of Kidney"
+          },
+          {
+            "code": "48448-5",
+            "display": "US Upper extremity artery"
+          },
+          {
+            "code": "48688-6",
+            "display": "US Upper extremity vein - right"
+          },
+          {
+            "code": "48689-4",
+            "display": "US Upper extremity vein - left"
+          },
+          {
+            "code": "48690-2",
+            "display": "US Upper extremity vein - bilateral"
+          },
+          {
+            "code": "48691-0",
+            "display": "US Lower extremity vein - right"
+          },
+          {
+            "code": "48692-8",
+            "display": "US Lower extremity vein - left"
+          },
+          {
+            "code": "48693-6",
+            "display": "US Lower extremity artery"
+          },
+          {
+            "code": "48742-1",
+            "display": "US.doppler Scrotum and testicle"
+          },
+          {
+            "code": "58743-6",
+            "display": "US Guidance for ablation of tissue of Unspecified body region"
+          },
+          {
+            "code": "62451-0",
+            "display": "US Extremity - left limited"
+          },
+          {
+            "code": "62452-8",
+            "display": "US Extremity - right limited"
+          },
+          {
+            "code": "62494-0",
+            "display": "US Guidance for percutaneous drainage of Unspecified body region"
+          },
+          {
+            "code": "64993-9",
+            "display": "US Guidance for placement of needle in Unspecified body region"
+          },
+          {
+            "code": "69276-4",
+            "display": "US Abdominal Aorta"
+          },
+          {
+            "code": "69277-2",
+            "display": "US Adrenal gland"
+          },
+          {
+            "code": "69278-0",
+            "display": "US Guidance for fluid aspiration of Breast - bilateral"
+          },
+          {
+            "code": "69279-8",
+            "display": "US Guidance for core needle biopsy of Lymph node"
+          },
+          {
+            "code": "69280-6",
+            "display": "US Urinary bladder limited"
+          },
+          {
+            "code": "69282-2",
+            "display": "US.doppler Unspecified body region limited"
+          },
+          {
+            "code": "69283-0",
+            "display": "US.doppler Extremity veins - bilateral"
+          },
+          {
+            "code": "69284-8",
+            "display": "US.doppler Portal vein and Hepatic vein"
+          },
+          {
+            "code": "69285-5",
+            "display": "US.doppler Umbilical artery Fetal"
+          },
+          {
+            "code": "69286-3",
+            "display": "US Eye limited"
+          },
+          {
+            "code": "69287-1",
+            "display": "US Guidance for fluid aspiration of Lymph node"
+          },
+          {
+            "code": "69292-1",
+            "display": "US Guidance for fluid aspiration of Breast - left"
+          },
+          {
+            "code": "69293-9",
+            "display": "US Extremity artery - left"
+          },
+          {
+            "code": "69294-7",
+            "display": "US Renal artery"
+          },
+          {
+            "code": "69295-4",
+            "display": "US Renal vessels"
+          },
+          {
+            "code": "69296-2",
+            "display": "US Guidance for fluid aspiration of Breast - right"
+          },
+          {
+            "code": "69297-0",
+            "display": "US Extremity artery - right"
+          },
+          {
+            "code": "69298-8",
+            "display": "US Salivary gland"
+          },
+          {
+            "code": "69299-6",
+            "display": "US Scrotum and testicle limited"
+          },
+          {
+            "code": "69300-2",
+            "display": "US for transplanted kidney limited"
+          },
+          {
+            "code": "69385-3",
+            "display": "US Lower extremity veins - bilateral"
+          },
+          {
+            "code": "69387-9",
+            "display": "US Guidance for biopsy of Epididymis"
+          },
+          {
+            "code": "69388-7",
+            "display": "US Urinary bladder post void"
+          },
+          {
+            "code": "69389-5",
+            "display": "US Femoral artery and Popliteal artery"
+          },
+          {
+            "code": "69390-3",
+            "display": "US Ovary"
+          },
+          {
+            "code": "69391-1",
+            "display": "US Guidance for cordocentesis"
+          },
+          {
+            "code": "69392-9",
+            "display": "US Lower extremity veins - left"
+          },
+          {
+            "code": "69393-7",
+            "display": "US Lumbar spine"
+          },
+          {
+            "code": "69394-5",
+            "display": "US Mesenteric arteries"
+          },
+          {
+            "code": "69395-2",
+            "display": "US Upper extremity veins"
+          },
+          {
+            "code": "69396-0",
+            "display": "US Guidance for biopsy of Spinal cord"
+          },
+          {
+            "code": "69397-8",
+            "display": "US.doppler Breast vessels"
+          },
+          {
+            "code": "69398-6",
+            "display": "US.doppler Extremity vessels - left"
+          },
+          {
+            "code": "69399-4",
+            "display": "US Femoral vein and Popliteal vein"
+          },
+          {
+            "code": "69400-0",
+            "display": "US Guidance for chorionic villus sampling"
+          },
+          {
+            "code": "69402-6",
+            "display": "US Kidney - bilateral and Urinary bladder"
+          },
+          {
+            "code": "70915-4",
+            "display": "US Guidance for aspiration of CSF of Cervical spine"
+          },
+          {
+            "code": "70916-2",
+            "display": "US Guidance for aspiration of CSF of Lumbar spine"
+          },
+          {
+            "code": "70917-0",
+            "display": "US Guidance for aspiration of CSF of Thoracic spine"
+          },
+          {
+            "code": "70926-1",
+            "display": "US Cervical spine"
+          },
+          {
+            "code": "70927-9",
+            "display": "US Thoracic spine"
+          },
+          {
+            "code": "72528-3",
+            "display": "US Axilla - right"
+          },
+          {
+            "code": "72529-1",
+            "display": "US Axilla - left"
+          },
+          {
+            "code": "72530-9",
+            "display": "US Guidance for injection of Joint"
+          },
+          {
+            "code": "72532-5",
+            "display": "US Guidance for ambulatory phlebectomy of Extremity vein - right"
+          },
+          {
+            "code": "72533-3",
+            "display": "US Guidance for ambulatory phlebectomy of Extremity vein - left"
+          },
+          {
+            "code": "72534-1",
+            "display": "US Guidance for laser ablation of Extremity vein - right"
+          },
+          {
+            "code": "72535-8",
+            "display": "US Guidance for laser ablation of Extremity vein - left"
+          },
+          {
+            "code": "72536-6",
+            "display": "US Guidance for vascular sclerotherapy of Extremity veins - bilateral"
+          },
+          {
+            "code": "72537-4",
+            "display": "US Guidance for vascular sclerotherapy of Extremity vein - bilateral"
+          },
+          {
+            "code": "72642-2",
+            "display": "US Guidance for vascular sclerotherapy of Extremity veins - right"
+          },
+          {
+            "code": "72643-0",
+            "display": "US Guidance for vascular sclerotherapy of Extremity veins - left"
+          },
+          {
+            "code": "72644-8",
+            "display": "US Guidance for vascular sclerotherapy of Extremity vein - right"
+          },
+          {
+            "code": "72645-5",
+            "display": "US Guidance for vascular sclerotherapy of Extremity vein - left"
+          },
+          {
+            "code": "72830-3",
+            "display": "US.doppler Extremity arteries - bilateral for physiologic artery study"
+          },
+          {
+            "code": "72831-1",
+            "display": "US.doppler Extremity arteries - bilateral for physiologic artery study limited"
+          },
+          {
+            "code": "72832-9",
+            "display": "US.doppler Extremity arteries - bilateral for physiologic artery study at rest and with exercise"
+          },
+          {
+            "code": "75672-6",
+            "display": "US Guidance for placement of nephrostomy tube in Kidney"
+          },
+          {
+            "code": "79374-5",
+            "display": "US Abdominal Aorta for screening"
+          },
+          {
+            "code": "80833-7",
+            "display": "US for multiple gestation pregnancy limited"
+          },
+          {
+            "code": "80834-5",
+            "display": "US for multiple gestation pregnancy in first trimester"
+          },
+          {
+            "code": "80835-2",
+            "display": "US transabdominal and transvaginal for multiple gestation pregnancy in first trimester"
+          },
+          {
+            "code": "80836-0",
+            "display": "US for multiple gestation pregnancy in second or third trimester"
+          },
+          {
+            "code": "80837-8",
+            "display": "US for multiple gestation pregnancy with fetal abnormality"
+          },
+          {
+            "code": "80838-6",
+            "display": "US Liver limited"
+          },
+          {
+            "code": "80839-4",
+            "display": "US Pancreas limited"
+          },
+          {
+            "code": "80840-2",
+            "display": "US Spleen limited"
+          },
+          {
+            "code": "80841-0",
+            "display": "US Guidance for placement of needle in Breast"
+          },
+          {
+            "code": "80842-8",
+            "display": "US Guidance for additional aspiration of cyst of Breast - left"
+          },
+          {
+            "code": "80843-6",
+            "display": "US Guidance for vacuum biopsy of Breast - left"
+          },
+          {
+            "code": "80844-4",
+            "display": "US Guidance for fine needle biopsy of Breast - left"
+          },
+          {
+            "code": "80846-9",
+            "display": "US Guidance for additional aspiration of cyst of Breast - right"
+          },
+          {
+            "code": "80847-7",
+            "display": "US Guidance for vacuum biopsy of Breast - right"
+          },
+          {
+            "code": "80848-5",
+            "display": "US Guidance for fine needle biopsy of Breast - right"
+          },
+          {
+            "code": "80850-1",
+            "display": "US.doppler Carotid arteries limited"
+          },
+          {
+            "code": "80851-9",
+            "display": "US.doppler Cerebral artery middle Fetal for pregnancy"
+          },
+          {
+            "code": "80852-7",
+            "display": "US Axilla"
+          },
+          {
+            "code": "80853-5",
+            "display": "US Guidance for injection of Elbow"
+          },
+          {
+            "code": "80854-3",
+            "display": "US Extremity musculoskeletal tissue limited"
+          },
+          {
+            "code": "80855-0",
+            "display": "US Extremity musculoskeletal tissue"
+          },
+          {
+            "code": "80856-8",
+            "display": "US.doppler Head limited"
+          },
+          {
+            "code": "80857-6",
+            "display": "US.doppler Head"
+          },
+          {
+            "code": "80858-4",
+            "display": "US Head and neck soft tissue"
+          },
+          {
+            "code": "80859-2",
+            "display": "US.doppler Heart"
+          },
+          {
+            "code": "80860-0",
+            "display": "US Lower extremity veins - unilateral limited"
+          },
+          {
+            "code": "80861-8",
+            "display": "US Lower extremity soft tissue"
+          },
+          {
+            "code": "80862-6",
+            "display": "US Pelvis for in vitro fertilization"
+          },
+          {
+            "code": "80863-4",
+            "display": "US.doppler for transplanted kidney"
+          },
+          {
+            "code": "80864-2",
+            "display": "US.doppler for pregnancy"
+          },
+          {
+            "code": "80865-9",
+            "display": "US transvaginal for pregnancy"
+          },
+          {
+            "code": "80866-7",
+            "display": "US for pregnancy in second or third trimester"
+          },
+          {
+            "code": "80867-5",
+            "display": "US transabdominal and transvaginal for pregnancy in first trimester"
+          },
+          {
+            "code": "80868-3",
+            "display": "US for pregnancy with fetal abnormality"
+          },
+          {
+            "code": "80869-1",
+            "display": "US for pregnancy in first trimester"
+          },
+          {
+            "code": "80870-9",
+            "display": "US for pregnancy limited"
+          },
+          {
+            "code": "80871-7",
+            "display": "US Ovary for torsion"
+          },
+          {
+            "code": "80872-5",
+            "display": "US.doppler Uterus and Fallopian tubes W saline IU"
+          },
+          {
+            "code": "80873-3",
+            "display": "US.doppler Penis limited"
+          },
+          {
+            "code": "80874-1",
+            "display": "US.doppler Penis vessels"
+          },
+          {
+            "code": "80875-8",
+            "display": "US Penis soft tissue"
+          },
+          {
+            "code": "80876-6",
+            "display": "US Prostate transrectal for volume measurement"
+          },
+          {
+            "code": "80877-4",
+            "display": "US Scrotum and testicle for torsion"
+          },
+          {
+            "code": "80878-2",
+            "display": "US.doppler Umbilical artery Fetal for pregnancy"
+          },
+          {
+            "code": "80879-0",
+            "display": "US Upper extremity veins - unilateral limited"
+          },
+          {
+            "code": "80880-8",
+            "display": "US Guidance for injection of Carpal tunnel"
+          },
+          {
+            "code": "80881-6",
+            "display": "US Upper extremity soft tissue"
+          },
+          {
+            "code": "80882-4",
+            "display": "US Guidance of Unspecified body region-- during surgery"
+          },
+          {
+            "code": "80895-6",
+            "display": "US Upper extremity veins - bilateral"
+          },
+          {
+            "code": "80896-4",
+            "display": "US.doppler Aorta and Iliac artery - bilateral"
+          },
+          {
+            "code": "80897-2",
+            "display": "US.doppler Aorta and Iliac artery - bilateral limited"
+          },
+          {
+            "code": "80898-0",
+            "display": "US Groin and Pseudoaneurysm"
+          },
+          {
+            "code": "81158-8",
+            "display": "US Pediatric Head"
+          },
+          {
+            "code": "81159-6",
+            "display": "US Pediatric Cervical and thoracic and lumbar spine"
+          },
+          {
+            "code": "81160-4",
+            "display": "US.doppler Pediatric limited Head"
+          },
+          {
+            "code": "81161-2",
+            "display": "US.doppler Heart for blood flow"
+          },
+          {
+            "code": "81162-0",
+            "display": "US Guidance for needle localization Breast - left and MG Views Breast specimen"
+          },
+          {
+            "code": "81163-8",
+            "display": "US Guidance for needle localization Breast - right and MG Views Breast specimen"
+          },
+          {
+            "code": "81164-6",
+            "display": "US Pediatric limited Hip - bilateral"
+          },
+          {
+            "code": "81165-3",
+            "display": "US Guidance for peripheral venous access of Vein"
+          },
+          {
+            "code": "82124-9",
+            "display": "US Guidance for radiation treatment of Unspecified body region"
+          }
+        ]
+      }
+    ]
+  }
+}

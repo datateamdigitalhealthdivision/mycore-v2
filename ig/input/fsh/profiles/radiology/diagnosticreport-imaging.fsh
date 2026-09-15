@@ -31,6 +31,16 @@ Description: "The radiologist's report. Narrative plus a rendered form is suffic
 * category from $VS-DIAG-SERVICE (extensible)
 * category ^short = "HL7 v2-0074. RAD for radiology."
 * code 1..1 MS
+* code from $VS-RAD-PROCEDURE (extensible)
+* code.coding MS
+* code.coding ^slicing.discriminator[0].type = #value
+* code.coding ^slicing.discriminator[0].path = "system"
+* code.coding ^slicing.rules = #open
+* code.coding contains loinc 1..1 MS and national 0..1
+* code.coding[loinc].system = "http://loinc.org" (exactly)
+* code.coding[loinc] ^short = "LOINC/RSNA Radiology Playbook. Same vocabulary as the Imaging Order, so an order and its report carry the same code. Resolves DR-06."
+* code.coding[national].system = "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/imaging-my-core" (exactly)
+* code.coding[national] ^short = "LEGACY. Retired as a binding target in v2.1."
 * subject 1..1 MS
 * encounter MS
 * effective[x] MS

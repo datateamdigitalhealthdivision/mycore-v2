@@ -1,0 +1,3526 @@
+{
+  "resourceType": "ValueSet",
+  "id": "radiology-procedure-mr-my-core",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/radiology-procedure-mr-my-core",
+  "version": "2.1.0",
+  "name": "MyCoreRadiologyProcedureMagneticResonanceMyCore",
+  "title": "MY Core Radiology Procedure - Magnetic resonance",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "NATIONAL SELECTION. The magnetic resonance subset of the LOINC/RSNA Radiology Playbook. 876 codes. A modality-scoped pick list; the full catalogue is radiology-procedure-my-core.",
+  "copyright": "This value set enumerates LOINC codes. LOINC is copyright Regenstrief Institute, Inc. and the LOINC Committee, and is available at no cost under the LOINC licence. RPID identifiers are from the RSNA Radiology Playbook.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "24533-2",
+            "display": "MRA Abdominal vessels W contrast IV"
+          },
+          {
+            "code": "24538-1",
+            "display": "MR Ankle"
+          },
+          {
+            "code": "24539-9",
+            "display": "MR Ankle WO and W contrast IV"
+          },
+          {
+            "code": "24549-8",
+            "display": "MRA Upper extremity vessels W contrast IV"
+          },
+          {
+            "code": "24556-3",
+            "display": "MR Abdomen"
+          },
+          {
+            "code": "24557-1",
+            "display": "MR Abdomen WO and W contrast IV"
+          },
+          {
+            "code": "24582-9",
+            "display": "MR Brachial plexus"
+          },
+          {
+            "code": "24583-7",
+            "display": "MR Brachial plexus WO and W contrast IV"
+          },
+          {
+            "code": "24584-5",
+            "display": "MRA Thoracic inlet vessels W contrast IV"
+          },
+          {
+            "code": "24586-0",
+            "display": "MR Brain W anesthesia"
+          },
+          {
+            "code": "24587-8",
+            "display": "MR Brain WO and W contrast IV"
+          },
+          {
+            "code": "24588-6",
+            "display": "MR Brain WO and W contrast IV and W anesthesia"
+          },
+          {
+            "code": "24589-4",
+            "display": "MR Brain W contrast IV"
+          },
+          {
+            "code": "24590-2",
+            "display": "MR Brain"
+          },
+          {
+            "code": "24593-6",
+            "display": "MRA Head vessels W contrast IV"
+          },
+          {
+            "code": "24629-8",
+            "display": "MR Chest"
+          },
+          {
+            "code": "24659-5",
+            "display": "MRA Chest vessels W contrast IV"
+          },
+          {
+            "code": "24660-3",
+            "display": "MRA Thoracic Aorta"
+          },
+          {
+            "code": "24674-4",
+            "display": "MR Elbow"
+          },
+          {
+            "code": "24675-1",
+            "display": "MR Elbow WO and W contrast IV"
+          },
+          {
+            "code": "24687-6",
+            "display": "MR Lower Extremity Joint"
+          },
+          {
+            "code": "24688-4",
+            "display": "MR Upper extremity"
+          },
+          {
+            "code": "24694-2",
+            "display": "MR Face WO and W contrast IV"
+          },
+          {
+            "code": "24702-3",
+            "display": "MR Thigh"
+          },
+          {
+            "code": "24703-1",
+            "display": "MR Thigh WO and W contrast IV"
+          },
+          {
+            "code": "24705-6",
+            "display": "MR Finger"
+          },
+          {
+            "code": "24707-2",
+            "display": "MR Foot"
+          },
+          {
+            "code": "24710-6",
+            "display": "MR Forearm"
+          },
+          {
+            "code": "24720-5",
+            "display": "MR Hand"
+          },
+          {
+            "code": "24735-3",
+            "display": "MR Internal auditory canal and Posterior fossa"
+          },
+          {
+            "code": "24740-3",
+            "display": "MR Internal auditory canal and Posterior fossa WO and W contrast IV"
+          },
+          {
+            "code": "24748-6",
+            "display": "MR Heart"
+          },
+          {
+            "code": "24802-1",
+            "display": "MR Knee"
+          },
+          {
+            "code": "24803-9",
+            "display": "MR Knee WO and W contrast IV"
+          },
+          {
+            "code": "24820-3",
+            "display": "MRA Lower leg vessels W contrast IV"
+          },
+          {
+            "code": "24821-1",
+            "display": "MR Lower leg"
+          },
+          {
+            "code": "24839-3",
+            "display": "MR Neck"
+          },
+          {
+            "code": "24840-1",
+            "display": "MR Neck WO and W contrast IV"
+          },
+          {
+            "code": "24841-9",
+            "display": "MR Neck W contrast IV"
+          },
+          {
+            "code": "24844-3",
+            "display": "MRA Neck vessels W contrast IV"
+          },
+          {
+            "code": "24851-8",
+            "display": "MR Orbit - bilateral WO and W contrast IV"
+          },
+          {
+            "code": "24852-6",
+            "display": "MR Orbit - bilateral W contrast IV"
+          },
+          {
+            "code": "24867-4",
+            "display": "MR Pelvis"
+          },
+          {
+            "code": "24872-4",
+            "display": "MR Pelvis and Hip"
+          },
+          {
+            "code": "24873-2",
+            "display": "MRA Pelvis vessels W contrast IV"
+          },
+          {
+            "code": "24879-9",
+            "display": "MR Pituitary and Sella turcica WO and W contrast IV"
+          },
+          {
+            "code": "24880-7",
+            "display": "MR Pituitary and Sella turcica"
+          },
+          {
+            "code": "24905-2",
+            "display": "MR Shoulder"
+          },
+          {
+            "code": "24906-0",
+            "display": "MR Shoulder WO and W contrast IV"
+          },
+          {
+            "code": "24914-4",
+            "display": "MR Sinuses"
+          },
+          {
+            "code": "24915-1",
+            "display": "MR Sinuses W contrast IV"
+          },
+          {
+            "code": "24935-9",
+            "display": "MR Cervical spine"
+          },
+          {
+            "code": "24936-7",
+            "display": "MR Cervical spine W anesthesia"
+          },
+          {
+            "code": "24937-5",
+            "display": "MR Cervical spine WO and W contrast IV"
+          },
+          {
+            "code": "24938-3",
+            "display": "MR Cervical spine W contrast IV"
+          },
+          {
+            "code": "24967-2",
+            "display": "MR Lumbar spine WO and W contrast IV"
+          },
+          {
+            "code": "24968-0",
+            "display": "MR Lumbar spine"
+          },
+          {
+            "code": "24977-1",
+            "display": "MR Lumbar spine W anesthesia"
+          },
+          {
+            "code": "24980-5",
+            "display": "MR Thoracic spine"
+          },
+          {
+            "code": "24981-3",
+            "display": "MR Thoracic spine WO and W contrast IV"
+          },
+          {
+            "code": "24982-1",
+            "display": "MR Thoracic spine W contrast IV"
+          },
+          {
+            "code": "24999-5",
+            "display": "MR Temporomandibular joint"
+          },
+          {
+            "code": "25003-5",
+            "display": "MRA Thigh vessels W contrast IV"
+          },
+          {
+            "code": "25033-2",
+            "display": "MR Wrist"
+          },
+          {
+            "code": "25035-7",
+            "display": "MR Wrist WO and W contrast IV"
+          },
+          {
+            "code": "25056-3",
+            "display": "MR Unspecified body region"
+          },
+          {
+            "code": "25057-1",
+            "display": "MR Unspecified body region W conscious sedation"
+          },
+          {
+            "code": "25058-9",
+            "display": "MRA Unspecified body region W contrast IV"
+          },
+          {
+            "code": "26181-8",
+            "display": "MRA Thoracic inlet vessels - bilateral W contrast IV"
+          },
+          {
+            "code": "26182-6",
+            "display": "MRA Thoracic inlet vessels - left W contrast IV"
+          },
+          {
+            "code": "26183-4",
+            "display": "MRA Thoracic inlet vessels - right W contrast IV"
+          },
+          {
+            "code": "26187-5",
+            "display": "MR Ankle - bilateral WO and W contrast IV"
+          },
+          {
+            "code": "26188-3",
+            "display": "MR Ankle - left WO and W contrast IV"
+          },
+          {
+            "code": "26189-1",
+            "display": "MR Ankle - right WO and W contrast IV"
+          },
+          {
+            "code": "26190-9",
+            "display": "MR Brachial plexus - bilateral WO and W contrast IV"
+          },
+          {
+            "code": "26191-7",
+            "display": "MR Brachial plexus - left WO and W contrast IV"
+          },
+          {
+            "code": "26192-5",
+            "display": "MR Brachial plexus - right WO and W contrast IV"
+          },
+          {
+            "code": "26193-3",
+            "display": "MR Elbow - bilateral WO and W contrast IV"
+          },
+          {
+            "code": "26194-1",
+            "display": "MR Elbow - left WO and W contrast IV"
+          },
+          {
+            "code": "26195-8",
+            "display": "MR Elbow - right WO and W contrast IV"
+          },
+          {
+            "code": "26196-6",
+            "display": "MR Thigh - bilateral WO and W contrast IV"
+          },
+          {
+            "code": "26197-4",
+            "display": "MR Thigh - left WO and W contrast IV"
+          },
+          {
+            "code": "26198-2",
+            "display": "MR Thigh - right WO and W contrast IV"
+          },
+          {
+            "code": "26199-0",
+            "display": "MR Knee - bilateral WO and W contrast IV"
+          },
+          {
+            "code": "26200-6",
+            "display": "MR Knee - left WO and W contrast IV"
+          },
+          {
+            "code": "26201-4",
+            "display": "MR Knee - right WO and W contrast IV"
+          },
+          {
+            "code": "26202-2",
+            "display": "MR Shoulder - bilateral WO and W contrast IV"
+          },
+          {
+            "code": "26203-0",
+            "display": "MR Shoulder - left WO and W contrast IV"
+          },
+          {
+            "code": "26204-8",
+            "display": "MR Shoulder - right WO and W contrast IV"
+          },
+          {
+            "code": "26205-5",
+            "display": "MR Wrist - bilateral WO and W contrast IV"
+          },
+          {
+            "code": "26206-3",
+            "display": "MR Wrist - left WO and W contrast IV"
+          },
+          {
+            "code": "26207-1",
+            "display": "MR Wrist - right WO and W contrast IV"
+          },
+          {
+            "code": "26208-9",
+            "display": "MR Ankle - bilateral"
+          },
+          {
+            "code": "26209-7",
+            "display": "MR Ankle - left"
+          },
+          {
+            "code": "26210-5",
+            "display": "MR Ankle - right"
+          },
+          {
+            "code": "26211-3",
+            "display": "MR Brachial plexus - bilateral"
+          },
+          {
+            "code": "26212-1",
+            "display": "MR Brachial plexus - left"
+          },
+          {
+            "code": "26213-9",
+            "display": "MR Brachial plexus - right"
+          },
+          {
+            "code": "26220-4",
+            "display": "MR Elbow - bilateral"
+          },
+          {
+            "code": "26221-2",
+            "display": "MR Elbow - left"
+          },
+          {
+            "code": "26222-0",
+            "display": "MR Elbow - right"
+          },
+          {
+            "code": "26227-9",
+            "display": "MR Lower extremity joint - bilateral"
+          },
+          {
+            "code": "26228-7",
+            "display": "MR Lower extremity joint - left"
+          },
+          {
+            "code": "26229-5",
+            "display": "MR Lower extremity joint - right"
+          },
+          {
+            "code": "26232-9",
+            "display": "MR Upper extremity - bilateral"
+          },
+          {
+            "code": "26233-7",
+            "display": "MR Upper extremity - left"
+          },
+          {
+            "code": "26234-5",
+            "display": "MR Upper extremity - right"
+          },
+          {
+            "code": "26235-2",
+            "display": "MR Thigh - bilateral"
+          },
+          {
+            "code": "26236-0",
+            "display": "MR Thigh - left"
+          },
+          {
+            "code": "26237-8",
+            "display": "MR Thigh - right"
+          },
+          {
+            "code": "26238-6",
+            "display": "MR Finger - bilateral"
+          },
+          {
+            "code": "26239-4",
+            "display": "MR Finger - left"
+          },
+          {
+            "code": "26240-2",
+            "display": "MR Finger - right"
+          },
+          {
+            "code": "26241-0",
+            "display": "MR Foot - bilateral"
+          },
+          {
+            "code": "26242-8",
+            "display": "MR Foot - left"
+          },
+          {
+            "code": "26243-6",
+            "display": "MR Foot - right"
+          },
+          {
+            "code": "26244-4",
+            "display": "MR Forearm - bilateral"
+          },
+          {
+            "code": "26245-1",
+            "display": "MR Forearm - left"
+          },
+          {
+            "code": "26246-9",
+            "display": "MR Forearm - right"
+          },
+          {
+            "code": "26247-7",
+            "display": "MR Hand - bilateral"
+          },
+          {
+            "code": "26248-5",
+            "display": "MR Hand - left"
+          },
+          {
+            "code": "26249-3",
+            "display": "MR Hand - right"
+          },
+          {
+            "code": "26256-8",
+            "display": "MR Knee - bilateral"
+          },
+          {
+            "code": "26257-6",
+            "display": "MR Knee - left"
+          },
+          {
+            "code": "26258-4",
+            "display": "MR Knee - right"
+          },
+          {
+            "code": "26259-2",
+            "display": "MR Pelvis and Hip - bilateral"
+          },
+          {
+            "code": "26260-0",
+            "display": "MR Pelvis and Hip - left"
+          },
+          {
+            "code": "26261-8",
+            "display": "MR Pelvis and Hip - right"
+          },
+          {
+            "code": "26266-7",
+            "display": "MR Shoulder - bilateral"
+          },
+          {
+            "code": "26268-3",
+            "display": "MR Shoulder - left"
+          },
+          {
+            "code": "26270-9",
+            "display": "MR Shoulder - right"
+          },
+          {
+            "code": "26277-4",
+            "display": "MR Wrist - bilateral"
+          },
+          {
+            "code": "26279-0",
+            "display": "MR Wrist - left"
+          },
+          {
+            "code": "26281-6",
+            "display": "MR Wrist - right"
+          },
+          {
+            "code": "28576-7",
+            "display": "MR Joint"
+          },
+          {
+            "code": "30654-8",
+            "display": "MR Brachial plexus WO contrast"
+          },
+          {
+            "code": "30655-5",
+            "display": "MR Cerebral cisterns"
+          },
+          {
+            "code": "30656-3",
+            "display": "MR Guidance for stereotactic localization of Brain-- W contrast IV"
+          },
+          {
+            "code": "30657-1",
+            "display": "MR Brain WO contrast"
+          },
+          {
+            "code": "30658-9",
+            "display": "MR Internal auditory canal WO contrast"
+          },
+          {
+            "code": "30659-7",
+            "display": "MR Internal auditory canal WO and W contrast IV"
+          },
+          {
+            "code": "30660-5",
+            "display": "MR Neck WO contrast"
+          },
+          {
+            "code": "30661-3",
+            "display": "MR Orbit - bilateral WO contrast"
+          },
+          {
+            "code": "30662-1",
+            "display": "MR Sinuses WO contrast"
+          },
+          {
+            "code": "30663-9",
+            "display": "MR Sinuses WO and W contrast IV"
+          },
+          {
+            "code": "30664-7",
+            "display": "MR Guidance for radiation treatment of Unspecified body region-- W contrast IV"
+          },
+          {
+            "code": "30665-4",
+            "display": "MR Guidance for radiation treatment of Unspecified body region-- WO contrast"
+          },
+          {
+            "code": "30666-2",
+            "display": "MR Pituitary and Sella turcica WO contrast"
+          },
+          {
+            "code": "30667-0",
+            "display": "MR Cervical spine WO contrast"
+          },
+          {
+            "code": "30668-8",
+            "display": "MR Abdomen WO contrast"
+          },
+          {
+            "code": "30669-6",
+            "display": "MR Liver WO contrast"
+          },
+          {
+            "code": "30670-4",
+            "display": "MR Liver WO and W contrast IV"
+          },
+          {
+            "code": "30671-2",
+            "display": "MR Pelvis and Hip WO contrast"
+          },
+          {
+            "code": "30672-0",
+            "display": "MR Pelvis and Hip WO and W contrast IV"
+          },
+          {
+            "code": "30673-8",
+            "display": "MR Pelvis WO contrast"
+          },
+          {
+            "code": "30674-6",
+            "display": "MR Pelvis WO and W contrast IV"
+          },
+          {
+            "code": "30675-3",
+            "display": "MR Prostate"
+          },
+          {
+            "code": "30678-7",
+            "display": "MR Lumbar spine W contrast IV"
+          },
+          {
+            "code": "30679-5",
+            "display": "MR Lumbar spine WO contrast"
+          },
+          {
+            "code": "30680-3",
+            "display": "MR Ankle WO contrast"
+          },
+          {
+            "code": "30681-1",
+            "display": "MR Foot WO contrast"
+          },
+          {
+            "code": "30682-9",
+            "display": "MR Foot WO and W contrast IV"
+          },
+          {
+            "code": "30683-7",
+            "display": "MR Forearm WO contrast"
+          },
+          {
+            "code": "30684-5",
+            "display": "MR Forearm WO and W contrast IV"
+          },
+          {
+            "code": "30685-2",
+            "display": "MR Hand WO contrast"
+          },
+          {
+            "code": "30686-0",
+            "display": "MR Hand WO and W contrast IV"
+          },
+          {
+            "code": "30687-8",
+            "display": "MR Hip WO contrast"
+          },
+          {
+            "code": "30688-6",
+            "display": "MR Hip WO and W contrast IV"
+          },
+          {
+            "code": "30689-4",
+            "display": "MR Upper arm WO contrast"
+          },
+          {
+            "code": "30690-2",
+            "display": "MR Upper arm WO and W contrast IV"
+          },
+          {
+            "code": "30691-0",
+            "display": "MR Knee WO contrast"
+          },
+          {
+            "code": "30692-8",
+            "display": "MR Lower extremity"
+          },
+          {
+            "code": "30693-6",
+            "display": "MR Shoulder WO contrast"
+          },
+          {
+            "code": "30794-2",
+            "display": "MR Breast"
+          },
+          {
+            "code": "30795-9",
+            "display": "MR Breast - bilateral"
+          },
+          {
+            "code": "30796-7",
+            "display": "MR Elbow WO contrast"
+          },
+          {
+            "code": "30800-7",
+            "display": "MR Guidance for stereotactic localization of Brain-- WO contrast"
+          },
+          {
+            "code": "30854-4",
+            "display": "MR Cervical and thoracic and lumbar spine WO contrast"
+          },
+          {
+            "code": "30855-1",
+            "display": "MR Cervical and thoracic and lumbar spine WO and W contrast IV"
+          },
+          {
+            "code": "30856-9",
+            "display": "MRA Head vessels"
+          },
+          {
+            "code": "30857-7",
+            "display": "MR Nerves cranial"
+          },
+          {
+            "code": "30858-5",
+            "display": "MRA Head veins"
+          },
+          {
+            "code": "30859-3",
+            "display": "MRA Carotid vessels and Neck vessels"
+          },
+          {
+            "code": "30860-1",
+            "display": "MR Nasopharynx"
+          },
+          {
+            "code": "30861-9",
+            "display": "MRA Aortic arch and Neck vessels"
+          },
+          {
+            "code": "30862-7",
+            "display": "MRA Chest vessels"
+          },
+          {
+            "code": "30864-3",
+            "display": "MRA Abdominal veins and IVC"
+          },
+          {
+            "code": "30865-0",
+            "display": "MRA Celiac vessels and Superior mesenteric Vessels"
+          },
+          {
+            "code": "30866-8",
+            "display": "MR Lumbosacral plexus"
+          },
+          {
+            "code": "30867-6",
+            "display": "MRA Pelvis vessels"
+          },
+          {
+            "code": "30868-4",
+            "display": "MRA Renal vessels"
+          },
+          {
+            "code": "30869-2",
+            "display": "MR Lower leg WO contrast"
+          },
+          {
+            "code": "30870-0",
+            "display": "MR Lower leg WO and W contrast IV"
+          },
+          {
+            "code": "30871-8",
+            "display": "MRA Femoral vessels"
+          },
+          {
+            "code": "30872-6",
+            "display": "MRA Foot vessels"
+          },
+          {
+            "code": "30873-4",
+            "display": "MRA Forearm vessels"
+          },
+          {
+            "code": "30874-2",
+            "display": "MRA Lower extremity vessels"
+          },
+          {
+            "code": "30875-9",
+            "display": "MR Upper extremity.joint"
+          },
+          {
+            "code": "30876-7",
+            "display": "MRA Extremity veins"
+          },
+          {
+            "code": "30887-4",
+            "display": "MRA Renal vessels W contrast IV"
+          },
+          {
+            "code": "30888-2",
+            "display": "MRA Tibioperoneal vessels"
+          },
+          {
+            "code": "35946-3",
+            "display": "MRA Thoracic and abdominal aorta"
+          },
+          {
+            "code": "35947-1",
+            "display": "MR Thoracic and abdominal aorta"
+          },
+          {
+            "code": "35949-7",
+            "display": "MR Abdominal Aorta"
+          },
+          {
+            "code": "35950-5",
+            "display": "MR Thoracic Aorta"
+          },
+          {
+            "code": "35951-3",
+            "display": "MRA Aortic arch"
+          },
+          {
+            "code": "35953-9",
+            "display": "MR Face"
+          },
+          {
+            "code": "35954-7",
+            "display": "MR Breast - left"
+          },
+          {
+            "code": "35955-4",
+            "display": "MR Breast - right"
+          },
+          {
+            "code": "35956-2",
+            "display": "MR Internal auditory canal"
+          },
+          {
+            "code": "35961-2",
+            "display": "MR Clavicle"
+          },
+          {
+            "code": "35974-5",
+            "display": "MRA Lower extremity vessels - bilateral"
+          },
+          {
+            "code": "35975-2",
+            "display": "MR Lower extremity - bilateral"
+          },
+          {
+            "code": "35978-6",
+            "display": "MR Lower extremity - left"
+          },
+          {
+            "code": "35980-2",
+            "display": "MR Lower extremity - right"
+          },
+          {
+            "code": "35990-1",
+            "display": "MR Fetal"
+          },
+          {
+            "code": "36008-1",
+            "display": "MR Wrist and Hand"
+          },
+          {
+            "code": "36009-9",
+            "display": "MRA Heart"
+          },
+          {
+            "code": "36013-1",
+            "display": "MR Hip"
+          },
+          {
+            "code": "36017-2",
+            "display": "MR Hip - bilateral"
+          },
+          {
+            "code": "36020-6",
+            "display": "MR Hip - left"
+          },
+          {
+            "code": "36022-2",
+            "display": "MR Hip - right"
+          },
+          {
+            "code": "36025-5",
+            "display": "MR Upper arm"
+          },
+          {
+            "code": "36028-9",
+            "display": "MR Upper arm - left"
+          },
+          {
+            "code": "36030-5",
+            "display": "MR Upper arm - right"
+          },
+          {
+            "code": "36031-3",
+            "display": "MR Sacroiliac Joint"
+          },
+          {
+            "code": "36033-9",
+            "display": "MR Kidney"
+          },
+          {
+            "code": "36034-7",
+            "display": "MR Kidney - bilateral"
+          },
+          {
+            "code": "36035-4",
+            "display": "MR Kidney - left"
+          },
+          {
+            "code": "36036-2",
+            "display": "MR Kidney - right"
+          },
+          {
+            "code": "36045-3",
+            "display": "MR Larynx"
+          },
+          {
+            "code": "36046-1",
+            "display": "MR Liver"
+          },
+          {
+            "code": "36052-9",
+            "display": "MR Pancreas"
+          },
+          {
+            "code": "36053-7",
+            "display": "MR Parathyroid gland"
+          },
+          {
+            "code": "36056-0",
+            "display": "MR Posterior fossa"
+          },
+          {
+            "code": "36059-4",
+            "display": "MR Sacrum"
+          },
+          {
+            "code": "36060-2",
+            "display": "MR Sacrum and Coccyx"
+          },
+          {
+            "code": "36061-0",
+            "display": "MR Scapula"
+          },
+          {
+            "code": "36067-7",
+            "display": "MR Spine"
+          },
+          {
+            "code": "36070-1",
+            "display": "MR Spleen"
+          },
+          {
+            "code": "36072-7",
+            "display": "MR Sternum"
+          },
+          {
+            "code": "36073-5",
+            "display": "MR Scrotum and testicle"
+          },
+          {
+            "code": "36075-0",
+            "display": "MR Lower leg - left"
+          },
+          {
+            "code": "36076-8",
+            "display": "MR Lower leg - right"
+          },
+          {
+            "code": "36077-6",
+            "display": "MRA Portal vein"
+          },
+          {
+            "code": "36078-4",
+            "display": "MRA Renal vein"
+          },
+          {
+            "code": "36079-2",
+            "display": "MRA Lower extremity veins"
+          },
+          {
+            "code": "36080-0",
+            "display": "MRA Upper extremity veins"
+          },
+          {
+            "code": "36081-8",
+            "display": "MRA Vena cava"
+          },
+          {
+            "code": "36082-6",
+            "display": "MRA Inferior vena cava"
+          },
+          {
+            "code": "36083-4",
+            "display": "MR Inferior vena cava"
+          },
+          {
+            "code": "36084-2",
+            "display": "MRA Upper extremity vessels"
+          },
+          {
+            "code": "36085-9",
+            "display": "MRA Neck vessels"
+          },
+          {
+            "code": "36088-3",
+            "display": "MR Internal auditory canal limited"
+          },
+          {
+            "code": "36091-7",
+            "display": "MR Heart limited"
+          },
+          {
+            "code": "36093-3",
+            "display": "MR Lower Extremity Joint limited"
+          },
+          {
+            "code": "36094-1",
+            "display": "MR Upper extremity.joint limited"
+          },
+          {
+            "code": "36096-6",
+            "display": "MR Brain limited W contrast IV"
+          },
+          {
+            "code": "36100-6",
+            "display": "MR Lumbar spine limited W contrast IV"
+          },
+          {
+            "code": "36101-4",
+            "display": "MR Thoracic spine limited W contrast IV"
+          },
+          {
+            "code": "36105-5",
+            "display": "MR Brain limited WO contrast"
+          },
+          {
+            "code": "36107-1",
+            "display": "MR Lower extremity joint - left limited WO contrast"
+          },
+          {
+            "code": "36111-3",
+            "display": "MR Lumbar spine limited WO contrast"
+          },
+          {
+            "code": "36112-1",
+            "display": "MR Thoracic spine limited WO contrast"
+          },
+          {
+            "code": "36113-9",
+            "display": "MR Kidney W contrast IV"
+          },
+          {
+            "code": "36114-7",
+            "display": "MR Breast - bilateral dynamic W contrast IV"
+          },
+          {
+            "code": "36115-4",
+            "display": "MR Ankle Arthrogram"
+          },
+          {
+            "code": "36116-2",
+            "display": "MR Ankle - left Arthrogram"
+          },
+          {
+            "code": "36117-0",
+            "display": "MR Ankle - right Arthrogram"
+          },
+          {
+            "code": "36118-8",
+            "display": "MR Elbow - left Arthrogram"
+          },
+          {
+            "code": "36119-6",
+            "display": "MR Elbow - right Arthrogram"
+          },
+          {
+            "code": "36120-4",
+            "display": "MR Hip Arthrogram"
+          },
+          {
+            "code": "36121-2",
+            "display": "MR Hip - left Arthrogram"
+          },
+          {
+            "code": "36122-0",
+            "display": "MR Hip - right Arthrogram"
+          },
+          {
+            "code": "36125-3",
+            "display": "MR Knee Arthrogram"
+          },
+          {
+            "code": "36126-1",
+            "display": "MR Knee - left Arthrogram"
+          },
+          {
+            "code": "36127-9",
+            "display": "MR Knee - right Arthrogram"
+          },
+          {
+            "code": "36129-5",
+            "display": "MR Shoulder Arthrogram"
+          },
+          {
+            "code": "36130-3",
+            "display": "MR Shoulder - left Arthrogram"
+          },
+          {
+            "code": "36132-9",
+            "display": "MR Shoulder - right Arthrogram"
+          },
+          {
+            "code": "36134-5",
+            "display": "MR Abdomen W contrast IV"
+          },
+          {
+            "code": "36136-0",
+            "display": "MR Ankle W contrast IV"
+          },
+          {
+            "code": "36138-6",
+            "display": "MR Ankle - left W contrast IV"
+          },
+          {
+            "code": "36140-2",
+            "display": "MR Ankle - right W contrast IV"
+          },
+          {
+            "code": "36148-5",
+            "display": "MR Face W contrast IV"
+          },
+          {
+            "code": "36149-3",
+            "display": "MR Breast W contrast IV"
+          },
+          {
+            "code": "36150-1",
+            "display": "MR Breast - bilateral W contrast IV"
+          },
+          {
+            "code": "36151-9",
+            "display": "MR Breast - left W contrast IV"
+          },
+          {
+            "code": "36152-7",
+            "display": "MR Breast - right W contrast IV"
+          },
+          {
+            "code": "36155-0",
+            "display": "MR Internal auditory canal W contrast IV"
+          },
+          {
+            "code": "36156-8",
+            "display": "MR Chest W contrast IV"
+          },
+          {
+            "code": "36158-4",
+            "display": "MR Elbow W contrast IV"
+          },
+          {
+            "code": "36160-0",
+            "display": "MR Elbow - left W contrast IV"
+          },
+          {
+            "code": "36162-6",
+            "display": "MR Elbow - right W contrast IV"
+          },
+          {
+            "code": "36163-4",
+            "display": "MR Lower extremity - bilateral W contrast IV"
+          },
+          {
+            "code": "36165-9",
+            "display": "MR Lower extremity - left W contrast IV"
+          },
+          {
+            "code": "36167-5",
+            "display": "MR Lower extremity - right W contrast IV"
+          },
+          {
+            "code": "36171-7",
+            "display": "MR Upper extremity - right W contrast IV"
+          },
+          {
+            "code": "36173-3",
+            "display": "MR Thigh W contrast IV"
+          },
+          {
+            "code": "36175-8",
+            "display": "MR Thigh - left W contrast IV"
+          },
+          {
+            "code": "36177-4",
+            "display": "MR Thigh - right W contrast IV"
+          },
+          {
+            "code": "36179-0",
+            "display": "MR Foot W contrast IV"
+          },
+          {
+            "code": "36180-8",
+            "display": "MR Foot - bilateral W contrast IV"
+          },
+          {
+            "code": "36182-4",
+            "display": "MR Foot - left W contrast IV"
+          },
+          {
+            "code": "36184-0",
+            "display": "MR Foot - right W contrast IV"
+          },
+          {
+            "code": "36186-5",
+            "display": "MR Forearm W contrast IV"
+          },
+          {
+            "code": "36188-1",
+            "display": "MR Forearm - left W contrast IV"
+          },
+          {
+            "code": "36190-7",
+            "display": "MR Forearm - right W contrast IV"
+          },
+          {
+            "code": "36192-3",
+            "display": "MR Hand W contrast IV"
+          },
+          {
+            "code": "36194-9",
+            "display": "MR Hand - left W contrast IV"
+          },
+          {
+            "code": "36196-4",
+            "display": "MR Hand - right W contrast IV"
+          },
+          {
+            "code": "36197-2",
+            "display": "MR Heart W contrast IV"
+          },
+          {
+            "code": "36199-8",
+            "display": "MR Hip W contrast IV"
+          },
+          {
+            "code": "36202-0",
+            "display": "MR Hip - bilateral W contrast IV"
+          },
+          {
+            "code": "36204-6",
+            "display": "MR Hip - left W contrast IV"
+          },
+          {
+            "code": "36206-1",
+            "display": "MR Hip - right W contrast IV"
+          },
+          {
+            "code": "36208-7",
+            "display": "MR Upper arm W contrast IV"
+          },
+          {
+            "code": "36210-3",
+            "display": "MR Upper arm - left W contrast IV"
+          },
+          {
+            "code": "36212-9",
+            "display": "MR Upper arm - right W contrast IV"
+          },
+          {
+            "code": "36213-7",
+            "display": "MR Lower Extremity Joint W contrast IV"
+          },
+          {
+            "code": "36214-5",
+            "display": "MR Lower extremity joint - left W contrast IV"
+          },
+          {
+            "code": "36215-2",
+            "display": "MR Lower extremity joint - right W contrast IV"
+          },
+          {
+            "code": "36216-0",
+            "display": "MR Upper extremity.joint W contrast IV"
+          },
+          {
+            "code": "36218-6",
+            "display": "MR Sacroiliac Joint W contrast IV"
+          },
+          {
+            "code": "36219-4",
+            "display": "MR Kidney - bilateral W contrast IV"
+          },
+          {
+            "code": "36220-2",
+            "display": "MR Kidney - left W contrast IV"
+          },
+          {
+            "code": "36221-0",
+            "display": "MR Kidney - right W contrast IV"
+          },
+          {
+            "code": "36223-6",
+            "display": "MR Knee W contrast IV"
+          },
+          {
+            "code": "36224-4",
+            "display": "MR Knee - bilateral W contrast IV"
+          },
+          {
+            "code": "36226-9",
+            "display": "MR Knee - left W contrast IV"
+          },
+          {
+            "code": "36228-5",
+            "display": "MR Knee - right W contrast IV"
+          },
+          {
+            "code": "36230-1",
+            "display": "MR Larynx W contrast IV"
+          },
+          {
+            "code": "36231-9",
+            "display": "MR Liver W contrast IV"
+          },
+          {
+            "code": "36233-5",
+            "display": "MR Nasopharynx W contrast IV"
+          },
+          {
+            "code": "36236-8",
+            "display": "MR Pancreas W contrast IV"
+          },
+          {
+            "code": "36237-6",
+            "display": "MR Pelvis W contrast IV"
+          },
+          {
+            "code": "36238-4",
+            "display": "MR Pituitary and Sella turcica W contrast IV"
+          },
+          {
+            "code": "36239-2",
+            "display": "MR Brachial plexus W contrast IV"
+          },
+          {
+            "code": "36240-0",
+            "display": "MR Brachial plexus - left W contrast IV"
+          },
+          {
+            "code": "36241-8",
+            "display": "MR Brachial plexus - right W contrast IV"
+          },
+          {
+            "code": "36243-4",
+            "display": "MR Posterior fossa W contrast IV"
+          },
+          {
+            "code": "36244-2",
+            "display": "MR Prostate W contrast IV"
+          },
+          {
+            "code": "36246-7",
+            "display": "MR Sacrum W contrast IV"
+          },
+          {
+            "code": "36247-5",
+            "display": "MR Sacrum and Coccyx W contrast IV"
+          },
+          {
+            "code": "36248-3",
+            "display": "MR Scapula - left W contrast IV"
+          },
+          {
+            "code": "36249-1",
+            "display": "MR Scapula - right W contrast IV"
+          },
+          {
+            "code": "36251-7",
+            "display": "MR Shoulder W contrast IV"
+          },
+          {
+            "code": "36254-1",
+            "display": "MR Shoulder - right W contrast IV"
+          },
+          {
+            "code": "36256-6",
+            "display": "MR Spine W contrast IV"
+          },
+          {
+            "code": "36259-0",
+            "display": "MR Lower leg W contrast IV"
+          },
+          {
+            "code": "36261-6",
+            "display": "MR Lower leg - left W contrast IV"
+          },
+          {
+            "code": "36263-2",
+            "display": "MR Lower leg - right W contrast IV"
+          },
+          {
+            "code": "36265-7",
+            "display": "MR Uterus W contrast IV"
+          },
+          {
+            "code": "36272-3",
+            "display": "MRA Abdominal Aorta WO and W contrast IV"
+          },
+          {
+            "code": "36273-1",
+            "display": "MR Abdominal Aorta WO and W contrast IV"
+          },
+          {
+            "code": "36274-9",
+            "display": "MRA Thoracic Aorta WO and W contrast IV"
+          },
+          {
+            "code": "36275-6",
+            "display": "MRA Renal artery WO and W contrast IV"
+          },
+          {
+            "code": "36276-4",
+            "display": "MR Breast WO and W contrast IV"
+          },
+          {
+            "code": "36277-2",
+            "display": "MR Breast - bilateral WO and W contrast IV"
+          },
+          {
+            "code": "36278-0",
+            "display": "MR Breast - left WO and W contrast IV"
+          },
+          {
+            "code": "36279-8",
+            "display": "MR Breast - right WO and W contrast IV"
+          },
+          {
+            "code": "36283-0",
+            "display": "MR Chest WO and W contrast IV"
+          },
+          {
+            "code": "36284-8",
+            "display": "MR Chest and Abdomen WO and W contrast IV"
+          },
+          {
+            "code": "36289-7",
+            "display": "MR Lower extremity - bilateral WO and W contrast IV"
+          },
+          {
+            "code": "36291-3",
+            "display": "MR Lower extremity - left WO and W contrast IV"
+          },
+          {
+            "code": "36333-3",
+            "display": "MR Lower extremity - right WO and W contrast IV"
+          },
+          {
+            "code": "36337-4",
+            "display": "MR Upper extremity - right WO and W contrast IV"
+          },
+          {
+            "code": "36342-4",
+            "display": "MR Foot - bilateral WO and W contrast IV"
+          },
+          {
+            "code": "36344-0",
+            "display": "MR Foot - left WO and W contrast IV"
+          },
+          {
+            "code": "36346-5",
+            "display": "MR Foot - right WO and W contrast IV"
+          },
+          {
+            "code": "36349-9",
+            "display": "MR Forearm - left WO and W contrast IV"
+          },
+          {
+            "code": "36351-5",
+            "display": "MR Forearm - right WO and W contrast IV"
+          },
+          {
+            "code": "36354-9",
+            "display": "MR Hand - left WO and W contrast IV"
+          },
+          {
+            "code": "36356-4",
+            "display": "MR Hand - right WO and W contrast IV"
+          },
+          {
+            "code": "36357-2",
+            "display": "MR Heart WO and W contrast IV"
+          },
+          {
+            "code": "36361-4",
+            "display": "MR Hip - bilateral WO and W contrast IV"
+          },
+          {
+            "code": "36363-0",
+            "display": "MR Hip - left WO and W contrast IV"
+          },
+          {
+            "code": "36365-5",
+            "display": "MR Hip - right WO and W contrast IV"
+          },
+          {
+            "code": "36368-9",
+            "display": "MR Upper arm - left WO and W contrast IV"
+          },
+          {
+            "code": "36370-5",
+            "display": "MR Upper arm - right WO and W contrast IV"
+          },
+          {
+            "code": "36371-3",
+            "display": "MR Lower Extremity Joint WO and W contrast IV"
+          },
+          {
+            "code": "36372-1",
+            "display": "MR Lower extremity joint - left WO and W contrast IV"
+          },
+          {
+            "code": "36373-9",
+            "display": "MR Lower extremity joint - right WO and W contrast IV"
+          },
+          {
+            "code": "36374-7",
+            "display": "MR Upper extremity.joint WO and W contrast IV"
+          },
+          {
+            "code": "36376-2",
+            "display": "MR Sacroiliac Joint WO and W contrast IV"
+          },
+          {
+            "code": "36378-8",
+            "display": "MR Kidney - bilateral WO and W contrast IV"
+          },
+          {
+            "code": "36382-0",
+            "display": "MR Larynx WO and W contrast IV"
+          },
+          {
+            "code": "36384-6",
+            "display": "MR Nasopharynx WO and W contrast IV"
+          },
+          {
+            "code": "36385-3",
+            "display": "MR Pancreas WO and W contrast IV"
+          },
+          {
+            "code": "36388-7",
+            "display": "MR Posterior fossa WO and W contrast IV"
+          },
+          {
+            "code": "36389-5",
+            "display": "MR Prostate WO and W contrast IV"
+          },
+          {
+            "code": "36391-1",
+            "display": "MR Sacrum WO and W contrast IV"
+          },
+          {
+            "code": "36392-9",
+            "display": "MR Sacrum and Coccyx WO and W contrast IV"
+          },
+          {
+            "code": "36393-7",
+            "display": "MR Scapula - left WO and W contrast IV"
+          },
+          {
+            "code": "36394-5",
+            "display": "MR Scapula - right WO and W contrast IV"
+          },
+          {
+            "code": "36400-0",
+            "display": "MR Spine WO and W contrast IV"
+          },
+          {
+            "code": "36404-2",
+            "display": "MR Spleen WO and W contrast IV"
+          },
+          {
+            "code": "36406-7",
+            "display": "MR Scrotum and testicle WO and W contrast IV"
+          },
+          {
+            "code": "36407-5",
+            "display": "MR Thyroid gland WO and W contrast IV"
+          },
+          {
+            "code": "36410-9",
+            "display": "MR Lower leg - left WO and W contrast IV"
+          },
+          {
+            "code": "36412-5",
+            "display": "MR Lower leg - right WO and W contrast IV"
+          },
+          {
+            "code": "36413-3",
+            "display": "MR Uterus WO and W contrast IV"
+          },
+          {
+            "code": "36414-1",
+            "display": "MRA Portal vein WO and W contrast IV"
+          },
+          {
+            "code": "36415-8",
+            "display": "MRA Renal vein WO and W contrast IV"
+          },
+          {
+            "code": "36416-6",
+            "display": "MRA Lower extremity veins WO and W contrast IV"
+          },
+          {
+            "code": "36417-4",
+            "display": "MRA Upper extremity veins WO and W contrast IV"
+          },
+          {
+            "code": "36418-2",
+            "display": "MR Inferior vena cava WO and W contrast IV"
+          },
+          {
+            "code": "36419-0",
+            "display": "MR Superior vena cava WO and W contrast IV"
+          },
+          {
+            "code": "36420-8",
+            "display": "MRA Chest vessels WO and W contrast IV"
+          },
+          {
+            "code": "36422-4",
+            "display": "MRA Upper extremity vessels WO and W contrast IV"
+          },
+          {
+            "code": "36423-2",
+            "display": "MRA Neck vessels WO and W contrast IV"
+          },
+          {
+            "code": "36427-3",
+            "display": "MR Ankle - left WO contrast"
+          },
+          {
+            "code": "36429-9",
+            "display": "MR Ankle - right WO contrast"
+          },
+          {
+            "code": "36432-3",
+            "display": "MRA Abdominal Aorta WO contrast"
+          },
+          {
+            "code": "36433-1",
+            "display": "MRA Thoracic Aorta WO contrast"
+          },
+          {
+            "code": "36435-6",
+            "display": "MR Face WO contrast"
+          },
+          {
+            "code": "36436-4",
+            "display": "MR Breast WO contrast"
+          },
+          {
+            "code": "36437-2",
+            "display": "MR Breast - bilateral WO contrast"
+          },
+          {
+            "code": "36438-0",
+            "display": "MR Breast - left WO contrast"
+          },
+          {
+            "code": "36439-8",
+            "display": "MR Breast - right WO contrast"
+          },
+          {
+            "code": "36442-2",
+            "display": "MR Chest WO contrast"
+          },
+          {
+            "code": "36446-3",
+            "display": "MR Elbow - left WO contrast"
+          },
+          {
+            "code": "36448-9",
+            "display": "MR Elbow - right WO contrast"
+          },
+          {
+            "code": "36450-5",
+            "display": "MRA Lower extremity vessels - bilateral WO contrast"
+          },
+          {
+            "code": "36451-3",
+            "display": "MR Lower extremity - bilateral WO contrast"
+          },
+          {
+            "code": "36453-9",
+            "display": "MR Lower extremity - left WO contrast"
+          },
+          {
+            "code": "36455-4",
+            "display": "MR Lower extremity - right WO contrast"
+          },
+          {
+            "code": "36459-6",
+            "display": "MR Upper extremity - right WO contrast"
+          },
+          {
+            "code": "36461-2",
+            "display": "MR Thigh WO contrast"
+          },
+          {
+            "code": "36463-8",
+            "display": "MR Thigh - left WO contrast"
+          },
+          {
+            "code": "36465-3",
+            "display": "MR Thigh - right WO contrast"
+          },
+          {
+            "code": "36467-9",
+            "display": "MR Foot - bilateral WO contrast"
+          },
+          {
+            "code": "36469-5",
+            "display": "MR Foot - left WO contrast"
+          },
+          {
+            "code": "36471-1",
+            "display": "MR Foot - right WO contrast"
+          },
+          {
+            "code": "36474-5",
+            "display": "MR Forearm - left WO contrast"
+          },
+          {
+            "code": "36476-0",
+            "display": "MR Forearm - right WO contrast"
+          },
+          {
+            "code": "36479-4",
+            "display": "MR Hand - left WO contrast"
+          },
+          {
+            "code": "36481-0",
+            "display": "MR Hand - right WO contrast"
+          },
+          {
+            "code": "36482-8",
+            "display": "MR Heart WO contrast"
+          },
+          {
+            "code": "36486-9",
+            "display": "MR Hip - bilateral WO contrast"
+          },
+          {
+            "code": "36488-5",
+            "display": "MR Hip - left WO contrast"
+          },
+          {
+            "code": "36490-1",
+            "display": "MR Hip - right WO contrast"
+          },
+          {
+            "code": "36493-5",
+            "display": "MR Upper arm - left WO contrast"
+          },
+          {
+            "code": "36495-0",
+            "display": "MR Upper arm - right WO contrast"
+          },
+          {
+            "code": "36496-8",
+            "display": "MR Acromioclavicular Joint WO contrast"
+          },
+          {
+            "code": "36497-6",
+            "display": "MR Lower Extremity Joint WO contrast"
+          },
+          {
+            "code": "36498-4",
+            "display": "MR Lower extremity joint - left WO contrast"
+          },
+          {
+            "code": "36499-2",
+            "display": "MR Lower extremity joint - right WO contrast"
+          },
+          {
+            "code": "36500-7",
+            "display": "MR Upper extremity.joint WO contrast"
+          },
+          {
+            "code": "36502-3",
+            "display": "MR Sacroiliac Joint WO contrast"
+          },
+          {
+            "code": "36504-9",
+            "display": "MR Kidney - bilateral WO contrast"
+          },
+          {
+            "code": "36506-4",
+            "display": "MR Knee - bilateral WO contrast"
+          },
+          {
+            "code": "36508-0",
+            "display": "MR Knee - left WO contrast"
+          },
+          {
+            "code": "36510-6",
+            "display": "MR Knee - right WO contrast"
+          },
+          {
+            "code": "36513-0",
+            "display": "MR Nasopharynx WO contrast"
+          },
+          {
+            "code": "36515-5",
+            "display": "MR Pancreas WO contrast"
+          },
+          {
+            "code": "36516-3",
+            "display": "MR Brachial plexus - right WO contrast"
+          },
+          {
+            "code": "36518-9",
+            "display": "MR Posterior fossa WO contrast"
+          },
+          {
+            "code": "36519-7",
+            "display": "MR Prostate WO contrast"
+          },
+          {
+            "code": "36521-3",
+            "display": "MR Sacrum WO contrast"
+          },
+          {
+            "code": "36522-1",
+            "display": "MR Sacrum and Coccyx WO contrast"
+          },
+          {
+            "code": "36523-9",
+            "display": "MR Scapula - left WO contrast"
+          },
+          {
+            "code": "36525-4",
+            "display": "MR Shoulder - bilateral WO contrast"
+          },
+          {
+            "code": "36528-8",
+            "display": "MR Shoulder - right WO contrast"
+          },
+          {
+            "code": "36531-2",
+            "display": "MR Spine WO contrast"
+          },
+          {
+            "code": "36532-0",
+            "display": "MR Thoracic spine WO contrast"
+          },
+          {
+            "code": "36533-8",
+            "display": "MR Spleen WO contrast"
+          },
+          {
+            "code": "36535-3",
+            "display": "MR Scrotum and testicle WO contrast"
+          },
+          {
+            "code": "36536-1",
+            "display": "MR Thyroid gland WO contrast"
+          },
+          {
+            "code": "36539-5",
+            "display": "MR Lower leg - left WO contrast"
+          },
+          {
+            "code": "36541-1",
+            "display": "MR Lower leg - right WO contrast"
+          },
+          {
+            "code": "36542-9",
+            "display": "MR Uterus WO contrast"
+          },
+          {
+            "code": "36543-7",
+            "display": "MRA Portal vein WO contrast"
+          },
+          {
+            "code": "36544-5",
+            "display": "MRA Renal vein WO contrast"
+          },
+          {
+            "code": "36545-2",
+            "display": "MR Inferior vena cava WO contrast"
+          },
+          {
+            "code": "36546-0",
+            "display": "MR Superior vena cava WO contrast"
+          },
+          {
+            "code": "36547-8",
+            "display": "MRA Chest vessels WO contrast"
+          },
+          {
+            "code": "36548-6",
+            "display": "MRA Upper extremity vessels WO contrast"
+          },
+          {
+            "code": "36549-4",
+            "display": "MRA Neck vessels WO contrast"
+          },
+          {
+            "code": "36774-8",
+            "display": "MR Upper extremity joint - left"
+          },
+          {
+            "code": "36775-5",
+            "display": "MR Upper extremity joint - right"
+          },
+          {
+            "code": "36777-1",
+            "display": "MR Orbit"
+          },
+          {
+            "code": "36778-9",
+            "display": "MR Orbit - right"
+          },
+          {
+            "code": "36779-7",
+            "display": "MR Ovary"
+          },
+          {
+            "code": "36780-5",
+            "display": "MR Toe"
+          },
+          {
+            "code": "36781-3",
+            "display": "MRA Abdominal veins"
+          },
+          {
+            "code": "36782-1",
+            "display": "MRA Subclavian artery"
+          },
+          {
+            "code": "36783-9",
+            "display": "MRA Veins"
+          },
+          {
+            "code": "36784-7",
+            "display": "MRA Lower extremity veins - left"
+          },
+          {
+            "code": "36785-4",
+            "display": "MRA Lower extremity veins - right"
+          },
+          {
+            "code": "36786-2",
+            "display": "MRA Upper extremity veins - left"
+          },
+          {
+            "code": "36787-0",
+            "display": "MRA Upper extremity veins - right"
+          },
+          {
+            "code": "36788-8",
+            "display": "MRA Neck veins"
+          },
+          {
+            "code": "36789-6",
+            "display": "MRA Pelvis veins"
+          },
+          {
+            "code": "36790-4",
+            "display": "MRA Inferior vena cava + tributaries"
+          },
+          {
+            "code": "36791-2",
+            "display": "MRA Abdominal vessels"
+          },
+          {
+            "code": "36792-0",
+            "display": "MRA Adrenal vessels"
+          },
+          {
+            "code": "36794-6",
+            "display": "MRA Extremity vessels"
+          },
+          {
+            "code": "36795-3",
+            "display": "MRA Lower extremity vessels - left"
+          },
+          {
+            "code": "36796-1",
+            "display": "MRA Lower extremity vessels - right"
+          },
+          {
+            "code": "36797-9",
+            "display": "MRA Upper extremity vessels - left"
+          },
+          {
+            "code": "36798-7",
+            "display": "MRA Upper extremity vessels - right"
+          },
+          {
+            "code": "36799-5",
+            "display": "MRA Knee vessels"
+          },
+          {
+            "code": "36800-1",
+            "display": "MRA Knee vessels - left"
+          },
+          {
+            "code": "36801-9",
+            "display": "MRA Knee vessels - right"
+          },
+          {
+            "code": "36802-7",
+            "display": "MRA Orbit vessels"
+          },
+          {
+            "code": "36803-5",
+            "display": "MRA Pulmonary vessels"
+          },
+          {
+            "code": "36804-3",
+            "display": "MRA Renal vessels - bilateral"
+          },
+          {
+            "code": "36805-0",
+            "display": "MRA Shoulder vessels"
+          },
+          {
+            "code": "36806-8",
+            "display": "MRA Shoulder vessels - left"
+          },
+          {
+            "code": "36807-6",
+            "display": "MRA Shoulder vessels - right"
+          },
+          {
+            "code": "36808-4",
+            "display": "MRA Head vessels limited"
+          },
+          {
+            "code": "36812-6",
+            "display": "MR Joint Arthrogram"
+          },
+          {
+            "code": "36817-5",
+            "display": "MR Upper extremity joint - bilateral W contrast IV"
+          },
+          {
+            "code": "36818-3",
+            "display": "MR Upper extremity joint - left W contrast IV"
+          },
+          {
+            "code": "36819-1",
+            "display": "MR Upper extremity joint - right W contrast IV"
+          },
+          {
+            "code": "36820-9",
+            "display": "MR Orbit W contrast IV"
+          },
+          {
+            "code": "36821-7",
+            "display": "MR Orbit - left W contrast IV"
+          },
+          {
+            "code": "36822-5",
+            "display": "MR Orbit - right W contrast IV"
+          },
+          {
+            "code": "36823-3",
+            "display": "MR Ovary W contrast IV"
+          },
+          {
+            "code": "36826-6",
+            "display": "MRA Head veins W contrast IV"
+          },
+          {
+            "code": "36827-4",
+            "display": "MRA Neck veins W contrast IV"
+          },
+          {
+            "code": "36832-4",
+            "display": "MRA Orbit vessels W contrast IV"
+          },
+          {
+            "code": "36840-7",
+            "display": "MR Upper extremity joint - left WO and W contrast IV"
+          },
+          {
+            "code": "36841-5",
+            "display": "MR Upper extremity joint - right WO and W contrast IV"
+          },
+          {
+            "code": "36842-3",
+            "display": "MR Orbit WO and W contrast IV"
+          },
+          {
+            "code": "36843-1",
+            "display": "MR Orbit - left WO and W contrast IV"
+          },
+          {
+            "code": "36844-9",
+            "display": "MR Orbit - right WO and W contrast IV"
+          },
+          {
+            "code": "36845-6",
+            "display": "MR Ovary WO and W contrast IV"
+          },
+          {
+            "code": "36846-4",
+            "display": "MRA Abdominal veins WO and W contrast IV"
+          },
+          {
+            "code": "36847-2",
+            "display": "MRA Head veins WO and W contrast IV"
+          },
+          {
+            "code": "36848-0",
+            "display": "MRA Chest veins WO and W contrast IV"
+          },
+          {
+            "code": "36849-8",
+            "display": "MRA Lower extremity veins - left WO and W contrast IV"
+          },
+          {
+            "code": "36850-6",
+            "display": "MRA Lower extremity veins - right WO and W contrast IV"
+          },
+          {
+            "code": "36851-4",
+            "display": "MRA Upper extremity veins - left WO and W contrast IV"
+          },
+          {
+            "code": "36852-2",
+            "display": "MRA Upper extremity veins - right WO and W contrast IV"
+          },
+          {
+            "code": "36853-0",
+            "display": "MRA Neck veins WO and W contrast IV"
+          },
+          {
+            "code": "36854-8",
+            "display": "MRA Pelvis veins WO and W contrast IV"
+          },
+          {
+            "code": "36855-5",
+            "display": "MRA Abdominal vessels WO and W contrast IV"
+          },
+          {
+            "code": "36857-1",
+            "display": "MRA Head vessels WO and W contrast IV"
+          },
+          {
+            "code": "36858-9",
+            "display": "MRA Lower extremity vessels - left WO and W contrast IV"
+          },
+          {
+            "code": "36859-7",
+            "display": "MRA Lower extremity vessels - right WO and W contrast IV"
+          },
+          {
+            "code": "36860-5",
+            "display": "MRA Upper extremity vessels - left WO and W contrast IV"
+          },
+          {
+            "code": "36861-3",
+            "display": "MRA Upper extremity vessels - right WO and W contrast IV"
+          },
+          {
+            "code": "36862-1",
+            "display": "MRA Knee vessels - right WO and W contrast IV"
+          },
+          {
+            "code": "36863-9",
+            "display": "MRA Pelvis vessels WO and W contrast IV"
+          },
+          {
+            "code": "36864-7",
+            "display": "MRA Shoulder vessels - left WO and W contrast IV"
+          },
+          {
+            "code": "36865-4",
+            "display": "MRA Shoulder vessels - right WO and W contrast IV"
+          },
+          {
+            "code": "36869-6",
+            "display": "MR Upper extremity joint - left WO contrast"
+          },
+          {
+            "code": "36870-4",
+            "display": "MR Upper extremity joint - right WO contrast"
+          },
+          {
+            "code": "36871-2",
+            "display": "MR Joint WO contrast"
+          },
+          {
+            "code": "36872-0",
+            "display": "MR Orbit WO contrast"
+          },
+          {
+            "code": "36873-8",
+            "display": "MR Orbit - left WO contrast"
+          },
+          {
+            "code": "36874-6",
+            "display": "MR Orbit - right WO contrast"
+          },
+          {
+            "code": "36875-3",
+            "display": "MR Ovary WO contrast"
+          },
+          {
+            "code": "36876-1",
+            "display": "MRA Head veins WO contrast"
+          },
+          {
+            "code": "36877-9",
+            "display": "MRA Neck veins WO contrast"
+          },
+          {
+            "code": "36878-7",
+            "display": "MRA Abdominal vessels WO contrast"
+          },
+          {
+            "code": "36879-5",
+            "display": "MRA Ankle vessels WO contrast"
+          },
+          {
+            "code": "36881-1",
+            "display": "MRA Head vessels WO contrast"
+          },
+          {
+            "code": "36882-9",
+            "display": "MRA Lower extremity vessels - left WO contrast"
+          },
+          {
+            "code": "36883-7",
+            "display": "MRA Pelvis vessels WO contrast"
+          },
+          {
+            "code": "36931-4",
+            "display": "MR Adrenal gland"
+          },
+          {
+            "code": "36933-0",
+            "display": "MR Salivary gland"
+          },
+          {
+            "code": "36936-3",
+            "display": "MR Guidance for stereotactic biopsy of Brain"
+          },
+          {
+            "code": "36942-1",
+            "display": "MR Chest and Abdomen W contrast IV"
+          },
+          {
+            "code": "36944-7",
+            "display": "MR Biliary ducts and Pancreatic duct WO and W contrast IV"
+          },
+          {
+            "code": "36951-2",
+            "display": "MR Adrenal gland WO and W contrast IV"
+          },
+          {
+            "code": "36954-6",
+            "display": "MR Adrenal gland WO contrast"
+          },
+          {
+            "code": "36956-1",
+            "display": "MR Orbit and Face WO contrast"
+          },
+          {
+            "code": "37215-1",
+            "display": "MR Brain and Larynx W contrast IV"
+          },
+          {
+            "code": "37217-7",
+            "display": "MR Brain stem and Cranial nerves"
+          },
+          {
+            "code": "37218-5",
+            "display": "MR Brain.temporal"
+          },
+          {
+            "code": "37219-3",
+            "display": "MR Biliary ducts"
+          },
+          {
+            "code": "37220-1",
+            "display": "MR Biliary ducts and Pancreatic duct"
+          },
+          {
+            "code": "37222-7",
+            "display": "MR Ankle and Foot"
+          },
+          {
+            "code": "37224-3",
+            "display": "MR Parotid gland"
+          },
+          {
+            "code": "37228-4",
+            "display": "MR Temporomandibular joint - bilateral"
+          },
+          {
+            "code": "37230-0",
+            "display": "MR Temporomandibular joint - left"
+          },
+          {
+            "code": "37231-8",
+            "display": "MR Temporomandibular joint - right"
+          },
+          {
+            "code": "37234-2",
+            "display": "MR Mediastinum"
+          },
+          {
+            "code": "37235-9",
+            "display": "MRA Circle of Willis"
+          },
+          {
+            "code": "37239-1",
+            "display": "MR Brain and Internal auditory canal W contrast IV"
+          },
+          {
+            "code": "37241-7",
+            "display": "MR Parotid gland W contrast IV"
+          },
+          {
+            "code": "37244-1",
+            "display": "MR Temporomandibular joint W contrast IV"
+          },
+          {
+            "code": "37245-8",
+            "display": "MR Temporomandibular joint - bilateral W contrast IV"
+          },
+          {
+            "code": "37247-4",
+            "display": "MR Temporomandibular joint - left W contrast IV"
+          },
+          {
+            "code": "37249-0",
+            "display": "MR Temporomandibular joint - right W contrast IV"
+          },
+          {
+            "code": "37253-2",
+            "display": "MR Soft tissue W contrast IV"
+          },
+          {
+            "code": "37254-0",
+            "display": "MRA Circle of Willis W contrast IV"
+          },
+          {
+            "code": "37265-6",
+            "display": "MR Parotid gland WO and W contrast IV"
+          },
+          {
+            "code": "37268-0",
+            "display": "MR Temporomandibular joint WO and W contrast IV"
+          },
+          {
+            "code": "37269-8",
+            "display": "MR Temporomandibular joint - bilateral WO and W contrast IV"
+          },
+          {
+            "code": "37270-6",
+            "display": "MR Temporomandibular joint - left WO and W contrast IV"
+          },
+          {
+            "code": "37271-4",
+            "display": "MR Temporomandibular joint - right WO and W contrast IV"
+          },
+          {
+            "code": "37272-2",
+            "display": "MR Mediastinum WO and W contrast IV"
+          },
+          {
+            "code": "37277-1",
+            "display": "MRA Spinal veins WO and W contrast IV"
+          },
+          {
+            "code": "37278-9",
+            "display": "MR Brain and Internal auditory canal WO contrast"
+          },
+          {
+            "code": "37279-7",
+            "display": "MR Brain and Larynx WO contrast"
+          },
+          {
+            "code": "37281-3",
+            "display": "MR Parotid gland WO contrast"
+          },
+          {
+            "code": "37284-7",
+            "display": "MR Temporomandibular joint WO contrast"
+          },
+          {
+            "code": "37285-4",
+            "display": "MR Temporomandibular joint - bilateral WO contrast"
+          },
+          {
+            "code": "37286-2",
+            "display": "MR Temporomandibular joint - left WO contrast"
+          },
+          {
+            "code": "37287-0",
+            "display": "MR Temporomandibular joint - right WO contrast"
+          },
+          {
+            "code": "37293-8",
+            "display": "MR Soft tissue WO contrast"
+          },
+          {
+            "code": "37434-8",
+            "display": "MR Heart cine for function"
+          },
+          {
+            "code": "37435-5",
+            "display": "MR Temporomandibular joint cine"
+          },
+          {
+            "code": "37437-1",
+            "display": "MR Breast dynamic W contrast IV"
+          },
+          {
+            "code": "37442-1",
+            "display": "MR spectroscopy Brain"
+          },
+          {
+            "code": "37443-9",
+            "display": "MR spectroscopy Unspecified body region"
+          },
+          {
+            "code": "37444-7",
+            "display": "MR Wrist Arthrogram"
+          },
+          {
+            "code": "37445-4",
+            "display": "MR Wrist - left Arthrogram"
+          },
+          {
+            "code": "37446-2",
+            "display": "MR Wrist - right Arthrogram"
+          },
+          {
+            "code": "37448-8",
+            "display": "MR Wrist W contrast IV"
+          },
+          {
+            "code": "37449-6",
+            "display": "MR Wrist - bilateral W contrast IV"
+          },
+          {
+            "code": "37451-2",
+            "display": "MR Wrist - left W contrast IV"
+          },
+          {
+            "code": "37453-8",
+            "display": "MR Wrist - right W contrast IV"
+          },
+          {
+            "code": "37460-3",
+            "display": "MR Wrist WO contrast"
+          },
+          {
+            "code": "37462-9",
+            "display": "MR Wrist - bilateral WO contrast"
+          },
+          {
+            "code": "37464-5",
+            "display": "MR Wrist - left WO contrast"
+          },
+          {
+            "code": "37466-0",
+            "display": "MR Wrist - right WO contrast"
+          },
+          {
+            "code": "37497-5",
+            "display": "MRA Spine vessels"
+          },
+          {
+            "code": "37500-6",
+            "display": "MRA Spine vessels W contrast IV"
+          },
+          {
+            "code": "37501-4",
+            "display": "MRA Cervical spine vessels W contrast IV"
+          },
+          {
+            "code": "37502-2",
+            "display": "MRA Lumbar spine vessels W contrast IV"
+          },
+          {
+            "code": "37503-0",
+            "display": "MRA Thoracic spine vessels W contrast IV"
+          },
+          {
+            "code": "37505-5",
+            "display": "MRA Spine vessels WO and W contrast IV"
+          },
+          {
+            "code": "37506-3",
+            "display": "MRA Cervical spine vessels WO and W contrast IV"
+          },
+          {
+            "code": "37507-1",
+            "display": "MRA Lumbar spine vessels WO and W contrast IV"
+          },
+          {
+            "code": "37508-9",
+            "display": "MRA Thoracic spine vessels WO and W contrast IV"
+          },
+          {
+            "code": "37510-5",
+            "display": "MRA Spine vessels WO contrast"
+          },
+          {
+            "code": "37511-3",
+            "display": "MRA Cervical spine vessels WO contrast"
+          },
+          {
+            "code": "37512-1",
+            "display": "MRA Thoracic spine vessels WO contrast"
+          },
+          {
+            "code": "37994-1",
+            "display": "MRA Lumbar spine vessels WO contrast"
+          },
+          {
+            "code": "38057-6",
+            "display": "MR Breast - left for implant"
+          },
+          {
+            "code": "38058-4",
+            "display": "MR Breast - right for implant"
+          },
+          {
+            "code": "38061-8",
+            "display": "MR Spine Cervical and Spine Thoracic and Spine Lumbar and Sacrum W contrast IV"
+          },
+          {
+            "code": "38062-6",
+            "display": "MR Breast - right for implant WO and W contrast IV"
+          },
+          {
+            "code": "38064-2",
+            "display": "MR Breast - left for implant WO contrast"
+          },
+          {
+            "code": "38769-6",
+            "display": "MR Lower extremity joint - right limited WO contrast"
+          },
+          {
+            "code": "38770-4",
+            "display": "MR Scapula - right WO contrast"
+          },
+          {
+            "code": "38773-8",
+            "display": "MRA Lower extremity vessels - right WO contrast"
+          },
+          {
+            "code": "38817-3",
+            "display": "MR Breast - right for implant WO contrast"
+          },
+          {
+            "code": "38829-8",
+            "display": "MR Upper extremity - left W contrast IV"
+          },
+          {
+            "code": "38830-6",
+            "display": "MR Shoulder - left W contrast IV"
+          },
+          {
+            "code": "38831-4",
+            "display": "MR Upper extremity - left WO and W contrast IV"
+          },
+          {
+            "code": "38832-2",
+            "display": "MR Upper extremity - left WO contrast"
+          },
+          {
+            "code": "38833-0",
+            "display": "MR Brachial plexus - left WO contrast"
+          },
+          {
+            "code": "38834-8",
+            "display": "MR Shoulder - left WO contrast"
+          },
+          {
+            "code": "38836-3",
+            "display": "MR Orbit - left"
+          },
+          {
+            "code": "38837-1",
+            "display": "MRA Knee vessels - left WO and W contrast IV"
+          },
+          {
+            "code": "38870-2",
+            "display": "MR Breast - left for implant WO and W contrast IV"
+          },
+          {
+            "code": "39028-6",
+            "display": "MR Guidance for needle localization of Unspecified body region"
+          },
+          {
+            "code": "39029-4",
+            "display": "MR Orbit and Face WO and W contrast IV"
+          },
+          {
+            "code": "39033-6",
+            "display": "MR Upper extremity WO contrast"
+          },
+          {
+            "code": "39034-4",
+            "display": "MR Upper extremity WO and W contrast IV"
+          },
+          {
+            "code": "39037-7",
+            "display": "MR Upper extremity W contrast IV"
+          },
+          {
+            "code": "39038-5",
+            "display": "MR Orbit and Face W contrast IV"
+          },
+          {
+            "code": "39140-9",
+            "display": "MR Heart cine for blood flow velocity mapping"
+          },
+          {
+            "code": "39141-7",
+            "display": "MR Bone marrow"
+          },
+          {
+            "code": "39291-0",
+            "display": "MR Lower extremity WO and W contrast IV"
+          },
+          {
+            "code": "39292-8",
+            "display": "MR Lower extremity WO contrast"
+          },
+          {
+            "code": "39293-6",
+            "display": "MR Lower extremity W contrast IV"
+          },
+          {
+            "code": "42270-9",
+            "display": "MR Cervical spine W flexion and W extension"
+          },
+          {
+            "code": "42298-0",
+            "display": "MR Unspecified body region WO and W contrast IV"
+          },
+          {
+            "code": "42299-8",
+            "display": "MR Clavicle WO and W contrast IV"
+          },
+          {
+            "code": "42300-4",
+            "display": "MR Thyroid gland"
+          },
+          {
+            "code": "42301-2",
+            "display": "MR Uterus"
+          },
+          {
+            "code": "42302-0",
+            "display": "MR Clavicle WO contrast"
+          },
+          {
+            "code": "42303-8",
+            "display": "MR Orbit and Face"
+          },
+          {
+            "code": "42304-6",
+            "display": "MRA Head vessels and Neck vessels"
+          },
+          {
+            "code": "42385-5",
+            "display": "MR Brain and Pituitary and Sella turcica"
+          },
+          {
+            "code": "42386-3",
+            "display": "MR Brain cine for CSF flow"
+          },
+          {
+            "code": "42387-1",
+            "display": "MR Unspecified body region cine for CSF flow"
+          },
+          {
+            "code": "42388-9",
+            "display": "MR Prostate Endorectal"
+          },
+          {
+            "code": "42389-7",
+            "display": "MR Pelvis Endorectal"
+          },
+          {
+            "code": "42390-5",
+            "display": "MR Endovaginal"
+          },
+          {
+            "code": "42391-3",
+            "display": "MR Brain and Pituitary and Sella turcica W contrast IV"
+          },
+          {
+            "code": "42392-1",
+            "display": "MR Brain and Pituitary and Sella turcica WO and W contrast IV"
+          },
+          {
+            "code": "42393-9",
+            "display": "MR Brain and Pituitary and Sella turcica WO contrast"
+          },
+          {
+            "code": "42693-2",
+            "display": "MR Urinary bladder and Urethra cine"
+          },
+          {
+            "code": "42694-0",
+            "display": "MR Clavicle W contrast IV"
+          },
+          {
+            "code": "42695-7",
+            "display": "MR Lower leg - bilateral W contrast IV"
+          },
+          {
+            "code": "42696-5",
+            "display": "MR Lower leg - bilateral"
+          },
+          {
+            "code": "42697-3",
+            "display": "MR Lower leg - bilateral WO and W contrast IV"
+          },
+          {
+            "code": "42698-1",
+            "display": "MR Cervical and thoracic and lumbar spine"
+          },
+          {
+            "code": "43448-0",
+            "display": "MR Liver WO and W ferumoxides IV"
+          },
+          {
+            "code": "43449-8",
+            "display": "MR Ankle - right dynamic W contrast IV"
+          },
+          {
+            "code": "43450-6",
+            "display": "MR Elbow - left dynamic W contrast IV"
+          },
+          {
+            "code": "43451-4",
+            "display": "MR Elbow - right dynamic W contrast IV"
+          },
+          {
+            "code": "43452-2",
+            "display": "MR Knee - left dynamic W contrast IV"
+          },
+          {
+            "code": "43453-0",
+            "display": "MR Knee - right dynamic W contrast IV"
+          },
+          {
+            "code": "43454-8",
+            "display": "MR Pulmonary system"
+          },
+          {
+            "code": "43455-5",
+            "display": "MR Oropharynx"
+          },
+          {
+            "code": "43456-3",
+            "display": "MR Cervical and thoracic spine WO and W contrast IV"
+          },
+          {
+            "code": "43457-1",
+            "display": "MR Cervical and thoracic spine"
+          },
+          {
+            "code": "43458-9",
+            "display": "MRA Orbit vessels WO and W contrast IV"
+          },
+          {
+            "code": "43504-0",
+            "display": "MR Axilla - left W contrast IV"
+          },
+          {
+            "code": "43505-7",
+            "display": "MR Axilla - right W contrast IV"
+          },
+          {
+            "code": "43506-5",
+            "display": "MR Ovary - bilateral"
+          },
+          {
+            "code": "43507-3",
+            "display": "MR Thymus gland"
+          },
+          {
+            "code": "43508-1",
+            "display": "MR Axilla - left"
+          },
+          {
+            "code": "43509-9",
+            "display": "MR Axilla - left WO and W contrast IV"
+          },
+          {
+            "code": "43510-7",
+            "display": "MR Axilla - right"
+          },
+          {
+            "code": "43511-5",
+            "display": "MR Axilla - right WO and W contrast IV"
+          },
+          {
+            "code": "43512-3",
+            "display": "MRA Lower leg vessels - bilateral W contrast IV"
+          },
+          {
+            "code": "43513-1",
+            "display": "MRA Lower leg vessels - left"
+          },
+          {
+            "code": "43514-9",
+            "display": "MRA Thigh vessels - left WO contrast"
+          },
+          {
+            "code": "43515-6",
+            "display": "MRA Thigh vessels - right WO contrast"
+          },
+          {
+            "code": "43516-4",
+            "display": "MRA Wrist vessels - left WO contrast"
+          },
+          {
+            "code": "43517-2",
+            "display": "MRA Wrist vessels - right WO contrast"
+          },
+          {
+            "code": "43528-9",
+            "display": "MR Breast - unilateral WO and W contrast IV"
+          },
+          {
+            "code": "43530-5",
+            "display": "MR Orbit and Face and Neck"
+          },
+          {
+            "code": "43555-2",
+            "display": "MR Ankle - left dynamic W contrast IV"
+          },
+          {
+            "code": "43556-0",
+            "display": "MRA Lower leg vessels - right"
+          },
+          {
+            "code": "43769-9",
+            "display": "MR Brain and Internal auditory canal WO and W contrast IV"
+          },
+          {
+            "code": "43772-3",
+            "display": "MR Brain and Internal auditory canal"
+          },
+          {
+            "code": "43773-1",
+            "display": "MR Kidney WO contrast"
+          },
+          {
+            "code": "43775-6",
+            "display": "MR Kidney WO and W contrast IV"
+          },
+          {
+            "code": "44122-0",
+            "display": "MR Guidance for stereotactic localization of Brain-- WO and W contrast IV"
+          },
+          {
+            "code": "44123-8",
+            "display": "MR Biliary ducts and Pancreatic duct WO contrast"
+          },
+          {
+            "code": "44124-6",
+            "display": "MR Adrenal gland W contrast IV"
+          },
+          {
+            "code": "44125-3",
+            "display": "MR Biliary ducts and Pancreatic duct W contrast IV"
+          },
+          {
+            "code": "44126-1",
+            "display": "MR Heart cine for blood flow velocity mapping W contrast IV"
+          },
+          {
+            "code": "44127-9",
+            "display": "MR Heart limited cine for function"
+          },
+          {
+            "code": "44128-7",
+            "display": "MRA Lower extremity vessels WO and W contrast IV"
+          },
+          {
+            "code": "44129-5",
+            "display": "MRA Lower extremity vessels WO contrast"
+          },
+          {
+            "code": "44130-3",
+            "display": "MRA Aortic arch WO contrast"
+          },
+          {
+            "code": "44131-1",
+            "display": "MRA Thoracic and abdominal aorta WO and W contrast IV"
+          },
+          {
+            "code": "44132-9",
+            "display": "MRA Thoracic and abdominal aorta WO contrast"
+          },
+          {
+            "code": "44133-7",
+            "display": "MRA Renal vessels WO contrast"
+          },
+          {
+            "code": "44134-5",
+            "display": "MRA Renal vessels WO and W contrast IV"
+          },
+          {
+            "code": "44135-2",
+            "display": "MRA Lower extremity vessels - bilateral W contrast IV"
+          },
+          {
+            "code": "44230-1",
+            "display": "MRA Superior mesenteric vessels WO contrast"
+          },
+          {
+            "code": "44231-9",
+            "display": "MRA Superior mesenteric vessels WO and W contrast IV"
+          },
+          {
+            "code": "46299-4",
+            "display": "MR Breast - unilateral"
+          },
+          {
+            "code": "46310-9",
+            "display": "MR Orbit and Face and Neck WO and W contrast IV"
+          },
+          {
+            "code": "46319-0",
+            "display": "MR Elbow Arthrogram"
+          },
+          {
+            "code": "46321-6",
+            "display": "MR Orbit and Face and Neck W contrast IV"
+          },
+          {
+            "code": "46323-2",
+            "display": "MR Breast - unilateral W contrast IV"
+          },
+          {
+            "code": "46324-0",
+            "display": "MRA Lower extremity vessels W contrast IV"
+          },
+          {
+            "code": "46332-3",
+            "display": "MR Orbit and Face and Neck WO contrast"
+          },
+          {
+            "code": "46333-1",
+            "display": "MR Breast - unilateral WO contrast"
+          },
+          {
+            "code": "46358-8",
+            "display": "MR Whole body"
+          },
+          {
+            "code": "46359-6",
+            "display": "MRA Superior mesenteric vessels"
+          },
+          {
+            "code": "46360-4",
+            "display": "MRA Aortic arch WO and W contrast IV"
+          },
+          {
+            "code": "48436-0",
+            "display": "MR Lumbar spine W contrast IT"
+          },
+          {
+            "code": "48439-4",
+            "display": "MR Thoracic spine W contrast IT"
+          },
+          {
+            "code": "48440-2",
+            "display": "MR Skull base W contrast IV"
+          },
+          {
+            "code": "48441-0",
+            "display": "MR Thoracic spine WO and W contrast IT"
+          },
+          {
+            "code": "48444-4",
+            "display": "MR Brain.temporal W contrast IV"
+          },
+          {
+            "code": "48445-1",
+            "display": "MR Larynx WO contrast"
+          },
+          {
+            "code": "48447-7",
+            "display": "MR Cervical spine W contrast IT"
+          },
+          {
+            "code": "48450-1",
+            "display": "MR Cervical spine WO and W contrast IT"
+          },
+          {
+            "code": "48452-7",
+            "display": "MR Lumbar spine WO and W contrast IT"
+          },
+          {
+            "code": "48453-5",
+            "display": "MR Brain.temporal WO contrast"
+          },
+          {
+            "code": "48454-3",
+            "display": "MR Clavicle - right WO and W contrast IV"
+          },
+          {
+            "code": "48455-0",
+            "display": "MR Clavicle - left WO and W contrast IV"
+          },
+          {
+            "code": "48456-8",
+            "display": "MR Clavicle - right W contrast IV"
+          },
+          {
+            "code": "48457-6",
+            "display": "MR Clavicle - left W contrast IV"
+          },
+          {
+            "code": "48458-4",
+            "display": "MR Clavicle - right WO contrast"
+          },
+          {
+            "code": "48459-2",
+            "display": "MR Clavicle - left WO contrast"
+          },
+          {
+            "code": "48460-0",
+            "display": "MR Unspecified body region limited"
+          },
+          {
+            "code": "48461-8",
+            "display": "MR Neck limited"
+          },
+          {
+            "code": "48687-8",
+            "display": "MR Skull base WO contrast"
+          },
+          {
+            "code": "48694-4",
+            "display": "MR Brain.temporal WO and W contrast IV"
+          },
+          {
+            "code": "49507-7",
+            "display": "MR Unspecified body region W contrast IV"
+          },
+          {
+            "code": "49565-5",
+            "display": "MRA Thoracic spine vessels"
+          },
+          {
+            "code": "58740-2",
+            "display": "MRCP Abdomen WO contrast"
+          },
+          {
+            "code": "58748-5",
+            "display": "Functional MR Brain"
+          },
+          {
+            "code": "58749-3",
+            "display": "MR Heart W stress and WO and W contrast IV"
+          },
+          {
+            "code": "58750-1",
+            "display": "MR Heart W stress"
+          },
+          {
+            "code": "69161-8",
+            "display": "MRA Circle of Willis WO and W contrast IV"
+          },
+          {
+            "code": "69162-6",
+            "display": "MRA Pulmonary artery - bilateral W contrast IA"
+          },
+          {
+            "code": "69163-4",
+            "display": "MR Ankle - bilateral W contrast IV"
+          },
+          {
+            "code": "69164-2",
+            "display": "MR Ankle - bilateral WO contrast"
+          },
+          {
+            "code": "69165-9",
+            "display": "MR Breast - bilateral for implant"
+          },
+          {
+            "code": "69166-7",
+            "display": "MR Breast - bilateral for implant WO and W contrast IV"
+          },
+          {
+            "code": "69167-5",
+            "display": "MR Breast - bilateral for implant W contrast IV"
+          },
+          {
+            "code": "69168-3",
+            "display": "MR Breast - bilateral for implant WO contrast"
+          },
+          {
+            "code": "69169-1",
+            "display": "MR Guidance for biopsy of Breast - bilateral"
+          },
+          {
+            "code": "69170-9",
+            "display": "MR Elbow - bilateral W contrast IV"
+          },
+          {
+            "code": "69171-7",
+            "display": "MR Elbow - bilateral WO contrast"
+          },
+          {
+            "code": "69172-5",
+            "display": "MR Femur - bilateral W contrast IV"
+          },
+          {
+            "code": "69173-3",
+            "display": "MR Femur - bilateral WO contrast"
+          },
+          {
+            "code": "69174-1",
+            "display": "MR Forearm - bilateral WO and W contrast IV"
+          },
+          {
+            "code": "69175-8",
+            "display": "MR Forearm - bilateral W contrast IV"
+          },
+          {
+            "code": "69176-6",
+            "display": "MR Forearm - bilateral WO contrast"
+          },
+          {
+            "code": "69177-4",
+            "display": "MR Hand - bilateral WO and W contrast IV"
+          },
+          {
+            "code": "69178-2",
+            "display": "MR Hand - bilateral W contrast IV"
+          },
+          {
+            "code": "69179-0",
+            "display": "MR Hand - bilateral WO contrast"
+          },
+          {
+            "code": "69180-8",
+            "display": "MR Upper arm - bilateral"
+          },
+          {
+            "code": "69181-6",
+            "display": "MR Upper arm - bilateral WO and W contrast IV"
+          },
+          {
+            "code": "69182-4",
+            "display": "MR Upper arm - bilateral W contrast IV"
+          },
+          {
+            "code": "69183-2",
+            "display": "MR Upper arm - bilateral WO contrast"
+          },
+          {
+            "code": "69184-0",
+            "display": "MR Shoulder - bilateral W contrast IV"
+          },
+          {
+            "code": "69185-7",
+            "display": "MR Lower leg - bilateral WO contrast"
+          },
+          {
+            "code": "69186-5",
+            "display": "MR Upper extremity - bilateral WO and W contrast IV"
+          },
+          {
+            "code": "69187-3",
+            "display": "MR Upper extremity - bilateral W contrast IV"
+          },
+          {
+            "code": "69188-1",
+            "display": "MR Upper extremity - bilateral WO contrast"
+          },
+          {
+            "code": "69189-9",
+            "display": "MR Breast for implant WO and W contrast IV"
+          },
+          {
+            "code": "69190-7",
+            "display": "MR Breast for implant W contrast IV"
+          },
+          {
+            "code": "69191-5",
+            "display": "MR Breast for implant WO contrast"
+          },
+          {
+            "code": "69192-3",
+            "display": "MR Guidance for aspiration of cyst of Breast"
+          },
+          {
+            "code": "69193-1",
+            "display": "MR Extremity"
+          },
+          {
+            "code": "69194-9",
+            "display": "MR Finger WO and W contrast IV"
+          },
+          {
+            "code": "69195-6",
+            "display": "MR Finger W contrast IV"
+          },
+          {
+            "code": "69196-4",
+            "display": "MR Finger WO contrast"
+          },
+          {
+            "code": "69197-2",
+            "display": "MR Guidance for biopsy of Liver"
+          },
+          {
+            "code": "69198-0",
+            "display": "MR Guidance for biopsy of Muscle"
+          },
+          {
+            "code": "69199-8",
+            "display": "MR Guidance for biopsy of Pancreas"
+          },
+          {
+            "code": "69200-4",
+            "display": "MR Guidance for biopsy of Chest Pleura"
+          },
+          {
+            "code": "69201-2",
+            "display": "MR Guidance for biopsy of Salivary gland"
+          },
+          {
+            "code": "69202-0",
+            "display": "MR Guidance for biopsy of Thyroid gland"
+          },
+          {
+            "code": "69203-8",
+            "display": "MR Guidance for biopsy of Breast - left"
+          },
+          {
+            "code": "69204-6",
+            "display": "MR Finger - left WO and W contrast IV"
+          },
+          {
+            "code": "69205-3",
+            "display": "MR Finger - left W contrast IV"
+          },
+          {
+            "code": "69206-1",
+            "display": "MR Finger - left WO contrast"
+          },
+          {
+            "code": "69207-9",
+            "display": "MR Hip - left Arthrogram WO and W contrast"
+          },
+          {
+            "code": "69208-7",
+            "display": "MR Shoulder - left Arthrogram WO and W contrast"
+          },
+          {
+            "code": "69209-5",
+            "display": "MR Wrist - left and Hand - left"
+          },
+          {
+            "code": "69210-3",
+            "display": "MR Lower Extremity Joint Arthrogram"
+          },
+          {
+            "code": "69211-1",
+            "display": "MR Nasal bones"
+          },
+          {
+            "code": "69212-9",
+            "display": "MR Pelvis limited"
+          },
+          {
+            "code": "69213-7",
+            "display": "MR Guidance for biopsy of Breast - right"
+          },
+          {
+            "code": "69214-5",
+            "display": "MR Finger - right WO and W contrast IV"
+          },
+          {
+            "code": "69215-2",
+            "display": "MR Finger - right W contrast IV"
+          },
+          {
+            "code": "69216-0",
+            "display": "MR Finger - right WO contrast"
+          },
+          {
+            "code": "69217-8",
+            "display": "MR Hip - right Arthrogram WO and W contrast"
+          },
+          {
+            "code": "69218-6",
+            "display": "MR Shoulder - right Arthrogram WO and W contrast"
+          },
+          {
+            "code": "69219-4",
+            "display": "MR Wrist - right and Hand - right"
+          },
+          {
+            "code": "69220-2",
+            "display": "MR Skull base WO and W contrast IV"
+          },
+          {
+            "code": "69221-0",
+            "display": "MR Scrotum and testicle W contrast IV"
+          },
+          {
+            "code": "69222-8",
+            "display": "MR Vena cava"
+          },
+          {
+            "code": "69223-6",
+            "display": "MR Unspecified body region WO contrast"
+          },
+          {
+            "code": "72238-9",
+            "display": "MR Toes - right WO and W contrast IV"
+          },
+          {
+            "code": "72239-7",
+            "display": "MR Toes - right WO contrast"
+          },
+          {
+            "code": "72240-5",
+            "display": "MR Toes - right W contrast IV"
+          },
+          {
+            "code": "72241-3",
+            "display": "MR Toes - left WO and W contrast IV"
+          },
+          {
+            "code": "72242-1",
+            "display": "MR Toes - left WO contrast"
+          },
+          {
+            "code": "72243-9",
+            "display": "MR Toes - left W contrast IV"
+          },
+          {
+            "code": "72244-7",
+            "display": "MR Pelvis Endorectal WO and W contrast IV"
+          },
+          {
+            "code": "72245-4",
+            "display": "MR Pelvis Defecography W contrast PR"
+          },
+          {
+            "code": "72246-2",
+            "display": "MR Abdomen and Pelvis W contrast PO and WO and W contrast IV"
+          },
+          {
+            "code": "72247-0",
+            "display": "MR Abdomen and Pelvis W contrast PO and WO contrast IV"
+          },
+          {
+            "code": "72248-8",
+            "display": "MRCP Abdomen WO and W contrast IV"
+          },
+          {
+            "code": "80495-5",
+            "display": "MR Mediastinum WO contrast"
+          },
+          {
+            "code": "80496-3",
+            "display": "MR Unspecified body region 3D post processing"
+          },
+          {
+            "code": "80497-1",
+            "display": "MR Guidance for needle localization of Breast - right"
+          },
+          {
+            "code": "80498-9",
+            "display": "MR Guidance for needle localization of Breast - left"
+          },
+          {
+            "code": "80499-7",
+            "display": "MR Whole body WO and W contrast IV"
+          },
+          {
+            "code": "80500-2",
+            "display": "MR Heart W stress and WO contrast"
+          },
+          {
+            "code": "80501-0",
+            "display": "MR Small bowel W contrast PO and WO contrast IV"
+          },
+          {
+            "code": "80502-8",
+            "display": "MRA Abdominal Aorta and Bilateral Runoff Vessels WO and W contrast IV"
+          },
+          {
+            "code": "80503-6",
+            "display": "MR Small bowel W contrast PO and WO and W contrast IV"
+          },
+          {
+            "code": "80504-4",
+            "display": "MR Guidance for biopsy of Unspecified body region"
+          },
+          {
+            "code": "80505-1",
+            "display": "MR Brain for new diagnosis tumor WO and W contrast IV"
+          },
+          {
+            "code": "80506-9",
+            "display": "MR Brain for low grade tumor WO and W contrast IV"
+          },
+          {
+            "code": "80507-7",
+            "display": "MR Brain for high grade tumor WO and W contrast IV"
+          },
+          {
+            "code": "80508-5",
+            "display": "MR Upper extremity.joint Arthrogram"
+          },
+          {
+            "code": "80509-3",
+            "display": "MR Guidance for placement of clip in Unspecified body region"
+          },
+          {
+            "code": "80510-1",
+            "display": "MR Brain for metastasis WO and W contrast IV"
+          },
+          {
+            "code": "80511-9",
+            "display": "MR Brain for postoperative"
+          },
+          {
+            "code": "80512-7",
+            "display": "MR Bone marrow WO contrast"
+          },
+          {
+            "code": "80513-5",
+            "display": "MR Bone marrow W contrast IV"
+          },
+          {
+            "code": "80514-3",
+            "display": "MR Bone marrow WO and W contrast IV"
+          },
+          {
+            "code": "80583-8",
+            "display": "Functional MR Brain for motor function"
+          },
+          {
+            "code": "80584-6",
+            "display": "MR Urethra Endovaginal WO contrast"
+          },
+          {
+            "code": "80585-3",
+            "display": "MR Pelvis Endorectal W contrast IV"
+          },
+          {
+            "code": "82123-1",
+            "display": "MR Guidance for radiation treatment of Unspecified body region"
+          },
+          {
+            "code": "82128-0",
+            "display": "MR Brain and Face WO contrast"
+          },
+          {
+            "code": "82129-8",
+            "display": "MR Brain and Face WO and W contrast IV"
+          },
+          {
+            "code": "82130-6",
+            "display": "MR Face and Neck WO contrast"
+          },
+          {
+            "code": "82131-4",
+            "display": "MR Face and Neck WO and W contrast IV"
+          },
+          {
+            "code": "85041-2",
+            "display": "MR Unspecified body region 3D printed model"
+          },
+          {
+            "code": "89284-4",
+            "display": "MR Cervical and thoracic spine W contrast IV"
+          }
+        ]
+      }
+    ]
+  }
+}

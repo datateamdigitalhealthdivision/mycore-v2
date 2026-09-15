@@ -1,0 +1,25 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "radlex",
+  "url": "http://radlex.org",
+  "version": "2.1.0",
+  "name": "RadLex",
+  "title": "RadLex",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Radiological Society of North America (RSNA)",
+  "description": "RadLex, the RSNA radiology lexicon. Declared here so that MY Core can bind to it; the content is maintained by RSNA and is not redistributed in full by this guide. RadLex is free to use with attribution. MY Core binds body site to the anatomy subset, published as radlex-anatomy-my-core.",
+  "copyright": "RadLex is a registered trademark of the Radiological Society of North America. Used with attribution under the RadLex licence.",
+  "caseSensitive": true,
+  "content": "not-present",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://radlex.org/"
+        }
+      ]
+    }
+  ]
+}

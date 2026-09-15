@@ -1,0 +1,743 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "imaging-region-my-core-to-radlex",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ConceptMap/imaging-region-my-core-to-radlex",
+  "version": "2.1.0",
+  "name": "MyCoreImagingRegionToRadLex",
+  "title": "MY Core Imaging Region to RadLex",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Maps the body-region concepts in the national imaging region list to RadLex, so that a Malaysian bodySite carries international meaning without asking implementers to adopt RadLex's 38,178 anatomical concepts directly. Concepts classed as procedure, modality-technique or administrative are not mapped: RadLex is an anatomy and findings ontology and is not the right target for them. RadLex is published by RSNA and is free to use with attribution.",
+  "sourceCanonical": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/imaging-region-bodysite-my-core",
+  "targetCanonical": "http://radlex.org",
+  "group": [
+    {
+      "source": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/imaging-region-my-core",
+      "target": "http://radlex.org",
+      "element": [
+        {
+          "code": "001",
+          "display": "ABDOMEN",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID56",
+              "display": "abdomen"
+            }
+          ]
+        },
+        {
+          "code": "004",
+          "display": "CHEST",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID1243",
+              "display": "thorax",
+              "comment": "Duplicate concept with THORAX"
+            }
+          ]
+        },
+        {
+          "code": "007",
+          "display": "EXTREMITIES",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID13202",
+              "display": "limb of body"
+            }
+          ]
+        },
+        {
+          "code": "049",
+          "display": "PELVIS",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID2507",
+              "display": "pelvis"
+            }
+          ]
+        },
+        {
+          "code": "062",
+          "display": "SKULL & FACIAL BONES",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID9196",
+              "display": "skull",
+              "comment": "Duplicate spelling of SKULL AND FACIAL BONES. RadLex has no 'facial bones' concept"
+            }
+          ]
+        },
+        {
+          "code": "079",
+          "display": "SPINES",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID7741",
+              "display": "spine",
+              "comment": "Plural. RadLex concept is singular 'spine'"
+            }
+          ]
+        },
+        {
+          "code": "089",
+          "display": "ABDOMEN (Mobile)",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID56",
+              "display": "abdomen",
+              "comment": "'(Mobile)' is a modality, not a region"
+            }
+          ]
+        },
+        {
+          "code": "091",
+          "display": "CHEST (Mobile)",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID1243",
+              "display": "thorax",
+              "comment": "'(Mobile)' is a modality"
+            }
+          ]
+        },
+        {
+          "code": "093",
+          "display": "EXTREMITIES (Mobile)",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID13202",
+              "display": "limb of body",
+              "comment": "'(Mobile)' is a modality"
+            }
+          ]
+        },
+        {
+          "code": "120",
+          "display": "PELVIS (Mobile)",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID2507",
+              "display": "pelvis",
+              "comment": "'(Mobile)' is a modality"
+            }
+          ]
+        },
+        {
+          "code": "124",
+          "display": "SKULL (Mobile)",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID9196",
+              "display": "skull",
+              "comment": "'(Mobile)' is a modality"
+            }
+          ]
+        },
+        {
+          "code": "126",
+          "display": "SPINE (Mobile)",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID7741",
+              "display": "spine",
+              "comment": "'(Mobile)' is a modality"
+            }
+          ]
+        },
+        {
+          "code": "132",
+          "display": "ABDOMEN",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID56",
+              "display": "abdomen"
+            }
+          ]
+        },
+        {
+          "code": "158",
+          "display": "EXTREMITIES",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID13202",
+              "display": "limb of body"
+            }
+          ]
+        },
+        {
+          "code": "176",
+          "display": "HEAD AND NECK",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID9080",
+              "display": "head",
+              "comment": "Duplicate spelling of HEAD & NECK. Same caveat"
+            }
+          ]
+        },
+        {
+          "code": "194",
+          "display": "TMJ (Temporo-Mandibular Joints)",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID9779",
+              "display": "temporomandibular joint"
+            }
+          ]
+        },
+        {
+          "code": "196",
+          "display": "PELVIS",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID2507",
+              "display": "pelvis"
+            }
+          ]
+        },
+        {
+          "code": "198",
+          "display": "SPINES",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID7741",
+              "display": "spine",
+              "comment": "Plural. RadLex concept is singular 'spine'"
+            }
+          ]
+        },
+        {
+          "code": "206",
+          "display": "THORAX",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID1243",
+              "display": "thorax",
+              "comment": "Duplicate concept with CHEST"
+            }
+          ]
+        },
+        {
+          "code": "217",
+          "display": "ABDOMEN",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID56",
+              "display": "abdomen"
+            }
+          ]
+        },
+        {
+          "code": "243",
+          "display": "BREAST",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID28749",
+              "display": "breast"
+            }
+          ]
+        },
+        {
+          "code": "250",
+          "display": "EXTREMITIES",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID13202",
+              "display": "limb of body"
+            }
+          ]
+        },
+        {
+          "code": "280",
+          "display": "HEAD & NECK",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID9080",
+              "display": "head",
+              "comment": "Duplicate spelling of HEAD AND NECK. RadLex has no single head+neck anatomical concept; RID9080 head + RID7488 neck"
+            }
+          ]
+        },
+        {
+          "code": "294",
+          "display": "HEPATOBILIARY SYSTEM",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID28753",
+              "display": "biliary system",
+              "comment": "MISSPELT (double L). Duplicate concept with HEPATOBILIARY SYSTEM & PANCREAS"
+            }
+          ]
+        },
+        {
+          "code": "297",
+          "display": "MRI PELVIS",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID2507",
+              "display": "pelvis",
+              "comment": "Modality baked into the name; duplicate of PELVIS"
+            }
+          ]
+        },
+        {
+          "code": "303",
+          "display": "MRI SPINES",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID7741",
+              "display": "spine",
+              "comment": "Modality baked into the name; duplicate of SPINES"
+            }
+          ]
+        },
+        {
+          "code": "309",
+          "display": "MRI THORAX",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID1243",
+              "display": "thorax",
+              "comment": "Modality baked into the name; duplicate of THORAX"
+            }
+          ]
+        },
+        {
+          "code": "312",
+          "display": "URINARY SYSTEM",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID39347",
+              "display": "urinary system"
+            }
+          ]
+        },
+        {
+          "code": "321",
+          "display": "BREAST (MAMMOGRAPHY)",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID28749",
+              "display": "breast",
+              "comment": "Modality baked into the name; duplicate of BREAST"
+            }
+          ]
+        },
+        {
+          "code": "327",
+          "display": "ANATOMICAL REGION",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID13390",
+              "display": "anatomical structure",
+              "comment": "Means nothing specific. Recommend retire"
+            }
+          ]
+        },
+        {
+          "code": "334",
+          "display": "BREAST",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID28749",
+              "display": "breast"
+            }
+          ]
+        },
+        {
+          "code": "336",
+          "display": "CNS",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID13445",
+              "display": "neuraxis"
+            }
+          ]
+        },
+        {
+          "code": "341",
+          "display": "CIRCULATORY SYSTEM - ARTERIES",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID13183",
+              "display": "arterial system"
+            }
+          ]
+        },
+        {
+          "code": "352",
+          "display": "CIRCULATORY SYSTEM - VEINS",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID13184",
+              "display": "venous system"
+            }
+          ]
+        },
+        {
+          "code": "363",
+          "display": "DIGESTIVE SYSTEM",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID31010",
+              "display": "alimentary system",
+              "comment": "Overlaps GASTROINTESTINAL SYSTEM"
+            }
+          ]
+        },
+        {
+          "code": "369",
+          "display": "HEPATOBILIARY SYSTEM",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID28753",
+              "display": "biliary system",
+              "comment": "MISSPELT (double L). Duplicate concept with HEPATOBILIARY SYSTEM & PANCREAS"
+            }
+          ]
+        },
+        {
+          "code": "375",
+          "display": "INTEGUMENT & MUSCULOSKELETAL SYSTEM & SOFT TISSUES",
+          "target": [
+            {
+              "equivalence": "wider",
+              "code": "RID13209",
+              "display": "musculoskeletal system",
+              "comment": "UNBALANCED BRACKET. Compound of skin RID34290, musculoskeletal RID13209, soft tissue RID35730"
+            }
+          ]
+        },
+        {
+          "code": "382",
+          "display": "MUSCULOSKELETAL SYSTEM (BONES & JOINTS)",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID13209",
+              "display": "musculoskeletal system",
+              "comment": "Duplicate of MUSCULOSKELETAL SYSTEM"
+            }
+          ]
+        },
+        {
+          "code": "395",
+          "display": "REPRODUCTIVE SYSTEM - FEMALE",
+          "target": [
+            {
+              "equivalence": "wider",
+              "code": "RID43244",
+              "display": "genitourinary system",
+              "comment": "NO EXACT MATCH - RadLex has no female reproductive system concept; RID43244 is broader"
+            }
+          ]
+        },
+        {
+          "code": "399",
+          "display": "REPRODUCTIVE SYSTEM - MALE",
+          "target": [
+            {
+              "equivalence": "wider",
+              "code": "RID43244",
+              "display": "genitourinary system",
+              "comment": "NO EXACT MATCH - same caveat"
+            }
+          ]
+        },
+        {
+          "code": "405",
+          "display": "RESPIRATORY SYSTEM",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID39189",
+              "display": "respiratory system"
+            }
+          ]
+        },
+        {
+          "code": "408",
+          "display": "URINARY SYSTEM",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID39347",
+              "display": "urinary system"
+            }
+          ]
+        },
+        {
+          "code": "417",
+          "display": "ANATOMICAL REGION (Mobile)",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID13390",
+              "display": "anatomical structure",
+              "comment": "Means nothing specific. Recommend retire"
+            }
+          ]
+        },
+        {
+          "code": "421",
+          "display": "CNS (Mobile)",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID13445",
+              "display": "neuraxis",
+              "comment": "'(Mobile)' is a modality"
+            }
+          ]
+        },
+        {
+          "code": "425",
+          "display": "CIRCULATORY SYSTEM - ARTERIES (Mobile)",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID13183",
+              "display": "arterial system",
+              "comment": "'(Mobile)' is a modality"
+            }
+          ]
+        },
+        {
+          "code": "436",
+          "display": "CIRCULATORY SYSTEM - VEINS (Mobile)",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID13184",
+              "display": "venous system",
+              "comment": "'(Mobile)' is a modality"
+            }
+          ]
+        },
+        {
+          "code": "446",
+          "display": "HEPATOBILIARY SYSTEM (Mobile)",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID28753",
+              "display": "biliary system",
+              "comment": "MISSPELT. '(Mobile)' is a modality"
+            }
+          ]
+        },
+        {
+          "code": "451",
+          "display": "RESPIRATORY SYSTEM (Mobile)",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID39189",
+              "display": "respiratory system",
+              "comment": "'(Mobile)' is a modality"
+            }
+          ]
+        },
+        {
+          "code": "454",
+          "display": "URINARY SYSTEM (Mobile)",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID39347",
+              "display": "urinary system",
+              "comment": "'(Mobile)' is a modality"
+            }
+          ]
+        },
+        {
+          "code": "607",
+          "display": "GASTROINTESTINAL SYSTEM",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID94",
+              "display": "gastrointestinal tract",
+              "comment": "Overlaps DIGESTIVE SYSTEM"
+            }
+          ]
+        },
+        {
+          "code": "612",
+          "display": "HEPATOBILIARY SYSTEM & PANCREAS",
+          "target": [
+            {
+              "equivalence": "wider",
+              "code": "RID28753",
+              "display": "biliary system",
+              "comment": "Compound: biliary system RID28753 + pancreas RID170. RadLex has no combined concept"
+            }
+          ]
+        },
+        {
+          "code": "623",
+          "display": "RESPIRATORY SYSTEM",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID39189",
+              "display": "respiratory system"
+            }
+          ]
+        },
+        {
+          "code": "631",
+          "display": "URINARY SYSTEM",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID39347",
+              "display": "urinary system"
+            }
+          ]
+        },
+        {
+          "code": "655",
+          "display": "BREAST",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID28749",
+              "display": "breast"
+            }
+          ]
+        },
+        {
+          "code": "713",
+          "display": "URINARY SYSTEM (IVU)",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID39347",
+              "display": "urinary system",
+              "comment": "IVU is a procedure, not a region"
+            }
+          ]
+        },
+        {
+          "code": "814",
+          "display": "SKULL AND FACIAL BONES",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID9196",
+              "display": "skull",
+              "comment": "Duplicate spelling of SKULL & FACIAL BONES"
+            }
+          ]
+        },
+        {
+          "code": "818",
+          "display": "DIGESTIVE SYSTEM",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID31010",
+              "display": "alimentary system",
+              "comment": "Overlaps GASTROINTESTINAL SYSTEM"
+            }
+          ]
+        },
+        {
+          "code": "837",
+          "display": "HEPATOBILIARY SYSTEM & PANCREAS",
+          "target": [
+            {
+              "equivalence": "wider",
+              "code": "RID28753",
+              "display": "biliary system",
+              "comment": "Compound: biliary system RID28753 + pancreas RID170. RadLex has no combined concept"
+            }
+          ]
+        },
+        {
+          "code": "842",
+          "display": "MUSCULOSKELETAL SYSTEM",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID13209",
+              "display": "musculoskeletal system"
+            }
+          ]
+        },
+        {
+          "code": "847",
+          "display": "REPRODUCTIVE SYSTEM - FEMALE",
+          "target": [
+            {
+              "equivalence": "wider",
+              "code": "RID43244",
+              "display": "genitourinary system",
+              "comment": "NO EXACT MATCH - RadLex has no female reproductive system concept; RID43244 is broader"
+            }
+          ]
+        },
+        {
+          "code": "849",
+          "display": "RESPIRATORY SYSTEM",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID39189",
+              "display": "respiratory system"
+            }
+          ]
+        },
+        {
+          "code": "851",
+          "display": "URINARY SYSTEM",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "RID39347",
+              "display": "urinary system"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2444 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "imaging-region-my-core",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemImagingRegion (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/imaging-region-my-core</tt><p>Malaysia imaging region code system</p></div>"
+  },
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/imaging-region-my-core",
+  "name": "CodeSystemImagingRegionMyCore",
+  "title": "CodeSystemImagingRegion (MY Core)",
+  "status": "active",
+  "date": "2023-06-08T03:08:38.5864399+00:00",
+  "publisher": "Malaysia MOH - HIE Steering Committee",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "LEGACY. The 110-concept national imaging region list exported from the RIS menu tree. RETIRED as a binding target in 2.1.0: body site now binds to RadLex anatomy (radlex-anatomy-my-core, 38,178 concepts). Analysis for v2.1 found that only 63 of the 110 concepts were body regions at all; the rest were procedures, modalities or administrative categories. Every concept is tagged with a conceptClass property, and the body regions carry a RadLex mapping, so legacy extracts can be translated through ConceptMap/imaging-region-my-core-to-radlex.",
+  "compositional": false,
+  "content": "complete",
+  "count": 110,
+  "property": [
+    {
+      "code": "modalityCode",
+      "type": "code"
+    },
+    {
+      "code": "modalityDisplay",
+      "type": "string"
+    },
+    {
+      "code": "conceptClass",
+      "uri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/imaging-region-my-core#conceptClass",
+      "description": "What this concept actually is: region, procedure, modality-technique or administrative. Only 'region' is bindable on bodySite.",
+      "type": "code"
+    },
+    {
+      "code": "radlex",
+      "uri": "http://radlex.org",
+      "description": "Equivalent RadLex concept (RID), where one exists. RadLex is published by RSNA and is free to use with attribution.",
+      "type": "code"
+    }
+  ],
+  "concept": [
+    {
+      "code": "001",
+      "display": "ABDOMEN",
+      "definition": "ABDOMEN",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "01"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "GENERAL RADIOGRAPHY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID56"
+        }
+      ]
+    },
+    {
+      "code": "004",
+      "display": "CHEST",
+      "definition": "CHEST",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "01"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "GENERAL RADIOGRAPHY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID1243"
+        }
+      ]
+    },
+    {
+      "code": "007",
+      "display": "EXTREMITIES",
+      "definition": "EXTREMITIES",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "01"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "GENERAL RADIOGRAPHY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID13202"
+        }
+      ]
+    },
+    {
+      "code": "049",
+      "display": "PELVIS",
+      "definition": "PELVIS",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "01"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "GENERAL RADIOGRAPHY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID2507"
+        }
+      ]
+    },
+    {
+      "code": "052",
+      "display": "SKELETAL SURVEY",
+      "definition": "SKELETAL SURVEY",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "01"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "GENERAL RADIOGRAPHY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "modality-technique"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID28819"
+        }
+      ]
+    },
+    {
+      "code": "062",
+      "display": "SKULL & FACIAL BONES",
+      "definition": "SKULL & FACIAL BONES",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "01"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "GENERAL RADIOGRAPHY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID9196"
+        }
+      ]
+    },
+    {
+      "code": "079",
+      "display": "SPINES",
+      "definition": "SPINES",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "01"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "GENERAL RADIOGRAPHY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID7741"
+        }
+      ]
+    },
+    {
+      "code": "089",
+      "display": "ABDOMEN (Mobile)",
+      "definition": "ABDOMEN (Mobile)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "01"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "GENERAL RADIOGRAPHY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID56"
+        }
+      ]
+    },
+    {
+      "code": "091",
+      "display": "CHEST (Mobile)",
+      "definition": "CHEST (Mobile)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "02"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "GENERAL RADIOGRAPHY (Mobile)"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID1243"
+        }
+      ]
+    },
+    {
+      "code": "093",
+      "display": "EXTREMITIES (Mobile)",
+      "definition": "EXTREMITIES (Mobile)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "02"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "GENERAL RADIOGRAPHY (Mobile)"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID13202"
+        }
+      ]
+    },
+    {
+      "code": "120",
+      "display": "PELVIS (Mobile)",
+      "definition": "PELVIS (Mobile)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "02"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "GENERAL RADIOGRAPHY (Mobile)"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID2507"
+        }
+      ]
+    },
+    {
+      "code": "122",
+      "display": "SKELETAL SURVEY - Infant (Mobile)",
+      "definition": "SKELETAL SURVEY - Infant (Mobile)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "02"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "GENERAL RADIOGRAPHY (Mobile)"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "modality-technique"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID28819"
+        }
+      ]
+    },
+    {
+      "code": "124",
+      "display": "SKULL (Mobile)",
+      "definition": "SKULL (Mobile)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "02"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "GENERAL RADIOGRAPHY (Mobile)"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID9196"
+        }
+      ]
+    },
+    {
+      "code": "126",
+      "display": "SPINE (Mobile)",
+      "definition": "SPINE (Mobile)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "02"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "GENERAL RADIOGRAPHY (Mobile)"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID7741"
+        }
+      ]
+    },
+    {
+      "code": "132",
+      "display": "ABDOMEN",
+      "definition": "ABDOMEN",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "05"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "CT"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID56"
+        }
+      ]
+    },
+    {
+      "code": "139",
+      "display": "CTA",
+      "definition": "CTA",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "05"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "CT"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "modality-technique"
+        }
+      ]
+    },
+    {
+      "code": "150",
+      "display": "ARTHROGRAM",
+      "definition": "ARTHROGRAM",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "05"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "CT"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "modality-technique"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID10458"
+        }
+      ]
+    },
+    {
+      "code": "158",
+      "display": "EXTREMITIES",
+      "definition": "EXTREMITIES",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "05"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "CT"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID13202"
+        }
+      ]
+    },
+    {
+      "code": "176",
+      "display": "HEAD AND NECK",
+      "definition": "HEAD AND NECK",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "05"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "CT"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID9080"
+        }
+      ]
+    },
+    {
+      "code": "194",
+      "display": "TMJ (Temporo-Mandibular Joints)",
+      "definition": "TMJ (Temporo-Mandibular Joints)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "05"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "CT"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID9779"
+        }
+      ]
+    },
+    {
+      "code": "196",
+      "display": "PELVIS",
+      "definition": "PELVIS",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "05"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "CT"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID2507"
+        }
+      ]
+    },
+    {
+      "code": "198",
+      "display": "SPINES",
+      "definition": "SPINES",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "05"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "CT"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID7741"
+        }
+      ]
+    },
+    {
+      "code": "206",
+      "display": "THORAX",
+      "definition": "THORAX",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "05"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "CT"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID1243"
+        }
+      ]
+    },
+    {
+      "code": "214",
+      "display": "OTHERS",
+      "definition": "OTHERS",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "05"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "CT"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "administrative"
+        }
+      ]
+    },
+    {
+      "code": "217",
+      "display": "ABDOMEN",
+      "definition": "ABDOMEN",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "11"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MRI"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID56"
+        }
+      ]
+    },
+    {
+      "code": "219",
+      "display": "MRA (MR ANGIOGRAPHY)",
+      "definition": "MRA (MR ANGIOGRAPHY)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "11"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MRI"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "modality-technique"
+        }
+      ]
+    },
+    {
+      "code": "230",
+      "display": "MRV (MR VENOGRAPHY)",
+      "definition": "MRV (MR VENOGRAPHY)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "11"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MRI"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "modality-technique"
+        }
+      ]
+    },
+    {
+      "code": "235",
+      "display": "MRI ARTHROGRAM",
+      "definition": "MRI ARTHROGRAM",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "11"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MRI"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "modality-technique"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID10458"
+        }
+      ]
+    },
+    {
+      "code": "243",
+      "display": "BREAST",
+      "definition": "BREAST",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "11"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MRI"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID28749"
+        }
+      ]
+    },
+    {
+      "code": "245",
+      "display": "DYNAMIC",
+      "definition": "DYNAMIC",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "11"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MRI"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "modality-technique"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID10385"
+        }
+      ]
+    },
+    {
+      "code": "250",
+      "display": "EXTREMITIES",
+      "definition": "EXTREMITIES",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "11"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MRI"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID13202"
+        }
+      ]
+    },
+    {
+      "code": "276",
+      "display": "FUNCTIONAL",
+      "definition": "FUNCTIONAL",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "11"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MRI"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "modality-technique"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID10378"
+        }
+      ]
+    },
+    {
+      "code": "280",
+      "display": "HEAD & NECK",
+      "definition": "HEAD & NECK",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "11"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MRI"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID9080"
+        }
+      ]
+    },
+    {
+      "code": "294",
+      "display": "HEPATOBILIARY SYSTEM",
+      "definition": "HEPATOBILIARY SYSTEM",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "11"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MRI"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID28753"
+        }
+      ]
+    },
+    {
+      "code": "297",
+      "display": "MRI PELVIS",
+      "definition": "MRI PELVIS",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "11"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MRI"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID2507"
+        }
+      ]
+    },
+    {
+      "code": "303",
+      "display": "MRI SPINES",
+      "definition": "MRI SPINES",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "11"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MRI"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID7741"
+        }
+      ]
+    },
+    {
+      "code": "309",
+      "display": "MRI THORAX",
+      "definition": "MRI THORAX",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "11"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MRI"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID1243"
+        }
+      ]
+    },
+    {
+      "code": "312",
+      "display": "URINARY SYSTEM",
+      "definition": "URINARY SYSTEM",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "11"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MRI"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID39347"
+        }
+      ]
+    },
+    {
+      "code": "317",
+      "display": "OTHERS",
+      "definition": "OTHERS",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "11"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MRI"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "administrative"
+        }
+      ]
+    },
+    {
+      "code": "321",
+      "display": "BREAST (MAMMOGRAPHY)",
+      "definition": "BREAST (MAMMOGRAPHY)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "10"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MAMMOGRAPHY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID28749"
+        }
+      ]
+    },
+    {
+      "code": "327",
+      "display": "ANATOMICAL REGION",
+      "definition": "ANATOMICAL REGION",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID13390"
+        }
+      ]
+    },
+    {
+      "code": "334",
+      "display": "BREAST",
+      "definition": "BREAST",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID28749"
+        }
+      ]
+    },
+    {
+      "code": "336",
+      "display": "CNS",
+      "definition": "CNS",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID13445"
+        }
+      ]
+    },
+    {
+      "code": "341",
+      "display": "CIRCULATORY SYSTEM - ARTERIES",
+      "definition": "CIRCULATORY SYSTEM - ARTERIES",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID13183"
+        }
+      ]
+    },
+    {
+      "code": "352",
+      "display": "CIRCULATORY SYSTEM - VEINS",
+      "definition": "CIRCULATORY SYSTEM - VEINS",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID13184"
+        }
+      ]
+    },
+    {
+      "code": "363",
+      "display": "DIGESTIVE SYSTEM",
+      "definition": "DIGESTIVE SYSTEM",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID31010"
+        }
+      ]
+    },
+    {
+      "code": "366",
+      "display": "ENDOCRINE SYSTEM",
+      "definition": "ENDOCRINE SYSTEM",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        }
+      ]
+    },
+    {
+      "code": "369",
+      "display": "HEPATOBILIARY SYSTEM",
+      "definition": "HEPATOBILIARY SYSTEM",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID28753"
+        }
+      ]
+    },
+    {
+      "code": "375",
+      "display": "INTEGUMENT & MUSCULOSKELETAL SYSTEM & SOFT TISSUES",
+      "definition": "INTEGUMENT & MUSCULOSKELETAL SYSTEM & SOFT TISSUES",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID13209"
+        }
+      ]
+    },
+    {
+      "code": "382",
+      "display": "MUSCULOSKELETAL SYSTEM (BONES & JOINTS)",
+      "definition": "MUSCULOSKELETAL SYSTEM (BONES & JOINTS)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID13209"
+        }
+      ]
+    },
+    {
+      "code": "395",
+      "display": "REPRODUCTIVE SYSTEM - FEMALE",
+      "definition": "REPRODUCTIVE SYSTEM - FEMALE",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID43244"
+        }
+      ]
+    },
+    {
+      "code": "399",
+      "display": "REPRODUCTIVE SYSTEM - MALE",
+      "definition": "REPRODUCTIVE SYSTEM - MALE",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID43244"
+        }
+      ]
+    },
+    {
+      "code": "405",
+      "display": "RESPIRATORY SYSTEM",
+      "definition": "RESPIRATORY SYSTEM",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID39189"
+        }
+      ]
+    },
+    {
+      "code": "408",
+      "display": "URINARY SYSTEM",
+      "definition": "URINARY SYSTEM",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID39347"
+        }
+      ]
+    },
+    {
+      "code": "414",
+      "display": "OTHERS",
+      "definition": "OTHERS",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "13"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "administrative"
+        }
+      ]
+    },
+    {
+      "code": "417",
+      "display": "ANATOMICAL REGION (Mobile)",
+      "definition": "ANATOMICAL REGION (Mobile)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "14"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND (Mobile)"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID13390"
+        }
+      ]
+    },
+    {
+      "code": "421",
+      "display": "CNS (Mobile)",
+      "definition": "CNS (Mobile)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "14"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND (Mobile)"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID13445"
+        }
+      ]
+    },
+    {
+      "code": "425",
+      "display": "CIRCULATORY SYSTEM - ARTERIES (Mobile)",
+      "definition": "CIRCULATORY SYSTEM - ARTERIES (Mobile)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "14"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND (Mobile)"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID13183"
+        }
+      ]
+    },
+    {
+      "code": "436",
+      "display": "CIRCULATORY SYSTEM - VEINS (Mobile)",
+      "definition": "CIRCULATORY SYSTEM - VEINS (Mobile)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "14"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND (Mobile)"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID13184"
+        }
+      ]
+    },
+    {
+      "code": "446",
+      "display": "HEPATOBILIARY SYSTEM (Mobile)",
+      "definition": "HEPATOBILIARY SYSTEM (Mobile)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "14"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND (Mobile)"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID28753"
+        }
+      ]
+    },
+    {
+      "code": "451",
+      "display": "RESPIRATORY SYSTEM (Mobile)",
+      "definition": "RESPIRATORY SYSTEM (Mobile)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "14"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND (Mobile)"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID39189"
+        }
+      ]
+    },
+    {
+      "code": "454",
+      "display": "URINARY SYSTEM (Mobile)",
+      "definition": "URINARY SYSTEM (Mobile)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "14"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ULTRASOUND (Mobile)"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID39347"
+        }
+      ]
+    },
+    {
+      "code": "460",
+      "display": "ANGIOGRAM - ABDOMINAL / PELVIS",
+      "definition": "ANGIOGRAM - ABDOMINAL / PELVIS",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "03"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ANGIOGRAPHY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "modality-technique"
+        }
+      ]
+    },
+    {
+      "code": "466",
+      "display": "ANGIOGRAM - CEREBRAL",
+      "definition": "ANGIOGRAM - CEREBRAL",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "03"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ANGIOGRAPHY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "modality-technique"
+        }
+      ]
+    },
+    {
+      "code": "477",
+      "display": "ANGIOGRAM - THORACIC",
+      "definition": "ANGIOGRAM - THORACIC",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "03"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ANGIOGRAPHY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "modality-technique"
+        }
+      ]
+    },
+    {
+      "code": "484",
+      "display": "VENOGRAPHY ABDOMINAL / PELVIS",
+      "definition": "VENOGRAPHY ABDOMINAL / PELVIS",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "03"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ANGIOGRAPHY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "modality-technique"
+        }
+      ]
+    },
+    {
+      "code": "492",
+      "display": "VENOGRAPHY EXTREMITIES",
+      "definition": "VENOGRAPHY EXTREMITIES",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "03"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ANGIOGRAPHY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "modality-technique"
+        }
+      ]
+    },
+    {
+      "code": "500",
+      "display": "VENOGRAPHY HEAD & NECK",
+      "definition": "VENOGRAPHY HEAD & NECK",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "03"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ANGIOGRAPHY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "modality-technique"
+        }
+      ]
+    },
+    {
+      "code": "504",
+      "display": "VENOGRAPHY THORACIC",
+      "definition": "VENOGRAPHY THORACIC",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "03"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "ANGIOGRAPHY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "modality-technique"
+        }
+      ]
+    },
+    {
+      "code": "507",
+      "display": "ANGIOPLASTY",
+      "definition": "ANGIOPLASTY",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "procedure"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID11031"
+        }
+      ]
+    },
+    {
+      "code": "530",
+      "display": "ATHERECTOMY",
+      "definition": "ATHERECTOMY",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "procedure"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID10401"
+        }
+      ]
+    },
+    {
+      "code": "535",
+      "display": "EMBOLISATION",
+      "definition": "EMBOLISATION",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "procedure"
+        }
+      ]
+    },
+    {
+      "code": "553",
+      "display": "ENDOVASCULAR BRACHYTHERAPY",
+      "definition": "ENDOVASCULAR BRACHYTHERAPY",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "procedure"
+        }
+      ]
+    },
+    {
+      "code": "556",
+      "display": "FIBRIN STRIPPING",
+      "definition": "FIBRIN STRIPPING",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "procedure"
+        }
+      ]
+    },
+    {
+      "code": "559",
+      "display": "FISTULOGRAM",
+      "definition": "FISTULOGRAM",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "modality-technique"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID45714"
+        }
+      ]
+    },
+    {
+      "code": "564",
+      "display": "FOREIGN BODY RETRIEVAL",
+      "definition": "FOREIGN BODY RETRIEVAL",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "procedure"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID49627"
+        }
+      ]
+    },
+    {
+      "code": "567",
+      "display": "PORT PLACEMENT",
+      "definition": "PORT PLACEMENT",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "procedure"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID49767"
+        }
+      ]
+    },
+    {
+      "code": "569",
+      "display": "STENTING",
+      "definition": "STENTING",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "procedure"
+        }
+      ]
+    },
+    {
+      "code": "591",
+      "display": "THROMBOLYSIS",
+      "definition": "THROMBOLYSIS",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "procedure"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID10403"
+        }
+      ]
+    },
+    {
+      "code": "607",
+      "display": "GASTROINTESTINAL SYSTEM",
+      "definition": "GASTROINTESTINAL SYSTEM",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID94"
+        }
+      ]
+    },
+    {
+      "code": "612",
+      "display": "HEPATOBILIARY SYSTEM & PANCREAS",
+      "definition": "HEPATOBILIARY SYSTEM & PANCREAS",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID28753"
+        }
+      ]
+    },
+    {
+      "code": "623",
+      "display": "RESPIRATORY SYSTEM",
+      "definition": "RESPIRATORY SYSTEM",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID39189"
+        }
+      ]
+    },
+    {
+      "code": "631",
+      "display": "URINARY SYSTEM",
+      "definition": "URINARY SYSTEM",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID39347"
+        }
+      ]
+    },
+    {
+      "code": "648",
+      "display": "VENOINTERVENTION AND ACCESS MANAGEMENT",
+      "definition": "VENOINTERVENTION AND ACCESS MANAGEMENT",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "procedure"
+        }
+      ]
+    },
+    {
+      "code": "655",
+      "display": "BREAST",
+      "definition": "BREAST",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID28749"
+        }
+      ]
+    },
+    {
+      "code": "662",
+      "display": "CT GUIDED PROCEDURES",
+      "definition": "CT GUIDED PROCEDURES",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "modality-technique"
+        }
+      ]
+    },
+    {
+      "code": "670",
+      "display": "MRI GUIDED PROCEDURES",
+      "definition": "MRI GUIDED PROCEDURES",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "modality-technique"
+        }
+      ]
+    },
+    {
+      "code": "672",
+      "display": "US GUIDED PROCEDURES",
+      "definition": "US GUIDED PROCEDURES",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "modality-technique"
+        }
+      ]
+    },
+    {
+      "code": "697",
+      "display": "US GUIDED PROCEDURES (MOBILE)",
+      "definition": "US GUIDED PROCEDURES (MOBILE)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "08"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTERVENTIONAL RADIOLOGY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "modality-technique"
+        }
+      ]
+    },
+    {
+      "code": "704",
+      "display": "BONE DENSITOMETRY (BMD)",
+      "definition": "BONE DENSITOMETRY (BMD)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "04"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "BMD"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "modality-technique"
+        }
+      ]
+    },
+    {
+      "code": "713",
+      "display": "URINARY SYSTEM (IVU)",
+      "definition": "URINARY SYSTEM (IVU)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "09"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "INTRAVENOUROGRAPHY (IVU)"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID39347"
+        }
+      ]
+    },
+    {
+      "code": "715",
+      "display": "CMR",
+      "definition": "CMR",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MOBILE C-ARM"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "modality-technique"
+        }
+      ]
+    },
+    {
+      "code": "720",
+      "display": "FIXATION",
+      "definition": "FIXATION",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MOBILE C-ARM"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "procedure"
+        }
+      ]
+    },
+    {
+      "code": "763",
+      "display": "OSTEOTOMY",
+      "definition": "OSTEOTOMY",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MOBILE C-ARM"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "procedure"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID1842"
+        }
+      ]
+    },
+    {
+      "code": "768",
+      "display": "FB LOCATION",
+      "definition": "FB LOCATION",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MOBILE C-ARM"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "procedure"
+        }
+      ]
+    },
+    {
+      "code": "773",
+      "display": "II PCNL",
+      "definition": "II PCNL",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MOBILE C-ARM"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "procedure"
+        }
+      ]
+    },
+    {
+      "code": "778",
+      "display": "RIRS",
+      "definition": "RIRS",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MOBILE C-ARM"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "procedure"
+        }
+      ]
+    },
+    {
+      "code": "785",
+      "display": "II STENTING",
+      "definition": "II STENTING",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MOBILE C-ARM"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "procedure"
+        }
+      ]
+    },
+    {
+      "code": "789",
+      "display": "II URS",
+      "definition": "II URS",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MOBILE C-ARM"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "procedure"
+        }
+      ]
+    },
+    {
+      "code": "793",
+      "display": "II OTHERS",
+      "definition": "II OTHERS",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "12"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "MOBILE C-ARM"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "administrative"
+        }
+      ]
+    },
+    {
+      "code": "800",
+      "display": "FILM (HARD COPY)",
+      "definition": "FILM (HARD COPY)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "15"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "HARD COPY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "administrative"
+        }
+      ]
+    },
+    {
+      "code": "806",
+      "display": "FILM (EXTERNAL)",
+      "definition": "FILM (EXTERNAL)",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "16"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "REPORTING (EXTERNAL)"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "administrative"
+        }
+      ]
+    },
+    {
+      "code": "814",
+      "display": "SKULL AND FACIAL BONES",
+      "definition": "SKULL AND FACIAL BONES",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "06"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "DENTAL"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID9196"
+        }
+      ]
+    },
+    {
+      "code": "818",
+      "display": "DIGESTIVE SYSTEM",
+      "definition": "DIGESTIVE SYSTEM",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "07"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "FLUOROSCOPY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID31010"
+        }
+      ]
+    },
+    {
+      "code": "837",
+      "display": "HEPATOBILIARY SYSTEM & PANCREAS",
+      "definition": "HEPATOBILIARY SYSTEM & PANCREAS",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "07"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "FLUOROSCOPY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID28753"
+        }
+      ]
+    },
+    {
+      "code": "842",
+      "display": "MUSCULOSKELETAL SYSTEM",
+      "definition": "MUSCULOSKELETAL SYSTEM",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "07"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "FLUOROSCOPY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID13209"
+        }
+      ]
+    },
+    {
+      "code": "847",
+      "display": "REPRODUCTIVE SYSTEM - FEMALE",
+      "definition": "REPRODUCTIVE SYSTEM - FEMALE",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "07"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "FLUOROSCOPY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID43244"
+        }
+      ]
+    },
+    {
+      "code": "849",
+      "display": "RESPIRATORY SYSTEM",
+      "definition": "RESPIRATORY SYSTEM",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "07"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "FLUOROSCOPY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID39189"
+        }
+      ]
+    },
+    {
+      "code": "851",
+      "display": "URINARY SYSTEM",
+      "definition": "URINARY SYSTEM",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "07"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "FLUOROSCOPY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "region"
+        },
+        {
+          "code": "radlex",
+          "valueCode": "RID39347"
+        }
+      ]
+    },
+    {
+      "code": "855",
+      "display": "OTHERS",
+      "definition": "OTHERS",
+      "property": [
+        {
+          "code": "modalityCode",
+          "valueCode": "07"
+        },
+        {
+          "code": "modalityDisplay",
+          "valueString": "FLUOROSCOPY"
+        },
+        {
+          "code": "conceptClass",
+          "valueCode": "administrative"
+        }
+      ]
+    }
+  ],
+  "version": "2.1.0",
+  "experimental": false,
+  "caseSensitive": true
+}
