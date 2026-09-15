@@ -62,19 +62,19 @@ Description: "A discharge summary with the PERDS2015 sections, all coded with LO
 * title = "Discharge Summary"
 * custodian = Reference(ExampleHospital)
 * section[0].title = "Admission diagnosis"
-* section[0].code = http://loinc.org#46241-6 "Hospital admission diagnosis"
+* section[0].code = http://loinc.org#46241-6 "Hospital admission diagnosis Narrative - Reported"
 * section[0].text.status = #generated
 * section[0].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Community-acquired pneumonia.</p></div>"
 * section[1].title = "Hospital course"
-* section[1].code = http://loinc.org#8648-8 "Hospital course"
+* section[1].code = http://loinc.org#8648-8 "Hospital course note"
 * section[1].text.status = #generated
 * section[1].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Treated with intravenous antibiotics. Afebrile from day three. Oxygen saturation maintained on room air from day four.</p></div>"
 * section[2].title = "Discharge diagnosis"
-* section[2].code = http://loinc.org#11535-2 "Hospital discharge Dx"
+* section[2].code = http://loinc.org#11535-2 "Hospital discharge diagnosis note"
 * section[2].text.status = #generated
 * section[2].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Community-acquired pneumonia, resolved.</p></div>"
 * section[3].title = "Discharge medications"
-* section[3].code = http://loinc.org#10160-0 "History of Medication use"
+* section[3].code = http://loinc.org#10160-0 "History of Medication use Narrative"
 * section[3].text.status = #generated
 * section[3].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Amoxicillin 500 mg three times daily for five days.</p></div>"
 

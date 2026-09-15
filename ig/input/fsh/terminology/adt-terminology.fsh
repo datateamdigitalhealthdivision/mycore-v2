@@ -18,18 +18,18 @@ selection."
 * ^experimental = false
 
 // Admission information
-* $LOINC#46241-6 "Hospital admission diagnosis"
+* $LOINC#46241-6 "Hospital admission diagnosis Narrative - Reported"
 * $LOINC#11348-0 "History of past illness"
 * $LOINC#47519-4 "History of procedures"
 * $LOINC#48765-2 "Allergies and adverse reactions"
 * $LOINC#11450-4 "Problem list"
 // Hospital course
-* $LOINC#8648-8  "Hospital course"
+* $LOINC#8648-8  "Hospital course note"
 * $LOINC#30954-2 "Relevant diagnostic tests and/or laboratory data"
 * $LOINC#11493-4 "Hospital discharge studies summary"
 // Discharge information
-* $LOINC#11535-2 "Hospital discharge diagnosis"
-* $LOINC#10160-0 "History of medication use"
+* $LOINC#11535-2 "Hospital discharge diagnosis note"
+* $LOINC#10160-0 "History of Medication use Narrative"
 * $LOINC#18776-5 "Plan of care note"
 
 

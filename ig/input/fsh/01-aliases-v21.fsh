@@ -22,6 +22,10 @@ Alias: $ADMIT-SOURCE = http://terminology.hl7.org/CodeSystem/admit-source
 Alias: $DISCHARGE-D  = http://terminology.hl7.org/CodeSystem/discharge-disposition
 Alias: $DIAG-ROLE    = http://terminology.hl7.org/CodeSystem/diagnosis-role
 
+// Encounter admit source. The R4 base binding uses the hl7.org ValueSet canonical;
+// http://terminology.hl7.org/ValueSet/admit-source does not exist and resolves to nothing.
+Alias: $VS-ADMIT-SOURCE = http://hl7.org/fhir/ValueSet/encounter-admit-source
+
 // THO / FHIR value sets used by binding
 Alias: $VS-ENCOUNTER-CLASS = http://terminology.hl7.org/ValueSet/v3-ActEncounterCode
 Alias: $VS-OBS-INTERP      = http://hl7.org/fhir/ValueSet/observation-interpretation
