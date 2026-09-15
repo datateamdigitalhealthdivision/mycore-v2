@@ -1,0 +1,121 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "discharge-disposition-my-core-to-tho",
+  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ConceptMap/discharge-disposition-my-core-to-tho",
+  "version": "2.1.0",
+  "name": "MyCoreDischargeDispositionToTho",
+  "title": "MY Core Discharge Disposition to HL7 Terminology",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
+  "description": "Maps the v2.0 national discharge disposition list to the v2.1 binding target (HL7 Terminology discharge-disposition plus the MY Core national supplement), for translating legacy extracts. v2.1 binds the element to that combined list, so discharge-disposition-my-core is no longer a binding target. Four concepts map to HL7 Terminology; two map to national supplement codes that HL7 has no equivalent for; two are not discharge dispositions at all and are unmapped.",
+  "sourceCanonical": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/discharge-disposition-my-core",
+  "targetCanonical": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/discharge-disposition-v21-my-core",
+  "group": [
+    {
+      "source": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/discharge-disposition-my-core",
+      "target": "http://terminology.hl7.org/CodeSystem/discharge-disposition",
+      "element": [
+        {
+          "code": "01",
+          "display": "Home",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "home",
+              "display": "Home"
+            }
+          ]
+        },
+        {
+          "code": "02",
+          "display": "Left Against Advice / At Own Risk (AOR)",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "aadvice",
+              "display": "Left against advice"
+            }
+          ]
+        },
+        {
+          "code": "04",
+          "display": "Transfer To Another Facility",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "other-hcf",
+              "display": "Other healthcare facility"
+            }
+          ]
+        },
+        {
+          "code": "05",
+          "display": "Deceased",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "exp",
+              "display": "Expired"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/discharge-disposition-my-core",
+      "target": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/discharge-disposition-ext-my-core",
+      "element": [
+        {
+          "code": "03",
+          "display": "Absconded",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "comment": "No HL7 equivalent. Carried as the national supplement code absconded in discharge-disposition-ext-my-core. Distinct from aadvice: the patient left without informing staff. Submitted to HL7 as a PROMOTE candidate.",
+              "code": "absconded",
+              "display": "Absconded"
+            }
+          ]
+        },
+        {
+          "code": "06",
+          "display": "Admitted",
+          "target": [
+            {
+              "equivalence": "equivalent",
+              "code": "admitted",
+              "display": "Admitted to an inpatient bed in this facility",
+              "comment": "No HL7 equivalent. Carried as the national supplement code admitted in discharge-disposition-ext-my-core. The HL7 list assumes the encounter being closed is the inpatient stay, so it has no code for an outpatient or emergency encounter that ends in admission to this facility. Submitted to HL7 as a PROMOTE candidate."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/discharge-disposition-my-core",
+      "element": [
+        {
+          "code": "07",
+          "display": "Allowed Leave Of Absence (LOA)",
+          "target": [
+            {
+              "equivalence": "unmatched",
+              "comment": "RETIRED. Not a discharge. Use Encounter.status = onleave, which keeps the encounter open."
+            }
+          ]
+        },
+        {
+          "code": "00",
+          "display": "No Information",
+          "target": [
+            {
+              "equivalence": "unmatched",
+              "comment": "Not a disposition. Use the FHIR dataAbsentReason pattern, or omit the element."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

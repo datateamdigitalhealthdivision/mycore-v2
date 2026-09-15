@@ -2,10 +2,10 @@
   "resourceType": "CodeSystem",
   "id": "pathology-local-code-my-core",
   "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-local-code-my-core",
-  "version": "1.0.0",
+  "version": "2.1.0",
   "name": "PathologyLocalCodeMyCore",
   "title": "Malaysian Pathology Catalogue - Interim Codes",
-  "status": "draft",
+  "status": "active",
   "experimental": false,
   "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
   "description": "Malaysian interim pathology codes, pending assignment of permanent LOINC codes by Regenstrief. THESE ARE NOT LOINC CODES. They are Malaysian national content published under a Malaysian canonical, modelled on the LOINC six-axis pattern so that each concept can be retired cleanly once a permanent LOINC code is assigned.",
@@ -41301,5 +41301,6 @@
         }
       ]
     }
-  ]
+  ],
+  "count": 1398
 }

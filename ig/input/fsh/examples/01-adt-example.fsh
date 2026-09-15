@@ -15,8 +15,25 @@ Description: "A four-day medical admission ending in discharge home."
 * period.start = "2026-08-24T09:15:00+08:00"
 * period.end = "2026-08-28T11:00:00+08:00"
 * serviceProvider = Reference(ExampleHospital)
-* hospitalization.dischargeDisposition = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/discharge-disposition-my-core#01 "Home"
-* location.location = Reference(ExampleWard)
+* hospitalization.dischargeDisposition = http://terminology.hl7.org/CodeSystem/discharge-disposition#home "Home"
+* location[0].location = Reference(ExampleAdmissionWard)
+* location[0].status = #completed
+* location[0].period.start = "2026-08-24T14:10:00+08:00"
+* location[0].period.end = "2026-08-26T09:30:00+08:00"
+* location[1].location = Reference(ExampleWard)
+* location[1].status = #active
+* location[1].period.start = "2026-08-26T09:30:00+08:00"
+
+Instance: ExampleAdmissionWard
+InstanceOf: MyCoreLocation
+Usage: #example
+Title: "Example - Acute Medical Unit"
+Description: "The ward the patient occupied on admission, before transfer to Medical Ward 3B. Present so the worked example demonstrates a transfer: the prior entry keeps its own period and is closed with status = completed rather than being overwritten."
+* name = "Acute Medical Unit"
+* status = #active
+* mode = #instance
+* type = http://terminology.hl7.org/CodeSystem/v3-RoleCode#HU "hospital unit"
+* managingOrganization = Reference(ExampleHospital)
 
 Instance: ExampleWard
 InstanceOf: MyCoreLocation

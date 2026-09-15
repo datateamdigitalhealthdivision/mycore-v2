@@ -56,6 +56,17 @@ Alias: $CS-V3-RELIGION = http://terminology.hl7.org/CodeSystem/v3-ReligiousAffil
 Alias: $VS-ISO3166-A2  = http://hl7.org/fhir/ValueSet/iso3166-1-2
 Alias: $CS-RELIGION-MY = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/religion-my-core
 
+// ADT — HL7 Terminology targets (steps 3 and 4 of the ADT change order)
+Alias: $VS-ACT-PRIORITY   = http://terminology.hl7.org/ValueSet/v3-ActPriority
+Alias: $CS-DISCHARGE-THO  = http://terminology.hl7.org/CodeSystem/discharge-disposition
+Alias: $VS-LOC-PHYSICAL   = http://hl7.org/fhir/ValueSet/location-physical-type
+Alias: $CS-DISCHARGE-EXT  = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/discharge-disposition-ext-my-core
+Alias: $VS-DISCHARGE-MY21 = https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/discharge-disposition-v21-my-core
+Alias: $VS-ADT-SECTION    = https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/adt-section-code-my-core
+Alias: $VS-WARD-CATEGORY  = https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/ward-category-my-core
+Alias: $EXT-WARD-CLASS    = https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/ward-class-my-core
+Alias: $EXT-WARD-CATEGORY = https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/ward-category-my-core
+
 // Facility register (resources-managed, built from MOH_Facility_Code_Terminology_v5)
 Alias: $VS-FACILITY       = https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/facility-my-core-vs
 Alias: $VS-FACILITY-TYPE  = https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/facility-type-my-core-vs
