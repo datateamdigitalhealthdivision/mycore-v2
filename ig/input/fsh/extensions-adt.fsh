@@ -1,5 +1,5 @@
 // =============================================================================
-// ADT extensions — CHG-08
+// ADT extensions — the v2.1 scope review
 // Ward class and ward category are genuinely Malaysian: no international code
 // system covers paying-class wards or the MOH ward categorisation. Both were
 // referenced by the v2.0 Location profile but never defined, so the reference

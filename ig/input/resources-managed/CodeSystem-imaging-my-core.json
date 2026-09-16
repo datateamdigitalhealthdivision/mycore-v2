@@ -11,7 +11,7 @@
   "status": "active",
   "date": "2023-08-29T02:22:21.2455071+00:00",
   "publisher": "Malaysia MOH - HIE Steering Committee",
-  "description": "LEGACY. The 762-concept national imaging procedure list exported from the national RIS. RETIRED as a binding target in 2.1.0: radiology procedures now bind to the LOINC/RSNA Radiology Playbook (radiology-procedure-my-core, 5,954 codes). This list is retained so that existing RIS extracts can be read, and so that a mapping to LOINC can be built. Displays were repaired in 2.1.0 — see the change log. No new code will be added to it.",
+  "description": "The national imaging procedure list, 762 concepts, carried forward from the national RIS. Superseded for new implementations by the LOINC/RSNA Radiology Playbook (radiology-procedure-my-core), which is the procedure vocabulary MY Core binds to. This list remains published so that systems holding these codes can continue to read and translate them.",
   "compositional": false,
   "content": "complete",
   "count": 762,

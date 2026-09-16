@@ -38,9 +38,9 @@ Description: "The radiologist's report. Narrative plus a rendered form is suffic
 * code.coding ^slicing.rules = #open
 * code.coding contains loinc 1..1 MS and national 0..1
 * code.coding[loinc].system = "http://loinc.org" (exactly)
-* code.coding[loinc] ^short = "LOINC/RSNA Radiology Playbook. Same vocabulary as the Imaging Order, so an order and its report carry the same code. Resolves DR-06."
+* code.coding[loinc] ^short = "LOINC/RSNA Radiology Playbook. Same vocabulary as the Imaging Order, so an order and its report carry the same code."
 * code.coding[national].system = "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/imaging-my-core" (exactly)
-* code.coding[national] ^short = "LEGACY. Retired as a binding target in v2.1."
+* code.coding[national] ^short = "Optional national imaging code, for systems that still hold one."
 * subject 1..1 MS
 * encounter MS
 * effective[x] MS

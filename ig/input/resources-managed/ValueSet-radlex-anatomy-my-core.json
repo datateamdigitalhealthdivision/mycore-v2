@@ -8,7 +8,7 @@
   "status": "active",
   "experimental": false,
   "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
-  "description": "NATIONAL SELECTION. Every anatomical concept in RadLex — the whole subtree below RadLex anatomical entity (RID3), 38178 concepts. This is the body site vocabulary for radiology in MY Core. It replaces imaging-region-my-core, the 110-concept national list exported from the RIS menu tree, which mixed body regions with procedures, modalities and administrative categories and is retired as a binding target in v2.1. Non-anatomical RadLex concepts — findings, devices, imaging observations — are deliberately excluded, so a body site cannot be given as a finding. Concepts are enumerated rather than defined by filter so that the value set expands and validates without a RadLex-aware terminology server.",
+  "description": "NATIONAL SELECTION. The anatomy of RadLex — the whole subtree below RadLex anatomical entity (RID3), 38,178 concepts. This is the body site vocabulary for radiology in MY Core, at any level of granularity from abdomen to a named muscle. Non-anatomical RadLex concepts such as findings, devices and imaging observations are out of scope, so a body site is always a body site. Concepts are enumerated rather than defined by filter, so the value set expands and validates without a RadLex-aware terminology server.",
   "copyright": "RadLex is copyright the Radiological Society of North America and is used with attribution under the RadLex licence.",
   "compose": {
     "include": [

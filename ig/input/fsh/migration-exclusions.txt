@@ -28,7 +28,7 @@ StructureDefinition/ethnic-my-core
 StructureDefinition/religion-my-core
 StructureDefinition/address-district-my-core
 
-# Promoted to resources-managed for the ADT change order (CHG-44): code 07
+# Promoted to resources-managed for the v2.1 scope review: code 07
 # Leave of Absence retired. Must not be regenerated from v2.0 source.
 CodeSystem/discharge-disposition-my-core
 ValueSet/discharge-disposition-my-core

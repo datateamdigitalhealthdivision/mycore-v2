@@ -200,6 +200,6 @@ National terminology published by this guide is released under the guide's licen
 
 International standards carry their owners' terms — see Part 1. Nothing on this page grants rights to SNOMED CT, LOINC, ICD-11 or any other third-party terminology.
 
-## Reporting a problem
+## Feedback
 
-Terminology corrections, duplicate codes, missing concepts and mapping errors go to the Data Team, Digital Health Division. Please quote the artefact id and the code.
+Terminology proposals, additional concepts and mapping submissions go to the Data Team, Digital Health Division. Please quote the artefact id and the code.

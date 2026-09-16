@@ -4,7 +4,7 @@
 
 MY Core is the Malaysian national FHIR R4 baseline. Version 2.1 exists to make that baseline **implementable**.
 
-Version 2.0 published 64 profiles and 121 code systems spanning the whole of Malaysian healthcare. It was a comprehensive catalogue, but most of it could not be reached by anything a vendor was actually being asked to build, and a vendor opening the guide could not tell where to start. Version 2.1 narrows the guide to three named use cases, publishes the terminology those use cases bind to, and states what it leaves out.
+Version 2.0 published 64 profiles and 121 code systems spanning the whole of Malaysian healthcare. It was a comprehensive catalogue of the national landscape. Version 2.1 focuses that baseline on three named use cases, publishes the terminology those use cases bind to, and states what it leaves out, so that a vendor opening the guide knows exactly where to start.
 
 ## What version 2.1 covers
 
@@ -50,7 +50,7 @@ Local code systems are retained only where the code is a **persistent operationa
 
 - FHIR R4 (`4.0.1`) is the normative computable base
 - profiles, value sets and ConceptMaps in this guide are normative; narrative chapters and worked examples are explanatory
-- items that remain unsettled are marked `PROVISIONAL` and recorded in `mappings/v2.1-decision-register.csv` rather than left as silent assumptions
+- items set by national policy are marked `PROVISIONAL` where they appear and should be held in configuration rather than hard-coded
 
 ## Where to start
 

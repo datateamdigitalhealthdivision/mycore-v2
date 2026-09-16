@@ -12,7 +12,7 @@ Every profile states its constraints as a differential against its parent. Three
 - **Must Support** — what a receiver may rely on being there when the sender holds it (see the [Conformance Model](conformance-model.html) for the precise obligation)
 - **bindings** — which value set the code comes from, and how strictly
 
-Where a binding is `extensible` rather than `required`, that is usually because the national mapping is still being completed. The [Conformance Model](conformance-model.html) explains why v2.1 errs that way, and the decision register in `mappings/v2.1-decision-register.csv` records the reasoning case by case.
+Where a binding is `extensible` rather than `required`, a system may send a concept the value set does not yet carry. The [Conformance Model](conformance-model.html) sets out what each binding strength obliges.
 
 ## Shared spine — 12 profiles
 
@@ -76,7 +76,7 @@ Order to study to report, plus the DICOMweb endpoint that makes the images retri
 | MY Core MHD SubmissionSet | `List` | **Annex.** IHE Mobile access to Health Documents, for document-sharing deployments |
 | MY Core AuditEvent | `AuditEvent` | **Annex.** IHE Basic Audit Log Patterns |
 
-The accession number is the join between the EMR, the RIS and the PACS. Who mints it is a national policy decision that is recorded rather than assumed — see the radiology annex, and decision D-025 in the register.
+The accession number is the join between the EMR, the RIS and the PACS. Its minting authority and format are set by national policy, so the profile publishes the identifier slice and leaves the format to configuration.
 
 ## Actors
 

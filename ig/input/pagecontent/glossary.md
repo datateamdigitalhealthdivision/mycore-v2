@@ -8,4 +8,4 @@
 - `MyEHR publication model`: The current national publication identity model under `myehr.kkmhub.moh.gov.my`.
 - `Operational endpoint`: A runtime service endpoint used for actual API, terminology, identity, or audit operations.
 - `Programme content`: Questionnaires and related artefacts serving programme-specific operational needs.
-- `Provisional`: A published placeholder or draft assumption that should not yet be treated as final production policy.
+- `Provisional`: An item set by national policy, published with its current value and held in configuration by implementers until that policy is issued.

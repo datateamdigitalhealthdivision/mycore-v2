@@ -20,7 +20,7 @@
       ]
     }
   ],
-  "description": "LEGACY. The 110-concept national imaging region list exported from the RIS menu tree. RETIRED as a binding target in 2.1.0: body site now binds to RadLex anatomy (radlex-anatomy-my-core, 38,178 concepts). Analysis for v2.1 found that only 63 of the 110 concepts were body regions at all; the rest were procedures, modalities or administrative categories. Every concept is tagged with a conceptClass property, and the body regions carry a RadLex mapping, so legacy extracts can be translated through ConceptMap/imaging-region-my-core-to-radlex.",
+  "description": "The national imaging region list, 110 concepts, carried forward from the national RIS. Superseded for new implementations by RadLex anatomy (radlex-anatomy-my-core), which is the body site vocabulary MY Core binds to. Every concept carries a conceptClass property identifying it as a body region, procedure, modality or administrative category, and the body regions carry a RadLex mapping, so systems holding these codes can translate them through ConceptMap/imaging-region-my-core-to-radlex.",
   "compositional": false,
   "content": "complete",
   "count": 110,

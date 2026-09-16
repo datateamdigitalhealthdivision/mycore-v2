@@ -26,4 +26,4 @@ The repository test pack is designed as a starting point for partner self-testin
 
 ## Clarification path
 
-Where requirements remain ambiguous or provisional, partners should raise the issue against the repository and refer to the specific chapter, artefact, or mapping entry involved.
+Partners should raise any question about a requirement as an issue against the repository, referring to the specific chapter, artefact or mapping entry involved.

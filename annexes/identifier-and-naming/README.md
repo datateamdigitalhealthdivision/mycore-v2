@@ -17,4 +17,4 @@ This annex records the current identifier and naming posture for MY Core v2.0.
 
 ## Naming system publication note
 
-Where naming systems are published in the computable IG, they should capture namespace ownership and purpose without overclaiming a fully approved operational format when that policy is not yet fixed.
+Naming systems published in the computable IG capture namespace ownership and purpose. Where the operational format is set by national issuance policy, the `NamingSystem` records the namespace and leaves the format to that policy.

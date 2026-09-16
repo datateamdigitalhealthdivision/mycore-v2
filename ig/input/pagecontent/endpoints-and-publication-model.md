@@ -23,9 +23,9 @@ The current draft distinguishes the following runtime endpoints:
 - identifier namespace root: `https://id.kkmhub.moh.gov.my`
 - audit repository root: `https://audit.myehr.kkmhub.moh.gov.my/fhir/r4`
 
-## What remains provisional
+## Configuration points
 
-Production endpoints, final operational scopes, some namespace allocation details, and some terminology hosting decisions remain `PROVISIONAL` or `TO BE CONFIRMED`. Vendors should isolate these details in configuration.
+Production endpoints, operational scopes, namespace allocation and terminology hosting are assigned at onboarding and are marked `PROVISIONAL` here. Vendors should isolate these details in configuration.
 
 ## Implementation rule
 

@@ -1,10 +1,10 @@
 // =============================================================================
-// ADT terminology — steps 3 and 4 of the ADT change order
+// ADT terminology — steps 3 and 4 of the v2.1 scope review
 // =============================================================================
 
-// --- CHG-07: pin the discharge summary section codes -------------------------
+// --- pin the discharge summary section codes -------------------------
 // v2.1 already bound section.code to the FHIR document-section list, loosely.
-// This tightens it to the exact LOINC set in section J of the change order —
+// This tightens it to the exact LOINC set in section J of the v2.1 scope review —
 // the same codes the 2016 MyHIX CDA profile used.
 ValueSet: MyCoreAdtSectionCodeVS
 Id:       adt-section-code-my-core
@@ -33,7 +33,7 @@ selection."
 * $LOINC#18776-5 "Plan of care note"
 
 
-// --- CHG-17: discharge disposition -------------------------------------------
+// --- discharge disposition -------------------------------------------
 // THO carries every Malaysian concept except one. Rather than keep a parallel
 // national list, bind to THO and supplement the single missing concept.
 CodeSystem: MyCoreDischargeDispositionExt
@@ -64,7 +64,7 @@ binding target; that list is retained as a ConceptMap source for legacy extracts
 * include codes from system $CS-DISCHARGE-EXT
 
 
-// --- CHG-08: ward category needs a bindable value set ------------------------
+// --- ward category needs a bindable value set ------------------------
 // ward-class already has one; ward-category has a CodeSystem but never had a
 // ValueSet, so the extension had nothing to bind to.
 ValueSet: MyCoreWardCategoryVS
