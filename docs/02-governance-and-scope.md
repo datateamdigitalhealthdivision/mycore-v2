@@ -52,6 +52,6 @@ Where a downstream guide tightens a MY Core rule, it should document that delta 
 
 Relevant IHE profiles — document sharing, audit, workflow — are carried as **annexes**. They are informative context for deployments that need them, and are not part of the v2.1 conformance requirement. The MHD SubmissionSet and AuditEvent profiles are published on that basis.
 
-## Provisional content
+## Configuration points
 
-Where national policy is not yet settled, the guide marks the item `PROVISIONAL` and states the operational implication. This is preferable to leaving the ambiguity hidden inside the computable artefacts, and it tells implementers exactly which assumptions to keep configurable.
+Items set by national policy — endpoint assignments, identifier namespace hosts and similar — are marked `PROVISIONAL` at the point they appear, together with the operational implication. Implementers should hold these in configuration rather than hard-coding them.

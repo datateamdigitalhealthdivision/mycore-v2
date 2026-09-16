@@ -39,25 +39,25 @@ Must Support in v2.1 is applied where the MySejahtera API Gateway specification 
 ## Binding strength
 
 - `required` — the code SHALL come from the nominated value set. Validation fails otherwise.
-- `extensible` — the code SHOULD come from the nominated value set. Where the set genuinely does not contain a suitable concept, another code may be sent, and the gap should be reported so the value set can be extended.
+- `extensible` — the code SHOULD come from the nominated value set. Where the set does not contain a suitable concept, another code may be sent, and the concept may be proposed for inclusion.
 - `preferred` — the nominated value set expresses the intended direction; other codes are acceptable.
 - `example` — illustrative only, with no conformance weight.
 
-**Most v2.1 bindings are `extensible`, and that is a deliberate, temporary position.** Where a national mapping is still incomplete — the LOINC coverage of the pathology catalogue, the LOINC/RSNA mapping of the national imaging list — a `required` binding would fail conformant Malaysian data that this guide has no basis to reject. Tightening a binding in a later release is safe. Relaxing one after vendors have built against it is not. The direction of travel is toward `required` as the mappings complete.
+**Most v2.1 bindings are `extensible`.** This is deliberate: an extensible binding states the intended vocabulary while allowing a system to send a concept the value set does not yet carry. Bindings tighten toward `required` as national vocabularies settle, and the guide will not relax a binding once vendors have built against it.
 
 ## Local codes and international codes together
 
 Several elements are sliced so that a national code and an international code travel side by side: laboratory test codes, imaging procedure codes, condition codes, procedure codes.
 
-The national code is the **persistent operational key** — the value Malaysian systems already store and can be held to. The international code is sent **alongside** it where a published ConceptMap provides a mapping. Vendors are not expected to store LOINC or SNOMED CT natively, and **a missing international mapping is not a conformance failure** where the guide states the mapping is incomplete.
+The national code is the **persistent operational key** — the value Malaysian systems store and can be held to. The international code is sent **alongside** it where a published ConceptMap provides a mapping. Vendors are not expected to store LOINC or SNOMED CT natively, and **sending the national code alone is conformant** where no mapping is published.
 
 ## Declaring support
 
 Vendors exposing MY Core endpoints SHALL make their supported interactions, profiles and actors discoverable through a `CapabilityStatement`. Where support is partial, the limitation SHALL be explicit rather than inferred from failure.
 
-## Provisional content
+## Configuration points
 
-Some items — endpoint assignments, identifier namespace hosts, the accession-number minting authority — remain marked `PROVISIONAL`. Implementers SHALL isolate these behind configuration rather than hard-coding them, and SHALL NOT treat a placeholder as settled national policy. Every such item is recorded in the decision register at `mappings/v2.1-decision-register.csv` with its basis and a confidence marker.
+Some items — endpoint assignments, identifier namespace hosts, the accession-number format — are set by national policy and are marked `PROVISIONAL`. Implementers SHALL isolate these behind configuration rather than hard-coding them.
 
 ## Examples and tests
 

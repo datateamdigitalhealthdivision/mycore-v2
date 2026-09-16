@@ -14,5 +14,5 @@ Description: "A discrete imaging finding. Published in v2.1 as scaffolding only 
 * value[x] MS
 * bodySite MS
 * bodySite from $VS-BODYSITE (extensible)
-* bodySite ^short = "RadLex anatomy, the same vocabulary as the Imaging Order and the study series. Resolves OB-02: this element previously fell through to the base SNOMED CT body structures value set, giving one use case two body-site vocabularies."
+* bodySite ^short = "RadLex anatomy — the same body site vocabulary as the Imaging Order and the study series."
 * derivedFrom MS

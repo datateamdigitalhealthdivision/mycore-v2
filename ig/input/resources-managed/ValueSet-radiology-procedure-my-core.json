@@ -8,7 +8,7 @@
   "status": "active",
   "experimental": false,
   "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
-  "description": "NATIONAL SELECTION. The LOINC/RSNA Radiology Playbook, adopted in full as Malaysia's radiology procedure vocabulary. 5954 LOINC codes. Replaces imaging-my-core, the 762-concept national list exported from the RIS, which is retired as a binding target in v2.1 and retained only for translating legacy extracts. Where a global standard exists, MY Core uses it.",
+  "description": "NATIONAL SELECTION. The LOINC/RSNA Radiology Playbook, adopted in full as Malaysia's radiology procedure vocabulary — 5,954 codes across every modality. Modality-scoped subsets are published alongside it as pick lists. RSNA Playbook RPID identifiers translate to these codes through ConceptMap/rpid-to-loinc-my-core.",
   "copyright": "This value set enumerates LOINC codes. LOINC is copyright Regenstrief Institute, Inc. and the LOINC Committee, and is available at no cost under the LOINC licence. RPID identifiers are from the RSNA Radiology Playbook.",
   "compose": {
     "include": [

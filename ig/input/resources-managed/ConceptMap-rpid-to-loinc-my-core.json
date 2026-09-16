@@ -8,7 +8,7 @@
   "status": "active",
   "experimental": false,
   "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
-  "description": "Translates RSNA Radiology Playbook RPID identifiers to their LOINC equivalents. MY Core binds radiology procedures to LOINC, which covers all 5954 procedures; RPIDs exist for 1005 of them and are carried here so that systems holding legacy Playbook identifiers can translate.",
+  "description": "Translates RSNA Radiology Playbook RPID identifiers to their LOINC equivalents, so that systems holding Playbook identifiers can reach the LOINC codes MY Core binds to. 1,012 RPIDs are covered; LOINC is the complete key and carries all 5,954 procedures.",
   "targetCanonical": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/radiology-procedure-my-core",
   "group": [
     {

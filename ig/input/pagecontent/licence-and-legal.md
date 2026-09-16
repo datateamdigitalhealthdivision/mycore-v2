@@ -36,11 +36,11 @@ FHIR® and HL7® are registered trademarks of Health Level Seven International. 
 
 The canonical root for MY Core is `https://myehr.kkmhub.moh.gov.my/fhir/my-core`. Canonical URLs are identity, not download addresses. They do not change if the guide moves hosting, and they are what belongs in a `system` or `valueSet` element in production data.
 
-During the current GitHub Pages phase the rendered site is a draft publication route. It does not replace the canonical URLs embedded in the artefacts.
+The rendered site on GitHub Pages is a publication route for the guide. It does not replace the canonical URLs embedded in the artefacts.
 
 ## Status of this release
 
-Version 2.1 is a **draft for review**. It has not been balloted and is not yet a mandated national standard. Some endpoint assignments, namespace details and terminology governance decisions remain provisional and are marked as such where they appear.
+Version 2.1 is **published for review** ahead of national adoption. Items subject to national policy are marked `PROVISIONAL` where they appear.
 
 ## Patient data
 
@@ -48,4 +48,4 @@ No example in this guide contains real patient data. Every identifier, name and 
 
 ## Contact
 
-Corrections, terminology faults and conformance questions go to the Data Team, Digital Health Division, Ministry of Health Malaysia, via the [repository](https://github.com/datateamdigitalhealthdivision/mycore-v2).
+Feedback, terminology proposals and conformance questions go to the Data Team, Digital Health Division, Ministry of Health Malaysia, via the [repository](https://github.com/datateamdigitalhealthdivision/mycore-v2).

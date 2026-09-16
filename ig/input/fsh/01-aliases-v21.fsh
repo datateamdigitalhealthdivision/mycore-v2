@@ -37,7 +37,7 @@ Alias: $VS-SPECIMEN-TYPE   = http://terminology.hl7.org/ValueSet/v2-0487
 // not in HL7 Terminology. The real DICOM CID 29 value set is identified by
 // http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_29.html
 // which is already the base R4 binding on ImagingStudy.modality and series.modality,
-// so MY Core declares no binding of its own. See IS-01.
+// so MY Core declares no binding of its own.
 // Alias: $VS-MODALITY = (removed in 2.1.0)
 Alias: $VS-DIAG-SERVICE    = http://hl7.org/fhir/ValueSet/diagnostic-service-sections
 Alias: $VS-DAR             = http://hl7.org/fhir/ValueSet/data-absent-reason
@@ -68,7 +68,7 @@ Alias: $CS-V3-RELIGION = http://terminology.hl7.org/CodeSystem/v3-ReligiousAffil
 Alias: $VS-ISO3166-A2  = http://hl7.org/fhir/ValueSet/iso3166-1-2
 Alias: $CS-RELIGION-MY = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/religion-my-core
 
-// ADT — HL7 Terminology targets (steps 3 and 4 of the ADT change order)
+// ADT — HL7 Terminology targets (steps 3 and 4 of the v2.1 scope review)
 Alias: $VS-ACT-PRIORITY   = http://terminology.hl7.org/ValueSet/v3-ActPriority
 Alias: $CS-DISCHARGE-THO  = http://terminology.hl7.org/CodeSystem/discharge-disposition
 Alias: $VS-LOC-PHYSICAL   = http://hl7.org/fhir/ValueSet/location-physical-type

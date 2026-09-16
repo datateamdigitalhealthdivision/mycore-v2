@@ -1,14 +1,14 @@
 # Reviewer Guide
 
-This page is for reviewers reading MY Core v2.1 ahead of the governance workshop. It tells you what to read, in what order, and — more usefully — the eleven decisions where a considered second opinion actually changes the outcome.
+This page is for reviewers reading MY Core v2.1 ahead of the governance workshop. It tells you what to read, in what order, and where a considered second opinion is most useful.
 
 **Please do not try to read the whole guide.** It is a specification, not a document, and reading it front to back is a poor use of your time. Ninety minutes spent on the path below will produce better review comments than a day spent in the artefact index.
 
 ## What you are reviewing
 
-Version 2.0 published 64 profiles and 121 code systems across the whole of Malaysian healthcare. Most of it could not be reached by anything a vendor was being asked to build. Version 2.1 narrows the guide to three use cases — **ADT notes, laboratory reports, radiology reports** — and to the terminology those use cases actually bind to. Thirty profiles; roughly 440 local concepts against 24,428 in v2.0.
+Version 2.0 published 64 profiles and 121 code systems spanning the whole of Malaysian healthcare. Version 2.1 focuses the guide on three use cases — **ADT notes, laboratory reports, radiology reports** — and on the terminology those use cases bind to. Thirty profiles; roughly 440 local concepts against 24,428 in v2.0.
 
-The question in front of you is not "is this complete". It is deliberately not complete. The question is **whether what is here is right, and whether what is left out was left out for a good reason.**
+The question in front of you is whether what is here is right for Malaysian practice, and whether what is left out was left out for a good reason.
 
 ## Read in this order
 
@@ -25,7 +25,7 @@ Then follow whichever track fits you. If you are not sure which you are, the gov
 4. **[Governance And Scope](governance-and-scope.html)** — particularly the "what the guide does not cover" list. Each exclusion is meant to read as a decision. Tell us where it reads as an oversight instead.
 5. **The ADT worked example**: [`Bundle-ExampleAdtDocument`](Bundle-ExampleAdtDocument.html). This is a complete synthetic discharge summary as it would travel on the wire. It is the most direct way to judge whether the model matches Malaysian clinical practice. Does the section structure match what a discharge summary actually contains? Is anything clinically necessary missing?
 6. **[Profile Families](profile-families.html)** — skim the four tables. You are checking coverage and naming, not cardinality.
-7. The **decision agenda** below.
+7. **Where comments are most useful**, below.
 
 ### Technical and vendor track — about 60 minutes
 
@@ -34,40 +34,29 @@ Then follow whichever track fits you. If you are not sure which you are, the gov
    - [`Bundle-ExampleAdtDocument`](Bundle-ExampleAdtDocument.html) — discharge summary as a FHIR document
    - [`DiagnosticReport-ExampleFbcReport`](DiagnosticReport-ExampleFbcReport.html) — full blood count, order through to result
    - [`DiagnosticReport-ExampleChestReport`](DiagnosticReport-ExampleChestReport.html) — chest radiograph, order through to report and study
-6. **[Terminology And Identifiers](terminology-and-identifiers.html)** and the [Downloads](downloads.html) page — what is published, and under what licence.
+6. **[Terminology And Identifiers](terminology-and-identifiers.html)** and the [Terminology Index](terminology-index.html) — what is published, where to download it, and under what licence.
 7. **[Artefact Index](artifacts.html)** — reference only. Do not read it end to end.
-8. The **decision agenda** below.
+8. **Where comments are most useful**, below.
 
-## The decision agenda
+## Where comments are most useful
 
-Every judgement made while authoring v2.1 is recorded in `mappings/v2.1-decision-register.csv` — 32 entries, each with its basis and a confidence marker. Eleven are flagged as needing review. **These are the ones we want your view on.** The rest are recorded for traceability and do not need your time.
+Comments carry furthest against the parts of the release listed here. Each is a national choice that a considered second opinion can still change.
 
-| ID | Where | The decision | Why it is flagged |
-|---|---|---|---|
-| **D-003** | `Patient.birthDate` | Must Support, not mandatory | Present in PERDS2015, but cannot be guaranteed for unidentified patients. Is Must Support the right strength, or should an unidentified-patient pattern be defined instead? |
-| **D-004** | `Patient.extension[religion]` | Use the HL7 `patient-religion` extension, bound extensibly to the national religion list | Prefers the international extension over a local one. Does the national list map cleanly onto that extension's intent? |
-| **D-008** | `Condition.code` | Sliced for ICD-11 MMS and SNOMED CT; neither individually mandatory | ICD-11 as primary diagnosis coding is a significant national commitment. Is it the right one, and is it achievable in the field today? |
-| **D-009** | `Procedure.code` | ICD-9-CM Volume 3 primary, SNOMED CT alternate; no slice enforced | ICD-9-CM is operational in MOH and freely redistributable, but it is a retired classification. How long is that tenable? |
-| **D-014** | `Encounter.hospitalization.dischargeDisposition` | Bind extensibly to the national list, publish a ConceptMap to HL7 Terminology | Keeps the local list as the operational key. Eight concepts map to the international set. Is the local list the right one? |
-| **D-015** | `Encounter.hospitalization.admitSource` | Bind extensibly to HL7 admit-source | No local equivalent was found in v2.0. Does Malaysian practice need a national list here? |
-| **D-020** | `Observation.valueQuantity.code` | Mandatory UCUM code | The source catalogue holds 124 free-text unit strings; 26 are unparseable and 17 are case-variant clusters. The normalising ConceptMap is outstanding. Is a mandatory UCUM code achievable for vendors on that basis? |
-| **D-022** | `Specimen.type` | Retain the national specimen list as the key, extensible, SNOMED CT alongside | 93 distinct free-text specimen strings normalise against 27 local codes. Is 27 enough? |
-| **D-023** | `Task.businessStatus` | Must Support and testable, bound to the national laboratory task-status list | Carried from the radiology conformance model, on the principle that computed workflow fields are interoperability requirements. Does that principle hold for laboratory? |
-| **D-025** | `ServiceRequest.identifier[accession]` | Optional `0..1` in v2.1 | **The accession-number minting authority is unresolved national policy.** Making it mandatory would fail every vendor until that is settled. This is a governance decision, not a technical one, and it needs an owner. |
-| **D-027** | `ServiceRequest.code.coding[national]` | Retain the 762-concept national imaging list as the operational key; publish the LOINC ConceptMap incomplete | The largest unmapped body of work in the programme. The extensible binding lets vendors review structure before the mapping finishes. Who completes the mapping, and by when? |
-
-## Two open items with no owner
-
-Flagged separately because neither is a profile decision, and both will get worse if left:
-
-- **The interim pathology codes.** 1,398 of the 2,934 orderable tests carry interim local codes awaiting LOINC assignment. The scaffolding works, but there is **no retirement rule** — nothing defines when an interim code is withdrawn once its LOINC arrives, or who decides.
-- **LOINC coverage of the pathology catalogue is 52%.** 1,536 orderables map today. The gap is stated in the guide rather than hidden, but the plan to close it is not.
+- **Clinical content of the discharge summary.** Does the section structure in `Bundle-ExampleAdtDocument` match what a Malaysian discharge summary actually contains, and in the order a clinician expects to read it?
+- **Diagnosis and procedure coding.** `Condition.code` is sliced for ICD-11 MMS and SNOMED CT; `Procedure.code` takes ICD-9-CM Volume 3 with SNOMED CT alongside. Are these the right national choices, and are they achievable in the field today?
+- **The national administrative lists.** Discharge disposition, admit source, visit type, ward class, specimen type and the rest are bound extensibly to national lists published with this guide. Does each list carry the concepts your service actually uses?
+- **Laboratory workflow.** `Task.businessStatus` is Must Support and testable against the national laboratory task-status list. Does that match how your LIS reports progress?
+- **Units of measure.** `Observation.valueQuantity.code` requires a UCUM code. Is that achievable for the systems you work with?
+- **Identifiers.** Patient MRN, encounter identifier, professional registration number and the radiology accession number — are the namespace and format assumptions right for your institution?
+- **Radiology vocabulary.** Procedures bind to the LOINC/RSNA Radiology Playbook and body site to RadLex anatomy. Do the modality-scoped pick lists cover what your department orders?
+- **Profile coverage and naming.** Skim the four tables in [Profile Families](profile-families.html). You are checking coverage and naming, not cardinality.
+- **Scope.** The "what the guide does not cover" list in [Governance And Scope](governance-and-scope.html) is meant to read as a set of decisions. Tell us where one reads as an oversight instead.
 
 ## How to give feedback
 
-Comments are most useful against a specific artefact, page or decision ID. Raise them as issues on the [repository](https://github.com/datateamdigitalhealthdivision/mycore-v2), or bring them to the governance workshop with the ID to hand.
+Comments are most useful against a specific artefact, page or profile element. Raise them as issues on the [repository](https://github.com/datateamdigitalhealthdivision/mycore-v2), or bring them to the governance workshop with the reference to hand.
 
 Two things worth saying plainly, because they change what is worth flagging:
 
-- **Bindings are extensible on purpose.** Where a national mapping is incomplete, a `required` binding would reject conformant Malaysian data. Tightening later is safe; relaxing after vendors have built is not. "This should be required" is a useful comment when the mapping is in fact complete — please say which.
-- **Scope narrowing is the point of this release.** "X is missing" is most useful when it names an integration someone is being asked to build now, rather than a gap in coverage.
+- **Bindings are extensible on purpose.** An extensible binding states the intended vocabulary while allowing a system to send a concept the value set does not yet carry. Tightening a binding later is safe; relaxing one after vendors have built is not. "This should be required" is a useful comment — please say which element, and why the vocabulary is settled enough to enforce.
+- **Scope narrowing is the point of this release.** "X is missing" is most useful when it names an integration someone is being asked to build now, rather than a subject area the release does not claim to cover.

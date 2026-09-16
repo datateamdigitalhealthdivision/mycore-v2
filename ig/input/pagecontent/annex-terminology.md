@@ -16,6 +16,6 @@ Publication canonicals remain under the MY Core guide root. Runtime terminology 
 
 Prefer international terminology where it meets the national need. Retain local code systems only when they capture Malaysian administrative, programme, or operational concepts that are not realistically represented elsewhere.
 
-## Provisional terminology note
+## Transitional terminology
 
-Some local terminology is retained as transitional or provisional content pending further governance review. Those items should not be read as permanent endorsement without that review.
+Some local terminology is carried forward as transitional content and is classified as such in the terminology-source register. Governance review confirms which of those items become a permanent part of the national baseline.

@@ -8,7 +8,7 @@
   "status": "draft",
   "experimental": false,
   "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
-  "description": "Maps Malaysian national orderable pathology test codes to international LOINC codes. LOINC is referenced, never redistributed or modified.",
+  "description": "Maps the Malaysian Pathology Catalogue to LOINC. 1,536 of the 2,934 orderable tests are covered; mapping of the remainder is in progress. Vendors send the national code and, where a mapping exists, the LOINC code alongside it.",
   "sourceUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-orderable-my-core",
   "group": [
     {

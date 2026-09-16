@@ -2,7 +2,7 @@
 
 Version 2.1 narrows this guide to three use cases — **ADT and discharge summary**, **laboratory reports** including the EMR to LIS integration, and **radiology reports** including the EMR to RIS/PACS integration — and publishes the national terminology they bind to.
 
-This is the draft computable FHIR R4 core of the national MY Core repository, for implementation partners, integrators, testers and governance stakeholders who need a coherent national baseline rather than a loose artefact dump.
+This is the computable FHIR R4 core of the national MY Core repository, for implementation partners, integrators, testers and governance stakeholders who need a coherent national baseline to build and exchange against.
 
 ## Start here
 
@@ -14,7 +14,7 @@ This is the draft computable FHIR R4 core of the national MY Core repository, fo
 4. [Profiles And Extensions](profile-families.html) — the thirty profiles, grouped into a shared spine and one group per use case
 5. [Terminology Index](terminology-index.html) — every standard this guide uses, with download links for all national terminology
 
-**If you are reviewing**, start instead with the [Reviewer Guide](reviewer-guide.html) — what to read, in what order, and the decisions we want a view on.
+**If you are reviewing**, start instead with the [Reviewer Guide](reviewer-guide.html) — what to read, in what order, and where comments are most useful.
 
 **Before you build**, read the [Conformance Model](conformance-model.html) for what Must Support obliges, and [Endpoints And Publication Model](endpoints-and-publication-model.html) before carrying any v1 assumption into a new build.
 
@@ -41,8 +41,8 @@ This guide is the computable publication core of a single repository that also h
 - [Tests in `tests/`](https://github.com/datateamdigitalhealthdivision/mycore-v2/tree/main/tests)
 - [Mappings in `mappings/`](https://github.com/datateamdigitalhealthdivision/mycore-v2/tree/main/mappings)
 
-## Draft notice
+## Status
 
-Version 2.1 is a draft for review. It has not been balloted and is not a mandated national standard. Some endpoint assignments, namespace details and terminology governance decisions remain `PROVISIONAL` or `TO BE CONFIRMED`, and are marked explicitly where they appear.
+Version 2.1 is published for vendor and provider review ahead of national adoption. Items still subject to national policy are marked `PROVISIONAL` where they appear, and implementers should hold them in configuration.
 
 Changes since v2.0 are in the [Change Log](change-log.html). Licence terms, including third-party terminology, are in [Licence And Legal](licence-and-legal.html).

@@ -8,7 +8,7 @@
   "status": "active",
   "experimental": false,
   "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
-  "description": "Maps the body-region concepts in the national imaging region list to RadLex, so that a Malaysian bodySite carries international meaning without asking implementers to adopt RadLex's 38,178 anatomical concepts directly. Concepts classed as procedure, modality-technique or administrative are not mapped: RadLex is an anatomy and findings ontology and is not the right target for them. RadLex is published by RSNA and is free to use with attribution.",
+  "description": "Maps the body-region concepts in the national imaging region list to RadLex, so that systems holding national region codes can translate them to the vocabulary MY Core binds to. Concepts classed as procedure, modality-technique or administrative are out of scope: RadLex is an anatomy and findings ontology. RadLex is published by RSNA and is free to use with attribution.",
   "sourceCanonical": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/imaging-region-bodysite-my-core",
   "targetCanonical": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/radlex-anatomy-my-core",
   "group": [
