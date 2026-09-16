@@ -1,6 +1,6 @@
 ﻿# Legacy Reconciliation Annex
 
-This annex records how the legacy artefacts were reconciled into the MY Core v2.0 publication line.
+This annex records how the legacy artefacts were reconciled into the MY Core publication line.
 
 ## Reconciliation principles
 

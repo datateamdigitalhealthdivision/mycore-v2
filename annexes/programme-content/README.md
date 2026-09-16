@@ -4,7 +4,7 @@ The legacy MY Core archive contained a large body of programme-specific question
 
 ## Editorial treatment in v2
 
-MY Core v2.0 preserves this material, but intentionally places it behind the core vendor entry path. The national baseline should not be read as if it were primarily a questionnaire library.
+MY Core preserves this material and places it behind the core vendor entry path, so that the baseline profiles and terminology remain the entry point for generic integration.
 
 The vendor-facing computable guide publishes the baseline profiles,
 terminologies, example payloads, and naming systems needed for generic
@@ -26,4 +26,4 @@ The preserved inventory is recorded in `mappings/programme-content-register.csv`
 
 ## Normative posture
 
-Questionnaires may be normative where a programme explicitly requires them, but they are not the default front door for generic baseline conformance.
+Questionnaires are normative where a programme requires them. They are not part of generic baseline conformance.

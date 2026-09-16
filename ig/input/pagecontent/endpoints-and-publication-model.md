@@ -2,19 +2,19 @@
 
 ## Publication identity
 
-The canonical publication root for MY Core v2.0 is:
+The canonical publication root for MY Core is:
 
 - `https://myehr.kkmhub.moh.gov.my/fhir/my-core`
 
 That root identifies the implementation guide and its artefacts. It is not the runtime FHIR API endpoint.
 
-## Draft rendered publication route
+## Rendered publication route
 
-During the current draft phase, the rendered HTML guide is expected to be served through GitHub Pages. The exact Pages route is a publication convenience and does not replace the canonical URLs embedded in the artefacts.
+The rendered HTML guide is served through GitHub Pages. That route is a publication convenience and does not replace the canonical URLs embedded in the artefacts.
 
 ## Runtime service routes
 
-The current draft distinguishes the following runtime endpoints:
+The following runtime endpoints are distinct from the publication root:
 
 - FHIR sandbox root: `https://sandbox.myehr.kkmhub.moh.gov.my/fhir/r4`
 - SMART configuration: `https://sandbox-auth.myehr.kkmhub.moh.gov.my/.well-known/smart-configuration`
@@ -29,4 +29,4 @@ Production endpoints, operational scopes, namespace allocation and terminology h
 
 ## Implementation rule
 
-Implementation partners should not treat the guide canonical root as the base URL for runtime FHIR interactions or terminology operations. Publication and runtime are intentionally separate.
+Implementation partners should not treat the guide canonical root as the base URL for runtime FHIR interactions or terminology operations. Publication and runtime are separate.

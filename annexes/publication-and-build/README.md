@@ -12,7 +12,7 @@ This annex explains how the repository is built and published.
 5. fail the build if migrated JSON and FSH-generated content collide on id or
    canonical URL
 6. generate the implementation guide with the HL7 IG Publisher
-7. render the draft publication through GitHub Pages
+7. render the publication through GitHub Pages
 
 ## Reproducibility measures
 

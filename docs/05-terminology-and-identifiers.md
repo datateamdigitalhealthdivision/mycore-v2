@@ -2,7 +2,7 @@
 
 ## Policy position
 
-MY Core v2.0 distinguishes between:
+MY Core distinguishes between:
 
 - publication canonicals for artefacts such as `CodeSystem`, `ValueSet`, and `StructureDefinition`
 - operational terminology service routes used for `$lookup`, `$expand`, `$validate-code`, and `$translate`
@@ -10,7 +10,7 @@ MY Core v2.0 distinguishes between:
 
 ## Preferred standards posture
 
-Implementation partners should prefer international standards where they satisfy the national requirement, including HL7 core code systems, SNOMED CT, LOINC, UCUM, ICD-based policies, and other nationally approved external sources. Local terminology should be retained only where the national business requirement is genuinely Malaysian-specific or transitional.
+Implementation partners should prefer international standards where they satisfy the national requirement, including HL7 core code systems, SNOMED CT, LOINC, UCUM, ICD-based policies, and other nationally approved external sources. Local terminology is retained where the national requirement is Malaysian-specific or transitional.
 
 ## National local terminology
 
@@ -31,7 +31,7 @@ Identifier namespace discussion and `NamingSystem` work should use the identifie
 
 ## Migration from legacy hostnames
 
-Legacy artefacts used the `http://fhir.hie.moh.gov.my` host for profiles, terminology, questionnaires, and related artefacts. MY Core v2.0 records those legacy URLs in the mapping layer and remaps the active publication identity to the new MyEHR canonical structure.
+Legacy artefacts used the `http://fhir.hie.moh.gov.my` host for profiles, terminology, questionnaires, and related artefacts. MY Core records those legacy URLs in the mapping layer and remaps the active publication identity to the new MyEHR canonical structure.
 
 ## Identifier governance
 

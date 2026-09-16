@@ -1,6 +1,6 @@
 ﻿# Terminology Annex
 
-This annex summarises the terminology migration approach used in the MY Core v2.0 rebuild.
+This annex summarises the terminology migration approach used in the MY Core rebuild.
 
 ## Source provenance
 
@@ -14,7 +14,7 @@ Publication canonicals remain under the MY Core guide root. Runtime terminology 
 
 ## Local versus international decision rule
 
-Prefer international terminology where it meets the national need. Retain local code systems only when they capture Malaysian administrative, programme, or operational concepts that are not realistically represented elsewhere.
+Prefer international terminology where it meets the national need. Retain local code systems where they capture Malaysian administrative, programme or operational concepts that no international standard represents.
 
 ## Transitional terminology
 

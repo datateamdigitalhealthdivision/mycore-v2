@@ -2,7 +2,7 @@
 
 ## Semantic versioning
 
-MY Core v2.0 uses semantic versioning for package and publication releases:
+MY Core uses semantic versioning for package and publication releases:
 
 - major versions for materially breaking changes
 - minor versions for additive or constrained-but-compatible growth
@@ -24,7 +24,7 @@ Each tagged release should include:
 
 ## Dependency management
 
-External package or template changes should be pinned deliberately and documented. Dependency updates should not be allowed to drift silently into the publication.
+External package or template changes should be pinned and documented. Dependency updates should not be allowed to drift silently into the publication.
 
 ## Publication workflow
 

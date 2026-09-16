@@ -1,8 +1,6 @@
 # Capability Statements
 
-A capability statement is the machine-readable answer to *"which resources does my system have to support?"* Each one below describes a role a system plays in one of the three use cases, not a product.
-
-Pick the actor your system is, and the statement tells you which profiles you must support and which interactions you must offer.
+A capability statement states which resources, interactions and search parameters a system must support in a given role. Each statement below describes a role in one of the three use cases.
 
 | Actor | Use case | What it does |
 |---|---|---|
@@ -18,13 +16,13 @@ Pick the actor your system is, and the statement tells you which profiles you mu
 Each statement lists, per resource:
 
 - the **profile** the system must support
-- the **interactions** it must offer — `read`, `search-type`, `create`, and so on
+- the **interactions** it must offer, such as `read`, `search-type` and `create`
 - the **search parameters** it must honour
 
-An actor may play more than one role. An EMR that both places orders and issues discharge summaries conforms to two statements, not one combined statement.
+An actor may play more than one role. An EMR that places orders and issues discharge summaries conforms to two statements rather than one combined statement.
 
-## A note on scope
+## Scope
 
-These are **actor definitions** (`Usage: #definition`), not descriptions of any deployed server. They state what MOH requires of a system in that role. A vendor publishes its own capability statement describing what its product actually does, and conformance is assessed by comparing the two.
+These are actor definitions (`Usage: #definition`). They state what MOH requires of a system in that role and do not describe any deployed server. A vendor publishes its own capability statement describing what its product supports, and conformance is assessed by comparing the two.
 
-Statements are server-side. Client-side obligations are described in the [Conformance Model](conformance-model.html).
+Statements are server-side. Client-side obligations are set out in the [Conformance Model](conformance-model.html).
