@@ -63,21 +63,33 @@ pages:
     title: Downloads
 menu:
   Home: index.html
-  National Overview: overview.html
-  Use Cases: use-cases-v21.html
-  Reviewer Guide: reviewer-guide.html
-  Governance And Scope: governance-and-scope.html
-  Conformance Model: conformance-model.html
-  Profile Families: profile-families.html
-  Terminology And Identifiers: terminology-and-identifiers.html
-  Security And Audit: security-and-audit.html
-  Conformance Testing: conformance-testing.html
-  Versioning And Change Management: versioning-and-change-management.html
-  Implementation Partner Guide: implementation-partner-guide.html
-  Endpoints And Publication Model: endpoints-and-publication-model.html
-  Technical Annexes: annexes.html
+  Conformance:
+    Conformance Model: conformance-model.html
+    Governance And Scope: governance-and-scope.html
+    Capability Statements: capability-statements.html
+    Security And Audit: security-and-audit.html
+    Conformance Testing: conformance-testing.html
+  Guidance:
+    National Overview: overview.html
+    Use Cases: use-cases-v21.html
+    Implementation Partner Guide: implementation-partner-guide.html
+    Endpoints And Publication Model: endpoints-and-publication-model.html
+    Reviewer Guide: reviewer-guide.html
+  FHIR Artefacts:
+    Profiles And Extensions: profile-families.html
+    Terminology Index: terminology-index.html
+    Terminology And Identifiers: terminology-and-identifiers.html
+    Examples: examples.html
+    Artefact Index: artifacts.html
   Downloads: downloads.html
-  Artefact Index: artifacts.html
+  Version History:
+    Change Log: change-log.html
+    Versioning And Change Management: versioning-and-change-management.html
+  Support:
+    Technical Annexes: annexes.html
+    Glossary: glossary.html
+    Licence And Legal: licence-and-legal.html
+
 dependencies:
   # Pinned to the versions in the local package cache. Without explicit pins SUSHI
   # asks the package registry for '#latest' on every run, which hangs when egress to
@@ -410,6 +422,9 @@ parameters:
     # Its canonical is RSNA's, not ours, which the publisher otherwise reports as a
     # URL mismatch. Declaring it here says the mismatch is deliberate.
     - http://radlex.org
+    # RPID is the RadLex Playbook identifier namespace. ConceptMap/rpid-to-loinc-my-core
+    # maps from it, so it is declared for the same reason and on the same terms.
+    - http://www.radlex.org/RID
   show-inherited-invariants: false
   usage-stats-opt-out: true
   excludettl: true

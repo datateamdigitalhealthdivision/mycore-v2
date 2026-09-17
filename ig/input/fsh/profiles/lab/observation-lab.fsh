@@ -13,8 +13,11 @@ Description: "A single laboratory result, or a grouping observation whose member
 * code.coding ^slicing.discriminator[0].type = #value
 * code.coding ^slicing.discriminator[0].path = "system"
 * code.coding ^slicing.rules = #open
-* code.coding contains national 0..1 MS and loinc 0..1 MS
+* code.coding contains national 0..1 MS and panel 0..1 MS and loinc 0..1 MS
 * code.coding[national].system = "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core" (exactly)
+* code.coding[national] ^short = "National orderable test code, for a single analyte."
+* code.coding[panel].system = "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-panel-my-core" (exactly)
+* code.coding[panel] ^short = "National panel code, on the grouping Observation that carries the panel members in hasMember."
 * code.coding[loinc].system = "http://loinc.org" (exactly)
 * subject 1..1 MS
 * encounter MS

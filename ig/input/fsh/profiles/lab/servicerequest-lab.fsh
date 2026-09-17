@@ -31,11 +31,13 @@ Description: "An order placed by an EMR on a laboratory information system. The 
 * code.coding ^slicing.discriminator[0].type = #value
 * code.coding ^slicing.discriminator[0].path = "system"
 * code.coding ^slicing.rules = #open
-* code.coding contains national 0..1 MS and loinc 0..1 MS
+* code.coding contains national 0..1 MS and panel 0..1 MS and loinc 0..1 MS
 * code.coding[national].system = "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core" (exactly)
-* code.coding[national] ^short = "National orderable test code — the persistent operational key. Panels use pathology-panel-my-core."
+* code.coding[national] ^short = "National orderable test code, for an order placed as a single test. The persistent operational key."
+* code.coding[panel].system = "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-panel-my-core" (exactly)
+* code.coding[panel] ^short = "National panel code, for an order placed as a panel such as a full blood count. Send this in place of the test code when the order is a panel; the tests the panel contains are enumerated in that panel's own value set."
 * code.coding[loinc].system = "http://loinc.org" (exactly)
-* code.coding[loinc] ^short = "SHOULD be sent where the published ConceptMap provides a mapping. 1,536 of 2,934 orderables are mapped today; the gap is expected and is not a conformance failure."
+* code.coding[loinc] ^short = "LOINC, sent alongside the national code where the published ConceptMap provides a mapping. Every orderable test carries a national code; 1,536 of them also carry LOINC."
 * subject 1..1 MS
 * encounter MS
 * requester 1..1 MS

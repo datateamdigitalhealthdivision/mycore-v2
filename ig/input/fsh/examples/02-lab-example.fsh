@@ -11,11 +11,10 @@ Description: "An order placed on the LIS, carrying the national orderable code w
 * identifier[placerOrder].value = "LAB-2026-778812"
 * status = #completed
 * intent = #order
-// A full blood count is ordered as a panel, so the national code is a panel
-// code. The profile pins the national slice to pathology-orderable-my-core,
-// so the panel code travels as an additional coding under the open slicing rule.
-* code.coding[0] = http://loinc.org#58410-2 "CBC panel - Blood by Automated count"
-* code.coding[1] = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-panel-my-core#H-P1 "Full Blood Count - Automated Count"
+// A full blood count is ordered as a panel, so the order carries the national
+// panel code in the panel slice, with LOINC alongside it.
+* code.coding[panel] = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-panel-my-core#H-P1 "Full Blood Count - Automated Count"
+* code.coding[loinc] = http://loinc.org#58410-2 "CBC panel - Blood by Automated count"
 * code.text = "Full Blood Count"
 * subject = Reference(ExamplePatient)
 * encounter = Reference(ExampleAdmission)
@@ -67,7 +66,9 @@ Description: "The reported result. Category uses HL7 v2 table 0074, not a local 
 * basedOn = Reference(ExampleLabOrder)
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/v2-0074#HM "Hematology"
-* code = http://loinc.org#58410-2 "CBC panel - Blood by Automated count"
+* code.coding[panel] = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-panel-my-core#H-P1 "Full Blood Count - Automated Count"
+* code.coding[loinc] = http://loinc.org#58410-2 "CBC panel - Blood by Automated count"
+* code.text = "Full Blood Count"
 * subject = Reference(ExamplePatient)
 * encounter = Reference(ExampleAdmission)
 * issued = "2026-08-24T13:05:00+08:00"
