@@ -1,6 +1,6 @@
 ﻿# Identifier And Naming Annex
 
-This annex records the current identifier and naming posture for MY Core v2.0.
+This annex records the identifier and naming posture for MY Core.
 
 ## Key principles
 

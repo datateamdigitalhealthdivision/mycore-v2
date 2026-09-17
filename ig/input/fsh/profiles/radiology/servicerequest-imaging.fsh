@@ -25,7 +25,7 @@ Description: "An imaging order placed by an EMR on a RIS. The accession number i
 * identifier[placerOrder] ^short = "https://id.kkmhub.moh.gov.my/order/{facilityCode}"
 * identifier[accession].system 1..1
 * identifier[accession].type = $V2-0203#ACSN
-* identifier[accession] ^short = "Accession number. Recommended pattern FACILITYCODE-YYYYMMDD-SEQUENCE. Minting authority is a national policy decision recorded in the radiology annex."
+* identifier[accession] ^short = "Accession number. Recommended pattern FACILITYCODE-YYYYMMDD-SEQUENCE. The minting authority is set by national policy, so the format is a configuration point."
 * status 1..1 MS
 * intent 1..1 MS
 * category MS

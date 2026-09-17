@@ -16,7 +16,7 @@ Production endpoints are issued at onboarding. These sandbox values are marked `
 
 ## Auditable behaviour
 
-Implementing systems should preserve request traceability, principal identity, timestamped events, and sufficient correlation identifiers to support downstream audit review. The target audit repository root is currently represented as `https://audit.myehr.kkmhub.moh.gov.my/fhir/r4`.
+Implementing systems should preserve request traceability, principal identity, timestamped events, and sufficient correlation identifiers to support downstream audit review. The audit repository root is `https://audit.myehr.kkmhub.moh.gov.my/fhir/r4`.
 
 ## Logging expectations
 
@@ -29,4 +29,4 @@ Implementers should be able to trace:
 
 ## Operational posture
 
-The guide does not assume that production endpoint assignment is complete. Implementers should treat endpoint hostnames, scopes, and some operational policies as configurable deployment settings rather than hard-coded constants.
+Endpoint hostnames, scopes and the related operational policies are deployment settings. Implementers should hold them in configuration rather than as hard-coded constants.

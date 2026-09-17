@@ -54,7 +54,7 @@ MY Core profiles bind to these HL7-maintained lists directly rather than creatin
 | Observation Category | `http://terminology.hl7.org/CodeSystem/observation-category` | `Observation.category` |
 | Endpoint Connection Type | `http://terminology.hl7.org/CodeSystem/endpoint-connection-type` | `Endpoint.connectionType` |
 | DICOM Acquisition Modality | `http://hl7.org/fhir/ValueSet/dicom-cid29-AcquisitionModality` | `ImagingStudy.modality` |
-| Data Absent Reason | `http://hl7.org/fhir/ValueSet/data-absent-reason` | Where a required element is genuinely unknown |
+| Data Absent Reason | `http://hl7.org/fhir/ValueSet/data-absent-reason` | Where a required element is not known |
 
 Browse any of these at [terminology.hl7.org](https://terminology.hl7.org/).
 
@@ -62,7 +62,7 @@ Browse any of these at [terminology.hl7.org](https://terminology.hl7.org/).
 
 # Part 2 — National terminology published by MY Core
 
-Maintained by the Data Team, Digital Health Division, MOH. Open — no licence fee, no registration. Everything below downloads from this site.
+Maintained by the Data Team, Digital Health Division, MOH. Open: no licence fee, no registration. Everything below downloads from this site.
 
 ## Code systems
 
@@ -144,7 +144,7 @@ A concept map tells you how a national code translates to an international one. 
 
 ## Naming systems
 
-A naming system declares an identifier namespace — what a given `Identifier.system` URI means and who issues those numbers.
+A naming system declares an identifier namespace: what a given `Identifier.system` URI means, and who issues those numbers.
 
 | Artefact | Id | Canonical URL | Download |
 |---|---|---|---|
@@ -198,7 +198,7 @@ Each orderable panel has its own value set listing the tests it contains, so a L
 
 National terminology published by this guide is released under the guide's licence and may be used without fee or registration. Attribution to the Ministry of Health Malaysia is requested.
 
-International standards carry their owners' terms — see Part 1. Nothing on this page grants rights to SNOMED CT, LOINC, ICD-11 or any other third-party terminology.
+International standards carry their owners' terms; see Part 1. Nothing on this page grants rights to SNOMED CT, LOINC, ICD-11 or any other third-party terminology.
 
 ## Feedback
 

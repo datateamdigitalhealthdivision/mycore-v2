@@ -1,22 +1,22 @@
 # Malaysian National MY Core Implementation Guide
 
-Version 2.1 narrows this guide to three use cases — **ADT and discharge summary**, **laboratory reports** including the EMR to LIS integration, and **radiology reports** including the EMR to RIS/PACS integration — and publishes the national terminology they bind to.
+Version 2.1 scopes this guide to three use cases: **ADT and discharge summary**, **laboratory reports** including the EMR to LIS integration, and **radiology reports** including the EMR to RIS/PACS integration. It publishes the national terminology those use cases bind to.
 
 This is the computable FHIR R4 core of the national MY Core repository, for implementation partners, integrators, testers and governance stakeholders who need a coherent national baseline to build and exchange against.
 
 ## Start here
 
-**If you are implementing**, read in this order:
+For implementation, read in this order:
 
-1. [Use Cases](use-cases-v21.html) — what this release covers, and what it deliberately leaves out
-2. [Examples](examples.html) — three worked chains, end to end. Read these before opening a single profile
-3. [Capability Statements](capability-statements.html) — find the actor your system is, and what it must support
+1. [Use Cases](use-cases-v21.html) — what this release covers and what it excludes
+2. [Examples](examples.html) — three worked chains, end to end
+3. [Capability Statements](capability-statements.html) — the actor your system is, and what it must support
 4. [Profiles And Extensions](profile-families.html) — the thirty profiles, grouped into a shared spine and one group per use case
-5. [Terminology Index](terminology-index.html) — every standard this guide uses, with download links for all national terminology
+5. [Terminology Index](terminology-index.html) — every standard the guide uses, with download links for all national terminology
 
-**If you are reviewing**, start instead with the [Reviewer Guide](reviewer-guide.html) — what to read, in what order, and where comments are most useful.
+For review, start with the [Reviewer Guide](reviewer-guide.html).
 
-**Before you build**, read the [Conformance Model](conformance-model.html) for what Must Support obliges, and [Endpoints And Publication Model](endpoints-and-publication-model.html) before carrying any v1 assumption into a new build.
+Before building, read the [Conformance Model](conformance-model.html) for what Must Support obliges, and [Endpoints And Publication Model](endpoints-and-publication-model.html) for the separation of publication and runtime.
 
 ## What is published here
 
@@ -43,6 +43,6 @@ This guide is the computable publication core of a single repository that also h
 
 ## Status
 
-Version 2.1 is published for vendor and provider review ahead of national adoption. Items still subject to national policy are marked `PROVISIONAL` where they appear, and implementers should hold them in configuration.
+Version 2.1 is published for vendor and provider review ahead of national adoption. Items set by national policy are marked `PROVISIONAL` where they appear and should be held in configuration.
 
 Changes since v2.0 are in the [Change Log](change-log.html). Licence terms, including third-party terminology, are in [Licence And Legal](licence-and-legal.html).

@@ -1,7 +1,7 @@
 ﻿# Glossary
 
 - `Canonical root`: The authoritative publication base URL used for IG artefacts.
-- `CI build`: The continuously generated draft publication.
+- `CI build`: The continuously generated publication.
 - `Conformance`: The degree to which an implementation satisfies the published profiles, bindings, and policy expectations.
 - `Implementation partner`: A vendor, integrator, or deployment team consuming the guide.
 - `Legacy publication`: The earlier MY Core publication line under `fhir.hie.moh.gov.my`.

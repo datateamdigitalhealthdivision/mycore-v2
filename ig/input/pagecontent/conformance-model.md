@@ -1,10 +1,10 @@
 # Conformance Model
 
-This chapter defines what it means to conform to MY Core v2.1. Read it before the profiles: it fixes the meaning of the keywords, the Must Support flag, and the binding strengths that the profiles then use without further comment.
+This chapter defines conformance to MY Core v2.1. It fixes the meaning of the keywords, the Must Support flag and the binding strengths used throughout the profiles.
 
 ## What conformance is claimed against
 
-Conformance is claimed **as an actor, for a use case** — not against the guide as a whole. The three use cases are:
+Conformance is claimed as an actor, for a use case. The three use cases are:
 
 | Use case | What is exchanged | Point integration |
 |---|---|---|
@@ -12,44 +12,42 @@ Conformance is claimed **as an actor, for a use case** — not against the guide
 | **Laboratory** | Reports and their constituent results | EMR to LIS, and results onward |
 | **Radiology** | Reports and imaging study metadata | EMR to RIS and PACS |
 
-Six `CapabilityStatement` resources define the actors — EMR as document source, EMR as order placer, LIS as result producer, RIS as workflow manager, PACS or VNA as metadata publisher, and the MyEHR national repository. A vendor states which actors it implements, and is tested against those. Implementing one use case and not the others is a complete and legitimate conformance claim.
+Six `CapabilityStatement` resources define the actors: EMR as document source, EMR as order placer, LIS as result producer, RIS as workflow manager, PACS or VNA as metadata publisher, and the MyEHR national repository. A vendor states which actors it implements and is tested against those. Implementing one use case and not the others is a complete conformance claim.
 
 ## Reading keywords
 
 - `SHALL` — mandatory. An implementation that does not do this is non-conformant.
-- `SHOULD` — strongly recommended. Departing from it requires a documented reason, not a preference.
+- `SHOULD` — strongly recommended. Departing from it requires a documented reason.
 - `MAY` — optional.
 
 ## Must Support
-
-Must Support is the flag implementers most often misread, so v2.1 states its meaning explicitly rather than leaving it to convention.
 
 > **A sending system SHALL populate a Must Support element when the data is known to it, is clinically relevant, and is within that actor's responsibility to produce.**
 >
 > **A receiving system SHALL be able to accept the element, store it or otherwise process it without error, and SHALL NOT reject an instance because a Must Support element is absent.**
 
-Three consequences follow, and they are the ones that matter in testing:
+Three consequences follow, and they govern testing:
 
-- **Must Support is not the same as mandatory.** A Must Support element with cardinality `0..1` may legitimately be absent — when the sender does not hold the data. It may not be dropped merely because populating it is inconvenient.
-- **Absence must be distinguishable from ignorance where it matters clinically.** Where the distinction carries meaning, use the FHIR `dataAbsentReason` pattern rather than omitting the element silently or inventing a local "unknown" code.
+- **Must Support is not the same as mandatory.** A Must Support element with cardinality `0..1` may be absent when the sender does not hold the data. It may not be dropped because populating it is inconvenient.
+- **Absence must be distinguishable from ignorance where it matters clinically.** Where the distinction carries meaning, use the FHIR `dataAbsentReason` pattern in place of omitting the element or sending a local "unknown" code.
 - **The obligation sits on both ends.** A receiver that errors on a populated Must Support element it does not understand is as non-conformant as a sender that never populates it.
 
-Must Support in v2.1 is applied where the MySejahtera API Gateway specification or PERDS2015 shows the element is actually populated in Malaysian systems today — not where it would be desirable in principle.
+Must Support in v2.1 is applied where the MySejahtera API Gateway specification or PERDS2015 shows the element is populated in Malaysian systems today.
 
 ## Binding strength
 
 - `required` — the code SHALL come from the nominated value set. Validation fails otherwise.
-- `extensible` — the code SHOULD come from the nominated value set. Where the set does not contain a suitable concept, another code may be sent, and the concept may be proposed for inclusion.
+- `extensible` — the code SHOULD come from the nominated value set. Where the set contains no suitable concept, another code may be sent, and the concept may be proposed for inclusion.
 - `preferred` — the nominated value set expresses the intended direction; other codes are acceptable.
 - `example` — illustrative only, with no conformance weight.
 
-**Most v2.1 bindings are `extensible`.** This is deliberate: an extensible binding states the intended vocabulary while allowing a system to send a concept the value set does not yet carry. Bindings tighten toward `required` as national vocabularies settle, and the guide will not relax a binding once vendors have built against it.
+Most v2.1 bindings are `extensible`. An extensible binding states the intended vocabulary while allowing a system to send a concept the value set does not yet carry. Bindings tighten toward `required` as national vocabularies settle. The guide will not relax a binding once vendors have built against it.
 
 ## Local codes and international codes together
 
-Several elements are sliced so that a national code and an international code travel side by side: laboratory test codes, imaging procedure codes, condition codes, procedure codes.
+Several elements are sliced so that a national code and an international code travel side by side: laboratory test codes, imaging procedure codes, condition codes and procedure codes.
 
-The national code is the **persistent operational key** — the value Malaysian systems store and can be held to. The international code is sent **alongside** it where a published ConceptMap provides a mapping. Vendors are not expected to store LOINC or SNOMED CT natively, and **sending the national code alone is conformant** where no mapping is published.
+The national code is the **persistent operational key**, the value Malaysian systems store and can be held to. The international code is sent alongside it where a published ConceptMap provides a mapping. Vendors are not required to store LOINC or SNOMED CT natively, and **sending the national code alone is conformant** where no mapping is published.
 
 ## Declaring support
 
@@ -57,8 +55,8 @@ Vendors exposing MY Core endpoints SHALL make their supported interactions, prof
 
 ## Configuration points
 
-Some items — endpoint assignments, identifier namespace hosts, the accession-number format — are set by national policy and are marked `PROVISIONAL`. Implementers SHALL isolate these behind configuration rather than hard-coding them.
+Items set by national policy, including endpoint assignments, identifier namespace hosts and the accession-number format, are marked `PROVISIONAL`. Implementers SHALL isolate these behind configuration rather than hard-coding them.
 
 ## Examples and tests
 
-The worked examples in this guide are there to accelerate implementation and to make the intended shape of a payload unambiguous. They are illustrative: **the profile definitions are normative, the examples are not.** Where an example and a profile disagree, the profile governs and the example is a defect worth reporting.
+The worked examples make the intended shape of a payload unambiguous. **The profile definitions are normative and the examples are not.** Where an example and a profile disagree, the profile governs and the example is a defect worth reporting.

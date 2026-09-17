@@ -4,7 +4,7 @@
 
 The Malaysian National MY Core Implementation Guide is published by the Data Team, Digital Health Division, Ministry of Health Malaysia.
 
-The guide itself — its narrative pages, profiles, extensions, examples and national terminology — is released under the **Apache License 2.0**. You may use, copy, modify and redistribute it, including commercially, provided you retain the licence and attribution notices.
+The guide itself, including its narrative pages, profiles, extensions, examples and national terminology, is released under the **Apache License 2.0**. You may use, copy, modify and redistribute it, including commercially, provided you retain the licence and attribution notices.
 
 Attribution to the Ministry of Health Malaysia is requested when the guide or its terminology is reused.
 
@@ -20,7 +20,7 @@ MY Core **references** the standards below. It does not copy, modify or redistri
 
 | Standard | Owner | Terms |
 |---|---|---|
-| SNOMED CT | SNOMED International | Malaysia is a Member country, so there is no licence fee for use within Malaysia. Register with the National Release Centre — Health Informatics Centre, Planning Division, MOH — to obtain RF2 files. |
+| SNOMED CT | SNOMED International | Malaysia is a Member country, so there is no licence fee for use within Malaysia. Register with the National Release Centre (Health Informatics Centre, Planning Division, MOH) to obtain RF2 files. |
 | LOINC | Regenstrief Institute | Free under the LOINC licence. Attribution required. LOINC content is not redistributed here. |
 | ICD-11 MMS | World Health Organization | CC BY-ND 3.0 IGO. Referenced by canonical URL only. |
 | ICD-10 | World Health Organization | WHO terms apply. Referenced for casemix continuity. |
@@ -40,7 +40,7 @@ The rendered site on GitHub Pages is a publication route for the guide. It does 
 
 ## Status of this release
 
-Version 2.1 is **published for review** ahead of national adoption. Items subject to national policy are marked `PROVISIONAL` where they appear.
+Version 2.1 is published for vendor and provider review ahead of national adoption. Items subject to national policy are marked `PROVISIONAL` where they appear.
 
 ## Patient data
 

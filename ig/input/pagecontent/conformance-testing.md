@@ -2,7 +2,7 @@
 
 ## Testing intent
 
-MY Core v2.0 is designed to support both implementer self-testing and future national conformance services. The current repository includes starter assets rather than a fully automated certification harness.
+MY Core supports implementer self-testing and the national conformance service that follows it. The repository ships the validation assets a partner needs to begin.
 
 ## Core validation expectations
 
@@ -26,6 +26,6 @@ The repository includes negative examples for common validation-sensitive issues
 
 Receiving systems are expected to reject such payloads with a meaningful `OperationOutcome`.
 
-## Current maturity statement
+## Roadmap
 
-The current draft provides repository-level starter tests and scenarios. A future national validation service may introduce executable test packs, actor-specific checklists, and certification workflows aligned to the published package line.
+The repository provides the starter tests and scenarios. The national validation service adds executable test packs, actor-specific checklists and certification workflows aligned to the published package line.
