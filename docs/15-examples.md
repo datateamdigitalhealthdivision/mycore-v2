@@ -10,10 +10,10 @@ Used by all three use cases.
 
 | Example | Profile | |
 |---|---|---|
-| [Hospital Tengku Ampuan Rahimah](Organization-ExampleHospital.html) | MY Core Organization | the facility, carrying the national facility code |
-| [Siti binti Abdullah](Patient-ExamplePatient.html) | MY Core Patient | MyKad identifier, ethnicity, religion, district |
-| [Dr Lim Wei Ming](Practitioner-ExampleDoctor.html) | MY Core Practitioner | admitting physician, MMC registration number |
-| [Dr Nurul Huda](Practitioner-ExampleRadiologist.html) | MY Core Practitioner | reporting radiologist |
+| [Hospital Tengku Ampuan Rahimah](Organization-ExampleHospital.html) | [MY Core Organization](StructureDefinition-organization-my-core.html) | the facility, carrying the national facility code |
+| [Siti binti Abdullah](Patient-ExamplePatient.html) | [MY Core Patient](StructureDefinition-patient-my-core.html) | MyKad identifier, ethnicity, religion, district |
+| [Dr Lim Wei Ming](Practitioner-ExampleDoctor.html) | [MY Core Practitioner](StructureDefinition-practitioner-my-core.html) | admitting physician, MMC registration number |
+| [Dr Nurul Huda](Practitioner-ExampleRadiologist.html) | [MY Core Practitioner](StructureDefinition-practitioner-my-core.html) | reporting radiologist |
 
 ## ADT and discharge summary
 
@@ -21,11 +21,11 @@ A patient is admitted through the emergency department, moves ward, and is disch
 
 | Step | Example | Profile |
 |---|---|---|
-| 1. Admission | [Inpatient admission](Encounter-ExampleAdmission.html) | MY Core Admitted Encounter |
-| 2. First ward | [Acute Medical Unit](Location-ExampleAdmissionWard.html) | MY Core Location |
-| 3. Transfer | [Medical Ward 3B](Location-ExampleWard.html) | MY Core Location |
-| 4. The note | [Discharge summary](Composition-ExampleDischargeNote.html) | MY Core ADT Note |
-| 5. The document | [ADT discharge document](Bundle-ExampleAdtDocument.html) | MY Core Document Bundle |
+| 1. Admission | [Inpatient admission](Encounter-ExampleAdmission.html) | [MY Core Admitted Encounter](StructureDefinition-encounter-admission-my-core.html) |
+| 2. First ward | [Acute Medical Unit](Location-ExampleAdmissionWard.html) | [MY Core Location](StructureDefinition-location-my-core.html) |
+| 3. Transfer | [Medical Ward 3B](Location-ExampleWard.html) | [MY Core Location](StructureDefinition-location-my-core.html) |
+| 4. The note | [Discharge summary](Composition-ExampleDischargeNote.html) | [MY Core ADT Note](StructureDefinition-composition-adt-my-core.html) |
+| 5. The document | [ADT discharge document](Bundle-ExampleAdtDocument.html) | [MY Core Document Bundle](StructureDefinition-bundle-document-my-core.html) |
 
 **What to look at.** The transfer in step 3 is the part vendors most often get wrong. The first `Encounter.location` entry has its `period.end` closed and `status` set to `completed`, and a new entry opens with `status = active`. The existing entry is never overwritten. Discharge disposition is drawn from HL7 Terminology plus the two national supplement codes.
 
@@ -35,10 +35,10 @@ An EMR places a full blood count order on the laboratory information system; the
 
 | Step | Example | Profile |
 |---|---|---|
-| 1. Order | [Full blood count order](ServiceRequest-ExampleLabOrder.html) | MY Core Laboratory Order |
-| 2. Specimen | [EDTA whole blood](Specimen-ExampleSpecimen.html) | MY Core Specimen |
-| 3. Result | [Haemoglobin result](Observation-ExampleHaemoglobin.html) | MY Core Laboratory Result |
-| 4. Report | [Full blood count report](DiagnosticReport-ExampleFbcReport.html) | MY Core Laboratory Report |
+| 1. Order | [Full blood count order](ServiceRequest-ExampleLabOrder.html) | [MY Core Laboratory Order](StructureDefinition-servicerequest-lab-my-core.html) |
+| 2. Specimen | [EDTA whole blood](Specimen-ExampleSpecimen.html) | [MY Core Specimen](StructureDefinition-specimen-my-core.html) |
+| 3. Result | [Haemoglobin result](Observation-ExampleHaemoglobin.html) | [MY Core Laboratory Result](StructureDefinition-observation-lab-my-core.html) |
+| 4. Report | [Full blood count report](DiagnosticReport-ExampleFbcReport.html) | [MY Core Laboratory Report](StructureDefinition-diagnosticreport-lab-my-core.html) |
 
 **What to look at.** A full blood count is ordered as a panel, so the order and the report both carry the national panel code `H-P1` in the panel slice, with LOINC `58410-2` alongside it. The haemoglobin result carries the national test code `H-T187` and LOINC `718-7` the same way. Every orderable test has a national code; a missing LOINC mapping is not a conformance failure.
 
@@ -48,10 +48,10 @@ An EMR places a chest radiograph order; the RIS and PACS publish the study, the 
 
 | Step | Example | Profile |
 |---|---|---|
-| 1. Order | [Chest radiograph order](ServiceRequest-ExampleImagingOrder.html) | MY Core Imaging Order |
-| 2. Endpoint | [DICOMweb retrieval endpoint](Endpoint-ExamplePacsEndpoint.html) | MY Core DICOMweb Endpoint |
-| 3. Study | [Chest radiograph study](ImagingStudy-ExampleChestStudy.html) | MY Core Imaging Study |
-| 4. Report | [Chest radiograph report](DiagnosticReport-ExampleChestReport.html) | MY Core Radiology Report |
+| 1. Order | [Chest radiograph order](ServiceRequest-ExampleImagingOrder.html) | [MY Core Imaging Order](StructureDefinition-servicerequest-imaging-my-core.html) |
+| 2. Endpoint | [DICOMweb retrieval endpoint](Endpoint-ExamplePacsEndpoint.html) | [MY Core DICOMweb Endpoint](StructureDefinition-endpoint-dicomweb-my-core.html) |
+| 3. Study | [Chest radiograph study](ImagingStudy-ExampleChestStudy.html) | [MY Core Imaging Study](StructureDefinition-imagingstudy-my-core.html) |
+| 4. Report | [Chest radiograph report](DiagnosticReport-ExampleChestReport.html) | [MY Core Radiology Report](StructureDefinition-diagnosticreport-imaging-my-core.html) |
 
 **What to look at.** Images are never carried in the FHIR payload. `ImagingStudy` publishes metadata and points at an `Endpoint`; the image bytes are retrieved over DICOMweb from PACS. The procedure code is a LOINC/RSNA Radiology Playbook code and the body site is a RadLex concept, the same vocabularies the order and the report use.
 
