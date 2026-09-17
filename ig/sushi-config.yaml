@@ -32,15 +32,23 @@ pages:
   conformance-model.md:
     title: Conformance Model
   profile-families.md:
-    title: Profile Families
+    title: Profiles And Extensions
+  capability-statements.md:
+    title: Capability Statements
+  examples.md:
+    title: Examples
   terminology-and-identifiers.md:
     title: Terminology And Identifiers
+  terminology-index.md:
+    title: Terminology Index
   security-and-audit.md:
     title: Security And Audit
   conformance-testing.md:
     title: Conformance Testing
   versioning-and-change-management.md:
     title: Versioning And Change Management
+  change-log.md:
+    title: Change Log
   implementation-partner-guide.md:
     title: Implementation Partner Guide
   endpoints-and-publication-model.md:
@@ -61,6 +69,8 @@ pages:
     title: Glossary
   downloads.md:
     title: Downloads
+  licence-and-legal.md:
+    title: Licence And Legal
 menu:
   Home: index.html
   Conformance:
