@@ -1,0 +1,25 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "rpid",
+  "url": "http://www.radlex.org/RID",
+  "version": "2.1.0",
+  "name": "RadiologyPlaybookRPID",
+  "title": "RSNA Radiology Playbook (RPID)",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Radiological Society of North America (RSNA)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.rsna.org/practice-tools/data-tools-and-standards/radlex-radiology-lexicon"
+        }
+      ]
+    }
+  ],
+  "description": "RadLex Playbook identifiers (RPIDs) for imaging procedures, published by RSNA. MY Core binds radiology procedures to the LOINC side of the LOINC/RSNA Radiology Playbook and declares this code system so that systems holding RPIDs can translate them through ConceptMap/rpid-to-loinc-my-core. Content is referenced, not redistributed.",
+  "copyright": "RadLex and the RadLex Playbook are published by the Radiological Society of North America and are used with attribution under the RadLex licence. No RadLex Playbook content is redistributed here.",
+  "caseSensitive": true,
+  "content": "not-present"
+}

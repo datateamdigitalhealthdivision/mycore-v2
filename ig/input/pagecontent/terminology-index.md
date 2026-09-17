@@ -32,6 +32,7 @@ MY Core references these. It does not copy, modify or redistribute them. Obtain 
 | **ICD-9-CM Volume 3** | US CMS (public domain) | `http://hl7.org/fhir/sid/icd-9-cm` | Procedure coding, included by reference in the national procedure value set for casemix continuity. | Public domain — [CMS ICD-9-CM](https://www.cms.gov/medicare/coding-billing/icd-10-code-lookup) |
 | **DICOM** | NEMA | `http://dicom.nema.org/resources/ontology/DCM` | Imaging modality, study and series semantics in the radiology profiles. | Free — [DICOM PS3.16](https://dicom.nema.org/medical/dicom/current/output/chtml/part16/PS3.16.html) |
 | **RadLex** | RSNA | `http://radlex.org` | Radiology procedure and anatomy terms. | Free with attribution — [radlex.org](https://radlex.org/) |
+| **RSNA Radiology Playbook (RPID)** | RSNA | `http://www.radlex.org/RID` | Playbook identifiers for imaging procedures. Translate to LOINC through [ConceptMap/rpid-to-loinc-my-core](ConceptMap-rpid-to-loinc-my-core.html). | Free with attribution — [radlex.org](https://radlex.org/) |
 | **UCUM** | Regenstrief Institute | `http://unitsofmeasure.org` | Units on quantitative observations. Declared `content = not-present`, per FHIR convention. | Free — [ucum.org](https://ucum.org/) |
 | **ISO 3166-1 alpha-2** | ISO, republished by HL7 | `http://hl7.org/fhir/ValueSet/iso3166-1-2` | Country of citizenship on Patient. The 249 codes are enumerated in the FHIR value set, so this binding validates offline. | [FHIR R4 value set](http://hl7.org/fhir/R4/valueset-iso3166-1-2.html) |
 

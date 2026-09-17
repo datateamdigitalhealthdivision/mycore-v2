@@ -29,6 +29,17 @@ Description: "The reported outcome of a laboratory order. Category uses HL7 v2 t
 * category from $VS-DIAG-SERVICE (extensible)
 * category ^short = "HL7 v2-0074. LAB, CH, HM, MB, and the rest. Replaces lab-sub-group-my-core."
 * code 1..1 MS
+* code.coding MS
+* code.coding ^slicing.discriminator[0].type = #value
+* code.coding ^slicing.discriminator[0].path = "system"
+* code.coding ^slicing.rules = #open
+* code.coding contains national 0..1 MS and panel 0..1 MS and loinc 0..1 MS
+* code.coding[national].system = "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core" (exactly)
+* code.coding[national] ^short = "National orderable test code, where the report covers a single test."
+* code.coding[panel].system = "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-panel-my-core" (exactly)
+* code.coding[panel] ^short = "National panel code, where the report covers a panel. The same code the order carried, so an order and its report match."
+* code.coding[loinc].system = "http://loinc.org" (exactly)
+* code.coding[loinc] ^short = "LOINC, sent alongside the national code where the published ConceptMap provides a mapping."
 * subject 1..1 MS
 * encounter MS
 * effective[x] MS

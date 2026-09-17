@@ -40,7 +40,7 @@ An EMR places a full blood count order on the laboratory information system; the
 | 3. Result | [Haemoglobin result](Observation-ExampleHaemoglobin.html) | MY Core Laboratory Result |
 | 4. Report | [Full blood count report](DiagnosticReport-ExampleFbcReport.html) | MY Core Laboratory Report |
 
-**What to look at.** `code.coding` carries two slices: the national pathology catalogue code, which is the persistent operational key, and LOINC where the published concept map provides one. 1,536 of 2,934 orderable tests are mapped to LOINC today. A missing mapping is not a conformance failure.
+**What to look at.** A full blood count is ordered as a panel, so the order and the report both carry the national panel code `H-P1` in the panel slice, with LOINC `58410-2` alongside it. The haemoglobin result carries the national test code `H-T187` and LOINC `718-7` the same way. Every orderable test has a national code; a missing LOINC mapping is not a conformance failure.
 
 ## Radiology
 

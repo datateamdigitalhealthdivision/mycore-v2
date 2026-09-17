@@ -53,13 +53,13 @@ Order to specimen to result to report, plus the task that carries fulfilment sta
 
 | Profile | Base resource | What it constrains |
 |---|---|---|
-| MY Core Laboratory Order | `ServiceRequest` | Mandatory placer order identifier; test code sliced into the national orderable code and LOINC |
+| MY Core Laboratory Order | `ServiceRequest` | Mandatory placer order identifier; code sliced into the national orderable code, the national panel code and LOINC |
 | MY Core Specimen | `Specimen` | Specimen and container type bound to the national lists, SNOMED CT alongside |
-| MY Core Laboratory Result | `Observation` | Category fixed to `laboratory`; code sliced national and LOINC; UCUM unit code on the value; interpretation bound to HL7 v3 ObservationInterpretation, which carries S/I/R for susceptibility; `hasMember` used for panels |
-| MY Core Laboratory Report | `DiagnosticReport` | Mandatory filler report identifier; category bound to HL7 v2 table 0074; the rendered report travels alongside the structured results |
+| MY Core Laboratory Result | `Observation` | Category fixed to `laboratory`; code sliced into the national orderable code, the national panel code and LOINC; UCUM unit code on the value; interpretation bound to HL7 v3 ObservationInterpretation, which carries S/I/R for susceptibility; `hasMember` used for panels |
+| MY Core Laboratory Report | `DiagnosticReport` | Mandatory filler report identifier; category bound to HL7 v2 table 0074; code sliced the same way as the order, so an order and its report carry matching codes; the rendered report travels alongside the structured results |
 | MY Core Laboratory Task | `Task` | Business status bound to the national laboratory task-status list |
 
-The national orderable code is the persistent operational key. LOINC is sent alongside it where the published ConceptMap provides a mapping, covering 1,536 of 2,934 orderables. **A missing LOINC mapping is not a conformance failure.**
+Every one of the 2,934 orderable tests carries a national code. 1,536 of them also carry a LOINC code, and the remaining 1,398 carry an MOH interim code until LOINC issues one, so there is no test without a code. An order placed as a panel carries the national panel code in place of a test code, with LOINC alongside where a mapping exists. **A missing LOINC mapping is not a conformance failure.**
 
 ## Radiology — 8 profiles
 
