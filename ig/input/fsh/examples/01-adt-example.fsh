@@ -87,13 +87,21 @@ Description: "The complete discharge note as a FHIR document. The Composition is
 * identifier.value = "DS-2026-004417"
 * type = #document
 * timestamp = "2026-08-28T11:30:00+08:00"
-* entry[0].fullUrl = "urn:uuid:11111111-1111-4111-8111-111111111111"
+// Entry fullUrls are absolute so that the relative references inside each
+// resource (Patient/ExamplePatient and so on) resolve against them. Every
+// resource the Composition reaches, directly or through the Encounter, is
+// present as an entry.
+* entry[0].fullUrl = "https://sandbox.myehr.kkmhub.moh.gov.my/fhir/r4/Composition/ExampleDischargeNote"
 * entry[0].resource = ExampleDischargeNote
-* entry[1].fullUrl = "urn:uuid:22222222-2222-4222-8222-222222222222"
+* entry[1].fullUrl = "https://sandbox.myehr.kkmhub.moh.gov.my/fhir/r4/Patient/ExamplePatient"
 * entry[1].resource = ExamplePatient
-* entry[2].fullUrl = "urn:uuid:33333333-3333-4333-8333-333333333333"
+* entry[2].fullUrl = "https://sandbox.myehr.kkmhub.moh.gov.my/fhir/r4/Encounter/ExampleAdmission"
 * entry[2].resource = ExampleAdmission
-* entry[3].fullUrl = "urn:uuid:44444444-4444-4444-8444-444444444444"
+* entry[3].fullUrl = "https://sandbox.myehr.kkmhub.moh.gov.my/fhir/r4/Practitioner/ExampleDoctor"
 * entry[3].resource = ExampleDoctor
-* entry[4].fullUrl = "urn:uuid:55555555-5555-4555-8555-555555555555"
+* entry[4].fullUrl = "https://sandbox.myehr.kkmhub.moh.gov.my/fhir/r4/Organization/ExampleHospital"
 * entry[4].resource = ExampleHospital
+* entry[5].fullUrl = "https://sandbox.myehr.kkmhub.moh.gov.my/fhir/r4/Location/ExampleAdmissionWard"
+* entry[5].resource = ExampleAdmissionWard
+* entry[6].fullUrl = "https://sandbox.myehr.kkmhub.moh.gov.my/fhir/r4/Location/ExampleWard"
+* entry[6].resource = ExampleWard

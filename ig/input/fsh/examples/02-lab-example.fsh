@@ -11,8 +11,11 @@ Description: "An order placed on the LIS, carrying the national orderable code w
 * identifier[placerOrder].value = "LAB-2026-778812"
 * status = #completed
 * intent = #order
-* code.coding[national] = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1
-* code.coding[loinc] = http://loinc.org#58410-2 "CBC panel - Blood by Automated count"
+// A full blood count is ordered as a panel, so the national code is a panel
+// code. The profile pins the national slice to pathology-orderable-my-core,
+// so the panel code travels as an additional coding under the open slicing rule.
+* code.coding[0] = http://loinc.org#58410-2 "CBC panel - Blood by Automated count"
+* code.coding[1] = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-panel-my-core#H-P1 "Full Blood Count - Automated Count"
 * code.text = "Full Blood Count"
 * subject = Reference(ExamplePatient)
 * encounter = Reference(ExampleAdmission)
@@ -37,6 +40,7 @@ Usage: #example
 Title: "Example - Haemoglobin result"
 Description: "A single analyte, with a UCUM unit and an interpretation flag."
 * status = #final
+* code.coding[national] = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T187 "Hemoglobin"
 * code.coding[loinc] = http://loinc.org#718-7 "Hemoglobin [Mass/volume] in Blood"
 * code.text = "Haemoglobin"
 * subject = Reference(ExamplePatient)
