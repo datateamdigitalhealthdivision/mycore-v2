@@ -4,15 +4,39 @@ Version 2.1 publishes **30 profiles** in four groups: a shared spine, and one gr
 
 The spine carries identity, place and the document envelope. Each use-case group adds what that integration requires on top of it. A vendor building only the laboratory integration reads the spine and the laboratory group.
 
-## How to read a profile
+## How to read a profile page
 
-Each profile states its constraints as a differential against its parent. Three of them carry the conformance weight:
+Every profile page carries the same tabs: **Key Elements**, **Differential**, **Snapshot** and **All**. Start with Key Elements, which shows what this profile constrains without the several hundred base FHIR elements it leaves alone. Differential shows only what MY Core changed from base FHIR R4.
 
-- **cardinality** — what must be present
-- **Must Support** — what a receiver may rely on when the sender holds the data (see the [Conformance Model](conformance-model.html))
-- **bindings** — which value set the code comes from, and at what strength
+Three columns carry the conformance weight: **Card.**, **Flags** and the binding shown under Description & Constraints.
 
-Where a binding is `extensible`, a system may send a concept the value set does not yet carry. The [Conformance Model](conformance-model.html) sets out what each strength obliges.
+### Card. — how many times the element may appear
+
+The first number is the minimum, the second the maximum.
+
+| Notation | Meaning |
+|---|---|
+| `0..1` | Optional. At most one. |
+| `1..1` | **Mandatory.** Exactly one. An instance without it is invalid. |
+| `0..*` | Optional, and may repeat any number of times. |
+| `1..*` | **Mandatory**, and may repeat. At least one. |
+
+A mandatory element is a hard gate: a validator rejects the instance without it. Most MY Core elements are `0..1` or `0..*`, because the obligation usually comes from Must Support rather than from cardinality.
+
+### Flags
+
+| Flag | Meaning |
+|---|---|
+| **S** | **Must Support.** The obligation falls on the sender and the receiver both. |
+| **Σ** | Part of the summary a server returns on a search. |
+| **?!** | Modifier. Ignoring this element changes what the record means. |
+| **C** | The element carries an invariant, spelled out below the table. |
+
+**S is the flag most often misread.** Must Support is not the same as mandatory. A sending system populates a Must Support element when it holds the data, the data is clinically relevant, and producing it is that actor's responsibility. A receiving system must accept and store it, and must not reject an instance because it is absent. So a Must Support element at `0..1` may legitimately be empty, when the sender does not hold the value — but it may not be dropped because populating it is inconvenient. The [Conformance Model](conformance-model.html) carries the full definition.
+
+### Bindings
+
+The Description & Constraints column names the value set a coded element draws from, and the strength of that obligation. Where a binding is `extensible`, a system may send a concept the value set does not yet carry. The [Conformance Model](conformance-model.html) sets out what each strength obliges.
 
 ## Shared spine — 12 profiles
 

@@ -14,18 +14,28 @@ Instance: ExamplePatient
 InstanceOf: MyCorePatient
 Usage: #example
 Title: "Example - Siti binti Abdullah"
-Description: "A Malaysian citizen identified by her national registration number,
-with all four MOH demographic attributes populated: ethnicity, religion, district
-and citizenship. Synthetic data.
+Description: "A Malaysian citizen carrying both a national registration number and
+a hospital record number, with all four MOH demographic attributes populated:
+ethnicity, religion, district and citizenship. Synthetic data.
 
 Note the name. `Siti binti Abdullah` is a patronymic: Abdullah is her father's
 personal name, not a family name, and `binti` is the particle meaning `daughter
 of`. Splitting it into family and given loses the particle and asserts a family
 name that does not exist. `name.text` carries it exactly as MyKad prints it, and
 `name.family` is left absent. This is why name.text is the mandatory element."
+// Two identifiers, which is the ordinary case. The NRIC is national and follows
+// her everywhere; the MRN is issued by one hospital and means nothing outside it.
+// The namespace in `system` is what keeps them apart, and the facility code
+// inside the MRN namespace is what keeps two hospitals' MRNs apart.
 * identifier[nric].system = "https://id.kkmhub.moh.gov.my/patient/nric"
 * identifier[nric].value = "800101105566"
 * identifier[nric].type = http://terminology.hl7.org/CodeSystem/v2-0203#NI
+* identifier[nric].use = #official
+* identifier[mrn].system = "https://id.kkmhub.moh.gov.my/patient/mrn/11-10040013"
+* identifier[mrn].value = "HTAR-0456712"
+* identifier[mrn].type = http://terminology.hl7.org/CodeSystem/v2-0203#MR
+* identifier[mrn].use = #usual
+* identifier[mrn].assigner = Reference(ExampleHospital)
 * name.text = "Siti binti Abdullah"
 * name.given = "Siti"
 * gender = #female

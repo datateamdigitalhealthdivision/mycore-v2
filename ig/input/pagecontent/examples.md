@@ -37,10 +37,13 @@ An EMR places a full blood count order on the laboratory information system; the
 |---|---|---|
 | 1. Order | [Full blood count order](ServiceRequest-ExampleLabOrder.html) | [MY Core Laboratory Order](StructureDefinition-servicerequest-lab-my-core.html) |
 | 2. Specimen | [EDTA whole blood](Specimen-ExampleSpecimen.html) | [MY Core Specimen](StructureDefinition-specimen-my-core.html) |
-| 3. Result | [Haemoglobin result](Observation-ExampleHaemoglobin.html) | [MY Core Laboratory Result](StructureDefinition-observation-lab-my-core.html) |
+| 3. Panel | [Full blood count (panel)](Observation-ExampleFbcPanel.html) | [MY Core Laboratory Result](StructureDefinition-observation-lab-my-core.html) |
+| 3a. | [Haemoglobin](Observation-ExampleHaemoglobin.html) · [Haematocrit](Observation-ExampleHaematocrit.html) · [White cells](Observation-ExampleWhiteCells.html) · [Platelets](Observation-ExamplePlatelets.html) | the four analytes the panel groups |
 | 4. Report | [Full blood count report](DiagnosticReport-ExampleFbcReport.html) | [MY Core Laboratory Report](StructureDefinition-diagnosticreport-lab-my-core.html) |
 
-**What to look at.** A full blood count is ordered as a panel, so the order and the report both carry the national panel code `H-P1` in the panel slice, with LOINC `58410-2` alongside it. The haemoglobin result carries the national test code `H-T187` and LOINC `718-7` the same way. Every orderable test has a national code; a missing LOINC mapping is not a conformance failure.
+**What to look at.** A full blood count is ordered as one thing and resulted as many. The order and the report carry the national panel code `H-P1` with LOINC `58410-2` alongside it. The panel Observation carries no value of its own; the measured analytes hang off `hasMember`.
+
+Compare the four analytes. Haematocrit, white cells and platelets each carry a national code and a LOINC code side by side. **Haemoglobin carries the national code alone**, because the published ConceptMap has no LOINC mapping for `H-T187` — twenty-five of the other twenty-six panel members do have one, so that gap looks like a missing row in the source mapping rather than a decision. It is on the review agenda, and it is also the clearest possible demonstration that a missing LOINC mapping is not a conformance failure.
 
 ## Radiology
 
