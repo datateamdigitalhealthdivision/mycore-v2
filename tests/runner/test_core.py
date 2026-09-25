@@ -68,6 +68,16 @@ class CollectTest(unittest.TestCase):
         _, problems = core.collect(self.generated, self.tests)
         self.assertEqual(len(problems), 2)
 
+    def test_sidecar_with_invalid_json_is_a_problem(self):
+        (self.tests / "negative").mkdir(parents=True, exist_ok=True)
+        (self.tests / "negative" / "x.json").write_text(json.dumps({"id": "x"}), encoding="utf-8")
+        (self.tests / "negative" / "x.expect.json").write_text("{not json", encoding="utf-8")
+        fixtures, problems = core.collect(self.generated, self.tests)
+        self.assertEqual(fixtures, [])
+        self.assertEqual(len(problems), 1)
+        self.assertIn("invalid JSON", problems[0])
+        self.assertIn("x.expect.json", problems[0])
+
 
 class ParseOutcomesTest(unittest.TestCase):
     def outcome(self, name, issues):

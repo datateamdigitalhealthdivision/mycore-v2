@@ -74,7 +74,11 @@ def collect(generated_dir: Path, tests_dir: Path, extra_dirs=()) -> tuple[list[F
         if not sidecar_path.exists():
             problems.append(f"negative fixture has no sidecar: {path}")
             continue
-        sidecar = json.loads(sidecar_path.read_text(encoding="utf-8"))
+        try:
+            sidecar = json.loads(sidecar_path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError as exc:
+            problems.append(f"{sidecar_path}: invalid JSON ({exc})")
+            continue
         problems.extend(f"{sidecar_path}: {p}" for p in check_sidecar(sidecar))
         fixtures.append(Fixture(path, "negative", sidecar))
     if negative_dir.is_dir():
