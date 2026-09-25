@@ -46,3 +46,6 @@ MEDSTATEMENT-MEDICATION,cardinality,MyCoreMedicationStatement,medication[x],,D-0
 ENDPOINT-DICOMWEB,cardinality,MyCoreEndpointDicomWeb,address / payloadType,,,UNTESTED
 MHD-AUDIT,cardinality,MyCoreMhdSubmissionSet / MyCoreAuditEvent,identifier / source,,,UNTESTED
 LOCATION-MANAGING-ORG,cardinality,MyCoreLocation,managingOrganization,,D-007,UNTESTED
+PAT-NRIC-SLICE,slice,MyCorePatient,identifier[nric],,D-001,UNTESTED: slice discrimination (system and type) not tested separately from the format invariant
+RAD-REPORT-FILLER,slice,MyCoreDiagnosticReportImaging,identifier[fillerReport],,,UNTESTED
+RAD-REPORT-ACCESSION-SYSTEM,cardinality,MyCoreDiagnosticReportImaging,identifier[accession].system,,D-025,UNTESTED

@@ -49,7 +49,7 @@ The national imaging lists are superseded for new implementations and remain pub
 
 ### Conformance testing
 
-- A self-test suite ships in `tests/`: 34 negative tests, one per Malaysian-specific rule, and 6 positive payloads alongside the guide's 21 examples. `tests/coverage.csv` lists every rule and whether a test covers it.
+- A self-test suite ships in `tests/`: 34 negative tests, each covering one Malaysian-specific rule (34 of the 50 rules in the register), and 6 positive payloads alongside the guide's 21 examples. `tests/coverage.csv` lists every rule and whether a test covers it.
 - The suite runs the HL7 FHIR Validator on every change to the guide, and each release attaches it as `my-core-conformance-tests.zip` for vendors to run against their own payloads.
 - **Fix:** the Patient passport invariant `my-passport-namespace` used a character escape that FHIRPath rejects, so every passport identifier failed validation. The expression now writes the dot as `[.]`; the rule it enforces is unchanged.
 

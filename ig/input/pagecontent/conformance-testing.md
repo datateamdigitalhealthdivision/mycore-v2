@@ -6,7 +6,7 @@ MY Core 2.1 ships a self-test suite in the repository's `tests/` folder and as `
 
 The suite checks three things:
 
-- every example in this guide validates with no errors;
+- in the repository, every example in this guide validates with no errors;
 - six further valid payloads, covering variants the examples do not show, validate with no errors;
 - 34 invalid payloads each produce the specific error or warning the guide requires.
 
@@ -16,7 +16,7 @@ Every invalid payload targets one rule Malaysia adds on top of base FHIR: an ide
 
 Most bindings in MY Core are extensible. A code from outside an extensible value set is reported as a **warning**, not an error, because the guide allows another code when no suitable one exists. A code that does not exist in its code system, such as a LOINC code that LOINC does not define, is an **error** whatever the binding strength. Required bindings, fixed values, cardinalities and invariants produce errors.
 
-A payload conforms when validation reports no errors. Review warnings: each one marks a place where the payload departs from the national terminology.
+A payload conforms when validation reports no errors. Review warnings: most mark a place where the payload departs from the national terminology or from a best-practice recommendation.
 
 ## Running the suite against your own payloads
 

@@ -14,13 +14,14 @@ Self-test suite for MY Core 2.1. It validates payloads with the HL7 FHIR Validat
 | `.tx-cache/` | Cached terminology server responses. |
 | `archive/v2.0/` | The retired v2.0 starter pack. Not run. |
 
-In the repository, the guide's own examples in `ig/fsh-generated/resources/` are validated as positives too.
+In the repository, the guide's own examples in `ig/fsh-generated/resources/` are validated as positives too. An example is picked up when its `id` starts with `Example`, the convention every FSH example in this guide follows.
 
 ## Requirements
 
 - Java 17 or later. Set `JAVA` if the `java` on your path is older.
 - Python 3.10 or later, standard library only.
 - Network access to download the validator once, and to reach `tx.fhir.org` for codes not in the cache.
+- The committed cache covers the codes in the shipped fixtures. Codes it does not hold, including those in your own payloads, are resolved live.
 
 ## Running
 
@@ -30,13 +31,15 @@ Against a released package, with your own payloads:
 python3 tests/run-tests.py --package package.tgz --extra path/to/your/payloads
 ```
 
+Each payload must declare its MY Core profile in `meta.profile`; without it the validator checks base FHIR only.
+
 In the repository, after building the guide with `cd ig && ./scripts/build.sh`:
 
 ```bash
 python3 tests/run-tests.py
 ```
 
-Without a full Publisher build, after `cd ig && ./scripts/validate.sh`:
+Without a full Publisher build, generate the SUSHI output first with `cd ig && HOME="$(cd .. && pwd)" node_modules/.bin/sushi .` (`scripts/validate.sh` also works but rewrites tracked migrated resources):
 
 ```bash
 python3 tests/run-tests.py --from-source
@@ -50,7 +53,7 @@ Other options:
 
 ## Reading the result
 
-The runner prints PASS or FAIL per file, the reason for each failure and a summary, and exits non-zero if anything failed. `tests/report.json` holds every issue the validator reported. A positive passes with warnings. Review them: each marks a departure from the national terminology.
+The runner prints PASS or FAIL per file, the reason for each failure and a summary, and exits non-zero if anything failed. `tests/report.json` holds every issue the validator reported. A positive passes with warnings. Review them: most mark a departure from the national terminology or a best-practice recommendation.
 
 ## Adding a test
 
