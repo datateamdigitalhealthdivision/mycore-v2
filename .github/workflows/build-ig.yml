@@ -41,6 +41,10 @@ jobs:
       - name: Make scripts executable
         run: chmod +x scripts/*.sh
 
+      - name: Unit-test the conformance runner
+        working-directory: tests
+        run: python3 -m unittest discover -s runner -t .
+
       - name: Validate FSH and page sync
         run: ./scripts/validate.sh
 
@@ -62,10 +66,6 @@ jobs:
         with:
           path: tests/.validator
           key: validator-${{ hashFiles('tests/validator.version') }}
-
-      - name: Unit-test the conformance runner
-        working-directory: tests
-        run: python3 -m unittest discover -s runner -t .
 
       - name: Run conformance tests
         working-directory: .
