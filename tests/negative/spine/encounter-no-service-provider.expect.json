@@ -1,0 +1,12 @@
+{
+  "rule": "ENC-SERVICE-PROVIDER",
+  "description": "Encounter.serviceProvider is mandatory.",
+  "decision": "",
+  "expect": [
+    {
+      "severity": "error",
+      "path": "Encounter",
+      "message": "Encounter.serviceProvider: minimum required = 1"
+    }
+  ]
+}

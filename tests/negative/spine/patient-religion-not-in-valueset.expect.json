@@ -1,0 +1,12 @@
+{
+  "rule": "PAT-RELIGION-BINDING",
+  "description": "PROVISIONAL: religion is required-bound to the MOH religion value set; the HL7 v3 code is not accepted.",
+  "decision": "D-004",
+  "expect": [
+    {
+      "severity": "error",
+      "path": "Patient.extension[1].value.ofType(CodeableConcept)",
+      "message": "religion-my-core"
+    }
+  ]
+}

@@ -1,22 +1,70 @@
-# Test Assets
+# MY Core Conformance Tests
 
-This directory contains the starter MY Core v2.0 conformance pack.
+Self-test suite for MY Core 2.1. It validates payloads with the HL7 FHIR Validator and checks each result against what the guide requires. The guide's Conformance Testing page explains the approach.
 
-## Structure
+## Layout
 
-- `fhir/`: starter positive FHIR instances aligned to the baseline profiles
-- `negative-tests/`: starter invalid payloads expected to fail validation or business checks
-- `sample-payloads/`: composite bundles for onboarding and workshop use
-- `workflow-scenarios/`: human-readable scenarios and acceptance notes
+| Path | Contents |
+| --- | --- |
+| `positive/` | Valid payloads, by use case. Each must validate with no errors. |
+| `negative/` | Invalid payloads, each with a `.expect.json` naming the issue it must produce. |
+| `coverage.csv` | Every Malaysian-specific rule, the test covering it, and the rules not yet covered. |
+| `run-tests.py` | The runner. `runner/` holds its code and unit tests. |
+| `validator.version` | The pinned HL7 FHIR Validator version. |
+| `.tx-cache/` | Cached terminology server responses. |
+| `archive/v2.0/` | The retired v2.0 starter pack. Not run. |
 
-## Current coverage
+In the repository, the guide's own examples in `ig/fsh-generated/resources/` are validated as positives too. An example is picked up when its `id` starts with `Example`, the convention every FSH example in this guide follows.
 
-The current draft covers representative patient, practitioner, organisation, encounter, observation, device, medication, immunisation, service request, and questionnaire examples, plus starter negative cases for missing required elements, invalid references, invalid terminology, and invalid questionnaire content.
+## Requirements
 
-## Error handling expectation
+- Java 17 or later. Set `JAVA` if the `java` on your path is older.
+- Python 3.10 or later, standard library only.
+- Network access to download the validator once, and to reach `tx.fhir.org` for codes not in the cache.
+- The committed cache covers the codes in the shipped fixtures. Codes it does not hold, including those in your own payloads, are resolved live.
 
-Receiving systems should respond to invalid payloads with a meaningful FHIR `OperationOutcome`.
+## Running
 
-## Growth path
+Against a released package, with your own payloads:
 
-These assets are intended to grow into a more automated national validation harness over time.
+```bash
+python3 tests/run-tests.py --package package.tgz --extra path/to/your/payloads
+```
+
+Each payload must declare its MY Core profile in `meta.profile`; without it the validator checks base FHIR only.
+
+In the repository, after building the guide with `cd ig && ./scripts/build.sh`:
+
+```bash
+python3 tests/run-tests.py
+```
+
+Without a full Publisher build, generate the SUSHI output first with `cd ig && HOME="$(cd .. && pwd)" node_modules/.bin/sushi .` (`scripts/validate.sh` also works but rewrites tracked migrated resources):
+
+```bash
+python3 tests/run-tests.py --from-source
+```
+
+Other options:
+
+- `--only 'patient-*'` runs the files whose name matches.
+- `--refresh-tx` clears the terminology cache and resolves every code live.
+- `--tx URL`, or the `TX_URL` variable, selects another terminology server.
+
+## Reading the result
+
+The runner prints PASS or FAIL per file, the reason for each failure and a summary, and exits non-zero if anything failed. `tests/report.json` holds every issue the validator reported. A positive passes with warnings. Review them: most mark a departure from the national terminology or a best-practice recommendation.
+
+## Adding a test
+
+1. Copy a valid payload and make exactly one change, so the expected issue is the only defect.
+2. Save it as `negative/<use case>/<name>.json` with `id` set to `<name>`.
+3. Write `<name>.expect.json` with `rule`, `description`, `decision` and one `expect` entry:
+   - `severity`: `error` or `warning`
+   - `path`: the validator's FHIRPath expression, matched exactly
+   - `message`: a fragment of the validator's message, matched case-insensitively
+4. Run `python3 tests/run-tests.py --from-source --only '<name>*'`. On failure the runner prints the issues the validator did report.
+5. Add or update the rule's row in `coverage.csv`.
+6. Commit the fixture, its sidecar and any new files under `.tx-cache/`. CI reads the cache and never writes it back.
+
+Prefix the description with `PROVISIONAL:` when the rule traces to a decision still under review in `mappings/v2.1-decision-register.csv`.

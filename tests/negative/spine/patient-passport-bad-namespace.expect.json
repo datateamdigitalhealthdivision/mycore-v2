@@ -1,0 +1,12 @@
+{
+  "rule": "PAT-PASSPORT-NAMESPACE",
+  "description": "PROVISIONAL: a passport must use the HL7 per-country namespace http://hl7.org/fhir/sid/passport-XXX.",
+  "decision": "D-001",
+  "expect": [
+    {
+      "severity": "error",
+      "path": "Patient.identifier[2].system",
+      "message": "my-passport-namespace"
+    }
+  ]
+}

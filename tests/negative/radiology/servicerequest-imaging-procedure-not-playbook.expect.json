@@ -1,0 +1,12 @@
+{
+  "rule": "RAD-PROCEDURE-BINDING",
+  "description": "Imaging procedures are extensibly bound to the LOINC/RSNA Playbook; a laboratory LOINC raises a warning.",
+  "decision": "",
+  "expect": [
+    {
+      "severity": "warning",
+      "path": "ServiceRequest.code",
+      "message": "radiology-procedure-my-core"
+    }
+  ]
+}

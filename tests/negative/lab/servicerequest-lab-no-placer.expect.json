@@ -1,0 +1,12 @@
+{
+  "rule": "LAB-ORDER-PLACER",
+  "description": "A laboratory order must carry a placer order number (type PLAC).",
+  "decision": "",
+  "expect": [
+    {
+      "severity": "error",
+      "path": "ServiceRequest",
+      "message": "ServiceRequest.identifier:placerOrder"
+    }
+  ]
+}

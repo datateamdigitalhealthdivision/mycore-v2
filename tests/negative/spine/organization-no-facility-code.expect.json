@@ -1,0 +1,12 @@
+{
+  "rule": "ORG-FACILITY-SLICE",
+  "description": "An organisation must carry a facility code in the national facility namespace.",
+  "decision": "D-010",
+  "expect": [
+    {
+      "severity": "error",
+      "path": "Organization",
+      "message": "Organization.identifier:facilityCode"
+    }
+  ]
+}

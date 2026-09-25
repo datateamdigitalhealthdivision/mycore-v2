@@ -1,0 +1,27 @@
+{
+  "resourceType": "Organization",
+  "id": "organization-no-facility-code",
+  "meta": {
+    "profile": [
+      "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/organization-my-core"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://id.kkmhub.moh.gov.my/organization",
+      "value": "11-10040013"
+    }
+  ],
+  "name": "Hospital Tengku Ampuan Rahimah",
+  "type": [
+    {
+      "coding": [
+        {
+          "code": "state-hospital",
+          "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/facility-type-my-core",
+          "display": "State Hospital"
+        }
+      ]
+    }
+  ]
+}

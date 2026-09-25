@@ -1,0 +1,12 @@
+{
+  "rule": "LAB-OBS-UCUM",
+  "description": "PROVISIONAL: laboratory quantities must use UCUM (http://unitsofmeasure.org).",
+  "decision": "D-020",
+  "expect": [
+    {
+      "severity": "error",
+      "path": "Observation.value.ofType(Quantity).system",
+      "message": "fixed to 'http://unitsofmeasure.org'"
+    }
+  ]
+}

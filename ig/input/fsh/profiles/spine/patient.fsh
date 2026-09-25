@@ -140,7 +140,9 @@ Description: "A JPN national registration number is exactly 12 digits with no se
 Expression: "$this.matches('^[0-9]{12}$')"
 Severity:   #error
 
+// FHIRPath string literals do not accept the escape \. (the Validator rejects it), so a
+// literal dot is written as the character class [.]. The rule enforced is unchanged.
 Invariant: my-passport-namespace
 Description: "Passport identifier.system SHALL be an HL7-published per-country passport namespace."
-Expression: "$this.matches('^http://hl7\\.org/fhir/sid/passport-[A-Z]{3}$')"
+Expression: "$this.matches('^http://hl7[.]org/fhir/sid/passport-[A-Z]{3}$')"
 Severity:   #error

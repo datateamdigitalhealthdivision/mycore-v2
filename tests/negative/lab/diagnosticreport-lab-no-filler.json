@@ -1,0 +1,78 @@
+{
+  "resourceType": "DiagnosticReport",
+  "id": "diagnosticreport-lab-no-filler",
+  "meta": {
+    "profile": [
+      "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/diagnosticreport-lab-my-core"
+    ]
+  },
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "code": "PLAC",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+          }
+        ]
+      },
+      "system": "https://id.kkmhub.moh.gov.my/order/11-10040013",
+      "value": "LABRPT-2026-778812"
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-panel-my-core",
+        "code": "H-P1",
+        "display": "Full Blood Count - Automated Count"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "58410-2",
+        "display": "CBC panel - Blood by Automated count"
+      }
+    ],
+    "text": "Full Blood Count"
+  },
+  "basedOn": [
+    {
+      "reference": "ServiceRequest/ExampleLabOrder"
+    }
+  ],
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "HM",
+          "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+          "display": "Hematology"
+        }
+      ]
+    }
+  ],
+  "subject": {
+    "reference": "Patient/ExamplePatient"
+  },
+  "encounter": {
+    "reference": "Encounter/ExampleAdmission"
+  },
+  "issued": "2026-08-24T13:05:00+08:00",
+  "performer": [
+    {
+      "reference": "Organization/ExampleHospital"
+    }
+  ],
+  "specimen": [
+    {
+      "reference": "Specimen/ExampleSpecimen"
+    }
+  ],
+  "result": [
+    {
+      "reference": "Observation/ExampleFbcPanel"
+    }
+  ],
+  "conclusion": "Mild anaemia. Correlate clinically."
+}

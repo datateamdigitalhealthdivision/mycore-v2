@@ -1,0 +1,42 @@
+{
+  "resourceType": "Observation",
+  "meta": {
+    "profile": [
+      "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/observation-vitals-my-core"
+    ]
+  },
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "8867-4",
+        "display": "Heart rate"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/ExamplePatient"
+  },
+  "encounter": {
+    "reference": "Encounter/ExampleAdmission"
+  },
+  "effectiveDateTime": "2026-08-24T09:30:00+08:00",
+  "valueQuantity": {
+    "value": 88,
+    "unit": "beats/minute",
+    "system": "http://unitsofmeasure.com",
+    "code": "/min"
+  },
+  "id": "observation-vitals-not-ucum"
+}

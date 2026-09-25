@@ -1,0 +1,12 @@
+{
+  "rule": "ADT-SECTION-BINDING",
+  "description": "PROVISIONAL: ADT note sections are required-bound to the eleven MyHIX LOINC section codes.",
+  "decision": "D-013",
+  "expect": [
+    {
+      "severity": "error",
+      "path": "Composition.section[1].code",
+      "message": "adt-section-code-my-core"
+    }
+  ]
+}

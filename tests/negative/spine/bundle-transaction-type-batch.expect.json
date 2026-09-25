@@ -1,0 +1,12 @@
+{
+  "rule": "BUNDLE-TRANSACTION-TYPE",
+  "description": "A transaction bundle must have type transaction.",
+  "decision": "",
+  "expect": [
+    {
+      "severity": "error",
+      "path": "Bundle.type",
+      "message": "fixed to 'transaction'"
+    }
+  ]
+}

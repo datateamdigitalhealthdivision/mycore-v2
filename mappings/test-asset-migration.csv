@@ -1,0 +1,32 @@
+v2_0_asset,v2_1_successor,status,note
+tests/README.md,tests/README.md,rewritten,Now the vendor guide to the 2.1 suite
+tests/fhir/Patient-my-core-example.json,ig example ExamplePatient; tests/positive/adt/patient-passport.json,superseded,v2.0 canonical Patient-my-core replaced by patient-my-core
+tests/fhir/Organization-my-core-example.json,ig example ExampleHospital,superseded,
+tests/fhir/Practitioner-my-core-example.json,ig example ExampleDoctor,superseded,
+tests/fhir/PractitionerRole-my-core-example.json,,retired,Profile still published in 2.1 but has no example or test yet
+tests/fhir/Encounter-my-core-example.json,ig example ExampleAdmission; tests/positive/adt/encounter-onleave.json,superseded,
+tests/fhir/ServiceRequest-my-core-example.json,ig examples ExampleLabOrder and ExampleImagingOrder,superseded,
+tests/fhir/Observation-height-my-core-example.json,tests/positive/adt/observation-vitals-heart-rate.json,superseded,2.1 has one vital signs profile
+tests/fhir/Device-my-core-example.json,,out-of-scope,Device is not profiled in 2.1
+tests/fhir/Immunization-my-core-example.json,,out-of-scope,Immunisation is not a 2.1 use case
+tests/fhir/Medication-my-core-example.json,,out-of-scope,Medication is not profiled in 2.1
+tests/fhir/MedicationRequest-my-core-example.json,,out-of-scope,MedicationRequest is not profiled in 2.1
+tests/fhir/Questionnaire-example.json,,out-of-scope,Programme questionnaires are outside the core vendor entry path
+tests/negative-tests/patient-missing-identifier.json,,retired,Patient.identifier 1..* is enforced by the profile but has no dedicated 2.1 test
+tests/negative-tests/duplicate-identifier-pattern-misuse.json,tests/negative/spine/patient-mrn-no-system.json,superseded,Identifier slicing is now tested per slice
+tests/negative-tests/expected-operationoutcome-example.json,tests/README.md,retired,The runner reports validator OperationOutcomes in tests/report.json
+tests/negative-tests/invalid-terminology-binding-servicerequest.json,tests/negative/radiology/servicerequest-imaging-procedure-not-playbook.json,superseded,
+tests/negative-tests/medicationrequest-missing-subject.json,,out-of-scope,MedicationRequest is not profiled in 2.1
+tests/negative-tests/observation-invalid-unit-coding.json,tests/negative/lab/observation-lab-not-ucum.json,superseded,
+tests/negative-tests/practitionerrole-invalid-organization-reference.json,,retired,Reference resolution is not checked by the payload suite
+tests/negative-tests/questionnaireresponse-invalid-linkid.json,,out-of-scope,Programme questionnaires are outside the core vendor entry path
+tests/sample-payloads/README.md,,retired,
+tests/sample-payloads/my-core-registration-bundle.json,,retired,Registration workflow is not a 2.1 use case
+tests/sample-payloads/my-core-encounter-workflow-bundle.json,ig example ExampleAdtDocument,superseded,The ADT use case is a document bundle
+tests/workflow-scenarios/01-patient-registration-and-demographic-update.md,,retired,Workflow scenarios are outside the 2.1 suite
+tests/workflow-scenarios/02-organisation-and-provider-registration.md,,retired,Workflow scenarios are outside the 2.1 suite
+tests/workflow-scenarios/03-outpatient-appointment-booking.md,,out-of-scope,Appointments are not a 2.1 use case
+tests/workflow-scenarios/04-encounter-and-observation-recording.md,,retired,Workflow scenarios are outside the 2.1 suite
+tests/workflow-scenarios/05-medication-ordering.md,,out-of-scope,Medication ordering is not a 2.1 use case
+tests/workflow-scenarios/06-immunisation-recording.md,,out-of-scope,Immunisation is not a 2.1 use case
+tests/workflow-scenarios/07-programme-questionnaire-submission.md,,out-of-scope,Programme questionnaires are outside the core vendor entry path

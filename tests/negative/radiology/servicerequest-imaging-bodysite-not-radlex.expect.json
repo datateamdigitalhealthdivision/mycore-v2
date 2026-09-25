@@ -1,0 +1,12 @@
+{
+  "rule": "RAD-BODYSITE-BINDING",
+  "description": "Imaging body site is extensibly bound to RadLex anatomy; SNOMED CT raises a warning.",
+  "decision": "",
+  "expect": [
+    {
+      "severity": "warning",
+      "path": "ServiceRequest.bodySite[0]",
+      "message": "radlex-anatomy-my-core"
+    }
+  ]
+}

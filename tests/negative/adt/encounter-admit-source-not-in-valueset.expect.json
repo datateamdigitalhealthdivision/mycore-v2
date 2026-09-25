@@ -1,0 +1,12 @@
+{
+  "rule": "ADT-ADMIT-SOURCE-BINDING",
+  "description": "PROVISIONAL: admit source is extensibly bound to HL7 admit-source; a SNOMED CT code raises a warning.",
+  "decision": "D-015",
+  "expect": [
+    {
+      "severity": "warning",
+      "path": "Encounter.hospitalization.admitSource",
+      "message": "encounter-admit-source"
+    }
+  ]
+}

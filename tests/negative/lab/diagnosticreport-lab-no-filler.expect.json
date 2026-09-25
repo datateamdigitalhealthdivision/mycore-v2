@@ -1,0 +1,12 @@
+{
+  "rule": "LAB-REPORT-FILLER",
+  "description": "A laboratory report must carry a filler report number (type FILL).",
+  "decision": "",
+  "expect": [
+    {
+      "severity": "error",
+      "path": "DiagnosticReport",
+      "message": "DiagnosticReport.identifier:fillerReport"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "rule": "ADT-COMPOSITION-ENCOUNTER",
+  "description": "An ADT note must reference its encounter.",
+  "decision": "",
+  "expect": [
+    {
+      "severity": "error",
+      "path": "Composition",
+      "message": "Composition.encounter: minimum required = 1"
+    }
+  ]
+}
