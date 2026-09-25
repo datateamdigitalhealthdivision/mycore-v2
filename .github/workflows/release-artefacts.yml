@@ -49,9 +49,16 @@ jobs:
       - name: Archive rendered guide
         run: tar -czf my-core-ig-output.tgz output
 
+      - name: Package conformance tests
+        working-directory: .
+        run: >-
+          zip -r ig/my-core-conformance-tests.zip tests
+          -x 'tests/archive/*' 'tests/report.json' 'tests/validator.log' 'tests/.validator/*' '*/__pycache__/*'
+
       - name: Create GitHub release
         uses: softprops/action-gh-release@v2
         with:
           files: |
             ig/output/package.tgz
+            ig/my-core-conformance-tests.zip
             ig/my-core-ig-output.tgz
