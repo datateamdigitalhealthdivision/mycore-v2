@@ -108,7 +108,8 @@ test are listed with an empty `test_id`.
 Python 3 standard library only, matching `ig/scripts/`. Requires Java 17 and a built
 `ig/output/package.tgz`.
 
-1. **Validator.** Download the version in `tests/validator.version` to `ig/input-cache/` if absent.
+1. **Validator.** Download the version in `tests/validator.version` to `tests/.validator/` (git-ignored) if
+   absent, so the vendor pack works outside the repository.
 2. **Collect.** Positives: `ig/fsh-generated/resources/*.json` whose `id` starts with `Example`, plus
    `tests/positive/**/*.json`, plus any `--extra` directories. Negatives: `tests/negative/**/*.json`
    excluding `*.expect.json`.
@@ -126,8 +127,10 @@ Python 3 standard library only, matching `ig/scripts/`. Requires Java 17 and a b
 6. **Exit** 0 only when every fixture passes.
 
 Options: `--only <glob>`, `--refresh-tx` (clear the cache and resolve live), `--package <path>`,
-`--extra <dir>` (repeatable, validated as positives). Vendors run
-`run-tests.py --package <published package.tgz> --extra <their payloads>`.
+`--extra <dir>` (repeatable, validated as positives), and `--from-source` (validate against
+`ig/fsh-generated/resources`, `ig/input/resources-managed`, `ig/input/resources-legacy-migrated` and the
+pinned `sushi-config.yaml` dependencies instead of a package, for local runs without a Publisher build).
+Vendors run `run-tests.py --package <published package.tgz> --extra <their payloads>`.
 
 ### 3. CI gate and terminology cache
 
@@ -195,6 +198,6 @@ so the freshly built `package.tgz` is reused:
 
 ## Open items
 
-- **TO BE CONFIRMED:** exact Validator CLI flag names for the terminology cache and output format,
-  taken from the pinned jar's `-help` at implementation time.
+- **RESOLVED:** Validator 6.10.4 flags confirmed from `-help`: `-ig`, `-tx`, `-txCache`, `-clear-tx-cache`,
+  `-output`. Its exit code is 0 even when files have errors, so the runner reads `-output`.
 - **TO BE CONFIRMED:** branch protection making `build` a required check (maintainer action).
