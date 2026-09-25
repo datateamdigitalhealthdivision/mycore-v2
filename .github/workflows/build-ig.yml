@@ -56,3 +56,28 @@ jobs:
             ig/fsh-generated/resources
           if-no-files-found: error
           retention-days: 30
+
+      - name: Cache validator
+        uses: actions/cache@v6
+        with:
+          path: tests/.validator
+          key: validator-${{ hashFiles('tests/validator.version') }}
+
+      - name: Unit-test the conformance runner
+        working-directory: tests
+        run: python3 -m unittest discover -s runner -t .
+
+      - name: Run conformance tests
+        working-directory: .
+        run: python3 tests/run-tests.py
+
+      - name: Upload conformance report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: conformance-report
+          path: |
+            tests/report.json
+            tests/validator.log
+          if-no-files-found: ignore
+          retention-days: 30
