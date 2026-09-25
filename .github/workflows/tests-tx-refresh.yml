@@ -1,0 +1,84 @@
+name: Refresh terminology cache
+
+on:
+  schedule:
+    - cron: "0 1 * * 1" # Mondays 01:00 UTC, 09:00 in Malaysia
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ig
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Node dependencies
+        run: npm ci
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+
+      - name: Install Jekyll
+        run: gem install bundler jekyll
+
+      - name: Make scripts executable
+        run: chmod +x scripts/*.sh
+
+      - name: Build implementation guide
+        run: ./scripts/build.sh
+
+      # Clears tests/.tx-cache and resolves every code live. A failure here means an
+      # external terminology change broke an assumption; investigate, do not rerun blindly.
+      - name: Run conformance tests against live terminology
+        working-directory: .
+        run: python3 tests/run-tests.py --refresh-tx
+
+      - name: Upload conformance report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: conformance-report-live-tx
+          path: |
+            tests/report.json
+            tests/validator.log
+          if-no-files-found: ignore
+          retention-days: 30
+
+      - name: Open a pull request when the cache changed
+        working-directory: .
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git add tests/.tx-cache
+          if git diff --cached --quiet; then
+            echo "Terminology cache unchanged."
+            exit 0
+          fi
+          branch="chore/tx-cache-$(date -u +%Y%m%d)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$branch"
+          git commit -m "Refresh terminology cache"
+          git push origin "$branch"
+          gh pr create --base main --head "$branch" --title "Refresh terminology cache" \
+            --body "The weekly run of \`tests/run-tests.py --refresh-tx\` passed against live terminology and changed \`tests/.tx-cache/\`."
