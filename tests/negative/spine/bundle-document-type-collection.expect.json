@@ -1,0 +1,12 @@
+{
+  "rule": "BUNDLE-DOCUMENT-TYPE",
+  "description": "A document bundle must have type document.",
+  "decision": "D-011",
+  "expect": [
+    {
+      "severity": "error",
+      "path": "Bundle.type",
+      "message": "fixed to 'document'"
+    }
+  ]
+}

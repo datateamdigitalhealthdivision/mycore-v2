@@ -1,0 +1,66 @@
+{
+  "resourceType": "Observation",
+  "id": "observation-lab-national-code-unknown",
+  "meta": {
+    "profile": [
+      "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/observation-lab-my-core"
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "laboratory",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "code": "H-T99999",
+        "display": "Hemoglobin"
+      }
+    ],
+    "text": "Haemoglobin"
+  },
+  "valueQuantity": {
+    "system": "http://unitsofmeasure.org",
+    "value": 10.2,
+    "unit": "g/dL",
+    "code": "g/dL"
+  },
+  "status": "final",
+  "subject": {
+    "reference": "Patient/ExamplePatient"
+  },
+  "effectiveDateTime": "2026-08-24T10:42:00+08:00",
+  "interpretation": [
+    {
+      "coding": [
+        {
+          "code": "L",
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+          "display": "Low"
+        }
+      ]
+    }
+  ],
+  "specimen": {
+    "reference": "Specimen/ExampleSpecimen"
+  },
+  "referenceRange": [
+    {
+      "low": {
+        "value": 12,
+        "unit": "g/dL"
+      },
+      "high": {
+        "value": 15,
+        "unit": "g/dL"
+      }
+    }
+  ]
+}

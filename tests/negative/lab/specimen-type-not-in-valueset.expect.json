@@ -1,0 +1,12 @@
+{
+  "rule": "LAB-SPECIMEN-TYPE-BINDING",
+  "description": "PROVISIONAL: specimen type is extensibly bound to the national list; SNOMED CT alone raises a warning.",
+  "decision": "D-022",
+  "expect": [
+    {
+      "severity": "warning",
+      "path": "Specimen.type",
+      "message": "specimen-type-my-core"
+    }
+  ]
+}

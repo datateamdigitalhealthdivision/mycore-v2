@@ -1,0 +1,12 @@
+{
+  "rule": "RAD-REPORT-INTERPRETER",
+  "description": "An imaging report must name the reporting radiologist.",
+  "decision": "",
+  "expect": [
+    {
+      "severity": "error",
+      "path": "DiagnosticReport",
+      "message": "DiagnosticReport.resultsInterpreter: minimum required = 1"
+    }
+  ]
+}

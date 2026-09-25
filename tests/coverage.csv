@@ -1,0 +1,48 @@
+rule_id,kind,profile,element,test_id,decision_id,note
+ADT-COMPOSITION-ENCOUNTER,cardinality,MyCoreAdtComposition,encounter,negative/adt/composition-no-encounter,,
+ADT-SECTION-BINDING,required-binding,MyCoreAdtComposition,section.code,negative/adt/composition-section-code-not-in-valueset,D-013,Register D-013 records an extensible binding; adt-composition.fsh binds required. Test follows the FSH.
+ADT-ADMIT-SOURCE-BINDING,extensible-binding,MyCoreEncounterAdmission,hospitalization.admitSource,negative/adt/encounter-admit-source-not-in-valueset,D-015,
+ADT-DISCHARGE-BINDING,extensible-binding,MyCoreEncounterAdmission,hospitalization.dischargeDisposition,negative/adt/encounter-discharge-disposition-not-in-valueset,D-014,
+VITALS-UCUM,fixed-value,MyCoreObservationVitals,valueQuantity.system,negative/adt/observation-vitals-not-ucum,D-017,
+LAB-REPORT-FILLER,slice,MyCoreDiagnosticReportLab,identifier[fillerReport],negative/lab/diagnosticreport-lab-no-filler,,
+LAB-REPORT-PERFORMER,cardinality,MyCoreDiagnosticReportLab,performer,negative/lab/diagnosticreport-lab-no-performer,,
+LAB-OBS-CATEGORY,fixed-value,MyCoreObservationLabResult,category,negative/lab/observation-lab-category-not-laboratory,,
+LAB-LOINC-CODE,code-validity,MyCoreObservationLabResult,code.coding[loinc],negative/lab/observation-lab-loinc-code-unknown,,
+LAB-NATIONAL-CODE,code-validity,MyCoreObservationLabResult,code.coding[national],negative/lab/observation-lab-national-code-unknown,,
+LAB-OBS-UNIT-CODE,cardinality,MyCoreObservationLabResult,valueQuantity.code,negative/lab/observation-lab-no-unit-code,D-020,
+LAB-OBS-UCUM,fixed-value,MyCoreObservationLabResult,valueQuantity.system,negative/lab/observation-lab-not-ucum,D-020,
+LAB-ORDER-PLACER,slice,MyCoreServiceRequestLab,identifier[placerOrder],negative/lab/servicerequest-lab-no-placer,,
+LAB-SPECIMEN-TYPE-BINDING,extensible-binding,MyCoreSpecimen,type,negative/lab/specimen-type-not-in-valueset,D-022,
+LAB-TASK-BUSINESS-STATUS,extensible-binding,MyCoreTaskLab,businessStatus,negative/lab/task-lab-business-status-not-in-valueset,D-023,
+RAD-REPORT-INTERPRETER,cardinality,MyCoreDiagnosticReportImaging,resultsInterpreter,negative/radiology/diagnosticreport-imaging-no-results-interpreter,,
+RAD-SERIES-BODYSITE-BINDING,extensible-binding,MyCoreImagingStudy,series.bodySite,negative/radiology/imagingstudy-series-bodysite-not-radlex,,
+RAD-ACCESSION-SYSTEM,cardinality,MyCoreServiceRequestImaging,identifier[accession].system,negative/radiology/servicerequest-imaging-accession-no-system,D-025,
+RAD-BODYSITE-BINDING,extensible-binding,MyCoreServiceRequestImaging,bodySite,negative/radiology/servicerequest-imaging-bodysite-not-radlex,,
+RAD-ORDER-LOINC,slice,MyCoreServiceRequestImaging,code.coding[loinc],negative/radiology/servicerequest-imaging-no-loinc,D-027,
+RAD-PROCEDURE-BINDING,extensible-binding,MyCoreServiceRequestImaging,code,negative/radiology/servicerequest-imaging-procedure-not-playbook,,
+BUNDLE-DOCUMENT-TYPE,fixed-value,MyCoreDocumentBundle,type,negative/spine/bundle-document-type-collection,D-011,
+BUNDLE-TRANSACTION-TYPE,fixed-value,MyCoreTransactionBundle,type,negative/spine/bundle-transaction-type-batch,,
+ENC-SERVICE-PROVIDER,cardinality,MyCoreEncounter,serviceProvider,negative/spine/encounter-no-service-provider,,
+ORG-FACILITY-BINDING,required-binding,MyCoreOrganization,identifier[facilityCode].value,negative/spine/organization-facility-code-unknown,D-010,
+ORG-FACILITY-SLICE,slice,MyCoreOrganization,identifier[facilityCode],negative/spine/organization-no-facility-code,D-010,
+ORG-NAME,cardinality,MyCoreOrganization,name,negative/spine/organization-no-name,,
+PAT-CITIZENSHIP-BINDING,required-binding,MyCorePatient,extension[citizenship].extension[code],negative/spine/patient-citizenship-not-iso3166,,
+PAT-MRN-SYSTEM,cardinality,MyCorePatient,identifier[mrn].system,negative/spine/patient-mrn-no-system,D-001,
+PAT-NAME-TEXT,cardinality,MyCorePatient,name.text,negative/spine/patient-name-no-text,,
+PAT-NRIC-FORMAT,invariant,MyCorePatient,identifier[nric].value,negative/spine/patient-nric-11-digits,,
+PAT-PASSPORT-NAMESPACE,invariant,MyCorePatient,identifier[passport].system,negative/spine/patient-passport-bad-namespace,D-001,Invariant expression fixed in this release: the previous escape made every passport fail.
+PAT-RELIGION-BINDING,required-binding,MyCorePatient,extension[religion],negative/spine/patient-religion-not-in-valueset,D-004,Register D-004 records an extensible binding; patient.fsh binds required. Test follows the FSH.
+PRAC-REGISTRATION-VALUE,cardinality,MyCorePractitioner,identifier[registration].value,negative/spine/practitioner-registration-no-value,,
+PAT-NEWBORN-SLICE,slice,MyCorePatient,identifier[newborn],,D-001,UNTESTED: no newborn example yet
+PAT-FOREIGN-WORKER-SLICE,slice,MyCorePatient,identifier[foreignWorker],,D-001,UNTESTED: no foreign worker example yet
+LAB-REPORT-CATEGORY-BINDING,extensible-binding,MyCoreDiagnosticReportLab,category,,D-021,UNTESTED
+RAD-IMAGINGSTUDY-MODALITY,extensible-binding,MyCoreImagingStudy,series.modality,,D-026,UNTESTED
+RAD-FINDING-CATEGORY,fixed-value,MyCoreObservationImagingFinding,category,,D-029,"UNTESTED: scaffolding profile, annex tier"
+RAD-TASK-IMAGING,cardinality,MyCoreTaskImaging,focus / for,,,UNTESTED: no imaging task example yet
+COND-CODE-SLICES,slice,MyCoreCondition,code.coding[icd11|snomed],,D-008,UNTESTED: decision under review
+DOCREF-CONTENT-TYPE,cardinality,MyCoreDocumentReference,content.attachment.contentType,,,UNTESTED
+ALLERGY-MANIFESTATION,cardinality,MyCoreAllergyIntolerance,reaction.manifestation,,,UNTESTED
+MEDSTATEMENT-MEDICATION,cardinality,MyCoreMedicationStatement,medication[x],,D-016,UNTESTED
+ENDPOINT-DICOMWEB,cardinality,MyCoreEndpointDicomWeb,address / payloadType,,,UNTESTED
+MHD-AUDIT,cardinality,MyCoreMhdSubmissionSet / MyCoreAuditEvent,identifier / source,,,UNTESTED
+LOCATION-MANAGING-ORG,cardinality,MyCoreLocation,managingOrganization,,D-007,UNTESTED

@@ -1,0 +1,12 @@
+{
+  "rule": "LAB-TASK-BUSINESS-STATUS",
+  "description": "PROVISIONAL: lab task business status is extensibly bound to task-status-lab-my-core.",
+  "decision": "D-023",
+  "expect": [
+    {
+      "severity": "warning",
+      "path": "Task.businessStatus",
+      "message": "task-status-lab-my-core"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "resourceType": "Specimen",
+  "id": "specimen-type-not-in-valueset",
+  "meta": {
+    "profile": [
+      "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/specimen-my-core"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://id.kkmhub.moh.gov.my/order/11-10040013",
+      "value": "SPEC-2026-991200"
+    }
+  ],
+  "status": "available",
+  "type": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "119297000",
+        "display": "Blood specimen"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/ExamplePatient"
+  },
+  "receivedTime": "2026-08-24T10:42:00+08:00"
+}

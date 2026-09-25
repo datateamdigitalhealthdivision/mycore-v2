@@ -1,0 +1,12 @@
+{
+  "rule": "LAB-NATIONAL-CODE",
+  "description": "A national pathology code must exist in the Malaysian Pathology Catalogue.",
+  "decision": "",
+  "expect": [
+    {
+      "severity": "error",
+      "path": "Observation.code.coding[0].code",
+      "message": "Unknown code 'H-T99999'"
+    }
+  ]
+}

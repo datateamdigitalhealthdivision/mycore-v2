@@ -1,0 +1,12 @@
+{
+  "rule": "PAT-MRN-SYSTEM",
+  "description": "PROVISIONAL: an MRN must carry its facility namespace in identifier.system.",
+  "decision": "D-001",
+  "expect": [
+    {
+      "severity": "error",
+      "path": "Patient.identifier[1]",
+      "message": "Patient.identifier:mrn.system: minimum required = 1"
+    }
+  ]
+}

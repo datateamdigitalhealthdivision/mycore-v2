@@ -1,0 +1,82 @@
+{
+  "resourceType": "ImagingStudy",
+  "id": "imagingstudy-series-bodysite-not-radlex",
+  "meta": {
+    "profile": [
+      "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/imagingstudy-my-core"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "urn:dicom:uid",
+      "value": "urn:oid:1.2.392.200036.9116.2.6.1.48.1215564027.1642148"
+    },
+    {
+      "system": "https://id.kkmhub.moh.gov.my/accession/11-10040013",
+      "type": {
+        "coding": [
+          {
+            "code": "ACSN",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+          }
+        ]
+      },
+      "value": "11-10040013-20260824-000731"
+    }
+  ],
+  "status": "available",
+  "modality": [
+    {
+      "code": "CR",
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Computed Radiography"
+    }
+  ],
+  "subject": {
+    "reference": "Patient/ExamplePatient"
+  },
+  "encounter": {
+    "reference": "Encounter/ExampleAdmission"
+  },
+  "started": "2026-08-24T10:05:00+08:00",
+  "basedOn": [
+    {
+      "reference": "ServiceRequest/ExampleImagingOrder"
+    }
+  ],
+  "referrer": {
+    "reference": "Practitioner/ExampleDoctor"
+  },
+  "endpoint": [
+    {
+      "reference": "Endpoint/ExamplePacsEndpoint"
+    }
+  ],
+  "numberOfSeries": 1,
+  "numberOfInstances": 2,
+  "procedureCode": [
+    {
+      "coding": [
+        {
+          "code": "42272-5",
+          "system": "http://loinc.org",
+          "display": "XR Chest PA and Lateral"
+        }
+      ]
+    }
+  ],
+  "series": [
+    {
+      "uid": "1.2.392.200036.9116.2.6.1.48.1215564027.1642149",
+      "modality": {
+        "code": "CR",
+        "system": "http://dicom.nema.org/resources/ontology/DCM"
+      },
+      "bodySite": {
+        "system": "http://snomed.info/sct",
+        "code": "51185008",
+        "display": "Thoracic structure"
+      }
+    }
+  ]
+}

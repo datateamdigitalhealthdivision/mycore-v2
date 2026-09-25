@@ -1,0 +1,33 @@
+{
+  "resourceType": "Task",
+  "meta": {
+    "profile": [
+      "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/task-lab-my-core"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://id.kkmhub.moh.gov.my/order/11-10040013",
+      "value": "TASK-2026-778812"
+    }
+  ],
+  "status": "in-progress",
+  "businessStatus": {
+    "coding": [
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/task-business-status-my-core",
+        "code": "dispatch",
+        "display": "Dispatched"
+      }
+    ]
+  },
+  "intent": "order",
+  "focus": {
+    "reference": "ServiceRequest/ExampleLabOrder"
+  },
+  "for": {
+    "reference": "Patient/ExamplePatient"
+  },
+  "authoredOn": "2026-08-24T10:05:00+08:00",
+  "id": "task-lab-business-status-not-in-valueset"
+}
