@@ -40,13 +40,18 @@ def _json_files(directory: Path):
     return sorted(p for p in directory.rglob("*.json") if not p.name.endswith(SIDECAR_SUFFIX))
 
 
-def check_sidecar(sidecar: dict) -> list[str]:
+def check_sidecar(sidecar) -> list[str]:
     """Return the problems with a sidecar's shape; empty when it is well formed."""
+    if not isinstance(sidecar, dict):
+        return ["sidecar must be a JSON object"]
     problems = []
     expect = sidecar.get("expect")
     if not isinstance(expect, list) or not expect:
         return ["'expect' must be a non-empty list"]
     for n, entry in enumerate(expect):
+        if not isinstance(entry, dict):
+            problems.append(f"expect[{n}] must be an object")
+            continue
         if entry.get("severity") not in EXPECTABLE_SEVERITIES:
             problems.append(f"expect[{n}].severity must be one of {EXPECTABLE_SEVERITIES}")
         for key in ("path", "message"):
@@ -79,8 +84,10 @@ def collect(generated_dir: Path, tests_dir: Path, extra_dirs=()) -> tuple[list[F
         except json.JSONDecodeError as exc:
             problems.append(f"{sidecar_path}: invalid JSON ({exc})")
             continue
-        problems.extend(f"{sidecar_path}: {p}" for p in check_sidecar(sidecar))
-        fixtures.append(Fixture(path, "negative", sidecar))
+        sidecar_problems = check_sidecar(sidecar)
+        problems.extend(f"{sidecar_path}: {p}" for p in sidecar_problems)
+        if not sidecar_problems:
+            fixtures.append(Fixture(path, "negative", sidecar))
     if negative_dir.is_dir():
         for sidecar_path in sorted(negative_dir.rglob("*" + SIDECAR_SUFFIX)):
             fixture_path = sidecar_path.with_name(sidecar_path.name[: -len(SIDECAR_SUFFIX)] + ".json")

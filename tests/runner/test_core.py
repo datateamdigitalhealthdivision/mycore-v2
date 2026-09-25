@@ -65,8 +65,33 @@ class CollectTest(unittest.TestCase):
     def test_malformed_sidecar_is_a_problem(self):
         write(self.tests / "negative" / "x.json", {"id": "x"})
         write(self.tests / "negative" / "x.expect.json", {"expect": [{"severity": "info", "path": "", "message": "m"}]})
-        _, problems = core.collect(self.generated, self.tests)
+        fixtures, problems = core.collect(self.generated, self.tests)
         self.assertEqual(len(problems), 2)
+        self.assertEqual(len(fixtures), 0)
+
+    def test_sidecar_entry_missing_message_is_a_problem(self):
+        write(self.tests / "negative" / "x.json", {"id": "x"})
+        write(self.tests / "negative" / "x.expect.json",
+              {"expect": [{"severity": "error", "path": "Patient.identifier[0].value"}]})
+        fixtures, problems = core.collect(self.generated, self.tests)
+        self.assertEqual(len(problems), 1)
+        self.assertEqual(len(fixtures), 0)
+
+    def test_sidecar_that_is_not_a_json_object_is_a_problem(self):
+        write(self.tests / "negative" / "x.json", {"id": "x"})
+        write(self.tests / "negative" / "x.expect.json", [NRIC_EXPECT])
+        fixtures, problems = core.collect(self.generated, self.tests)
+        self.assertEqual(len(problems), 1)
+        self.assertIn("JSON object", problems[0])
+        self.assertEqual(len(fixtures), 0)
+
+    def test_sidecar_expect_entry_that_is_not_an_object_is_a_problem(self):
+        write(self.tests / "negative" / "x.json", {"id": "x"})
+        write(self.tests / "negative" / "x.expect.json", {"expect": ["not-an-object"]})
+        fixtures, problems = core.collect(self.generated, self.tests)
+        self.assertEqual(len(problems), 1)
+        self.assertIn("must be an object", problems[0])
+        self.assertEqual(len(fixtures), 0)
 
     def test_sidecar_with_invalid_json_is_a_problem(self):
         (self.tests / "negative").mkdir(parents=True, exist_ok=True)

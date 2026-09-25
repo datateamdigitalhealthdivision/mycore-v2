@@ -100,21 +100,25 @@ def main(argv=None) -> int:
     else:
         if not Path(args.package).exists():
             print(f"Package not found: {args.package}\n"
-                  "Build the IG first (cd ig && ./scripts/build.sh), or run ./scripts/validate.sh "
-                  "and pass --from-source.")
+                  "Pass --package <released package.tgz>, or in the repository build the IG first "
+                  "(cd ig && ./scripts/build.sh) or generate SUSHI output and pass --from-source.")
             return 1
         igs = [args.package]
 
-    version = (TESTS_DIR / "validator.version").read_text(encoding="utf-8").strip()
-    jar = validator.ensure_validator(version, TESTS_DIR / ".validator")
-    with tempfile.TemporaryDirectory() as tmp:
-        output = Path(tmp) / "outcomes.json"
-        command = validator.build_command(
-            args.java, jar, [f.path.resolve() for f in fixtures], igs, args.tx,
-            TESTS_DIR / ".tx-cache", output, clear_tx_cache=args.refresh_tx)
-        print(f"Validating {len(fixtures)} fixtures with validator {version} against {', '.join(map(str, igs))}")
-        validator.run(command, output, TESTS_DIR / "validator.log")
-        outcomes = core.parse_outcomes(json.loads(output.read_text(encoding="utf-8")))
+    try:
+        version = (TESTS_DIR / "validator.version").read_text(encoding="utf-8").strip()
+        jar = validator.ensure_validator(version, TESTS_DIR / ".validator")
+        with tempfile.TemporaryDirectory() as tmp:
+            output = Path(tmp) / "outcomes.json"
+            command = validator.build_command(
+                args.java, jar, [f.path.resolve() for f in fixtures], igs, args.tx,
+                TESTS_DIR / ".tx-cache", output, clear_tx_cache=args.refresh_tx)
+            print(f"Validating {len(fixtures)} fixtures with validator {version} against {', '.join(map(str, igs))}")
+            validator.run(command, output, TESTS_DIR / "validator.log")
+            outcomes = core.parse_outcomes(json.loads(output.read_text(encoding="utf-8")))
+    except RuntimeError as exc:
+        print(f"ERROR: {exc}")
+        return 1
 
     results = [core.evaluate(f, outcomes.get(str(f.path.resolve()))) for f in fixtures]
     print_results(results, problems)
