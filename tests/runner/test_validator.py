@@ -25,5 +25,30 @@ class BuildCommandTest(unittest.TestCase):
         self.assertEqual(validator.ensure_validator("9.9.9", cache), cache / "validator_cli-9.9.9.jar")
 
 
+class RunTest(unittest.TestCase):
+    def setUp(self):
+        import tempfile
+        self.tmp = Path(tempfile.mkdtemp())
+        self.output = self.tmp / "out.json"
+        self.log = self.tmp / "validator.log"
+
+    def fake(self, exit_code, write_output):
+        import sys
+        script = (f"import pathlib, sys\n"
+                  f"{'pathlib.Path(sys.argv[1]).write_text(chr(123) + chr(125))' if write_output else 'pass'}\n"
+                  f"sys.exit({exit_code})\n")
+        return [sys.executable, "-c", script, str(self.output)]
+
+    def test_nonzero_exit_with_output_is_not_a_crash(self):
+        validator.run(self.fake(1, True), self.output, self.log)
+        self.assertTrue(self.output.exists())
+
+    def test_missing_output_is_a_crash_whatever_the_exit_code(self):
+        for code in (0, 1):
+            with self.assertRaises(RuntimeError) as caught:
+                validator.run(self.fake(code, False), self.output, self.log)
+            self.assertIn(f"exit {code}", str(caught.exception))
+
+
 if __name__ == "__main__":
     unittest.main()

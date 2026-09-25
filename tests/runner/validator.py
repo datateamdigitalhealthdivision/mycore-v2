@@ -38,8 +38,12 @@ def build_command(java: str, jar: Path, files, igs, tx: str, tx_cache: Path, out
 
 
 def run(command: list[str], output: Path, log: Path) -> None:
-    """Run the validator. Its exit code does not reflect validation errors, so only check it produced output."""
+    """Run the validator and require that it wrote its output file.
+
+    The exit code is not a reliable signal: validator 6.10.4 exits 0 for a multi-file run with
+    errors but 1 for a single file with errors. The output file is the source of truth.
+    """
     with log.open("w", encoding="utf-8") as handle:
         completed = subprocess.run(command, stdout=handle, stderr=subprocess.STDOUT, check=False)
-    if completed.returncode != 0 or not output.exists():
-        raise RuntimeError(f"validator failed (exit {completed.returncode}); see {log}")
+    if not output.exists() or output.stat().st_size == 0:
+        raise RuntimeError(f"validator produced no output (exit {completed.returncode}); see {log}")

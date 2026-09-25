@@ -199,5 +199,6 @@ so the freshly built `package.tgz` is reused:
 ## Open items
 
 - **RESOLVED:** Validator 6.10.4 flags confirmed from `-help`: `-ig`, `-tx`, `-txCache`, `-clear-tx-cache`,
-  `-output`. Its exit code is 0 even when files have errors, so the runner reads `-output`.
+  `-output`. Its exit code is not a reliable signal (0 for a multi-file run with errors, 1 for a
+  single failing file), so the runner requires and reads the `-output` file.
 - **TO BE CONFIRMED:** branch protection making `build` a required check (maintainer action).
