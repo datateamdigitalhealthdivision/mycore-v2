@@ -36,6 +36,8 @@ Source: `MOH_Facility_Code_Terminology_v5.xlsx`, generated 14 September 2026.
 | retired | 164 | Withdrawn. Carries `inactive = true`. Never deleted |
 | experimental | 24 | A `PROV-` provisional code awaiting a permanent one |
 
+`facility-my-core-active-vs` selects on `conceptStatus = active` OR `conceptStatus = experimental`, which gives 3,206 codes. It does not filter on `inactive = false`. `inactive` is published only as `true` on retired codes, and a server that matches property values literally, such as Medplum, returned an empty expansion for that filter ([issue #29](https://github.com/datateamdigitalhealthdivision/mycore-v2/issues/29)). `tests/runner/test_facility_valueset.py` checks the expansion.
+
 All 24 experimental codes are `PROV-` codes. Four further `PROV-` codes are retired, giving 28 provisional codes in total. **A facility with a provisional code still admits patients and still issues MRNs**, so `PROV-` codes are valid namespace segments and are included in the validation value set.
 
 

@@ -27,7 +27,7 @@ Observation is now two profiles. Anything that differs only by the value in `cod
 
 ### Terminology
 
-- **National facility register.** 3,370 facilities and 11 facility types. Retired and provisional facility codes are retained, because the medical record numbers issued under them persist.
+- **National facility register.** 3,370 facilities and 11 facility types. Retired and provisional facility codes are retained, because the medical record numbers issued under them persist. The picker value set `facility-my-core-active-vs` selects on `conceptStatus` (active or experimental) rather than `inactive = false`, which expanded empty on servers that match property values literally.
 - **Concept definitions** supplied by MOH across 20 national code systems.
 - **Discharge disposition** bound to HL7 Terminology plus two national supplement codes, `absconded` and `admitted`, with a concept map from the 2.0 list. Leave of absence is carried as `Encounter.status = onleave`, which keeps the encounter open, rather than as a discharge.
 - **Discharge summary sections** pinned to the eleven LOINC codes used by the 2016 MyHIX CDA profile.
