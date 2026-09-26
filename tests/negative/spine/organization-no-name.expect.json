@@ -1,0 +1,12 @@
+{
+  "rule": "ORG-NAME",
+  "description": "Organization.name is mandatory.",
+  "decision": "",
+  "expect": [
+    {
+      "severity": "error",
+      "path": "Organization",
+      "message": "Organization.name: minimum required = 1"
+    }
+  ]
+}

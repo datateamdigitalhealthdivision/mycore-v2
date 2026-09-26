@@ -1,0 +1,26 @@
+{
+  "resourceType": "Practitioner",
+  "id": "practitioner-registration-no-value",
+  "meta": {
+    "profile": [
+      "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/practitioner-my-core"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://id.kkmhub.moh.gov.my/practitioner/registration"
+    }
+  ],
+  "name": [
+    {
+      "text": "Lim Wei Ming",
+      "family": "Lim",
+      "given": [
+        "Wei Ming"
+      ],
+      "prefix": [
+        "Dr"
+      ]
+    }
+  ]
+}

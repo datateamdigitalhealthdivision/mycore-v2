@@ -1,0 +1,12 @@
+{
+  "rule": "LAB-OBS-UNIT-CODE",
+  "description": "PROVISIONAL: laboratory quantities must carry a UCUM unit code.",
+  "decision": "D-020",
+  "expect": [
+    {
+      "severity": "error",
+      "path": "Observation.value.ofType(Quantity)",
+      "message": "valueQuantity.code: minimum required = 1"
+    }
+  ]
+}

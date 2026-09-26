@@ -1,0 +1,12 @@
+{
+  "rule": "PRAC-REGISTRATION-VALUE",
+  "description": "A professional registration identifier must carry its number.",
+  "decision": "",
+  "expect": [
+    {
+      "severity": "error",
+      "path": "Practitioner.identifier[0]",
+      "message": "Practitioner.identifier:registration.value: minimum required = 1"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "rule": "ADT-DISCHARGE-BINDING",
+  "description": "PROVISIONAL: discharge disposition is extensibly bound; a SNOMED CT code raises a warning.",
+  "decision": "D-014",
+  "expect": [
+    {
+      "severity": "warning",
+      "path": "Encounter.hospitalization.dischargeDisposition",
+      "message": "discharge-disposition-v21-my-core"
+    }
+  ]
+}

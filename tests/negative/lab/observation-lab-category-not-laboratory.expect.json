@@ -1,0 +1,12 @@
+{
+  "rule": "LAB-OBS-CATEGORY",
+  "description": "A laboratory result must carry the laboratory category.",
+  "decision": "",
+  "expect": [
+    {
+      "severity": "error",
+      "path": "Observation.category[0]",
+      "message": "observation-lab-my-core"
+    }
+  ]
+}

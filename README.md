@@ -41,7 +41,7 @@ This repository mirrors the one-repository publication discipline used for the n
 - [`docs/`](./docs) contains the numbered national chapters for scope, conformance, terminology, security, testing, versioning, implementation, migration, and endpoint policy
 - [`annexes/`](./annexes) contains identifier, terminology, publication, programme-content, and reconciliation annexes
 - [`mappings/`](./mappings) contains legacy-to-v2 migration tables, terminology provenance registers, duplicate-resolution logs, and profile family indexes
-- [`tests/`](./tests) contains starter positive and negative assets, workflow scenarios, and payload samples
+- [`tests/`](./tests) contains the conformance test suite: positive and negative payloads, the validator issues each negative must produce, a rule coverage register, and the runner
 - [`ig/`](./ig) contains the computable FHIR R4 implementation guide build
 - [`source/`](./source) preserves the legacy zip artefacts and extracted source material used for this redevelopment
 
@@ -55,7 +55,7 @@ Normative or intended-to-be normative material includes:
 
 Illustrative or starter material includes:
 
-- the current conformance tests and sample payloads under [`tests/`](./tests)
+- the conformance test fixtures under [`tests/`](./tests), which illustrate conformance but do not define it
 - migration crosswalks and reconciliation notes under [`mappings/`](./mappings)
 - operational placeholders where endpoint governance has not yet been finalised
 

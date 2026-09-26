@@ -1,0 +1,12 @@
+{
+  "rule": "PAT-NRIC-FORMAT",
+  "description": "An NRIC must be exactly 12 digits; this one has 11.",
+  "decision": "",
+  "expect": [
+    {
+      "severity": "error",
+      "path": "Patient.identifier[0].value",
+      "message": "my-nric-format"
+    }
+  ]
+}

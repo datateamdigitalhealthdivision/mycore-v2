@@ -1,0 +1,101 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-passport",
+  "meta": {
+    "profile": [
+      "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/patient-my-core"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/sid/passport-IDN",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN"
+          }
+        ]
+      },
+      "value": "B7654321",
+      "use": "official"
+    }
+  ],
+  "extension": [
+    {
+      "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/ethnic-my-core",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "01",
+            "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/ethnic-my-core",
+            "display": "Melayu"
+          }
+        ]
+      }
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/patient-religion",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "1",
+            "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/religion-my-core",
+            "display": "Islam"
+          }
+        ]
+      }
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/patient-citizenship",
+      "extension": [
+        {
+          "url": "code",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:iso:std:iso:3166",
+                "code": "ID",
+                "display": "Indonesia"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "address": [
+    {
+      "extension": [
+        {
+          "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/address-district-my-core",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "1002",
+                "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/district-my-core",
+                "display": "Klang"
+              }
+            ]
+          }
+        }
+      ],
+      "city": "Klang",
+      "state": "Selangor",
+      "country": "MY"
+    }
+  ],
+  "name": [
+    {
+      "text": "Siti binti Abdullah",
+      "given": [
+        "Siti"
+      ]
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1980-01-01",
+  "managingOrganization": {
+    "reference": "Organization/ExampleHospital"
+  }
+}

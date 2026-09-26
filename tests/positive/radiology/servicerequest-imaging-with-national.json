@@ -1,0 +1,78 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "servicerequest-imaging-with-national",
+  "meta": {
+    "profile": [
+      "https://myehr.kkmhub.moh.gov.my/fhir/my-core/StructureDefinition/servicerequest-imaging-my-core"
+    ]
+  },
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "code": "PLAC",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+          }
+        ]
+      },
+      "system": "https://id.kkmhub.moh.gov.my/order/11-10040013",
+      "value": "RAD-2026-330091"
+    },
+    {
+      "type": {
+        "coding": [
+          {
+            "code": "ACSN",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+          }
+        ]
+      },
+      "system": "https://id.kkmhub.moh.gov.my/accession/11-10040013",
+      "value": "11-10040013-20260824-000731"
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "42272-5",
+        "display": "XR Chest PA and Lateral"
+      },
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/imaging-my-core",
+        "code": "005",
+        "display": "Chest"
+      }
+    ],
+    "text": "Chest X-ray, PA and lateral"
+  },
+  "status": "completed",
+  "intent": "order",
+  "subject": {
+    "reference": "Patient/ExamplePatient"
+  },
+  "encounter": {
+    "reference": "Encounter/ExampleAdmission"
+  },
+  "requester": {
+    "reference": "Practitioner/ExampleDoctor"
+  },
+  "authoredOn": "2026-08-24T09:40:00+08:00",
+  "bodySite": [
+    {
+      "coding": [
+        {
+          "code": "RID1243",
+          "system": "http://radlex.org",
+          "display": "thorax"
+        }
+      ]
+    }
+  ],
+  "reasonCode": [
+    {
+      "text": "Fever and productive cough"
+    }
+  ]
+}

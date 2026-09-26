@@ -1,0 +1,12 @@
+{
+  "rule": "RAD-ACCESSION-SYSTEM",
+  "description": "PROVISIONAL: an accession number, when sent, must carry its facility namespace.",
+  "decision": "D-025",
+  "expect": [
+    {
+      "severity": "error",
+      "path": "ServiceRequest.identifier[1]",
+      "message": "ServiceRequest.identifier:accession.system: minimum required = 1"
+    }
+  ]
+}

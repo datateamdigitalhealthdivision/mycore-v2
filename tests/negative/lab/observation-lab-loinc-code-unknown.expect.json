@@ -1,0 +1,12 @@
+{
+  "rule": "LAB-LOINC-CODE",
+  "description": "A LOINC code sent alongside the national code must exist in LOINC.",
+  "decision": "",
+  "expect": [
+    {
+      "severity": "error",
+      "path": "Observation.code.coding[1].code",
+      "message": "Unknown code '99999-9'"
+    }
+  ]
+}

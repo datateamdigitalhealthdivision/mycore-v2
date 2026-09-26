@@ -31,7 +31,7 @@ The Malaysian Pathology Catalogue ships with this guide: 2,934 orderable tests, 
 
 ### What is out of scope
 
-Microbiology and histopathology profiles, structured radiology reporting, and the conformance test suite. RSNA report templates and RadElement common data elements are carried in the annexes as input to a later release.
+Microbiology and histopathology profiles, structured radiology reporting, and certification workflows. A self-test conformance suite ships with this release; see [Conformance Testing](conformance-testing.html). RSNA report templates and RadElement common data elements are carried in the annexes as input to a later release.
 
 ### Status
 

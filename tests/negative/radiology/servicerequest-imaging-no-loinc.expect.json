@@ -1,0 +1,12 @@
+{
+  "rule": "RAD-ORDER-LOINC",
+  "description": "PROVISIONAL: an imaging order must carry a LOINC/RSNA Playbook code; the national code alone is not enough.",
+  "decision": "D-027",
+  "expect": [
+    {
+      "severity": "error",
+      "path": "ServiceRequest.code",
+      "message": "ServiceRequest.code.coding:loinc"
+    }
+  ]
+}

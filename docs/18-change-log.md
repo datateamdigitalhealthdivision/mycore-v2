@@ -27,7 +27,7 @@ Observation is now two profiles. Anything that differs only by the value in `cod
 
 ### Terminology
 
-- **National facility register.** 3,370 facilities and 11 facility types. Retired and provisional facility codes are retained, because the medical record numbers issued under them persist.
+- **National facility register.** 3,370 facilities and 11 facility types. Retired and provisional facility codes are retained, because the medical record numbers issued under them persist. The picker value set `facility-my-core-active-vs` selects on `conceptStatus` (active or experimental) rather than `inactive = false`, which expanded empty on servers that match property values literally.
 - **Concept definitions** supplied by MOH across 20 national code systems.
 - **Discharge disposition** bound to HL7 Terminology plus two national supplement codes, `absconded` and `admitted`, with a concept map from the 2.0 list. Leave of absence is carried as `Encounter.status = onleave`, which keeps the encounter open, rather than as a discharge.
 - **Discharge summary sections** pinned to the eleven LOINC codes used by the 2016 MyHIX CDA profile.
@@ -46,6 +46,12 @@ The national imaging lists are superseded for new implementations and remain pub
 - Navigation restructured into Conformance, Guidance, FHIR Artefacts, Examples and Support.
 - New pages: Examples, Capability Statements, Terminology Index, Licence and Legal, Change Log.
 - The [Terminology Index](terminology-index.html) lists every standard the guide uses, with download links for all national terminology.
+
+### Conformance testing
+
+- A self-test suite ships in `tests/`: 34 negative tests, each covering one Malaysian-specific rule (34 of the 50 rules in the register), and 6 positive payloads alongside the guide's 21 examples. `tests/coverage.csv` lists every rule and whether a test covers it.
+- The suite runs the HL7 FHIR Validator on every change to the guide, and each release attaches it as `my-core-conformance-tests.zip` for vendors to run against their own payloads.
+- **Fix:** the Patient passport invariant `my-passport-namespace` used a character escape that FHIRPath rejects, so every passport identifier failed validation. The expression now writes the dot as `[.]`; the rule it enforces is unchanged.
 
 ## 2.0.0
 

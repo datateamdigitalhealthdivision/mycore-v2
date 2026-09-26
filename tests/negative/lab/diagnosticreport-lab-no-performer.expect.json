@@ -1,0 +1,12 @@
+{
+  "rule": "LAB-REPORT-PERFORMER",
+  "description": "A laboratory report must name its performing laboratory.",
+  "decision": "",
+  "expect": [
+    {
+      "severity": "error",
+      "path": "DiagnosticReport",
+      "message": "DiagnosticReport.performer: minimum required = 1"
+    }
+  ]
+}

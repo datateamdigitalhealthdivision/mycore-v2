@@ -15,9 +15,19 @@
         "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/facility-my-core",
         "filter": [
           {
-            "property": "inactive",
+            "property": "conceptStatus",
             "op": "=",
-            "value": "false"
+            "value": "active"
+          }
+        ]
+      },
+      {
+        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/facility-my-core",
+        "filter": [
+          {
+            "property": "conceptStatus",
+            "op": "=",
+            "value": "experimental"
           }
         ]
       }

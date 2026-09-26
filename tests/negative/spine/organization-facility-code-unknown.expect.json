@@ -1,0 +1,12 @@
+{
+  "rule": "ORG-FACILITY-BINDING",
+  "description": "The facility code must come from the national facility register.",
+  "decision": "D-010",
+  "expect": [
+    {
+      "severity": "error",
+      "path": "Organization.identifier[0].value",
+      "message": "was not found in the value set"
+    }
+  ]
+}

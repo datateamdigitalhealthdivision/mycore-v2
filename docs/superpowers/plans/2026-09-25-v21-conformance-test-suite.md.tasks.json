@@ -1,0 +1,108 @@
+{
+  "planPath": "docs/superpowers/plans/2026-09-25-v21-conformance-test-suite.md",
+  "tasks": [
+    {
+      "id": 1,
+      "nativeTaskId": 2,
+      "subject": "Task 1: Runner core logic with unit tests",
+      "status": "completed",
+      "description": "**Goal:** `tests/runner/core.py` discovers fixtures, validates sidecars, parses validator outcomes and evaluates pass/fail, fully covered by `unittest`.\n\n**Files:**\n\n- Create: `tests/runner/__init__.py` (empty)\n- Create: `tests/runner/core.py`\n- Test: `tests/runner/test_core.py`\n\n**Acceptance Criteria:**\n\n- [ ] `cd tests && python3 -m unittest runner.test_core -v` reports 15 tests OK\n- [ ] Positives fail only on `error`/`fatal`; negatives fail when any `expect` entry lacks a matching issue (severity equal, path in `expression` or `location`, message substring case-insensitive)\n- [ ] Orphan fixture, orphan sidecar and malformed sidecar are reported as problems\n- [ ] `sushi_dependencies` returns `id#version` for each pinned dependency in `ig/sushi-config.yaml`\n\n**Verify:** `cd tests && python3 -m unittest runner.test_core -v` \u2192 `Ran 15 tests ... OK`\n\n```json:metadata\n{\"planTask\": 1, \"nativeTaskId\": 2, \"modelTier\": \"mechanical\"}\n```"
+    },
+    {
+      "id": 2,
+      "nativeTaskId": 6,
+      "subject": "Task 2: Validator wrapper and run-tests.py CLI",
+      "status": "completed",
+      "description": "**Goal:** `python3 tests/run-tests.py --from-source` downloads the pinned validator, validates every IG example in one run and exits 0.\n\n**Files:**\n\n- Create: `tests/runner/validator.py`\n- Test: `tests/runner/test_validator.py`\n- Create: `tests/run-tests.py`\n- Create: `tests/validator.version`\n- Modify: `.gitignore` (append four lines)\n\n**Acceptance Criteria:**\n\n- [ ] `cd tests && python3 -m unittest discover -s runner -t . -v` reports 18 tests OK\n- [ ] With SUSHI output present, `JAVA=/opt/homebrew/opt/openjdk@17/bin/java python3 tests/run-tests.py --from-source` prints `21 passed, 0 failed` and exits 0\n- [ ] `python3 tests/run-tests.py` without `ig/output/package.tgz` prints `Package not found` and exits 1\n- [ ] `tests/report.json`, `tests/validator.log` and `tests/.validator/` are git-ignored\n\n**Verify:** `JAVA=/opt/homebrew/opt/openjdk@17/bin/java python3 tests/run-tests.py --from-source; echo exit=$?` \u2192 `21 passed, 0 failed` then `exit=0`\n\n```json:metadata\n{\"planTask\": 2, \"nativeTaskId\": 6, \"modelTier\": \"mechanical\"}\n```",
+      "blockedBy": [
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "nativeTaskId": 7,
+      "subject": "Task 3: Archive the v2.0 test pack",
+      "status": "completed",
+      "description": "**Goal:** Every v2.0 file in `tests/` moves to `tests/archive/v2.0/` with a README, and `mappings/test-asset-migration.csv` records each file's v2.1 successor.\n\n**Files:**\n\n- Move: `tests/README.md`, `tests/fhir/`, `tests/negative-tests/`, `tests/sample-payloads/`, `tests/workflow-scenarios/` \u2192 `tests/archive/v2.0/` (the old README becomes `tests/archive/v2.0/README-v2.0.md`)\n- Create: `tests/archive/v2.0/README.md`\n- Create: `mappings/test-asset-migration.csv`\n\n**Acceptance Criteria:**\n\n- [ ] `git ls-files tests/archive/v2.0 | wc -l` = 32 (31 moved files plus the new README)\n- [ ] `mappings/test-asset-migration.csv` has 31 data rows, one per archived file\n- [ ] `npx --yes markdownlint-cli2 \"tests/archive/**/*.md\"` reports 0 issues\n- [ ] The runner still reports `21 passed, 0 failed` (archive is not collected)\n\n**Verify:** `git ls-files tests/archive/v2.0 | wc -l; tail -n +2 mappings/test-asset-migration.csv | wc -l` \u2192 `32` and `31`\n\n```json:metadata\n{\"planTask\": 3, \"nativeTaskId\": 7, \"modelTier\": \"mechanical\"}\n```",
+      "blockedBy": [
+        2
+      ]
+    },
+    {
+      "id": 4,
+      "nativeTaskId": 1,
+      "subject": "Task 4: Positive and negative fixtures, coverage register, terminology cache",
+      "status": "completed",
+      "description": "**Goal:** 6 positive and 34 negative fixtures with sidecars exist under `tests/`, `coverage.csv` lists 47 rules, and the runner passes everything except the two passport fixtures, which fail on the known invariant defect.\n\n**Files:**\n\n- Create: `tests/positive/{adt,lab,radiology}/*.json` (6 files)\n- Create: `tests/negative/{spine,adt,lab,radiology}/*.json` and `*.expect.json` (34 pairs)\n- Create: `tests/coverage.csv`\n- Create: `tests/.tx-cache/**`\n\n**Acceptance Criteria:**\n\n- [ ] `find tests/positive -name '*.json' | wc -l` = 6; `find tests/negative -name '*.expect.json' | wc -l` = 34; `find tests/negative -name '*.json' ! -name '*.expect.json' | wc -l` = 34\n- [ ] Runner output ends `59 passed, 2 failed`; the two failures are `tests/positive/adt/patient-passport.json` and `tests/negative/spine/patient-passport-bad-namespace.json`, both citing `Unknown FHIRPath character escape`\n- [ ] `tests/coverage.csv` has 47 data rows: 34 with a `test_id` that names an existing fixture, 13 marked `UNTESTED`\n- [ ] Every sidecar whose `decision` is D-001, D-004, D-013, D-014, D-015, D-020, D-022, D-023, D-025 or D-027 has a description starting `PROVISIONAL:`\n- [ ] The generator script is **not** committed\n\n**Verify:** `JAVA=/opt/homebrew/opt/openjdk@17/bin/java python3 tests/run-tests.py --from-source | grep -E '^FAIL|passed'` \u2192 the two passport FAIL lines and `59 passed, 2 failed`\n\n```json:metadata\n{\"planTask\": 4, \"nativeTaskId\": 1, \"modelTier\": \"standard\"}\n```",
+      "blockedBy": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 5,
+      "nativeTaskId": 8,
+      "subject": "Task 5: Fix the my-passport-namespace invariant",
+      "status": "completed",
+      "description": "**Goal:** Passport identifiers validate: the invariant uses a FHIRPath-legal pattern and the suite reports `61 passed, 0 failed`.\n\n**Files:**\n\n- Modify: `ig/input/fsh/profiles/spine/patient.fsh:143-146`\n\n**Acceptance Criteria:**\n\n- [ ] The generated `StructureDefinition-patient-my-core.json` carries expression `$this.matches('^http://hl7[.]org/fhir/sid/passport-[A-Z]{3}$')`\n- [ ] SUSHI reports `0 Errors`\n- [ ] Runner output ends `61 passed, 0 failed`\n- [ ] The rule enforced is unchanged: `http://hl7.org/fhir/sid/passport-IDN` passes, `https://passport.imi.gov.my` fails with `my-passport-namespace`\n\n**Verify:** `JAVA=/opt/homebrew/opt/openjdk@17/bin/java python3 tests/run-tests.py --from-source | tail -1` \u2192 `61 passed, 0 failed`\n\n```json:metadata\n{\"planTask\": 5, \"nativeTaskId\": 8, \"modelTier\": \"mechanical\"}\n```",
+      "blockedBy": [
+        4
+      ]
+    },
+    {
+      "id": 6,
+      "nativeTaskId": 4,
+      "subject": "Task 6: CI gate in build-ig.yml",
+      "status": "completed",
+      "description": "**Goal:** Every PR and push to `main` runs the runner unit tests and the conformance suite after the Publisher build, and uploads the report.\n\n**Files:**\n\n- Modify: `.github/workflows/build-ig.yml` (append steps after `Upload build artefacts`)\n\n**Acceptance Criteria:**\n\n- [ ] New steps, in order: cache `tests/.validator`, unit tests, `python3 tests/run-tests.py`, upload `conformance-report` with `if: always()`\n- [ ] The suite steps use `working-directory` overrides (`tests` for unit tests, `.` for the runner) because the job default is `ig`\n- [ ] The workflow parses as YAML\n- [ ] No step writes back to the repository\n\n**Verify:** `ruby -ryaml -e 'y=YAML.load_file(\".github/workflows/build-ig.yml\"); puts y[\"jobs\"][\"build\"][\"steps\"].map{|s| s[\"name\"]}'` \u2192 lists `Cache validator`, `Unit-test the conformance runner`, `Run conformance tests`, `Upload conformance report` after `Upload build artefacts`\n\n```json:metadata\n{\"planTask\": 6, \"nativeTaskId\": 4, \"modelTier\": \"mechanical\"}\n```",
+      "blockedBy": [
+        5
+      ]
+    },
+    {
+      "id": 7,
+      "nativeTaskId": 9,
+      "subject": "Task 7: Weekly terminology-cache refresh workflow",
+      "status": "completed",
+      "description": "**Goal:** A scheduled and manually triggerable workflow runs the suite with `--refresh-tx` and opens a PR when `tests/.tx-cache/` changed.\n\n**Files:**\n\n- Create: `.github/workflows/tests-tx-refresh.yml`\n\n**Acceptance Criteria:**\n\n- [ ] Triggers: `schedule` cron `0 1 * * 1` and `workflow_dispatch`\n- [ ] Permissions: `contents: write`, `pull-requests: write`\n- [ ] Runs a full build, then `python3 tests/run-tests.py --refresh-tx`; a failing run fails the workflow with no retry\n- [ ] Commits only `tests/.tx-cache` (migration drift from `build.sh` is left unstaged) and opens a PR with `gh pr create`\n- [ ] Parses as YAML\n\n**Verify:** `ruby -ryaml -e 'y=YAML.load_file(\".github/workflows/tests-tx-refresh.yml\"); p y[true].keys, y[\"permissions\"]'` \u2192 `[\"schedule\", \"workflow_dispatch\"]` and `{\"contents\"=>\"write\", \"pull-requests\"=>\"write\"}` (Ruby's YAML reads the `on:` key as `true`)\n\n```json:metadata\n{\"planTask\": 7, \"nativeTaskId\": 9, \"modelTier\": \"mechanical\"}\n```",
+      "blockedBy": [
+        6
+      ]
+    },
+    {
+      "id": 8,
+      "nativeTaskId": 10,
+      "subject": "Task 8: Vendor test pack on release",
+      "status": "completed",
+      "description": "**Goal:** Tagged releases attach `my-core-conformance-tests.zip` (the suite without the archive or local artefacts) beside `package.tgz`.\n\n**Files:**\n\n- Modify: `.github/workflows/release-artefacts.yml`\n\n**Acceptance Criteria:**\n\n- [ ] A `Package conformance tests` step runs from the repository root after `Archive rendered guide`\n- [ ] The zip excludes `tests/archive/*`, `tests/report.json`, `tests/validator.log`, `tests/.validator/*` and `__pycache__`\n- [ ] `ig/my-core-conformance-tests.zip` is in the release `files` list\n- [ ] Running the same `zip` command locally produces an archive whose listing contains `tests/run-tests.py`, `tests/.tx-cache/` and no `tests/archive/`\n\n**Verify:** `zip -qr /tmp/pack-check.zip tests -x 'tests/archive/*' 'tests/report.json' 'tests/validator.log' 'tests/.validator/*' '*/__pycache__/*' && unzip -l /tmp/pack-check.zip | grep -cE 'tests/archive|validator_cli'` \u2192 `0`, and `unzip -l /tmp/pack-check.zip | grep -c 'run-tests.py'` \u2192 `1`\n\n```json:metadata\n{\"planTask\": 8, \"nativeTaskId\": 10, \"modelTier\": \"mechanical\"}\n```",
+      "blockedBy": [
+        5
+      ]
+    },
+    {
+      "id": 9,
+      "nativeTaskId": 5,
+      "subject": "Task 9: Documentation and spec amendment",
+      "status": "completed",
+      "description": "**Goal:** The published Conformance Testing page, the scope statement, the change log, the repository README and `tests/README.md` describe the v2.1 suite; the spec records the two implementation decisions made during planning.\n\n**Files:**\n\n- Modify: `docs/07-conformance-testing.md` (full rewrite)\n- Modify: `docs/12-use-cases-v21.md:34`\n- Modify: `docs/18-change-log.md` (new subsection under `## 2.1.0 (current)`, before `## 2.0.0`)\n- Modify: `README.md:44` and `README.md:58`\n- Create: `tests/README.md`\n- Modify: `docs/superpowers/specs/2026-09-25-v21-conformance-test-suite-design.md`\n\n**Acceptance Criteria:**\n\n- [ ] `npx --yes markdownlint-cli2 README.md \"docs/**/*.md\" \"tests/**/*.md\"` reports 0 issues\n- [ ] `docs/07-conformance-testing.md` no longer mentions questionnaires\n- [ ] `docs/12-use-cases-v21.md` no longer lists the conformance test suite as out of scope\n- [ ] The change log records the suite and the `my-passport-namespace` fix\n- [ ] After `bash ig/scripts/sync-pagecontent.sh`, the tracked `ig/input/pagecontent/conformance-testing.md`, `use-cases-v21.md` and `change-log.md` match their `docs/` sources and are committed\n\n**Verify:** `npx --yes markdownlint-cli2 README.md \"docs/**/*.md\" \"tests/**/*.md\" 2>&1 | tail -1` \u2192 `Summary: 0 issues in 0 files`\n\n```json:metadata\n{\"planTask\": 9, \"nativeTaskId\": 5, \"modelTier\": \"mechanical\"}\n```",
+      "blockedBy": [
+        5,
+        8
+      ]
+    },
+    {
+      "id": 10,
+      "nativeTaskId": 11,
+      "subject": "Task 10: End-to-end verification",
+      "status": "completed",
+      "description": "**Goal:** Evidence that the gate passes on the finished branch and fails when a rule or an expectation breaks.\n\n**Files:**\n\n- None committed (temporary edits are reverted)\n\n**Acceptance Criteria:**\n\n- [ ] Full run: `61 passed, 0 failed`, exit 0\n- [ ] Unit tests: `Ran 18 tests ... OK`\n- [ ] Broken sidecar: changing `patient-nric-11-digits.expect.json` path to `Patient.identifier[1].value` makes the runner exit 1 naming that fixture\n- [ ] Removed rule: deleting `* identifier[nric].value obeys my-nric-format` from `patient.fsh` and regenerating makes `patient-nric-11-digits` FAIL and the runner exit 1\n- [ ] After reverting both, `git status --short` shows no tracked changes and the full run is green again\n\n**Verify:** `JAVA=/opt/homebrew/opt/openjdk@17/bin/java python3 tests/run-tests.py --from-source; echo exit=$?` \u2192 `61 passed, 0 failed` and `exit=0`\n\n```json:metadata\n{\"planTask\": 10, \"nativeTaskId\": 11, \"modelTier\": \"standard\"}\n```",
+      "blockedBy": [
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  ],
+  "lastUpdated": "2026-09-25T12:28:21+00:00"
+}

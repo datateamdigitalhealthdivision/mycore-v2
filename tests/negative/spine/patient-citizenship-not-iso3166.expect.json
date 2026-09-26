@@ -1,0 +1,12 @@
+{
+  "rule": "PAT-CITIZENSHIP-BINDING",
+  "description": "Citizenship is required-bound to ISO 3166-1 alpha-2; XX is not a country code.",
+  "decision": "",
+  "expect": [
+    {
+      "severity": "error",
+      "path": "Patient.extension[2].extension[0].value.ofType(CodeableConcept)",
+      "message": "iso3166-1-2"
+    }
+  ]
+}

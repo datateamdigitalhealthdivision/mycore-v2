@@ -1,0 +1,12 @@
+{
+  "rule": "PAT-NAME-TEXT",
+  "description": "Patient.name.text is mandatory: Malaysian names are carried whole.",
+  "decision": "",
+  "expect": [
+    {
+      "severity": "error",
+      "path": "Patient.name[0]",
+      "message": "Patient.name.text: minimum required = 1"
+    }
+  ]
+}

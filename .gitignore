@@ -11,3 +11,7 @@ ig/.jekyll-cache/
 ig/.sass-cache/
 *.log
 Thumbs.db
+tests/report.json
+tests/validator.log
+tests/.validator/
+__pycache__/

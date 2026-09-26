@@ -1,0 +1,12 @@
+{
+  "rule": "VITALS-UCUM",
+  "description": "Vital sign quantities must use UCUM (http://unitsofmeasure.org).",
+  "decision": "D-017",
+  "expect": [
+    {
+      "severity": "error",
+      "path": "Observation.value.ofType(Quantity).system",
+      "message": "observation-vitals-my-core"
+    }
+  ]
+}
