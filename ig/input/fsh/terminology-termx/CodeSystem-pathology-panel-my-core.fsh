@@ -12,7 +12,6 @@ Description: "National pathology panel codes for Malaysia. Panel membership is p
 * ^date = "2026-08-28T04:27:39.390084Z"
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
-* ^effectivePeriod.start = "2026-08-28T00:00:00Z"
 * ^caseSensitive = true
 * ^content = #complete
 * ^property[0].code = #clinician-use
