@@ -3,8 +3,18 @@ import sys
 from pathlib import Path
 
 IG_ROOT = Path(__file__).resolve().parents[1]
+# Every stream the IG Publisher will actually publish from. All three are listed
+# under parameters.path-resource in sushi-config.yaml (fsh-generated implicitly, via
+# SUSHI), so a duplicate (resourceType, id) or canonical url ACROSS any two of them
+# is a real defect -- the Publisher either errors late or silently picks one.
+#
+# resources-managed was previously omitted. That was a gap, not a decision: it holds
+# the Malaysian Pathology Catalogue, the same content that exists in TermX, so the
+# moment TermX publishes terminology into the FSH stream the two can collide and this
+# audit would have stayed silent. Added 2026-09-30.
 STREAMS = {
     'resources-legacy-migrated': IG_ROOT / 'input' / 'resources-legacy-migrated',
+    'resources-managed': IG_ROOT / 'input' / 'resources-managed',
     'fsh-generated': IG_ROOT / 'fsh-generated' / 'resources',
 }
 
@@ -72,7 +82,8 @@ def main():
             print(f'- {finding}', file=sys.stderr)
         sys.exit(1)
 
-    print('Collision audit passed: no duplicate resource ids or canonical urls across migrated and FSH-generated streams.')
+    print('Collision audit passed: no duplicate resource ids or canonical urls across the '
+          + ', '.join(sorted(STREAMS)) + ' streams.')
 
 
 if __name__ == '__main__':
