@@ -66,3 +66,32 @@ CodeSystem/imaging-region-my-core
 # names, trailing dashes, an unbalanced bracket, and a malformed regionCode).
 # Must NOT be regenerated from the v2.0 source or the repairs are lost.
 CodeSystem/imaging-my-core
+
+# --- Transferred to TermX ownership, v2.1.1 re-cut (2026-10-01) ---
+# Published from TermX via ops/termx-bridge into
+# ig/input/fsh/terminology-termx/. Regenerating them here would put
+# the same canonical in two publication streams, which the collision
+# audit refuses to build.
+CodeSystem/dental-procedure-my-core
+CodeSystem/organization-category-my-core
+CodeSystem/person-title-my-core
+CodeSystem/practitioner-role-code-my-core
+CodeSystem/specialty-my-core
+CodeSystem/task-business-status-my-core
+CodeSystem/ward-specialty-my-core
+ValueSet/diagnosis-role-my-core
+ValueSet/district-my-core
+ValueSet/ethnic-my-core
+ValueSet/imaging-region-my-core
+ValueSet/lab-method-my-core
+ValueSet/location-type-my-core
+ValueSet/organization-category-my-core
+ValueSet/organization-type-my-core
+ValueSet/person-title-my-core
+ValueSet/reason-code-my-core
+ValueSet/religion-my-core
+ValueSet/specimen-container-type-my-core
+ValueSet/specimen-type-my-core
+ValueSet/visit-type-my-core
+ValueSet/ward-class-my-core
+ValueSet/ward-specialty-my-core
