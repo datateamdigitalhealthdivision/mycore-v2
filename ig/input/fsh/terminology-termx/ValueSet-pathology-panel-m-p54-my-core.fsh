@@ -1,0 +1,13 @@
+ValueSet: PathologyPanelMP54MyCore
+Id: pathology-panel-m-p54-my-core
+Title: "Malaysian Pathology Catalogue - Panel: Phospholipase A2 Receptor Ab (PLA2R)"
+Description: "Member orderable tests of Malaysian pathology panel M-P54 (Phospholipase A2 Receptor Ab (PLA2R)). Membership is derived from the catalogue's orderable test code list."
+* ^url = "https://standards.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-m-p54-my-core"
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = false
+* ^date = "2026-10-01T03:16:54.216915Z"
+* ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
+* ^copyright = "Ministry of Health Malaysia."
+* ^compose.inactive = false
+* $pathology-orderable-my-core#M-T731

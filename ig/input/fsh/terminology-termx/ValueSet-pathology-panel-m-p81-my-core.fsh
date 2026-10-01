@@ -1,0 +1,111 @@
+ValueSet: PathologyPanelMP81MyCore
+Id: pathology-panel-m-p81-my-core
+Title: "Malaysian Pathology Catalogue - Panel: Specific IgE"
+Description: "Member orderable tests of Malaysian pathology panel M-P81 (Specific IgE). Membership is derived from the catalogue's orderable test code list."
+* ^url = "https://standards.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-m-p81-my-core"
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = false
+* ^date = "2026-10-01T03:16:56.064842Z"
+* ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
+* ^copyright = "Ministry of Health Malaysia."
+* ^compose.inactive = false
+* $pathology-orderable-my-core#M-T1167
+* $pathology-orderable-my-core#M-T1168
+* $pathology-orderable-my-core#M-T1169
+* $pathology-orderable-my-core#M-T1170
+* $pathology-orderable-my-core#M-T1171
+* $pathology-orderable-my-core#M-T1172
+* $pathology-orderable-my-core#M-T1173
+* $pathology-orderable-my-core#M-T1174
+* $pathology-orderable-my-core#M-T1175
+* $pathology-orderable-my-core#M-T1176
+* $pathology-orderable-my-core#M-T1177
+* $pathology-orderable-my-core#M-T1178
+* $pathology-orderable-my-core#M-T1179
+* $pathology-orderable-my-core#M-T1180
+* $pathology-orderable-my-core#M-T1181
+* $pathology-orderable-my-core#M-T1182
+* $pathology-orderable-my-core#M-T1183
+* $pathology-orderable-my-core#M-T1184
+* $pathology-orderable-my-core#M-T1185
+* $pathology-orderable-my-core#M-T1186
+* $pathology-orderable-my-core#M-T1187
+* $pathology-orderable-my-core#M-T1188
+* $pathology-orderable-my-core#M-T1189
+* $pathology-orderable-my-core#M-T1190
+* $pathology-orderable-my-core#M-T1191
+* $pathology-orderable-my-core#M-T1192
+* $pathology-orderable-my-core#M-T1193
+* $pathology-orderable-my-core#M-T1194
+* $pathology-orderable-my-core#M-T1195
+* $pathology-orderable-my-core#M-T1196
+* $pathology-orderable-my-core#M-T1197
+* $pathology-orderable-my-core#M-T1198
+* $pathology-orderable-my-core#M-T1199
+* $pathology-orderable-my-core#M-T1200
+* $pathology-orderable-my-core#M-T1201
+* $pathology-orderable-my-core#M-T1269
+* $pathology-orderable-my-core#M-T1270
+* $pathology-orderable-my-core#M-T1203
+* $pathology-orderable-my-core#M-T1204
+* $pathology-orderable-my-core#M-T1271
+* $pathology-orderable-my-core#M-T1205
+* $pathology-orderable-my-core#M-T1272
+* $pathology-orderable-my-core#M-T1207
+* $pathology-orderable-my-core#M-T1273
+* $pathology-orderable-my-core#M-T1208
+* $pathology-orderable-my-core#M-T1209
+* $pathology-orderable-my-core#M-T1274
+* $pathology-orderable-my-core#M-T1214
+* $pathology-orderable-my-core#M-T1211
+* $pathology-orderable-my-core#M-T1216
+* $pathology-orderable-my-core#M-T1217
+* $pathology-orderable-my-core#M-T1218
+* $pathology-orderable-my-core#M-T1219
+* $pathology-orderable-my-core#M-T1220
+* $pathology-orderable-my-core#M-T1221
+* $pathology-orderable-my-core#M-T1275
+* $pathology-orderable-my-core#M-T1276
+* $pathology-orderable-my-core#M-T1277
+* $pathology-orderable-my-core#M-T1278
+* $pathology-orderable-my-core#M-T1279
+* $pathology-orderable-my-core#M-T1280
+* $pathology-orderable-my-core#M-T1281
+* $pathology-orderable-my-core#M-T1282
+* $pathology-orderable-my-core#M-T1226
+* $pathology-orderable-my-core#M-T1231
+* $pathology-orderable-my-core#M-T1232
+* $pathology-orderable-my-core#M-T1233
+* $pathology-orderable-my-core#M-T1283
+* $pathology-orderable-my-core#M-T1284
+* $pathology-orderable-my-core#M-T1285
+* $pathology-orderable-my-core#M-T1236
+* $pathology-orderable-my-core#M-T1286
+* $pathology-orderable-my-core#M-T1287
+* $pathology-orderable-my-core#M-T1288
+* $pathology-orderable-my-core#M-T1289
+* $pathology-orderable-my-core#M-T1290
+* $pathology-orderable-my-core#M-T1291
+* $pathology-orderable-my-core#M-T1292
+* $pathology-orderable-my-core#M-T1293
+* $pathology-orderable-my-core#M-T1294
+* $pathology-orderable-my-core#M-T1245
+* $pathology-orderable-my-core#M-T1246
+* $pathology-orderable-my-core#M-T1295
+* $pathology-orderable-my-core#M-T1296
+* $pathology-orderable-my-core#M-T1297
+* $pathology-orderable-my-core#M-T1249
+* $pathology-orderable-my-core#M-T1298
+* $pathology-orderable-my-core#M-T1299
+* $pathology-orderable-my-core#M-T1300
+* $pathology-orderable-my-core#M-T1250
+* $pathology-orderable-my-core#M-T1251
+* $pathology-orderable-my-core#M-T1252
+* $pathology-orderable-my-core#M-T1301
+* $pathology-orderable-my-core#M-T1254
+* $pathology-orderable-my-core#M-T1255
+* $pathology-orderable-my-core#M-T1256
+* $pathology-orderable-my-core#M-T1257
+* $pathology-orderable-my-core#M-T1261
+* $pathology-orderable-my-core#M-T1262
