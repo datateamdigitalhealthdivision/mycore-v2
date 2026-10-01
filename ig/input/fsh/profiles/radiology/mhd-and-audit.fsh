@@ -3,7 +3,7 @@ Parent: List
 Id: list-mhd-submissionset-my-core
 Title: "MY Core MHD SubmissionSet (annex)"
 Description: "IHE MHD SubmissionSet, carried forward from the radiology conformance guide. Annex-tier: relevant where cross-enterprise document sharing is in play."
-* ^version = "2.1.0"
+* ^version = "2.1.1"
 * ^status = #draft
 * identifier 1..* MS
 * status 1..1 MS
@@ -18,7 +18,7 @@ Parent: AuditEvent
 Id: auditevent-my-core
 Title: "MY Core AuditEvent (annex)"
 Description: "Audit record for access to clinical content, following IHE ATNA and the FHIR Basic Audit Log Patterns. Annex-tier in v2.1."
-* ^version = "2.1.0"
+* ^version = "2.1.1"
 * ^status = #draft
 * type 1..1 MS
 * recorded 1..1 MS

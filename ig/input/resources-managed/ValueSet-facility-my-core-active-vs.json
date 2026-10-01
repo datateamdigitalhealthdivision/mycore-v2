@@ -2,7 +2,7 @@
   "resourceType": "ValueSet",
   "id": "facility-my-core-active-vs",
   "url": "https://standards.moh.gov.my/fhir/my-core/ValueSet/facility-my-core-active-vs",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "name": "facility_my_core_active_vs",
   "title": "MOH Healthcare Facility — not retired",
   "status": "active",

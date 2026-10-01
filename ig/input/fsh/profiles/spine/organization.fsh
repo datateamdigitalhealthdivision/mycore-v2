@@ -3,7 +3,7 @@ Parent: Organization
 Id: organization-my-core
 Title: "MY Core Organization"
 Description: "A healthcare facility or organisational unit. The national facility code is the join key across ADT, Laboratory and Radiology payloads."
-* ^version = "2.1.0"
+* ^version = "2.1.1"
 * ^status = #draft
 * identifier 1..* MS
 * identifier ^slicing.discriminator[0].type = #value

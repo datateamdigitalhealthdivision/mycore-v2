@@ -3,7 +3,7 @@ Parent: Task
 Id: task-lab-my-core
 Title: "MY Core Laboratory Task"
 Description: "Fulfilment state of a laboratory order between EMR and LIS. Task.businessStatus is an interoperability requirement, not advisory guidance — it is what makes order progress testable."
-* ^version = "2.1.0"
+* ^version = "2.1.1"
 * ^status = #draft
 * identifier 1..* MS
 * status 1..1 MS

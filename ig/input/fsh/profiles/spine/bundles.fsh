@@ -3,7 +3,7 @@ Parent: Bundle
 Id: bundle-document-my-core
 Title: "MY Core Document Bundle"
 Description: "A clinical document. Used for the ADT note. The first entry SHALL be the Composition; every resource the Composition references SHALL be present in the same Bundle."
-* ^version = "2.1.0"
+* ^version = "2.1.1"
 * ^status = #draft
 * type 1..1 MS
 * type = #document (exactly)
@@ -18,7 +18,7 @@ Parent: Bundle
 Id: bundle-transaction-my-core
 Title: "MY Core Transaction Bundle"
 Description: "Ingest envelope for point-to-point submission of laboratory and radiology results, following the MySejahtera API Gateway pattern."
-* ^version = "2.1.0"
+* ^version = "2.1.1"
 * ^status = #draft
 * type 1..1 MS
 * type = #transaction (exactly)

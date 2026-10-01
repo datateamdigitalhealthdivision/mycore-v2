@@ -3,7 +3,7 @@ Parent: Specimen
 Id: specimen-my-core
 Title: "MY Core Specimen"
 Description: "The material examined. Specimen type carries the local code as the operational key with SNOMED CT preferred alongside; the free-text specimen strings in the source catalogue normalise against the local code system."
-* ^version = "2.1.0"
+* ^version = "2.1.1"
 * ^status = #draft
 * identifier 1..* MS
 * status MS

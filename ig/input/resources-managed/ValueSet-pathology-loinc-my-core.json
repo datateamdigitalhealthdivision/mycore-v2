@@ -2,7 +2,7 @@
   "resourceType": "ValueSet",
   "id": "pathology-loinc-my-core",
   "url": "https://standards.moh.gov.my/fhir/my-core/ValueSet/pathology-loinc-my-core",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "name": "MyCorePathologyLoinc",
   "title": "MY Core Pathology LOINC Codes",
   "status": "active",

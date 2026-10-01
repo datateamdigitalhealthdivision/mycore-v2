@@ -21,7 +21,7 @@ Title:     "MY Core Designation Use"
 Description: "NATIONAL. What kind of alternative name a designation carries.
 HL7 Terminology has no code for a laboratory information system mnemonic, so
 MOH maintains one. Used by the pathology code systems."
-* ^version = "2.1.0"
+* ^version = "2.1.1"
 * ^status = #active
 * ^experimental = false
 * ^caseSensitive = true

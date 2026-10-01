@@ -2,7 +2,7 @@
   "resourceType": "ValueSet",
   "id": "radlex-anatomy-my-core",
   "url": "https://standards.moh.gov.my/fhir/my-core/ValueSet/radlex-anatomy-my-core",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "name": "MyCoreRadLexAnatomy",
   "title": "MY Core Body Site (RadLex anatomy)",
   "status": "active",

@@ -6,7 +6,7 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemDiagnosisRole (MY Core)</h2><tt>https://standards.moh.gov.my/fhir/my-core/CodeSystem/diagnosis-role-my-core</tt><p>SMRP Diagnosis Code</p></div>"
   },
   "url": "https://standards.moh.gov.my/fhir/my-core/CodeSystem/diagnosis-role-my-core",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "name": "CodeSystemDiagnosisRoleMyCore",
   "title": "CodeSystemDiagnosisRole (MY Core)",
   "status": "active",

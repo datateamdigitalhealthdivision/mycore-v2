@@ -2,7 +2,7 @@
   "resourceType": "ConceptMap",
   "id": "rpid-to-loinc-my-core",
   "url": "https://standards.moh.gov.my/fhir/my-core/ConceptMap/rpid-to-loinc-my-core",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "name": "MyCoreRpidToLoinc",
   "title": "MY Core RSNA Playbook RPID to LOINC",
   "status": "active",

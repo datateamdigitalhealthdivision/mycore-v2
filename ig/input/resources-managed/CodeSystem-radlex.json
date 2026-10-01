@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "radlex",
   "url": "http://radlex.org",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "name": "RadLex",
   "title": "RadLex",
   "status": "active",

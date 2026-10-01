@@ -2,7 +2,7 @@
   "resourceType": "ConceptMap",
   "id": "religion-my-core-to-v3-religiousaffiliation",
   "url": "https://standards.moh.gov.my/fhir/my-core/ConceptMap/religion-my-core-to-v3-religiousaffiliation",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "name": "MyCoreReligionToV3ReligiousAffiliation",
   "title": "MY Core Religion to HL7 v3-ReligiousAffiliation",
   "status": "active",

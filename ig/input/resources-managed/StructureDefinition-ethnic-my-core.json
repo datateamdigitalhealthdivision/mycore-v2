@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "ethnic-my-core",
   "url": "https://standards.moh.gov.my/fhir/my-core/StructureDefinition/ethnic-my-core",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "name": "ExtensionEthnicMyCore",
   "title": "ExtensionEthnic (MY Core)",
   "status": "active",

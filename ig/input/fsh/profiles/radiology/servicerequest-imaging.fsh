@@ -10,7 +10,7 @@ Parent: ServiceRequest
 Id: servicerequest-imaging-my-core
 Title: "MY Core Imaging Order"
 Description: "An imaging order placed by an EMR on a RIS. The accession number is the identifier that correlates order to study; without it, order-to-study linkage cannot be tested."
-* ^version = "2.1.0"
+* ^version = "2.1.1"
 * ^status = #draft
 * identifier 1..* MS
 * identifier ^slicing.discriminator[0].type = #value

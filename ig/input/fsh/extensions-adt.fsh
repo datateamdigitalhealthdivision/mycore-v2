@@ -10,7 +10,7 @@ Extension: MyCoreWardClass
 Id:        ward-class-my-core
 Title:     "MY Core Ward Class"
 Description: "NATIONAL. Paying class of the ward. No international equivalent."
-* ^version = "2.1.0"
+* ^version = "2.1.1"
 * ^status = #active
 * ^experimental = false
 * ^context[0].type = #element
@@ -23,7 +23,7 @@ Extension: MyCoreWardCategory
 Id:        ward-category-my-core
 Title:     "MY Core Ward Category"
 Description: "NATIONAL. MOH ward categorisation. No international equivalent."
-* ^version = "2.1.0"
+* ^version = "2.1.1"
 * ^status = #active
 * ^experimental = false
 * ^context[0].type = #element

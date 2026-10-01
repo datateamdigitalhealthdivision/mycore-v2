@@ -2,7 +2,7 @@
   "resourceType": "ConceptMap",
   "id": "imaging-region-my-core-to-radlex",
   "url": "https://standards.moh.gov.my/fhir/my-core/ConceptMap/imaging-region-my-core-to-radlex",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "name": "MyCoreImagingRegionToRadLex",
   "title": "MY Core Imaging Region to RadLex",
   "status": "active",

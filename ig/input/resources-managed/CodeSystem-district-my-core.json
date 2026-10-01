@@ -6,7 +6,7 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemDistrict (My Core)</h2><tt>https://standards.moh.gov.my/fhir/my-core/CodeSystem/district-my-core</tt><p>Malaysia District List</p></div>"
   },
   "url": "https://standards.moh.gov.my/fhir/my-core/CodeSystem/district-my-core",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "name": "CodeSystemDistrictMyCore",
   "title": "CodeSystemDistrict (My Core)",
   "status": "active",

@@ -3,7 +3,7 @@ Parent: MedicationStatement
 Id: medicationstatement-my-core
 Title: "MY Core Medication Statement"
 Description: "A medication the patient is on at discharge. Scoped to the discharge medication section only — the full national medication line is out of scope for v2.1."
-* ^version = "2.1.0"
+* ^version = "2.1.1"
 * ^status = #draft
 * status 1..1 MS
 * medication[x] 1..1 MS

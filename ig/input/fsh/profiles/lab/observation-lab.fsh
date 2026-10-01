@@ -3,7 +3,7 @@ Parent: Observation
 Id: observation-lab-my-core
 Title: "MY Core Laboratory Result"
 Description: "A single laboratory result, or a grouping observation whose members are results. One profile covers every analyte: anything differing only by code is a value set entry, not a profile. This replaces the twenty-four code-differentiated Observation profiles in v2.0."
-* ^version = "2.1.0"
+* ^version = "2.1.1"
 * ^status = #draft
 * status 1..1 MS
 * category 1..* MS

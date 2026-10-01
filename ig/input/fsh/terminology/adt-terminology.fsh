@@ -13,7 +13,7 @@ Description: "NATIONAL SELECTION. MOH-maintained selection of LOINC document
 section codes for the ADT note, following the HL7 Europe Hospital Discharge
 Report structure. Codes are maintained by Regenstrief; MOH maintains only the
 selection."
-* ^version = "2.1.0"
+* ^version = "2.1.1"
 * ^status = #active
 * ^experimental = false
 
@@ -42,7 +42,7 @@ Title:     "MY Core Discharge Disposition Supplement"
 Description: "NATIONAL. The Malaysian discharge dispositions with no HL7
 equivalent. Everything else uses HL7 Terminology discharge-disposition directly.
 Submitted to HL7 as PROMOTE candidates."
-* ^version = "2.1.0"
+* ^version = "2.1.1"
 * ^status = #active
 * ^experimental = false
 * ^caseSensitive = true
@@ -57,7 +57,7 @@ Title:    "MY Core Discharge Disposition"
 Description: "NATIONAL SELECTION. HL7 Terminology discharge-disposition plus the
 single national supplement code. Replaces discharge-disposition-my-core as the
 binding target; that list is retained as a ConceptMap source for legacy extracts."
-* ^version = "2.1.0"
+* ^version = "2.1.1"
 * ^status = #active
 * ^experimental = false
 * include codes from system $CS-DISCHARGE-THO
@@ -71,7 +71,7 @@ ValueSet: MyCoreWardCategoryVS
 Id:       ward-category-my-core
 Title:    "MY Core Ward Category"
 Description: "NATIONAL. MOH ward categorisation."
-* ^version = "2.1.0"
+* ^version = "2.1.1"
 * ^status = #active
 * ^experimental = false
 * include codes from system https://standards.moh.gov.my/fhir/my-core/CodeSystem/ward-category-my-core

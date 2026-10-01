@@ -3,7 +3,7 @@ Parent: Condition
 Id: condition-my-core
 Title: "MY Core Condition"
 Description: "A diagnosis or clinical problem. Coded primarily with ICD-11 MMS; SNOMED CT is an accepted alternate. Both are permitted in the same CodeableConcept."
-* ^version = "2.1.0"
+* ^version = "2.1.1"
 * ^status = #draft
 * clinicalStatus MS
 * verificationStatus MS

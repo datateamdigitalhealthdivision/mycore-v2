@@ -18,7 +18,7 @@ Constrains base FHIR Patient with national identifier namespaces and the four
 demographic attributes MOH collects that base FHIR does not carry: ethnicity,
 religion, district of address, and citizenship."
 
-* ^version = "2.1.0"
+* ^version = "2.1.1"
 * ^status = #draft          // becomes #active at the 2.1.0 release — release checklist
 * ^experimental = false
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"

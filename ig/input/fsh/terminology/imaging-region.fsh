@@ -28,7 +28,7 @@ ConceptMap/imaging-region-my-core-to-radlex.
 The body-region concepts from the national imaging region list — the concepts whose conceptClass is region. Procedures,
 modalities and administrative categories in that list are deliberately excluded.
 Each concept is mapped to RadLex."
-* ^version = "2.1.0"
+* ^version = "2.1.1"
 * ^status = #retired
 * ^experimental = false
 

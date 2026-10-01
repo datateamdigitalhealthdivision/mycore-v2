@@ -12,7 +12,7 @@
     }
   ],
   "url": "https://standards.moh.gov.my/fhir/my-core/StructureDefinition/religion-my-core",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "name": "ExtensionReligionMyCore",
   "title": "ExtensionReligion (MY Core)",
   "status": "retired",

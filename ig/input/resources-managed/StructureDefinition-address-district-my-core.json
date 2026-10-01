@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "address-district-my-core",
   "url": "https://standards.moh.gov.my/fhir/my-core/StructureDefinition/address-district-my-core",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "name": "ExtensionAddressDistrictMyCore",
   "title": "ExtensionAddressDistrict (MY Core)",
   "status": "active",

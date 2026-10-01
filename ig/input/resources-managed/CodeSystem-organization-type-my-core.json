@@ -6,7 +6,7 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemOrganizationType (MY Core)</h2><tt>https://standards.moh.gov.my/fhir/my-core/CodeSystem/organization-type-my-core</tt><p>type of Health Care organization Malaysia</p></div>"
   },
   "url": "https://standards.moh.gov.my/fhir/my-core/CodeSystem/organization-type-my-core",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "name": "CodeSystemOrganizationTypeMyCore",
   "title": "CodeSystemOrganizationType (MY Core)",
   "status": "active",

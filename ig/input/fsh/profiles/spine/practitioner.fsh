@@ -3,7 +3,7 @@ Parent: Practitioner
 Id: practitioner-my-core
 Title: "MY Core Practitioner"
 Description: "A healthcare worker who orders, performs, reports or authenticates content in the three use cases. The professional registration number is the identifier that makes attribution testable."
-* ^version = "2.1.0"
+* ^version = "2.1.1"
 * ^status = #draft
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 

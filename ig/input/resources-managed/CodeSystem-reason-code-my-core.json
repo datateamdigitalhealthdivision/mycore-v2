@@ -6,7 +6,7 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemReasonCode (MY Core)</h2><tt>https://standards.moh.gov.my/fhir/my-core/CodeSystem/reason-code-my-core</tt><p>Reason for encounter codes in Malaysia</p></div>"
   },
   "url": "https://standards.moh.gov.my/fhir/my-core/CodeSystem/reason-code-my-core",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "name": "CodeSystemReasonCodeMyCore",
   "title": "CodeSystemReasonCode (MY Core)",
   "status": "active",

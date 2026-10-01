@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "pathology-orderable-my-core",
   "url": "https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "name": "PathologyOrderableMyCore",
   "title": "Malaysian Pathology Catalogue - Orderable Tests",
   "status": "active",

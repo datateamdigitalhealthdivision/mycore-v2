@@ -3,7 +3,7 @@ Parent: ImagingStudy
 Id: imagingstudy-my-core
 Title: "MY Core Imaging Study"
 Description: "DICOM study metadata published by PACS or VNA. Modality comes from the DICOM code system; body site and procedure use the same international vocabularies as the Imaging Order."
-* ^version = "2.1.0"
+* ^version = "2.1.1"
 * ^status = #draft
 * identifier 1..* MS
 * identifier ^short = "Study Instance UID as urn:oid, plus the accession number."

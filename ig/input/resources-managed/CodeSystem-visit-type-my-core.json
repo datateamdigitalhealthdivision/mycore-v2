@@ -73,7 +73,7 @@
       "definition": "Encounter forming part of an ongoing programme of care."
     }
   ],
-  "version": "2.1.0",
+  "version": "2.1.1",
   "experimental": false,
   "caseSensitive": true
 }

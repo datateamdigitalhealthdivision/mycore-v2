@@ -2,7 +2,7 @@
   "resourceType": "ValueSet",
   "id": "radiology-procedure-my-core",
   "url": "https://standards.moh.gov.my/fhir/my-core/ValueSet/radiology-procedure-my-core",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "name": "MyCoreRadiologyProcedureMyCore",
   "title": "MY Core Radiology Procedure",
   "status": "active",

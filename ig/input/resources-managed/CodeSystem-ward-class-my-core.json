@@ -6,7 +6,7 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemWardClass (MY Core)</h2><tt>https://standards.moh.gov.my/fhir/my-core/CodeSystem/ward-class-my-core</tt><p>Ward Class</p></div>"
   },
   "url": "https://standards.moh.gov.my/fhir/my-core/CodeSystem/ward-class-my-core",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "name": "CodeSystemWardClassMyCore",
   "title": "CodeSystemWardClass (MY Core)",
   "status": "active",

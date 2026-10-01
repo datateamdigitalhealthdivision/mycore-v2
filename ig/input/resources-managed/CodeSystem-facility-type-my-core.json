@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "facility-type-my-core",
   "url": "https://standards.moh.gov.my/fhir/my-core/CodeSystem/facility-type-my-core",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "name": "FacilityTypeMyCore",
   "title": "MOH Healthcare Facility Type",
   "status": "active",

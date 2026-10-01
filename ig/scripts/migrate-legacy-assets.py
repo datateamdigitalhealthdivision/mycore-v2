@@ -302,7 +302,21 @@ def write_json(path: Path, resource: dict) -> None:
         handle.write('\n')
 
 
-IG_VERSION = '2.1.0'
+def _ig_version() -> str:
+    """Read the IG version from sushi-config.yaml rather than hardcoding it.
+
+    This was pinned to a literal '2.1.0', so the v2.1.1 re-cut left every
+    regenerated legacy artefact stamped with the previous version while the IG
+    itself had moved on. Deriving it keeps the two in step automatically.
+    """
+    cfg = IG_ROOT / 'sushi-config.yaml'
+    for line in cfg.read_text(encoding='utf-8').splitlines():
+        if line.startswith('version:'):
+            return line.split(':', 1)[1].strip().strip('"\'')
+    raise SystemExit('could not read `version:` from %s' % cfg)
+
+
+IG_VERSION = _ig_version()
 
 
 def stamp_publication_metadata(resource: dict) -> None:

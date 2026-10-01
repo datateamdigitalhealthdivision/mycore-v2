@@ -86,7 +86,7 @@
       "definition": "Religious affiliation recorded but not represented by another code in this code system."
     }
   ],
-  "version": "2.1.0",
+  "version": "2.1.1",
   "experimental": false,
   "caseSensitive": true
 }
