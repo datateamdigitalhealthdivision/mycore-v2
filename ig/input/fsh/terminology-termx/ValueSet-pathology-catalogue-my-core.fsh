@@ -1546,4 +1546,4 @@ Description: "The Malaysian Pathology Catalogue: the LOINC codes used by Malaysi
 * $loinc#1956-2
 * $loinc#1954-7
 * $loinc#24066-3
-* include codes from system https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-local-code-my-core|1.0.0
+* include codes from system $pathology-local-code-my-core

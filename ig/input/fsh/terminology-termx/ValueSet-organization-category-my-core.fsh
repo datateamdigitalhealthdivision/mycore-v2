@@ -8,4 +8,4 @@ Description: "Category of Health Care Facility Malaysia"
 * ^experimental = false
 * ^contact.telecom.system = #email
 * ^compose.inactive = false
-* include codes from system https://standards.moh.gov.my/fhir/my-core/CodeSystem/organization-category-my-core|2.0.0
+* include codes from system $organization-category-my-core

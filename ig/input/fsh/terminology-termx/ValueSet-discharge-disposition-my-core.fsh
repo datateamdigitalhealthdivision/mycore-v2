@@ -11,4 +11,4 @@ Description: "Discharge Disposition"
 * ^contact.telecom.system = #email
 * ^contact.telecom.value = "saifuldaulah@mhn.asia"
 * ^compose.inactive = false
-* include codes from system https://standards.moh.gov.my/fhir/my-core/CodeSystem/discharge-disposition-my-core|2.1.1
+* include codes from system $discharge-disposition-my-core

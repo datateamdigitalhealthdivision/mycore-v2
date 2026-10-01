@@ -7,4 +7,4 @@ Description: "Every orderable test in the national pathology catalogue. This is 
 * ^status = #active
 * ^experimental = false
 * ^compose.inactive = false
-* include codes from system https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core|2.1.1
+* include codes from system $pathology-orderable-my-core

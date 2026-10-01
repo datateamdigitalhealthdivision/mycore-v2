@@ -11,16 +11,11 @@ Description: "Location Type"
 * ^contact.telecom.system = #email
 * ^contact.telecom.value = "saifuldaulah@mhn.asia"
 * ^compose.inactive = false
-* include codes from system https://standards.moh.gov.my/fhir/my-core/CodeSystem/ward-category-my-core|2.0.0
-   
+* include codes from system $ward-category-my-core
 * include codes from system http://terminology.hl7.org/CodeSystem/v3-ActCode|10.0.0
-* include codes from system https://standards.moh.gov.my/fhir/my-core/CodeSystem/ward-class-my-core|2.0.0
-   
-* include codes from system https://standards.moh.gov.my/fhir/my-core/CodeSystem/ward-specialty-my-core|2.0.0
-   
-* include codes from system https://standards.moh.gov.my/fhir/my-core/CodeSystem/location-type-my-core|2.0.0
-   
-* include codes from system https://standards.moh.gov.my/fhir/my-core/CodeSystem/specialty-my-core|2.0.0
-   
+* include codes from system $ward-class-my-core
+* include codes from system $ward-specialty-my-core
+* include codes from system $location-type-my-core
+* include codes from system $specialty-my-core
 * $v3-RoleCode#_ServiceDeliveryLocationRoleType "ServiceDeliveryLocationRoleType\tA role of a place that further classifies the setting (e.g., accident site, road side, work site, community location) in which services are delivered."
 * exclude codes from system http://terminology.hl7.org/CodeSystem/v3-RoleCode|4.0.0

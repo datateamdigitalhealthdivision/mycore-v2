@@ -11,4 +11,4 @@ Description: "Malaysia lab method"
 * ^contact.telecom.system = #email
 * ^contact.telecom.value = "saifuldaulah@mhn.asia"
 * ^compose.inactive = false
-* include codes from system https://standards.moh.gov.my/fhir/my-core/CodeSystem/lab-method-my-core|2.0.0
+* include codes from system $lab-method-my-core

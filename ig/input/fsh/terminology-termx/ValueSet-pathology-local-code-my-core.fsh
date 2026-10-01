@@ -7,4 +7,4 @@ Description: "The interim LOINC-shaped codes standing in for tests that do not y
 * ^status = #active
 * ^experimental = false
 * ^compose.inactive = false
-* include codes from system https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-local-code-my-core|2.1.1
+* include codes from system $pathology-local-code-my-core
