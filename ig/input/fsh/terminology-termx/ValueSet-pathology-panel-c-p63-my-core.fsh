@@ -10,5 +10,5 @@ Description: "Member orderable tests of Malaysian pathology panel C-P63 (Opiates
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#C-T631
-* $pathology-orderable-my-core#C-T641
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T631
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T641

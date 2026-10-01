@@ -22,6 +22,7 @@ Description: "Encounter Visit Type PIK code"
 * ^property[=].uri = "http://terminology.hl7.org/CodeSystem/designation-usage|display"
 * ^property[=].description = "Display"
 * ^property[=].type = #string
+* ^valueSet = "https://standards.moh.gov.my/fhir/my-core/ValueSet/visit-type-my-core"
 * #00 "No Information" "Placeholder used where the visit type was not recorded."
 * #01 "New" "First presentation of this patient to this service for this problem."
 * #02 "Elective" "Encounter planned in advance for a non-urgent condition."

@@ -10,8 +10,8 @@ Description: "Member orderable tests of Malaysian pathology panel C-P29 (Pterins
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#C-T405
-* $pathology-orderable-my-core#C-T406
-* $pathology-orderable-my-core#C-T407
-* $pathology-orderable-my-core#C-T408
-* $pathology-orderable-my-core#C-T238
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T405
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T406
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T407
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T408
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T238

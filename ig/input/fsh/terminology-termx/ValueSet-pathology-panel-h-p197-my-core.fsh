@@ -10,17 +10,17 @@ Description: "Member orderable tests of Malaysian pathology panel H-P197 (Manual
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#H-T1123
-* $pathology-orderable-my-core#H-T1124
-* $pathology-orderable-my-core#H-T1125
-* $pathology-orderable-my-core#H-T1126
-* $pathology-orderable-my-core#H-T1127
-* $pathology-orderable-my-core#H-T1128
-* $pathology-orderable-my-core#H-T1129
-* $pathology-orderable-my-core#H-T1130
-* $pathology-orderable-my-core#H-T1131
-* $pathology-orderable-my-core#H-T1132
-* $pathology-orderable-my-core#H-T1133
-* $pathology-orderable-my-core#H-T1134
-* $pathology-orderable-my-core#H-T1135
-* $pathology-orderable-my-core#H-T1136
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1123
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1124
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1125
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1126
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1127
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1128
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1129
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1130
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1131
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1132
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1133
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1134
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1135
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1136

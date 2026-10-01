@@ -10,10 +10,10 @@ Description: "Member orderable tests of Malaysian pathology panel Ot-P1 (ABO Gro
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#Ot-T1
-* $pathology-orderable-my-core#Ot-T2
-* $pathology-orderable-my-core#Ot-T3
-* $pathology-orderable-my-core#Ot-T4
-* $pathology-orderable-my-core#Ot-T5
-* $pathology-orderable-my-core#Ot-T6
-* $pathology-orderable-my-core#Ot-T7
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#Ot-T1
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#Ot-T2
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#Ot-T3
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#Ot-T4
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#Ot-T5
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#Ot-T6
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#Ot-T7

@@ -10,8 +10,8 @@ Description: "Member orderable tests of Malaysian pathology panel C-P42 (Urine P
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#C-T492
-* $pathology-orderable-my-core#C-T494
-* $pathology-orderable-my-core#C-T496
-* $pathology-orderable-my-core#C-T566
-* $pathology-orderable-my-core#C-T564
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T492
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T494
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T496
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T566
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T564

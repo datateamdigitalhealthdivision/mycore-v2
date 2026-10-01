@@ -10,6 +10,6 @@ Description: "Member orderable tests of Malaysian pathology panel C-P50 (Oral Gl
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#C-T121
-* $pathology-orderable-my-core#C-T656
-* $pathology-orderable-my-core#C-T657
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T121
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T656
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T657

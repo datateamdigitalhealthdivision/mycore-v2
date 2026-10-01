@@ -19,6 +19,7 @@ Description: "Category of Health Care organization Malaysia"
 * ^property[=].uri = "http://terminology.hl7.org/CodeSystem/designation-usage|display"
 * ^property[=].description = "Display"
 * ^property[=].type = #string
+* ^valueSet = "https://standards.moh.gov.my/fhir/my-core/ValueSet/organization-category-my-core"
 * #ATM "ANGKATAN TENTERA MALAYSIA" "ANGKATAN TENTERA MALAYSIA"
 * #BMU "REGIONAL BMU" "REGIONAL BMU"
 * #CAC "COVID-19 ASSESMENT CENTER" "COVID-19 ASSESMENT CENTER"

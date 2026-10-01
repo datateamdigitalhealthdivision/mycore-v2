@@ -10,5 +10,5 @@ Description: "Member orderable tests of Malaysian pathology panel C-P12 (PKU Ami
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#C-T270
-* $pathology-orderable-my-core#C-T269
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T270
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T269

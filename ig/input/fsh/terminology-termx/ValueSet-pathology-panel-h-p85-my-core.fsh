@@ -10,7 +10,7 @@ Description: "Member orderable tests of Malaysian pathology panel H-P85 (Glucose
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#H-T880
-* $pathology-orderable-my-core#H-T1052
-* $pathology-orderable-my-core#H-T1050
-* $pathology-orderable-my-core#H-T1051
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T880
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1052
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1050
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1051

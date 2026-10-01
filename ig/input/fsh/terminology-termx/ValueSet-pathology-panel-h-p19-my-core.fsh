@@ -10,11 +10,11 @@ Description: "Member orderable tests of Malaysian pathology panel H-P19 (PT & AP
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#H-T150
-* $pathology-orderable-my-core#H-T151
-* $pathology-orderable-my-core#H-T4
-* $pathology-orderable-my-core#H-T1046
-* $pathology-orderable-my-core#H-T1042
-* $pathology-orderable-my-core#H-T1043
-* $pathology-orderable-my-core#H-T1044
-* $pathology-orderable-my-core#H-T1045
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T150
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T151
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T4
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1046
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1042
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1043
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1044
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1045

@@ -10,18 +10,18 @@ Description: "Member orderable tests of Malaysian pathology panel M-P123 (HIV Dr
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#M-T1551
-* $pathology-orderable-my-core#M-T1552
-* $pathology-orderable-my-core#M-T1553
-* $pathology-orderable-my-core#M-T1554
-* $pathology-orderable-my-core#M-T1555
-* $pathology-orderable-my-core#M-T1556
-* $pathology-orderable-my-core#M-T1557
-* $pathology-orderable-my-core#M-T1558
-* $pathology-orderable-my-core#M-T1559
-* $pathology-orderable-my-core#M-T1560
-* $pathology-orderable-my-core#M-T1561
-* $pathology-orderable-my-core#M-T1562
-* $pathology-orderable-my-core#M-T1563
-* $pathology-orderable-my-core#M-T1564
-* $pathology-orderable-my-core#M-T1403
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1551
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1552
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1553
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1554
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1555
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1556
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1557
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1558
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1559
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1560
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1561
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1562
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1563
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1564
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1403

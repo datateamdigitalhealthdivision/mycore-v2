@@ -10,4 +10,4 @@ Description: "Member orderable tests of Malaysian pathology panel M-P64 (Coxsack
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#M-T153
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T153

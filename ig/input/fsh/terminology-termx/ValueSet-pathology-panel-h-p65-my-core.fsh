@@ -10,11 +10,11 @@ Description: "Member orderable tests of Malaysian pathology panel H-P65 (CD4/CD8
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#H-T617
-* $pathology-orderable-my-core#H-T618
-* $pathology-orderable-my-core#H-T619
-* $pathology-orderable-my-core#H-T620
-* $pathology-orderable-my-core#H-T624
-* $pathology-orderable-my-core#H-T625
-* $pathology-orderable-my-core#H-T622
-* $pathology-orderable-my-core#H-T623
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T617
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T618
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T619
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T620
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T624
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T625
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T622
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T623

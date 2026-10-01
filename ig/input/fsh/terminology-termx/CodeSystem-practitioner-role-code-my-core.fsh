@@ -22,6 +22,7 @@ Description: "Malaysia list of practitioner role"
 * ^property[=].uri = "http://terminology.hl7.org/CodeSystem/designation-usage|display"
 * ^property[=].description = "Display"
 * ^property[=].type = #string
+* ^valueSet = "https://standards.moh.gov.my/fhir/my-core/ValueSet/practitioner-role-code-my-core"
 * #2XL5EL5R9Y "Enviroment Health Officer" "Enviroment Health Officer"
 * #AMO "Assistant Medical Officer" "Assistant Medical Officer"
 * #APHRO "Assistant Pharmacy Officer" "Assistant Pharmacy Officer"

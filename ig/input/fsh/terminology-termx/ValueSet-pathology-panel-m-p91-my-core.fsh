@@ -10,8 +10,8 @@ Description: "Member orderable tests of Malaysian pathology panel M-P91 (Mycobac
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#M-T708
-* $pathology-orderable-my-core#M-T361
-* $pathology-orderable-my-core#M-T706
-* $pathology-orderable-my-core#M-T707
-* $pathology-orderable-my-core#M-T371
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T708
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T361
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T706
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T707
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T371

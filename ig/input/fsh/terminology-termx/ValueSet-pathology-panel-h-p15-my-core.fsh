@@ -10,14 +10,14 @@ Description: "Member orderable tests of Malaysian pathology panel H-P15 (Von Wil
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#H-T150
-* $pathology-orderable-my-core#H-T151
-* $pathology-orderable-my-core#H-T93
-* $pathology-orderable-my-core#H-T4
-* $pathology-orderable-my-core#H-T834
-* $pathology-orderable-my-core#H-T447
-* $pathology-orderable-my-core#H-T448
-* $pathology-orderable-my-core#H-T449
-* $pathology-orderable-my-core#H-T450
-* $pathology-orderable-my-core#H-T451
-* $pathology-orderable-my-core#H-T452
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T150
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T151
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T93
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T4
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T834
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T447
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T448
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T449
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T450
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T451
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T452

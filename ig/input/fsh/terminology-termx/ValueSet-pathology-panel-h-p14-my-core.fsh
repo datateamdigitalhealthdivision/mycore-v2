@@ -10,16 +10,16 @@ Description: "Member orderable tests of Malaysian pathology panel H-P14 (Inherit
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#H-T150
-* $pathology-orderable-my-core#H-T151
-* $pathology-orderable-my-core#H-T93
-* $pathology-orderable-my-core#H-T4
-* $pathology-orderable-my-core#H-T435
-* $pathology-orderable-my-core#H-T436
-* $pathology-orderable-my-core#H-T437
-* $pathology-orderable-my-core#H-T438
-* $pathology-orderable-my-core#H-T439
-* $pathology-orderable-my-core#H-T440
-* $pathology-orderable-my-core#H-T441
-* $pathology-orderable-my-core#H-T442
-* $pathology-orderable-my-core#H-T443
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T150
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T151
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T93
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T4
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T435
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T436
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T437
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T438
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T439
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T440
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T441
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T442
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T443

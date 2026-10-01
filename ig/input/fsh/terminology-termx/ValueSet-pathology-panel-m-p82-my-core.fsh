@@ -10,17 +10,17 @@ Description: "Member orderable tests of Malaysian pathology panel M-P82 (Meningi
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#M-T1328
-* $pathology-orderable-my-core#M-T1327
-* $pathology-orderable-my-core#M-T1326
-* $pathology-orderable-my-core#M-T1325
-* $pathology-orderable-my-core#M-T1470
-* $pathology-orderable-my-core#M-T1324
-* $pathology-orderable-my-core#M-T1329
-* $pathology-orderable-my-core#M-T1330
-* $pathology-orderable-my-core#M-T1320
-* $pathology-orderable-my-core#M-T1322
-* $pathology-orderable-my-core#M-T1319
-* $pathology-orderable-my-core#M-T1321
-* $pathology-orderable-my-core#M-T1323
-* $pathology-orderable-my-core#M-T1331
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1328
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1327
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1326
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1325
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1470
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1324
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1329
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1330
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1320
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1322
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1319
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1321
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1323
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1331

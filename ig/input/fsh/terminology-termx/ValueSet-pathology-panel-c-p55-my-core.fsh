@@ -10,13 +10,13 @@ Description: "Member orderable tests of Malaysian pathology panel C-P55 (Drug of
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#C-T551
-* $pathology-orderable-my-core#C-T548
-* $pathology-orderable-my-core#C-T578
-* $pathology-orderable-my-core#C-T560
-* $pathology-orderable-my-core#C-T559
-* $pathology-orderable-my-core#C-T580
-* $pathology-orderable-my-core#C-T577
-* $pathology-orderable-my-core#C-T579
-* $pathology-orderable-my-core#C-T581
-* $pathology-orderable-my-core#C-T664
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T551
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T548
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T578
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T560
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T559
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T580
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T577
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T579
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T581
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T664

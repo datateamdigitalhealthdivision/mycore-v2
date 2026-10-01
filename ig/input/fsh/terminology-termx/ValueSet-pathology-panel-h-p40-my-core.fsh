@@ -10,18 +10,18 @@ Description: "Member orderable tests of Malaysian pathology panel H-P40 (Body Fl
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#H-T1096
-* $pathology-orderable-my-core#H-T1097
-* $pathology-orderable-my-core#H-T1098
-* $pathology-orderable-my-core#H-T1099
-* $pathology-orderable-my-core#H-T1100
-* $pathology-orderable-my-core#H-T1102
-* $pathology-orderable-my-core#H-T1103
-* $pathology-orderable-my-core#H-T1104
-* $pathology-orderable-my-core#H-T1105
-* $pathology-orderable-my-core#H-T1106
-* $pathology-orderable-my-core#H-T1107
-* $pathology-orderable-my-core#H-T1108
-* $pathology-orderable-my-core#H-T1109
-* $pathology-orderable-my-core#H-T1110
-* $pathology-orderable-my-core#H-T1111
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1096
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1097
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1098
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1099
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1100
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1102
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1103
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1104
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1105
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1106
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1107
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1108
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1109
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1110
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1111

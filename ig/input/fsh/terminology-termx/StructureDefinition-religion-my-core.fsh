@@ -14,4 +14,4 @@ Context: Patient
 * . ^short = "The patient's professed religious affiliations"
 * . ^definition = "The patient's professed religious affiliations."
 * value[x] only CodeableConcept
-* value[x] from $religion-my-core (required)
+* value[x] from https://standards.moh.gov.my/fhir/my-core/ValueSet/religion-my-core (required)

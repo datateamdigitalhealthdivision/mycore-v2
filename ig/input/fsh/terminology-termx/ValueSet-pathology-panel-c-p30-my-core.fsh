@@ -10,12 +10,12 @@ Description: "Member orderable tests of Malaysian pathology panel C-P30 (Purine 
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#C-T409
-* $pathology-orderable-my-core#C-T410
-* $pathology-orderable-my-core#C-T411
-* $pathology-orderable-my-core#C-T412
-* $pathology-orderable-my-core#C-T413
-* $pathology-orderable-my-core#C-T414
-* $pathology-orderable-my-core#C-T415
-* $pathology-orderable-my-core#C-T416
-* $pathology-orderable-my-core#C-T663
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T409
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T410
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T411
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T412
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T413
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T414
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T415
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T416
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T663

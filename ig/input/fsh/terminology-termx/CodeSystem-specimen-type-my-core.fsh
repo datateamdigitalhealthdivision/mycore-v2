@@ -22,6 +22,7 @@ Description: "Malaysia specimen type"
 * ^property[=].uri = "http://terminology.hl7.org/CodeSystem/designation-usage|display"
 * ^property[=].description = "Display"
 * ^property[=].type = #string
+* ^valueSet = "https://standards.moh.gov.my/fhir/my-core/ValueSet/specimen-type-my-core"
 * #Abscess "Abscess" "Material aspirated or drained from an abscess cavity."
 * #Bld "Blood" "Whole blood, source not further specified."
 * #Bld/Tiss "Blood/Tissue" "Either blood or tissue is acceptable for the test."

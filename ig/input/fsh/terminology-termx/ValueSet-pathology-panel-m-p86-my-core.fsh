@@ -10,9 +10,9 @@ Description: "Member orderable tests of Malaysian pathology panel M-P86 (Gastroi
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#M-T58
-* $pathology-orderable-my-core#M-T16
-* $pathology-orderable-my-core#M-T1308
-* $pathology-orderable-my-core#M-T39
-* $pathology-orderable-my-core#M-T1309
-* $pathology-orderable-my-core#M-T1310
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T58
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T16
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1308
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T39
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1309
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1310

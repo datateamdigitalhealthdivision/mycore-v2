@@ -19,6 +19,7 @@ Description: "Type of Health Care organization Malaysia"
 * ^property[=].uri = "http://terminology.hl7.org/CodeSystem/designation-usage|display"
 * ^property[=].description = "Display"
 * ^property[=].type = #string
+* ^valueSet = "https://standards.moh.gov.my/fhir/my-core/ValueSet/organization-type-my-core"
 * #1 "Government" "Organisation owned and operated by government."
 * #2 "Private" "Organisation owned and operated by a private entity."
 * #3 "Non-Governmental Organization" "Organisation operated by a non-governmental, not-for-profit entity."

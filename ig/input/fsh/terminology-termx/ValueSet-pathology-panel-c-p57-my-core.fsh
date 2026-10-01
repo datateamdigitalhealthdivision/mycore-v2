@@ -10,10 +10,10 @@ Description: "Member orderable tests of Malaysian pathology panel C-P57 (ATS (Cl
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#C-T590
-* $pathology-orderable-my-core#C-T591
-* $pathology-orderable-my-core#C-T592
-* $pathology-orderable-my-core#C-T597
-* $pathology-orderable-my-core#C-T595
-* $pathology-orderable-my-core#C-T598
-* $pathology-orderable-my-core#C-T599
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T590
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T591
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T592
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T597
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T595
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T598
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T599

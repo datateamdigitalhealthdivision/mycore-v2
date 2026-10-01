@@ -10,8 +10,8 @@ Description: "Member orderable tests of Malaysian pathology panel G-P1 (Fluoresc
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#G-T30
-* $pathology-orderable-my-core#G-T49
-* $pathology-orderable-my-core#G-T50
-* $pathology-orderable-my-core#G-T51
-* $pathology-orderable-my-core#G-T52
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#G-T30
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#G-T49
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#G-T50
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#G-T51
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#G-T52

@@ -10,7 +10,7 @@ Description: "Member orderable tests of Malaysian pathology panel H-P79 (Haemoph
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#H-T717
-* $pathology-orderable-my-core#H-T718
-* $pathology-orderable-my-core#H-T1059
-* $pathology-orderable-my-core#H-T1060
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T717
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T718
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1059
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1060

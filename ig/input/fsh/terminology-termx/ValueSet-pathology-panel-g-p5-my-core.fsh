@@ -10,8 +10,8 @@ Description: "Member orderable tests of Malaysian pathology panel G-P5 (Spinocer
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#G-T222
-* $pathology-orderable-my-core#G-T223
-* $pathology-orderable-my-core#G-T224
-* $pathology-orderable-my-core#G-T225
-* $pathology-orderable-my-core#G-T226
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#G-T222
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#G-T223
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#G-T224
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#G-T225
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#G-T226

@@ -22,6 +22,7 @@ Description: "Malaysia Lab method"
 * ^property[=].uri = "http://terminology.hl7.org/CodeSystem/designation-usage|display"
 * ^property[=].description = "Display"
 * ^property[=].type = #string
+* ^valueSet = "https://standards.moh.gov.my/fhir/my-core/ValueSet/lab-method-my-core"
 * #00 "No Information" "Placeholder used when the examination method was not recorded at the source system. Not a method."
 * #01 "Immune Stain" "Immunohistochemical stain using labelled antibodies to demonstrate a specific antigen in tissue."
 * #02 "Other stain" "Any special stain not separately enumerated in this code system."

@@ -10,12 +10,12 @@ Description: "Member orderable tests of Malaysian pathology panel C-P47 (Liver F
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#C-T147
-* $pathology-orderable-my-core#C-T2
-* $pathology-orderable-my-core#C-T1
-* $pathology-orderable-my-core#C-T82
-* $pathology-orderable-my-core#C-T107
-* $pathology-orderable-my-core#C-T8
-* $pathology-orderable-my-core#C-T3
-* $pathology-orderable-my-core#C-T4
-* $pathology-orderable-my-core#C-T5
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T147
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T2
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T1
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T82
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T107
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T8
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T3
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T4
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T5

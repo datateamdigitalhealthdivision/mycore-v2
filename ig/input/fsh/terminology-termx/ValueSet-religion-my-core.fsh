@@ -10,4 +10,4 @@ Description: "Common religion in Malaysia"
 * ^publisher = "Malaysia MOH - HIE Steering Committee"
 * ^contact.telecom.system = #email
 * ^compose.inactive = false
-* include codes from system $religion-my-core
+* include codes from system https://standards.moh.gov.my/fhir/my-core/CodeSystem/religion-my-core

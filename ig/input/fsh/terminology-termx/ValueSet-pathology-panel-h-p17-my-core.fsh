@@ -10,8 +10,8 @@ Description: "Member orderable tests of Malaysian pathology panel H-P17 (PT Mixi
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#H-T150
-* $pathology-orderable-my-core#H-T151
-* $pathology-orderable-my-core#H-T4
-* $pathology-orderable-my-core#H-T1046
-* $pathology-orderable-my-core#H-T1044
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T150
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T151
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T4
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1046
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1044

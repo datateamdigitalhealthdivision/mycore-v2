@@ -10,8 +10,8 @@ Description: "Member orderable tests of Malaysian pathology panel M-P122 (HIV Dr
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#M-T1546
-* $pathology-orderable-my-core#M-T1547
-* $pathology-orderable-my-core#M-T1548
-* $pathology-orderable-my-core#M-T1549
-* $pathology-orderable-my-core#M-T1550
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1546
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1547
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1548
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1549
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1550

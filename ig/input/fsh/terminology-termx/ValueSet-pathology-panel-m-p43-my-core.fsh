@@ -10,9 +10,9 @@ Description: "Member orderable tests of Malaysian pathology panel M-P43 (Toxopla
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#M-T98
-* $pathology-orderable-my-core#M-T99
-* $pathology-orderable-my-core#M-T108
-* $pathology-orderable-my-core#M-T95
-* $pathology-orderable-my-core#M-T107
-* $pathology-orderable-my-core#M-T97
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T98
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T99
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T108
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T95
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T107
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T97

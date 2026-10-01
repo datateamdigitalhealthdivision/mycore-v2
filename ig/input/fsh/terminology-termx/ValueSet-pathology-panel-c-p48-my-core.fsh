@@ -10,9 +10,9 @@ Description: "Member orderable tests of Malaysian pathology panel C-P48 (Lipid P
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#C-T16
-* $pathology-orderable-my-core#C-T141
-* $pathology-orderable-my-core#C-T85
-* $pathology-orderable-my-core#C-T108
-* $pathology-orderable-my-core#C-T164
-* $pathology-orderable-my-core#C-T149
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T16
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T141
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T85
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T108
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T164
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T149

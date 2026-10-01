@@ -10,9 +10,9 @@ Description: "Member orderable tests of Malaysian pathology panel M-P41 (Sexuall
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#M-T190
-* $pathology-orderable-my-core#M-T1334
-* $pathology-orderable-my-core#M-T1336
-* $pathology-orderable-my-core#M-T1337
-* $pathology-orderable-my-core#M-T1338
-* $pathology-orderable-my-core#M-T1339
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T190
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1334
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1336
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1337
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1338
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1339

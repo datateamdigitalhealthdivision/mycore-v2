@@ -10,10 +10,10 @@ Description: "Member orderable tests of Malaysian pathology panel C-P49 (Iron St
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#C-T160
-* $pathology-orderable-my-core#C-T161
-* $pathology-orderable-my-core#C-T162
-* $pathology-orderable-my-core#C-T521
-* $pathology-orderable-my-core#C-T522
-* $pathology-orderable-my-core#C-T501
-* $pathology-orderable-my-core#C-T498
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T160
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T161
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T162
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T521
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T522
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T501
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T498

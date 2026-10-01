@@ -7,4 +7,4 @@ Description: "The national practitioner role codes. MyCorePractitionerRole binds
 * ^status = #active
 * ^experimental = false
 * ^compose.inactive = false
-* include codes from system $practitioner-role-code-my-core
+* include codes from system https://standards.moh.gov.my/fhir/my-core/CodeSystem/practitioner-role-code-my-core

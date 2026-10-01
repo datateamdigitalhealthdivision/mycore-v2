@@ -10,9 +10,9 @@ Description: "Member orderable tests of Malaysian pathology panel M-P107 (Rhodoc
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#M-T1006
-* $pathology-orderable-my-core#M-T1008
-* $pathology-orderable-my-core#M-T1007
-* $pathology-orderable-my-core#M-T1515
-* $pathology-orderable-my-core#M-T996
-* $pathology-orderable-my-core#M-T997
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1006
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1008
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1007
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1515
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T996
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T997

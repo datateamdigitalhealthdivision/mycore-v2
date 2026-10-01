@@ -10,12 +10,12 @@ Description: "Member orderable tests of Malaysian pathology panel C-P15 (Mucopol
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#C-T343
-* $pathology-orderable-my-core#C-T344
-* $pathology-orderable-my-core#C-T345
-* $pathology-orderable-my-core#C-T346
-* $pathology-orderable-my-core#C-T347
-* $pathology-orderable-my-core#C-T348
-* $pathology-orderable-my-core#C-T349
-* $pathology-orderable-my-core#C-T335
-* $pathology-orderable-my-core#C-T334
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T343
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T344
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T345
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T346
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T347
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T348
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T349
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T335
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T334

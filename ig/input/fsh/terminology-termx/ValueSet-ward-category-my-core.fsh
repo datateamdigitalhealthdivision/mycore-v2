@@ -7,4 +7,4 @@ Description: "NATIONAL. MOH ward categorisation."
 * ^status = #active
 * ^experimental = false
 * ^compose.inactive = false
-* include codes from system $ward-category-my-core
+* include codes from system https://standards.moh.gov.my/fhir/my-core/CodeSystem/ward-category-my-core

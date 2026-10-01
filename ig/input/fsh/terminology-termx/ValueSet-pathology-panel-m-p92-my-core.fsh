@@ -10,11 +10,11 @@ Description: "Member orderable tests of Malaysian pathology panel M-P92 (Salmone
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#M-T1011
-* $pathology-orderable-my-core#M-T985
-* $pathology-orderable-my-core#M-T1053
-* $pathology-orderable-my-core#M-T996
-* $pathology-orderable-my-core#M-T938
-* $pathology-orderable-my-core#M-T1007
-* $pathology-orderable-my-core#M-T1051
-* $pathology-orderable-my-core#M-T993
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1011
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T985
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1053
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T996
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T938
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1007
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1051
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T993

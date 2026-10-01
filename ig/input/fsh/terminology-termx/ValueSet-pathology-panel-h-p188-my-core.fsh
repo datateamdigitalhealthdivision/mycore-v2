@@ -10,12 +10,12 @@ Description: "Member orderable tests of Malaysian pathology panel H-P188 (Bone M
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#H-T934
-* $pathology-orderable-my-core#H-T935
-* $pathology-orderable-my-core#H-T936
-* $pathology-orderable-my-core#H-T937
-* $pathology-orderable-my-core#H-T938
-* $pathology-orderable-my-core#H-T939
-* $pathology-orderable-my-core#H-T940
-* $pathology-orderable-my-core#H-T941
-* $pathology-orderable-my-core#H-T942
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T934
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T935
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T936
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T937
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T938
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T939
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T940
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T941
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T942

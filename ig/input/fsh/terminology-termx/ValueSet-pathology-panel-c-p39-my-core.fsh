@@ -10,12 +10,12 @@ Description: "Member orderable tests of Malaysian pathology panel C-P39 (Serum P
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#C-T484
-* $pathology-orderable-my-core#C-T485
-* $pathology-orderable-my-core#C-T486
-* $pathology-orderable-my-core#C-T487
-* $pathology-orderable-my-core#C-T488
-* $pathology-orderable-my-core#C-T489
-* $pathology-orderable-my-core#C-T107
-* $pathology-orderable-my-core#C-T1
-* $pathology-orderable-my-core#C-T2
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T484
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T485
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T486
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T487
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T488
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T489
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T107
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T1
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T2

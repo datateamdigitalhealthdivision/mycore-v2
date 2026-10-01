@@ -10,17 +10,17 @@ Description: "Member orderable tests of Malaysian pathology panel C-P60 (Opiates
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#C-T627
-* $pathology-orderable-my-core#C-T628
-* $pathology-orderable-my-core#C-T629
-* $pathology-orderable-my-core#C-T632
-* $pathology-orderable-my-core#C-T633
-* $pathology-orderable-my-core#C-T634
-* $pathology-orderable-my-core#C-T635
-* $pathology-orderable-my-core#C-T636
-* $pathology-orderable-my-core#C-T637
-* $pathology-orderable-my-core#C-T638
-* $pathology-orderable-my-core#C-T641
-* $pathology-orderable-my-core#C-T642
-* $pathology-orderable-my-core#C-T643
-* $pathology-orderable-my-core#C-T644
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T627
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T628
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T629
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T632
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T633
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T634
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T635
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T636
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T637
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T638
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T641
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T642
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T643
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T644

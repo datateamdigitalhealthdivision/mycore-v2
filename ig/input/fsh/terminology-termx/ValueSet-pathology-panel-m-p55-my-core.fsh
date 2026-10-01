@@ -10,15 +10,15 @@ Description: "Member orderable tests of Malaysian pathology panel M-P55 (Paraneo
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#M-T1103
-* $pathology-orderable-my-core#M-T1104
-* $pathology-orderable-my-core#M-T1105
-* $pathology-orderable-my-core#M-T1106
-* $pathology-orderable-my-core#M-T1107
-* $pathology-orderable-my-core#M-T1108
-* $pathology-orderable-my-core#M-T729
-* $pathology-orderable-my-core#M-T1098
-* $pathology-orderable-my-core#M-T1099
-* $pathology-orderable-my-core#M-T1100
-* $pathology-orderable-my-core#M-T1101
-* $pathology-orderable-my-core#M-T1102
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1103
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1104
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1105
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1106
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1107
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1108
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T729
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1098
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1099
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1100
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1101
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1102

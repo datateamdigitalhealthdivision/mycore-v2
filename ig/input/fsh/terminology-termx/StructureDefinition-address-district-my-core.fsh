@@ -6,4 +6,4 @@ Context: Address
 * ^publisher = "Malaysia MOH - HIE Steering Committee"
 * ^experimental = false
 * value[x] only CodeableConcept
-* value[x] from $district-my-core (required)
+* value[x] from https://standards.moh.gov.my/fhir/my-core/ValueSet/district-my-core (required)

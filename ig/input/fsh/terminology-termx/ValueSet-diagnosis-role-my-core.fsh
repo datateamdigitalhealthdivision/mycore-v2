@@ -19,4 +19,4 @@ Description: "Extension from FHIR base DiagnosisRole Value Set"
 * DiagnosisRole#pre-op "pre-op diagnosis"
 * DiagnosisRole#post-op "post-op diagnosis"
 * DiagnosisRole#billing "Billing"
-* include codes from system $diagnosis-role-my-core
+* include codes from system https://standards.moh.gov.my/fhir/my-core/CodeSystem/diagnosis-role-my-core

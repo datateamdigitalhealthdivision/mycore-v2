@@ -10,11 +10,11 @@ Description: "Member orderable tests of Malaysian pathology panel M-P87 (Respira
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#M-T687
-* $pathology-orderable-my-core#M-T349
-* $pathology-orderable-my-core#M-T1371
-* $pathology-orderable-my-core#M-T160
-* $pathology-orderable-my-core#M-T162
-* $pathology-orderable-my-core#M-T1372
-* $pathology-orderable-my-core#M-T1373
-* $pathology-orderable-my-core#M-T621
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T687
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T349
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1371
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T160
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T162
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1372
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1373
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T621

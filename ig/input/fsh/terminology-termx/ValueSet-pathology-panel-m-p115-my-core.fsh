@@ -10,15 +10,15 @@ Description: "Member orderable tests of Malaysian pathology panel M-P115 (Strept
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#M-T1518
-* $pathology-orderable-my-core#M-T849
-* $pathology-orderable-my-core#M-T1002
-* $pathology-orderable-my-core#M-T851
-* $pathology-orderable-my-core#M-T998
-* $pathology-orderable-my-core#M-T938
-* $pathology-orderable-my-core#M-T1050
-* $pathology-orderable-my-core#M-T1008
-* $pathology-orderable-my-core#M-T1527
-* $pathology-orderable-my-core#M-T1528
-* $pathology-orderable-my-core#M-T1497
-* $pathology-orderable-my-core#M-T993
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1518
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T849
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1002
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T851
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T998
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T938
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1050
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1008
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1527
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1528
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1497
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T993

@@ -22,6 +22,7 @@ Description: "Ward Class"
 * ^property[=].uri = "http://terminology.hl7.org/CodeSystem/designation-usage|display"
 * ^property[=].description = "Display"
 * ^property[=].type = #string
+* ^valueSet = "https://standards.moh.gov.my/fhir/my-core/ValueSet/location-type-my-core"
 * #00 "No Information" "Placeholder used where ward class was not recorded."
 * #01 "1st Class" "First class ward accommodation under the MOH ward classification."
 * #02 "2nd Class" "Second class ward accommodation under the MOH ward classification."

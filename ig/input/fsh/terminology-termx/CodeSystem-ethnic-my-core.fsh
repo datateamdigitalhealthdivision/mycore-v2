@@ -17,6 +17,7 @@ Title: "CodeSystemEthnic (MY Core)"
 * ^property[=].uri = "http://terminology.hl7.org/CodeSystem/designation-usage|display"
 * ^property[=].description = "Display"
 * ^property[=].type = #string
+* ^valueSet = "https://standards.moh.gov.my/fhir/my-core/ValueSet/ethnic-my-core"
 * #00 "No Information" "Placeholder used where ethnicity was not recorded at registration."
 * #01 "Melayu" "Person of Malay ethnicity as recorded in MOH administrative systems."
 * #02 "Cina" "Person of Chinese ethnicity as recorded in MOH administrative systems."

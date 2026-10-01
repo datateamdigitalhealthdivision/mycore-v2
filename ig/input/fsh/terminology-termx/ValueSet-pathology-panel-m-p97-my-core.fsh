@@ -10,12 +10,12 @@ Description: "Member orderable tests of Malaysian pathology panel M-P97 (Haemoph
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#M-T1011
-* $pathology-orderable-my-core#M-T985
-* $pathology-orderable-my-core#M-T1052
-* $pathology-orderable-my-core#M-T994
-* $pathology-orderable-my-core#M-T1051
-* $pathology-orderable-my-core#M-T993
-* $pathology-orderable-my-core#M-T1019
-* $pathology-orderable-my-core#M-T995
-* $pathology-orderable-my-core#M-T984
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1011
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T985
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1052
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T994
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1051
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T993
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1019
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T995
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T984

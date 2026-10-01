@@ -10,11 +10,11 @@ Description: "Member orderable tests of Malaysian pathology panel C-P28 (Porphyr
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#C-T397
-* $pathology-orderable-my-core#C-T398
-* $pathology-orderable-my-core#C-T399
-* $pathology-orderable-my-core#C-T400
-* $pathology-orderable-my-core#C-T401
-* $pathology-orderable-my-core#C-T402
-* $pathology-orderable-my-core#C-T403
-* $pathology-orderable-my-core#C-T404
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T397
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T398
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T399
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T400
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T401
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T402
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T403
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T404

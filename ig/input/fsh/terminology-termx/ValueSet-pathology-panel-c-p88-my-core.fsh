@@ -10,9 +10,9 @@ Description: "Member orderable tests of Malaysian pathology panel C-P88 (Mixed M
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#C-T760
-* $pathology-orderable-my-core#C-T761
-* $pathology-orderable-my-core#C-T756
-* $pathology-orderable-my-core#C-T757
-* $pathology-orderable-my-core#C-T762
-* $pathology-orderable-my-core#C-T763
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T760
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T761
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T756
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T757
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T762
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T763

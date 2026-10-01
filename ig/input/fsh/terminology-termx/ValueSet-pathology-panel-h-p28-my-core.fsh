@@ -10,17 +10,17 @@ Description: "Member orderable tests of Malaysian pathology panel H-P28 (BCR::AB
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#H-T327
-* $pathology-orderable-my-core#H-T328
-* $pathology-orderable-my-core#H-T329
-* $pathology-orderable-my-core#H-T330
-* $pathology-orderable-my-core#H-T378
-* $pathology-orderable-my-core#H-T379
-* $pathology-orderable-my-core#H-T380
-* $pathology-orderable-my-core#H-T381
-* $pathology-orderable-my-core#H-T382
-* $pathology-orderable-my-core#H-T383
-* $pathology-orderable-my-core#H-T384
-* $pathology-orderable-my-core#H-T385
-* $pathology-orderable-my-core#H-T386
-* $pathology-orderable-my-core#H-T387
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T327
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T328
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T329
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T330
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T378
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T379
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T380
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T381
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T382
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T383
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T384
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T385
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T386
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T387

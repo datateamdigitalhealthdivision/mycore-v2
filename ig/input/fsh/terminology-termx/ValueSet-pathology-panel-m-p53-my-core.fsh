@@ -10,10 +10,10 @@ Description: "Member orderable tests of Malaysian pathology panel M-P53 (Coeliac
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#M-T42
-* $pathology-orderable-my-core#M-T43
-* $pathology-orderable-my-core#M-T44
-* $pathology-orderable-my-core#M-T195
-* $pathology-orderable-my-core#M-T196
-* $pathology-orderable-my-core#M-T197
-* $pathology-orderable-my-core#M-T198
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T42
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T43
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T44
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T195
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T196
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T197
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T198

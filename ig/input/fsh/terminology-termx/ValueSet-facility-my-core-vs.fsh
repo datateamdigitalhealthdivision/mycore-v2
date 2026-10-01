@@ -8,4 +8,4 @@ Description: "NATIONAL. Every facility code, including retired and provisional. 
 * ^experimental = false
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^compose.inactive = false
-* include codes from system $facility-my-core
+* include codes from system https://standards.moh.gov.my/fhir/my-core/CodeSystem/facility-my-core

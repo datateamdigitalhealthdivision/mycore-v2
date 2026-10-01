@@ -19,6 +19,7 @@ Description: "Malaysia Common Religion"
 * ^property[=].uri = "http://terminology.hl7.org/CodeSystem/designation-usage|display"
 * ^property[=].description = "Display"
 * ^property[=].type = #string
+* ^valueSet = "https://standards.moh.gov.my/fhir/my-core/ValueSet/religion-my-core"
 * #0 "No Information" "Placeholder used where religion was not recorded."
 * #1 "Islam" "Adherent of Islam."
 * #10 "Animism" "Adherent of an animist or traditional indigenous belief system."

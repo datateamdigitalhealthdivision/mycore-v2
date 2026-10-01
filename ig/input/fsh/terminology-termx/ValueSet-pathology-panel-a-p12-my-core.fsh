@@ -10,6 +10,6 @@ Description: "Member orderable tests of Malaysian pathology panel A-P12 (Fine Ne
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#A-T146
-* $pathology-orderable-my-core#A-T147
-* $pathology-orderable-my-core#A-T183
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#A-T146
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#A-T147
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#A-T183

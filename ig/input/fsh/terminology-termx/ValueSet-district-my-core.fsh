@@ -8,4 +8,4 @@ Description: "Malaysia District List Value set"
 * ^experimental = false
 * ^contact.telecom.system = #email
 * ^compose.inactive = false
-* include codes from system $district-my-core
+* include codes from system https://standards.moh.gov.my/fhir/my-core/CodeSystem/district-my-core

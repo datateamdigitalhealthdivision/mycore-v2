@@ -10,8 +10,8 @@ Description: "Member orderable tests of Malaysian pathology panel M-P129 (HIV Dr
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#M-T1405
-* $pathology-orderable-my-core#M-T1406
-* $pathology-orderable-my-core#M-T1407
-* $pathology-orderable-my-core#M-T1408
-* $pathology-orderable-my-core#M-T1409
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1405
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1406
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1407
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1408
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1409

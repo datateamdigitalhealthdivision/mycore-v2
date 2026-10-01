@@ -10,9 +10,9 @@ Description: "Member orderable tests of Malaysian pathology panel M-P118 (Ricket
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#M-T1533
-* $pathology-orderable-my-core#M-T1534
-* $pathology-orderable-my-core#M-T1535
-* $pathology-orderable-my-core#M-T1536
-* $pathology-orderable-my-core#M-T1537
-* $pathology-orderable-my-core#M-T1538
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1533
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1534
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1535
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1536
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1537
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1538

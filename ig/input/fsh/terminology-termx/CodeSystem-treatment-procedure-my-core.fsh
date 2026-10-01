@@ -22,6 +22,7 @@ Description: "Treatment Procedure"
 * ^property[=].uri = "http://terminology.hl7.org/CodeSystem/designation-usage|display"
 * ^property[=].description = "Display"
 * ^property[=].type = #string
+* ^valueSet = "https://standards.moh.gov.my/fhir/my-core/ValueSet/procedure-code-my-core"
 * #00 "Other" "Treatment procedure not represented by another code in this code system."
 * #01 "Dressing  / Desloughing" "Application of a wound dressing, with removal of devitalised tissue where required."
 * #02 "Bandaging" "Application of a bandage to support, compress or protect a body part."

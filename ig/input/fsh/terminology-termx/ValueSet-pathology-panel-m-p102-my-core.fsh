@@ -10,11 +10,11 @@ Description: "Member orderable tests of Malaysian pathology panel M-P102 (Neisse
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#M-T1498
-* $pathology-orderable-my-core#M-T1497
-* $pathology-orderable-my-core#M-T1051
-* $pathology-orderable-my-core#M-T993
-* $pathology-orderable-my-core#M-T1013
-* $pathology-orderable-my-core#M-T987
-* $pathology-orderable-my-core#M-T1512
-* $pathology-orderable-my-core#M-T1513
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1498
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1497
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1051
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T993
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1013
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T987
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1512
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1513

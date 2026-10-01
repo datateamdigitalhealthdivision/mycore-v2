@@ -10,5 +10,5 @@ Description: "Member orderable tests of Malaysian pathology panel Ot-P2 (Rhesus 
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#Ot-T3
-* $pathology-orderable-my-core#Ot-T6
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#Ot-T3
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#Ot-T6

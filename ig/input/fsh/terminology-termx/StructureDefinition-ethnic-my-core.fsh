@@ -6,4 +6,4 @@ Context: Patient
 * ^publisher = "Malaysia MOH - HIE Steering Committee"
 * ^experimental = false
 * value[x] only CodeableConcept
-* value[x] from $ethnic-my-core (required)
+* value[x] from https://standards.moh.gov.my/fhir/my-core/ValueSet/ethnic-my-core (required)

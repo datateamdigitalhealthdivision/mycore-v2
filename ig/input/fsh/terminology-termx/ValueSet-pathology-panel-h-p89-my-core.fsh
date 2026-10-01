@@ -10,11 +10,11 @@ Description: "Member orderable tests of Malaysian pathology panel H-P89 (Acidifi
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#H-T186
-* $pathology-orderable-my-core#H-T187
-* $pathology-orderable-my-core#H-T189
-* $pathology-orderable-my-core#H-T190
-* $pathology-orderable-my-core#H-T191
-* $pathology-orderable-my-core#H-T1052
-* $pathology-orderable-my-core#H-T933
-* $pathology-orderable-my-core#H-T790
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T186
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T187
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T189
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T190
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T191
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1052
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T933
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T790

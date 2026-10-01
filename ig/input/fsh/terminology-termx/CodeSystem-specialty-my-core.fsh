@@ -19,6 +19,7 @@ Description: "Specialty My Core"
 * ^property[=].uri = "http://terminology.hl7.org/CodeSystem/designation-usage|display"
 * ^property[=].description = "Display"
 * ^property[=].type = #string
+* ^valueSet = "https://standards.moh.gov.my/fhir/my-core/ValueSet/location-type-my-core"
 * #02 "General Medicine" "General Medicine"
 * #03 "Cardiology" "Cardiology"
 * #04 "Clinical Haematology" "Clinical Haematology"

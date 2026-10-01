@@ -10,21 +10,21 @@ Description: "Member orderable tests of Malaysian pathology panel C-P59 (Benzodi
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#C-T600
-* $pathology-orderable-my-core#C-T601
-* $pathology-orderable-my-core#C-T602
-* $pathology-orderable-my-core#C-T603
-* $pathology-orderable-my-core#C-T605
-* $pathology-orderable-my-core#C-T606
-* $pathology-orderable-my-core#C-T607
-* $pathology-orderable-my-core#C-T608
-* $pathology-orderable-my-core#C-T609
-* $pathology-orderable-my-core#C-T610
-* $pathology-orderable-my-core#C-T611
-* $pathology-orderable-my-core#C-T613
-* $pathology-orderable-my-core#C-T614
-* $pathology-orderable-my-core#C-T615
-* $pathology-orderable-my-core#C-T617
-* $pathology-orderable-my-core#C-T618
-* $pathology-orderable-my-core#C-T619
-* $pathology-orderable-my-core#C-T620
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T600
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T601
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T602
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T603
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T605
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T606
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T607
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T608
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T609
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T610
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T611
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T613
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T614
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T615
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T617
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T618
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T619
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T620

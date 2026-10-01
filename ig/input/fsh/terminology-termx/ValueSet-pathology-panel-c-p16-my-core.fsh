@@ -10,11 +10,11 @@ Description: "Member orderable tests of Malaysian pathology panel C-P16 (Peroxis
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#C-T352
-* $pathology-orderable-my-core#C-T353
-* $pathology-orderable-my-core#C-T354
-* $pathology-orderable-my-core#C-T355
-* $pathology-orderable-my-core#C-T356
-* $pathology-orderable-my-core#C-T357
-* $pathology-orderable-my-core#C-T358
-* $pathology-orderable-my-core#C-T359
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T352
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T353
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T354
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T355
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T356
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T357
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T358
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T359

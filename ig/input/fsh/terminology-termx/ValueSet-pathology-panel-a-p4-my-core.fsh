@@ -10,18 +10,18 @@ Description: "Member orderable tests of Malaysian pathology panel A-P4 (Muscle B
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#A-T191
-* $pathology-orderable-my-core#A-T7
-* $pathology-orderable-my-core#A-T8
-* $pathology-orderable-my-core#A-T9
-* $pathology-orderable-my-core#A-T10
-* $pathology-orderable-my-core#A-T11
-* $pathology-orderable-my-core#A-T12
-* $pathology-orderable-my-core#A-T255
-* $pathology-orderable-my-core#A-T289
-* $pathology-orderable-my-core#A-T16
-* $pathology-orderable-my-core#A-T56
-* $pathology-orderable-my-core#A-T307
-* $pathology-orderable-my-core#A-T367
-* $pathology-orderable-my-core#A-T55
-* $pathology-orderable-my-core#A-T23
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#A-T191
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#A-T7
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#A-T8
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#A-T9
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#A-T10
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#A-T11
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#A-T12
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#A-T255
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#A-T289
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#A-T16
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#A-T56
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#A-T307
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#A-T367
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#A-T55
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#A-T23

@@ -19,6 +19,7 @@ Description: "NATIONAL. MOH-maintained classification of healthcare facility typ
 * ^property[=].uri = "http://terminology.hl7.org/CodeSystem/designation-usage|display"
 * ^property[=].description = "Display"
 * ^property[=].type = #string
+* ^valueSet = "https://standards.moh.gov.my/fhir/my-core/ValueSet/facility-type-my-core-vs"
 * #hospital-major-specialist "Major Specialist Hospital" "MOH hospital providing a broad range of specialist clinical services."
 * #hospital-minor-specialist "Minor Specialist Hospital" "MOH hospital providing a limited range of specialist clinical services."
 * #hospital-non-specialist "Non-Specialist Hospital" "MOH hospital providing inpatient care without resident specialist services."

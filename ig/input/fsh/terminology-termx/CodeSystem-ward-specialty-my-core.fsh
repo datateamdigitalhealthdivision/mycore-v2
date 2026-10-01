@@ -22,6 +22,7 @@ Description: "Appointment cancellation reason"
 * ^property[=].uri = "http://terminology.hl7.org/CodeSystem/designation-usage|display"
 * ^property[=].description = "Display"
 * ^property[=].type = #string
+* ^valueSet = "https://standards.moh.gov.my/fhir/my-core/ValueSet/location-type-my-core"
 * #01 "Medicine" "Medicine"
 * #104 "Emergency Medicine" "Emergency Medicine"
 * #106 "Sports Medicine" "Sports Medicine"

@@ -10,7 +10,7 @@ Description: "Member orderable tests of Malaysian pathology panel H-P41 (Body Fl
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#H-T1105
-* $pathology-orderable-my-core#H-T1107
-* $pathology-orderable-my-core#H-T1109
-* $pathology-orderable-my-core#H-T1111
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1105
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1107
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1109
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T1111

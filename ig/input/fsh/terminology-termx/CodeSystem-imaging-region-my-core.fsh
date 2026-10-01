@@ -32,6 +32,7 @@ Description: "The national imaging region list, 110 concepts, carried forward fr
 * ^property[=].uri = "http://radlex.org"
 * ^property[=].description = "Equivalent RadLex concept (RID), where one exists. RadLex is published by RSNA and is free to use with attribution."
 * ^property[=].type = #code
+* ^valueSet = "https://standards.moh.gov.my/fhir/my-core/ValueSet/imaging-region-my-core"
 * #001 "ABDOMEN" "ABDOMEN"
 * #001 ^property[0].code = #conceptClass
 * #001 ^property[=].valueCode = #region

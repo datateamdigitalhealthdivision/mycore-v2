@@ -10,6 +10,6 @@ Description: "Member orderable tests of Malaysian pathology panel A-P10 (Non-Gyn
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#A-T263
-* $pathology-orderable-my-core#A-T264
-* $pathology-orderable-my-core#A-T183
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#A-T263
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#A-T264
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#A-T183

@@ -10,13 +10,13 @@ Description: "Member orderable tests of Malaysian pathology panel M-P99 (Vibrio 
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#M-T1011
-* $pathology-orderable-my-core#M-T985
-* $pathology-orderable-my-core#M-T1017
-* $pathology-orderable-my-core#M-T992
-* $pathology-orderable-my-core#M-T938
-* $pathology-orderable-my-core#M-T1007
-* $pathology-orderable-my-core#M-T1053
-* $pathology-orderable-my-core#M-T996
-* $pathology-orderable-my-core#M-T1512
-* $pathology-orderable-my-core#M-T1513
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1011
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T985
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1017
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T992
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T938
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1007
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1053
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T996
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1512
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1513

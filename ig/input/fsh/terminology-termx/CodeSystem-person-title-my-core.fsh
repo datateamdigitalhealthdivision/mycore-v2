@@ -18,6 +18,7 @@ Title: "CodeSystemPersonTitle (MY Core)"
 * ^property[=].uri = "http://terminology.hl7.org/CodeSystem/designation-usage|display"
 * ^property[=].description = "Display"
 * ^property[=].type = #string
+* ^valueSet = "https://standards.moh.gov.my/fhir/my-core/ValueSet/person-title-my-core"
 * #0 "No Information" "No Information"
 * #C001 "Tun" "Tun"
 * #C002 "Tan Sri" "Tan Sri"

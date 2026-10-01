@@ -10,10 +10,10 @@ Description: "Member orderable tests of Malaysian pathology panel C-P43 (CSF Oli
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#C-T132
-* $pathology-orderable-my-core#C-T104
-* $pathology-orderable-my-core#C-T92
-* $pathology-orderable-my-core#C-T480
-* $pathology-orderable-my-core#C-T1
-* $pathology-orderable-my-core#C-T2
-* $pathology-orderable-my-core#C-T433
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T132
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T104
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T92
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T480
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T1
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T2
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T433

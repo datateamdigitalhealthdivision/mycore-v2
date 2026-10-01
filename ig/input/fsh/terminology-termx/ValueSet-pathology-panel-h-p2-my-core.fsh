@@ -10,20 +10,20 @@ Description: "Member orderable tests of Malaysian pathology panel H-P2 (HB Analy
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#H-T101
-* $pathology-orderable-my-core#H-T671
-* $pathology-orderable-my-core#H-T672
-* $pathology-orderable-my-core#H-T673
-* $pathology-orderable-my-core#H-T674
-* $pathology-orderable-my-core#H-T675
-* $pathology-orderable-my-core#H-T186
-* $pathology-orderable-my-core#H-T187
-* $pathology-orderable-my-core#H-T189
-* $pathology-orderable-my-core#H-T190
-* $pathology-orderable-my-core#H-T193
-* $pathology-orderable-my-core#H-T194
-* $pathology-orderable-my-core#H-T676
-* $pathology-orderable-my-core#H-T681
-* $pathology-orderable-my-core#H-T683
-* $pathology-orderable-my-core#H-T684
-* $pathology-orderable-my-core#H-T101
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T101
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T671
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T672
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T673
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T674
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T675
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T186
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T187
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T189
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T190
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T193
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T194
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T676
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T681
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T683
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T684
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T101

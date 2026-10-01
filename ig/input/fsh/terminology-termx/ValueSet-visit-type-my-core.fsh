@@ -11,4 +11,4 @@ Description: "Encounter Visit Type PIK code"
 * ^contact.telecom.system = #email
 * ^contact.telecom.value = "saifuldaulah@mhn.asia"
 * ^compose.inactive = false
-* include codes from system $visit-type-my-core
+* include codes from system https://standards.moh.gov.my/fhir/my-core/CodeSystem/visit-type-my-core

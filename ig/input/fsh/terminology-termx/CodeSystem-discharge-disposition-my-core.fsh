@@ -26,6 +26,7 @@ Description: "Discharge disposition"
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#inactive"
 * ^property[=].description = "Inactive"
 * ^property[=].type = #boolean
+* ^valueSet = "https://standards.moh.gov.my/fhir/my-core/ValueSet/discharge-disposition-my-core"
 * #00 "No Information" "Placeholder used where discharge disposition was not recorded."
 * #01 "Home" "Patient discharged to their usual place of residence."
 * #02 "Left Against Advice / At Own Risk (AOR)" "Patient left the facility against medical advice, having informed staff and accepted responsibility for the decision."

@@ -10,9 +10,9 @@ Description: "Member orderable tests of Malaysian pathology panel C-P27 (Mucopol
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#C-T385
-* $pathology-orderable-my-core#C-T386
-* $pathology-orderable-my-core#C-T387
-* $pathology-orderable-my-core#C-T388
-* $pathology-orderable-my-core#C-T389
-* $pathology-orderable-my-core#C-T390
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T385
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T386
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T387
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T388
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T389
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T390

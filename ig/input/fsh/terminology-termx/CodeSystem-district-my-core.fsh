@@ -23,6 +23,7 @@ Description: "Malaysia District List"
 * ^property[=].type = #code
 * ^property[+].code = #stateDisplay
 * ^property[=].type = #string
+* ^valueSet = "https://standards.moh.gov.my/fhir/my-core/ValueSet/district-my-core"
 * #0000 "No Information" "No Information"
 * #0000 ^property[0].code = #stateCode
 * #0000 ^property[=].valueCode = #00

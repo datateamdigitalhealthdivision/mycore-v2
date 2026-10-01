@@ -10,12 +10,12 @@ Description: "Member orderable tests of Malaysian pathology panel M-P101 (Neisse
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#M-T1051
-* $pathology-orderable-my-core#M-T993
-* $pathology-orderable-my-core#M-T1510
-* $pathology-orderable-my-core#M-T1511
-* $pathology-orderable-my-core#M-T1514
-* $pathology-orderable-my-core#M-T1515
-* $pathology-orderable-my-core#M-T1053
-* $pathology-orderable-my-core#M-T996
-* $pathology-orderable-my-core#M-T1497
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1051
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T993
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1510
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1511
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1514
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1515
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1053
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T996
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1497

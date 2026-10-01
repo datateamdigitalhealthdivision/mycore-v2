@@ -10,15 +10,15 @@ Description: "Member orderable tests of Malaysian pathology panel M-P85 (Gastroi
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#M-T1303
-* $pathology-orderable-my-core#M-T1304
-* $pathology-orderable-my-core#M-T1305
-* $pathology-orderable-my-core#M-T1311
-* $pathology-orderable-my-core#M-T1312
-* $pathology-orderable-my-core#M-T1313
-* $pathology-orderable-my-core#M-T1314
-* $pathology-orderable-my-core#M-T1316
-* $pathology-orderable-my-core#M-T1315
-* $pathology-orderable-my-core#M-T1307
-* $pathology-orderable-my-core#M-T1306
-* $pathology-orderable-my-core#M-T1317
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1303
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1304
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1305
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1311
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1312
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1313
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1314
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1316
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1315
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1307
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1306
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1317

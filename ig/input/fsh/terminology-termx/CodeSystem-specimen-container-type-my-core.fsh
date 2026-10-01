@@ -22,6 +22,7 @@ Description: "Malaysia specimen container type"
 * ^property[=].uri = "http://terminology.hl7.org/CodeSystem/designation-usage|display"
 * ^property[=].description = "Display"
 * ^property[=].type = #string
+* ^valueSet = "https://standards.moh.gov.my/fhir/my-core/ValueSet/specimen-container-type-my-core"
 * #001 "Plain tube" "Tube containing no additive; blood clots and serum is separated after centrifugation."
 * #002 "Urine container" "Container for a single voided urine specimen."
 * #003 "24hr urine bottle with 10mL 25% HCl" "Bottle for a 24-hour urine collection, pre-charged with 10 mL of 25% hydrochloric acid as preservative."

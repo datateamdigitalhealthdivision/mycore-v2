@@ -11,4 +11,4 @@ Description: "Malaysia specimen container type"
 * ^contact.telecom.system = #email
 * ^contact.telecom.value = "saifuldaulah@mhn.asia"
 * ^compose.inactive = false
-* include codes from system $specimen-container-type-my-core
+* include codes from system https://standards.moh.gov.my/fhir/my-core/CodeSystem/specimen-container-type-my-core

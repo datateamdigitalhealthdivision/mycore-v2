@@ -10,16 +10,16 @@ Description: "Member orderable tests of Malaysian pathology panel M-P76 (Myositi
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#M-T1358
-* $pathology-orderable-my-core#M-T1359
-* $pathology-orderable-my-core#M-T1360
-* $pathology-orderable-my-core#M-T1361
-* $pathology-orderable-my-core#M-T1362
-* $pathology-orderable-my-core#M-T1363
-* $pathology-orderable-my-core#M-T1364
-* $pathology-orderable-my-core#M-T1365
-* $pathology-orderable-my-core#M-T1366
-* $pathology-orderable-my-core#M-T1367
-* $pathology-orderable-my-core#M-T1368
-* $pathology-orderable-my-core#M-T1369
-* $pathology-orderable-my-core#M-T1370
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1358
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1359
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1360
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1361
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1362
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1363
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1364
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1365
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1366
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1367
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1368
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1369
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1370

@@ -10,12 +10,12 @@ Description: "Member orderable tests of Malaysian pathology panel M-P57 (Specifi
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#M-T497
-* $pathology-orderable-my-core#M-T1110
-* $pathology-orderable-my-core#M-T1111
-* $pathology-orderable-my-core#M-T1112
-* $pathology-orderable-my-core#M-T1114
-* $pathology-orderable-my-core#M-T1115
-* $pathology-orderable-my-core#M-T1116
-* $pathology-orderable-my-core#M-T1117
-* $pathology-orderable-my-core#M-T1113
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T497
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1110
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1111
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1112
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1114
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1115
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1116
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1117
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1113

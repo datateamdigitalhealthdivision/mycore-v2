@@ -10,4 +10,4 @@ Description: "Malaysia healthcare service organization type"
 * ^publisher = "Malaysia MOH - HIE Steering Committee"
 * ^contact.telecom.system = #email
 * ^compose.inactive = false
-* include codes from system $organization-type-my-core
+* include codes from system https://standards.moh.gov.my/fhir/my-core/CodeSystem/organization-type-my-core

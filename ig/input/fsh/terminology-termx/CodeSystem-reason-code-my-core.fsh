@@ -22,6 +22,7 @@ Description: "Reason for encounter codes in Malaysia"
 * ^property[=].uri = "http://terminology.hl7.org/CodeSystem/designation-usage|display"
 * ^property[=].description = "Display"
 * ^property[=].type = #string
+* ^valueSet = "https://standards.moh.gov.my/fhir/my-core/ValueSet/reason-code-my-core"
 * #300 "EMERGENCY PRESENTATION" "Presentation to an emergency department requiring immediate assessment."
 * #310 "UNSCHEDULED ED RETURNS POST-TRAUMA" "Unplanned return to an emergency department following an earlier trauma presentation."
 * #320 "RETURN VISIT, PLANNED FOLLOW UP" "Return attendance arranged at a previous encounter for continuing care."

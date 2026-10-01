@@ -10,9 +10,9 @@ Description: "Member orderable tests of Malaysian pathology panel C-P56 (ATS (Me
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#C-T589
-* $pathology-orderable-my-core#C-T591
-* $pathology-orderable-my-core#C-T593
-* $pathology-orderable-my-core#C-T594
-* $pathology-orderable-my-core#C-T596
-* $pathology-orderable-my-core#C-T599
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T589
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T591
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T593
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T594
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T596
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#C-T599

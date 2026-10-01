@@ -10,11 +10,11 @@ Description: "Member orderable tests of Malaysian pathology panel M-P58 (Extract
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#M-T50
-* $pathology-orderable-my-core#M-T1090
-* $pathology-orderable-my-core#M-T1091
-* $pathology-orderable-my-core#M-T1092
-* $pathology-orderable-my-core#M-T1093
-* $pathology-orderable-my-core#M-T1094
-* $pathology-orderable-my-core#M-T1095
-* $pathology-orderable-my-core#M-T613
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T50
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1090
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1091
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1092
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1093
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1094
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1095
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T613

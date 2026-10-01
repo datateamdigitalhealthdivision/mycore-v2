@@ -10,9 +10,9 @@ Description: "Member orderable tests of Malaysian pathology panel M-P94 (Stenotr
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^copyright = "Ministry of Health Malaysia."
 * ^compose.inactive = false
-* $pathology-orderable-my-core#M-T938
-* $pathology-orderable-my-core#M-T1007
-* $pathology-orderable-my-core#M-T1501
-* $pathology-orderable-my-core#M-T1502
-* $pathology-orderable-my-core#M-T1508
-* $pathology-orderable-my-core#M-T1509
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T938
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1007
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1501
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1502
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1508
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1509

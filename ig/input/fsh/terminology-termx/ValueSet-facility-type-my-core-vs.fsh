@@ -8,4 +8,4 @@ Description: "NATIONAL. The eleven MOH facility types. Bind Organization.type to
 * ^experimental = false
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^compose.inactive = false
-* include codes from system $facility-type-my-core
+* include codes from system https://standards.moh.gov.my/fhir/my-core/CodeSystem/facility-type-my-core

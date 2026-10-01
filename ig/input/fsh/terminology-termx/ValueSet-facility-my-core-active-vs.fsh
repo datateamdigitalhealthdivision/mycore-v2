@@ -8,4 +8,4 @@ Description: "NATIONAL. Facility codes that are not retired, for pickers and dat
 * ^experimental = false
 * ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
 * ^compose.inactive = false
-* include codes from system $facility-my-core where inactive = "false"
+* include codes from system https://standards.moh.gov.my/fhir/my-core/CodeSystem/facility-my-core where inactive = "false"

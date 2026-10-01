@@ -38,6 +38,7 @@ Description: "NATIONAL. MOH-maintained healthcare facility register. Codes are o
 * ^property[+].code = #state
 * ^property[=].description = "State code. A property, never derived from the facility code."
 * ^property[=].type = #code
+* ^valueSet = "https://standards.moh.gov.my/fhir/my-core/ValueSet/facility-my-core-vs"
 * #11-01010011 "Hospital Sultanah Nora Ismail"
 * #11-01010011 ^property[0].code = #conceptStatus
 * #11-01010011 ^property[=].valueCode = #active
