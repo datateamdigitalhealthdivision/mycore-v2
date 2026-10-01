@@ -13,5 +13,7 @@
       "value": "https://id.kkmhub.moh.gov.my/sid/organization-id",
       "preferred": true
     }
-  ]
+  ],
+  "version": "2.1.1",
+  "experimental": false
 }
