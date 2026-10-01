@@ -8,7 +8,7 @@ Description: "Procedure Code"
 * ^experimental = false
 * ^publisher = "Malaysia MOH - HIE Steering Committee"
 * ^compose.inactive = false
-* include codes from system http://hl7.org/fhir/sid/icd-9-cm|1.0.0
+* include codes from system http://hl7.org/fhir/sid/icd-9-cm
 * include codes from system https://standards.moh.gov.my/fhir/my-core/CodeSystem/minor-procedure-my-core
 * include codes from system https://standards.moh.gov.my/fhir/my-core/CodeSystem/diagnostic-procedure-my-core
 * include codes from system https://standards.moh.gov.my/fhir/my-core/CodeSystem/treatment-procedure-my-core

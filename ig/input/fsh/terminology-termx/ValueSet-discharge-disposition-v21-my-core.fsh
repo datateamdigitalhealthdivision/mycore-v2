@@ -9,5 +9,5 @@ binding target; that list is retained as a ConceptMap source for legacy extracts
 * ^status = #active
 * ^experimental = false
 * ^compose.inactive = false
-* include codes from system http://terminology.hl7.org/CodeSystem/discharge-disposition|1.0.1
+* include codes from system DischargeDisposition
 * include codes from system https://standards.moh.gov.my/fhir/my-core/CodeSystem/discharge-disposition-ext-my-core
