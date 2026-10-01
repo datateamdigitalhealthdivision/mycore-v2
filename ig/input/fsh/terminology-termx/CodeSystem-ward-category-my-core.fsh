@@ -22,7 +22,6 @@ Description: "Ward Category"
 * ^property[=].uri = "http://terminology.hl7.org/CodeSystem/designation-usage|display"
 * ^property[=].description = "Display"
 * ^property[=].type = #string
-* ^valueSet = "https://standards.moh.gov.my/fhir/my-core/ValueSet/location-type-my-core"
 * #00 "No Information" "Placeholder used where ward category was not recorded."
 * #01 "Male" "Ward admitting male patients only."
 * #02 "Female" "Ward admitting female patients only."
