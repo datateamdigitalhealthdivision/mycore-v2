@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "pathology-catalogue-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-catalogue-my-core",
+  "url": "https://standards.moh.gov.my/fhir/my-core/ValueSet/pathology-catalogue-my-core",
   "version": "1.0.0",
   "name": "PathologyCatalogueMyCore",
   "title": "Malaysian Pathology Catalogue",
@@ -4628,7 +4628,7 @@
         ]
       },
       {
-        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-local-code-my-core",
+        "system": "https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-local-code-my-core",
         "version": "1.0.0"
       }
     ]

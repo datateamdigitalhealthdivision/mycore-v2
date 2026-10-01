@@ -74,4 +74,4 @@ Description: "NATIONAL. MOH ward categorisation."
 * ^version = "2.1.0"
 * ^status = #active
 * ^experimental = false
-* include codes from system https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/ward-category-my-core
+* include codes from system https://standards.moh.gov.my/fhir/my-core/CodeSystem/ward-category-my-core

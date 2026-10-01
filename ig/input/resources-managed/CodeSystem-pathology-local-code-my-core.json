@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id": "pathology-local-code-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-local-code-my-core",
+  "url": "https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-local-code-my-core",
   "version": "2.1.0",
   "name": "PathologyLocalCodeMyCore",
   "title": "Malaysian Pathology Catalogue - Interim Codes",

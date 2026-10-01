@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id": "facility-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/facility-my-core",
+  "url": "https://standards.moh.gov.my/fhir/my-core/CodeSystem/facility-my-core",
   "version": "2.1.0",
   "name": "FacilityMyCore",
   "title": "MOH Healthcare Facility",
@@ -12,7 +12,7 @@
   "caseSensitive": true,
   "content": "complete",
   "count": 3370,
-  "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/facility-my-core-vs",
+  "valueSet": "https://standards.moh.gov.my/fhir/my-core/ValueSet/facility-my-core-vs",
   "property": [
     {
       "code": "facilityType",

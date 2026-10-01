@@ -1,7 +1,7 @@
 {
   "resourceType": "ConceptMap",
   "id": "religion-my-core-to-v3-religiousaffiliation",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ConceptMap/religion-my-core-to-v3-religiousaffiliation",
+  "url": "https://standards.moh.gov.my/fhir/my-core/ConceptMap/religion-my-core-to-v3-religiousaffiliation",
   "version": "2.1.0",
   "name": "MyCoreReligionToV3ReligiousAffiliation",
   "title": "MY Core Religion to HL7 v3-ReligiousAffiliation",
@@ -9,11 +9,11 @@
   "experimental": false,
   "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
   "description": "Maps the twelve MOH religion concepts to HL7 v3-ReligiousAffiliation for international export. MY Core binds Patient.extension[religion] to the MOH list, not to HL7's, because four concepts have no international equivalent — including Buddhism and Christianity, together roughly a quarter of the Malaysian population. Resolved concept by concept against the published THO code list (82 concepts). Seven map exactly, one maps to a broader concept, four have no equivalent.",
-  "sourceCanonical": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/religion-my-core",
+  "sourceCanonical": "https://standards.moh.gov.my/fhir/my-core/ValueSet/religion-my-core",
   "targetCanonical": "http://terminology.hl7.org/ValueSet/v3-ReligiousAffiliation",
   "group": [
     {
-      "source": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/religion-my-core",
+      "source": "https://standards.moh.gov.my/fhir/my-core/CodeSystem/religion-my-core",
       "target": "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation",
       "element": [
         {

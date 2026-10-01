@@ -28,4 +28,4 @@ Description: "The national practitioner role codes. MyCorePractitionerRole binds
 * ^version = "2.1.0"
 * ^status = #active
 * ^experimental = false
-* include codes from system https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/practitioner-role-code-my-core
+* include codes from system https://standards.moh.gov.my/fhir/my-core/CodeSystem/practitioner-role-code-my-core

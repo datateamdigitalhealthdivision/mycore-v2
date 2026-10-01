@@ -23,7 +23,7 @@ Implementation partners should be able to obtain:
 
 ## Publication history note
 
-The canonical root for this guide is `https://myehr.kkmhub.moh.gov.my/fhir/my-core`. During the current GitHub Pages phase, the rendered HTML site is a draft publication route and does not replace the canonical URLs embedded in the artefacts.
+The canonical root for this guide is `https://standards.moh.gov.my/fhir/my-core`. During the current GitHub Pages phase, the rendered HTML site is a draft publication route and does not replace the canonical URLs embedded in the artefacts.
 
 ## Terminology published by this guide
 

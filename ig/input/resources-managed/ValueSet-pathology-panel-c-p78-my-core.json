@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "pathology-panel-c-p78-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-c-p78-my-core",
+  "url": "https://standards.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-c-p78-my-core",
   "version": "1.0.0",
   "name": "PathologyPanelCP78MyCore",
   "title": "Malaysian Pathology Catalogue - Panel: Adrenal Venous Sampling",
@@ -13,7 +13,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "system": "https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
         "concept": [
           {
             "code": "C-T743"

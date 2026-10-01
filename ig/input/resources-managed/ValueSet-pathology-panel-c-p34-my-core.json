@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "pathology-panel-c-p34-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-c-p34-my-core",
+  "url": "https://standards.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-c-p34-my-core",
   "version": "1.0.0",
   "name": "PathologyPanelCP34MyCore",
   "title": "Malaysian Pathology Catalogue - Panel: 5-hydroxy-Indol-Acetic Acid (5 HIAA) panel 24Hr Urine",
@@ -13,7 +13,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+        "system": "https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
         "concept": [
           {
             "code": "C-T429"

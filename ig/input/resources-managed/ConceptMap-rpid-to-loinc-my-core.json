@@ -1,7 +1,7 @@
 {
   "resourceType": "ConceptMap",
   "id": "rpid-to-loinc-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ConceptMap/rpid-to-loinc-my-core",
+  "url": "https://standards.moh.gov.my/fhir/my-core/ConceptMap/rpid-to-loinc-my-core",
   "version": "2.1.0",
   "name": "MyCoreRpidToLoinc",
   "title": "MY Core RSNA Playbook RPID to LOINC",
@@ -9,7 +9,7 @@
   "experimental": false,
   "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
   "description": "Translates RSNA Radiology Playbook RPID identifiers to their LOINC equivalents, so that systems holding Playbook identifiers can reach the LOINC codes MY Core binds to. 1,012 RPIDs are covered; LOINC is the complete key and carries all 5,954 procedures.",
-  "targetCanonical": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/radiology-procedure-my-core",
+  "targetCanonical": "https://standards.moh.gov.my/fhir/my-core/ValueSet/radiology-procedure-my-core",
   "group": [
     {
       "source": "http://www.radlex.org/RID",

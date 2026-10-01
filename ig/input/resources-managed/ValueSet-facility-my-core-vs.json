@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "facility-my-core-vs",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/facility-my-core-vs",
+  "url": "https://standards.moh.gov.my/fhir/my-core/ValueSet/facility-my-core-vs",
   "version": "2.1.0",
   "name": "facility_my_core_vs",
   "title": "MOH Healthcare Facility — all",
@@ -12,7 +12,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/facility-my-core"
+        "system": "https://standards.moh.gov.my/fhir/my-core/CodeSystem/facility-my-core"
       }
     ]
   }

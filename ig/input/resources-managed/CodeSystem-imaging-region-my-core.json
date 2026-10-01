@@ -3,9 +3,9 @@
   "id": "imaging-region-my-core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemImagingRegion (MY Core)</h2><tt>https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/imaging-region-my-core</tt><p>Malaysia imaging region code system</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodeSystemImagingRegion (MY Core)</h2><tt>https://standards.moh.gov.my/fhir/my-core/CodeSystem/imaging-region-my-core</tt><p>Malaysia imaging region code system</p></div>"
   },
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/imaging-region-my-core",
+  "url": "https://standards.moh.gov.my/fhir/my-core/CodeSystem/imaging-region-my-core",
   "name": "CodeSystemImagingRegionMyCore",
   "title": "CodeSystemImagingRegion (MY Core)",
   "status": "active",
@@ -35,7 +35,7 @@
     },
     {
       "code": "conceptClass",
-      "uri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/imaging-region-my-core#conceptClass",
+      "uri": "https://standards.moh.gov.my/fhir/my-core/CodeSystem/imaging-region-my-core#conceptClass",
       "description": "What this concept actually is: region, procedure, modality-technique or administrative. Only 'region' is bindable on bodySite.",
       "type": "code"
     },

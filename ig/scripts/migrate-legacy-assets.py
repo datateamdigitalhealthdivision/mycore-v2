@@ -20,7 +20,7 @@ MAPPINGS_ROOT = ROOT / 'mappings'
 EXAMPLES_ROOT = ROOT / 'tests' / 'fhir'
 PAYLOADS_ROOT = ROOT / 'tests' / 'sample-payloads'
 OLD_ROOT = 'http://fhir.hie.moh.gov.my'
-NEW_ROOT = 'https://myehr.kkmhub.moh.gov.my/fhir/my-core'
+NEW_ROOT = 'https://standards.moh.gov.my/fhir/my-core'
 ID_ROOT = 'https://id.kkmhub.moh.gov.my'
 DEFAULT_PUBLISHER = 'Data Team, Digital Health Division, Ministry of Health Malaysia'
 CONFORMANCE_TYPES = {'StructureDefinition', 'CodeSystem', 'ValueSet', 'Questionnaire'}
@@ -679,7 +679,7 @@ duplicate_rows = [
         'affected_artefact_1': 'http://fhir.hie.moh.gov.my/CodeSystem/diagnosis-role-my-core',
         'affected_artefact_2': 'CodeSystem-ncd-vc-dx-my-core',
         'resolution': 'Corrected the NCD VC diagnosis code system to its own canonical.',
-        'final_identifier': 'https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/ncd-vc-dx-my-core',
+        'final_identifier': 'https://standards.moh.gov.my/fhir/my-core/CodeSystem/ncd-vc-dx-my-core',
         'notes': 'The legacy canonical collided with diagnosis-role.',
     },
     {
@@ -687,7 +687,7 @@ duplicate_rows = [
         'affected_artefact_1': 'http://fhir.hie.moh.gov.my/ValueSet/specialty-my-core',
         'affected_artefact_2': 'CodeSystem-specialty-my-core.json',
         'resolution': 'Converted the malformed legacy file into a CodeSystem and preserved the ValueSet separately.',
-        'final_identifier': 'https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/specialty-my-core',
+        'final_identifier': 'https://standards.moh.gov.my/fhir/my-core/CodeSystem/specialty-my-core',
         'notes': 'The legacy code-system file was actually a ValueSet carrying an expansion.',
     },
     {
@@ -695,7 +695,7 @@ duplicate_rows = [
         'affected_artefact_1': 'http://fhir.hie.moh.gov.my/CodeSystem/ward-class-my-core',
         'affected_artefact_2': 'CodeSystem-ward-category-my-core',
         'resolution': 'Corrected the ward-category canonical and renamed the artefact accordingly.',
-        'final_identifier': 'https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/ward-category-my-core',
+        'final_identifier': 'https://standards.moh.gov.my/fhir/my-core/CodeSystem/ward-category-my-core',
         'notes': 'The legacy file carried ward-category concepts under the ward-class canonical.',
     },
     {
@@ -703,7 +703,7 @@ duplicate_rows = [
         'affected_artefact_1': 'http://fhir.hie.moh.gov.my/CodeSystem/developmental-milestone-my-core',
         'affected_artefact_2': 'CodeSystem-dev-milestone-my-core',
         'resolution': 'Kept one representative CodeSystem and removed the duplicate copy.',
-        'final_identifier': 'https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/developmental-milestone-my-core',
+        'final_identifier': 'https://standards.moh.gov.my/fhir/my-core/CodeSystem/developmental-milestone-my-core',
         'notes': 'The two files carried equivalent content.',
     },
     {
@@ -711,7 +711,7 @@ duplicate_rows = [
         'affected_artefact_1': 'http://fhir.hie.moh.gov.my/ValueSet/developmental-milestone-my-core',
         'affected_artefact_2': 'ValueSetDevelopmentalMilestoneMyCore',
         'resolution': 'Kept the richer ValueSet variant and removed the duplicate copy.',
-        'final_identifier': 'https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/developmental-milestone-my-core',
+        'final_identifier': 'https://standards.moh.gov.my/fhir/my-core/ValueSet/developmental-milestone-my-core',
         'notes': 'The retained variant preserves the extra SNOMED concept.',
     },
     {
@@ -719,7 +719,7 @@ duplicate_rows = [
         'affected_artefact_1': 'http://fhir.hie.moh.gov.my/ValueSet/procedure-category-my-core',
         'affected_artefact_2': 'ValueSet-procedure-category-my-core (Non Profile)',
         'resolution': 'Kept the Procedure-family ValueSet with richer compose rules and removed the duplicate.',
-        'final_identifier': 'https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/procedure-category-my-core',
+        'final_identifier': 'https://standards.moh.gov.my/fhir/my-core/ValueSet/procedure-category-my-core',
         'notes': 'The retained variant includes additional SNOMED concepts.',
     },
     {

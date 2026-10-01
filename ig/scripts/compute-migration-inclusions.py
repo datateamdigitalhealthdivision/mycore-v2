@@ -22,7 +22,7 @@ from pathlib import Path
 IG_ROOT = Path(os.environ.get('MYCORE_IG_ROOT') or Path(__file__).resolve().parents[1])
 LEGACY = IG_ROOT / 'input' / 'resources-legacy-migrated'
 OUT = IG_ROOT / 'input' / 'fsh' / 'migration-inclusions.txt'
-NEW_ROOT = 'https://myehr.kkmhub.moh.gov.my/fhir/my-core'
+NEW_ROOT = 'https://standards.moh.gov.my/fhir/my-core'
 
 RETAIN_TERMINOLOGY = """organization-category district ethnic religion person-title
 practitioner-role-code ward-specialty ward-class discharge-disposition diagnosis-role

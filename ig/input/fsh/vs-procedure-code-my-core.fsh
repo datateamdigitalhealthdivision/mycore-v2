@@ -6,13 +6,13 @@
 // TermX and will therefore contribute no concepts until ICD-9-CM is loaded.
 Alias: $ICD9CM = http://hl7.org/fhir/sid/icd-9-cm
 Alias: $SCT = http://snomed.info/sct
-Alias: $MinorProcedureMyCore = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/minor-procedure-my-core
-Alias: $DiagnosticProcedureMyCore = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/diagnostic-procedure-my-core
-Alias: $TreatmentProcedureMyCore = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/treatment-procedure-my-core
-Alias: $PhlebotomyMyCore = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/phlebotomy-my-core
-Alias: $DentalProcedureMyCore = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/dental-procedure-my-core
-Alias: $NutritionistConsultationMyCore = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/nutritionist-consultation-my-core
-Alias: $CookingDemonstrationMyCore = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/cooking-demonstration-my-core
+Alias: $MinorProcedureMyCore = https://standards.moh.gov.my/fhir/my-core/CodeSystem/minor-procedure-my-core
+Alias: $DiagnosticProcedureMyCore = https://standards.moh.gov.my/fhir/my-core/CodeSystem/diagnostic-procedure-my-core
+Alias: $TreatmentProcedureMyCore = https://standards.moh.gov.my/fhir/my-core/CodeSystem/treatment-procedure-my-core
+Alias: $PhlebotomyMyCore = https://standards.moh.gov.my/fhir/my-core/CodeSystem/phlebotomy-my-core
+Alias: $DentalProcedureMyCore = https://standards.moh.gov.my/fhir/my-core/CodeSystem/dental-procedure-my-core
+Alias: $NutritionistConsultationMyCore = https://standards.moh.gov.my/fhir/my-core/CodeSystem/nutritionist-consultation-my-core
+Alias: $CookingDemonstrationMyCore = https://standards.moh.gov.my/fhir/my-core/CodeSystem/cooking-demonstration-my-core
 
 ValueSet: ValueSetProcedureCodeMyCore
 Id: procedure-code-my-core

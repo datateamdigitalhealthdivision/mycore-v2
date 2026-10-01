@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "pathology-loinc-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-loinc-my-core",
+  "url": "https://standards.moh.gov.my/fhir/my-core/ValueSet/pathology-loinc-my-core",
   "version": "2.1.0",
   "name": "MyCorePathologyLoinc",
   "title": "MY Core Pathology LOINC Codes",

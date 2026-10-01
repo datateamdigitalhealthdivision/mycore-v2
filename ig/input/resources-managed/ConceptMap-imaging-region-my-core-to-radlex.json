@@ -1,7 +1,7 @@
 {
   "resourceType": "ConceptMap",
   "id": "imaging-region-my-core-to-radlex",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ConceptMap/imaging-region-my-core-to-radlex",
+  "url": "https://standards.moh.gov.my/fhir/my-core/ConceptMap/imaging-region-my-core-to-radlex",
   "version": "2.1.0",
   "name": "MyCoreImagingRegionToRadLex",
   "title": "MY Core Imaging Region to RadLex",
@@ -9,11 +9,11 @@
   "experimental": false,
   "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
   "description": "Maps the body-region concepts in the national imaging region list to RadLex, so that systems holding national region codes can translate them to the vocabulary MY Core binds to. Concepts classed as procedure, modality-technique or administrative are out of scope: RadLex is an anatomy and findings ontology. RadLex is published by RSNA and is free to use with attribution.",
-  "sourceCanonical": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/imaging-region-bodysite-my-core",
-  "targetCanonical": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/radlex-anatomy-my-core",
+  "sourceCanonical": "https://standards.moh.gov.my/fhir/my-core/ValueSet/imaging-region-bodysite-my-core",
+  "targetCanonical": "https://standards.moh.gov.my/fhir/my-core/ValueSet/radlex-anatomy-my-core",
   "group": [
     {
-      "source": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/imaging-region-my-core",
+      "source": "https://standards.moh.gov.my/fhir/my-core/CodeSystem/imaging-region-my-core",
       "target": "http://radlex.org",
       "element": [
         {

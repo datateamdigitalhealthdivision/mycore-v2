@@ -5,7 +5,7 @@ Description: "National pathology panel codes for Malaysia. Panel membership is p
 * ^language = #en
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel"
 * ^extension.valueCode = #executable
-* ^url = "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-panel-my-core"
+* ^url = "https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-panel-my-core"
 * ^version = "1.0.0"
 * ^status = #active
 * ^experimental = false

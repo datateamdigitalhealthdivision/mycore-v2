@@ -14,9 +14,9 @@ Description: "A single laboratory result, or a grouping observation whose member
 * code.coding ^slicing.discriminator[0].path = "system"
 * code.coding ^slicing.rules = #open
 * code.coding contains national 0..1 MS and panel 0..1 MS and loinc 0..1 MS
-* code.coding[national].system = "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core" (exactly)
+* code.coding[national].system = "https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core" (exactly)
 * code.coding[national] ^short = "National orderable test code, for a single analyte."
-* code.coding[panel].system = "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-panel-my-core" (exactly)
+* code.coding[panel].system = "https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-panel-my-core" (exactly)
 * code.coding[panel] ^short = "National panel code, on the grouping Observation that carries the panel members in hasMember."
 * code.coding[loinc].system = "http://loinc.org" (exactly)
 * subject 1..1 MS
@@ -34,7 +34,7 @@ Description: "A single laboratory result, or a grouping observation whose member
 * interpretation ^short = "HL7 v3 ObservationInterpretation, which includes S/I/R for antimicrobial susceptibility."
 * note MS
 * method MS
-* method from https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/lab-method-my-core (extensible)
+* method from https://standards.moh.gov.my/fhir/my-core/ValueSet/lab-method-my-core (extensible)
 * specimen MS
 * referenceRange MS
 * referenceRange.low MS

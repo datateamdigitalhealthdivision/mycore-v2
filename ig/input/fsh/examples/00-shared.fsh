@@ -8,7 +8,7 @@ Description: "A public hospital, identified by its national facility code."
 * identifier[facilityCode].system = "https://id.kkmhub.moh.gov.my/facility"
 * identifier[facilityCode].value = "11-10040013"
 * name = "Hospital Tengku Ampuan Rahimah"
-* type = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/facility-type-my-core#state-hospital "State Hospital"
+* type = https://standards.moh.gov.my/fhir/my-core/CodeSystem/facility-type-my-core#state-hospital "State Hospital"
 
 Instance: ExamplePatient
 InstanceOf: MyCorePatient
@@ -40,10 +40,10 @@ name that does not exist. `name.text` carries it exactly as MyKad prints it, and
 * name.given = "Siti"
 * gender = #female
 * birthDate = "1980-01-01"
-* extension[ethnicity].valueCodeableConcept = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/ethnic-my-core#01 "Melayu"
-* extension[religion].valueCodeableConcept = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/religion-my-core#1 "Islam"
+* extension[ethnicity].valueCodeableConcept = https://standards.moh.gov.my/fhir/my-core/CodeSystem/ethnic-my-core#01 "Melayu"
+* extension[religion].valueCodeableConcept = https://standards.moh.gov.my/fhir/my-core/CodeSystem/religion-my-core#1 "Islam"
 * extension[citizenship].extension[code].valueCodeableConcept = urn:iso:std:iso:3166#MY "Malaysia"
-* address.extension[district].valueCodeableConcept = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/district-my-core#1002 "Klang"
+* address.extension[district].valueCodeableConcept = https://standards.moh.gov.my/fhir/my-core/CodeSystem/district-my-core#1002 "Klang"
 * address.city = "Klang"
 * address.state = "Selangor"
 * address.country = "MY"

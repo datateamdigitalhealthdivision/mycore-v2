@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id": "facility-type-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/facility-type-my-core",
+  "url": "https://standards.moh.gov.my/fhir/my-core/CodeSystem/facility-type-my-core",
   "version": "2.1.0",
   "name": "FacilityTypeMyCore",
   "title": "MOH Healthcare Facility Type",
@@ -11,7 +11,7 @@
   "description": "NATIONAL. MOH-maintained classification of healthcare facility types. No international code system covers the Malaysian facility taxonomy (Klinik Desa, Klinik 1 Malaysia, Klinik Kesihatan Ibu dan Anak and the rest).",
   "caseSensitive": true,
   "content": "complete",
-  "valueSet": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/facility-type-my-core-vs",
+  "valueSet": "https://standards.moh.gov.my/fhir/my-core/ValueSet/facility-type-my-core-vs",
   "count": 11,
   "concept": [
     {

@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "radiology-procedure-mr-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/radiology-procedure-mr-my-core",
+  "url": "https://standards.moh.gov.my/fhir/my-core/ValueSet/radiology-procedure-mr-my-core",
   "version": "2.1.0",
   "name": "MyCoreRadiologyProcedureMagneticResonanceMyCore",
   "title": "MY Core Radiology Procedure - Magnetic resonance",

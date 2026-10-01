@@ -1,7 +1,7 @@
 {
   "resourceType": "ConceptMap",
   "id": "pathology-orderable-to-local-code",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ConceptMap/pathology-orderable-to-local-code",
+  "url": "https://standards.moh.gov.my/fhir/my-core/ConceptMap/pathology-orderable-to-local-code",
   "version": "1.0.0",
   "name": "PathologyOrderableToLocalCode",
   "title": "Malaysian Pathology Catalogue - Orderable to Interim Code",
@@ -9,11 +9,11 @@
   "experimental": false,
   "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
   "description": "Maps Malaysian national orderable pathology test codes to Malaysian interim codes, for tests awaiting a permanent LOINC assignment.",
-  "sourceUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-orderable-my-core",
+  "sourceUri": "https://standards.moh.gov.my/fhir/my-core/ValueSet/pathology-orderable-my-core",
   "group": [
     {
-      "source": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
-      "target": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-local-code-my-core",
+      "source": "https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+      "target": "https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-local-code-my-core",
       "element": [
         {
           "code": "H-T758",
@@ -15397,5 +15397,5 @@
       "targetVersion": "1.0.0"
     }
   ],
-  "targetCanonical": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-local-code-my-core"
+  "targetCanonical": "https://standards.moh.gov.my/fhir/my-core/ValueSet/pathology-local-code-my-core"
 }

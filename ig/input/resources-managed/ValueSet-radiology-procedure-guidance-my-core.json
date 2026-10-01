@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "radiology-procedure-guidance-my-core",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/radiology-procedure-guidance-my-core",
+  "url": "https://standards.moh.gov.my/fhir/my-core/ValueSet/radiology-procedure-guidance-my-core",
   "version": "2.1.0",
   "name": "MyCoreRadiologyProcedureImageGuidedProceduresMyCore",
   "title": "MY Core Radiology Procedure - Image-guided procedures",

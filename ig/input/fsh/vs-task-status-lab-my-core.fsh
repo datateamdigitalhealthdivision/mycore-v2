@@ -2,7 +2,7 @@
 // http://hl7.org/fhir/ValueSet/request-status in the `system` slot, which is
 // invalid FHIR and was rejected on import. Repointed to the CodeSystem URI
 // http://hl7.org/fhir/request-status. Codes and displays are unchanged.
-Alias: $TaskBusinessStatusMyCore = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/task-business-status-my-core
+Alias: $TaskBusinessStatusMyCore = https://standards.moh.gov.my/fhir/my-core/CodeSystem/task-business-status-my-core
 Alias: $FhirRequestStatus = http://hl7.org/fhir/request-status
 
 ValueSet: ValueSetTaskStatusLabMyCore

@@ -31,9 +31,9 @@ Description: "The contact during which care was given. Encounter.class uses HL7 
 * location ^short = "Transfer closes the prior entry's period.end and sets its status to completed, then opens a NEW entry with status = active. Do NOT overwrite the existing entry."
 * location ^comment = "This is the T in ADT. Without it a vendor can overwrite the current location on transfer and lose the movement history, and nothing in the profile says they should not. Bed-level tracking is optional: a system that records only the ward is conformant."
 * type MS
-* type from https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/visit-type-my-core (extensible)
+* type from https://standards.moh.gov.my/fhir/my-core/ValueSet/visit-type-my-core (extensible)
 * reasonCode MS
-* reasonCode from https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/reason-code-my-core (extensible)
+* reasonCode from https://standards.moh.gov.my/fhir/my-core/ValueSet/reason-code-my-core (extensible)
 * diagnosis MS
 * diagnosis.condition 1..1
 * diagnosis.use MS

@@ -36,7 +36,7 @@ Description: "An imaging order placed by an EMR on a RIS. The accession number i
 * code.coding ^slicing.rules = #open
 * code from $VS-RAD-PROCEDURE (extensible)
 * code.coding contains loinc 1..1 MS and national 0..1
-* code.coding[national].system = "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/imaging-my-core" (exactly)
+* code.coding[national].system = "https://standards.moh.gov.my/fhir/my-core/CodeSystem/imaging-my-core" (exactly)
 * code.coding[national] ^short = "Optional national imaging code, for systems that still hold one. Superseded by the LOINC slice."
 * code.coding[loinc].system = "http://loinc.org" (exactly)
 * code.coding[loinc] ^short = "LOINC/RSNA Radiology Playbook — the national procedure vocabulary. 5,954 codes across every modality. RPID identifiers translate through ConceptMap/rpid-to-loinc-my-core."

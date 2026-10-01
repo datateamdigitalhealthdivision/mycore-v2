@@ -1,5 +1,5 @@
 id: my.moh.kkmhub.myehr.core
-canonical: https://myehr.kkmhub.moh.gov.my/fhir/my-core
+canonical: https://standards.moh.gov.my/fhir/my-core
 name: MYCoreImplementationGuide
 title: Malaysian National MY Core Implementation Guide
 description: National baseline FHIR R4 implementation guide for Malaysia. Version 2.1 is scoped to three use cases — ADT notes, laboratory reports including the EMR to LIS integration, and radiology reports including the EMR to RIS/PACS integration — and publishes the national terminology those use cases bind to.
@@ -427,7 +427,7 @@ parameters:
     # content). Never touched by the migration script. See its README.
     - input/resources-managed
   special-url-base:
-    - https://myehr.kkmhub.moh.gov.my/fhir/my-core
+    - https://standards.moh.gov.my/fhir/my-core
     # RadLex is declared as a CodeSystem so that MY Core can bind body site to it.
     # Its canonical is RSNA's, not ours, which the publisher otherwise reports as a
     # URL mismatch. Declaring it here says the mismatch is deliberate.

@@ -8,7 +8,7 @@ Description: "Fulfilment state of a laboratory order between EMR and LIS. Task.b
 * identifier 1..* MS
 * status 1..1 MS
 * businessStatus MS
-* businessStatus from https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/task-status-lab-my-core (extensible)
+* businessStatus from https://standards.moh.gov.my/fhir/my-core/ValueSet/task-status-lab-my-core (extensible)
 * intent 1..1 MS
 * focus 1..1 MS
 * for 1..1 MS
