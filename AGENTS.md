@@ -39,7 +39,7 @@ See `docs/authoring-model.md` for the promotion path.
 ## Canonical and identifier rules
 
 - Do not change canonical identifiers casually.
-- Keep the canonical publication root under `https://myehr.kkmhub.moh.gov.my/fhir/my-core`.
+- Keep the canonical publication root under `https://standards.moh.gov.my/fhir/my-core`.
 - Keep runtime endpoint placeholders separate from publication canonicals.
 - Use `https://id.kkmhub.moh.gov.my` for identifier namespace discussion or `NamingSystem` work where appropriate.
 - Document every canonical remap or duplicate-resolution change in the mapping layer.

@@ -34,7 +34,7 @@ FHIR® and HL7® are registered trademarks of Health Level Seven International. 
 
 ## Canonical URLs
 
-The canonical root for MY Core is `https://myehr.kkmhub.moh.gov.my/fhir/my-core`. Canonical URLs are identity, not download addresses. They do not change if the guide moves hosting, and they are what belongs in a `system` or `valueSet` element in production data.
+The canonical root for MY Core is `https://standards.moh.gov.my/fhir/my-core`. Canonical URLs are identity, not download addresses. They do not change if the guide moves hosting, and they are what belongs in a `system` or `valueSet` element in production data.
 
 The rendered site on GitHub Pages is a publication route for the guide. It does not replace the canonical URLs embedded in the artefacts.
 

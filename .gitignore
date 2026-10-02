@@ -11,3 +11,4 @@ ig/.jekyll-cache/
 ig/.sass-cache/
 *.log
 Thumbs.db
+.npm/

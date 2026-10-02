@@ -30,5 +30,5 @@ Alias: $EXT-RELIGION-HL7  = http://hl7.org/fhir/StructureDefinition/patient-reli
 // --- International terminology ----------------------------------------------
 Alias: $CS-V3-RELIGION = http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation
 Alias: $VS-ISO3166-A2  = http://hl7.org/fhir/ValueSet/iso3166-1-2
-Alias: $CS-RELIGION-MY = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/religion-my-core
+Alias: $CS-RELIGION-MY = https://standards.moh.gov.my/fhir/my-core/CodeSystem/religion-my-core
 ```

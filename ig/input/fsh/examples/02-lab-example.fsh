@@ -13,7 +13,7 @@ Description: "An order placed on the LIS, carrying the national orderable code w
 * intent = #order
 // A full blood count is ordered as a panel, so the order carries the national
 // panel code in the panel slice, with LOINC alongside it.
-* code.coding[panel] = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-panel-my-core#H-P1 "Full Blood Count - Automated Count"
+* code.coding[panel] = https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-panel-my-core#H-P1 "Full Blood Count - Automated Count"
 * code.coding[loinc] = http://loinc.org#58410-2 "CBC panel - Blood by Automated count"
 * code.text = "Full Blood Count"
 * subject = Reference(ExamplePatient)
@@ -29,7 +29,7 @@ Description: "The specimen the count was performed on."
 * identifier.system = "https://id.kkmhub.moh.gov.my/order/11-10040013"
 * identifier.value = "SPEC-2026-991200"
 * status = #available
-* type = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/specimen-type-my-core#Bld "Blood"
+* type = https://standards.moh.gov.my/fhir/my-core/CodeSystem/specimen-type-my-core#Bld "Blood"
 * subject = Reference(ExamplePatient)
 * receivedTime = "2026-08-24T10:42:00+08:00"
 
@@ -52,7 +52,7 @@ Usage: #example
 Title: "Example - Full blood count (panel)"
 Description: "The grouping Observation for the panel. It carries no value of its own; the measured analytes hang off hasMember."
 * status = #final
-* code.coding[panel] = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-panel-my-core#H-P1 "Full Blood Count - Automated Count"
+* code.coding[panel] = https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-panel-my-core#H-P1 "Full Blood Count - Automated Count"
 * code.coding[loinc] = http://loinc.org#58410-2 "CBC panel - Blood by Automated count"
 * code.text = "Full Blood Count"
 * subject = Reference(ExamplePatient)
@@ -70,7 +70,7 @@ Usage: #example
 Title: "Example - Haemoglobin"
 Description: "A single analyte, low. This instance carries the national orderable code WITHOUT a LOINC code, because ConceptMap/pathology-orderable-to-loinc publishes no LOINC mapping for H-T187. Twenty-five of the other twenty-six members of this panel do have one, so the absence looks like a gap in the source mapping rather than a deliberate exclusion, and it is on the review agenda."
 * status = #final
-* code.coding[national] = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T187 "Hemoglobin"
+* code.coding[national] = https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T187 "Hemoglobin"
 * code.text = "Haemoglobin"
 * subject = Reference(ExamplePatient)
 * effectiveDateTime = "2026-08-24T10:42:00+08:00"
@@ -91,7 +91,7 @@ Usage: #example
 Title: "Example - Haematocrit"
 Description: "National code and LOINC side by side."
 * status = #final
-* code.coding[national] = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T188 "Hematocrit"
+* code.coding[national] = https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T188 "Hematocrit"
 * code.coding[loinc] = http://loinc.org#4544-3 "Hematocrit [Volume Fraction] of Blood by Automated count"
 * code.text = "Haematocrit"
 * subject = Reference(ExamplePatient)
@@ -113,7 +113,7 @@ Usage: #example
 Title: "Example - White blood cells"
 Description: "Raised, consistent with the pneumonia recorded in the discharge summary."
 * status = #final
-* code.coding[national] = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T185 "White Blood Cells"
+* code.coding[national] = https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T185 "White Blood Cells"
 * code.coding[loinc] = http://loinc.org#6690-2 "Leukocytes [#/volume] in Blood by Automated count"
 * code.text = "White blood cells"
 * subject = Reference(ExamplePatient)
@@ -135,7 +135,7 @@ Usage: #example
 Title: "Example - Platelets"
 Description: "Within range. Shown so the example includes a normal result as well as abnormal ones."
 * status = #final
-* code.coding[national] = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T192 "Platelet"
+* code.coding[national] = https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#H-T192 "Platelet"
 * code.coding[loinc] = http://loinc.org#777-3 "Platelets [#/volume] in Blood by Automated count"
 * code.text = "Platelets"
 * subject = Reference(ExamplePatient)
@@ -162,7 +162,7 @@ Description: "The reported result. Category uses HL7 v2 table 0074, not a local 
 * basedOn = Reference(ExampleLabOrder)
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/v2-0074#HM "Hematology"
-* code.coding[panel] = https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-panel-my-core#H-P1 "Full Blood Count - Automated Count"
+* code.coding[panel] = https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-panel-my-core#H-P1 "Full Blood Count - Automated Count"
 * code.coding[loinc] = http://loinc.org#58410-2 "CBC panel - Blood by Automated count"
 * code.text = "Full Blood Count"
 * subject = Reference(ExamplePatient)

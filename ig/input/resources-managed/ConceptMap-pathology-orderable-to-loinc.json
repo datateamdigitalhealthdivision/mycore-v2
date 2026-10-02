@@ -1,7 +1,7 @@
 {
   "resourceType": "ConceptMap",
   "id": "pathology-orderable-to-loinc",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ConceptMap/pathology-orderable-to-loinc",
+  "url": "https://standards.moh.gov.my/fhir/my-core/ConceptMap/pathology-orderable-to-loinc",
   "version": "1.0.0",
   "name": "PathologyOrderableToLoinc",
   "title": "Malaysian Pathology Catalogue - Orderable to LOINC",
@@ -9,10 +9,10 @@
   "experimental": false,
   "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
   "description": "Maps the Malaysian Pathology Catalogue to LOINC. 1,536 of the 2,934 orderable tests are covered; mapping of the remainder is in progress. Vendors send the national code and, where a mapping exists, the LOINC code alongside it.",
-  "sourceUri": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-orderable-my-core",
+  "sourceUri": "https://standards.moh.gov.my/fhir/my-core/ValueSet/pathology-orderable-my-core",
   "group": [
     {
-      "source": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
+      "source": "https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core",
       "target": "http://loinc.org",
       "element": [
         {
@@ -15379,5 +15379,5 @@
       "targetVersion": "2.82"
     }
   ],
-  "targetCanonical": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/pathology-loinc-my-core"
+  "targetCanonical": "https://standards.moh.gov.my/fhir/my-core/ValueSet/pathology-loinc-my-core"
 }

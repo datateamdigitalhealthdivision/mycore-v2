@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "rpid",
   "url": "http://www.radlex.org/RID",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "name": "RadiologyPlaybookRPID",
   "title": "RSNA Radiology Playbook (RPID)",
   "status": "active",

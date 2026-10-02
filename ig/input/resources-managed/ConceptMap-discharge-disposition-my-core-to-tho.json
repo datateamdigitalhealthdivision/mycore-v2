@@ -1,19 +1,19 @@
 {
   "resourceType": "ConceptMap",
   "id": "discharge-disposition-my-core-to-tho",
-  "url": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ConceptMap/discharge-disposition-my-core-to-tho",
-  "version": "2.1.0",
+  "url": "https://standards.moh.gov.my/fhir/my-core/ConceptMap/discharge-disposition-my-core-to-tho",
+  "version": "2.1.1",
   "name": "MyCoreDischargeDispositionToTho",
   "title": "MY Core Discharge Disposition to HL7 Terminology",
   "status": "active",
   "experimental": false,
   "publisher": "Data Team, Digital Health Division, Ministry of Health Malaysia",
   "description": "Maps the v2.0 national discharge disposition list to the v2.1 binding target (HL7 Terminology discharge-disposition plus the MY Core national supplement), for translating legacy extracts. v2.1 binds the element to that combined list, so discharge-disposition-my-core is no longer a binding target. Four concepts map to HL7 Terminology; two map to national supplement codes that HL7 has no equivalent for; two are not discharge dispositions at all and are unmapped.",
-  "sourceCanonical": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/discharge-disposition-my-core",
-  "targetCanonical": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/ValueSet/discharge-disposition-v21-my-core",
+  "sourceCanonical": "https://standards.moh.gov.my/fhir/my-core/ValueSet/discharge-disposition-my-core",
+  "targetCanonical": "https://standards.moh.gov.my/fhir/my-core/ValueSet/discharge-disposition-v21-my-core",
   "group": [
     {
-      "source": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/discharge-disposition-my-core",
+      "source": "https://standards.moh.gov.my/fhir/my-core/CodeSystem/discharge-disposition-my-core",
       "target": "http://terminology.hl7.org/CodeSystem/discharge-disposition",
       "element": [
         {
@@ -63,8 +63,8 @@
       ]
     },
     {
-      "source": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/discharge-disposition-my-core",
-      "target": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/discharge-disposition-ext-my-core",
+      "source": "https://standards.moh.gov.my/fhir/my-core/CodeSystem/discharge-disposition-my-core",
+      "target": "https://standards.moh.gov.my/fhir/my-core/CodeSystem/discharge-disposition-ext-my-core",
       "element": [
         {
           "code": "03",
@@ -93,7 +93,7 @@
       ]
     },
     {
-      "source": "https://myehr.kkmhub.moh.gov.my/fhir/my-core/CodeSystem/discharge-disposition-my-core",
+      "source": "https://standards.moh.gov.my/fhir/my-core/CodeSystem/discharge-disposition-my-core",
       "element": [
         {
           "code": "07",

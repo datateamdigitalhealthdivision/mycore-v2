@@ -1,6 +1,6 @@
 {
   "package-id": "my.moh.kkmhub.myehr.core",
-  "canonical": "https://myehr.kkmhub.moh.gov.my/fhir/my-core",
+  "canonical": "https://standards.moh.gov.my/fhir/my-core",
   "title": "Malaysian National MY Core v2 Implementation Guide",
   "introduction": "Draft national baseline FHIR R4 implementation guide for Malaysia under the MyEHR publication model.",
   "list": [
@@ -12,12 +12,20 @@
       "current": true
     },
     {
-      "version": "2.1.0",
-      "date": "2026-09-04",
-      "desc": "Three use case release: ADT notes, laboratory reports, radiology reports, with the national terminology they bind to.",
-      "path": "https://datateamdigitalhealthdivision.github.io/mycore-v2/2.1.0",
+      "version": "2.1.1",
+      "date": "2026-10-01",
+      "desc": "Canonical re-cut of the three use case release. Identical scope to 2.1.0 -- ADT notes, laboratory reports, radiology reports and the Malaysian Pathology Catalogue -- with every artefact identifier moved to the standards.moh.gov.my namespace, and terminology and profiles now published from TermX.",
+      "path": "https://datateamdigitalhealthdivision.github.io/mycore-v2/2.1.1",
       "status": "draft",
       "sequence": "Draft"
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-09-04",
+      "desc": "WITHDRAWN. Superseded by 2.1.1. The canonical base in 2.1.0 was https://myehr.kkmhub.moh.gov.my/fhir/my-core; every artefact identifier moved to https://standards.moh.gov.my/fhir/my-core in 2.1.1. Do not implement against 2.1.0.",
+      "path": "https://datateamdigitalhealthdivision.github.io/mycore-v2/2.1.0",
+      "status": "withdrawn",
+      "sequence": "Withdrawn"
     },
     {
       "version": "2.0.0",
