@@ -53,6 +53,25 @@ jobs:
       - name: Build implementation guide
         run: ./scripts/build.sh
 
+      # package-list.json is the file implementers (and the HL7 tooling) read
+      # to discover which versions of this IG exist and what state each is in.
+      # It is NOT produced by the IG Publisher and nothing else copied it, so
+      # it has been 404 on the published site -- which means the withdrawal of
+      # 2.1.0 was recorded in the repository where no consumer could see it.
+      # Verified 404 on 2026-10-06 while 2.1.1 itself was serving correctly.
+      - name: Publish package-list.json
+        run: |
+          test -f package-list.json
+          python3 -c "import json,sys; json.load(open('package-list.json'))"
+          cp package-list.json output/package-list.json
+          echo "published package-list.json:"
+          python3 -c "
+          import json
+          d = json.load(open('output/package-list.json'))
+          for v in d['list']:
+              print('  %-9s %-10s current=%s' % (v.get('version'), v.get('status'), v.get('current')))
+          "
+
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
