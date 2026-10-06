@@ -2,22 +2,22 @@
   "package-id": "my.moh.kkmhub.myehr.core",
   "canonical": "https://standards.moh.gov.my/fhir/my-core",
   "title": "Malaysian National MY Core v2 Implementation Guide",
-  "introduction": "Draft national baseline FHIR R4 implementation guide for Malaysia under the MyEHR publication model.",
+  "introduction": "National baseline FHIR R4 implementation guide for Malaysia. The current release, MY Core v2.1.1, is published for trial use; artefact identifiers are under the standards.moh.gov.my publication model.",
   "list": [
     {
       "version": "current",
       "desc": "Continuous Integration Build",
       "path": "https://datateamdigitalhealthdivision.github.io/mycore-v2",
-      "status": "ci-build",
-      "current": true
+      "status": "ci-build"
     },
     {
       "version": "2.1.1",
       "date": "2026-10-01",
       "desc": "Canonical re-cut of the three use case release. Identical scope to 2.1.0 -- ADT notes, laboratory reports, radiology reports and the Malaysian Pathology Catalogue -- with every artefact identifier moved to the standards.moh.gov.my namespace, and terminology and profiles now published from TermX.",
       "path": "https://datateamdigitalhealthdivision.github.io/mycore-v2/2.1.1",
-      "status": "draft",
-      "sequence": "Draft"
+      "status": "trial-use",
+      "current": true,
+      "sequence": "Trial Use"
     },
     {
       "version": "2.1.0",
