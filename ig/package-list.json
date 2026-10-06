@@ -2,7 +2,7 @@
   "package-id": "my.moh.kkmhub.myehr.core",
   "canonical": "https://standards.moh.gov.my/fhir/my-core",
   "title": "Malaysian National MY Core v2 Implementation Guide",
-  "introduction": "Draft national baseline FHIR R4 implementation guide for Malaysia under the MyEHR publication model.",
+  "introduction": "National baseline FHIR R4 implementation guide for Malaysia. The current release, MY Core v2.1.1, is published for trial use; artefact identifiers are under the standards.moh.gov.my publication model.",
   "list": [
     {
       "version": "current",
@@ -17,7 +17,7 @@
       "path": "https://datateamdigitalhealthdivision.github.io/mycore-v2/2.1.1",
       "status": "trial-use",
       "current": true,
-      "sequence": "Draft"
+      "sequence": "Trial Use"
     },
     {
       "version": "2.1.0",
