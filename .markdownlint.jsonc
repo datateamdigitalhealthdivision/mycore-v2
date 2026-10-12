@@ -1,0 +1,58 @@
+// markdownlint configuration for the MY Core IG narrative documents.
+//
+// WHY THIS FILE REPLACED .markdownlint.json
+//
+// The old config was `{"default": true, "MD013": false}`. `default: true` means
+// "opt in to every rule markdownlint ever adds", so when markdownlint v0.40
+// introduced MD060 (table-column-style), 228 pre-existing table cells became
+// errors across 12 documents that nobody had touched. Lint Docs went red on
+// every branch from 2026-09-17 and stayed red -- which trains people to ignore
+// CI, the one thing a lint job must never do.
+//
+// Two things are therefore fixed together: the rules below are set explicitly
+// with a stated reason, and the workflow pins the linter version so a future
+// release cannot retroactively fail a green repository again.
+//
+// The posture: these documents have a deliberate house style, and the IG
+// Publisher consumes them as page fragments rather than standalone documents.
+// Where a rule contradicts that deliberately, the rule is turned off and the
+// reason recorded. Where a rule found a genuine defect, the document was fixed.
+{
+  "default": true,
+
+  // Line length. Pre-existing exclusion; prose is wrapped for readability by
+  // the author, not to a fixed column.
+  "MD013": false,
+
+  // Table pipe padding, e.g. `|---|---|` against `| --- | --- |`.
+  // Purely cosmetic: both forms render identically. Enforcing it would mean a
+  // 228-cell whitespace change across 12 narrative documents for no reader
+  // benefit. This is the rule that broke CI on 2026-09-17; it is not
+  // auto-fixable, so it would have to be done by hand.
+  "MD060": false,
+
+  // Ordered-list numbering. The documents deliberately CONTINUE a sequence
+  // across sections: docs/13-reviewer-guide.md lists items 1-3 under
+  // "Everyone", then each reading track picks up at 4. `markdownlint --fix`
+  // renumbers those to 1,2,3,4 and destroys the intended reading order, so
+  // this rule must stay off -- the numbering is meaning, not formatting.
+  "MD029": false,
+
+  // One top-level heading per document, and first line must be a top-level
+  // heading. Neither holds here: these files are IG page FRAGMENTS and the
+  // Publisher supplies the page title. docs/14-terminology-index.md uses
+  // `# Part 1 / Part 2 / Part 3` as deliberate internal structure, and
+  // docs/12-use-cases-v21.md legitimately opens at `###`.
+  "MD025": false,
+  "MD041": false,
+
+  // Heading increment. Follows from the `# Part N` structure above: a Part
+  // heading is followed by `###` subsections by design. Changing these would
+  // alter the published page's heading hierarchy and table of contents.
+  "MD001": false
+
+  // Deliberately still ENFORCED, and currently passing:
+  //   MD012 no-multiple-blanks   -- fixed in facility-terminology-provenance.md
+  //   MD040 fenced-code-language -- fixed in alias-additions.md (labelled `fsh`)
+  //   and every other default rule.
+}

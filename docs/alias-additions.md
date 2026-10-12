@@ -3,7 +3,7 @@
 Merge these into the existing alias file. Do **not** add as a separate `.fsh` —
 several names already exist there and duplicate aliases are a SUSHI error.
 
-```
+```fsh
 // Additions to ig/input/fsh/01-aliases-v21.fsh
 
 // --- Identifier namespaces: consolidated scheme ------------------------------
