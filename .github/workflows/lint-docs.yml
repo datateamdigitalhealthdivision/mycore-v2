@@ -7,6 +7,18 @@ on:
       - "docs/**"
       - "annexes/**"
       - "tests/**"
+  # ALSO run on main, with no paths filter, so there is always a current
+  # authoritative result for this workflow on the default branch.
+  #
+  # Without this, Lint Docs was pull_request-only, so its newest run was a
+  # 13-day-old FAILURE on a branch (termx-sync) that had since been reset to
+  # main and would never run it again. Monitoring keys on the latest run per
+  # workflow+branch, so that stale failure was permanent and unfixable --
+  # merging the lint fix would not have cleared it. A lint pass costs seconds;
+  # a green signal that is actually current is worth more than a missing one.
+  push:
+    branches:
+      - main
 
 jobs:
   markdown:
