@@ -4,7 +4,6 @@ How `facility-my-core` was built, and the judgements made along the way. This pa
 
 Source: `MOH_Facility_Code_Terminology_v5.xlsx`, generated 14 September 2026.
 
-
 ## What is published
 
 | Artefact | Class | Contents |
@@ -18,7 +17,6 @@ Source: `MOH_Facility_Code_Terminology_v5.xlsx`, generated 14 September 2026.
 ## Codes are opaque
 
 **State, district and facility type are explicit concept properties. They are never derived from the digits of the facility code.** Hospitals and clinics use different district numbering inside the same code format, so deriving geography from the code produces silently wrong answers. Read the properties.
-
 
 ## Two statuses, deliberately independent
 
@@ -37,7 +35,6 @@ Source: `MOH_Facility_Code_Terminology_v5.xlsx`, generated 14 September 2026.
 | experimental | 24 | A `PROV-` provisional code awaiting a permanent one |
 
 All 24 experimental codes are `PROV-` codes. Four further `PROV-` codes are retired, giving 28 provisional codes in total. **A facility with a provisional code still admits patients and still issues MRNs**, so `PROV-` codes are valid namespace segments and are included in the validation value set.
-
 
 ## Facility types
 
@@ -83,7 +80,6 @@ Facility records carried district labels that did not match `district-my-core`. 
 
 A proposed code is not an assigned code. Publishing one as though it were would put a fabricated identifier into national terminology.
 
-
 ## Corrections applied to `district-my-core` in this release
 
 | Code | Was | Now | Why |
@@ -96,7 +92,6 @@ A proposed code is not an assigned code. Publishing one as though it were would 
 | `KOD_NEGERI+DAERAH` | *(deleted)* | — | A spreadsheet header row imported as a concept in v2.0 |
 
 The header-row concept had been published since v2.0 with display `NAMA_DAERAH` and a state label of `NAMA_NEGERI`. `district-my-core` now holds 156 concepts: 155 districts plus `0000 No Information`.
-
 
 ## State normalisation
 

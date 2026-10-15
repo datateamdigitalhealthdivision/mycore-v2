@@ -7,6 +7,18 @@ on:
       - "docs/**"
       - "annexes/**"
       - "tests/**"
+  # ALSO run on main, with no paths filter, so there is always a current
+  # authoritative result for this workflow on the default branch.
+  #
+  # Without this, Lint Docs was pull_request-only, so its newest run was a
+  # 13-day-old FAILURE on a branch (termx-sync) that had since been reset to
+  # main and would never run it again. Monitoring keys on the latest run per
+  # workflow+branch, so that stale failure was permanent and unfixable --
+  # merging the lint fix would not have cleared it. A lint pass costs seconds;
+  # a green signal that is actually current is worth more than a missing one.
+  push:
+    branches:
+      - main
 
 jobs:
   markdown:
@@ -15,11 +27,20 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      # PINNED on purpose. The previous step used the floating action tag, so
+      # markdownlint v0.40 adding rule MD060 turned 228 pre-existing table
+      # cells into errors and Lint Docs went red on every branch from
+      # 2026-09-17 without a single document changing. A lint job that is
+      # permanently red teaches people to ignore CI.
+      #
+      # Pinning means a linter upgrade is a deliberate, reviewable change:
+      # bump the version here, run it, and deal with whatever new rules say.
+      # Rule configuration and the reasoning behind each exclusion live in
+      # .markdownlint.jsonc.
       - name: Lint markdown
-        uses: DavidAnson/markdownlint-cli2-action@v18
-        with:
-          globs: |
-            README.md
-            docs/**/*.md
-            annexes/**/*.md
-            tests/**/*.md
+        run: |
+          npx --yes markdownlint-cli2@0.22.1 \
+            "README.md" \
+            "docs/**/*.md" \
+            "annexes/**/*.md" \
+            "tests/**/*.md"
