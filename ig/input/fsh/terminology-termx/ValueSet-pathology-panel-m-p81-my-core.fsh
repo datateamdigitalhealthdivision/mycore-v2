@@ -1,0 +1,111 @@
+ValueSet: PathologyPanelMP81MyCore
+Id: pathology-panel-m-p81-my-core
+Title: "Malaysian Pathology Catalogue - Panel: Specific IgE"
+Description: "Member orderable tests of Malaysian pathology panel M-P81 (Specific IgE). Membership is derived from the catalogue's orderable test code list."
+* ^url = "https://standards.moh.gov.my/fhir/my-core/ValueSet/pathology-panel-m-p81-my-core"
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = false
+* ^date = "2026-10-01T03:16:56.064842Z"
+* ^publisher = "Data Team, Digital Health Division, Ministry of Health Malaysia"
+* ^copyright = "Ministry of Health Malaysia."
+* ^compose.inactive = false
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1167
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1168
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1169
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1170
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1171
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1172
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1173
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1174
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1175
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1176
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1177
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1178
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1179
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1180
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1181
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1182
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1183
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1184
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1185
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1186
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1187
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1188
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1189
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1190
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1191
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1192
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1193
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1194
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1195
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1196
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1197
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1198
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1199
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1200
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1201
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1269
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1270
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1203
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1204
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1271
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1205
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1272
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1207
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1273
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1208
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1209
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1274
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1214
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1211
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1216
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1217
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1218
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1219
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1220
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1221
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1275
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1276
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1277
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1278
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1279
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1280
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1281
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1282
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1226
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1231
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1232
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1233
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1283
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1284
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1285
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1236
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1286
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1287
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1288
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1289
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1290
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1291
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1292
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1293
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1294
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1245
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1246
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1295
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1296
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1297
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1249
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1298
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1299
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1300
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1250
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1251
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1252
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1301
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1254
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1255
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1256
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1257
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1261
+* https://standards.moh.gov.my/fhir/my-core/CodeSystem/pathology-orderable-my-core#M-T1262
