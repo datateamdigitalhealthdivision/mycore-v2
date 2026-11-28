@@ -180,4 +180,4 @@ if [[ -d "$WORKSPACE_PACKAGE_CACHE" ]]; then
 fi
 
 java "-Duser.home=$PUBLISHER_HOME" "${JAVA_TLS_OPTS[@]}" -Xmx4g -jar "$PUBLISHER_JAR" \
-  -no-sushi -ig ig.ini -tx "$TX_URL"
+    -no-sushi -ig ig.ini -tx "$TX_URL" -trust-template '#local-template'
